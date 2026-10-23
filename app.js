@@ -162,7 +162,7 @@
     var importBackupBtn = $('importBackupBtn');
     var backupNote = $('backupNote');
     var backupFile = $('backupFile');
-    var APP_VERSION = '1.13.4';
+    var APP_VERSION = '1.13.5';
     var lessonView = $('lessonView');
     var lessonBackBtn = $('lessonBackBtn');
     var lessonTitle = $('lessonTitle');
@@ -419,9 +419,19 @@
         else if (settled && view.note) parts.push(view.note);
         return parts.join(' · ');
     }
+    function kanaDirection(item) {
+        return (item && item.reviewDirection) || exam.direction || state.direction;
+    }
+    function soundRevealsKana(item) {
+        return !!(item && item.kanaObj && !item.lex && !item.reading
+            && kanaDirection(item) !== Core.DIRECTIONS.ROMAJI_KANA);
+    }
     function spokenText(item, settled) {
         if (!item) return '';
-        if (item.kanaObj) return item.kanaObj.char;
+        if (item.kanaObj && !item.lex && !item.reading) {
+            if (!settled && soundRevealsKana(item)) return '';
+            return item.kanaObj.char;
+        }
         if (item.reading) return item.reading.kana || item.reading.jp;
         if (!item.lex) return '';
         var view = lexView(item);
@@ -429,6 +439,10 @@
         return view.speak || '';
     }
     function speakItem(item, settled) {
+        if (soundRevealsKana(item) && !settled) {
+            noteAudio('El sonido se oye al corregir, para no revelar la lectura.');
+            return;
+        }
         var text = item && item.reading ? (item.reading.kana || item.reading.jp) : spokenText(item, true);
         if (item && item.lex && !item.reading) {
             var view = lexView(item);
@@ -442,6 +456,14 @@
         if (!speakJapanese(text) && exam.direction === 'listen-es' && systemSpeech()) {
             noteAudio('Pulsa Oír. Hace falta la síntesis de voz del sistema.');
         }
+    }
+    function maybeSpeakKana(item, settled) {
+        if (!item || !item.kanaObj || item.lex || item.reading || !state.audioOn) return;
+        if (soundRevealsKana(item)) {
+            if (settled) speakKana(item.kanaObj.char);
+            return;
+        }
+        if (!settled) speakKana(item.kanaObj.char);
     }
     function maybeSpeakItem(item, settled) {
         if (!item) return;
@@ -1295,14 +1317,11 @@
         if (audioTestBtn) audioTestBtn.disabled = false;
         var voice = japaneseVoice();
         var when = state.audioOn
-            ? 'La voz del sistema suena al mostrar, además de lo que ves. También puedes pulsar Oír.'
-            : 'La voz del sistema solo suena si pulsas Oír.';
+            ? 'La voz suena al mostrar, salvo si delata la respuesta: entonces suena al corregir.'
+            : 'La voz solo suena si pulsas Oír. Si delata la respuesta, espera a la corrección.';
         audioNote.textContent = voice
             ? when + ' Voz local: ' + voice.name + '.'
             : when + ' Si no hay voz japonesa instalada, puede no oírse.';
-    }
-    function maybeSpeak(ch) {
-        if (state.audioOn) speakKana(ch);
     }
 
     // ---------- Examen ----------
@@ -1356,7 +1375,7 @@
                     ? 'Escribe la respuesta y pulsa Enter. Tras corregir, pulsa Siguiente. Un salto no es un fallo.'
                     : usesChoices()
                         ? 'Elige una opción. Las teclas 1 a 4 también valen. Escuchar reproduce el sonido.'
-                        : 'Respuesta en romaji. Tras responder, pulsa Siguiente o Enter. Escuchar reproduce el sonido.';
+                        : 'Respuesta en romaji. El sonido se oye al corregir, para no revelar la lectura.';
         }
         quizEls.skipBtn.addEventListener('click', skipQuestion);
         quizEls.nextBtn.addEventListener('click', advanceNow);
@@ -2085,7 +2104,7 @@
         }
         saveExam();
         if (item.reading || item.lex) maybeSpeakItem(item, false);
-        else if (item.kanaObj) maybeSpeak(item.kanaObj.char);
+        else if (item.kanaObj) maybeSpeakKana(item, false);
     }
 
     function showSettledQuestion() {
@@ -2100,6 +2119,7 @@
         updateStatsUI();
         announceQuestion(item, note);
         if (item.lex) maybeSpeakItem(item, true);
+        else maybeSpeakKana(item, true);
         saveExam();
         maybeScheduleAutoAdvance();
         if (quizEls.nextBtn) quizEls.nextBtn.focus();
@@ -2126,6 +2146,8 @@
         setFeedback(feedbackFor(item), resultKind(item));
         updateStatsUI();
         noteOutcome(item);
+        if (item.lex) maybeSpeakItem(item, true);
+        else maybeSpeakKana(item, true);
         saveExam();
         maybeScheduleAutoAdvance();
     }
@@ -2147,6 +2169,7 @@
         updateStatsUI();
         saveExam();
         if (item.lex) maybeSpeakItem(item, true);
+        else maybeSpeakKana(item, true);
         maybeScheduleAutoAdvance();
         if (!usesChoices() && quizEls.input) quizEls.input.focus();
     }
