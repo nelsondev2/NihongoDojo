@@ -32,7 +32,7 @@
 <div class="app-container">
     <header class="header">
         <h1><span aria-hidden="true">🎴</span> NihongoDojo</h1>
-        <p>Camino N5, N4, N3, N2 y N1 · Silabarios · Palabras · Kanji · Gramática</p>
+        <p>N5 a N1, sin conexión</p>
     </header>
 
     <noscript>
@@ -51,19 +51,27 @@
             </div>
         </div>
 
-        <div class="selector-group" id="pathPanel">
-            <div class="selector-label" id="pathLabel"><span aria-hidden="true">🥾</span> Camino</div>
-            <div class="kana-type" role="group" aria-labelledby="pathLabel">
+        <div id="homeBar" class="home-bar">
+            <div class="selector-label" id="levelLabel">Nivel</div>
+            <div class="level-row" role="group" aria-labelledby="levelLabel">
                 <button type="button" id="levelN5Btn" class="type-btn" data-level="n5" aria-pressed="true">N5</button>
                 <button type="button" id="levelN4Btn" class="type-btn" data-level="n4" aria-pressed="false">N4</button>
                 <button type="button" id="levelN3Btn" class="type-btn" data-level="n3" aria-pressed="false">N3</button>
                 <button type="button" id="levelN2Btn" class="type-btn" data-level="n2" aria-pressed="false">N2</button>
                 <button type="button" id="levelN1Btn" class="type-btn" data-level="n1" aria-pressed="false">N1</button>
             </div>
-            <p id="pathIntro" class="mode-note">Camino del N5 comunitario: kana, vocabulario, kanji, gramática y conjugación. El JLPT no publica lista oficial desde 2010. Esto no es el examen.</p>
             <p id="pathProgress" class="mode-note" aria-live="polite"></p>
+            <p id="pathIntro" class="mode-note">Lista comunitaria. No es el examen oficial.</p>
+            <div class="home-switch" role="group" aria-label="Qué quieres hacer">
+                <button type="button" id="homePathBtn" class="type-btn" aria-pressed="true">Camino</button>
+                <button type="button" id="homeFreeBtn" class="type-btn" aria-pressed="false">Examen libre</button>
+            </div>
+        </div>
+
+        <div id="pathPanel">
             <button type="button" id="pathContinueBtn" class="btn btn-primary btn-block">Seguir el camino</button>
-            <div id="pathList" class="path-list" aria-labelledby="pathLabel"></div>
+            <button type="button" id="pathListToggle" class="btn btn-secondary btn-block" aria-expanded="false" aria-controls="pathList">Ver lecciones</button>
+            <div id="pathList" class="path-list hidden" aria-labelledby="levelLabel"></div>
         </div>
 
         <div id="lessonView" class="lesson-view hidden">
@@ -76,9 +84,10 @@
             <p id="lessonWarning" class="config-warning hidden" role="alert"></p>
         </div>
 
+        <div id="freeExam">
         <div class="selector-group" id="practiceGroup">
-            <div class="selector-label" id="practiceLabel"><span aria-hidden="true">🥋</span> Qué practicas</div>
-            <div class="kana-type" role="group" aria-labelledby="practiceLabel">
+            <div class="selector-label" id="practiceLabel">Qué practicas</div>
+            <div class="practice-grid" role="group" aria-labelledby="practiceLabel">
                 <button type="button" id="practiceKanaBtn" class="type-btn" data-practice="kana" aria-pressed="true">Silabarios</button>
                 <button type="button" id="practiceWordsBtn" class="type-btn" data-practice="words" aria-pressed="false">Palabras</button>
                 <button type="button" id="practiceKanjiBtn" class="type-btn" data-practice="kanji" aria-pressed="false">Kanji</button>
@@ -91,28 +100,28 @@
         </div>
 
         <div class="selector-group hidden" id="answerModeGroup">
-            <div class="selector-label" id="answerModeLabel"><span aria-hidden="true">✍️</span> Cómo respondes</div>
+            <div class="selector-label" id="answerModeLabel">Respuesta</div>
             <div class="kana-type" role="group" aria-labelledby="answerModeLabel">
                 <button type="button" id="answerChoiceBtn" class="type-btn" data-answer-mode="choice" aria-pressed="true">Elegir</button>
                 <button type="button" id="answerWriteBtn" class="type-btn" data-answer-mode="write" aria-pressed="false">Escribir</button>
             </div>
-            <p id="answerModeNote" class="mode-note">Elegir muestra opciones. Escribir pide la respuesta, en español o en japonés. Un salto no cuenta como fallo.</p>
+            <p id="answerModeNote" class="mode-note">Elegir u escribir. Un salto no cuenta como fallo.</p>
         </div>
 
         <div id="readingPanel" class="hidden">
-            <p class="mode-note">Textos cortos del nivel elegido. Lees el japonés y eliges. Oír usa la voz del sistema, además de la lectura. No es el examen ni una lista oficial.</p>
+            <p class="mode-note">Dos textos cortos. Lees y eliges. Oír no sustituye la lectura.</p>
         </div>
 
         <div class="selector-group" id="silabarioGroup">
-            <div class="selector-label" id="silabarioLabel"><span aria-hidden="true">🔤</span> Silabario</div>
+            <div class="selector-label" id="silabarioLabel">Silabario</div>
             <div class="kana-type" role="group" aria-labelledby="silabarioLabel">
-                <button type="button" class="type-btn" data-type="hiragana" aria-pressed="true"><span aria-hidden="true">🇯🇵</span> HIRAGANA</button>
-                <button type="button" class="type-btn" data-type="katakana" aria-pressed="false"><span aria-hidden="true">🔺</span> KATAKANA</button>
+                <button type="button" class="type-btn" data-type="hiragana" aria-pressed="true">Hiragana</button>
+                <button type="button" class="type-btn" data-type="katakana" aria-pressed="false">Katakana</button>
             </div>
         </div>
 
         <div class="selector-group" id="modeGroup">
-            <div class="selector-label" id="modoLabel"><span aria-hidden="true">🕹️</span> Modo de romanización</div>
+            <div class="selector-label" id="modoLabel">Romanización</div>
             <div class="kana-type" role="group" aria-labelledby="modoLabel">
                 <button type="button" id="strictModeBtn" class="type-btn" aria-pressed="false">Modo estricto</button>
                 <button type="button" id="flexibleModeBtn" class="type-btn" aria-pressed="true">Modo flexible</button>
@@ -121,8 +130,8 @@
         </div>
 
         <div class="selector-group" id="directionGroup">
-            <div class="selector-label" id="direccionLabel"><span aria-hidden="true">🔁</span> Dirección</div>
-            <div class="kana-type" role="group" aria-labelledby="direccionLabel">
+            <div class="selector-label" id="direccionLabel">Dirección</div>
+            <div class="choice-list" role="group" aria-labelledby="direccionLabel">
                 <button type="button" id="directBtn" class="type-btn" data-direction="kana-romaji" aria-pressed="true">Kana → romaji</button>
                 <button type="button" id="reverseBtn" class="type-btn" data-direction="romaji-kana" aria-pressed="false">Romaji → kana</button>
             </div>
@@ -131,8 +140,8 @@
 
         <div id="wordPanel" class="hidden">
             <div class="selector-group">
-                <div class="selector-label" id="wordDirLabel"><span aria-hidden="true">🔁</span> Dirección</div>
-                <div class="kana-type" role="group" aria-labelledby="wordDirLabel">
+                <div class="selector-label" id="wordDirLabel">Dirección</div>
+                <div class="choice-list" role="group" aria-labelledby="wordDirLabel">
                     <button type="button" id="wordToEsBtn" class="type-btn" data-word-direction="word-es" aria-pressed="true">Palabra → español</button>
                     <button type="button" id="esToWordBtn" class="type-btn" data-word-direction="es-word" aria-pressed="false">Español → palabra</button>
                     <button type="button" id="listenWordBtn" class="type-btn" data-word-direction="listen-es" aria-pressed="false">Escuchar → español</button>
@@ -140,7 +149,7 @@
                 <p id="wordDirNote" class="mode-note">Ves la palabra. Si lleva kanji, la lectura va debajo.</p>
             </div>
             <div class="selector-group">
-                <div class="selector-label" id="wordGroupLabel"><span aria-hidden="true">📚</span> Temas</div>
+                <div class="selector-label" id="wordGroupLabel">Temas</div>
                 <div id="wordChipContainer" class="fila-grid" role="group" aria-labelledby="wordGroupLabel"></div>
             </div>
             <div class="action-buttons">
@@ -151,8 +160,8 @@
 
         <div id="kanjiPanel" class="hidden">
             <div class="selector-group">
-                <div class="selector-label" id="kanjiDirLabel"><span aria-hidden="true">🔁</span> Dirección</div>
-                <div class="kana-type" role="group" aria-labelledby="kanjiDirLabel">
+                <div class="selector-label" id="kanjiDirLabel">Dirección</div>
+                <div class="choice-list" role="group" aria-labelledby="kanjiDirLabel">
                     <button type="button" id="kanjiToEsBtn" class="type-btn" data-kanji-direction="kanji-es" aria-pressed="true">Kanji → significado</button>
                     <button type="button" id="esToKanjiBtn" class="type-btn" data-kanji-direction="es-kanji" aria-pressed="false">Significado → kanji</button>
                     <button type="button" id="kanjiReadingBtn" class="type-btn" data-kanji-direction="kanji-reading" aria-pressed="false">Kanji → lectura</button>
@@ -161,9 +170,9 @@
                 <p id="kanjiDirNote" class="mode-note">Ves el kanji y eliges el significado. La lectura se oye, no se revela.</p>
             </div>
             <div class="selector-group">
-                <div class="selector-label" id="kanjiGroupLabel"><span aria-hidden="true">🈲</span> Temas</div>
+                <div class="selector-label" id="kanjiGroupLabel">Temas</div>
                 <div id="kanjiChipContainer" class="fila-grid" role="group" aria-labelledby="kanjiGroupLabel"></div>
-                <p class="small-note">Kanji del nivel elegido, lista comunitaria, no oficial. Otras lecturas salen al corregir.</p>
+                <p class="small-note">Lista comunitaria, no oficial. Otras lecturas salen al corregir.</p>
             </div>
             <div class="action-buttons">
                 <button type="button" id="kanjiAllBtn" class="btn btn-secondary">Todos los temas</button>
@@ -173,8 +182,8 @@
 
         <div id="phrasePanel" class="hidden">
             <div class="selector-group">
-                <div class="selector-label" id="phraseDirLabel"><span aria-hidden="true">🔁</span> Dirección</div>
-                <div class="kana-type" role="group" aria-labelledby="phraseDirLabel">
+                <div class="selector-label" id="phraseDirLabel">Dirección</div>
+                <div class="choice-list" role="group" aria-labelledby="phraseDirLabel">
                     <button type="button" id="phraseToEsBtn" class="type-btn" data-phrase-direction="phrase-es" aria-pressed="true">Frase → español</button>
                     <button type="button" id="esToPhraseBtn" class="type-btn" data-phrase-direction="es-phrase" aria-pressed="false">Español → frase</button>
                     <button type="button" id="particleBtn" class="type-btn" data-phrase-direction="particle" aria-pressed="false">Partícula</button>
@@ -183,9 +192,9 @@
                 <p id="phraseDirNote" class="mode-note">Ves la frase. La lectura va debajo. Elige el significado.</p>
             </div>
             <div class="selector-group">
-                <div class="selector-label" id="phraseGroupLabel"><span aria-hidden="true">💬</span> Patrones</div>
+                <div class="selector-label" id="phraseGroupLabel">Patrones</div>
                 <div id="phraseChipContainer" class="fila-grid" role="group" aria-labelledby="phraseGroupLabel"></div>
-                <p class="small-note">Frases de los patrones del nivel elegido. En Partícula eliges el hueco; el significado está debajo.</p>
+                <p class="small-note">En Partícula eliges el hueco. El significado está debajo.</p>
             </div>
             <div class="action-buttons">
                 <button type="button" id="phraseAllBtn" class="btn btn-secondary">Todos los patrones</button>
@@ -195,17 +204,17 @@
 
         <div id="conjPanel" class="hidden">
             <div class="selector-group">
-                <div class="selector-label" id="conjDirLabel"><span aria-hidden="true">🔁</span> Dirección</div>
-                <div class="kana-type" role="group" aria-labelledby="conjDirLabel">
+                <div class="selector-label" id="conjDirLabel">Dirección</div>
+                <div class="choice-list" role="group" aria-labelledby="conjDirLabel">
                     <button type="button" id="conjToEsBtn" class="type-btn" data-conj-direction="conj-es" aria-pressed="true">Forma → español</button>
                     <button type="button" id="esToConjBtn" class="type-btn" data-conj-direction="es-conj" aria-pressed="false">Español → forma</button>
                 </div>
                 <p id="conjDirNote" class="mode-note">Ves la forma. La lectura va debajo. Elige el significado.</p>
             </div>
             <div class="selector-group">
-                <div class="selector-label" id="conjGroupLabel"><span aria-hidden="true">🔄</span> Verbos</div>
+                <div class="selector-label" id="conjGroupLabel">Verbos</div>
                 <div id="conjChipContainer" class="fila-grid" role="group" aria-labelledby="conjGroupLabel"></div>
-                <p class="small-note">En N5: ます, て, ない, た y たい. En N4 se añaden potencial, たら, ば, volitivo, pasiva y causativa. En N3, además, ず. En N2 y N1, además, まい.</p>
+                <p class="small-note">Las formas dependen del nivel. El N5 llega hasta たい.</p>
             </div>
             <div class="action-buttons">
                 <button type="button" id="conjAllBtn" class="btn btn-secondary">Todos los verbos</button>
@@ -215,8 +224,8 @@
 
         <div id="grammarPanel" class="hidden">
             <div class="selector-group">
-                <div class="selector-label" id="grammarDirLabel"><span aria-hidden="true">🔁</span> Dirección</div>
-                <div class="kana-type" role="group" aria-labelledby="grammarDirLabel">
+                <div class="selector-label" id="grammarDirLabel">Dirección</div>
+                <div class="choice-list" role="group" aria-labelledby="grammarDirLabel">
                     <button type="button" id="grammarToEsBtn" class="type-btn" data-grammar-direction="grammar-es" aria-pressed="true">Patrón → español</button>
                     <button type="button" id="esToGrammarBtn" class="type-btn" data-grammar-direction="es-grammar" aria-pressed="false">Español → patrón</button>
                     <button type="button" id="grammarBlankBtn" class="type-btn" data-grammar-direction="grammar-blank" aria-pressed="false">Hueco</button>
@@ -224,9 +233,9 @@
                 <p id="grammarDirNote" class="mode-note">Ves el patrón. La lectura va debajo. Elige el significado.</p>
             </div>
             <div class="selector-group">
-                <div class="selector-label" id="grammarGroupLabel"><span aria-hidden="true">📐</span> Patrones</div>
+                <div class="selector-label" id="grammarGroupLabel">Patrones</div>
                 <div id="grammarChipContainer" class="fila-grid" role="group" aria-labelledby="grammarGroupLabel"></div>
-                <p class="small-note">Lista comunitaria del nivel elegido, no la oficial del JLPT. En Hueco eliges la pieza que falta.</p>
+                <p class="small-note">Lista comunitaria, no oficial. En Hueco eliges la pieza que falta.</p>
             </div>
             <div class="action-buttons">
                 <button type="button" id="grammarAllBtn" class="btn btn-secondary">Todos los patrones</button>
@@ -235,7 +244,7 @@
         </div>
 
         <div class="selector-group" id="audioGroup">
-            <div class="selector-label" id="audioLabel"><span aria-hidden="true">🔊</span> Pronunciación</div>
+            <div class="selector-label" id="audioLabel">Voz del sistema</div>
             <div class="kana-type" role="group" aria-labelledby="audioLabel">
                 <button type="button" id="audioOnBtn" class="type-btn" aria-pressed="true">Al mostrar</button>
                 <button type="button" id="audioOffBtn" class="type-btn" aria-pressed="false">Solo si pulso</button>
@@ -244,36 +253,38 @@
             <button type="button" id="audioTestBtn" class="btn btn-secondary btn-block">Probar voz</button>
         </div>
 
+        <details id="kanaRows" class="fold">
+            <summary>Filas del examen</summary>
         <div class="selector-group" id="basicGroup">
-            <div class="selector-label" id="basicasLabel"><span aria-hidden="true">📌</span> Filas básicas</div>
+            <div class="selector-label" id="basicasLabel">Filas básicas</div>
             <div id="filaContainer" class="fila-grid" role="group" aria-labelledby="basicasLabel"></div>
         </div>
 
         <div class="selector-group" id="rendakuGroup">
-            <div class="selector-label" id="rendakuLabel"><span aria-hidden="true">🔊</span> Sonorizadas y semi-sonorizadas (<span lang="ja">濁音・半濁音</span>)</div>
+            <div class="selector-label" id="rendakuLabel">Sonoras</div>
             <div id="rendakuContainer" class="fila-grid" role="group" aria-labelledby="rendakuLabel"></div>
-            <p class="small-note">✔️ がぎぐげご (G), ざじずぜぞ (Z/J), だぢづでど (D), ばびぶべぼ (B), ぱぴぷぺぽ (P)</p>
         </div>
 
         <!-- v1.2.0 (MEDIO-1): el yōon ya SÍ existe en la base de datos -->
         <div class="selector-group" id="yoonGroup">
-            <div class="selector-label" id="yoonLabel"><span aria-hidden="true">🎼</span> Combinadas (<span lang="ja">拗音</span> yōon)</div>
+            <div class="selector-label" id="yoonLabel">Combinadas</div>
             <div id="yoonContainer" class="fila-grid" role="group" aria-labelledby="yoonLabel"></div>
-            <p class="small-note">✔️ きゃ (kya), しゃ (sha), ちゃ (cha), じゃ (ja), びゃ (bya)… 11 grupos × 3</p>
         </div>
 
         <div class="action-buttons" id="kanaBulkActions">
-            <button type="button" id="selectAllBasicBtn" class="btn btn-secondary"><span aria-hidden="true">✅</span> Todas básicas</button>
-            <button type="button" id="selectAllRendakuBtn" class="btn btn-secondary"><span aria-hidden="true">🔊</span> Todas sonoras</button>
-            <button type="button" id="selectAllYoonBtn" class="btn btn-secondary"><span aria-hidden="true">🎼</span> Todos yōon</button>
-            <button type="button" id="clearAllBtn" class="btn btn-secondary"><span aria-hidden="true">❌</span> Desmarcar todo</button>
+            <button type="button" id="selectAllBasicBtn" class="btn btn-secondary">Todas básicas</button>
+            <button type="button" id="selectAllRendakuBtn" class="btn btn-secondary">Todas sonoras</button>
+            <button type="button" id="selectAllYoonBtn" class="btn btn-secondary">Todas combinadas</button>
+            <button type="button" id="clearAllBtn" class="btn btn-secondary">Ninguna</button>
         </div>
-        <p id="examCount" class="mode-note" aria-live="polite"></p>
-        <button type="button" id="reviewMissBtn" class="btn btn-secondary btn-block hidden">Repasar fallos</button>
-        <div class="action-buttons">
-            <button type="button" id="startExamBtn" class="btn btn-primary btn-block"><span aria-hidden="true">🚀</span> <span id="startExamLabel">INICIAR EXAMEN</span></button>
+        </details>
+        <div class="exam-dock">
+            <p id="examCount" class="mode-note" aria-live="polite"></p>
+            <button type="button" id="reviewMissBtn" class="btn btn-secondary btn-block hidden">Repasar fallos</button>
+            <button type="button" id="startExamBtn" class="btn btn-primary btn-block"><span id="startExamLabel">Empezar</span></button>
+            <div id="configWarning" class="config-warning hidden" role="alert"></div>
         </div>
-        <div id="configWarning" class="config-warning hidden" role="alert"></div>
+        </div>
     </div>
 
     <!-- Área del examen: se rellena clonando el template (fuente única de markup) -->

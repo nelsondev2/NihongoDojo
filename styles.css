@@ -85,7 +85,107 @@ body {
 }
 
 .selector-group {
-    margin-bottom: 20px;
+    margin-bottom: 12px;
+}
+
+.home-bar {
+    margin-bottom: 14px;
+}
+
+.level-row,
+.home-switch,
+.practice-grid {
+    display: grid;
+    gap: 8px;
+}
+
+.level-row {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
+.home-switch,
+.practice-grid {
+    grid-template-columns: 1fr 1fr;
+}
+
+.level-row .type-btn,
+.home-switch .type-btn,
+.practice-grid .type-btn,
+.choice-list .type-btn {
+    border-radius: 14px;
+    background: #f4f6f8;
+    border: 1px solid transparent;
+}
+
+.home-switch {
+    margin-top: 12px;
+}
+
+.home-switch .type-btn {
+    min-height: 48px;
+}
+
+.home-switch .type-btn.active {
+    background: #d32f2f;
+    color: white;
+    border-color: #b71c1c;
+    box-shadow: none;
+}
+
+.choice-list {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.choice-list .type-btn {
+    flex: none;
+    width: 100%;
+    text-align: left;
+    padding-left: 14px;
+}
+
+#pathContinueBtn,
+#pathListToggle,
+#startExamBtn {
+    white-space: normal;
+    line-height: 1.3;
+}
+
+.exam-dock {
+    position: sticky;
+    bottom: 0;
+    z-index: 2;
+    margin: 8px -20px -14px;
+    padding: 10px 20px calc(12px + env(safe-area-inset-bottom));
+    background: #ffffff;
+    border-top: 1px solid #f0e4e4;
+}
+
+#kanaBulkActions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.fold {
+    margin: 4px 0 12px;
+    border: 1px solid #e7ecef;
+    border-radius: 16px;
+    background: #fafbfc;
+    padding: 0 12px 4px;
+}
+
+.fold summary {
+    cursor: pointer;
+    font-weight: 700;
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+    color: #2c3e44;
+}
+
+.fold[open] summary {
+    margin-bottom: 8px;
 }
 
 .selector-label {
@@ -107,12 +207,11 @@ body {
     flex-wrap: wrap;
 }
 
-#wordPanel .type-btn,
-#kanjiPanel .type-btn,
-#phrasePanel .type-btn,
-#conjPanel .type-btn,
-#grammarPanel .type-btn,
-#practiceGroup .type-btn {
+#wordPanel .kana-type .type-btn,
+#kanjiPanel .kana-type .type-btn,
+#phrasePanel .kana-type .type-btn,
+#conjPanel .kana-type .type-btn,
+#grammarPanel .kana-type .type-btn {
     flex: 1 1 132px;
 }
 
@@ -123,9 +222,9 @@ body {
 .path-list {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 6px;
     margin-top: 12px;
-    max-height: 28rem;
+    max-height: 60vh;
     overflow: auto;
 }
 
@@ -136,10 +235,21 @@ body {
 }
 
 .path-card {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
     background: white;
     border: 1px solid #ffe0e0;
-    border-radius: 22px;
-    padding: 12px 14px;
+    border-radius: 16px;
+    padding: 8px 12px;
+    min-height: 48px;
+    font-family: inherit;
+    text-align: left;
+    cursor: pointer;
+    color: inherit;
 }
 
 .path-card.path-passed {
@@ -150,7 +260,9 @@ body {
 .path-card-head {
     display: flex;
     gap: 10px;
-    align-items: flex-start;
+    align-items: center;
+    min-width: 0;
+    flex: 1;
 }
 
 .path-index {
@@ -181,15 +293,22 @@ body {
 }
 
 .path-title {
-    margin: 2px 0 0;
-    font-size: 1.05rem;
+    margin: 0;
+    font-size: 0.98rem;
     color: #2c3e44;
+    font-weight: 700;
 }
 
 .path-status {
-    margin: 8px 0;
-    color: #4a5b66;
-    font-size: 0.9rem;
+    margin: 0;
+    color: #2e7d32;
+    font-size: 0.85rem;
+    font-weight: 700;
+    flex: 0 0 auto;
+}
+
+.path-status-last {
+    color: #8c3d00;
 }
 
 .lesson-view {

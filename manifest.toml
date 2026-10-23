@@ -4,5 +4,5 @@
 # un cliente puede ignorarlos.
 name = "NihongoDojo"
 source_code_url = "https://github.com/nelsondev2/NihongoDojo"
-version = "1.13.0"
+version = "1.13.1"
 description = "Camino comunitario N5 a N1, con escritura, escucha, lectura corta y repaso de fallos."
