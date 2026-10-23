@@ -399,6 +399,8 @@
             : scope === "palabras" ? "palabras"
             : scope === "kanji" ? "kanji"
             : scope === "frases" ? "frases"
+            : scope === "conjugación" ? "conjugación"
+            : scope === "gramática" ? "gramática"
             : "hiragana";
         const suffix = direction === DIRECTIONS.ROMAJI_KANA ? " · inv" : "";
         return {
@@ -490,10 +492,16 @@
             index: data.index,
             waitingNext: waitingNext,
             direction: direction,
+            lessonId: lessonIdOf(data),
             correct: correct,
             wrong: wrong,
             skipped: skipped
         };
+    }
+
+    function lessonIdOf(data) {
+        if (!data || typeof data.lessonId !== "string") return "";
+        return /^[a-z0-9-]{1,80}$/.test(data.lessonId) ? data.lessonId : "";
     }
 
     // API pública

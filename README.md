@@ -1,8 +1,10 @@
 # NihongoDojo
 
-Quiz sin conexión para practicar japonés de principiante: **silabarios**, **palabras**, **kanji** y **frases**. En los silabarios ves el carácter y escribes el romaji, o al revés. En palabras, kanji y frases eliges entre opciones. Si el dispositivo tiene voz japonesa, también se oye.
+Quiz sin conexión para el **JLPT N5, N4, N3 y N2**: un camino de lecciones y exámenes libres de **silabarios**, **vocabulario**, **kanji**, **frases**, **gramática** y **conjugación**. En los silabarios ves el carácter y escribes el romaji, o al revés. En el resto eliges entre opciones. Si el dispositivo tiene voz japonesa, también se oye.
 
-Es una mini-app [webxdc](https://webxdc.org/) para Delta Chat y ArcaneChat (versión 1.6.0). También se abre sola en el navegador: no tiene servidor, dependencias ni conexión de red.
+Es una mini-app [webxdc](https://webxdc.org/) para Delta Chat y ArcaneChat (versión 1.11.0). También se abre sola en el navegador: no tiene servidor, dependencias ni conexión de red.
+
+El JLPT no publica lista oficial de vocabulario, kanji ni gramática desde 2010. El N5 sigue el recorte comunitario de Jonathan Waller (el que usa Jisho), a través de OpenJLPT: 674 palabras, 84 kanji y 81 puntos de gramática, más los kana y las conjugaciones que esos ítems necesitan. El N4 añade el recorte incremental: 630 palabras, 169 kanji y 98 puntos de gramática, con potencial, condicionales y voz. El N3 añade otras 1.659 palabras, 387 kanji y 101 puntos, con la negación ず. El N2 añade el recorte siguiente: 1.778 palabras, 398 kanji y 123 puntos, con まい y los verbos en ずる. No es el examen ni una promesa de aprobarlo. N1 no está todavía.
 
 ## Qué practica
 
@@ -18,41 +20,79 @@ Esos grupos sonoros no son rendaku. Rendaku es la sonorización en compuestos (�
 
 La primera vez solo están marcadas las filas básicas (46 preguntas). Sonoras y yōon se añaden aparte. Hiragana y katakana no se mezclan, y cada uno recuerda su selección. El botón de inicio dice cuántas preguntas salen.
 
-No incluye っ/ッ, el alargador ー ni el katakana extendido (ファ, ティ, ヴ…). Las frases cubren los primeros patrones, no un curso de gramática ni el JLPT completo. El audio no se descarga: lo pronuncia la voz del propio dispositivo.
+っ y ー no son sílabas sueltas del examen de kana: se practican en palabras, porque っ dobla la consonante y ー alarga la vocal. Las vocales pequeñas del katakana (ァィゥェォ) salen en las palabras que las usan, como フォーク. El audio no se descarga: lo pronuncia la voz del propio dispositivo.
+
+### Camino
+
+En Camino hay cuatro botones, N5, N4, N3 y N2. No se mezclan. El N5 tiene 213 lecciones: los dos silabarios, っ y ー, cada punto de gramática, el vocabulario en tandas de 12, los 84 kanji en tandas de 10, la conjugación y un repaso. El N4 tiene 199 lecciones encima de eso: un puente, cada punto de gramática, el vocabulario nuevo, los 169 kanji y la conjugación nueva. El N3 tiene 317 lecciones más: el recorte que no estaba en N5 ni en N4. El N2 tiene 369 lecciones más. La lista se desplaza; ninguna lección está bloqueada.
+
+Cada lección explica el paso y después abre el examen con ítems que ya están en la app. Se supera con 70%. El progreso del N5 queda en `nihongodojo.lessons`. El del N4, en `nihongodojo.lessons.n4`. El del N3, en `nihongodojo.lessons.n3`. El del N2, en `nihongodojo.lessons.n2`. Se puede saltar o repetir. Un intento peor no borra una lección ya superada.
 
 ### Palabras
 
-112 palabras en diez temas: saludos, gente, números, tiempo, lugares, comida, verbos, adjetivos, naturaleza y partículas. La primera vez están marcados saludos, números y gente.
+699 entradas: las 674 del recorte N5, más わたし, las partículas sueltas, ほう y unos contadores que la gramática necesita. Diecisiete temas. La primera vez están marcados saludos, números y gente.
 
-Si la palabra se escribe con kanji, el examen muestra el carácter y, debajo, la lectura. No hace falta conocer el kanji para elegir el significado. En la otra dirección ves el español y eliges la palabra.
+Si la palabra se escribe con kanji, el examen muestra el carácter y, debajo, la lectura. No hace falta conocer el kanji para elegir el significado. En la otra dirección ves el español y eliges la palabra. Los homófonos no comparten glosa: 厚い es grueso, 暑い es hace calor y 熱い es caliente al tacto.
 
-は y を, como partículas, se leen `wa` y `o`. El examen lo dice, y la voz intenta esa lectura, no la del carácter suelto.
+は, へ y を, como partículas, se leen `wa`, `e` y `o`. La voz intenta esa lectura, no la del carácter suelto. Como caracteres del silabario siguen siendo `ha`, `he` y `wo`.
 
 ### Kanji
 
-78 kanji de principiante, agrupados por tema. No es la lista entera de ningún nivel. Cada uno tiene un significado en español y una lectura principal. Las otras lecturas aparecen al corregir, para no fingir que un kanji se lee de una sola manera.
+84 kanji del recorte N5, incluida la lista comunitaria con 丈 y 貼. No es una lista oficial. Cada uno tiene un significado en español y una lectura de este nivel. Las otras lecturas aparecen al corregir.
 
 Tres direcciones: kanji → significado, significado → kanji, y kanji → lectura. En la de lectura, 日 y 火 no salen como trampas una de la otra: las dos se leen `ひ`.
 
-### Frases
+### Frases y gramática
 
-51 frases cortas con las palabras del dojo. Siete patrones: です, ます, lugar, preguntas, adjetivos, tiempo, y も・の. La primera vez solo está marcado です.
+164 frases y 246 fichas de gramática, en español original. Cubren los 81 puntos del recorte y, además, los contadores. La primera vez solo está marcado el grupo de cópulas.
 
-Tres direcciones:
+Tres direcciones en frases:
 
 - **Frase → español:** ves la frase, con la lectura debajo, y eliges el significado.
 - **Español → frase:** ves el significado y eliges la frase. El sonido se oye al corregir.
-- **Partícula:** la frase tiene un hueco. El significado está debajo para que は y も no se confundan. Eliges は, を, に, で, が, と, も o の. No se repite la misma partícula entre las opciones.
+- **Partícula:** la frase tiene un hueco. El significado está debajo. No se repite la misma pieza entre las opciones.
 
-駅へ行きます no entra en el hueco: con 行く también vale に. La nota lo dice en la traducción. 学生ですか y お元気ですか tampoco tienen hueco: la pregunta la cierra か.
+En gramática: patrón → español, español → patrón, o hueco. Si un ejemplo no tiene una pieza clara que tapar, no entra en Hueco.
+
+### Conjugación
+
+1069 formas de 119 verbos del N5: diccionario, ます, ません, ました, ませんでした, て, ない, た y たい. La primera vez están marcados 食べる, 行く y する.
+
+Ichidan quita る. Godan cambia la última sílaba: む → んで, く → いて, す → して, う → って. 行く es la excepción: 行って, no 行いて. する y 来る son irregulares. ある niega con ない, no con あらない, y no tiene たい. 切る es godan; 着る es ichidan. El N5 no incluye potencial, pasiva ni causativa.
+
+### N4
+
+El botón N4 cambia el camino y los temas de los exámenes libres. No repite el N5. Son 630 palabras, 169 kanji, 196 frases y 294 fichas de los 98 puntos de gramática. La primera vez, en palabras, están marcados verbos, gente y tiempo.
+
+La conjugación N4 tiene 2399 formas de 161 verbos. Además de ます y て, entran potencial, たら, ば, volitivo, pasiva y causativa. いらっしゃる, おっしゃる, くださる y なさる hacen います, no ります, y no llevan potencial ni pasiva. 見える y 聞こえる ya son de capacidad, así que no se les añade otra. チェックする no se conjuga: en la lista es un nombre.
+
+El progreso y los temas marcados del N4 no pisan los del N5. Un examen a medias guarda el nivel, así que reanudarlo no mezcla catálogos.
+
+### N3
+
+El botón N3 cambia el camino y los temas. No repite N5 ni N4. Son 1.659 palabras, 387 kanji, 202 frases y 303 fichas de los 101 puntos de gramática. La primera vez, en palabras, están marcados verbos, gente y sociedad.
+
+La conjugación N3 tiene las formas del N4 y, además, la negación ず, la de ずに. する hace せず. 居る es godan: 居ります, no います. よると queda como expresión fija: la lista lo marca como verbo, pero no se conjuga.
+
+El progreso va en `nihongodojo.lessons.n3`. Los temas marcados van en `sel.n3.*`.
+
+### N2
+
+El botón N2 cambia el camino y los temas. No repite N5, N4 ni N3. Son 1.778 palabras, 398 kanji, 246 frases y 369 fichas de los 123 puntos de gramática. La primera vez, en palabras, están marcados verbos, gente y sociedad.
+
+La conjugación N2 tiene las formas del N3 y, además, まい. Los ocho verbos en ずる se conjugan por じ: 応じます, 応じて, 応ずるまい. 刷る se lee する, pero es godan: 刷ります, no します. 擦る también es godan. 請う hace 請うて, no 請って. 削る es godan, no ずる. Cinco fórmulas de cortesía no se conjugan: no traen clase verbal.
+
+El progreso va en `nihongodojo.lessons.n2`. Los temas marcados van en `sel.n2.*`.
 
 ## Cómo usarla
 
-1. Elige qué practicas: silabarios, palabras, kanji o frases. Luego la dirección.
+1. En **Camino**, elige **N5**, **N4**, **N3** o **N2**. Abre una lección, lee la explicación y pulsa **Empezar el quiz**. O elige un examen libre: silabarios, palabras, kanji, frases, conjugación o gramática. El nivel también cambia esos temas. Luego la dirección.
    - **Silabarios:** kana → romaji, o romaji → kana.
    - **Palabras:** palabra → español, o español → palabra.
    - **Kanji:** kanji → significado, significado → kanji, o kanji → lectura.
    - **Frases:** frase → español, español → frase, o la partícula que falta.
+   - **Conjugación:** forma → español, o español → forma.
+   - **Gramática:** patrón → español, español → patrón, o el hueco.
 2. En silabarios, elige también el silabario y el modo de romanización.
    - **Kana → romaji:** ves el carácter y escribes la lectura.
    - **Romaji → kana:** ves la lectura y eliges el carácter. No hace falta teclado japonés. Las teclas 1 a 4 también eligen.
@@ -60,14 +100,14 @@ Tres direcciones:
 4. Pulsa **Iniciar examen**. El orden es aleatorio y no se repite en esa sesión.
 5. Responde.
    - En silabarios, si el campo de romaji está vacío, avisa y no cuenta el fallo.
-   - En palabras y kanji se elige una opción. Las teclas 1 a 4 también valen.
+   - En palabras, kanji, frases, conjugación y gramática se elige una opción. Las teclas 1 a 4 también valen.
    - **Saltar** muestra la respuesta y cuenta como saltada, no como fallo.
    - La corrección se queda en pantalla. **Siguiente** o Enter pasa a la otra pregunta.
    - **Escuchar** reproduce el sonido. Si «Al mostrar» está activo, suena al aparecer la pregunta, salvo cuando eso revelaría la respuesta: entonces suena al corregir.
 6. Al terminar ves aciertos, fallos, saltadas y el porcentaje (`aciertos / total`). Si hubo errores, **Repasar fallos** arma otro examen solo con esos elementos.
 7. **Salir del examen** pide confirmación. Si el dispositivo permite guardar, la sesión queda a medias y se puede continuar desde la pantalla inicial.
 
-El silabario, el modo, la práctica, los temas y las filas se recuerdan en `localStorage`. Si el almacenamiento no está disponible, la app sigue en memoria, pero al salir se pierde la sesión: el diálogo lo dice.
+El silabario, el modo, la práctica, los temas, las filas y el camino se recuerdan en `localStorage`. Si el almacenamiento no está disponible, la app sigue en memoria, pero al salir se pierde la sesión: el diálogo lo dice.
 
 は, へ, を, ぢ y づ muestran una pista en la propia pregunta. は es `ha` (no `wa`) y へ es `he` (no `e`): esas otras lecturas son de partícula, no del carácter.
 
@@ -111,6 +151,7 @@ Abre `index.html`. No hace falta un servidor. La página pide `webxdc.js` y el n
 ```bash
 node scripts/test-core.js
 node scripts/test-lexicon.js
+node scripts/test-lessons.js
 ```
 
 ## Empaquetar para Delta Chat o ArcaneChat
@@ -123,7 +164,9 @@ Desde la raíz del repositorio:
 zip -9 -X NihongoDojo.xdc \
   index.html \
   core.js \
+  n5.js \
   lexicon.js \
+  lessons.js \
   app.js \
   styles.css \
   manifest.toml \
@@ -145,19 +188,24 @@ El icono actual es un PNG de 256×256. Si lo sustituyes, usa un cuadrado de entr
 
 ### Compartir la calificación
 
-Dentro del chat, al terminar el examen aparece **Compartir en el chat**. El envío es voluntario, se hace una sola vez y, si la llamada falla, se puede reintentar. Los textos caben en los límites de [`sendUpdate`](https://webxdc.org/docs/spec/sendUpdate.html): el resumen junto al icono es `80% (83/104)` (como mucho 20 caracteres) y la línea del chat es `80% (83/104) en hiragana` (como mucho 50). En romaji → kana se añade ` · inv`. En palabras, kanji o frases la línea dice `en palabras`, `en kanji` o `en frases`, por ejemplo `80% (8/10) en palabras`. No se manda el detalle de cada respuesta. La app no lee los resultados de otras personas ni mantiene un ranking.
+Dentro del chat, al terminar el examen aparece **Compartir en el chat**. El envío es voluntario, se hace una sola vez y, si la llamada falla, se puede reintentar. Los textos caben en los límites de [`sendUpdate`](https://webxdc.org/docs/spec/sendUpdate.html): el resumen junto al icono es `80% (83/104)` (como mucho 20 caracteres) y la línea del chat es `80% (83/104) en hiragana` (como mucho 50). En romaji → kana se añade ` · inv`. En palabras, kanji, frases, conjugación o gramática la línea dice `en palabras`, `en kanji`, `en frases`, `en conjugación` o `en gramática`, por ejemplo `80% (8/10) en palabras` o `80% (8/10) en gramática`. No se manda el detalle de cada respuesta. La app no lee los resultados de otras personas ni mantiene un ranking.
 
 ## Estructura
 
 ```
 index.html      Pantalla, plantilla del examen y política de seguridad
 core.js         Base de kana, filtros, cola aleatoria y corrección
-lexicon.js      Palabras, kanji y sus exámenes de opción
+n5.js           Datos del N5 comunitario y su camino. Lo genera scripts/build_n5.py
+n4.js           Datos del N4 comunitario y su camino. Lo genera scripts/build_n4.py
+n3.js           Datos del N3 comunitario y su camino. Lo genera scripts/build_n3.py
+n2.js           Datos del N2 comunitario y su camino. Lo genera scripts/build_n2.py
+lexicon.js      Exámenes de palabras, kanji, frases, gramática y conjugación
+lessons.js      Cola de cada lección y progreso del camino
 app.js          Interfaz, estado, almacenamiento y envío al chat
 styles.css      Estilos
 manifest.toml   Nombre y enlace al código para el cliente webxdc
 icon.png        Icono de la app (256×256)
-scripts/        Comprobaciones de core.js; no van en el .xdc
+scripts/        Generadores del N5, del N4, del N3 y del N2, y comprobaciones; no van en el .xdc
 ```
 
 No hay paso de compilación. `core.js` no toca el DOM y también se puede cargar desde Node con `require("./core.js")`.
@@ -168,4 +216,6 @@ La página no hace peticiones de red. La política de contenido solo permite scr
 
 ## Licencia
 
-MIT. Ver [LICENSE](LICENSE).
+El código de la app es MIT. Ver [LICENSE](LICENSE).
+
+La selección de palabras, kanji y puntos de gramática es la de Jonathan Waller (CC BY), compilada en [OpenJLPT](https://github.com/evanclan/OpenJLPT) (CC BY-SA 4.0). `n5.js` no copia sus glosas ni sus ejemplos en inglés: el español, las notas y las frases son de este repositorio. Los niveles siguientes pueden añadirse con el mismo corte, sin presentarlos como lista oficial.

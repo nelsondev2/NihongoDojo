@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, viewport-fit=cover">
-    <meta name="description" content="Quiz sin conexión de silabarios, palabras, kanji y frases, con pronunciación del dispositivo. App webxdc para Delta Chat y ArcaneChat.">
+    <meta name="description" content="Camino comunitario del JLPT N5, N4, N3 y N2, y quiz sin conexión: silabarios, vocabulario, kanji, gramática y conjugación. App webxdc para Delta Chat y ArcaneChat.">
     <meta name="color-scheme" content="light">
     <!-- CSP: la app no hace ninguna petición de red. scripts/styles externos
          propios, favicon data:. Defensa extra en el entorno webxdc.
          v1.2.1 (BAJO-8): se añade object-src 'none' (refuerzo: la app
          no necesita <object>/<embed> para nada). -->
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
-    <title>NihongoDojo - Hiragana, Katakana, sonoras y yōon</title>
+    <title>NihongoDojo - Camino N5, N4, N3 y N2</title>
     <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20100%20100'%3E%3Ctext%20y='0.9em'%20font-size='90'%3E%F0%9F%8E%B4%3C/text%3E%3C/svg%3E">
     <link rel="stylesheet" href="styles.css">
     <!-- webxdc.js lo sirve el cliente; no se empaqueta. Sin esta etiqueta
@@ -18,14 +18,19 @@
          navegador el 404 es esperado. -->
     <script src="webxdc.js"></script>
     <script src="core.js" defer></script>
+    <script src="n5.js" defer></script>
+    <script src="n4.js" defer></script>
+    <script src="n3.js" defer></script>
+    <script src="n2.js" defer></script>
     <script src="lexicon.js" defer></script>
+    <script src="lessons.js" defer></script>
     <script src="app.js" defer></script>
 </head>
 <body>
 <div class="app-container">
     <header class="header">
         <h1><span aria-hidden="true">🎴</span> NihongoDojo</h1>
-        <p>Silabarios · Palabras · Kanji · Frases</p>
+        <p>Camino N5, N4, N3 y N2 · Silabarios · Palabras · Kanji · Gramática</p>
     </header>
 
     <noscript>
@@ -44,6 +49,30 @@
             </div>
         </div>
 
+        <div class="selector-group" id="pathPanel">
+            <div class="selector-label" id="pathLabel"><span aria-hidden="true">🥾</span> Camino</div>
+            <div class="kana-type" role="group" aria-labelledby="pathLabel">
+                <button type="button" id="levelN5Btn" class="type-btn" data-level="n5" aria-pressed="true">N5</button>
+                <button type="button" id="levelN4Btn" class="type-btn" data-level="n4" aria-pressed="false">N4</button>
+                <button type="button" id="levelN3Btn" class="type-btn" data-level="n3" aria-pressed="false">N3</button>
+                <button type="button" id="levelN2Btn" class="type-btn" data-level="n2" aria-pressed="false">N2</button>
+            </div>
+            <p id="pathIntro" class="mode-note">Camino del N5 comunitario: kana, vocabulario, kanji, gramática y conjugación. El JLPT no publica lista oficial desde 2010. Esto no es el examen.</p>
+            <p id="pathProgress" class="mode-note" aria-live="polite"></p>
+            <button type="button" id="pathContinueBtn" class="btn btn-primary btn-block">Seguir el camino</button>
+            <div id="pathList" class="path-list" aria-labelledby="pathLabel"></div>
+        </div>
+
+        <div id="lessonView" class="lesson-view hidden">
+            <button type="button" id="lessonBackBtn" class="btn btn-secondary">Volver al camino</button>
+            <p id="lessonMeta" class="mode-note"></p>
+            <h2 id="lessonTitle" class="lesson-title"></h2>
+            <div id="lessonTeach"></div>
+            <p id="lessonStatus" class="mode-note"></p>
+            <button type="button" id="lessonStartBtn" class="btn btn-primary btn-block">Empezar el quiz</button>
+            <p id="lessonWarning" class="config-warning hidden" role="alert"></p>
+        </div>
+
         <div class="selector-group" id="practiceGroup">
             <div class="selector-label" id="practiceLabel"><span aria-hidden="true">🥋</span> Qué practicas</div>
             <div class="kana-type" role="group" aria-labelledby="practiceLabel">
@@ -51,6 +80,8 @@
                 <button type="button" id="practiceWordsBtn" class="type-btn" data-practice="words" aria-pressed="false">Palabras</button>
                 <button type="button" id="practiceKanjiBtn" class="type-btn" data-practice="kanji" aria-pressed="false">Kanji</button>
                 <button type="button" id="practicePhrasesBtn" class="type-btn" data-practice="phrases" aria-pressed="false">Frases</button>
+                <button type="button" id="practiceConjBtn" class="type-btn" data-practice="conj" aria-pressed="false">Conjugación</button>
+                <button type="button" id="practiceGrammarBtn" class="type-btn" data-practice="grammar" aria-pressed="false">Gramática</button>
             </div>
             <p id="practiceNote" class="mode-note">Hiragana y katakana, carácter por carácter.</p>
         </div>
@@ -113,7 +144,7 @@
             <div class="selector-group">
                 <div class="selector-label" id="kanjiGroupLabel"><span aria-hidden="true">🈲</span> Temas</div>
                 <div id="kanjiChipContainer" class="fila-grid" role="group" aria-labelledby="kanjiGroupLabel"></div>
-                <p class="small-note">Lista de principiante, no el JLPT completo. Otras lecturas salen al corregir.</p>
+                <p class="small-note">Kanji del nivel elegido, lista comunitaria, no oficial. Otras lecturas salen al corregir.</p>
             </div>
             <div class="action-buttons">
                 <button type="button" id="kanjiAllBtn" class="btn btn-secondary">Todos los temas</button>
@@ -134,11 +165,52 @@
             <div class="selector-group">
                 <div class="selector-label" id="phraseGroupLabel"><span aria-hidden="true">💬</span> Patrones</div>
                 <div id="phraseChipContainer" class="fila-grid" role="group" aria-labelledby="phraseGroupLabel"></div>
-                <p class="small-note">Primeras frases, no un curso de gramática. En Partícula eliges el hueco; el significado está debajo.</p>
+                <p class="small-note">Frases de los patrones del nivel elegido. En Partícula eliges el hueco; el significado está debajo.</p>
             </div>
             <div class="action-buttons">
                 <button type="button" id="phraseAllBtn" class="btn btn-secondary">Todos los patrones</button>
                 <button type="button" id="phraseNoneBtn" class="btn btn-secondary">Ningún patrón</button>
+            </div>
+        </div>
+
+        <div id="conjPanel" class="hidden">
+            <div class="selector-group">
+                <div class="selector-label" id="conjDirLabel"><span aria-hidden="true">🔁</span> Dirección</div>
+                <div class="kana-type" role="group" aria-labelledby="conjDirLabel">
+                    <button type="button" id="conjToEsBtn" class="type-btn" data-conj-direction="conj-es" aria-pressed="true">Forma → español</button>
+                    <button type="button" id="esToConjBtn" class="type-btn" data-conj-direction="es-conj" aria-pressed="false">Español → forma</button>
+                </div>
+                <p id="conjDirNote" class="mode-note">Ves la forma. La lectura va debajo. Elige el significado.</p>
+            </div>
+            <div class="selector-group">
+                <div class="selector-label" id="conjGroupLabel"><span aria-hidden="true">🔄</span> Verbos</div>
+                <div id="conjChipContainer" class="fila-grid" role="group" aria-labelledby="conjGroupLabel"></div>
+                <p class="small-note">En N5: ます, て, ない, た y たい. En N4 se añaden potencial, たら, ば, volitivo, pasiva y causativa. En N3, además, ず. En N2, además, まい.</p>
+            </div>
+            <div class="action-buttons">
+                <button type="button" id="conjAllBtn" class="btn btn-secondary">Todos los verbos</button>
+                <button type="button" id="conjNoneBtn" class="btn btn-secondary">Ningún verbo</button>
+            </div>
+        </div>
+
+        <div id="grammarPanel" class="hidden">
+            <div class="selector-group">
+                <div class="selector-label" id="grammarDirLabel"><span aria-hidden="true">🔁</span> Dirección</div>
+                <div class="kana-type" role="group" aria-labelledby="grammarDirLabel">
+                    <button type="button" id="grammarToEsBtn" class="type-btn" data-grammar-direction="grammar-es" aria-pressed="true">Patrón → español</button>
+                    <button type="button" id="esToGrammarBtn" class="type-btn" data-grammar-direction="es-grammar" aria-pressed="false">Español → patrón</button>
+                    <button type="button" id="grammarBlankBtn" class="type-btn" data-grammar-direction="grammar-blank" aria-pressed="false">Hueco</button>
+                </div>
+                <p id="grammarDirNote" class="mode-note">Ves el patrón. La lectura va debajo. Elige el significado.</p>
+            </div>
+            <div class="selector-group">
+                <div class="selector-label" id="grammarGroupLabel"><span aria-hidden="true">📐</span> Patrones</div>
+                <div id="grammarChipContainer" class="fila-grid" role="group" aria-labelledby="grammarGroupLabel"></div>
+                <p class="small-note">Lista comunitaria del nivel elegido, no la oficial del JLPT. En Hueco eliges la pieza que falta.</p>
+            </div>
+            <div class="action-buttons">
+                <button type="button" id="grammarAllBtn" class="btn btn-secondary">Todos los patrones</button>
+                <button type="button" id="grammarNoneBtn" class="btn btn-secondary">Ningún patrón</button>
             </div>
         </div>
 

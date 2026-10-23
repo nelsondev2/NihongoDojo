@@ -119,25 +119,85 @@
     var phraseDirNote = $('phraseDirNote');
     var phraseAllBtn = $('phraseAllBtn');
     var phraseNoneBtn = $('phraseNoneBtn');
+    var practiceConjBtn = $('practiceConjBtn');
+    var conjPanel = $('conjPanel');
+    var conjChipContainer = $('conjChipContainer');
+    var conjToEsBtn = $('conjToEsBtn');
+    var esToConjBtn = $('esToConjBtn');
+    var conjDirNote = $('conjDirNote');
+    var conjAllBtn = $('conjAllBtn');
+    var conjNoneBtn = $('conjNoneBtn');
+    var practiceGrammarBtn = $('practiceGrammarBtn');
+    var grammarPanel = $('grammarPanel');
+    var grammarChipContainer = $('grammarChipContainer');
+    var grammarToEsBtn = $('grammarToEsBtn');
+    var esToGrammarBtn = $('esToGrammarBtn');
+    var grammarBlankBtn = $('grammarBlankBtn');
+    var grammarDirNote = $('grammarDirNote');
+    var grammarAllBtn = $('grammarAllBtn');
+    var grammarNoneBtn = $('grammarNoneBtn');
+    var pathList = $('pathList');
+    var pathIntro = $('pathIntro');
+    var levelN5Btn = $('levelN5Btn');
+    var levelN4Btn = $('levelN4Btn');
+    var pathProgress = $('pathProgress');
+    var pathContinueBtn = $('pathContinueBtn');
+    var lessonView = $('lessonView');
+    var lessonBackBtn = $('lessonBackBtn');
+    var lessonTitle = $('lessonTitle');
+    var lessonMeta = $('lessonMeta');
+    var lessonTeach = $('lessonTeach');
+    var lessonStatus = $('lessonStatus');
+    var lessonStartBtn = $('lessonStartBtn');
+    var lessonWarning = $('lessonWarning');
     var Lex = window.NihongoDojoLexicon;
+    var Lessons = window.NihongoDojoLessons;
+    var openLessonId = '';
 
     var state = {
         currentType: 'hiragana',
         romajiMode: Core.DEFAULT_MODE,
         direction: Core.DEFAULT_DIRECTION,
         practice: 'kana',
+        level: 'n5',
         wordDirection: 'word-es',
         kanjiDirection: 'kanji-es',
         phraseDirection: 'phrase-es',
+        conjDirection: 'conj-es',
+        grammarDirection: 'grammar-es',
         wordGroups: new Set(),
         kanjiGroups: new Set(),
         phraseGroups: new Set(),
+        conjGroups: new Set(),
+        grammarGroups: new Set(),
         audioOn: true,
         selections: {
             hiragana: { basic: new Set(), rendaku: new Set(), yoon: new Set() },
             katakana: { basic: new Set(), rendaku: new Set(), yoon: new Set() }
         }
     };
+
+    function knownLevel(level) {
+        if (Lex && Lex.LEVELS && Lex.LEVELS.indexOf(level) !== -1) return level;
+        return 'n5';
+    }
+    function bag() {
+        return Lex && Lex.forLevel ? Lex.forLevel(knownLevel(state.level)) : Lex;
+    }
+    function examPack() {
+        var level = exam && exam.level ? knownLevel(exam.level) : knownLevel(state.level);
+        return Lex && Lex.forLevel ? Lex.forLevel(level) : Lex;
+    }
+    function progressKey(level) {
+        var use = knownLevel(level || state.level);
+        return use === 'n5' ? 'lessons' : 'lessons.' + use;
+    }
+    function selKey(name) {
+        return state.level === 'n5' ? 'sel.' + name : 'sel.' + state.level + '.' + name;
+    }
+    function levelName() {
+        return (knownLevel(state.level) || 'n5').toUpperCase();
+    }
 
     var exam = {
         active: false,
@@ -148,6 +208,8 @@
         deadline: null,
         direction: null,
         practice: null,
+        lessonId: '',
+        level: 'n5',
         correct: 0,
         wrong: 0,
         skipped: 0
@@ -251,7 +313,7 @@
         return dir === Core.DIRECTIONS.ROMAJI_KANA;
     }
     function isNamedPractice(name) {
-        return name === 'words' || name === 'kanji' || name === 'phrases';
+        return name === 'words' || name === 'kanji' || name === 'phrases' || name === 'conj' || name === 'grammar';
     }
     function isLexicon() {
         return isNamedPractice(exam.practice);
@@ -263,6 +325,8 @@
         if (state.practice === 'words') return state.wordDirection;
         if (state.practice === 'kanji') return state.kanjiDirection;
         if (state.practice === 'phrases') return state.phraseDirection;
+        if (state.practice === 'conj') return state.conjDirection;
+        if (state.practice === 'grammar') return state.grammarDirection;
         return state.direction;
     }
     function directionLabel(dir) {
@@ -277,12 +341,16 @@
         if (exam.practice === 'words') return 'palabras';
         if (exam.practice === 'kanji') return 'kanji';
         if (exam.practice === 'phrases') return 'frases';
+        if (exam.practice === 'conj') return 'conjugación';
+        if (exam.practice === 'grammar') return 'gramática';
         return state.currentType === 'katakana' ? 'katakana' : 'hiragana';
     }
     function practiceScope(practice, type) {
         if (practice === 'words') return 'palabras';
         if (practice === 'kanji') return 'kanji';
         if (practice === 'phrases') return 'frases';
+        if (practice === 'conj') return 'conjugación';
+        if (practice === 'grammar') return 'gramática';
         return type === 'katakana' ? 'katakana' : 'hiragana';
     }
     function lexView(item) {
@@ -331,7 +399,7 @@
             if (!r) return 'Elige la respuesta.';
             if (r.skipped) return 'Saltada. ' + view.prompt + ' → ' + view.answer + '.' + tail;
             if (r.correct) return 'Correcto: ' + view.answer + '.' + tail;
-            var yours = Lex.textForId(exam.practice, r.user, exam.direction) || '—';
+            var yours = examPack().textForId(exam.practice, r.user, exam.direction) || '—';
             return 'Fallo. ' + view.prompt + ' → ' + view.answer + '. Tú: ' + yours + '.' + tail;
         }
         var k = item.kanaObj;
@@ -382,10 +450,21 @@
     function persistPhraseDirection() {
         storageSet('phraseDirection', state.phraseDirection);
     }
+    function persistConjDirection() {
+        storageSet('conjDirection', state.conjDirection);
+    }
+    function persistGrammarDirection() {
+        storageSet('grammarDirection', state.grammarDirection);
+    }
     function persistLexGroups() {
-        storageSet('sel.words', JSON.stringify(Array.from(state.wordGroups)));
-        storageSet('sel.kanji', JSON.stringify(Array.from(state.kanjiGroups)));
-        storageSet('sel.phrases', JSON.stringify(Array.from(state.phraseGroups)));
+        storageSet(selKey('words'), JSON.stringify(Array.from(state.wordGroups)));
+        storageSet(selKey('kanji'), JSON.stringify(Array.from(state.kanjiGroups)));
+        storageSet(selKey('phrases'), JSON.stringify(Array.from(state.phraseGroups)));
+        storageSet(selKey('conj'), JSON.stringify(Array.from(state.conjGroups)));
+        storageSet(selKey('grammar'), JSON.stringify(Array.from(state.grammarGroups)));
+    }
+    function persistLevel() {
+        storageSet('level', state.level);
     }
 
     function loadStoredNames(key, validRows) {
@@ -402,6 +481,20 @@
         }
     }
 
+    function reloadLexSelections() {
+        if (!Lex) return;
+        var pack = bag();
+        var storedWords = loadStoredNames(selKey('words'), pack.WORD_GROUPS.map(function (g) { return g.id; }));
+        var storedKanji = loadStoredNames(selKey('kanji'), pack.KANJI_GROUPS.map(function (g) { return g.id; }));
+        state.wordGroups = storedWords !== null ? storedWords : new Set(pack.WORD_STARTER);
+        state.kanjiGroups = storedKanji !== null ? storedKanji : new Set(pack.KANJI_STARTER);
+        var storedPhrases = loadStoredNames(selKey('phrases'), pack.PHRASE_GROUPS.map(function (g) { return g.id; }));
+        state.phraseGroups = storedPhrases !== null ? storedPhrases : new Set(pack.PHRASE_STARTER);
+        var storedConj = loadStoredNames(selKey('conj'), pack.CONJ_GROUPS.map(function (g) { return g.id; }));
+        state.conjGroups = storedConj !== null ? storedConj : new Set(pack.CONJ_STARTER);
+        var storedGrammar = loadStoredNames(selKey('grammar'), pack.GRAMMAR_GROUPS.map(function (g) { return g.id; }));
+        state.grammarGroups = storedGrammar !== null ? storedGrammar : new Set(pack.GRAMMAR_STARTER);
+    }
     function loadState() {
         var storedMode = storageGet('mode');
         state.romajiMode = (storedMode === Core.MODES.STRICT || storedMode === Core.MODES.FLEXIBLE)
@@ -415,20 +508,22 @@
         if (storedAudio === 'on') state.audioOn = true;
         if (storedAudio === 'off') state.audioOn = false;
         var storedPractice = storageGet('practice');
-        state.practice = storedPractice === 'words' || storedPractice === 'kanji' ? storedPractice : 'kana';
+        state.practice = storedPractice === 'words' || storedPractice === 'kanji' || storedPractice === 'phrases' || storedPractice === 'conj' || storedPractice === 'grammar'
+            ? storedPractice : 'kana';
+        var storedLevel = storageGet('level');
+        state.level = knownLevel(storedLevel);
         if (Lex) {
             var storedWordDir = storageGet('wordDirection');
             state.wordDirection = Lex.validDirection('words', storedWordDir) ? storedWordDir : 'word-es';
             var storedKanjiDir = storageGet('kanjiDirection');
             state.kanjiDirection = Lex.validDirection('kanji', storedKanjiDir) ? storedKanjiDir : 'kanji-es';
-            var storedWords = loadStoredNames('sel.words', Lex.WORD_GROUPS.map(function (g) { return g.id; }));
-            var storedKanji = loadStoredNames('sel.kanji', Lex.KANJI_GROUPS.map(function (g) { return g.id; }));
-            state.wordGroups = storedWords !== null ? storedWords : new Set(Lex.WORD_STARTER);
-            state.kanjiGroups = storedKanji !== null ? storedKanji : new Set(Lex.KANJI_STARTER);
             var storedPhraseDir = storageGet('phraseDirection');
             state.phraseDirection = Lex.validDirection('phrases', storedPhraseDir) ? storedPhraseDir : 'phrase-es';
-            var storedPhrases = loadStoredNames('sel.phrases', Lex.PHRASE_GROUPS.map(function (g) { return g.id; }));
-            state.phraseGroups = storedPhrases !== null ? storedPhrases : new Set(Lex.PHRASE_STARTER);
+            var storedConjDir = storageGet('conjDirection');
+            state.conjDirection = Lex.validDirection('conj', storedConjDir) ? storedConjDir : 'conj-es';
+            var storedGrammarDir = storageGet('grammarDirection');
+            state.grammarDirection = Lex.validDirection('grammar', storedGrammarDir) ? storedGrammarDir : 'grammar-es';
+            reloadLexSelections();
         }
 
         ['hiragana', 'katakana'].forEach(function (type) {
@@ -447,8 +542,10 @@
     function lexiconSnapshot() {
         return {
             v: 3,
+            level: exam.level || state.level || 'n5',
             practice: exam.practice,
             direction: exam.direction,
+            lessonId: exam.lessonId || '',
             index: exam.index,
             waitingNext: exam.waitingNext === true,
             items: exam.queue.map(function (item) {
@@ -470,6 +567,7 @@
             type: state.currentType,
             mode: state.romajiMode,
             direction: exam.direction || state.direction,
+            lessonId: exam.lessonId || '',
             index: exam.index,
             waitingNext: exam.waitingNext === true,
             items: exam.queue.map(function (item) {
@@ -520,8 +618,9 @@
         var way = isNamedPractice(saved.practice) && Lex
             ? Lex.directionLabel(saved.direction)
             : directionLabel(saved.direction);
+        var lesson = saved.lessonId && Lessons ? Lessons.findLesson(saved.lessonId) : null;
         if (resumeText) {
-            resumeText.textContent = 'Examen a medias (' + scope + ', ' +
+            resumeText.textContent = (lesson ? 'Lección «' + lesson.title + '» a medias' : 'Examen a medias') + ' (' + scope + ', ' +
                 way + '): pregunta ' + n +
                 ' de ' + saved.queue.length + '. ' +
                 plural(saved.correct, 'acierto', 'aciertos') + ', ' +
@@ -569,9 +668,11 @@
     }
 
     function selectedCount() {
-        if (state.practice === 'words' && Lex) return Lex.filterByGroups('words', state.wordGroups, state.wordDirection).length;
-        if (state.practice === 'kanji' && Lex) return Lex.filterByGroups('kanji', state.kanjiGroups, state.kanjiDirection).length;
-        if (state.practice === 'phrases' && Lex) return Lex.filterByGroups('phrases', state.phraseGroups, state.phraseDirection).length;
+        if (state.practice === 'words' && Lex) return bag().filterByGroups('words', state.wordGroups, state.wordDirection).length;
+        if (state.practice === 'kanji' && Lex) return bag().filterByGroups('kanji', state.kanjiGroups, state.kanjiDirection).length;
+        if (state.practice === 'phrases' && Lex) return bag().filterByGroups('phrases', state.phraseGroups, state.phraseDirection).length;
+        if (state.practice === 'conj' && Lex) return bag().filterByGroups('conj', state.conjGroups, state.conjDirection).length;
+        if (state.practice === 'grammar' && Lex) return bag().filterByGroups('grammar', state.grammarGroups, state.grammarDirection).length;
         var sel = state.selections[state.currentType];
         return Core.getFilteredKana(state.currentType, sel.basic, sel.rendaku, sel.yoon).length;
     }
@@ -590,6 +691,14 @@
                 examCount.textContent = n === 0
                     ? 'Ninguna frase con esta selección.'
                     : (n === 1 ? '1 frase con esta selección.' : n + ' frases con esta selección.');
+            } else if (state.practice === 'conj') {
+                examCount.textContent = n === 0
+                    ? 'Ninguna forma con esta selección.'
+                    : (n === 1 ? '1 forma con esta selección.' : n + ' formas con esta selección.');
+            } else if (state.practice === 'grammar') {
+                examCount.textContent = n === 0
+                    ? 'Ningún patrón con esta selección.'
+                    : (n === 1 ? '1 patrón con esta selección.' : n + ' patrones con esta selección.');
             } else {
                 examCount.textContent = n === 0
                     ? 'Ninguna pregunta con esta selección.'
@@ -629,21 +738,27 @@
         paintLexChips(wordChipContainer, 'words', state.wordGroups);
         paintLexChips(kanjiChipContainer, 'kanji', state.kanjiGroups);
         paintLexChips(phraseChipContainer, 'phrases', state.phraseGroups);
+        paintLexChips(conjChipContainer, 'conj', state.conjGroups);
+        paintLexChips(grammarChipContainer, 'grammar', state.grammarGroups);
     }
     function paintLexChips(container, practice, selected) {
         if (!container) return;
         if (container.replaceChildren) container.replaceChildren();
         else container.textContent = '';
-        Lex.groupsOf(practice).forEach(function (group) {
+        bag().groupsOf(practice).forEach(function (group) {
             var chip = el('button', 'fila-chip');
             chip.type = 'button';
             chip.setAttribute('data-group', group.id);
             var on = selected.has(group.id);
             chip.setAttribute('aria-pressed', on ? 'true' : 'false');
             if (on) chip.classList.add('selected');
-            var total = practice === 'phrases'
-                ? Lex.filterByGroups(practice, [group.id], state.phraseDirection).length
-                : Lex.countInGroup(practice, group.id);
+            var dir = practice === 'phrases' ? state.phraseDirection
+                : practice === 'grammar' ? state.grammarDirection
+                : null;
+            var total = dir
+                ? bag().filterByGroups(practice, [group.id], dir).length
+                : bag().countInGroup(practice, group.id);
+            if (practice === 'conj') chip.lang = 'ja';
             chip.textContent = group.label + ' (' + total + ')';
             chip.addEventListener('click', function () {
                 if (exam.active) return;
@@ -696,10 +811,34 @@
                     ? 'Ves el español y eliges la frase. El sonido se oye al corregir.'
                     : 'Ves la frase. La lectura va debajo. Elige el significado.';
         }
+        [conjToEsBtn, esToConjBtn].forEach(function (btn) {
+            if (!btn) return;
+            var on = btn.getAttribute('data-conj-direction') === state.conjDirection;
+            btn.classList.toggle('active', on);
+            btn.setAttribute('aria-pressed', on ? 'true' : 'false');
+        });
+        if (conjDirNote) {
+            conjDirNote.textContent = state.conjDirection === 'es-conj'
+                ? 'Ves el español y eliges la forma. El sonido se oye al corregir.'
+                : 'Ves la forma. La lectura va debajo. Elige el significado.';
+        }
+        [grammarToEsBtn, esToGrammarBtn, grammarBlankBtn].forEach(function (btn) {
+            if (!btn) return;
+            var on = btn.getAttribute('data-grammar-direction') === state.grammarDirection;
+            btn.classList.toggle('active', on);
+            btn.setAttribute('aria-pressed', on ? 'true' : 'false');
+        });
+        if (grammarDirNote) {
+            grammarDirNote.textContent = state.grammarDirection === 'grammar-blank'
+                ? 'Ves la frase con un hueco y eliges la pieza que falta.'
+                : state.grammarDirection === 'es-grammar'
+                    ? 'Ves el español y eliges el patrón. El sonido se oye al corregir.'
+                    : 'Ves el patrón. La lectura va debajo. Elige el significado.';
+        }
     }
     function updatePracticeUI() {
         var practice = isNamedPractice(state.practice) ? state.practice : 'kana';
-        [practiceKanaBtn, practiceWordsBtn, practiceKanjiBtn, practicePhrasesBtn].forEach(function (btn) {
+        [practiceKanaBtn, practiceWordsBtn, practiceKanjiBtn, practicePhrasesBtn, practiceConjBtn, practiceGrammarBtn].forEach(function (btn) {
             if (!btn) return;
             var on = btn.getAttribute('data-practice') === practice;
             btn.classList.toggle('active', on);
@@ -716,20 +855,52 @@
         setHidden(wordPanel, practice !== 'words');
         setHidden(kanjiPanel, practice !== 'kanji');
         setHidden(phrasePanel, practice !== 'phrases');
+        setHidden(conjPanel, practice !== 'conj');
+        setHidden(grammarPanel, practice !== 'grammar');
         if (practiceNote) {
             practiceNote.textContent = practice === 'words'
-                ? 'Palabras de uso diario. El kanji, si lo hay, sale con su lectura.'
+                ? 'Vocabulario del ' + levelName() + ' comunitario. Si hay kanji, la lectura va debajo.'
                 : practice === 'kanji'
-                    ? 'Kanji de principiante: significado o lectura. No es la lista completa.'
+                    ? 'Kanji del ' + levelName() + ' comunitario. No es una lista oficial del JLPT.'
                     : practice === 'phrases'
-                        ? 'Frases cortas: traducirlas o elegir la partícula que falta.'
-                        : 'Hiragana y katakana, carácter por carácter.';
+                        ? 'Frases de los patrones ' + levelName() + ': traducirlas o elegir la pieza que falta.'
+                        : practice === 'conj'
+                            ? (state.level === 'n2'
+                                ? 'ます, て, potencial, condicionales, voz, ず y まい de los verbos N2. ずる va por じ.'
+                                : state.level === 'n3'
+                                    ? 'ます, て, potencial, condicionales, voz y la negación ず de los verbos N3.'
+                                    : state.level === 'n4'
+                                        ? 'ます, て, potencial, たら, ば, volitivo, pasiva y causativa de los verbos N4.'
+                                        : 'ます, て, ない, た y たい de los verbos N5. El potencial está en el N4.')
+                            : practice === 'grammar'
+                                ? 'Patrones del ' + levelName() + ' comunitario. El JLPT no publica lista oficial desde 2010.'
+                                : 'Hiragana y katakana, carácter por carácter. El silabario no cambia de nivel.';
         }
+        updateLevelUI();
         updateLexDirectionUI();
         renderLexChips();
         updateExamCount();
     }
 
+    function updateLevelUI() {
+        document.querySelectorAll('#pathPanel [data-level]').forEach(function (btn) {
+            if (!btn) return;
+            var on = btn.getAttribute('data-level') === (state.level || 'n5');
+            btn.classList.toggle('active', on);
+            btn.setAttribute('aria-pressed', on ? 'true' : 'false');
+        });
+    }
+    function setLevel(level) {
+        if (exam.active) return;
+        var next = knownLevel(level);
+        if (next === state.level) return;
+        state.level = next;
+        persistLevel();
+        reloadLexSelections();
+        closeLesson();
+        updatePracticeUI();
+        renderPath();
+    }
     function updateDirectionUI() {
         var reverse = state.direction === Core.DIRECTIONS.ROMAJI_KANA;
         if (directBtn && reverseBtn) {
@@ -1074,7 +1245,7 @@
         armTimer(ADVANCE_MS);
     }
 
-    function beginExam(queue, index, counters, waiting) {
+    function beginExam(queue, index, counters, waiting, lessonId) {
         exam.active = true;
         exam.queue = queue;
         exam.index = index || 0;
@@ -1083,6 +1254,8 @@
         exam.skipped = counters.skipped || 0;
         exam.waitingNext = false;
         exam.deadline = null;
+        exam.lessonId = typeof lessonId === 'string' ? lessonId : '';
+        exam.level = knownLevel(state.level);
         exam.practice = isNamedPractice(state.practice) ? state.practice : 'kana';
         exam.direction = activeDirection();
         clearTimer();
@@ -1126,12 +1299,14 @@
     function startLexiconExam() {
         var groups = state.practice === 'kanji' ? state.kanjiGroups
             : state.practice === 'phrases' ? state.phraseGroups
+            : state.practice === 'conj' ? state.conjGroups
+            : state.practice === 'grammar' ? state.grammarGroups
             : state.wordGroups;
         if (!groups || !groups.size) {
-            showConfigWarning('Selecciona al menos un tema.');
+            showConfigWarning(state.practice === 'conj' ? 'Selecciona al menos un verbo.' : 'Selecciona al menos un tema.');
             return;
         }
-        var queue = Lex.buildQueue(state.practice, groups, activeDirection());
+        var queue = bag().buildQueue(state.practice, groups, activeDirection());
         if (!queue.length) {
             showConfigWarning('No hay preguntas con esa selección.');
             return;
@@ -1146,11 +1321,15 @@
             state.practice = saved.practice;
             if (saved.practice === 'words') state.wordDirection = saved.direction;
             else if (saved.practice === 'kanji') state.kanjiDirection = saved.direction;
+            else if (saved.practice === 'conj') state.conjDirection = saved.direction;
+            else if (saved.practice === 'grammar') state.grammarDirection = saved.direction;
             else state.phraseDirection = saved.direction;
             persistPractice();
             persistWordDirection();
             persistKanjiDirection();
             persistPhraseDirection();
+            persistConjDirection();
+            persistGrammarDirection();
         } else {
             state.practice = 'kana';
             state.currentType = saved.type;
@@ -1161,8 +1340,14 @@
             persistMode();
             persistDirection();
         }
+        if (saved.level && knownLevel(saved.level) === saved.level) {
+            state.level = saved.level;
+            persistLevel();
+            reloadLexSelections();
+        }
         updatePracticeUI();
-        beginExam(saved.queue, saved.index, saved, saved.waitingNext);
+        closeLesson();
+        beginExam(saved.queue, saved.index, saved, saved.waitingNext, saved.lessonId || '');
     }
 
     function discardSaved() {
@@ -1443,7 +1628,7 @@
         var summary = el('div', 'summary');
         summary.appendChild(el('h3', null, 'Resultado final'));
         summary.appendChild(el('p', null, isLexicon()
-            ? scope + ' · ' + way
+            ? levelName() + ' · ' + scope + ' · ' + way
             : scope + ' · ' + way + ' · modo ' + modeLabel));
         summary.appendChild(el('p', null,
             plural(exam.correct, 'acierto', 'aciertos') + ' · ' +
@@ -1454,6 +1639,8 @@
         grade.appendChild(el('strong', null, 'Calificación: ' + percent.toFixed(1) + '% '));
         grade.appendChild(document.createTextNode(percent >= 70 ? 'Muy bien.' : 'Sigue practicando.'));
         summary.appendChild(grade);
+        var lessonLine = lessonResultLine(percent);
+        if (lessonLine) summary.appendChild(el('p', null, lessonLine));
         summary.appendChild(document.createElement('hr'));
 
         var list = el('ol', 'results-list');
@@ -1463,7 +1650,7 @@
                 var view = lexView(item);
                 var yours = item.result && item.result.skipped
                     ? '—'
-                    : (Lex.textForId(exam.practice, item.result && item.result.user, exam.direction) || '—');
+                    : (examPack().textForId(exam.practice, item.result && item.result.user, exam.direction) || '—');
                 li.appendChild(document.createTextNode(resultStatus(item) + '. ' + view.prompt + ' → ' + view.answer + '. Tú: ' + yours));
                 list.appendChild(li);
                 return;
@@ -1501,7 +1688,7 @@
             summary.appendChild(reviewBtn);
         }
 
-        var restartBtn = buttonWithIcon('btn restart-btn', '🔄', 'Nuevo examen');
+        var restartBtn = buttonWithIcon('btn restart-btn', '🔄', exam.lessonId ? 'Volver al camino' : 'Nuevo examen');
         restartBtn.addEventListener('click', exitExam);
         summary.appendChild(restartBtn);
 
@@ -1524,9 +1711,11 @@
         }
 
         card.appendChild(summary);
-        card.appendChild(el('div', 'small-note', isLexicon()
-            ? 'Podrás elegir temas nuevamente.'
-            : 'Podrás elegir filas básicas, sonoras y yōon nuevamente.'));
+        card.appendChild(el('div', 'small-note', exam.lessonId
+            ? 'El camino recuerda si superaste la lección. Un intento peor no borra una ya superada.'
+            : isLexicon()
+                ? 'Podrás elegir temas nuevamente.'
+                : 'Podrás elegir filas básicas, sonoras y yōon nuevamente.'));
         replaceChildren(quizArea, card);
         quizEls = emptyQuizEls();
         (reviewBtn || restartBtn).focus();
@@ -1546,6 +1735,7 @@
         exam.deadline = null;
         exam.direction = null;
         exam.practice = null;
+        exam.lessonId = '';
         exam.queue = [];
         exam.index = 0;
         exam.correct = 0;
@@ -1560,6 +1750,8 @@
         updateDirectionUI();
         updatePracticeUI();
         updateAudioUI();
+        closeLesson();
+        renderPath();
         refreshResumePanel();
         if (startBtn) startBtn.focus();
     }
@@ -1581,6 +1773,223 @@
         if (exam.active && exam.waitingNext && AUTO_ADVANCE && exam.deadline) {
             armTimer(Math.max(0, exam.deadline - Date.now()));
         }
+    }
+
+    function loadProgress(level) {
+        var out = {};
+        if (!Lessons) return out;
+        var use = level || state.level || 'n5';
+        var raw = storageGet(progressKey(use));
+        if (!raw) return out;
+        try {
+            var data = JSON.parse(raw);
+            if (!data || typeof data !== 'object') return out;
+            var list = Lessons.lessonsFor ? Lessons.lessonsFor(use) : Lessons.LESSONS;
+            list.forEach(function (lesson) {
+                var row = data[lesson.id];
+                if (!row || typeof row !== 'object') return;
+                var best = Number(row.best);
+                var last = Number(row.last);
+                out[lesson.id] = {
+                    passed: row.passed === true,
+                    best: Number.isFinite(best) ? Math.max(0, Math.min(100, Math.round(best))) : 0,
+                    last: Number.isFinite(last) ? Math.max(0, Math.min(100, Math.round(last))) : 0
+                };
+            });
+        } catch (e) { return {}; }
+        return out;
+    }
+    function recordLesson(id, percent) {
+        if (!Lessons || !Lessons.findLesson(id)) return;
+        var lesson = Lessons.findLesson(id);
+        var use = lesson && lesson.level ? lesson.level : state.level;
+        var progress = loadProgress(use);
+        var prev = progress[id] || { passed: false, best: 0, last: 0 };
+        var score = Math.max(0, Math.min(100, Math.round(percent)));
+        progress[id] = {
+            passed: prev.passed === true || percent >= Lessons.PASS_PERCENT,
+            best: Math.max(prev.best || 0, score),
+            last: score
+        };
+        storageSet(progressKey(use), JSON.stringify(progress));
+    }
+    function lessonResultLine(percent) {
+        if (!exam.lessonId || !Lessons) return '';
+        var lesson = Lessons.findLesson(exam.lessonId);
+        if (!lesson) return '';
+        var prev = loadProgress(lesson.level)[lesson.id];
+        recordLesson(lesson.id, percent);
+        if (percent >= Lessons.PASS_PERCENT) return 'Lección superada: ' + lesson.title + '. Queda marcada en el camino.';
+        if (prev && prev.passed) return 'Este intento no llega al ' + Lessons.PASS_PERCENT + '%, pero «' + lesson.title + '» sigue superada.';
+        return '«' + lesson.title + '» no llega al ' + Lessons.PASS_PERCENT + '%. El camino todavía no la marca.';
+    }
+    function closeLesson() {
+        openLessonId = '';
+        setHidden(lessonView, true);
+        if (optionsPanel) optionsPanel.classList.remove('studying');
+        if (lessonWarning) {
+            lessonWarning.textContent = '';
+            setHidden(lessonWarning, true);
+        }
+    }
+    function renderPath() {
+        if (!pathList || !Lessons) return;
+        if (pathList.replaceChildren) pathList.replaceChildren();
+        else pathList.textContent = '';
+        var list = Lessons.lessonsFor ? Lessons.lessonsFor(state.level) : Lessons.LESSONS;
+        var progress = loadProgress(state.level);
+        var passed = Lessons.passedCount(progress, state.level);
+        if (pathIntro) {
+            pathIntro.textContent = state.level === 'n2'
+                ? 'Camino N2, encima del N3. Registro formal, まい y los verbos en ずる. Lista comunitaria, no el examen oficial.'
+                : state.level === 'n3'
+                ? 'Camino N3, encima del N4. Conclusión, causa, grado y la negación ず. Lista comunitaria, no el examen oficial.'
+                : state.level === 'n4'
+                    ? 'Camino N4, encima del N5. Potencial, condicionales, voz y respeto. Lista comunitaria, no el examen oficial.'
+                    : 'Camino del N5 comunitario: kana, vocabulario, kanji, gramática y conjugación. El JLPT no publica lista oficial desde 2010. Esto no es el examen.';
+        }
+        if (pathProgress) {
+            pathProgress.textContent = passed + ' de ' + list.length +
+                ' superadas. Se aprueba con ' + Lessons.PASS_PERCENT + '%. Ninguna está bloqueada.';
+        }
+        var next = Lessons.nextLesson(progress, state.level);
+        var allPassed = passed === list.length;
+        if (pathContinueBtn) {
+            pathContinueBtn.textContent = allPassed ? 'Repetir desde el principio' : 'Seguir: ' + next.title;
+        }
+        var lastStage = '';
+        list.forEach(function (lesson, i) {
+            if (lesson.stage !== lastStage) {
+                lastStage = lesson.stage;
+                pathList.appendChild(el('h3', 'path-stage-head', lesson.stage));
+            }
+            var card = el('article', 'path-card');
+            var row = progress[lesson.id];
+            if (row && row.passed) card.classList.add('path-passed');
+            var head = el('div', 'path-card-head');
+            head.appendChild(el('span', 'path-index', String(i + 1)));
+            var titles = el('div');
+            titles.appendChild(el('p', 'path-stage', lesson.stage));
+            titles.appendChild(el('h3', 'path-title', lesson.title));
+            head.appendChild(titles);
+            card.appendChild(head);
+            var status = 'Pendiente · unos ' + lesson.minutes + ' min';
+            if (row && row.passed) status = 'Superada · mejor ' + row.best + '%';
+            else if (row && row.last) status = 'Último intento ' + row.last + '% · hace falta ' + Lessons.PASS_PERCENT + '%';
+            card.appendChild(el('p', 'path-status', status));
+            var btn = el('button', 'btn btn-secondary', 'Estudiar');
+            btn.type = 'button';
+            btn.addEventListener('click', function () { openLesson(lesson.id); });
+            card.appendChild(btn);
+            pathList.appendChild(card);
+        });
+    }
+    function quizSize(lesson) {
+        if (!lesson || !lesson.quiz) return 0;
+        return lesson.quiz.practice === 'kana' ? lesson.quiz.chars.length : lesson.quiz.ids.length;
+    }
+    function openLesson(id) {
+        if (!Lessons) return;
+        var lesson = Lessons.findLesson(id);
+        if (!lesson) return;
+        openLessonId = id;
+        if (lessonTitle) lessonTitle.textContent = lesson.title;
+        if (lessonMeta) {
+            lessonMeta.textContent = lesson.stage + ' · unos ' + lesson.minutes + ' min · ' +
+                quizSize(lesson) + ' preguntas · se aprueba con ' + Lessons.PASS_PERCENT + '%';
+        }
+        if (lessonTeach) {
+            if (lessonTeach.replaceChildren) lessonTeach.replaceChildren();
+            else lessonTeach.textContent = '';
+            lesson.teach.forEach(function (block) {
+                var section = el('section', 'teach-block');
+                section.appendChild(el('h3', null, block.heading));
+                section.appendChild(el('p', null, block.text));
+                if (block.examples && block.examples.length) {
+                    var list = el('ul', 'teach-examples');
+                    block.examples.forEach(function (example) {
+                        var li = el('li');
+                        var jp = el('span', 'teach-jp', example.jp);
+                        jp.lang = 'ja';
+                        li.appendChild(jp);
+                        if (example.kana && example.kana !== example.jp) {
+                            li.appendChild(document.createTextNode(' '));
+                            li.appendChild(el('span', 'teach-kana', example.kana));
+                        }
+                        li.appendChild(el('span', 'teach-es', ' — ' + example.es));
+                        list.appendChild(li);
+                    });
+                    section.appendChild(list);
+                }
+                lessonTeach.appendChild(section);
+            });
+        }
+        var row = loadProgress()[id];
+        if (lessonStatus) {
+            lessonStatus.textContent = row && row.passed
+                ? 'Ya la superaste (mejor ' + row.best + '%). Puedes repetirla.'
+                : 'Al terminar, el quiz cuenta para el camino.';
+        }
+        if (lessonWarning) {
+            lessonWarning.textContent = '';
+            setHidden(lessonWarning, true);
+        }
+        if (optionsPanel) optionsPanel.classList.add('studying');
+        setHidden(lessonView, false);
+        if (lessonBackBtn) lessonBackBtn.focus();
+    }
+    function applyQuizSettings(practice, direction, type) {
+        state.practice = isNamedPractice(practice) ? practice : 'kana';
+        if (practice === 'words') state.wordDirection = direction;
+        else if (practice === 'kanji') state.kanjiDirection = direction;
+        else if (practice === 'phrases') state.phraseDirection = direction;
+        else if (practice === 'conj') state.conjDirection = direction;
+        else if (practice === 'grammar') state.grammarDirection = direction;
+        else {
+            if (type === 'hiragana' || type === 'katakana') state.currentType = type;
+            if (direction === Core.DIRECTIONS.ROMAJI_KANA || direction === Core.DIRECTIONS.KANA_ROMAJI) {
+                state.direction = direction;
+            }
+        }
+    }
+    function startLessonQuiz() {
+        if (exam.active || !Lessons || !openLessonId) return;
+        var lesson = Lessons.findLesson(openLessonId);
+        if (!lesson) return;
+        if (lessonWarning) {
+            lessonWarning.textContent = '';
+            setHidden(lessonWarning, true);
+        }
+        if (loadSavedExam()) {
+            var discard = window.confirm('Hay un examen guardado. Si empiezas la lección, se descarta. ¿Continuar?');
+            if (!discard) return;
+            clearSavedExam();
+            refreshResumePanel();
+        }
+        var queue = Lessons.buildQueue(lesson, Core, Lex);
+        if (!queue.length) {
+            if (lessonWarning) {
+                lessonWarning.textContent = 'Esta lección no pudo armar el quiz.';
+                setHidden(lessonWarning, false);
+            }
+            return;
+        }
+        applyQuizSettings(lesson.quiz.practice, lesson.quiz.direction, lesson.quiz.type);
+        persistPractice();
+        persistType();
+        persistDirection();
+        persistWordDirection();
+        persistKanjiDirection();
+        persistPhraseDirection();
+        persistConjDirection();
+        persistGrammarDirection();
+        var lessonId = lesson.id;
+        if (lesson.level && knownLevel(lesson.level) === lesson.level) {
+            state.level = lesson.level;
+            persistLevel();
+        }
+        closeLesson();
+        beginExam(queue, 0, { correct: 0, wrong: 0, skipped: 0 }, false, lessonId);
     }
 
     function bindEvents() {
@@ -1673,7 +2082,7 @@
         if (audioTestBtn) {
             audioTestBtn.addEventListener('click', function () { speakKana('あ'); });
         }
-        [practiceKanaBtn, practiceWordsBtn, practiceKanjiBtn, practicePhrasesBtn].forEach(function (btn) {
+        [practiceKanaBtn, practiceWordsBtn, practiceKanjiBtn, practicePhrasesBtn, practiceConjBtn, practiceGrammarBtn].forEach(function (btn) {
             if (!btn) return;
             btn.addEventListener('click', function () {
                 if (exam.active) return;
@@ -1706,7 +2115,7 @@
         });
         if (wordAllBtn) wordAllBtn.addEventListener('click', function () {
             if (exam.active || !Lex) return;
-            Lex.WORD_GROUPS.forEach(function (g) { state.wordGroups.add(g.id); });
+            bag().WORD_GROUPS.forEach(function (g) { state.wordGroups.add(g.id); });
             persistLexGroups(); clearConfigWarning(); renderLexChips(); updateExamCount();
         });
         if (wordNoneBtn) wordNoneBtn.addEventListener('click', function () {
@@ -1716,7 +2125,7 @@
         });
         if (kanjiAllBtn) kanjiAllBtn.addEventListener('click', function () {
             if (exam.active || !Lex) return;
-            Lex.KANJI_GROUPS.forEach(function (g) { state.kanjiGroups.add(g.id); });
+            bag().KANJI_GROUPS.forEach(function (g) { state.kanjiGroups.add(g.id); });
             persistLexGroups(); clearConfigWarning(); renderLexChips(); updateExamCount();
         });
         if (kanjiNoneBtn) kanjiNoneBtn.addEventListener('click', function () {
@@ -1737,7 +2146,7 @@
         });
         if (phraseAllBtn) phraseAllBtn.addEventListener('click', function () {
             if (exam.active || !Lex) return;
-            Lex.PHRASE_GROUPS.forEach(function (g) { state.phraseGroups.add(g.id); });
+            bag().PHRASE_GROUPS.forEach(function (g) { state.phraseGroups.add(g.id); });
             persistLexGroups(); clearConfigWarning(); renderLexChips(); updateExamCount();
         });
         if (phraseNoneBtn) phraseNoneBtn.addEventListener('click', function () {
@@ -1745,6 +2154,70 @@
             state.phraseGroups.clear();
             persistLexGroups(); clearConfigWarning(); renderLexChips(); updateExamCount();
         });
+        [conjToEsBtn, esToConjBtn].forEach(function (btn) {
+            if (!btn) return;
+            btn.addEventListener('click', function () {
+                if (exam.active) return;
+                state.conjDirection = btn.getAttribute('data-conj-direction');
+                persistConjDirection();
+                updateLexDirectionUI();
+                renderLexChips();
+                updateExamCount();
+            });
+        });
+        if (conjAllBtn) conjAllBtn.addEventListener('click', function () {
+            if (exam.active || !Lex) return;
+            bag().CONJ_GROUPS.forEach(function (g) { state.conjGroups.add(g.id); });
+            persistLexGroups(); clearConfigWarning(); renderLexChips(); updateExamCount();
+        });
+        if (conjNoneBtn) conjNoneBtn.addEventListener('click', function () {
+            if (exam.active) return;
+            state.conjGroups.clear();
+            persistLexGroups(); clearConfigWarning(); renderLexChips(); updateExamCount();
+        });
+        [grammarToEsBtn, esToGrammarBtn, grammarBlankBtn].forEach(function (btn) {
+            if (!btn) return;
+            btn.addEventListener('click', function () {
+                if (exam.active) return;
+                state.grammarDirection = btn.getAttribute('data-grammar-direction');
+                persistGrammarDirection();
+                updateLexDirectionUI();
+                renderLexChips();
+                updateExamCount();
+            });
+        });
+        if (grammarAllBtn) grammarAllBtn.addEventListener('click', function () {
+            if (exam.active || !Lex) return;
+            bag().GRAMMAR_GROUPS.forEach(function (g) { state.grammarGroups.add(g.id); });
+            persistLexGroups(); clearConfigWarning(); renderLexChips(); updateExamCount();
+        });
+        if (grammarNoneBtn) grammarNoneBtn.addEventListener('click', function () {
+            if (exam.active) return;
+            state.grammarGroups.clear();
+            persistLexGroups(); clearConfigWarning(); renderLexChips(); updateExamCount();
+        });
+        document.querySelectorAll('#pathPanel [data-level]').forEach(function (btn) {
+            if (!btn) return;
+            btn.addEventListener('click', function () {
+                setLevel(btn.getAttribute('data-level'));
+            });
+        });
+        if (pathContinueBtn) pathContinueBtn.addEventListener('click', function () {
+            if (exam.active || !Lessons) return;
+            var list = Lessons.lessonsFor ? Lessons.lessonsFor(state.level) : Lessons.LESSONS;
+            var progress = loadProgress(state.level);
+            var next = Lessons.passedCount(progress, state.level) === list.length
+                ? list[0]
+                : Lessons.nextLesson(progress, state.level);
+            openLesson(next.id);
+        });
+        if (lessonBackBtn) lessonBackBtn.addEventListener('click', function () {
+            if (exam.active) return;
+            closeLesson();
+            renderPath();
+            if (pathContinueBtn) pathContinueBtn.focus();
+        });
+        if (lessonStartBtn) lessonStartBtn.addEventListener('click', startLessonQuiz);
         if (window.speechSynthesis && window.speechSynthesis.addEventListener) {
             window.speechSynthesis.addEventListener('voiceschanged', updateAudioUI);
             try { window.speechSynthesis.getVoices(); } catch (e) { /* aún no hay voces */ }
@@ -1762,6 +2235,7 @@
         updateDirectionUI();
         updatePracticeUI();
         updateAudioUI();
+        renderPath();
         refreshResumePanel();
         bindEvents();
         setHidden(quizArea, true);

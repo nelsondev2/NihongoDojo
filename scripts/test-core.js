@@ -87,6 +87,12 @@ check('textos de compartir caben en los límites de la spec', () => {
     assert.strictEqual(kanji.info, '100% (78/78) en kanji');
     const frases = Core.buildShareText(5, 7, 'frases');
     assert.strictEqual(frases.info, '71% (5/7) en frases');
+    const conj = Core.buildShareText(55, 55, 'conjugación');
+    assert.strictEqual(conj.info, '100% (55/55) en conjugación');
+    const grammar = Core.buildShareText(8, 10, 'gramática');
+    assert.strictEqual(grammar.info, '80% (8/10) en gramática');
+    assert.ok([...grammar.info].length <= 50);
+    assert.ok([...conj.info].length <= 50, conj.info);
     assert.ok([...frases.info].length <= 50);
     assert.ok([...kanji.info].length <= 50);
     const huge = Core.buildShareText(99999, 99999, 'hiragana\nkatakana');
@@ -138,6 +144,24 @@ check('una saltada no cuenta como acierto ni como fallo', () => {
 
 check('instantáneas corruptas se rechazan', () => {
     assert.strictEqual(Core.parseExamSnapshot(null), null);
+    const withLesson = Core.parseExamSnapshot({
+        v: 2,
+        type: 'hiragana',
+        mode: 'flexible',
+        lessonId: 'l-hiragana',
+        index: 0,
+        items: [{ char: 'あ', type: 'hiragana', user: null, correct: null, skipped: null }]
+    });
+    assert.strictEqual(withLesson.lessonId, 'l-hiragana');
+    const badLesson = Core.parseExamSnapshot({
+        v: 2,
+        type: 'hiragana',
+        mode: 'flexible',
+        lessonId: 'Lección',
+        index: 0,
+        items: [{ char: 'あ', type: 'hiragana', user: null, correct: null, skipped: null }]
+    });
+    assert.strictEqual(badLesson.lessonId, '');
     assert.strictEqual(Core.parseExamSnapshot({ v: 2, type: 'hiragana', mode: 'strict', index: 0, items: [] }), null);
     assert.strictEqual(Core.parseExamSnapshot({
         v: 1, type: 'hiragana', mode: 'strict', index: 0,

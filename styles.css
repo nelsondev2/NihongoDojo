@@ -110,8 +110,135 @@ body {
 #wordPanel .type-btn,
 #kanjiPanel .type-btn,
 #phrasePanel .type-btn,
+#conjPanel .type-btn,
+#grammarPanel .type-btn,
 #practiceGroup .type-btn {
     flex: 1 1 132px;
+}
+
+.options-panel.studying > :not(#resumePanel):not(#lessonView) {
+    display: none;
+}
+
+.path-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 12px;
+    max-height: 28rem;
+    overflow: auto;
+}
+
+.path-stage-head {
+    margin: 8px 0 0;
+    font-size: 0.85rem;
+    color: #5c6b73;
+}
+
+.path-card {
+    background: white;
+    border: 1px solid #ffe0e0;
+    border-radius: 22px;
+    padding: 12px 14px;
+}
+
+.path-card.path-passed {
+    border-color: #a5d6a7;
+    background: #f1f8e9;
+}
+
+.path-card-head {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.path-index {
+    flex: 0 0 auto;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: #d32f2f;
+    color: white;
+    font-weight: 700;
+    font-size: 0.85rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.path-passed .path-index {
+    background: #2e7d32;
+}
+
+.path-stage {
+    margin: 0;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #7a8a93;
+}
+
+.path-title {
+    margin: 2px 0 0;
+    font-size: 1.05rem;
+    color: #2c3e44;
+}
+
+.path-status {
+    margin: 8px 0;
+    color: #4a5b66;
+    font-size: 0.9rem;
+}
+
+.lesson-view {
+    background: #fefcf5;
+    border-radius: 24px;
+    padding: 4px 2px 8px;
+}
+
+.lesson-title {
+    margin: 8px 0 12px;
+    color: #d32f2f;
+    font-size: 1.45rem;
+}
+
+.teach-block {
+    background: white;
+    border-radius: 18px;
+    padding: 12px 14px;
+    margin-bottom: 10px;
+    border: 1px solid #f3e6d8;
+}
+
+.teach-block h3 {
+    margin: 0 0 6px;
+    font-size: 1rem;
+    color: #2c3e44;
+}
+
+.teach-block p {
+    margin: 0 0 8px;
+    color: #2c3e44;
+}
+
+.teach-examples {
+    margin: 0;
+    padding-left: 1.1rem;
+}
+
+.teach-examples li {
+    margin: 4px 0;
+}
+
+.teach-jp {
+    font-weight: 700;
+}
+
+.teach-kana,
+.teach-es {
+    color: #4a5b66;
 }
 
 .type-btn {

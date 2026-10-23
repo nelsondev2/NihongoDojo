@@ -1,0 +1,29225 @@
+/* NihongoDojo N4. Generado por scripts/build_n4.py.
+ * Clasificación: listas comunitarias de Jonathan Waller (CC BY), vía OpenJLPT (CC BY-SA 4.0).
+ * Español, explicaciones y frases: obra de este repositorio.
+ * El JLPT no publica lista oficial desde 2010. Esto no es el examen.
+ */
+(function (root) {
+    "use strict";
+    var data = {
+  "level": "N4",
+  "notice": "El JLPT no publica lista oficial desde 2010. Este N4 sigue el recorte comunitario de Jonathan Waller, vía OpenJLPT, y se estudia encima del N5. El español es de NihongoDojo.",
+  "WORD_GROUPS": [
+    {
+      "id": "n4-otros",
+      "label": "Otros"
+    },
+    {
+      "id": "n4-verbos",
+      "label": "Verbos"
+    },
+    {
+      "id": "n4-tiempo",
+      "label": "Tiempo"
+    },
+    {
+      "id": "n4-gente",
+      "label": "Gente"
+    },
+    {
+      "id": "n4-ropa",
+      "label": "Ropa"
+    },
+    {
+      "id": "n4-adjetivos",
+      "label": "Adjetivos"
+    },
+    {
+      "id": "n4-comida",
+      "label": "Comida"
+    },
+    {
+      "id": "n4-lugares",
+      "label": "Lugares"
+    },
+    {
+      "id": "n4-trabajo",
+      "label": "Trabajo"
+    },
+    {
+      "id": "n4-preguntas",
+      "label": "Preguntas"
+    },
+    {
+      "id": "n4-escuela",
+      "label": "Escuela"
+    },
+    {
+      "id": "n4-sociedad",
+      "label": "Sociedad"
+    },
+    {
+      "id": "n4-naturaleza",
+      "label": "Naturaleza"
+    },
+    {
+      "id": "n4-casa",
+      "label": "Casa"
+    },
+    {
+      "id": "n4-cuerpo",
+      "label": "Cuerpo"
+    },
+    {
+      "id": "n4-transporte",
+      "label": "Transporte"
+    },
+    {
+      "id": "n4-numeros",
+      "label": "Números"
+    }
+  ],
+  "WORD_STARTER": [
+    "n4-verbos",
+    "n4-gente",
+    "n4-tiempo"
+  ],
+  "KANJI_GROUPS": [
+    {
+      "id": "n4-sociedad",
+      "label": "Sociedad"
+    },
+    {
+      "id": "n4-otros",
+      "label": "Otros"
+    },
+    {
+      "id": "n4-trabajo",
+      "label": "Trabajo"
+    },
+    {
+      "id": "n4-verbos",
+      "label": "Verbos"
+    },
+    {
+      "id": "n4-gente",
+      "label": "Gente"
+    },
+    {
+      "id": "n4-lugares",
+      "label": "Lugares"
+    },
+    {
+      "id": "n4-adjetivos",
+      "label": "Adjetivos"
+    },
+    {
+      "id": "n4-cuerpo",
+      "label": "Cuerpo"
+    },
+    {
+      "id": "n4-escuela",
+      "label": "Escuela"
+    },
+    {
+      "id": "n4-naturaleza",
+      "label": "Naturaleza"
+    },
+    {
+      "id": "n4-casa",
+      "label": "Casa"
+    },
+    {
+      "id": "n4-tiempo",
+      "label": "Tiempo"
+    },
+    {
+      "id": "n4-comida",
+      "label": "Comida"
+    },
+    {
+      "id": "n4-transporte",
+      "label": "Transporte"
+    },
+    {
+      "id": "n4-ropa",
+      "label": "Ropa"
+    }
+  ],
+  "KANJI_STARTER": [
+    "n4-verbos",
+    "n4-gente"
+  ],
+  "PHRASE_GROUPS": [
+    {
+      "id": "n4-regalo",
+      "label": "Regalo"
+    },
+    {
+      "id": "n4-forma-て",
+      "label": "Forma て"
+    },
+    {
+      "id": "n4-tiempo",
+      "label": "Tiempo"
+    },
+    {
+      "id": "n4-apariencia",
+      "label": "Apariencia"
+    },
+    {
+      "id": "n4-grado",
+      "label": "Grado"
+    },
+    {
+      "id": "n4-manera",
+      "label": "Manera"
+    },
+    {
+      "id": "n4-intención",
+      "label": "Intención"
+    },
+    {
+      "id": "n4-voz",
+      "label": "Voz"
+    },
+    {
+      "id": "n4-mandato",
+      "label": "Mandato"
+    },
+    {
+      "id": "n4-condición",
+      "label": "Condición"
+    },
+    {
+      "id": "n4-razón",
+      "label": "Razón"
+    },
+    {
+      "id": "n4-deseo",
+      "label": "Deseo"
+    },
+    {
+      "id": "n4-conjetura",
+      "label": "Conjetura"
+    },
+    {
+      "id": "n4-énfasis",
+      "label": "Énfasis"
+    },
+    {
+      "id": "n4-pregunta",
+      "label": "Pregunta"
+    },
+    {
+      "id": "n4-cita",
+      "label": "Cita"
+    },
+    {
+      "id": "n4-cantidad",
+      "label": "Cantidad"
+    },
+    {
+      "id": "n4-obligación",
+      "label": "Obligación"
+    },
+    {
+      "id": "n4-petición",
+      "label": "Petición"
+    },
+    {
+      "id": "n4-cortesía",
+      "label": "Cortesía"
+    },
+    {
+      "id": "n4-permiso",
+      "label": "Permiso"
+    },
+    {
+      "id": "n4-otros",
+      "label": "Otros"
+    },
+    {
+      "id": "n4-consejo",
+      "label": "Consejo"
+    },
+    {
+      "id": "n4-cambio",
+      "label": "Cambio"
+    }
+  ],
+  "PHRASE_STARTER": [
+    "n4-regalo"
+  ],
+  "GRAMMAR_GROUPS": [
+    {
+      "id": "n4-regalo",
+      "label": "Regalo"
+    },
+    {
+      "id": "n4-forma-て",
+      "label": "Forma て"
+    },
+    {
+      "id": "n4-tiempo",
+      "label": "Tiempo"
+    },
+    {
+      "id": "n4-apariencia",
+      "label": "Apariencia"
+    },
+    {
+      "id": "n4-grado",
+      "label": "Grado"
+    },
+    {
+      "id": "n4-manera",
+      "label": "Manera"
+    },
+    {
+      "id": "n4-intención",
+      "label": "Intención"
+    },
+    {
+      "id": "n4-voz",
+      "label": "Voz"
+    },
+    {
+      "id": "n4-mandato",
+      "label": "Mandato"
+    },
+    {
+      "id": "n4-condición",
+      "label": "Condición"
+    },
+    {
+      "id": "n4-razón",
+      "label": "Razón"
+    },
+    {
+      "id": "n4-deseo",
+      "label": "Deseo"
+    },
+    {
+      "id": "n4-conjetura",
+      "label": "Conjetura"
+    },
+    {
+      "id": "n4-énfasis",
+      "label": "Énfasis"
+    },
+    {
+      "id": "n4-pregunta",
+      "label": "Pregunta"
+    },
+    {
+      "id": "n4-cita",
+      "label": "Cita"
+    },
+    {
+      "id": "n4-cantidad",
+      "label": "Cantidad"
+    },
+    {
+      "id": "n4-obligación",
+      "label": "Obligación"
+    },
+    {
+      "id": "n4-petición",
+      "label": "Petición"
+    },
+    {
+      "id": "n4-cortesía",
+      "label": "Cortesía"
+    },
+    {
+      "id": "n4-permiso",
+      "label": "Permiso"
+    },
+    {
+      "id": "n4-otros",
+      "label": "Otros"
+    },
+    {
+      "id": "n4-consejo",
+      "label": "Consejo"
+    },
+    {
+      "id": "n4-cambio",
+      "label": "Cambio"
+    }
+  ],
+  "GRAMMAR_STARTER": [
+    "n4-regalo"
+  ],
+  "WORD_ROWS": [
+    [
+      "w-4fff6d0441",
+      "あ",
+      "",
+      "a",
+      "ah",
+      "n4-otros",
+      "Interjección. No es la vocal del silabario."
+    ],
+    [
+      "w-6a4011f27f",
+      "ああ",
+      "",
+      "aa",
+      "así, de esa manera",
+      "n4-otros",
+      "Señala algo lejano del hablante y del oyente."
+    ],
+    [
+      "w-c3c3ac9f48",
+      "あいさつする",
+      "",
+      "aisatsusuru",
+      "saludar",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-d1a343e501",
+      "あいだ",
+      "間",
+      "aida",
+      "intervalo, mientras",
+      "n4-tiempo",
+      ""
+    ],
+    [
+      "w-54e1f7a772",
+      "あう",
+      "合う",
+      "au",
+      "coincidir",
+      "n4-verbos",
+      "No es 会う, verse con alguien."
+    ],
+    [
+      "w-2a6a55be8d",
+      "あかちゃん",
+      "",
+      "akachan",
+      "bebé",
+      "n4-gente",
+      ""
+    ],
+    [
+      "w-4a3152836b",
+      "あがる",
+      "上がる",
+      "agaru",
+      "subir",
+      "n4-verbos",
+      "Intransitivo. Subir algo es 上げる."
+    ],
+    [
+      "w-e877021bf4",
+      "あかんぼう",
+      "赤ん坊",
+      "akanbou",
+      "bebé, coloquial",
+      "n4-gente",
+      ""
+    ],
+    [
+      "w-91f0d5ac9e",
+      "あく",
+      "空く",
+      "aku",
+      "quedar vacío",
+      "n4-verbos",
+      "No es 開く, abrirse."
+    ],
+    [
+      "w-628b6b8e9d",
+      "アクセサリー",
+      "",
+      "akusesarii",
+      "accesorio",
+      "n4-ropa",
+      ""
+    ],
+    [
+      "w-f935952fed",
+      "あさい",
+      "浅い",
+      "asai",
+      "poco profundo",
+      "n4-adjetivos",
+      ""
+    ],
+    [
+      "w-590fa58ca9",
+      "あじ",
+      "味",
+      "aji",
+      "sabor",
+      "n4-comida",
+      ""
+    ],
+    [
+      "w-97bdb63259",
+      "アジア",
+      "",
+      "ajia",
+      "Asia",
+      "n4-lugares",
+      ""
+    ],
+    [
+      "w-4c3461199c",
+      "あす",
+      "明日",
+      "asu",
+      "mañana, formal",
+      "n4-tiempo",
+      "Más formal que あした. Tampoco lleva に."
+    ],
+    [
+      "w-7fe5e36942",
+      "あそび",
+      "遊び",
+      "asobi",
+      "el juego",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-8c98c01eff",
+      "あつまる",
+      "集まる",
+      "atsumaru",
+      "reunirse",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-b00801af22",
+      "あつめる",
+      "集める",
+      "atsumeru",
+      "reunir",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-c1fb180c70",
+      "アナウンサー",
+      "",
+      "anaunsaa",
+      "locutor",
+      "n4-trabajo",
+      ""
+    ],
+    [
+      "w-0fa879c73d",
+      "アフリカ",
+      "",
+      "afurika",
+      "África",
+      "n4-lugares",
+      ""
+    ],
+    [
+      "w-b921645383",
+      "アメリカ",
+      "",
+      "amerika",
+      "América, Estados Unidos",
+      "n4-lugares",
+      "En la calle suele ser Estados Unidos."
+    ],
+    [
+      "w-1056f23586",
+      "あやまる",
+      "謝る",
+      "ayamaru",
+      "disculparse",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-ab0767b2f7",
+      "アルコール",
+      "",
+      "arukooru",
+      "alcohol",
+      "n4-comida",
+      ""
+    ],
+    [
+      "w-88d4196563",
+      "アルバイト",
+      "",
+      "arubaito",
+      "trabajo a tiempo parcial",
+      "n4-trabajo",
+      "También se dice アルバイトする."
+    ],
+    [
+      "w-d06643e4e1",
+      "あんしん",
+      "安心",
+      "anshin",
+      "alivio, tranquilo",
+      "n4-adjetivos",
+      ""
+    ],
+    [
+      "w-160a8399af",
+      "あんぜん",
+      "安全",
+      "anzen",
+      "seguridad, seguro",
+      "n4-adjetivos",
+      ""
+    ],
+    [
+      "w-367da027cb",
+      "あんな",
+      "",
+      "anna",
+      "ese tipo de, lejos",
+      "n4-preguntas",
+      "Va delante del nombre."
+    ],
+    [
+      "w-52a79a5d69",
+      "あんない",
+      "案内",
+      "annai",
+      "guiar, informar",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-629362dbfc",
+      "いか",
+      "以下",
+      "ika",
+      "por debajo de",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-da4198f39c",
+      "いがい",
+      "以外",
+      "igai",
+      "excepto",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-20044dd689",
+      "いがく",
+      "医学",
+      "igaku",
+      "medicina, la ciencia",
+      "n4-escuela",
+      ""
+    ],
+    [
+      "w-db01fd59d7",
+      "いきる",
+      "生きる",
+      "ikiru",
+      "vivir, estar vivo",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-ba5a03baf1",
+      "いけん",
+      "意見",
+      "iken",
+      "opinión",
+      "n4-sociedad",
+      ""
+    ],
+    [
+      "w-372ce69caf",
+      "いし",
+      "石",
+      "ishi",
+      "piedra",
+      "n4-naturaleza",
+      ""
+    ],
+    [
+      "w-770aa71095",
+      "いじめる",
+      "",
+      "ijimeru",
+      "maltratar, burlarse",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-13ab63d79a",
+      "いじょう",
+      "以上",
+      "ijou",
+      "por encima de",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-05b5de61ab",
+      "いそぐ",
+      "急ぐ",
+      "isogu",
+      "darse prisa",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-6dbf756da1",
+      "いたす",
+      "致す",
+      "itasu",
+      "hacer, humilde",
+      "n4-verbos",
+      "El humilde de する."
+    ],
+    [
+      "w-47cc7185d5",
+      "いただく",
+      "",
+      "itadaku",
+      "recibir, humilde",
+      "n4-verbos",
+      "También comer, con humildad."
+    ],
+    [
+      "w-bf82bb12d2",
+      "いちど",
+      "一度",
+      "ichido",
+      "una vez",
+      "n4-tiempo",
+      ""
+    ],
+    [
+      "w-cf69ef2274",
+      "いっしょうけんめい",
+      "一生懸命",
+      "isshoukenmei",
+      "con todas las fuerzas",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-95f7288e1b",
+      "いっぱい",
+      "",
+      "ippai",
+      "lleno",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-3de1fe452d",
+      "いと",
+      "糸",
+      "ito",
+      "hilo",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-556e3e0d99",
+      "いない",
+      "以内",
+      "inai",
+      "dentro de un límite",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-11d4a3118b",
+      "いなか",
+      "田舎",
+      "inaka",
+      "el campo, zona rural",
+      "n4-lugares",
+      ""
+    ],
+    [
+      "w-877a39a99f",
+      "いのる",
+      "祈る",
+      "inoru",
+      "rezar",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-bc25dff617",
+      "いらっしゃる",
+      "",
+      "irassharu",
+      "estar, ir o venir, de respeto",
+      "n4-verbos",
+      "ます es いらっしゃいます, no いらっしゃります."
+    ],
+    [
+      "w-833af5347e",
+      "うえる",
+      "植える",
+      "ueru",
+      "plantar",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-bf69a1d9f2",
+      "うかがう",
+      "",
+      "ukagau",
+      "visitar o preguntar, humilde",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-4bdd43130b",
+      "うけつけ",
+      "受付",
+      "uketsuke",
+      "recepción",
+      "n4-lugares",
+      ""
+    ],
+    [
+      "w-20989c0cb5",
+      "うける",
+      "受ける",
+      "ukeru",
+      "recibir, hacer un examen",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-e54d4fef93",
+      "うごく",
+      "動く",
+      "ugoku",
+      "moverse",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-da1a2f9721",
+      "うそ",
+      "",
+      "uso",
+      "mentira",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-76d4bcd098",
+      "うち",
+      "",
+      "uchi",
+      "casa de uno, o dentro de",
+      "n4-casa",
+      ""
+    ],
+    [
+      "w-e6f3a7d91a",
+      "うつ",
+      "打つ",
+      "utsu",
+      "golpear",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-0dd54894db",
+      "うつくしい",
+      "美しい",
+      "utsukushii",
+      "hermoso",
+      "n4-adjetivos",
+      ""
+    ],
+    [
+      "w-69589e0288",
+      "うつす",
+      "写す",
+      "utsusu",
+      "copiar, fotografiar",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-c7362b5e02",
+      "うつる",
+      "移る",
+      "utsuru",
+      "mudarse, pasar a",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-78d94c404b",
+      "うで",
+      "腕",
+      "ude",
+      "brazo",
+      "n4-cuerpo",
+      ""
+    ],
+    [
+      "w-6d3b3fe0a4",
+      "うまい",
+      "",
+      "umai",
+      "rico, o hábil",
+      "n4-adjetivos",
+      "De la comida, o de una destreza."
+    ],
+    [
+      "w-1b5a6286d6",
+      "うら",
+      "裏",
+      "ura",
+      "el reverso",
+      "n4-lugares",
+      ""
+    ],
+    [
+      "w-11222e25b5",
+      "うりば",
+      "売り場",
+      "uriba",
+      "sección de venta",
+      "n4-lugares",
+      ""
+    ],
+    [
+      "w-c67a9658b1",
+      "うれしい",
+      "",
+      "ureshii",
+      "contento",
+      "n4-adjetivos",
+      ""
+    ],
+    [
+      "w-533b248802",
+      "うん",
+      "",
+      "un",
+      "sí, informal",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-44f33984fb",
+      "うんてん",
+      "運転",
+      "unten",
+      "conducir",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-9f6e25d5e2",
+      "うんてんしゅ",
+      "運転手",
+      "untenshu",
+      "conductor",
+      "n4-trabajo",
+      ""
+    ],
+    [
+      "w-47487b1e85",
+      "うんどう",
+      "運動",
+      "undou",
+      "hacer ejercicio",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-3139c14254",
+      "エスカレーター",
+      "",
+      "esukareetaa",
+      "escalera mecánica",
+      "n4-lugares",
+      ""
+    ],
+    [
+      "w-bb01cb559f",
+      "えだ",
+      "枝",
+      "eda",
+      "rama",
+      "n4-naturaleza",
+      ""
+    ],
+    [
+      "w-60c9784974",
+      "えらぶ",
+      "選ぶ",
+      "erabu",
+      "elegir",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-5ceed9165d",
+      "えんりょ",
+      "遠慮",
+      "enryo",
+      "reservarse, declinar",
+      "n4-verbos",
+      "ご遠慮ください es un aviso de no hacer algo."
+    ],
+    [
+      "w-53c76e5c6e",
+      "おいでになる",
+      "",
+      "oideninaru",
+      "estar o ir, de respeto",
+      "n4-verbos",
+      "Otra forma de いらっしゃる."
+    ],
+    [
+      "w-12e7bd036b",
+      "おいわい",
+      "お祝い",
+      "oiwai",
+      "felicitación",
+      "n4-sociedad",
+      ""
+    ],
+    [
+      "w-5c63f36f44",
+      "オートバイ",
+      "",
+      "ootobai",
+      "motocicleta",
+      "n4-transporte",
+      ""
+    ],
+    [
+      "w-e5e5899ce2",
+      "おかげ",
+      "",
+      "okage",
+      "gracias a",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-4d2128cddd",
+      "おかしい",
+      "",
+      "okashii",
+      "raro, o gracioso",
+      "n4-adjetivos",
+      ""
+    ],
+    [
+      "w-a58874b751",
+      "おかねもち",
+      "お金持ち",
+      "okanemochi",
+      "persona rica",
+      "n4-gente",
+      ""
+    ],
+    [
+      "w-4cfa8f43e2",
+      "おく",
+      "億",
+      "oku",
+      "cien millones",
+      "n4-numeros",
+      ""
+    ],
+    [
+      "w-1065d7145c",
+      "おくじょう",
+      "屋上",
+      "okujou",
+      "azotea",
+      "n4-lugares",
+      ""
+    ],
+    [
+      "w-ba001e2f36",
+      "おくりもの",
+      "贈り物",
+      "okurimono",
+      "regalo",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-af1dae5588",
+      "おくる",
+      "送る",
+      "okuru",
+      "enviar",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-ae8ce3986c",
+      "おくれる",
+      "遅れる",
+      "okureru",
+      "llegar tarde",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-99de4451f7",
+      "おこす",
+      "起こす",
+      "okosu",
+      "despertar a alguien",
+      "n4-verbos",
+      "Se escribe también 起こす."
+    ],
+    [
+      "w-2139fab218",
+      "おこなう",
+      "行う",
+      "okonau",
+      "llevar a cabo",
+      "n4-verbos",
+      "La forma て es 行って, leída おこなって. No es 行く."
+    ],
+    [
+      "w-2e0f32c097",
+      "おこる",
+      "怒る",
+      "okoru",
+      "enfadarse",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-3787755f33",
+      "おしいれ",
+      "押し入れ",
+      "oshiire",
+      "armario empotrado",
+      "n4-casa",
+      ""
+    ],
+    [
+      "w-1f5a7d8e07",
+      "おじょうさん",
+      "お嬢さん",
+      "ojousan",
+      "su hija, cortés",
+      "n4-gente",
+      ""
+    ],
+    [
+      "w-6693b4e9f7",
+      "おたく",
+      "お宅",
+      "otaku",
+      "su casa, cortés",
+      "n4-casa",
+      ""
+    ],
+    [
+      "w-981ee66f59",
+      "おちる",
+      "落ちる",
+      "ochiru",
+      "caerse",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-050024e2d9",
+      "おっしゃる",
+      "",
+      "ossharu",
+      "decir, de respeto",
+      "n4-verbos",
+      "ます es おっしゃいます."
+    ],
+    [
+      "w-b8630e0875",
+      "おっと",
+      "夫",
+      "otto",
+      "esposo",
+      "n4-gente",
+      ""
+    ],
+    [
+      "w-f2c38f9517",
+      "おつり",
+      "",
+      "otsuri",
+      "el cambio, dinero",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-c6815e7618",
+      "おと",
+      "音",
+      "oto",
+      "sonido",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-f786333cf9",
+      "おとす",
+      "落とす",
+      "otosu",
+      "dejar caer",
+      "n4-verbos",
+      "Se escribe también 落とす."
+    ],
+    [
+      "w-8c636a46f4",
+      "おどり",
+      "踊り",
+      "odori",
+      "baile",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-3280103eb8",
+      "おどる",
+      "踊る",
+      "odoru",
+      "bailar",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-6d69734463",
+      "おどろく",
+      "驚く",
+      "odoroku",
+      "sorprenderse",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-68ff489ea4",
+      "おまつり",
+      "お祭り",
+      "omatsuri",
+      "festival",
+      "n4-sociedad",
+      ""
+    ],
+    [
+      "w-eb615955c8",
+      "おみまい",
+      "お見舞い",
+      "omimai",
+      "visita a un enfermo",
+      "n4-sociedad",
+      ""
+    ],
+    [
+      "w-f586632207",
+      "おみやげ",
+      "お土産",
+      "omiyage",
+      "recuerdo de viaje",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-3e4c1468c7",
+      "おもいだす",
+      "思い出す",
+      "omoidasu",
+      "recordar",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-bad913ed8f",
+      "おもう",
+      "思う",
+      "omou",
+      "pensar, opinar",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-1579d0db1b",
+      "おもちゃ",
+      "",
+      "omocha",
+      "juguete",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-721424863e",
+      "おもて",
+      "表",
+      "omote",
+      "el anverso",
+      "n4-lugares",
+      ""
+    ],
+    [
+      "w-9099d4615b",
+      "おや",
+      "親",
+      "oya",
+      "padres",
+      "n4-gente",
+      ""
+    ],
+    [
+      "w-d9cf4f541d",
+      "およぎかた",
+      "泳ぎ方",
+      "oyogikata",
+      "manera de nadar",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-4806278f5b",
+      "おりる",
+      "下りる",
+      "oriru",
+      "bajar de un vehículo",
+      "n4-verbos",
+      "No es 降りる si el tren es el sujeto: aquí baja la persona."
+    ],
+    [
+      "w-ac3d1de39a",
+      "おる",
+      "折る",
+      "oru",
+      "doblar, partir",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-12db3e5f4e",
+      "おれい",
+      "お礼",
+      "orei",
+      "agradecimiento",
+      "n4-sociedad",
+      ""
+    ],
+    [
+      "w-d517e5d931",
+      "おれる",
+      "折れる",
+      "oreru",
+      "doblarse, partirse",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-19cb869e4d",
+      "おわり",
+      "終わり",
+      "owari",
+      "el final",
+      "n4-tiempo",
+      ""
+    ],
+    [
+      "w-cbbc4c3524",
+      "カーテン",
+      "",
+      "kaaten",
+      "cortina",
+      "n4-casa",
+      ""
+    ],
+    [
+      "w-6f4ad2115e",
+      "かいがん",
+      "海岸",
+      "kaigan",
+      "costa",
+      "n4-lugares",
+      ""
+    ],
+    [
+      "w-83af91b7eb",
+      "かいぎ",
+      "会議",
+      "kaigi",
+      "reunión",
+      "n4-trabajo",
+      ""
+    ],
+    [
+      "w-93ff1a80c2",
+      "かいぎしつ",
+      "会議室",
+      "kaigishitsu",
+      "sala de reuniones",
+      "n4-lugares",
+      ""
+    ],
+    [
+      "w-7508a7d366",
+      "かいじょう",
+      "会場",
+      "kaijou",
+      "sede del acto",
+      "n4-lugares",
+      ""
+    ],
+    [
+      "w-81b9c23c14",
+      "かいわ",
+      "会話",
+      "kaiwa",
+      "conversación",
+      "n4-escuela",
+      ""
+    ],
+    [
+      "w-6365c5ac47",
+      "かえり",
+      "帰り",
+      "kaeri",
+      "la vuelta",
+      "n4-tiempo",
+      ""
+    ],
+    [
+      "w-64e3e16740",
+      "かえる",
+      "変える",
+      "kaeru",
+      "cambiar algo",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-ea150f3d48",
+      "かがく",
+      "科学",
+      "kagaku",
+      "ciencia",
+      "n4-escuela",
+      ""
+    ],
+    [
+      "w-2c7db27d62",
+      "かがみ",
+      "鏡",
+      "kagami",
+      "espejo",
+      "n4-casa",
+      ""
+    ],
+    [
+      "w-2d6f99582c",
+      "かざる",
+      "飾る",
+      "kazaru",
+      "decorar",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-b64af0c4f7",
+      "かじ",
+      "火事",
+      "kaji",
+      "incendio",
+      "n4-sociedad",
+      ""
+    ],
+    [
+      "w-376ccb94c4",
+      "ガス",
+      "",
+      "gasu",
+      "gas",
+      "n4-casa",
+      "No es gasolina. Eso es ガソリン."
+    ],
+    [
+      "w-b3c360789e",
+      "ガソリン",
+      "",
+      "gasorin",
+      "gasolina",
+      "n4-transporte",
+      ""
+    ],
+    [
+      "w-57c68573b7",
+      "ガソリンスタンド",
+      "",
+      "gasorinsutando",
+      "gasolinera",
+      "n4-lugares",
+      ""
+    ],
+    [
+      "w-d0e700807a",
+      "かたい",
+      "堅い",
+      "katai",
+      "duro, firme",
+      "n4-adjetivos",
+      ""
+    ],
+    [
+      "w-26f2ddd0a2",
+      "かたち",
+      "形",
+      "katachi",
+      "forma",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-119fdf575e",
+      "かたづける",
+      "片付ける",
+      "katazukeru",
+      "ordenar",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-26a19196b7",
+      "かちょう",
+      "課長",
+      "kachou",
+      "jefe de sección",
+      "n4-trabajo",
+      ""
+    ],
+    [
+      "w-021c00423f",
+      "かつ",
+      "勝つ",
+      "katsu",
+      "ganar",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-876713fb67",
+      "かっこう",
+      "",
+      "kakkou",
+      "aspecto, pinta",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-89927b8fa1",
+      "かない",
+      "家内",
+      "kanai",
+      "mi esposa, formal",
+      "n4-gente",
+      "Habla de la propia. La de otro es 奥さん."
+    ],
+    [
+      "w-3153705f1f",
+      "かなしい",
+      "悲しい",
+      "kanashii",
+      "triste",
+      "n4-adjetivos",
+      ""
+    ],
+    [
+      "w-5a76ee84b9",
+      "かならず",
+      "必ず",
+      "kanarazu",
+      "sin falta",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-be3dacfc93",
+      "かのじょ",
+      "彼女",
+      "kanojo",
+      "ella, o novia",
+      "n4-gente",
+      ""
+    ],
+    [
+      "w-0752484ec5",
+      "かべ",
+      "壁",
+      "kabe",
+      "pared",
+      "n4-casa",
+      ""
+    ],
+    [
+      "w-e7dca3ae5a",
+      "かまう",
+      "",
+      "kamau",
+      "importar",
+      "n4-verbos",
+      "かまわない es no importa."
+    ],
+    [
+      "w-ec0fe6786a",
+      "かみ",
+      "髪",
+      "kami",
+      "pelo, cabello",
+      "n4-cuerpo",
+      ""
+    ],
+    [
+      "w-6b240c6105",
+      "かむ",
+      "噛む",
+      "kamu",
+      "morder",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-d1cd028481",
+      "かよう",
+      "通う",
+      "kayou",
+      "ir habitualmente",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-4c9297421b",
+      "ガラス",
+      "",
+      "garasu",
+      "cristal",
+      "n4-casa",
+      ""
+    ],
+    [
+      "w-0963c50b58",
+      "かれ",
+      "彼",
+      "kare",
+      "él",
+      "n4-gente",
+      ""
+    ],
+    [
+      "w-6345553664",
+      "かれら",
+      "彼ら",
+      "karera",
+      "ellos",
+      "n4-gente",
+      ""
+    ],
+    [
+      "w-84c24fbab6",
+      "かわく",
+      "乾く",
+      "kawaku",
+      "secarse",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-34071d7901",
+      "かわり",
+      "代わり",
+      "kawari",
+      "en lugar de",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-ec1bdccf03",
+      "かわる",
+      "変わる",
+      "kawaru",
+      "cambiar",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-cc34f28850",
+      "かんがえる",
+      "考える",
+      "kangaeru",
+      "pensar, considerar",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-f960d43119",
+      "かんけい",
+      "関係",
+      "kankei",
+      "relación",
+      "n4-sociedad",
+      ""
+    ],
+    [
+      "w-374a0aa749",
+      "かんごふ",
+      "看護婦",
+      "kangofu",
+      "enfermera",
+      "n4-trabajo",
+      "Hoy se dice 看護師. La lista antigua usa esta forma."
+    ],
+    [
+      "w-ac20bba998",
+      "かんたん",
+      "簡単",
+      "kantan",
+      "sencillo",
+      "n4-adjetivos",
+      ""
+    ],
+    [
+      "w-ab366b6c9d",
+      "き",
+      "気",
+      "ki",
+      "ánimo",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-3f4f3a3b9d",
+      "きかい",
+      "機会",
+      "kikai",
+      "ocasión",
+      "n4-tiempo",
+      ""
+    ],
+    [
+      "w-8bbbe3a9e8",
+      "きけん",
+      "危険",
+      "kiken",
+      "peligro, peligroso",
+      "n4-adjetivos",
+      ""
+    ],
+    [
+      "w-7225b79db5",
+      "きこえる",
+      "聞こえる",
+      "kikoeru",
+      "oírse",
+      "n4-verbos",
+      "Ya expresa que el sonido llega. No hace falta otra potencial."
+    ],
+    [
+      "w-a0c815188f",
+      "きしゃ",
+      "汽車",
+      "kisha",
+      "tren de vapor",
+      "n4-transporte",
+      ""
+    ],
+    [
+      "w-bbf69b64f8",
+      "ぎじゅつ",
+      "技術",
+      "gijutsu",
+      "técnica",
+      "n4-escuela",
+      ""
+    ],
+    [
+      "w-a1afb31e7b",
+      "きせつ",
+      "季節",
+      "kisetsu",
+      "estación del año",
+      "n4-tiempo",
+      ""
+    ],
+    [
+      "w-fcca18b129",
+      "きそく",
+      "規則",
+      "kisoku",
+      "regla",
+      "n4-escuela",
+      ""
+    ],
+    [
+      "w-b284605582",
+      "きっと",
+      "",
+      "kitto",
+      "seguro que",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-4d5b12c74c",
+      "きぬ",
+      "絹",
+      "kinu",
+      "seda",
+      "n4-ropa",
+      ""
+    ],
+    [
+      "w-d90ee2957c",
+      "きびしい",
+      "厳しい",
+      "kibishii",
+      "estricto",
+      "n4-adjetivos",
+      ""
+    ],
+    [
+      "w-42f05076b3",
+      "きぶん",
+      "気分",
+      "kibun",
+      "humor, cómo se siente uno",
+      "n4-cuerpo",
+      ""
+    ],
+    [
+      "w-e4e7e09df0",
+      "きまる",
+      "決まる",
+      "kimaru",
+      "quedar decidido",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-ed36e1d3a7",
+      "きみ",
+      "君",
+      "kimi",
+      "tú, informal",
+      "n4-gente",
+      ""
+    ],
+    [
+      "w-6a98f898ab",
+      "きめる",
+      "決める",
+      "kimeru",
+      "decidir",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-af80712b7b",
+      "きもち",
+      "気持ち",
+      "kimochi",
+      "sentimiento",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-a2a012c05f",
+      "きもの",
+      "着物",
+      "kimono",
+      "kimono",
+      "n4-ropa",
+      ""
+    ],
+    [
+      "w-cb029e617e",
+      "きゃく",
+      "客",
+      "kyaku",
+      "cliente, invitado",
+      "n4-gente",
+      ""
+    ],
+    [
+      "w-a02c2a6790",
+      "きゅう",
+      "急",
+      "kyuu",
+      "urgente",
+      "n4-adjetivos",
+      ""
+    ],
+    [
+      "w-b6027b4099",
+      "きゅうこう",
+      "急行",
+      "kyuukou",
+      "tren rápido",
+      "n4-transporte",
+      ""
+    ],
+    [
+      "w-319186af72",
+      "きょういく",
+      "教育",
+      "kyouiku",
+      "educación",
+      "n4-escuela",
+      ""
+    ],
+    [
+      "w-7a7b79370f",
+      "きょうかい",
+      "教会",
+      "kyoukai",
+      "iglesia",
+      "n4-lugares",
+      ""
+    ],
+    [
+      "w-a9dcbea815",
+      "きょうそう",
+      "競争",
+      "kyousou",
+      "competición",
+      "n4-sociedad",
+      ""
+    ],
+    [
+      "w-23ea485338",
+      "きょうみ",
+      "興味",
+      "kyoumi",
+      "interés",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-a6d55823a0",
+      "きんじょ",
+      "近所",
+      "kinjo",
+      "vecindario",
+      "n4-lugares",
+      ""
+    ],
+    [
+      "w-f36e445797",
+      "ぐあい",
+      "具合",
+      "guai",
+      "estado, cómo va",
+      "n4-cuerpo",
+      ""
+    ],
+    [
+      "w-a70d257a61",
+      "くうき",
+      "空気",
+      "kuuki",
+      "aire",
+      "n4-naturaleza",
+      ""
+    ],
+    [
+      "w-0f74a8f3a4",
+      "くうこう",
+      "空港",
+      "kuukou",
+      "aeropuerto",
+      "n4-lugares",
+      ""
+    ],
+    [
+      "w-b5b90cb965",
+      "くさ",
+      "草",
+      "kusa",
+      "hierba",
+      "n4-naturaleza",
+      ""
+    ],
+    [
+      "w-b8da4537a2",
+      "くださる",
+      "",
+      "kudasaru",
+      "dar, de respeto",
+      "n4-verbos",
+      "ます es くださいます. Alguien respetado da al hablante."
+    ],
+    [
+      "w-78c6412e35",
+      "くび",
+      "首",
+      "kubi",
+      "cuello",
+      "n4-cuerpo",
+      ""
+    ],
+    [
+      "w-7db3da6e1b",
+      "くも",
+      "雲",
+      "kumo",
+      "nube",
+      "n4-naturaleza",
+      ""
+    ],
+    [
+      "w-5bfe1d2c25",
+      "くらべる",
+      "比べる",
+      "kuraberu",
+      "comparar",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-7d2f81c2a3",
+      "くれる",
+      "",
+      "kureru",
+      "darme",
+      "n4-verbos",
+      "Alguien da al hablante o a su grupo. No es 暮れる."
+    ],
+    [
+      "w-17279b1beb",
+      "くれる",
+      "暮れる",
+      "kureru",
+      "anochecer",
+      "n4-verbos",
+      "Misma lectura que くれる, dar, y otro significado."
+    ],
+    [
+      "w-e9bab5c151",
+      "け",
+      "毛",
+      "ke",
+      "pelo, vello",
+      "n4-cuerpo",
+      ""
+    ],
+    [
+      "w-836311c7d4",
+      "けいかく",
+      "計画",
+      "keikaku",
+      "planear",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-9746b57413",
+      "けいけん",
+      "経験",
+      "keiken",
+      "experimentar",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-5079fc5daf",
+      "けいざい",
+      "経済",
+      "keizai",
+      "economía",
+      "n4-sociedad",
+      ""
+    ],
+    [
+      "w-25550955b0",
+      "けいさつ",
+      "警察",
+      "keisatsu",
+      "policía",
+      "n4-sociedad",
+      ""
+    ],
+    [
+      "w-8426193f36",
+      "ケーキ",
+      "",
+      "keeki",
+      "pastel",
+      "n4-comida",
+      ""
+    ],
+    [
+      "w-8fb005254a",
+      "けがする",
+      "",
+      "kegasuru",
+      "herirse",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-a200494cec",
+      "けしき",
+      "景色",
+      "keshiki",
+      "paisaje",
+      "n4-naturaleza",
+      ""
+    ],
+    [
+      "w-ba1b3c0d13",
+      "けしゴム",
+      "消しゴム",
+      "keshigomu",
+      "goma de borrar",
+      "n4-escuela",
+      ""
+    ],
+    [
+      "w-c3da539389",
+      "げしゅく",
+      "下宿",
+      "geshuku",
+      "pensión",
+      "n4-casa",
+      ""
+    ],
+    [
+      "w-511cbf9eee",
+      "けっして",
+      "決して",
+      "kesshite",
+      "nunca, con negativo",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-0435dab637",
+      "けれど",
+      "",
+      "keredo",
+      "pero",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-43f91bcf9d",
+      "げんいん",
+      "原因",
+      "gen'in",
+      "causa",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-063c94089d",
+      "けんかする",
+      "",
+      "kenkasuru",
+      "pelearse",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-607f3c4430",
+      "けんきゅう",
+      "研究",
+      "kenkyuu",
+      "investigación",
+      "n4-escuela",
+      ""
+    ],
+    [
+      "w-912c269668",
+      "けんきゅうしつ",
+      "研究室",
+      "kenkyuushitsu",
+      "laboratorio",
+      "n4-lugares",
+      ""
+    ],
+    [
+      "w-a9a71878f0",
+      "けんぶつ",
+      "見物",
+      "kenbutsu",
+      "ir a ver, turismo",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-f17fa2d7e1",
+      "こ",
+      "子",
+      "ko",
+      "niño",
+      "n4-gente",
+      ""
+    ],
+    [
+      "w-3cd723d544",
+      "こう",
+      "",
+      "kou",
+      "así, de esta manera",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-aa95e437a0",
+      "こうがい",
+      "郊外",
+      "kougai",
+      "afueras",
+      "n4-lugares",
+      ""
+    ],
+    [
+      "w-8063587e53",
+      "こうぎ",
+      "講義",
+      "kougi",
+      "clase universitaria",
+      "n4-escuela",
+      ""
+    ],
+    [
+      "w-baaaf1524a",
+      "こうぎょう",
+      "工業",
+      "kougyou",
+      "industria manufacturera",
+      "n4-trabajo",
+      ""
+    ],
+    [
+      "w-22ba4ea959",
+      "こうこう",
+      "高校",
+      "koukou",
+      "instituto",
+      "n4-escuela",
+      ""
+    ],
+    [
+      "w-795156bbfe",
+      "こうこうせい",
+      "高校生",
+      "koukousei",
+      "estudiante de instituto",
+      "n4-gente",
+      ""
+    ],
+    [
+      "w-8b7434e649",
+      "こうじょう",
+      "工場",
+      "koujou",
+      "fábrica",
+      "n4-lugares",
+      ""
+    ],
+    [
+      "w-0c49fbf17c",
+      "こうちょう",
+      "校長",
+      "kouchou",
+      "director del colegio",
+      "n4-trabajo",
+      ""
+    ],
+    [
+      "w-d64432f194",
+      "こうつう",
+      "交通",
+      "koutsuu",
+      "tráfico",
+      "n4-transporte",
+      ""
+    ],
+    [
+      "w-8786f4e971",
+      "こうどう",
+      "講堂",
+      "koudou",
+      "auditorio",
+      "n4-lugares",
+      ""
+    ],
+    [
+      "w-9593b3e04f",
+      "こうとうがっこう",
+      "高等学校",
+      "koutougakkou",
+      "instituto, nombre oficial",
+      "n4-escuela",
+      ""
+    ],
+    [
+      "w-a431dff83f",
+      "こうむいん",
+      "公務員",
+      "koumuin",
+      "funcionario",
+      "n4-trabajo",
+      ""
+    ],
+    [
+      "w-8fd9bc63e8",
+      "こくさい",
+      "国際",
+      "kokusai",
+      "internacional",
+      "n4-sociedad",
+      ""
+    ],
+    [
+      "w-be527b9f9d",
+      "こころ",
+      "心",
+      "kokoro",
+      "corazón, la mente",
+      "n4-cuerpo",
+      ""
+    ],
+    [
+      "w-8bd7bc72e8",
+      "ごしゅじん",
+      "御主人",
+      "goshujin",
+      "su esposo, cortés",
+      "n4-gente",
+      ""
+    ],
+    [
+      "w-ce133477e7",
+      "こしょう",
+      "故障",
+      "koshou",
+      "averiarse",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-5bb88bc7a4",
+      "ごぞんじ",
+      "ご存じ",
+      "gozonji",
+      "saber, cortés",
+      "n4-otros",
+      "ご存じですか pregunta si la otra persona sabe."
+    ],
+    [
+      "w-aac669551b",
+      "こたえ",
+      "答",
+      "kotae",
+      "respuesta",
+      "n4-escuela",
+      ""
+    ],
+    [
+      "w-5bd8adf14c",
+      "ごちそう",
+      "",
+      "gochisou",
+      "banquete, invitar a comer",
+      "n4-comida",
+      ""
+    ],
+    [
+      "w-038f67b635",
+      "こと",
+      "",
+      "koto",
+      "hecho, cosa abstracta",
+      "n4-otros",
+      "No es un objeto que se toca. Eso es もの."
+    ],
+    [
+      "w-0ae014e274",
+      "ことり",
+      "小鳥",
+      "kotori",
+      "pajarito",
+      "n4-naturaleza",
+      ""
+    ],
+    [
+      "w-cd7dd383c9",
+      "このあいだ",
+      "",
+      "konoaida",
+      "el otro día",
+      "n4-tiempo",
+      ""
+    ],
+    [
+      "w-22f8fe69bf",
+      "このごろ",
+      "",
+      "konogoro",
+      "estos días",
+      "n4-tiempo",
+      ""
+    ],
+    [
+      "w-286e978a7d",
+      "こまかい",
+      "細かい",
+      "komakai",
+      "menudo, detallado",
+      "n4-adjetivos",
+      ""
+    ],
+    [
+      "w-bdab237e0d",
+      "ごみ",
+      "",
+      "gomi",
+      "basura",
+      "n4-casa",
+      ""
+    ],
+    [
+      "w-0470fc929f",
+      "こむ",
+      "込む",
+      "komu",
+      "estar lleno de gente",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-19a8ef6b7a",
+      "こめ",
+      "米",
+      "kome",
+      "arroz crudo",
+      "n4-comida",
+      "El arroz cocido es ごはん."
+    ],
+    [
+      "w-17fb3976d2",
+      "ごらんになる",
+      "",
+      "goranninaru",
+      "ver, de respeto",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-b71d50ee32",
+      "これから",
+      "",
+      "korekara",
+      "a partir de ahora",
+      "n4-tiempo",
+      ""
+    ],
+    [
+      "w-a769e4c0da",
+      "こわい",
+      "怖い",
+      "kowai",
+      "da miedo",
+      "n4-adjetivos",
+      ""
+    ],
+    [
+      "w-0b089107f6",
+      "こわす",
+      "壊す",
+      "kowasu",
+      "romper",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-63290aef69",
+      "こわれる",
+      "壊れる",
+      "kowareru",
+      "romperse",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-d11b994212",
+      "コンサート",
+      "",
+      "konsaato",
+      "concierto",
+      "n4-sociedad",
+      ""
+    ],
+    [
+      "w-cbb63150b8",
+      "こんど",
+      "今度",
+      "kondo",
+      "esta vez, o la próxima",
+      "n4-tiempo",
+      ""
+    ],
+    [
+      "w-918e096f88",
+      "コンピュータ",
+      "",
+      "konpyuuta",
+      "ordenador",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-bdad768057",
+      "こんや",
+      "今夜",
+      "kon'ya",
+      "esta noche",
+      "n4-tiempo",
+      ""
+    ],
+    [
+      "w-df21df827a",
+      "さいきん",
+      "最近",
+      "saikin",
+      "últimamente",
+      "n4-tiempo",
+      ""
+    ],
+    [
+      "w-c54201ce25",
+      "さいご",
+      "最後",
+      "saigo",
+      "el último",
+      "n4-tiempo",
+      ""
+    ],
+    [
+      "w-f5c169269f",
+      "さいしょ",
+      "最初",
+      "saisho",
+      "el principio",
+      "n4-tiempo",
+      ""
+    ],
+    [
+      "w-856f1c8216",
+      "さか",
+      "坂",
+      "saka",
+      "cuesta",
+      "n4-lugares",
+      ""
+    ],
+    [
+      "w-0f4440571e",
+      "さがす",
+      "探す",
+      "sagasu",
+      "buscar",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-608037bdca",
+      "さがる",
+      "下がる",
+      "sagaru",
+      "bajar",
+      "n4-verbos",
+      "Intransitivo."
+    ],
+    [
+      "w-c70caf0317",
+      "さかん",
+      "盛ん",
+      "sakan",
+      "activo, en auge",
+      "n4-adjetivos",
+      ""
+    ],
+    [
+      "w-92226ca7db",
+      "さげる",
+      "下げる",
+      "sageru",
+      "bajar algo",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-4d497f75cf",
+      "さしあげる",
+      "差し上げる",
+      "sashiageru",
+      "dar, cortés",
+      "n4-verbos",
+      "El hablante da a alguien respetado."
+    ],
+    [
+      "w-97bf3a5f9e",
+      "さっき",
+      "",
+      "sakki",
+      "hace un momento",
+      "n4-tiempo",
+      ""
+    ],
+    [
+      "w-6dc70626da",
+      "さびしい",
+      "寂しい",
+      "sabishii",
+      "solo, con nostalgia",
+      "n4-adjetivos",
+      ""
+    ],
+    [
+      "w-22a8ff8a88",
+      "さらいげつ",
+      "再来月",
+      "saraigetsu",
+      "dentro de dos meses",
+      "n4-tiempo",
+      ""
+    ],
+    [
+      "w-a6678a1d99",
+      "さらいしゅう",
+      "再来週",
+      "saraishuu",
+      "dentro de dos semanas",
+      "n4-tiempo",
+      ""
+    ],
+    [
+      "w-43f6c947f9",
+      "サラダ",
+      "",
+      "sarada",
+      "ensalada",
+      "n4-comida",
+      ""
+    ],
+    [
+      "w-5afe333d1c",
+      "さわぐ",
+      "騒ぐ",
+      "sawagu",
+      "armar ruido",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-6d0bb40a1f",
+      "さわる",
+      "触る",
+      "sawaru",
+      "tocar",
+      "n4-verbos",
+      "Lleva に: ドアに触る."
+    ],
+    [
+      "w-28faf8f7a3",
+      "さんぎょう",
+      "産業",
+      "sangyou",
+      "sector productivo",
+      "n4-trabajo",
+      ""
+    ],
+    [
+      "w-4b94df57e2",
+      "サンダル",
+      "",
+      "sandaru",
+      "sandalia",
+      "n4-ropa",
+      ""
+    ],
+    [
+      "w-f919deef04",
+      "サンドイッチ",
+      "",
+      "sandoitchi",
+      "sándwich",
+      "n4-comida",
+      ""
+    ],
+    [
+      "w-6243a1575b",
+      "ざんねん",
+      "残念",
+      "zannen",
+      "qué pena",
+      "n4-adjetivos",
+      ""
+    ],
+    [
+      "w-988f9bb24f",
+      "し",
+      "市",
+      "shi",
+      "ciudad",
+      "n4-lugares",
+      ""
+    ],
+    [
+      "w-dd89673ae0",
+      "じ",
+      "字",
+      "ji",
+      "carácter, letra",
+      "n4-escuela",
+      ""
+    ],
+    [
+      "w-fd00937783",
+      "しあい",
+      "試合",
+      "shiai",
+      "partido",
+      "n4-sociedad",
+      ""
+    ],
+    [
+      "w-88125cd960",
+      "しかた",
+      "仕方",
+      "shikata",
+      "manera de hacer",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-f9a20b5203",
+      "しかる",
+      "",
+      "shikaru",
+      "cierto, un determinado",
+      "n4-otros",
+      "No es 叱る, regañar. しかる人 es una persona determinada."
+    ],
+    [
+      "w-7855de335f",
+      "しけん",
+      "試験",
+      "shiken",
+      "examen",
+      "n4-escuela",
+      ""
+    ],
+    [
+      "w-7f6ffe3432",
+      "じこ",
+      "事故",
+      "jiko",
+      "accidente",
+      "n4-sociedad",
+      ""
+    ],
+    [
+      "w-ba8831572d",
+      "じしん",
+      "地震",
+      "jishin",
+      "terremoto",
+      "n4-naturaleza",
+      ""
+    ],
+    [
+      "w-62ebad7ac3",
+      "じだい",
+      "時代",
+      "jidai",
+      "época",
+      "n4-tiempo",
+      ""
+    ],
+    [
+      "w-0c0fb94d28",
+      "したぎ",
+      "下着",
+      "shitagi",
+      "ropa interior",
+      "n4-ropa",
+      ""
+    ],
+    [
+      "w-ecb83e16fd",
+      "したく",
+      "支度",
+      "shitaku",
+      "prepararse",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-48fce6928c",
+      "しっかり",
+      "",
+      "shikkari",
+      "con firmeza",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-a89d2853ea",
+      "しっぱい",
+      "失敗",
+      "shippai",
+      "fracasar",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-695b6626d4",
+      "じてん",
+      "辞典",
+      "jiten",
+      "diccionario",
+      "n4-escuela",
+      ""
+    ],
+    [
+      "w-17af6092db",
+      "しなもの",
+      "品物",
+      "shinamono",
+      "artículo, mercancía",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-03712fac9d",
+      "しばらく",
+      "",
+      "shibaraku",
+      "un rato",
+      "n4-tiempo",
+      ""
+    ],
+    [
+      "w-b1573ec234",
+      "しま",
+      "島",
+      "shima",
+      "isla",
+      "n4-lugares",
+      ""
+    ],
+    [
+      "w-8f69279374",
+      "しみん",
+      "市民",
+      "shimin",
+      "ciudadano",
+      "n4-gente",
+      ""
+    ],
+    [
+      "w-9690043102",
+      "じむしょ",
+      "事務所",
+      "jimusho",
+      "oficina",
+      "n4-lugares",
+      ""
+    ],
+    [
+      "w-a7dc742b01",
+      "しゃかい",
+      "社会",
+      "shakai",
+      "sociedad",
+      "n4-sociedad",
+      ""
+    ],
+    [
+      "w-a40ee6e509",
+      "しゃちょう",
+      "社長",
+      "shachou",
+      "presidente de la empresa",
+      "n4-trabajo",
+      ""
+    ],
+    [
+      "w-694ea10b56",
+      "じゃま",
+      "",
+      "jama",
+      "estorbo",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-ddfb670acf",
+      "ジャム",
+      "",
+      "jamu",
+      "mermelada",
+      "n4-comida",
+      ""
+    ],
+    [
+      "w-d1805965ec",
+      "じゆう",
+      "自由",
+      "jiyuu",
+      "libertad",
+      "n4-sociedad",
+      ""
+    ],
+    [
+      "w-eacd8a5221",
+      "しゅうかん",
+      "習慣",
+      "shuukan",
+      "costumbre",
+      "n4-sociedad",
+      ""
+    ],
+    [
+      "w-47593d1123",
+      "じゅうしょ",
+      "住所",
+      "juusho",
+      "dirección postal",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-dcfb33317b",
+      "じゅうどう",
+      "柔道",
+      "juudou",
+      "judo",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-ab6fd5bdbb",
+      "じゅうぶん",
+      "十分",
+      "juubun",
+      "suficiente",
+      "n4-adjetivos",
+      ""
+    ],
+    [
+      "w-93f910e281",
+      "しゅっせき",
+      "出席",
+      "shusseki",
+      "asistir",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-c614552d23",
+      "しゅっぱつ",
+      "出発",
+      "shuppatsu",
+      "salir, partir",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-7c6d792073",
+      "しゅみ",
+      "趣味",
+      "shumi",
+      "afición",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-6ce523bcb6",
+      "じゅんび",
+      "準備",
+      "junbi",
+      "preparar",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-c151fe4163",
+      "しょうかい",
+      "紹介",
+      "shoukai",
+      "presentar a alguien",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-b04bf40187",
+      "しょうがっこう",
+      "小学校",
+      "shougakkou",
+      "escuela primaria",
+      "n4-escuela",
+      ""
+    ],
+    [
+      "w-689dc7a66e",
+      "しょうせつ",
+      "小説",
+      "shousetsu",
+      "novela",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-6111e87e72",
+      "しょうたい",
+      "招待",
+      "shoutai",
+      "invitar",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-b377c7b2ea",
+      "しょうち",
+      "承知",
+      "shouchi",
+      "enterarse, aceptar",
+      "n4-verbos",
+      "承知しました es de acuerdo, en el trabajo."
+    ],
+    [
+      "w-0e3ecb7665",
+      "しょうらい",
+      "将来",
+      "shourai",
+      "el futuro",
+      "n4-tiempo",
+      ""
+    ],
+    [
+      "w-1ad2f6d941",
+      "しょくじ",
+      "食事",
+      "shokuji",
+      "comer, una comida",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-2ae7b1cb3b",
+      "しょくりょうひん",
+      "食料品",
+      "shokuryouhin",
+      "alimentos",
+      "n4-comida",
+      ""
+    ],
+    [
+      "w-8410c15b44",
+      "じょせい",
+      "女性",
+      "josei",
+      "mujer",
+      "n4-gente",
+      ""
+    ],
+    [
+      "w-1a680b4cf9",
+      "しらせる",
+      "知らせる",
+      "shiraseru",
+      "avisar",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-beb32f751c",
+      "しらべる",
+      "調べる",
+      "shiraberu",
+      "consultar, investigar",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-7962f0cea1",
+      "じんこう",
+      "人口",
+      "jinkou",
+      "población",
+      "n4-sociedad",
+      ""
+    ],
+    [
+      "w-40c673da45",
+      "じんじゃ",
+      "神社",
+      "jinja",
+      "santuario",
+      "n4-lugares",
+      ""
+    ],
+    [
+      "w-c904982ded",
+      "しんせつ",
+      "親切",
+      "shinsetsu",
+      "amable",
+      "n4-adjetivos",
+      ""
+    ],
+    [
+      "w-ff60f2830f",
+      "しんぱい",
+      "心配",
+      "shinpai",
+      "preocuparse",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-f7e69f5427",
+      "しんぶんしゃ",
+      "新聞社",
+      "shinbunsha",
+      "empresa de prensa",
+      "n4-trabajo",
+      ""
+    ],
+    [
+      "w-78de196fe8",
+      "すいえい",
+      "水泳",
+      "suiei",
+      "natación",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-2070f21eae",
+      "すいどう",
+      "水道",
+      "suidou",
+      "agua corriente",
+      "n4-casa",
+      ""
+    ],
+    [
+      "w-cdddb30c94",
+      "ずいぶん",
+      "",
+      "zuibun",
+      "bastante",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-48341cc3a0",
+      "すうがく",
+      "数学",
+      "suugaku",
+      "matemáticas",
+      "n4-escuela",
+      ""
+    ],
+    [
+      "w-eb0f717433",
+      "スーツ",
+      "",
+      "suutsu",
+      "traje",
+      "n4-ropa",
+      ""
+    ],
+    [
+      "w-8a13543a80",
+      "スーツケース",
+      "",
+      "suutsukeesu",
+      "maleta",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-6701f8cbba",
+      "すぎる",
+      "過ぎる",
+      "sugiru",
+      "pasarse, exceder",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-8065461ace",
+      "すく",
+      "",
+      "suku",
+      "vaciarse",
+      "n4-verbos",
+      "De un tren o una sala. No es 好き."
+    ],
+    [
+      "w-270801de39",
+      "スクリーン",
+      "",
+      "sukuriin",
+      "pantalla",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-ded62a84d0",
+      "すごい",
+      "凄い",
+      "sugoi",
+      "increíble",
+      "n4-adjetivos",
+      "A menudo se escribe すごい."
+    ],
+    [
+      "w-5c8702fe01",
+      "すすむ",
+      "進む",
+      "susumu",
+      "avanzar",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-44f773f94f",
+      "すっかり",
+      "",
+      "sukkari",
+      "por completo",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-424826c446",
+      "すっと",
+      "",
+      "sutto",
+      "de un tirón",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-d2937b2999",
+      "ステーキ",
+      "",
+      "suteeki",
+      "filete",
+      "n4-comida",
+      ""
+    ],
+    [
+      "w-49ac3c55c7",
+      "すてる",
+      "捨てる",
+      "suteru",
+      "tirar",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-9071f08832",
+      "ステレオ",
+      "",
+      "sutereo",
+      "equipo de música",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-97a079585a",
+      "すな",
+      "砂",
+      "suna",
+      "arena",
+      "n4-naturaleza",
+      ""
+    ],
+    [
+      "w-0627e3997c",
+      "すばらしい",
+      "",
+      "subarashii",
+      "maravilloso",
+      "n4-adjetivos",
+      ""
+    ],
+    [
+      "w-081d0fb4bb",
+      "すべる",
+      "滑る",
+      "suberu",
+      "resbalar",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-9776ccd07d",
+      "すみ",
+      "隅",
+      "sumi",
+      "rincón",
+      "n4-lugares",
+      ""
+    ],
+    [
+      "w-1e1b53a2d3",
+      "すむ",
+      "済む",
+      "sumu",
+      "terminar, bastar",
+      "n4-verbos",
+      "No es 住む, vivir en un sitio."
+    ],
+    [
+      "w-745024b527",
+      "すり",
+      "",
+      "suri",
+      "carterista",
+      "n4-gente",
+      ""
+    ],
+    [
+      "w-416c1b3679",
+      "すると",
+      "",
+      "suruto",
+      "entonces",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-7817c4eed6",
+      "せいかつ",
+      "生活",
+      "seikatsu",
+      "vivir el día a día",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-75acde1d68",
+      "せいさん",
+      "生産",
+      "seisan",
+      "producir",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-75b0305c60",
+      "せいじ",
+      "政治",
+      "seiji",
+      "política",
+      "n4-sociedad",
+      ""
+    ],
+    [
+      "w-1e4db2ac9d",
+      "せいよう",
+      "西洋",
+      "seiyou",
+      "Occidente",
+      "n4-lugares",
+      ""
+    ],
+    [
+      "w-bfe54303cd",
+      "せかい",
+      "世界",
+      "sekai",
+      "el mundo",
+      "n4-lugares",
+      ""
+    ],
+    [
+      "w-d11d9a6207",
+      "せき",
+      "席",
+      "seki",
+      "asiento",
+      "n4-lugares",
+      ""
+    ],
+    [
+      "w-123ee74d43",
+      "せつめい",
+      "説明",
+      "setsumei",
+      "explicar",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-d8623369cb",
+      "せなか",
+      "背中",
+      "senaka",
+      "espalda",
+      "n4-cuerpo",
+      ""
+    ],
+    [
+      "w-bdf6b26213",
+      "ぜひ",
+      "",
+      "zehi",
+      "sin falta, insistiendo",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-dac7bb4374",
+      "せわ",
+      "世話",
+      "sewa",
+      "cuidar, atender",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-da94019cdd",
+      "せん",
+      "線",
+      "sen",
+      "línea",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-ba20bc66d0",
+      "ぜんぜん",
+      "",
+      "zenzen",
+      "nada, con negativo",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-8c83cac81c",
+      "せんそう",
+      "戦争",
+      "sensou",
+      "guerra",
+      "n4-sociedad",
+      ""
+    ],
+    [
+      "w-9b3ce398bd",
+      "せんぱい",
+      "先輩",
+      "senpai",
+      "compañero mayor",
+      "n4-gente",
+      ""
+    ],
+    [
+      "w-554ab81272",
+      "そう",
+      "",
+      "sou",
+      "así es",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-aa663833e4",
+      "そうだん",
+      "相談",
+      "soudan",
+      "consultar",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-ec43853e0f",
+      "そだてる",
+      "育てる",
+      "sodateru",
+      "criar",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-6a89d1feee",
+      "そつぎょう",
+      "卒業",
+      "sotsugyou",
+      "graduarse",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-14363682cb",
+      "そふ",
+      "祖父",
+      "sofu",
+      "mi abuelo",
+      "n4-gente",
+      "De la propia familia."
+    ],
+    [
+      "w-d2ab60015b",
+      "ソフト",
+      "",
+      "sofuto",
+      "suave",
+      "n4-adjetivos",
+      ""
+    ],
+    [
+      "w-0f0ed38b4c",
+      "そぼ",
+      "祖母",
+      "sobo",
+      "mi abuela",
+      "n4-gente",
+      "De la propia familia."
+    ],
+    [
+      "w-67c8e8ac31",
+      "それで",
+      "",
+      "sorede",
+      "por eso",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-074e70b529",
+      "それに",
+      "",
+      "soreni",
+      "además",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-e35f288b22",
+      "それほど",
+      "",
+      "sorehodo",
+      "tanto, hasta ese punto",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-0039e17a55",
+      "そろそろ",
+      "",
+      "sorosoro",
+      "ya es hora",
+      "n4-tiempo",
+      ""
+    ],
+    [
+      "w-73688428ee",
+      "そんな",
+      "",
+      "sonna",
+      "ese tipo de",
+      "n4-preguntas",
+      ""
+    ],
+    [
+      "w-d1cca83038",
+      "そんなに",
+      "",
+      "sonnani",
+      "tanto",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-ced7c01cf1",
+      "たいいん",
+      "退院",
+      "taiin",
+      "recibir el alta",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-138dee4a26",
+      "だいがくせい",
+      "大学生",
+      "daigakusei",
+      "universitario",
+      "n4-gente",
+      ""
+    ],
+    [
+      "w-de9d61dd71",
+      "だいじ",
+      "大事",
+      "daiji",
+      "importante",
+      "n4-adjetivos",
+      ""
+    ],
+    [
+      "w-c0afe72b73",
+      "だいたい",
+      "大体",
+      "daitai",
+      "en general",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-4e5dab579c",
+      "たいてい",
+      "",
+      "taitei",
+      "normalmente",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-a174ca4443",
+      "タイプ",
+      "",
+      "taipu",
+      "tipo",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-b442490fff",
+      "だいぶ",
+      "大分",
+      "daibu",
+      "bastante, bastante más",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-14d52a91d3",
+      "たいふう",
+      "台風",
+      "taifuu",
+      "tifón",
+      "n4-naturaleza",
+      ""
+    ],
+    [
+      "w-23afff6d4b",
+      "たおれる",
+      "倒れる",
+      "taoreru",
+      "desplomarse",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-ced135c81e",
+      "だから",
+      "",
+      "dakara",
+      "así que",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-2b610cb1a7",
+      "たしか",
+      "確か",
+      "tashika",
+      "si no me equivoco",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-12d94456b3",
+      "たす",
+      "足す",
+      "tasu",
+      "sumar",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-d73148e8d0",
+      "たずねる",
+      "尋ねる",
+      "tazuneru",
+      "preguntar",
+      "n4-verbos",
+      "No es 訪ねる, visitar."
+    ],
+    [
+      "w-2710211107",
+      "たずねる",
+      "訪ねる",
+      "tazuneru",
+      "visitar",
+      "n4-verbos",
+      "Misma lectura que 尋ねる, y otro verbo."
+    ],
+    [
+      "w-abb49cd233",
+      "ただしい",
+      "正しい",
+      "tadashii",
+      "correcto",
+      "n4-adjetivos",
+      ""
+    ],
+    [
+      "w-b5579bc4a6",
+      "たたみ",
+      "畳",
+      "tatami",
+      "tatami",
+      "n4-casa",
+      ""
+    ],
+    [
+      "w-c5741f54d6",
+      "たてる",
+      "建てる",
+      "tateru",
+      "construir",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-cad7f1010a",
+      "たてる",
+      "立てる",
+      "tateru",
+      "poner de pie",
+      "n4-verbos",
+      "Misma lectura que 建てる."
+    ],
+    [
+      "w-1cda12dd3f",
+      "たとえば",
+      "例えば",
+      "tatoeba",
+      "por ejemplo",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-9c96fd3cb4",
+      "たな",
+      "棚",
+      "tana",
+      "estante",
+      "n4-casa",
+      ""
+    ],
+    [
+      "w-fb53d716c6",
+      "たのしみ",
+      "楽しみ",
+      "tanoshimi",
+      "ilusión",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-9f86b83cad",
+      "たのしむ",
+      "楽しむ",
+      "tanoshimu",
+      "disfrutar",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-ebaf7ce5e4",
+      "たまに",
+      "",
+      "tamani",
+      "de vez en cuando",
+      "n4-tiempo",
+      ""
+    ],
+    [
+      "w-06aec1d647",
+      "ため",
+      "為",
+      "tame",
+      "para, por",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-6cf505ee55",
+      "だめ",
+      "",
+      "dame",
+      "no sirve",
+      "n4-adjetivos",
+      ""
+    ],
+    [
+      "w-19f08c094e",
+      "たりる",
+      "足りる",
+      "tariru",
+      "bastar",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-73a3e59782",
+      "だんせい",
+      "男性",
+      "dansei",
+      "hombre",
+      "n4-gente",
+      ""
+    ],
+    [
+      "w-aaac8221c9",
+      "だんぼう",
+      "暖房",
+      "danbou",
+      "calefacción",
+      "n4-casa",
+      ""
+    ],
+    [
+      "w-56a36774ce",
+      "ち",
+      "血",
+      "chi",
+      "sangre",
+      "n4-cuerpo",
+      ""
+    ],
+    [
+      "w-83a456da88",
+      "チェックする",
+      "",
+      "chekkusuru",
+      "revisar",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-43965bbba0",
+      "ちから",
+      "力",
+      "chikara",
+      "fuerza",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-f527f52c5c",
+      "ちっとも",
+      "",
+      "chittomo",
+      "nada en absoluto, con negativo",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-18035049f8",
+      "ちゃん",
+      "",
+      "chan",
+      "sufijo cariñoso",
+      "n4-gente",
+      "Se pega al nombre. No se usa solo como palabra de contenido."
+    ],
+    [
+      "w-4e6d200127",
+      "ちゅうい",
+      "注意",
+      "chuui",
+      "tener cuidado, avisar",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-4b99b4673b",
+      "ちゅうがっこう",
+      "中学校",
+      "chuugakkou",
+      "secundaria",
+      "n4-escuela",
+      ""
+    ],
+    [
+      "w-3f26d1cef7",
+      "ちゅうしゃ",
+      "注射",
+      "chuusha",
+      "inyección",
+      "n4-cuerpo",
+      ""
+    ],
+    [
+      "w-36f583c207",
+      "ちゅうしゃじょう",
+      "駐車場",
+      "chuushajou",
+      "aparcamiento",
+      "n4-lugares",
+      ""
+    ],
+    [
+      "w-16db6a0f53",
+      "ちり",
+      "地理",
+      "chiri",
+      "geografía",
+      "n4-escuela",
+      ""
+    ],
+    [
+      "w-ef537ea4a9",
+      "つかまえる",
+      "捕まえる",
+      "tsukamaeru",
+      "atrapar",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-ba74488833",
+      "つき",
+      "",
+      "tsuki",
+      "luna",
+      "n4-naturaleza",
+      ""
+    ],
+    [
+      "w-356e03170b",
+      "つく",
+      "付く",
+      "tsuku",
+      "pegarse, encenderse",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-c206b05b9d",
+      "つける",
+      "漬ける",
+      "tsukeru",
+      "poner en remojo",
+      "n4-verbos",
+      "No es 付ける, poner o encender."
+    ],
+    [
+      "w-7d940762d2",
+      "つごう",
+      "都合",
+      "tsugou",
+      "conveniencia",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-bbe4edb30f",
+      "つたえる",
+      "伝える",
+      "tsutaeru",
+      "transmitir",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-a1db204b87",
+      "つづく",
+      "続く",
+      "tsuzuku",
+      "continuar",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-d177796b00",
+      "つづける",
+      "続ける",
+      "tsuzukeru",
+      "seguir haciendo",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-ce21381e4f",
+      "つつむ",
+      "包む",
+      "tsutsumu",
+      "envolver",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-776c4df05f",
+      "つま",
+      "妻",
+      "tsuma",
+      "mi esposa",
+      "n4-gente",
+      "Habla de la propia."
+    ],
+    [
+      "w-342df55815",
+      "つもり",
+      "",
+      "tsumori",
+      "intención",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-15f9f72b7c",
+      "つる",
+      "釣る",
+      "tsuru",
+      "pescar",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-0319cd1801",
+      "つれる",
+      "連れる",
+      "tsureru",
+      "llevar consigo",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-aa30940947",
+      "ていねい",
+      "丁寧",
+      "teinei",
+      "cortés, con cuidado",
+      "n4-adjetivos",
+      ""
+    ],
+    [
+      "w-ccdf4613d1",
+      "テキスト",
+      "",
+      "tekisuto",
+      "libro de texto",
+      "n4-escuela",
+      ""
+    ],
+    [
+      "w-fa043680e3",
+      "てきとう",
+      "適当",
+      "tekitou",
+      "adecuado, o a la ligera",
+      "n4-adjetivos",
+      "Las dos lecturas conviven: lo justo, o hecho sin cuidado."
+    ],
+    [
+      "w-bbf07b44f0",
+      "できるだけ",
+      "",
+      "dekirudake",
+      "todo lo posible",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-b4206ea6cb",
+      "てつだう",
+      "手伝う",
+      "tetsudau",
+      "ayudar",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-02dea2f4f6",
+      "テニス",
+      "",
+      "tenisu",
+      "tenis",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-be7c090b8e",
+      "てぶくろ",
+      "手袋",
+      "tebukuro",
+      "guantes",
+      "n4-ropa",
+      ""
+    ],
+    [
+      "w-a9687d55e3",
+      "てら",
+      "寺",
+      "tera",
+      "templo",
+      "n4-lugares",
+      ""
+    ],
+    [
+      "w-67fb8c065d",
+      "てん",
+      "点",
+      "ten",
+      "punto, nota",
+      "n4-escuela",
+      ""
+    ],
+    [
+      "w-29b43fab16",
+      "てんいん",
+      "店員",
+      "ten'in",
+      "dependiente",
+      "n4-trabajo",
+      ""
+    ],
+    [
+      "w-5fd0c77ef5",
+      "てんきよほう",
+      "天気予報",
+      "tenkiyohou",
+      "pronóstico del tiempo",
+      "n4-tiempo",
+      ""
+    ],
+    [
+      "w-db2fc03fcf",
+      "でんとう",
+      "電灯",
+      "dentou",
+      "lámpara",
+      "n4-casa",
+      ""
+    ],
+    [
+      "w-84e17fcbc2",
+      "でんぽう",
+      "電報",
+      "denpou",
+      "telegrama",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-80eba2fabb",
+      "てんらんかい",
+      "展覧会",
+      "tenrankai",
+      "exposición",
+      "n4-sociedad",
+      ""
+    ],
+    [
+      "w-53162e310d",
+      "と",
+      "都",
+      "to",
+      "metrópoli",
+      "n4-lugares",
+      ""
+    ],
+    [
+      "w-c64697ccaa",
+      "どうぐ",
+      "道具",
+      "dougu",
+      "herramienta",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-9ef4ab5d2a",
+      "とうとう",
+      "",
+      "toutou",
+      "al final",
+      "n4-tiempo",
+      ""
+    ],
+    [
+      "w-69678bc04e",
+      "どうぶつえん",
+      "動物園",
+      "doubutsuen",
+      "zoo",
+      "n4-lugares",
+      ""
+    ],
+    [
+      "w-fc60a66d5c",
+      "とおく",
+      "遠く",
+      "tooku",
+      "lejos",
+      "n4-lugares",
+      ""
+    ],
+    [
+      "w-e9c1a3ae2c",
+      "とおる",
+      "通る",
+      "tooru",
+      "pasar",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-0b2acf3460",
+      "とくに",
+      "特に",
+      "tokuni",
+      "especialmente",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-cc2bd01f0a",
+      "とくべつ",
+      "特別",
+      "tokubetsu",
+      "especial",
+      "n4-adjetivos",
+      ""
+    ],
+    [
+      "w-8743cb4286",
+      "とこや",
+      "",
+      "tokoya",
+      "barbería",
+      "n4-lugares",
+      ""
+    ],
+    [
+      "w-9b799806d8",
+      "とちゅう",
+      "途中",
+      "tochuu",
+      "a mitad de camino",
+      "n4-lugares",
+      ""
+    ],
+    [
+      "w-3753f20423",
+      "とっきゅう",
+      "特急",
+      "tokkyuu",
+      "tren expreso",
+      "n4-transporte",
+      ""
+    ],
+    [
+      "w-bc1e0c2895",
+      "とどける",
+      "届ける",
+      "todokeru",
+      "entregar",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-1200266b8d",
+      "とまる",
+      "泊まる",
+      "tomaru",
+      "alojarse",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-3aadcbc234",
+      "とめる",
+      "止める",
+      "tomeru",
+      "parar algo",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-7becfb8f21",
+      "とりかえる",
+      "取り替える",
+      "torikaeru",
+      "cambiar, sustituir",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-76d7890e5d",
+      "どろぼう",
+      "泥棒",
+      "dorobou",
+      "ladrón",
+      "n4-gente",
+      ""
+    ],
+    [
+      "w-ccfefc657c",
+      "どんどん",
+      "",
+      "dondon",
+      "cada vez más",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-8b7b602246",
+      "なおす",
+      "直す",
+      "naosu",
+      "arreglar",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-9f64a96651",
+      "なおる",
+      "治る",
+      "naoru",
+      "curarse",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-b43872b197",
+      "なおる",
+      "直る",
+      "naoru",
+      "arreglarse",
+      "n4-verbos",
+      "Misma lectura que 治る."
+    ],
+    [
+      "w-d3b3911a79",
+      "なかなか",
+      "中々",
+      "nakanaka",
+      "no fácilmente, con negativo",
+      "n4-otros",
+      "En afirmativo, bastante."
+    ],
+    [
+      "w-a777a7ce62",
+      "なく",
+      "泣く",
+      "naku",
+      "llorar",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-2adec6b9b4",
+      "なくなる",
+      "亡くなる",
+      "nakunaru",
+      "fallecer",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-1d28dbb450",
+      "なくなる",
+      "無くなる",
+      "nakunaru",
+      "acabarse",
+      "n4-verbos",
+      "Misma lectura que 亡くなる."
+    ],
+    [
+      "w-1b35adeae4",
+      "なげる",
+      "投げる",
+      "nageru",
+      "lanzar",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-74c23dc218",
+      "なさる",
+      "",
+      "nasaru",
+      "hacer, de respeto",
+      "n4-verbos",
+      "ます es なさいます."
+    ],
+    [
+      "w-3a915c9be5",
+      "なる",
+      "鳴る",
+      "naru",
+      "sonar",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-626ae1ff39",
+      "なるべく",
+      "",
+      "narubeku",
+      "en la medida de lo posible",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-76a4fc9d6d",
+      "なるほど",
+      "",
+      "naruhodo",
+      "ya veo",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-ce2f134cda",
+      "なれる",
+      "慣れる",
+      "nareru",
+      "acostumbrarse",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-40f67571a6",
+      "におい",
+      "",
+      "nioi",
+      "olor",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-e1cfd51839",
+      "にがい",
+      "苦い",
+      "nigai",
+      "amargo",
+      "n4-adjetivos",
+      ""
+    ],
+    [
+      "w-eef262a7dd",
+      "にかいだて",
+      "二階建て",
+      "nikaidate",
+      "de dos plantas",
+      "n4-casa",
+      ""
+    ],
+    [
+      "w-f7a51f2c1c",
+      "にげる",
+      "逃げる",
+      "nigeru",
+      "huir",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-0ddf8d04c2",
+      "にっき",
+      "日記",
+      "nikki",
+      "diario",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-178daf8296",
+      "にゅういん",
+      "入院",
+      "nyuuin",
+      "ingresar en el hospital",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-433da13afb",
+      "にゅうがく",
+      "入学",
+      "nyuugaku",
+      "ingresar en un centro",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-ea2fe2f5de",
+      "にる",
+      "似る",
+      "niru",
+      "parecerse",
+      "n4-verbos",
+      "Lleva に."
+    ],
+    [
+      "w-5cda324083",
+      "にんぎょう",
+      "人形",
+      "ningyou",
+      "muñeca",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-88710a5d10",
+      "ぬすむ",
+      "盗む",
+      "nusumu",
+      "robar",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-6631558c00",
+      "ぬる",
+      "塗る",
+      "nuru",
+      "pintar, untar",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-cdabcdd725",
+      "ぬれる",
+      "",
+      "nureru",
+      "mojarse",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-b89d0618be",
+      "ねだん",
+      "",
+      "nedan",
+      "precio",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-4fbc32438d",
+      "ねつ",
+      "熱",
+      "netsu",
+      "fiebre",
+      "n4-cuerpo",
+      ""
+    ],
+    [
+      "w-9de5a5daff",
+      "ねっしん",
+      "",
+      "nesshin",
+      "entusiasta",
+      "n4-adjetivos",
+      ""
+    ],
+    [
+      "w-1af14ddd32",
+      "ねぼう",
+      "寝坊",
+      "nebou",
+      "quedarse dormido",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-ac5fa7fe3b",
+      "ねむい",
+      "眠い",
+      "nemui",
+      "tener sueño",
+      "n4-adjetivos",
+      ""
+    ],
+    [
+      "w-3575e37548",
+      "ねむる",
+      "眠る",
+      "nemuru",
+      "dormir",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-d7f56d8d34",
+      "のこる",
+      "残る",
+      "nokoru",
+      "quedar",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-6a3d0e7070",
+      "のど",
+      "",
+      "nodo",
+      "garganta",
+      "n4-cuerpo",
+      ""
+    ],
+    [
+      "w-0114521256",
+      "のりかえる",
+      "乗り換える",
+      "norikaeru",
+      "hacer transbordo",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-0787fd5472",
+      "のりもの",
+      "乗り物",
+      "norimono",
+      "vehículo",
+      "n4-transporte",
+      ""
+    ],
+    [
+      "w-254439ebbe",
+      "は",
+      "葉",
+      "ha",
+      "hoja",
+      "n4-naturaleza",
+      ""
+    ],
+    [
+      "w-2d86d7e0fc",
+      "ばあい",
+      "場合",
+      "baai",
+      "caso",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-d051720806",
+      "パート",
+      "",
+      "paato",
+      "media jornada",
+      "n4-trabajo",
+      ""
+    ],
+    [
+      "w-b7dd1f219b",
+      "ばい",
+      "倍",
+      "bai",
+      "el doble",
+      "n4-numeros",
+      ""
+    ],
+    [
+      "w-88a295c433",
+      "はいけん",
+      "拝見",
+      "haiken",
+      "ver, humilde",
+      "n4-verbos",
+      "拝見する. No se dice de la acción de otra persona."
+    ],
+    [
+      "w-9bb337edc6",
+      "はいしゃ",
+      "歯医者",
+      "haisha",
+      "dentista",
+      "n4-trabajo",
+      ""
+    ],
+    [
+      "w-2404bdfdb3",
+      "はこぶ",
+      "運ぶ",
+      "hakobu",
+      "transportar",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-4610276c99",
+      "はじめる",
+      "始める",
+      "hajimeru",
+      "empezar",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-32ca6422d6",
+      "ばしょ",
+      "場所",
+      "basho",
+      "lugar",
+      "n4-lugares",
+      ""
+    ],
+    [
+      "w-d02b870af1",
+      "はず",
+      "",
+      "hazu",
+      "lo esperado",
+      "n4-otros",
+      "はずだ afirma lo que la lógica prevé."
+    ],
+    [
+      "w-847b1b7535",
+      "はずかしい",
+      "恥ずかしい",
+      "hazukashii",
+      "da vergüenza",
+      "n4-adjetivos",
+      ""
+    ],
+    [
+      "w-54a6f375d8",
+      "パソコン",
+      "",
+      "pasokon",
+      "ordenador personal",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-3ce079af0b",
+      "はつおん",
+      "発音",
+      "hatsuon",
+      "pronunciación",
+      "n4-escuela",
+      ""
+    ],
+    [
+      "w-2078b08350",
+      "はっきり",
+      "",
+      "hakkiri",
+      "claramente",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-8825d6d645",
+      "はなみ",
+      "花見",
+      "hanami",
+      "ver los cerezos",
+      "n4-sociedad",
+      ""
+    ],
+    [
+      "w-a2962b07bc",
+      "はやし",
+      "林",
+      "hayashi",
+      "bosque pequeño",
+      "n4-naturaleza",
+      ""
+    ],
+    [
+      "w-a6b7fa4afc",
+      "はらう",
+      "払う",
+      "harau",
+      "pagar",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-76e19fba1a",
+      "ばんぐみ",
+      "番組",
+      "bangumi",
+      "programa",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-d48ed47f5e",
+      "はんたい",
+      "反対",
+      "hantai",
+      "oponerse",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-70eb9aa3ff",
+      "ハンドバッグ",
+      "",
+      "handobaggu",
+      "bolso",
+      "n4-ropa",
+      ""
+    ],
+    [
+      "w-f9f80b1a36",
+      "ひ",
+      "火",
+      "hi",
+      "fuego",
+      "n4-naturaleza",
+      ""
+    ],
+    [
+      "w-55a030e65f",
+      "ひ",
+      "日",
+      "hi",
+      "día",
+      "n4-tiempo",
+      ""
+    ],
+    [
+      "w-897bcab845",
+      "ピアノ",
+      "",
+      "piano",
+      "piano",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-28c2a94407",
+      "ひえる",
+      "冷える",
+      "hieru",
+      "enfriarse",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-c8a0e96a6a",
+      "ひかり",
+      "光",
+      "hikari",
+      "luz",
+      "n4-naturaleza",
+      ""
+    ],
+    [
+      "w-8b7dab271d",
+      "ひかる",
+      "光る",
+      "hikaru",
+      "brillar",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-916e92f3da",
+      "ひきだし",
+      "引き出し",
+      "hikidashi",
+      "cajón",
+      "n4-casa",
+      ""
+    ],
+    [
+      "w-5d8e0ae01f",
+      "ひきだす",
+      "引き出す",
+      "hikidasu",
+      "sacar, retirar",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-36d0fd2044",
+      "ひげ",
+      "",
+      "hige",
+      "barba",
+      "n4-cuerpo",
+      ""
+    ],
+    [
+      "w-546e786cde",
+      "ひこうじょう",
+      "飛行場",
+      "hikoujou",
+      "aeródromo",
+      "n4-lugares",
+      ""
+    ],
+    [
+      "w-8c813519f4",
+      "ひさしぶり",
+      "久しぶり",
+      "hisashiburi",
+      "cuánto tiempo",
+      "n4-tiempo",
+      ""
+    ],
+    [
+      "w-eced3a159f",
+      "びじゅつかん",
+      "美術館",
+      "bijutsukan",
+      "museo de arte",
+      "n4-lugares",
+      ""
+    ],
+    [
+      "w-be23bfe1f6",
+      "ひじょうに",
+      "非常に",
+      "hijouni",
+      "muy",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-ab4a88a2c0",
+      "びっくりする",
+      "",
+      "bikkurisuru",
+      "sobresaltarse",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-d801b8b37a",
+      "ひっこす",
+      "引っ越す",
+      "hikkosu",
+      "mudarse",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-6907fc706d",
+      "ひつよう",
+      "必要",
+      "hitsuyou",
+      "necesario",
+      "n4-adjetivos",
+      ""
+    ],
+    [
+      "w-33a024fce6",
+      "ひどい",
+      "",
+      "hidoi",
+      "terrible",
+      "n4-adjetivos",
+      ""
+    ],
+    [
+      "w-dddceb65a5",
+      "ひらく",
+      "開く",
+      "hiraku",
+      "abrir, un acto o un local",
+      "n4-verbos",
+      "Godan. No es 開く leído あく."
+    ],
+    [
+      "w-1fb9d39cd6",
+      "ビル",
+      "",
+      "biru",
+      "edificio",
+      "n4-lugares",
+      ""
+    ],
+    [
+      "w-ee0c991348",
+      "ひるま",
+      "昼間",
+      "hiruma",
+      "de día",
+      "n4-tiempo",
+      ""
+    ],
+    [
+      "w-26253e5000",
+      "ひるやすみ",
+      "昼休み",
+      "hiruyasumi",
+      "pausa del mediodía",
+      "n4-tiempo",
+      ""
+    ],
+    [
+      "w-a441432c8a",
+      "ひろう",
+      "拾う",
+      "hirou",
+      "recoger",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-ced6d3f112",
+      "ファックス",
+      "",
+      "fakkusu",
+      "fax",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-59bc2e87aa",
+      "ふえる",
+      "増える",
+      "fueru",
+      "aumentar",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-de718a81e9",
+      "ふかい",
+      "深い",
+      "fukai",
+      "profundo",
+      "n4-adjetivos",
+      ""
+    ],
+    [
+      "w-1d83ae6a5a",
+      "ふくざつ",
+      "複雑",
+      "fukuzatsu",
+      "complicado",
+      "n4-adjetivos",
+      ""
+    ],
+    [
+      "w-c00788993b",
+      "ふくしゅう",
+      "復習",
+      "fukushuu",
+      "repasar",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-346a5da3c2",
+      "ぶちょう",
+      "部長",
+      "buchou",
+      "jefe de departamento",
+      "n4-trabajo",
+      ""
+    ],
+    [
+      "w-fbb6245e8b",
+      "ふつう",
+      "普通",
+      "futsuu",
+      "normal",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-fceb1b247e",
+      "ぶどう",
+      "",
+      "budou",
+      "uvas",
+      "n4-comida",
+      ""
+    ],
+    [
+      "w-f6b676e45f",
+      "ふとる",
+      "太る",
+      "futoru",
+      "engordar",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-f1ef6228cb",
+      "ふとん",
+      "布団",
+      "futon",
+      "futón",
+      "n4-casa",
+      ""
+    ],
+    [
+      "w-45d920815a",
+      "ふね",
+      "舟",
+      "fune",
+      "barco",
+      "n4-transporte",
+      ""
+    ],
+    [
+      "w-25d649bd20",
+      "ふべん",
+      "不便",
+      "fuben",
+      "incómodo",
+      "n4-adjetivos",
+      ""
+    ],
+    [
+      "w-375c7ef77f",
+      "ふむ",
+      "踏む",
+      "fumu",
+      "pisar",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-927b45c2eb",
+      "ふりだす",
+      "降り出す",
+      "furidasu",
+      "empezar a llover",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-cb716261e6",
+      "プレゼント",
+      "",
+      "purezento",
+      "obsequio",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-2f79469321",
+      "ぶんか",
+      "文化",
+      "bunka",
+      "cultura",
+      "n4-sociedad",
+      ""
+    ],
+    [
+      "w-452083ca3c",
+      "ぶんがく",
+      "文学",
+      "bungaku",
+      "literatura",
+      "n4-escuela",
+      ""
+    ],
+    [
+      "w-9eaa627a73",
+      "ぶんぽう",
+      "文法",
+      "bunpou",
+      "gramática",
+      "n4-escuela",
+      ""
+    ],
+    [
+      "w-f271b97de9",
+      "べつ",
+      "別",
+      "betsu",
+      "distinto",
+      "n4-adjetivos",
+      ""
+    ],
+    [
+      "w-e5cfcfab45",
+      "ベル",
+      "",
+      "beru",
+      "timbre",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-0f80788417",
+      "へん",
+      "変",
+      "hen",
+      "raro",
+      "n4-adjetivos",
+      ""
+    ],
+    [
+      "w-ff9e385277",
+      "へんじ",
+      "返事",
+      "henji",
+      "responder",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-3597362058",
+      "ぼうえき",
+      "貿易",
+      "boueki",
+      "comercio exterior",
+      "n4-sociedad",
+      ""
+    ],
+    [
+      "w-96799b1b11",
+      "ほうそう",
+      "放送",
+      "housou",
+      "emitir",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-845a23790b",
+      "ほうりつ",
+      "法律",
+      "houritsu",
+      "ley",
+      "n4-sociedad",
+      ""
+    ],
+    [
+      "w-1587d6fbcf",
+      "ぼく",
+      "僕",
+      "boku",
+      "yo, masculino",
+      "n4-gente",
+      ""
+    ],
+    [
+      "w-72df46ea9c",
+      "ほし",
+      "星",
+      "hoshi",
+      "estrella",
+      "n4-naturaleza",
+      ""
+    ],
+    [
+      "w-b3f18d07d4",
+      "ほど",
+      "",
+      "hodo",
+      "grado",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-7e5b1397b9",
+      "ほとんど",
+      "",
+      "hotondo",
+      "casi",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-9097d5cc39",
+      "ほめる",
+      "",
+      "homeru",
+      "elogiar",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-36dc0ccd26",
+      "ほんやく",
+      "翻訳",
+      "hon'yaku",
+      "traducir",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-7c74c440e5",
+      "まいる",
+      "参る",
+      "mairu",
+      "ir o venir, humilde",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-cb6d7546fb",
+      "まける",
+      "負ける",
+      "makeru",
+      "perder",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-d3422596a8",
+      "まじめ",
+      "",
+      "majime",
+      "serio",
+      "n4-adjetivos",
+      ""
+    ],
+    [
+      "w-9c0ee7cfcc",
+      "まず",
+      "",
+      "mazu",
+      "primero",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-0fa3edce9b",
+      "または",
+      "",
+      "matawa",
+      "o bien",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-91094911c0",
+      "まちがえる",
+      "間違える",
+      "machigaeru",
+      "equivocarse",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-675232ef05",
+      "まにあう",
+      "間に合う",
+      "maniau",
+      "llegar a tiempo",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-f71b64fa1e",
+      "まわり",
+      "周り",
+      "mawari",
+      "alrededor",
+      "n4-lugares",
+      ""
+    ],
+    [
+      "w-b7644eb3fc",
+      "まわる",
+      "回る",
+      "mawaru",
+      "dar vueltas",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-8077c744a0",
+      "まんが",
+      "漫画",
+      "manga",
+      "cómic",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-59944588a8",
+      "まんなか",
+      "真ん中",
+      "mannaka",
+      "el centro",
+      "n4-lugares",
+      ""
+    ],
+    [
+      "w-0c27b9183f",
+      "みえる",
+      "見える",
+      "mieru",
+      "verse",
+      "n4-verbos",
+      "Ya expresa que algo entra en la vista."
+    ],
+    [
+      "w-07a76f9be7",
+      "みずうみ",
+      "湖",
+      "mizuumi",
+      "lago",
+      "n4-naturaleza",
+      ""
+    ],
+    [
+      "w-fcf790e186",
+      "みそ",
+      "味噌",
+      "miso",
+      "miso",
+      "n4-comida",
+      ""
+    ],
+    [
+      "w-a4e2dc046c",
+      "みつかる",
+      "見つかる",
+      "mitsukaru",
+      "ser encontrado",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-64f85b7fdf",
+      "みつける",
+      "見つける",
+      "mitsukeru",
+      "encontrar",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-eb7247f404",
+      "みな",
+      "皆",
+      "mina",
+      "todos",
+      "n4-gente",
+      ""
+    ],
+    [
+      "w-221e63cb1e",
+      "みなと",
+      "港",
+      "minato",
+      "puerto",
+      "n4-lugares",
+      ""
+    ],
+    [
+      "w-6978e278b2",
+      "むかう",
+      "向かう",
+      "mukau",
+      "dirigirse",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-1687840ea3",
+      "むかえる",
+      "迎える",
+      "mukaeru",
+      "ir a recibir",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-58cd37c48b",
+      "むかし",
+      "昔",
+      "mukashi",
+      "antaño",
+      "n4-tiempo",
+      ""
+    ],
+    [
+      "w-505c1fd62e",
+      "むし",
+      "虫",
+      "mushi",
+      "insecto",
+      "n4-naturaleza",
+      ""
+    ],
+    [
+      "w-88be7d523a",
+      "むすこ",
+      "息子",
+      "musuko",
+      "mi hijo",
+      "n4-gente",
+      "De la propia familia."
+    ],
+    [
+      "w-5c27cba3be",
+      "むすめ",
+      "娘",
+      "musume",
+      "mi hija",
+      "n4-gente",
+      "De la propia familia."
+    ],
+    [
+      "w-3d1727a56f",
+      "むり",
+      "無理",
+      "muri",
+      "imposible",
+      "n4-adjetivos",
+      ""
+    ],
+    [
+      "w-d9c64cdfa1",
+      "めしあがる",
+      "召し上がる",
+      "meshiagaru",
+      "comer o beber, de respeto",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-6307098126",
+      "めずらしい",
+      "珍しい",
+      "mezurashii",
+      "poco común",
+      "n4-adjetivos",
+      ""
+    ],
+    [
+      "w-5434f0c376",
+      "もうしあげる",
+      "申し上げる",
+      "moushiageru",
+      "decir, humilde",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-8e7b945555",
+      "もうす",
+      "申す",
+      "mousu",
+      "llamarse, humilde",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-0f494574f0",
+      "もうすぐ",
+      "",
+      "mousugu",
+      "pronto",
+      "n4-tiempo",
+      ""
+    ],
+    [
+      "w-bbaeab9c94",
+      "もし",
+      "",
+      "moshi",
+      "si",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-a695a20c52",
+      "もちろん",
+      "",
+      "mochiron",
+      "claro",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-6e13cee4dc",
+      "もっとも",
+      "",
+      "mottomo",
+      "lo más, o aunque",
+      "n4-otros",
+      "Como adverbio, lo más. Como enlace, aunque."
+    ],
+    [
+      "w-c858640672",
+      "もどる",
+      "戻る",
+      "modoru",
+      "volver",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-96e10e7209",
+      "もめん",
+      "木綿",
+      "momen",
+      "algodón",
+      "n4-ropa",
+      ""
+    ],
+    [
+      "w-ad62110b55",
+      "もらう",
+      "",
+      "morau",
+      "recibir",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-f0e069d89e",
+      "もり",
+      "森",
+      "mori",
+      "bosque",
+      "n4-naturaleza",
+      ""
+    ],
+    [
+      "w-506aca7161",
+      "やく",
+      "焼く",
+      "yaku",
+      "asar, hornear",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-2ef2e06612",
+      "やくそく",
+      "約束",
+      "yakusoku",
+      "prometer",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-8011fa51a8",
+      "やくにたつ",
+      "役に立つ",
+      "yakunitatsu",
+      "ser útil",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-7d2bcb5a30",
+      "やける",
+      "焼ける",
+      "yakeru",
+      "asarse, quemarse",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-427a618271",
+      "やさしい",
+      "優しい",
+      "yasashii",
+      "amable (優しい)",
+      "n4-adjetivos",
+      ""
+    ],
+    [
+      "w-3771ac0921",
+      "やせる",
+      "痩せる",
+      "yaseru",
+      "adelgazar",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-f2a77c1c6d",
+      "やっと",
+      "",
+      "yatto",
+      "por fin",
+      "n4-tiempo",
+      ""
+    ],
+    [
+      "w-7a0b48d3e5",
+      "やはり",
+      "",
+      "yahari",
+      "como pensaba",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-10ee6bdb9e",
+      "やむ",
+      "止む",
+      "yamu",
+      "parar, la lluvia o el dolor",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-3ccc927e4b",
+      "やわらかい",
+      "柔らかい",
+      "yawarakai",
+      "blando al tacto",
+      "n4-adjetivos",
+      ""
+    ],
+    [
+      "w-d81bb54f03",
+      "ゆ",
+      "湯",
+      "yu",
+      "agua caliente",
+      "n4-casa",
+      ""
+    ],
+    [
+      "w-ad11ce072b",
+      "ゆしゅつ",
+      "輸出",
+      "yushutsu",
+      "exportar",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-5d0d49b3fe",
+      "ゆにゅう",
+      "輸入",
+      "yunyuu",
+      "importar (輸入)",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-63846aa88f",
+      "ゆび",
+      "指",
+      "yubi",
+      "dedo",
+      "n4-cuerpo",
+      ""
+    ],
+    [
+      "w-688ed7ca0f",
+      "ゆびわ",
+      "指輪",
+      "yubiwa",
+      "anillo",
+      "n4-ropa",
+      ""
+    ],
+    [
+      "w-79e62e3c87",
+      "ゆめ",
+      "夢",
+      "yume",
+      "sueño",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-fa8716c349",
+      "ゆれる",
+      "揺れる",
+      "yureru",
+      "temblar",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-7c9d2c46eb",
+      "よう",
+      "用",
+      "you",
+      "asunto",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-cbb67e1b4d",
+      "ようい",
+      "用意",
+      "youi",
+      "tener listo",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-c64fff23ae",
+      "ようじ",
+      "用事",
+      "youji",
+      "recado",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-cd96cff1ab",
+      "よごれる",
+      "汚れる",
+      "yogoreru",
+      "ensuciarse",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-de815ae4e6",
+      "よしゅう",
+      "予習",
+      "yoshuu",
+      "preparar la lección",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-a9fe0e98c1",
+      "よてい",
+      "予定",
+      "yotei",
+      "tener previsto",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-ed37fe04b5",
+      "よやく",
+      "予約",
+      "yoyaku",
+      "reservar",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-7ffceb4055",
+      "よる",
+      "寄る",
+      "yoru",
+      "acercarse, pasar por",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-82b0bf966f",
+      "よろこぶ",
+      "喜ぶ",
+      "yorokobu",
+      "alegrarse",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-5f81e206e3",
+      "よろしい",
+      "",
+      "yoroshii",
+      "bien, cortés",
+      "n4-adjetivos",
+      ""
+    ],
+    [
+      "w-df83eb2b9c",
+      "りゆう",
+      "理由",
+      "riyuu",
+      "motivo",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-977d6bf88c",
+      "りよう",
+      "利用",
+      "riyou",
+      "utilizar",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-520cc83d87",
+      "りょうほう",
+      "両方",
+      "ryouhou",
+      "ambos",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-cd95253850",
+      "りょかん",
+      "旅館",
+      "ryokan",
+      "posada japonesa",
+      "n4-lugares",
+      ""
+    ],
+    [
+      "w-0989d94de1",
+      "るす",
+      "留守",
+      "rusu",
+      "ausencia",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-8ff4f12975",
+      "れいぼう",
+      "冷房",
+      "reibou",
+      "aire acondicionado",
+      "n4-casa",
+      ""
+    ],
+    [
+      "w-bcb7922671",
+      "れきし",
+      "歴史",
+      "rekishi",
+      "historia",
+      "n4-escuela",
+      ""
+    ],
+    [
+      "w-b80da200ff",
+      "レジ",
+      "",
+      "reji",
+      "caja",
+      "n4-lugares",
+      ""
+    ],
+    [
+      "w-d9f9f17224",
+      "レポート",
+      "",
+      "repooto",
+      "informe",
+      "n4-escuela",
+      ""
+    ],
+    [
+      "w-6926bbe9d4",
+      "れんらく",
+      "連絡",
+      "renraku",
+      "contactar",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-f079ca12a7",
+      "ワープロ",
+      "",
+      "waapuro",
+      "procesador de textos",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-58c9a21aa1",
+      "わかす",
+      "沸かす",
+      "wakasu",
+      "hervir algo",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-e1641974f4",
+      "わかれる",
+      "別れる",
+      "wakareru",
+      "separarse",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-f7e0744822",
+      "わく",
+      "沸く",
+      "waku",
+      "hervir",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-ceec15828f",
+      "わけ",
+      "訳",
+      "wake",
+      "el porqué",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-12abb2a2c6",
+      "わすれもの",
+      "忘れ物",
+      "wasuremono",
+      "objeto olvidado",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-327c67b830",
+      "わらう",
+      "笑う",
+      "warau",
+      "reír",
+      "n4-verbos",
+      ""
+    ],
+    [
+      "w-44a2bc7c32",
+      "わりあい",
+      "割合",
+      "wariai",
+      "proporción",
+      "n4-otros",
+      ""
+    ],
+    [
+      "w-27046b71e1",
+      "われる",
+      "割れる",
+      "wareru",
+      "agrietarse",
+      "n4-verbos",
+      ""
+    ]
+  ],
+  "KANJI_ROWS": [
+    [
+      "k-会",
+      "会",
+      "reunión",
+      "かい",
+      "n4-sociedad",
+      "On. 会う es あう."
+    ],
+    [
+      "k-同",
+      "同",
+      "igual",
+      "どう",
+      "n4-otros",
+      "同じ es おなじ."
+    ],
+    [
+      "k-事",
+      "事",
+      "asunto",
+      "じ",
+      "n4-otros",
+      "こと es la lectura kun."
+    ],
+    [
+      "k-自",
+      "自",
+      "uno mismo",
+      "じ",
+      "n4-otros",
+      "自分."
+    ],
+    [
+      "k-社",
+      "社",
+      "empresa",
+      "しゃ",
+      "n4-trabajo",
+      "神社 se lee じんじゃ."
+    ],
+    [
+      "k-発",
+      "発",
+      "salida, emitir",
+      "はつ",
+      "n4-verbos",
+      "出発, 発音."
+    ],
+    [
+      "k-者",
+      "者",
+      "persona, sufijo",
+      "しゃ",
+      "n4-gente",
+      "医者, 記者."
+    ],
+    [
+      "k-地",
+      "地",
+      "tierra, suelo",
+      "ち",
+      "n4-lugares",
+      "地下, 地図."
+    ],
+    [
+      "k-業",
+      "業",
+      "oficio, industria",
+      "ぎょう",
+      "n4-trabajo",
+      "工業, 授業."
+    ],
+    [
+      "k-方",
+      "方",
+      "lado, dirección",
+      "ほう",
+      "n4-otros",
+      "かた es la persona, cortés. ほう compara."
+    ],
+    [
+      "k-新",
+      "新",
+      "nuevo",
+      "あたら",
+      "n4-adjetivos",
+      "新しい. On: シン."
+    ],
+    [
+      "k-場",
+      "場",
+      "lugar",
+      "ば",
+      "n4-lugares",
+      "場所, 工場."
+    ],
+    [
+      "k-員",
+      "員",
+      "miembro",
+      "いん",
+      "n4-trabajo",
+      "店員, 会社員."
+    ],
+    [
+      "k-立",
+      "立",
+      "ponerse de pie",
+      "た",
+      "n4-verbos",
+      "立つ. On: リツ."
+    ],
+    [
+      "k-開",
+      "開",
+      "abrir",
+      "ひら",
+      "n4-verbos",
+      "開く es ひらく o あく. On: カイ."
+    ],
+    [
+      "k-手",
+      "手",
+      "mano",
+      "て",
+      "n4-cuerpo",
+      "上手 es じょうず."
+    ],
+    [
+      "k-力",
+      "力",
+      "fuerza",
+      "ちから",
+      "n4-otros",
+      "On: リョク, リキ."
+    ],
+    [
+      "k-問",
+      "問",
+      "pregunta",
+      "もん",
+      "n4-escuela",
+      "質問. 問う es とう."
+    ],
+    [
+      "k-代",
+      "代",
+      "época, sustituto",
+      "だい",
+      "n4-otros",
+      "時代. 代わる es かわる."
+    ],
+    [
+      "k-明",
+      "明",
+      "claro, brillante",
+      "あか",
+      "n4-adjetivos",
+      "明るい. On: メイ."
+    ],
+    [
+      "k-動",
+      "動",
+      "moverse",
+      "うご",
+      "n4-verbos",
+      "動く. On: ドウ."
+    ],
+    [
+      "k-京",
+      "京",
+      "capital",
+      "きょう",
+      "n4-lugares",
+      "東京. On: ケイ en 京都市 no es la lectura de este nivel."
+    ],
+    [
+      "k-目",
+      "目",
+      "ojo",
+      "め",
+      "n4-cuerpo",
+      "On: モク."
+    ],
+    [
+      "k-通",
+      "通",
+      "pasar",
+      "とお",
+      "n4-verbos",
+      "通る. On: ツウ."
+    ],
+    [
+      "k-言",
+      "言",
+      "decir",
+      "い",
+      "n4-verbos",
+      "言う. On: ゲン."
+    ],
+    [
+      "k-理",
+      "理",
+      "razón, principio",
+      "り",
+      "n4-escuela",
+      "料理, 理由."
+    ],
+    [
+      "k-体",
+      "体",
+      "cuerpo",
+      "からだ",
+      "n4-cuerpo",
+      "On: タイ."
+    ],
+    [
+      "k-田",
+      "田",
+      "arrozal",
+      "た",
+      "n4-naturaleza",
+      ""
+    ],
+    [
+      "k-主",
+      "主",
+      "dueño, principal",
+      "ぬし",
+      "n4-otros",
+      "On: シュ, como en 主人."
+    ],
+    [
+      "k-題",
+      "題",
+      "tema",
+      "だい",
+      "n4-escuela",
+      "問題."
+    ],
+    [
+      "k-意",
+      "意",
+      "intención, idea",
+      "い",
+      "n4-otros",
+      "意味, 注意."
+    ],
+    [
+      "k-不",
+      "不",
+      "no, prefijo",
+      "ふ",
+      "n4-otros",
+      "不便, 不安."
+    ],
+    [
+      "k-作",
+      "作",
+      "hacer, obra",
+      "さく",
+      "n4-verbos",
+      "作る es つくる."
+    ],
+    [
+      "k-用",
+      "用",
+      "uso",
+      "よう",
+      "n4-otros",
+      "用いる es もちいる."
+    ],
+    [
+      "k-度",
+      "度",
+      "vez, grado",
+      "ど",
+      "n4-otros",
+      "一度. たび es vez, kun."
+    ],
+    [
+      "k-強",
+      "強",
+      "fuerte",
+      "つよ",
+      "n4-adjetivos",
+      "強い. On: キョウ."
+    ],
+    [
+      "k-公",
+      "公",
+      "público",
+      "こう",
+      "n4-sociedad",
+      "公園 ya es N5. 公務員."
+    ],
+    [
+      "k-持",
+      "持",
+      "sostener",
+      "も",
+      "n4-verbos",
+      "持つ."
+    ],
+    [
+      "k-野",
+      "野",
+      "campo",
+      "の",
+      "n4-naturaleza",
+      "野原."
+    ],
+    [
+      "k-以",
+      "以",
+      "a partir de, por medio de",
+      "い",
+      "n4-otros",
+      "以上, 以下."
+    ],
+    [
+      "k-思",
+      "思",
+      "pensar",
+      "おも",
+      "n4-verbos",
+      "思う."
+    ],
+    [
+      "k-家",
+      "家",
+      "casa",
+      "いえ",
+      "n4-casa",
+      "On: カ, como en 家族."
+    ],
+    [
+      "k-世",
+      "世",
+      "mundo, generación",
+      "よ",
+      "n4-sociedad",
+      "世界 usa セ. 世の中 es よのなか."
+    ],
+    [
+      "k-多",
+      "多",
+      "mucho",
+      "おお",
+      "n4-adjetivos",
+      "多い."
+    ],
+    [
+      "k-正",
+      "正",
+      "correcto",
+      "ただ",
+      "n4-adjetivos",
+      "正しい. On: セイ."
+    ],
+    [
+      "k-安",
+      "安",
+      "barato, tranquilo",
+      "やす",
+      "n4-adjetivos",
+      "安い. On: アン."
+    ],
+    [
+      "k-院",
+      "院",
+      "institución",
+      "いん",
+      "n4-lugares",
+      "病院, 医院."
+    ],
+    [
+      "k-心",
+      "心",
+      "corazón, mente",
+      "こころ",
+      "n4-cuerpo",
+      "On: シン, como en 安心."
+    ],
+    [
+      "k-界",
+      "界",
+      "mundo, esfera",
+      "かい",
+      "n4-lugares",
+      "世界."
+    ],
+    [
+      "k-教",
+      "教",
+      "enseñar",
+      "おし",
+      "n4-verbos",
+      "教える. On: キョウ."
+    ],
+    [
+      "k-文",
+      "文",
+      "texto, letra",
+      "ぶん",
+      "n4-escuela",
+      "On: モン en 文字."
+    ],
+    [
+      "k-元",
+      "元",
+      "origen",
+      "もと",
+      "n4-otros",
+      "On: ゲン."
+    ],
+    [
+      "k-重",
+      "重",
+      "pesado",
+      "おも",
+      "n4-adjetivos",
+      "重い. On: ジュウ."
+    ],
+    [
+      "k-近",
+      "近",
+      "cerca",
+      "ちか",
+      "n4-adjetivos",
+      "近い. On: キン."
+    ],
+    [
+      "k-考",
+      "考",
+      "pensar (考)",
+      "かんが",
+      "n4-verbos",
+      "考える."
+    ],
+    [
+      "k-画",
+      "画",
+      "dibujo, trazo",
+      "え",
+      "n4-otros",
+      "On: ガ, como en 映画."
+    ],
+    [
+      "k-海",
+      "海",
+      "mar",
+      "うみ",
+      "n4-naturaleza",
+      "On: カイ."
+    ],
+    [
+      "k-売",
+      "売",
+      "vender",
+      "う",
+      "n4-verbos",
+      "売る."
+    ],
+    [
+      "k-知",
+      "知",
+      "saber",
+      "し",
+      "n4-verbos",
+      "知る."
+    ],
+    [
+      "k-道",
+      "道",
+      "camino",
+      "みち",
+      "n4-lugares",
+      "On: ドウ."
+    ],
+    [
+      "k-集",
+      "集",
+      "reunir",
+      "あつ",
+      "n4-verbos",
+      "集める. On: シュウ."
+    ],
+    [
+      "k-別",
+      "別",
+      "separar, otro",
+      "わか",
+      "n4-otros",
+      "別れる. On: ベツ."
+    ],
+    [
+      "k-物",
+      "物",
+      "cosa",
+      "もの",
+      "n4-otros",
+      "On: ブツ."
+    ],
+    [
+      "k-使",
+      "使",
+      "usar",
+      "つか",
+      "n4-verbos",
+      "使う."
+    ],
+    [
+      "k-品",
+      "品",
+      "artículo",
+      "しな",
+      "n4-otros",
+      "On: ヒン."
+    ],
+    [
+      "k-計",
+      "計",
+      "medir, plan",
+      "けい",
+      "n4-otros",
+      "計画."
+    ],
+    [
+      "k-死",
+      "死",
+      "muerte",
+      "し",
+      "n4-verbos",
+      "死ぬ."
+    ],
+    [
+      "k-特",
+      "特",
+      "especial",
+      "とく",
+      "n4-otros",
+      "特別."
+    ],
+    [
+      "k-私",
+      "私",
+      "yo, privado",
+      "わたし",
+      "n4-gente",
+      "On: シ, privado."
+    ],
+    [
+      "k-始",
+      "始",
+      "empezar",
+      "はじ",
+      "n4-verbos",
+      "始める."
+    ],
+    [
+      "k-朝",
+      "朝",
+      "mañana",
+      "あさ",
+      "n4-tiempo",
+      "On: チョウ."
+    ],
+    [
+      "k-運",
+      "運",
+      "transportar",
+      "はこ",
+      "n4-verbos",
+      "運ぶ. On: ウン."
+    ],
+    [
+      "k-終",
+      "終",
+      "terminar",
+      "お",
+      "n4-verbos",
+      "終わる. On: シュウ."
+    ],
+    [
+      "k-台",
+      "台",
+      "contador, pedestal",
+      "だい",
+      "n4-otros",
+      "一台. También plataforma."
+    ],
+    [
+      "k-広",
+      "広",
+      "ancho",
+      "ひろ",
+      "n4-adjetivos",
+      "広い."
+    ],
+    [
+      "k-住",
+      "住",
+      "vivir en",
+      "す",
+      "n4-verbos",
+      "住む."
+    ],
+    [
+      "k-真",
+      "真",
+      "verdad",
+      "ま",
+      "n4-otros",
+      "真面目. On: シン."
+    ],
+    [
+      "k-有",
+      "有",
+      "haber, tener",
+      "あ",
+      "n4-verbos",
+      "有る. On: ユウ."
+    ],
+    [
+      "k-口",
+      "口",
+      "boca",
+      "くち",
+      "n4-cuerpo",
+      "On: コウ."
+    ],
+    [
+      "k-少",
+      "少",
+      "poco",
+      "すく",
+      "n4-adjetivos",
+      "少ない."
+    ],
+    [
+      "k-町",
+      "町",
+      "barrio",
+      "まち",
+      "n4-lugares",
+      "On: チョウ."
+    ],
+    [
+      "k-料",
+      "料",
+      "tarifa, material",
+      "りょう",
+      "n4-otros",
+      "料理, 料金."
+    ],
+    [
+      "k-工",
+      "工",
+      "obra, industria",
+      "こう",
+      "n4-trabajo",
+      "工場."
+    ],
+    [
+      "k-建",
+      "建",
+      "construir",
+      "た",
+      "n4-verbos",
+      "建てる. On: ケン."
+    ],
+    [
+      "k-空",
+      "空",
+      "cielo, vacío",
+      "そら",
+      "n4-naturaleza",
+      "空く es あく. On: クウ."
+    ],
+    [
+      "k-急",
+      "急",
+      "prisa",
+      "いそ",
+      "n4-adjetivos",
+      "急ぐ. On: キュウ."
+    ],
+    [
+      "k-止",
+      "止",
+      "parar",
+      "と",
+      "n4-verbos",
+      "止める, 止まる. On: シ."
+    ],
+    [
+      "k-送",
+      "送",
+      "enviar",
+      "おく",
+      "n4-verbos",
+      "送る."
+    ],
+    [
+      "k-切",
+      "切",
+      "cortar",
+      "き",
+      "n4-verbos",
+      "切る. On: セツ."
+    ],
+    [
+      "k-転",
+      "転",
+      "girar, cambiar",
+      "てん",
+      "n4-verbos",
+      "自転車 ya es N5."
+    ],
+    [
+      "k-研",
+      "研",
+      "pulir, investigar",
+      "けん",
+      "n4-escuela",
+      "研究."
+    ],
+    [
+      "k-足",
+      "足",
+      "pie, pierna",
+      "あし",
+      "n4-cuerpo",
+      "足りる es bastar. On: ソク."
+    ],
+    [
+      "k-究",
+      "究",
+      "investigar a fondo",
+      "きゅう",
+      "n4-escuela",
+      "研究."
+    ],
+    [
+      "k-楽",
+      "楽",
+      "agradable",
+      "たの",
+      "n4-adjetivos",
+      "楽しい. On: ガク, música."
+    ],
+    [
+      "k-起",
+      "起",
+      "levantarse",
+      "お",
+      "n4-verbos",
+      "起きる."
+    ],
+    [
+      "k-着",
+      "着",
+      "ponerse, llegar",
+      "き",
+      "n4-verbos",
+      "着る, 着く."
+    ],
+    [
+      "k-店",
+      "店",
+      "tienda",
+      "みせ",
+      "n4-lugares",
+      "On: テン."
+    ],
+    [
+      "k-病",
+      "病",
+      "enfermedad",
+      "びょう",
+      "n4-cuerpo",
+      "病気."
+    ],
+    [
+      "k-質",
+      "質",
+      "calidad",
+      "しつ",
+      "n4-otros",
+      "質問 usa otra lectura, しつ de preguntar no es este sentido único."
+    ],
+    [
+      "k-待",
+      "待",
+      "esperar",
+      "ま",
+      "n4-verbos",
+      "待つ."
+    ],
+    [
+      "k-試",
+      "試",
+      "probar",
+      "ため",
+      "n4-verbos",
+      "試す. On: シ, 試験."
+    ],
+    [
+      "k-族",
+      "族",
+      "familia, grupo",
+      "ぞく",
+      "n4-gente",
+      "家族."
+    ],
+    [
+      "k-銀",
+      "銀",
+      "plata",
+      "ぎん",
+      "n4-otros",
+      "銀行."
+    ],
+    [
+      "k-早",
+      "早",
+      "pronto",
+      "はや",
+      "n4-adjetivos",
+      "早い."
+    ],
+    [
+      "k-映",
+      "映",
+      "reflejarse",
+      "うつ",
+      "n4-verbos",
+      "映画 es えいが."
+    ],
+    [
+      "k-親",
+      "親",
+      "padre, madre",
+      "おや",
+      "n4-gente",
+      "On: シン, 親切."
+    ],
+    [
+      "k-験",
+      "験",
+      "prueba",
+      "けん",
+      "n4-escuela",
+      "試験, 経験."
+    ],
+    [
+      "k-英",
+      "英",
+      "Inglaterra, inglés",
+      "えい",
+      "n4-escuela",
+      "英語."
+    ],
+    [
+      "k-医",
+      "医",
+      "medicina",
+      "い",
+      "n4-trabajo",
+      "医者, 医院."
+    ],
+    [
+      "k-仕",
+      "仕",
+      "servir",
+      "つか",
+      "n4-verbos",
+      "仕える. On: シ."
+    ],
+    [
+      "k-去",
+      "去",
+      "irse",
+      "さ",
+      "n4-verbos",
+      "去る."
+    ],
+    [
+      "k-味",
+      "味",
+      "sabor",
+      "あじ",
+      "n4-comida",
+      "On: ミ."
+    ],
+    [
+      "k-写",
+      "写",
+      "copiar",
+      "うつ",
+      "n4-verbos",
+      "写真 es しゃしん."
+    ],
+    [
+      "k-字",
+      "字",
+      "carácter",
+      "じ",
+      "n4-escuela",
+      ""
+    ],
+    [
+      "k-答",
+      "答",
+      "respuesta",
+      "こた",
+      "n4-escuela",
+      "答える."
+    ],
+    [
+      "k-夜",
+      "夜",
+      "noche",
+      "よる",
+      "n4-tiempo",
+      "On: ヤ."
+    ],
+    [
+      "k-音",
+      "音",
+      "sonido",
+      "おと",
+      "n4-otros",
+      "On: オン."
+    ],
+    [
+      "k-注",
+      "注",
+      "verter, prestar atención",
+      "ちゅう",
+      "n4-verbos",
+      "注意."
+    ],
+    [
+      "k-帰",
+      "帰",
+      "volver",
+      "かえ",
+      "n4-verbos",
+      "帰る."
+    ],
+    [
+      "k-古",
+      "古",
+      "viejo",
+      "ふる",
+      "n4-adjetivos",
+      "古い."
+    ],
+    [
+      "k-歌",
+      "歌",
+      "canción",
+      "うた",
+      "n4-otros",
+      "歌う."
+    ],
+    [
+      "k-買",
+      "買",
+      "comprar",
+      "か",
+      "n4-verbos",
+      "買う."
+    ],
+    [
+      "k-悪",
+      "悪",
+      "malo",
+      "わる",
+      "n4-adjetivos",
+      "悪い."
+    ],
+    [
+      "k-図",
+      "図",
+      "diagrama",
+      "ず",
+      "n4-otros",
+      "地図."
+    ],
+    [
+      "k-週",
+      "週",
+      "semana",
+      "しゅう",
+      "n4-tiempo",
+      ""
+    ],
+    [
+      "k-室",
+      "室",
+      "habitación",
+      "しつ",
+      "n4-lugares",
+      "教室."
+    ],
+    [
+      "k-歩",
+      "歩",
+      "caminar",
+      "ある",
+      "n4-verbos",
+      "歩く. On: ホ."
+    ],
+    [
+      "k-風",
+      "風",
+      "viento",
+      "かぜ",
+      "n4-naturaleza",
+      "On: フウ."
+    ],
+    [
+      "k-紙",
+      "紙",
+      "papel",
+      "かみ",
+      "n4-otros",
+      "On: シ."
+    ],
+    [
+      "k-黒",
+      "黒",
+      "negro",
+      "くろ",
+      "n4-naturaleza",
+      "黒い."
+    ],
+    [
+      "k-花",
+      "花",
+      "flor",
+      "はな",
+      "n4-naturaleza",
+      "On: カ."
+    ],
+    [
+      "k-春",
+      "春",
+      "primavera",
+      "はる",
+      "n4-tiempo",
+      ""
+    ],
+    [
+      "k-赤",
+      "赤",
+      "rojo",
+      "あか",
+      "n4-naturaleza",
+      "赤い."
+    ],
+    [
+      "k-青",
+      "青",
+      "azul",
+      "あお",
+      "n4-naturaleza",
+      "青い."
+    ],
+    [
+      "k-館",
+      "館",
+      "edificio público",
+      "かん",
+      "n4-lugares",
+      "図書館, 映画館."
+    ],
+    [
+      "k-屋",
+      "屋",
+      "tienda, techo",
+      "や",
+      "n4-lugares",
+      "本屋."
+    ],
+    [
+      "k-色",
+      "色",
+      "color",
+      "いろ",
+      "n4-naturaleza",
+      "On: ショク."
+    ],
+    [
+      "k-走",
+      "走",
+      "correr",
+      "はし",
+      "n4-verbos",
+      "走る."
+    ],
+    [
+      "k-秋",
+      "秋",
+      "otoño",
+      "あき",
+      "n4-tiempo",
+      ""
+    ],
+    [
+      "k-夏",
+      "夏",
+      "verano",
+      "なつ",
+      "n4-tiempo",
+      ""
+    ],
+    [
+      "k-習",
+      "習",
+      "aprender",
+      "なら",
+      "n4-verbos",
+      "習う."
+    ],
+    [
+      "k-駅",
+      "駅",
+      "estación",
+      "えき",
+      "n4-transporte",
+      ""
+    ],
+    [
+      "k-洋",
+      "洋",
+      "océano, occidental",
+      "よう",
+      "n4-lugares",
+      "西洋."
+    ],
+    [
+      "k-旅",
+      "旅",
+      "viaje",
+      "たび",
+      "n4-otros",
+      "旅行."
+    ],
+    [
+      "k-服",
+      "服",
+      "ropa",
+      "ふく",
+      "n4-ropa",
+      ""
+    ],
+    [
+      "k-夕",
+      "夕",
+      "atardecer",
+      "ゆう",
+      "n4-tiempo",
+      "夕方."
+    ],
+    [
+      "k-借",
+      "借",
+      "pedir prestado",
+      "か",
+      "n4-verbos",
+      "借りる."
+    ],
+    [
+      "k-曜",
+      "曜",
+      "día de la semana",
+      "よう",
+      "n4-tiempo",
+      "日曜日."
+    ],
+    [
+      "k-飲",
+      "飲",
+      "beber",
+      "の",
+      "n4-verbos",
+      "飲む."
+    ],
+    [
+      "k-肉",
+      "肉",
+      "carne",
+      "にく",
+      "n4-comida",
+      ""
+    ],
+    [
+      "k-貸",
+      "貸",
+      "prestar",
+      "か",
+      "n4-verbos",
+      "貸す."
+    ],
+    [
+      "k-堂",
+      "堂",
+      "sala",
+      "どう",
+      "n4-lugares",
+      "食堂."
+    ],
+    [
+      "k-鳥",
+      "鳥",
+      "ave",
+      "とり",
+      "n4-naturaleza",
+      ""
+    ],
+    [
+      "k-飯",
+      "飯",
+      "comida",
+      "はん",
+      "n4-comida",
+      "ご飯 es はん en compuestos."
+    ],
+    [
+      "k-勉",
+      "勉",
+      "esforzarse",
+      "べん",
+      "n4-escuela",
+      "勉強."
+    ],
+    [
+      "k-冬",
+      "冬",
+      "invierno",
+      "ふゆ",
+      "n4-tiempo",
+      ""
+    ],
+    [
+      "k-昼",
+      "昼",
+      "mediodía",
+      "ひる",
+      "n4-tiempo",
+      ""
+    ],
+    [
+      "k-茶",
+      "茶",
+      "té",
+      "ちゃ",
+      "n4-comida",
+      ""
+    ],
+    [
+      "k-弟",
+      "弟",
+      "hermano menor",
+      "おとうと",
+      "n4-gente",
+      "On: テイ."
+    ],
+    [
+      "k-牛",
+      "牛",
+      "vaca",
+      "うし",
+      "n4-naturaleza",
+      "On: ギュウ."
+    ],
+    [
+      "k-魚",
+      "魚",
+      "pez",
+      "さかな",
+      "n4-comida",
+      "On: ギョ."
+    ],
+    [
+      "k-兄",
+      "兄",
+      "hermano mayor",
+      "あに",
+      "n4-gente",
+      "On: ケイ."
+    ],
+    [
+      "k-犬",
+      "犬",
+      "perro",
+      "いぬ",
+      "n4-naturaleza",
+      ""
+    ],
+    [
+      "k-妹",
+      "妹",
+      "hermana menor",
+      "いもうと",
+      "n4-gente",
+      ""
+    ],
+    [
+      "k-姉",
+      "姉",
+      "hermana mayor",
+      "あね",
+      "n4-gente",
+      ""
+    ],
+    [
+      "k-漢",
+      "漢",
+      "China, han",
+      "かん",
+      "n4-escuela",
+      "漢字."
+    ],
+    [
+      "k-坊",
+      "坊",
+      "chico",
+      "ぼう",
+      "n4-gente",
+      "赤ん坊."
+    ],
+    [
+      "k-凄",
+      "凄",
+      "tremendo",
+      "すご",
+      "n4-adjetivos",
+      "すごい es la escritura habitual."
+    ],
+    [
+      "k-痩",
+      "痩",
+      "adelgazar",
+      "や",
+      "n4-verbos",
+      "痩せる."
+    ]
+  ],
+  "PHRASE_ROWS": [
+    [
+      "p-ageru-kureru-morau-1",
+      "私は友だちに本をあげます",
+      "わたしはともだちにほんをあげます",
+      "Le doy un libro a un amigo.",
+      "n4-regalo",
+      "あげ",
+      "あげる, くれる, もらう"
+    ],
+    [
+      "p-ageru-kureru-morau-2",
+      "兄が私にくれました",
+      "あにがわたしにくれました",
+      "Mi hermano me lo dio.",
+      "n4-regalo",
+      "",
+      "あげる, くれる, もらう"
+    ],
+    [
+      "p-te-ageru-1",
+      "荷物を持ってあげます",
+      "にもつをもってあげます",
+      "Te llevo el equipaje.",
+      "n4-regalo",
+      "てあげ",
+      "てあげる: hacerlo por otro"
+    ],
+    [
+      "p-te-ageru-2",
+      "妹に読んであげました",
+      "いもうとによんであげました",
+      "Se lo leí a mi hermana.",
+      "n4-regalo",
+      "",
+      "てあげる: hacerlo por otro"
+    ],
+    [
+      "p-te-kureru-1",
+      "友だちが手伝ってくれました",
+      "ともだちがてつだってくれました",
+      "Un amigo me ayudó.",
+      "n4-regalo",
+      "てくれ",
+      "てくれる: lo hacen por mí"
+    ],
+    [
+      "p-te-kureru-2",
+      "母が作ってくれます",
+      "ははがつくってくれます",
+      "Mi madre me lo prepara.",
+      "n4-regalo",
+      "てくれ",
+      "てくれる: lo hacen por mí"
+    ],
+    [
+      "p-te-morau-1",
+      "友だちに来てもらいます",
+      "ともだちにきてもらいます",
+      "Le pido a un amigo que venga.",
+      "n4-regalo",
+      "てもら",
+      "てもらう: lograr que lo hagan"
+    ],
+    [
+      "p-te-morau-2",
+      "先生に見てもらいました",
+      "せんせいにみてもらいました",
+      "El profesor me lo revisó.",
+      "n4-regalo",
+      "てもら",
+      "てもらう: lograr que lo hagan"
+    ],
+    [
+      "p-te-kudasaru-te-itadaku-1",
+      "先生が教えてくださいました",
+      "せんせいがおしえてくださいました",
+      "El profesor tuvo la amabilidad de explicármelo.",
+      "n4-regalo",
+      "てくださ",
+      "てくださる y ていただく"
+    ],
+    [
+      "p-te-kudasaru-te-itadaku-2",
+      "部長に聞いていただきました",
+      "ぶちょうにきいていただきました",
+      "Se lo consulté al jefe, con humildad.",
+      "n4-regalo",
+      "",
+      "てくださる y ていただく"
+    ],
+    [
+      "p-te-iku-1",
+      "このまま太っていきます",
+      "このままふとっていきます",
+      "Si sigo así, voy a engordar.",
+      "n4-forma-て",
+      "てい",
+      "ていく: ir haciendo"
+    ],
+    [
+      "p-te-iku-2",
+      "傘を持っていきました",
+      "かさをもっていきました",
+      "Me llevé el paraguas.",
+      "n4-forma-て",
+      "てい",
+      "ていく: ir haciendo"
+    ],
+    [
+      "p-te-kuru-1",
+      "雨が降ってきました",
+      "あめがふってきました",
+      "Se ha puesto a llover.",
+      "n4-forma-て",
+      "",
+      "てくる: venir haciendo"
+    ],
+    [
+      "p-te-kuru-2",
+      "少し寒くなってきました",
+      "すこさむくなってきました",
+      "Ha ido haciendo más frío.",
+      "n4-forma-て",
+      "",
+      "てくる: venir haciendo"
+    ],
+    [
+      "p-te-shimau-chau-1",
+      "宿題を忘れてしまいました",
+      "しゅくだいをわすれてしまいました",
+      "Se me olvidó la tarea.",
+      "n4-forma-て",
+      "てしま",
+      "てしまう: acabar o lamentar"
+    ],
+    [
+      "p-te-shimau-chau-2",
+      "もう食べちゃいました",
+      "もうたべちゃいました",
+      "Ya me lo comí, en conversación.",
+      "n4-forma-て",
+      "",
+      "てしまう: acabar o lamentar"
+    ],
+    [
+      "p-te-oku-1",
+      "窓を開けておきます",
+      "まどをあけておきます",
+      "Dejo la ventana abierta.",
+      "n4-forma-て",
+      "ておき",
+      "ておく: dejarlo hecho"
+    ],
+    [
+      "p-te-oku-2",
+      "先に予約しておきました",
+      "さきによやくしておきました",
+      "Reservé antes.",
+      "n4-forma-て",
+      "ておき",
+      "ておく: dejarlo hecho"
+    ],
+    [
+      "p-te-miru-1",
+      "この靴をはいてみます",
+      "このくつをはいてみます",
+      "Me pruebo estos zapatos.",
+      "n4-forma-て",
+      "てみ",
+      "てみる: probar a hacerlo"
+    ],
+    [
+      "p-te-miru-2",
+      "一度聞いてみてください",
+      "いちどきいてみてください",
+      "Prueba a preguntarlo.",
+      "n4-forma-て",
+      "てみ",
+      "てみる: probar a hacerlo"
+    ],
+    [
+      "p-te-aru-1",
+      "窓が開けてあります",
+      "まどがあけてあります",
+      "La ventana está abierta, alguien la abrió.",
+      "n4-forma-て",
+      "てあ",
+      "てある: quedó hecho"
+    ],
+    [
+      "p-te-aru-2",
+      "名前が書いてあります",
+      "なまえがかいてあります",
+      "El nombre está escrito.",
+      "n4-forma-て",
+      "てあ",
+      "てある: quedó hecho"
+    ],
+    [
+      "p-toki-1",
+      "寝るとき、電気を消します",
+      "ねるとき、でんきをけします",
+      "Cuando me acuesto, apago la luz.",
+      "n4-tiempo",
+      "とき",
+      "とき: cuando"
+    ],
+    [
+      "p-toki-2",
+      "国へ帰ったとき、会いました",
+      "くにへかえったとき、あいました",
+      "Nos vimos cuando volví a mi país.",
+      "n4-tiempo",
+      "とき",
+      "とき: cuando"
+    ],
+    [
+      "p-aida-aida-ni-1",
+      "夏休みの間、海にいました",
+      "なつやすみのあいだ、うみにいました",
+      "Estuve en el mar durante las vacaciones.",
+      "n4-tiempo",
+      "間",
+      "間 y 間に"
+    ],
+    [
+      "p-aida-aida-ni-2",
+      "留守の間に、友だちが来ました",
+      "るすのあいだに、ともだちがきました",
+      "Mientras no estaba, vino un amigo.",
+      "n4-tiempo",
+      "間",
+      "間 y 間に"
+    ],
+    [
+      "p-sou-da-appearance-1",
+      "雨が降りそうです",
+      "あめがふりそうです",
+      "Parece que va a llover.",
+      "n4-apariencia",
+      "そう",
+      "そうだ: parece que va a"
+    ],
+    [
+      "p-sou-da-appearance-2",
+      "このケーキはおいしそうです",
+      "このケーキはおいしそうです",
+      "Este pastel tiene buena pinta.",
+      "n4-apariencia",
+      "そう",
+      "そうだ: parece que va a"
+    ],
+    [
+      "p-sou-da-hearsay-1",
+      "明日は雨だそうです",
+      "あしたはあめだそうです",
+      "Dicen que mañana llueve.",
+      "n4-apariencia",
+      "そう",
+      "そうだ: dicen que"
+    ],
+    [
+      "p-sou-da-hearsay-2",
+      "あの店は高いそうです",
+      "あのみせはたかいそうです",
+      "Dicen que aquella tienda es cara.",
+      "n4-apariencia",
+      "そう",
+      "そうだ: dicen que"
+    ],
+    [
+      "p-rashii-1",
+      "彼は来ないらしいです",
+      "かれはこないらしいです",
+      "Parece que él no viene.",
+      "n4-apariencia",
+      "らしい",
+      "らしい: por lo que se ve"
+    ],
+    [
+      "p-rashii-2",
+      "それは本当らしいです",
+      "それはほんとうらしいです",
+      "Parece que es verdad.",
+      "n4-apariencia",
+      "らしい",
+      "らしい: por lo que se ve"
+    ],
+    [
+      "p-you-da-1",
+      "かぜをひいたようです",
+      "かぜをひいたようです",
+      "Parece que se ha resfriado.",
+      "n4-apariencia",
+      "よう",
+      "ようだ: da la impresión"
+    ],
+    [
+      "p-you-da-2",
+      "夢のようです",
+      "ゆめのようです",
+      "Parece un sueño.",
+      "n4-apariencia",
+      "よう",
+      "ようだ: da la impresión"
+    ],
+    [
+      "p-mitai-1",
+      "雪みたいです",
+      "ゆきみたいです",
+      "Parece nieve.",
+      "n4-apariencia",
+      "みたい",
+      "みたい: parece, coloquial"
+    ],
+    [
+      "p-mitai-2",
+      "子どもみたいに笑いました",
+      "こどもみたいにわらいました",
+      "Se rio como un niño.",
+      "n4-apariencia",
+      "みたい",
+      "みたい: parece, coloquial"
+    ],
+    [
+      "p-sugiru-1",
+      "食べすぎました",
+      "たべすぎました",
+      "Comí demasiado.",
+      "n4-grado",
+      "すぎ",
+      "すぎる: demasiado"
+    ],
+    [
+      "p-sugiru-2",
+      "この荷物は重すぎます",
+      "このにもつはおもすぎます",
+      "Este bulto pesa demasiado.",
+      "n4-grado",
+      "すぎ",
+      "すぎる: demasiado"
+    ],
+    [
+      "p-kata-1",
+      "使い方を教えてください",
+      "つかいかたをおしえてください",
+      "Enséñame cómo se usa.",
+      "n4-manera",
+      "方",
+      "方: cómo se hace"
+    ],
+    [
+      "p-kata-2",
+      "書き方が分かりません",
+      "かきかたがわかりません",
+      "No entiendo cómo se escribe.",
+      "n4-manera",
+      "方",
+      "方: cómo se hace"
+    ],
+    [
+      "p-chuu-juu-1",
+      "今、食事中です",
+      "いま、しょくじちゅうです",
+      "Ahora estoy comiendo.",
+      "n4-tiempo",
+      "中",
+      "中: en medio o durante todo"
+    ],
+    [
+      "p-chuu-juu-2",
+      "一日中、雨でした",
+      "いちにちじゅう、あめでした",
+      "Llovió todo el día.",
+      "n4-tiempo",
+      "中",
+      "中: en medio o durante todo"
+    ],
+    [
+      "p-tsumori-1",
+      "明日行くつもりです",
+      "あしたいくつもりです",
+      "Pienso ir mañana.",
+      "n4-intención",
+      "つもり",
+      "つもり: tener pensado"
+    ],
+    [
+      "p-tsumori-2",
+      "買うつもりはありません",
+      "かうつもりはありません",
+      "No pienso comprarlo.",
+      "n4-intención",
+      "つもり",
+      "つもり: tener pensado"
+    ],
+    [
+      "p-yotei-1",
+      "三時に会う予定です",
+      "さんじにあうよていです",
+      "Quedamos a las tres.",
+      "n4-intención",
+      "予定",
+      "予定: está previsto"
+    ],
+    [
+      "p-yotei-2",
+      "旅行の予定はありません",
+      "りょこうのよていはありません",
+      "No tengo previsto viajar.",
+      "n4-intención",
+      "予定",
+      "予定: está previsto"
+    ],
+    [
+      "p-koto-ni-suru-1",
+      "毎日歩くことにします",
+      "まいにちあるくことにします",
+      "Decido caminar cada día.",
+      "n4-intención",
+      "ことに",
+      "ことにする: decidir"
+    ],
+    [
+      "p-koto-ni-suru-2",
+      "行かないことにしました",
+      "いかないことにしました",
+      "Decidí no ir.",
+      "n4-intención",
+      "ことに",
+      "ことにする: decidir"
+    ],
+    [
+      "p-koto-ni-naru-1",
+      "来月、大阪へ行くことになります",
+      "らいげつ、おおさかへいくことになります",
+      "Queda que el mes que viene voy a Osaka.",
+      "n4-intención",
+      "ことにな",
+      "ことになる: queda decidido"
+    ],
+    [
+      "p-koto-ni-naru-2",
+      "会議は中止になることになりました",
+      "かいぎはちゅうしになることになりました",
+      "La reunión acabó suspendiéndose.",
+      "n4-intención",
+      "ことにな",
+      "ことになる: queda decidido"
+    ],
+    [
+      "p-koto-ga-dekiru-1",
+      "漢字を読むことができます",
+      "かんじをよむことができます",
+      "Puedo leer kanji.",
+      "n4-voz",
+      "ことができ",
+      "ことができる: poder"
+    ],
+    [
+      "p-koto-ga-dekiru-2",
+      "ここで写真を取ることはできません",
+      "ここでしゃしんをとることはできません",
+      "Aquí no se pueden hacer fotos.",
+      "n4-voz",
+      "こと",
+      "ことができる: poder"
+    ],
+    [
+      "p-eru-rareru-potential-1",
+      "この漢字が読めます",
+      "このかんじがよめます",
+      "Puedo leer este kanji.",
+      "n4-voz",
+      "",
+      "Potencial: poder"
+    ],
+    [
+      "p-eru-rareru-potential-2",
+      "一人で来られます",
+      "ひとりでこられます",
+      "Puedo venir solo.",
+      "n4-voz",
+      "られ",
+      "Potencial: poder"
+    ],
+    [
+      "p-reru-rareru-passive-1",
+      "弟にケーキを食べられました",
+      "おとうとにケーキをたべられました",
+      "Mi hermano me comió el pastel.",
+      "n4-voz",
+      "",
+      "Pasiva"
+    ],
+    [
+      "p-reru-rareru-passive-2",
+      "雨に降られました",
+      "あめにふられました",
+      "Me pilló la lluvia.",
+      "n4-voz",
+      "",
+      "Pasiva"
+    ],
+    [
+      "p-seru-saseru-1",
+      "子どもに野菜を食べさせます",
+      "こどもにやさいをたべさせます",
+      "Hago que el niño coma verdura.",
+      "n4-voz",
+      "させ",
+      "Causativa: hacer que"
+    ],
+    [
+      "p-seru-saseru-2",
+      "先生は学生を立たせました",
+      "せんせいはがくせいをたたせました",
+      "El profesor hizo ponerse de pie al estudiante.",
+      "n4-voz",
+      "",
+      "Causativa: hacer que"
+    ],
+    [
+      "p-serareru-saserareru-1",
+      "残業させられました",
+      "ざんぎょうさせられました",
+      "Me hicieron quedarme a trabajar.",
+      "n4-voz",
+      "させられ",
+      "Ser obligado"
+    ],
+    [
+      "p-serareru-saserareru-2",
+      "きらいなものを食べさせられた",
+      "きらいなものをたべさせられた",
+      "Me obligaron a comer lo que no me gusta.",
+      "n4-voz",
+      "させられ",
+      "Ser obligado"
+    ],
+    [
+      "p-ou-you-1",
+      "一緒に行こう",
+      "いっしょにいこう",
+      "Vamos juntos.",
+      "n4-voz",
+      "",
+      "Volitivo: おう y よう"
+    ],
+    [
+      "p-ou-you-2",
+      "今日は早く寝よう",
+      "きょうははやくねよう",
+      "Hoy me voy a acostar pronto.",
+      "n4-voz",
+      "よう",
+      "Volitivo: おう y よう"
+    ],
+    [
+      "p-you-to-omou-1",
+      "夏に海へ行こうと思います",
+      "なつにうみへいこうとおもいます",
+      "Estoy pensando en ir al mar en verano.",
+      "n4-intención",
+      "と思",
+      "ようと思う: estoy por hacerlo"
+    ],
+    [
+      "p-you-to-omou-2",
+      "新しい仕事をさがそうと思っています",
+      "あたらしいしごとをさがそうとおもっています",
+      "Llevo pensando en buscar otro trabajo.",
+      "n4-intención",
+      "と思",
+      "ようと思う: estoy por hacerlo"
+    ],
+    [
+      "p-e-ro-1",
+      "早く来い",
+      "はやくこい",
+      "Ven ya.",
+      "n4-mandato",
+      "",
+      "Imperativo brusco"
+    ],
+    [
+      "p-e-ro-2",
+      "これを見ろ",
+      "これをみろ",
+      "Mira esto.",
+      "n4-mandato",
+      "ろ",
+      "Imperativo brusco"
+    ],
+    [
+      "p-na-prohibition-1",
+      "ここに入るな",
+      "ここにはいるな",
+      "No entres aquí.",
+      "n4-mandato",
+      "な",
+      "な: no lo hagas"
+    ],
+    [
+      "p-na-prohibition-2",
+      "触るな",
+      "さわるな",
+      "No lo toques.",
+      "n4-mandato",
+      "な",
+      "な: no lo hagas"
+    ],
+    [
+      "p-nasai-1",
+      "早く寝なさい",
+      "はやくねなさい",
+      "Acuéstate pronto.",
+      "n4-mandato",
+      "なさい",
+      "なさい: la instrucción"
+    ],
+    [
+      "p-nasai-2",
+      "名前を書きなさい",
+      "なまえをかきなさい",
+      "Escribe el nombre.",
+      "n4-mandato",
+      "なさい",
+      "なさい: la instrucción"
+    ],
+    [
+      "p-ba-1",
+      "春になれば、暖かくなります",
+      "はるになれば、あたたかくなります",
+      "Cuando llega la primavera, hace más calor.",
+      "n4-condición",
+      "ば",
+      "ば: si"
+    ],
+    [
+      "p-ba-2",
+      "安ければ、買います",
+      "やすければ、かいます",
+      "Si es barato, lo compro.",
+      "n4-condición",
+      "ば",
+      "ば: si"
+    ],
+    [
+      "p-tara-1",
+      "着いたら、電話します",
+      "ついたら、でんわします",
+      "Cuando llegue, llamo.",
+      "n4-condición",
+      "たら",
+      "たら: si, o cuando"
+    ],
+    [
+      "p-tara-2",
+      "雨だったら、行きません",
+      "あめだったら、いきません",
+      "Si llueve, no voy.",
+      "n4-condición",
+      "たら",
+      "たら: si, o cuando"
+    ],
+    [
+      "p-nara-1",
+      "日本へ行くなら、春がいいです",
+      "にほんへいくなら、はるがいいです",
+      "Si vas a Japón, mejor en primavera.",
+      "n4-condición",
+      "なら",
+      "なら: si se trata de"
+    ],
+    [
+      "p-nara-2",
+      "魚なら、この店が安いです",
+      "さかななら、このみせがやすいです",
+      "Si es pescado, esta tienda es barata.",
+      "n4-condición",
+      "なら",
+      "なら: si se trata de"
+    ],
+    [
+      "p-to-1",
+      "このボタンを押すと、ドアが開きます",
+      "このボタンをおすと、ドアがひらきます",
+      "Si pulsas este botón, la puerta se abre.",
+      "n4-condición",
+      "と",
+      "と: siempre que"
+    ],
+    [
+      "p-to-2",
+      "春になると、花が咲きます",
+      "はるになると、はながさきます",
+      "Al llegar la primavera, salen las flores.",
+      "n4-condición",
+      "と",
+      "と: siempre que"
+    ],
+    [
+      "p-te-mo-de-mo-1",
+      "雨でも、行きます",
+      "あめでも、いきます",
+      "Aunque llueva, voy.",
+      "n4-condición",
+      "",
+      "ても: aunque"
+    ],
+    [
+      "p-te-mo-de-mo-2",
+      "高くても、買いたいです",
+      "たかくても、かいたいです",
+      "Aunque sea caro, quiero comprarlo.",
+      "n4-condición",
+      "ても",
+      "ても: aunque"
+    ],
+    [
+      "p-noni-although-1",
+      "勉強したのに、できませんでした",
+      "べんきょうしたのに、できませんでした",
+      "Estudié, y aun así no pude.",
+      "n4-condición",
+      "のに",
+      "のに: y eso que"
+    ],
+    [
+      "p-noni-although-2",
+      "今日は日曜なのに、仕事です",
+      "きょうはにちようなのに、しごとです",
+      "Es domingo, y aun así hay trabajo.",
+      "n4-condición",
+      "のに",
+      "のに: y eso que"
+    ],
+    [
+      "p-noni-purpose-1",
+      "この手紙を書くのに、一時間かかりました",
+      "このてがみをかくのに、いちじかんかかりました",
+      "Escribir esta carta me llevó una hora.",
+      "n4-razón",
+      "のに",
+      "のに: para, con uso"
+    ],
+    [
+      "p-noni-purpose-2",
+      "行くのに、お金が要ります",
+      "いくのに、おかねがいります",
+      "Para ir hace falta dinero.",
+      "n4-razón",
+      "のに",
+      "のに: para, con uso"
+    ],
+    [
+      "p-node-1",
+      "暑いので、窓を開けました",
+      "あついので、まどをあけました",
+      "Como hace calor, abrí la ventana.",
+      "n4-razón",
+      "ので",
+      "ので: como, porque"
+    ],
+    [
+      "p-node-2",
+      "初めてなので、教えてください",
+      "はじめてなので、おしえてください",
+      "Como es la primera vez, enséñamelo.",
+      "n4-razón",
+      "ので",
+      "ので: como, porque"
+    ],
+    [
+      "p-te-reason-1",
+      "ニュースを聞いて、びっくりしました",
+      "ニュースをきいて、びっくりしました",
+      "Al oír la noticia, me sobresalté.",
+      "n4-razón",
+      "て",
+      "て: la causa de un estado"
+    ],
+    [
+      "p-te-reason-2",
+      "忙しくて、行けません",
+      "いそがしくて、いけません",
+      "Estoy ocupado y no puedo ir.",
+      "n4-razón",
+      "て",
+      "て: la causa de un estado"
+    ],
+    [
+      "p-shi-1",
+      "近いし、安いし、この店にします",
+      "ちかいし、やすいし、このみせにします",
+      "Está cerca y es barata: me quedo con esta tienda.",
+      "n4-razón",
+      "し",
+      "し: y además"
+    ],
+    [
+      "p-shi-2",
+      "明日は日曜だし、休みます",
+      "あしたはにちようだし、やすみます",
+      "Mañana es domingo, así que descanso.",
+      "n4-razón",
+      "し",
+      "し: y además"
+    ],
+    [
+      "p-kedo-keredomo-1",
+      "高いけど、買います",
+      "たかいけど、かいます",
+      "Es caro, pero lo compro.",
+      "n4-razón",
+      "けど",
+      "けど: pero"
+    ],
+    [
+      "p-kedo-keredomo-2",
+      "すみませんけど、ちょっといいですか",
+      "すみませんけど、ちょっといいですか",
+      "Perdone, ¿tiene un momento?",
+      "n4-razón",
+      "けど",
+      "けど: pero"
+    ],
+    [
+      "p-tame-ni-1",
+      "家族のために働きます",
+      "かぞくのために働きます",
+      "Trabajo por mi familia.",
+      "n4-razón",
+      "ために",
+      "ために: para, o por"
+    ],
+    [
+      "p-tame-ni-2",
+      "事故のために、電車が遅れました",
+      "じこのために、でんしゃがおくれました",
+      "El tren se retrasó por un accidente.",
+      "n4-razón",
+      "ために",
+      "ために: para, o por"
+    ],
+    [
+      "p-you-ni-1",
+      "遅れないように、早く出ます",
+      "おくれないように、はやくでます",
+      "Salgo pronto para no llegar tarde.",
+      "n4-razón",
+      "ように",
+      "ように: para que"
+    ],
+    [
+      "p-you-ni-2",
+      "分かるように、ゆっくり話します",
+      "わかるように、ゆっくりはなします",
+      "Hablo despacio para que se entienda.",
+      "n4-razón",
+      "ように",
+      "ように: para que"
+    ],
+    [
+      "p-you-ni-suru-1",
+      "野菜を食べるようにしています",
+      "やさいをたべるようにしています",
+      "Procuro comer verdura.",
+      "n4-intención",
+      "ように",
+      "ようにする: procurar"
+    ],
+    [
+      "p-you-ni-suru-2",
+      "夜、遅く起きないようにします",
+      "よる、おそくおきないようにします",
+      "Voy a procurar no acostarme tarde.",
+      "n4-intención",
+      "ように",
+      "ようにする: procurar"
+    ],
+    [
+      "p-you-ni-naru-1",
+      "漢字が読めるようになりました",
+      "かんじがよめるようになりました",
+      "Ya consigo leer kanji.",
+      "n4-intención",
+      "ようにな",
+      "ようになる: llegar a"
+    ],
+    [
+      "p-you-ni-naru-2",
+      "一人で料理するようになりました",
+      "ひとりでりょうりするようになりました",
+      "He llegado a cocinar solo.",
+      "n4-intención",
+      "ようにな",
+      "ようになる: llegar a"
+    ],
+    [
+      "p-te-hoshii-1",
+      "窓を開けてほしいです",
+      "まどをあけてほしいです",
+      "Quiero que abras la ventana.",
+      "n4-deseo",
+      "てほしい",
+      "てほしい: quiero que lo haga"
+    ],
+    [
+      "p-te-hoshii-2",
+      "ここに来てほしくないです",
+      "ここにきてほしくないです",
+      "No quiero que vengas aquí.",
+      "n4-deseo",
+      "てほし",
+      "てほしい: quiero que lo haga"
+    ],
+    [
+      "p-tagaru-1",
+      "子どもは外で遊びたがりました",
+      "こどもはそとであそびたがりました",
+      "El niño quería jugar fuera.",
+      "n4-deseo",
+      "たが",
+      "たがる: otro quiere"
+    ],
+    [
+      "p-tagaru-2",
+      "妹は犬を飼いたがっています",
+      "いもうとはいぬをかいたがっています",
+      "Mi hermana quiere tener un perro.",
+      "n4-deseo",
+      "たが",
+      "たがる: otro quiere"
+    ],
+    [
+      "p-garu-1",
+      "弟は犬を怖がります",
+      "おとうとはいぬをこわがります",
+      "A mi hermano le dan miedo los perros.",
+      "n4-deseo",
+      "",
+      "がる: se le nota"
+    ],
+    [
+      "p-garu-2",
+      "子どもが寂しがっています",
+      "こどもがさびしがっています",
+      "El niño se siente solo.",
+      "n4-deseo",
+      "",
+      "がる: se le nota"
+    ],
+    [
+      "p-kamo-shirenai-1",
+      "明日は雨かもしれません",
+      "あしたはあめかもしれません",
+      "Puede que mañana llueva.",
+      "n4-conjetura",
+      "かもしれ",
+      "かもしれない: puede que"
+    ],
+    [
+      "p-kamo-shirenai-2",
+      "彼はもう帰ったかもしれません",
+      "かれはもうかえったかもしれません",
+      "Puede que ya se haya ido.",
+      "n4-conjetura",
+      "かもしれ",
+      "かもしれない: puede que"
+    ],
+    [
+      "p-darou-1",
+      "明日は晴れるだろう",
+      "あしたははれるだろう",
+      "Supongo que mañana despeja.",
+      "n4-conjetura",
+      "だろう",
+      "だろう: supongo"
+    ],
+    [
+      "p-darou-2",
+      "これは君のだろう",
+      "これはきみのだろう",
+      "Esto será tuyo, ¿no?",
+      "n4-conjetura",
+      "だろう",
+      "だろう: supongo"
+    ],
+    [
+      "p-hazu-da-1",
+      "今は授業中のはずです",
+      "いまはじゅぎょうちゅうのはずです",
+      "Ahora debería estar en clase.",
+      "n4-conjetura",
+      "はず",
+      "はずだ: debería"
+    ],
+    [
+      "p-hazu-da-2",
+      "彼は知っているはずです",
+      "かれはしっているはずです",
+      "Él tendría que saberlo.",
+      "n4-conjetura",
+      "はず",
+      "はずだ: debería"
+    ],
+    [
+      "p-hazu-ga-nai-1",
+      "そんなはずがありません",
+      "そんなはずがありません",
+      "Eso no puede ser.",
+      "n4-conjetura",
+      "はずが",
+      "はずがない: no puede ser"
+    ],
+    [
+      "p-hazu-ga-nai-2",
+      "彼が忘れるはずがない",
+      "かれがわすれるはずがない",
+      "Él no puede olvidarlo.",
+      "n4-conjetura",
+      "はずがない",
+      "はずがない: no puede ser"
+    ],
+    [
+      "p-n-desu-no-desu-1",
+      "どうして遅れたんですか",
+      "どうしておくれたんですか",
+      "¿Por qué llegaste tarde?",
+      "n4-énfasis",
+      "んです",
+      "んです: es que"
+    ],
+    [
+      "p-n-desu-no-desu-2",
+      "頭が痛いんです",
+      "あたまがいたいんです",
+      "Es que me duele la cabeza.",
+      "n4-énfasis",
+      "んです",
+      "んです: es que"
+    ],
+    [
+      "p-ka-dou-ka-1",
+      "来るかどうか、分かりません",
+      "くるかどうか、わかりません",
+      "No sé si viene.",
+      "n4-pregunta",
+      "かどうか",
+      "かどうか: si o no"
+    ],
+    [
+      "p-ka-dou-ka-2",
+      "本当かどうか、聞いてみます",
+      "ほんとうかどうか、きいてみます",
+      "Voy a preguntar si es verdad.",
+      "n4-pregunta",
+      "かどうか",
+      "かどうか: si o no"
+    ],
+    [
+      "p-ka-embedded-question-1",
+      "だれが来るか、知っていますか",
+      "だれがくるか、しっていますか",
+      "¿Sabes quién viene?",
+      "n4-pregunta",
+      "か",
+      "か: la pregunta dentro"
+    ],
+    [
+      "p-ka-embedded-question-2",
+      "どこで買うか、決めてください",
+      "どこでかうか、きめてください",
+      "Decide dónde lo compras.",
+      "n4-pregunta",
+      "か",
+      "か: la pregunta dentro"
+    ],
+    [
+      "p-to-omou-1",
+      "明日は雨だと思います",
+      "あしたはあめだとおもいます",
+      "Creo que mañana llueve.",
+      "n4-cita",
+      "と思",
+      "と思う: creo que"
+    ],
+    [
+      "p-to-omou-2",
+      "この店が一番いいと思います",
+      "このみせがいちばんいいとおもいます",
+      "Creo que esta tienda es la mejor.",
+      "n4-cita",
+      "と思",
+      "と思う: creo que"
+    ],
+    [
+      "p-to-iu-say-1",
+      "母は来ないと言いました",
+      "はははこないといいました",
+      "Mi madre dijo que no viene.",
+      "n4-cita",
+      "と言",
+      "と言う: decir que"
+    ],
+    [
+      "p-to-iu-say-2",
+      "田中という人です",
+      "たなかというひとです",
+      "Es una persona que se llama Tanaka.",
+      "n4-cita",
+      "",
+      "と言う: decir que"
+    ],
+    [
+      "p-shika-nai-1",
+      "水しかありません",
+      "みずしかありません",
+      "Solo hay agua.",
+      "n4-cantidad",
+      "しか",
+      "しかない: solo, con negativo"
+    ],
+    [
+      "p-shika-nai-2",
+      "百円しか持っていません",
+      "ひゃくえんしかもっていません",
+      "Solo llevo cien yenes.",
+      "n4-cantidad",
+      "しか",
+      "しかない: solo, con negativo"
+    ],
+    [
+      "p-bakari-1",
+      "ゲームばかりしています",
+      "ゲームばかりしています",
+      "No hace más que jugar.",
+      "n4-cantidad",
+      "ばかり",
+      "ばかり: no hace más que"
+    ],
+    [
+      "p-bakari-2",
+      "甘いものばかり食べないで",
+      "あまいものばかりたべないで",
+      "No comas solo dulces.",
+      "n4-cantidad",
+      "ばかり",
+      "ばかり: no hace más que"
+    ],
+    [
+      "p-ta-bakari-1",
+      "今、着いたばかりです",
+      "いま、ついたばかりです",
+      "Acabo de llegar.",
+      "n4-tiempo",
+      "たばかり",
+      "たばかり: acabar de"
+    ],
+    [
+      "p-ta-bakari-2",
+      "日本に来たばかりのころは、大変でした",
+      "にほんにきたばかりのころは、たいへんでした",
+      "Cuando acababa de llegar a Japón, fue duro.",
+      "n4-tiempo",
+      "たばかり",
+      "たばかり: acabar de"
+    ],
+    [
+      "p-tokoro-da-1",
+      "今から食べるところです",
+      "いまからたべるところです",
+      "Estoy a punto de comer.",
+      "n4-tiempo",
+      "ところ",
+      "ところだ: a punto, en ello, justo"
+    ],
+    [
+      "p-tokoro-da-2",
+      "今、食べているところです",
+      "いま、たべているところです",
+      "Estoy comiendo ahora mismo.",
+      "n4-tiempo",
+      "ところ",
+      "ところだ: a punto, en ello, justo"
+    ],
+    [
+      "p-yasui-nikui-1",
+      "このペンは書きやすいです",
+      "このペンはかきやすいです",
+      "Este bolígrafo escribe fácil.",
+      "n4-grado",
+      "やすい",
+      "やすい y にくい"
+    ],
+    [
+      "p-yasui-nikui-2",
+      "この漢字は読みにくいです",
+      "このかんじはよみにくいです",
+      "Este kanji es difícil de leer.",
+      "n4-grado",
+      "",
+      "やすい y にくい"
+    ],
+    [
+      "p-hajimeru-owaru-tsuzukeru-1",
+      "読み始めました",
+      "よみはじめました",
+      "Empecé a leer.",
+      "n4-tiempo",
+      "始め",
+      "始める, 終わる, 続ける"
+    ],
+    [
+      "p-hajimeru-owaru-tsuzukeru-2",
+      "雨が降り続けています",
+      "あめがふりつづけています",
+      "Sigue lloviendo.",
+      "n4-tiempo",
+      "",
+      "始める, 終わる, 続ける"
+    ],
+    [
+      "p-dasu-1",
+      "急に泣き出しました",
+      "きゅうになきだしました",
+      "De pronto se puso a llorar.",
+      "n4-tiempo",
+      "",
+      "出す: ponerse de pronto"
+    ],
+    [
+      "p-dasu-2",
+      "走り出した",
+      "はしりだした",
+      "Echó a correr.",
+      "n4-tiempo",
+      "",
+      "出す: ponerse de pronto"
+    ],
+    [
+      "p-hodo-nai-1",
+      "兄ほど背が高くありません",
+      "あにほどせがたかくありません",
+      "No soy tan alto como mi hermano.",
+      "n4-cantidad",
+      "ほど",
+      "ほどない: no tanto como"
+    ],
+    [
+      "p-hodo-nai-2",
+      "思ったほど難しくなかった",
+      "おもったほどむずかしくなかった",
+      "No fue tan difícil como pensaba.",
+      "n4-cantidad",
+      "ほど",
+      "ほどない: no tanto como"
+    ],
+    [
+      "p-nakanaka-nai-1",
+      "なかなか終わらない",
+      "なかなかおわらない",
+      "No hay manera de que termine.",
+      "n4-cantidad",
+      "なかなか",
+      "なかなかない: no hay manera"
+    ],
+    [
+      "p-nakanaka-nai-2",
+      "バスがなかなか来ません",
+      "バスがなかなかきません",
+      "El autobús no acaba de llegar.",
+      "n4-cantidad",
+      "なかなか",
+      "なかなかない: no hay manera"
+    ],
+    [
+      "p-zutsu-1",
+      "一人に二つずつあります",
+      "ひとりにふたつずつあります",
+      "Hay dos para cada uno.",
+      "n4-cantidad",
+      "ずつ",
+      "ずつ: cada uno"
+    ],
+    [
+      "p-zutsu-2",
+      "毎日、少しずつ覚えます",
+      "まいにち、すこしずつおぼえます",
+      "Cada día aprendo un poco.",
+      "n4-cantidad",
+      "ずつ",
+      "ずつ: cada uno"
+    ],
+    [
+      "p-mo-emphasis-1",
+      "三時間も待ちました",
+      "さんじかんもまちました",
+      "Esperé nada menos que tres horas.",
+      "n4-cantidad",
+      "も",
+      "も: tanto como"
+    ],
+    [
+      "p-mo-emphasis-2",
+      "一つもありません",
+      "ひとつもありません",
+      "No hay ni uno.",
+      "n4-cantidad",
+      "も",
+      "も: tanto como"
+    ],
+    [
+      "p-made-ni-1",
+      "五時までに来てください",
+      "ごじまでにくいてください",
+      "Ven antes de las cinco.",
+      "n4-tiempo",
+      "までに",
+      "までに: para tal hora"
+    ],
+    [
+      "p-made-ni-2",
+      "金曜日までに出します",
+      "きんようびまでにだします",
+      "Lo entrego para el viernes.",
+      "n4-tiempo",
+      "までに",
+      "までに: para tal hora"
+    ],
+    [
+      "p-koto-ga-aru-1",
+      "夜、遅くなることがあります",
+      "よる、おそくなることがあります",
+      "A veces se me hace tarde por la noche.",
+      "n4-tiempo",
+      "ことがあ",
+      "ことがある: a veces"
+    ],
+    [
+      "p-koto-ga-aru-2",
+      "ここで食べることもあります",
+      "ここでたべることもあります",
+      "A veces también como aquí.",
+      "n4-tiempo",
+      "こと",
+      "ことがある: a veces"
+    ],
+    [
+      "p-nai-to-ikenai-nakucha-1",
+      "もう帰らないといけません",
+      "もうかえらないといけません",
+      "Ya me tengo que ir.",
+      "n4-obligación",
+      "ないといけ",
+      "ないといけない: hay que"
+    ],
+    [
+      "p-nai-to-ikenai-nakucha-2",
+      "今日中に出さなくちゃ",
+      "きょうじゅうにださなくちゃ",
+      "Tengo que entregarlo hoy.",
+      "n4-obligación",
+      "",
+      "ないといけない: hay que"
+    ],
+    [
+      "p-sasete-kudasai-1",
+      "私にやらせてください",
+      "わたしにやらせてください",
+      "Déjeme hacerlo a mí.",
+      "n4-petición",
+      "",
+      "させてください: déjeme"
+    ],
+    [
+      "p-sasete-kudasai-2",
+      "ちょっと考えさせてください",
+      "かんがえさせてください",
+      "Déjeme pensarlo un momento.",
+      "n4-petición",
+      "させてください",
+      "させてください: déjeme"
+    ],
+    [
+      "p-sonkeigo-1",
+      "先生はもういらっしゃいました",
+      "せんせいはもういらっしゃいました",
+      "El profesor ya llegó.",
+      "n4-cortesía",
+      "",
+      "Lenguaje de respeto"
+    ],
+    [
+      "p-sonkeigo-2",
+      "社長がそうおっしゃいました",
+      "しゃちょうがそうおっしゃいました",
+      "El presidente dijo eso.",
+      "n4-cortesía",
+      "",
+      "Lenguaje de respeto"
+    ],
+    [
+      "p-kenjougo-1",
+      "私が参ります",
+      "わたしがまいります",
+      "Iré yo.",
+      "n4-cortesía",
+      "",
+      "Lenguaje humilde"
+    ],
+    [
+      "p-kenjougo-2",
+      "資料を拝見しました",
+      "しりょうをはいけんしました",
+      "He visto el documento, con humildad.",
+      "n4-cortesía",
+      "",
+      "Lenguaje humilde"
+    ],
+    [
+      "p-o-ni-naru-1",
+      "先生はもうお帰りになりました",
+      "せんせいはもうおかえりになりました",
+      "El profesor ya se fue.",
+      "n4-cortesía",
+      "になり",
+      "お〜になる: respeto regular"
+    ],
+    [
+      "p-o-ni-naru-2",
+      "社長がお読みになりました",
+      "しゃちょうがおよみになりました",
+      "El presidente lo leyó.",
+      "n4-cortesía",
+      "になり",
+      "お〜になる: respeto regular"
+    ],
+    [
+      "p-o-suru-1",
+      "荷物をお持ちします",
+      "にもつをおもちします",
+      "Yo le llevo el equipaje.",
+      "n4-cortesía",
+      "お持ち",
+      "お〜する: humilde regular"
+    ],
+    [
+      "p-o-suru-2",
+      "明日お電話します",
+      "あしたおでんわします",
+      "Mañana le llamo.",
+      "n4-cortesía",
+      "",
+      "お〜する: humilde regular"
+    ],
+    [
+      "p-de-gozaimasu-1",
+      "こちらが田中でございます",
+      "こちらがたなかでございます",
+      "Le presento a Tanaka.",
+      "n4-cortesía",
+      "でございます",
+      "でございます: es, muy cortés"
+    ],
+    [
+      "p-de-gozaimasu-2",
+      "部屋はこちらでございます",
+      "へやはこちらでございます",
+      "La habitación es por aquí.",
+      "n4-cortesía",
+      "でございます",
+      "でございます: es, muy cortés"
+    ],
+    [
+      "p-te-mo-kamawanai-1",
+      "明日でも構いません",
+      "あしたでもかまいません",
+      "Mañana también me vale.",
+      "n4-permiso",
+      "",
+      "ても構わない: no importa si"
+    ],
+    [
+      "p-te-mo-kamawanai-2",
+      "ここで食べても構わないですか",
+      "ここでたべてもかまわないですか",
+      "¿No importa si como aquí?",
+      "n4-permiso",
+      "ても構わない",
+      "ても構わない: no importa si"
+    ],
+    [
+      "p-no-koto-nominalizer-1",
+      "泳ぐことが好きです",
+      "およぐことがすきです",
+      "Me gusta nadar.",
+      "n4-otros",
+      "こと",
+      "の y こと: convertir en nombre"
+    ],
+    [
+      "p-no-koto-nominalizer-2",
+      "鳥が飛ぶのが見えました",
+      "とりがとぶのがみえました",
+      "Vi un pájaro volar.",
+      "n4-otros",
+      "",
+      "の y こと: convertir en nombre"
+    ],
+    [
+      "p-ba-yokatta-1",
+      "もっと早く来ればよかった",
+      "もっとはやくくればよかった",
+      "Ojalá hubiera venido antes.",
+      "n4-consejo",
+      "ばよかった",
+      "ばよかった: ojalá hubiera"
+    ],
+    [
+      "p-ba-yokatta-2",
+      "言えばよかったです",
+      "いえばよかったです",
+      "Debería haberlo dicho.",
+      "n4-consejo",
+      "ばよかった",
+      "ばよかった: ojalá hubiera"
+    ],
+    [
+      "p-tara-dou-1",
+      "先生に聞いたらどうですか",
+      "せんせいにきいたらどうですか",
+      "¿Y si se lo preguntas al profesor?",
+      "n4-consejo",
+      "たらどう",
+      "たらどう: ¿y si?"
+    ],
+    [
+      "p-tara-dou-2",
+      "少し休んだらどう",
+      "すこしやすんだらどう",
+      "¿Y si descansas un poco?",
+      "n4-consejo",
+      "",
+      "たらどう: ¿y si?"
+    ],
+    [
+      "p-hou-ga-ii-1",
+      "早く寝たほうがいいです",
+      "はやくねたほうがいいです",
+      "Más vale acostarse pronto.",
+      "n4-consejo",
+      "ほうがいい",
+      "ほうがいい: más vale"
+    ],
+    [
+      "p-hou-ga-ii-2",
+      "夜、一人で歩かないほうがいい",
+      "よる、ひとりであるかないほうがいい",
+      "Más vale no caminar solo de noche.",
+      "n4-consejo",
+      "ほうがいい",
+      "ほうがいい: más vale"
+    ],
+    [
+      "p-toka-toka-1",
+      "寿司とか、てんぷらとか、食べたいです",
+      "すしとか、てんぷらとか、たべたいです",
+      "Quiero comer sushi, tempura y cosas así.",
+      "n4-otros",
+      "とか",
+      "とか: cosas como"
+    ],
+    [
+      "p-toka-toka-2",
+      "映画とかを見ます",
+      "えいがとかをみます",
+      "Veo películas y eso.",
+      "n4-otros",
+      "とか",
+      "とか: cosas como"
+    ],
+    [
+      "p-nado-1",
+      "りんごやみかんなどを買いました",
+      "りんごやみかんなどをかいました",
+      "Compré manzanas, mandarinas y más.",
+      "n4-otros",
+      "など",
+      "など: y demás"
+    ],
+    [
+      "p-nado-2",
+      "これなどはどうですか",
+      "これなどはどうですか",
+      "¿Qué le parece algo como esto?",
+      "n4-otros",
+      "など",
+      "など: y demás"
+    ],
+    [
+      "p-de-mo-suggestion-1",
+      "お茶でも飲みませんか",
+      "おちゃでものみませんか",
+      "¿Tomamos un té o algo?",
+      "n4-otros",
+      "でも",
+      "でも: o algo así"
+    ],
+    [
+      "p-de-mo-suggestion-2",
+      "映画でも見よう",
+      "えいがでもみよう",
+      "Veamos una película o algo.",
+      "n4-otros",
+      "でも",
+      "でも: o algo así"
+    ],
+    [
+      "p-sa-1",
+      "この山の高さを知っていますか",
+      "このやまのたかさをしっていますか",
+      "¿Sabes la altura de esta montaña?",
+      "n4-otros",
+      "さ",
+      "さ: el grado"
+    ],
+    [
+      "p-sa-2",
+      "便利さが一番です",
+      "べんりさがいちばんです",
+      "Lo que más importa es lo práctico.",
+      "n4-otros",
+      "さ",
+      "さ: el grado"
+    ],
+    [
+      "p-me-1",
+      "三つ目の信号を右へ",
+      "みっつめのしんごうをみぎへ",
+      "En el tercer semáforo, a la derecha.",
+      "n4-cantidad",
+      "目",
+      "目: el ordinal"
+    ],
+    [
+      "p-me-2",
+      "二番目の人はだれですか",
+      "にばんめのひとはだれですか",
+      "¿Quién es la segunda persona?",
+      "n4-cantidad",
+      "目",
+      "目: el ordinal"
+    ],
+    [
+      "p-oki-ni-1",
+      "二日おきに薬を飲みます",
+      "ふつかおきにくすりをのみます",
+      "Tomo la medicina dejando un día.",
+      "n4-tiempo",
+      "おきに",
+      "おきに: cada tanto"
+    ],
+    [
+      "p-oki-ni-2",
+      "一駅おきに止まります",
+      "いちえきおきにとまります",
+      "Para en una estación sí y en otra no.",
+      "n4-tiempo",
+      "おきに",
+      "おきに: cada tanto"
+    ],
+    [
+      "p-ku-suru-ni-suru-1",
+      "部屋を暖かくします",
+      "へやをあたたかくします",
+      "Caliento la habitación.",
+      "n4-cambio",
+      "",
+      "くする y にする: volverlo"
+    ],
+    [
+      "p-ku-suru-ni-suru-2",
+      "音を小さくしてください",
+      "おとをちいさくしてください",
+      "Baje el volumen.",
+      "n4-cambio",
+      "",
+      "くする y にする: volverlo"
+    ],
+    [
+      "p-ga-suru-1",
+      "いいにおいがします",
+      "いいにおいがします",
+      "Huele bien.",
+      "n4-otros",
+      "",
+      "がする: se percibe"
+    ],
+    [
+      "p-ga-suru-2",
+      "変な音がしました",
+      "へんなおとがしました",
+      "Se oyó un ruido raro.",
+      "n4-otros",
+      "",
+      "がする: se percibe"
+    ],
+    [
+      "p-kana-kashira-1",
+      "明日、晴れるかな",
+      "あした、はれるかな",
+      "¿Hará bueno mañana?",
+      "n4-pregunta",
+      "かな",
+      "かな: me pregunto"
+    ],
+    [
+      "p-kana-kashira-2",
+      "これでいいかしら",
+      "これでいいかしら",
+      "¿Estará bien así?",
+      "n4-pregunta",
+      "",
+      "かな: me pregunto"
+    ],
+    [
+      "p-te-kuremasen-ka-te-itadakemasen-ka-1",
+      "ちょっと待ってくれませんか",
+      "ちょっとまってくれませんか",
+      "¿Puede esperar un momento?",
+      "n4-petición",
+      "てくれませんか",
+      "てくれませんか: ¿podría?"
+    ],
+    [
+      "p-te-kuremasen-ka-te-itadakemasen-ka-2",
+      "もう一度言っていただけませんか",
+      "もういちどいっていただけませんか",
+      "¿Podría repetirlo?",
+      "n4-petición",
+      "",
+      "てくれませんか: ¿podría?"
+    ],
+    [
+      "p-naide-1",
+      "朝ごはんを食べないで、出かけました",
+      "あさごはんをたべないで、でかけました",
+      "Salí sin desayunar.",
+      "n4-otros",
+      "ないで",
+      "ないで: sin hacer"
+    ],
+    [
+      "p-naide-2",
+      "見ないでください",
+      "みないでください",
+      "No mire, por favor.",
+      "n4-otros",
+      "ないで",
+      "ないで: sin hacer"
+    ]
+  ],
+  "GRAMMAR": [
+    {
+      "id": "g-ageru-kureru-morau",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "あげる / くれる / もらう",
+      "kana": "ageru",
+      "es": "dar y recibir",
+      "group": "n4-regalo",
+      "note": "あげる es dar a alguien de fuera. くれる es que alguien da al hablante o a su grupo. もらう es recibir, y quien da va con に.",
+      "piece": "あげる",
+      "jp": "あげる / くれる / もらう",
+      "speak": "わたしはともだちにほんをあげます",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-ageru-kureru-morau-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "私は友だちに本をあげます。",
+      "kana": "わたしはともだちにほんをあげます。",
+      "es": "Le doy un libro a un amigo.",
+      "group": "n4-regalo",
+      "note": "あげる es dar a alguien de fuera. くれる es que alguien da al hablante o a su grupo. もらう es recibir, y quien da va con に.",
+      "piece": "あげ",
+      "jp": "私は友だちに本をあげます。",
+      "speak": "わたしはともだちにほんをあげます",
+      "cloze": "私は友だちに本を＿ます。",
+      "clozeKana": "わたしはともだちにほんをあげます"
+    },
+    {
+      "id": "g-ageru-kureru-morau-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "兄が私にくれました。",
+      "kana": "あにがわたしにくれました。",
+      "es": "Mi hermano me lo dio.",
+      "group": "n4-regalo",
+      "note": "あげる es dar a alguien de fuera. くれる es que alguien da al hablante o a su grupo. もらう es recibir, y quien da va con に.",
+      "piece": "あげる",
+      "jp": "兄が私にくれました。",
+      "speak": "あにがわたしにくれました",
+      "cloze": "",
+      "clozeKana": "あにがわたしにくれました"
+    },
+    {
+      "id": "g-te-ageru",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜てあげる",
+      "kana": "te ageru",
+      "es": "hacerlo por alguien",
+      "group": "n4-regalo",
+      "note": "てあげる es hacer un favor a otra persona. No se usa para hablar de lo que uno recibe.",
+      "piece": "てあげ",
+      "jp": "てあげる",
+      "speak": "にもつをもってあげます",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-te-ageru-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "荷物を持ってあげます。",
+      "kana": "にもつをもってあげます。",
+      "es": "Te llevo el equipaje.",
+      "group": "n4-regalo",
+      "note": "てあげる es hacer un favor a otra persona. No se usa para hablar de lo que uno recibe.",
+      "piece": "てあげ",
+      "jp": "荷物を持ってあげます。",
+      "speak": "にもつをもってあげます",
+      "cloze": "荷物を持っ＿ます。",
+      "clozeKana": "にもつをもってあげます"
+    },
+    {
+      "id": "g-te-ageru-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "妹に読んであげました。",
+      "kana": "いもうとによんであげました。",
+      "es": "Se lo leí a mi hermana.",
+      "group": "n4-regalo",
+      "note": "てあげる es hacer un favor a otra persona. No se usa para hablar de lo que uno recibe.",
+      "piece": "てあげ",
+      "jp": "妹に読んであげました。",
+      "speak": "いもうとによんであげました",
+      "cloze": "",
+      "clozeKana": "いもうとによんであげました"
+    },
+    {
+      "id": "g-te-kureru",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜てくれる",
+      "kana": "te kureru",
+      "es": "me lo hacen",
+      "group": "n4-regalo",
+      "note": "てくれる es que otra persona hace algo a favor del hablante o de su grupo.",
+      "piece": "てくれ",
+      "jp": "てくれる",
+      "speak": "ともだちがてつだってくれました",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-te-kureru-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "友だちが手伝ってくれました。",
+      "kana": "ともだちがてつだってくれました。",
+      "es": "Un amigo me ayudó.",
+      "group": "n4-regalo",
+      "note": "てくれる es que otra persona hace algo a favor del hablante o de su grupo.",
+      "piece": "てくれ",
+      "jp": "友だちが手伝ってくれました。",
+      "speak": "ともだちがてつだってくれました",
+      "cloze": "友だちが手伝っ＿ました。",
+      "clozeKana": "ともだちがてつだってくれました"
+    },
+    {
+      "id": "g-te-kureru-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "母が作ってくれます。",
+      "kana": "ははがつくってくれます。",
+      "es": "Mi madre me lo prepara.",
+      "group": "n4-regalo",
+      "note": "てくれる es que otra persona hace algo a favor del hablante o de su grupo.",
+      "piece": "てくれ",
+      "jp": "母が作ってくれます。",
+      "speak": "ははがつくってくれます",
+      "cloze": "母が作っ＿ます。",
+      "clozeKana": "ははがつくってくれます"
+    },
+    {
+      "id": "g-te-morau",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜てもらう",
+      "kana": "te morau",
+      "es": "conseguir que lo hagan",
+      "group": "n4-regalo",
+      "note": "てもらう es recibir el favor. Quien lo hace va con に.",
+      "piece": "てもら",
+      "jp": "てもらう",
+      "speak": "ともだちにきてもらいます",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-te-morau-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "友だちに来てもらいます。",
+      "kana": "ともだちにきてもらいます。",
+      "es": "Le pido a un amigo que venga.",
+      "group": "n4-regalo",
+      "note": "てもらう es recibir el favor. Quien lo hace va con に.",
+      "piece": "てもら",
+      "jp": "友だちに来てもらいます。",
+      "speak": "ともだちにきてもらいます",
+      "cloze": "友だちに来＿います。",
+      "clozeKana": "ともだちにきてもらいます"
+    },
+    {
+      "id": "g-te-morau-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "先生に見てもらいました。",
+      "kana": "せんせいにみてもらいました。",
+      "es": "El profesor me lo revisó.",
+      "group": "n4-regalo",
+      "note": "てもらう es recibir el favor. Quien lo hace va con に.",
+      "piece": "てもら",
+      "jp": "先生に見てもらいました。",
+      "speak": "せんせいにみてもらいました",
+      "cloze": "先生に見＿いました。",
+      "clozeKana": "せんせいにみてもらいました"
+    },
+    {
+      "id": "g-te-kudasaru-te-itadaku",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜てくださる",
+      "kana": "te kudasaru",
+      "es": "el favor, con respeto",
+      "group": "n4-regalo",
+      "note": "てくださる es el respeto de てくれる: alguien respetado lo hace por mí. ていただく es el humilde de てもらう.",
+      "piece": "てくださ",
+      "jp": "てくださる",
+      "speak": "せんせいがおしえてくださいました",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-te-kudasaru-te-itadaku-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "先生が教えてくださいました。",
+      "kana": "せんせいがおしえてくださいました。",
+      "es": "El profesor tuvo la amabilidad de explicármelo.",
+      "group": "n4-regalo",
+      "note": "てくださる es el respeto de てくれる: alguien respetado lo hace por mí. ていただく es el humilde de てもらう.",
+      "piece": "てくださ",
+      "jp": "先生が教えてくださいました。",
+      "speak": "せんせいがおしえてくださいました",
+      "cloze": "先生が教え＿いました。",
+      "clozeKana": "せんせいがおしえてくださいました"
+    },
+    {
+      "id": "g-te-kudasaru-te-itadaku-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "部長に聞いていただきました。",
+      "kana": "ぶちょうにきいていただきました。",
+      "es": "Se lo consulté al jefe, con humildad.",
+      "group": "n4-regalo",
+      "note": "てくださる es el respeto de てくれる: alguien respetado lo hace por mí. ていただく es el humilde de てもらう.",
+      "piece": "てくださ",
+      "jp": "部長に聞いていただきました。",
+      "speak": "ぶちょうにきいていただきました",
+      "cloze": "",
+      "clozeKana": "ぶちょうにきいていただきました"
+    },
+    {
+      "id": "g-te-iku",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜ていく",
+      "kana": "te iku",
+      "es": "irse haciendo",
+      "group": "n4-forma-て",
+      "note": "ていく mira hacia adelante o se aleja del hablante. Puede ser hacer algo y marcharse, o un cambio que sigue.",
+      "piece": "ていく",
+      "jp": "ていく",
+      "speak": "このままふとっていきます",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-te-iku-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "このまま太っていきます。",
+      "kana": "このままふとっていきます。",
+      "es": "Si sigo así, voy a engordar.",
+      "group": "n4-forma-て",
+      "note": "ていく mira hacia adelante o se aleja del hablante. Puede ser hacer algo y marcharse, o un cambio que sigue.",
+      "piece": "てい",
+      "jp": "このまま太っていきます。",
+      "speak": "このままふとっていきます",
+      "cloze": "このまま太っ＿きます。",
+      "clozeKana": "このままふとっていきます"
+    },
+    {
+      "id": "g-te-iku-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "傘を持っていきました。",
+      "kana": "かさをもっていきました。",
+      "es": "Me llevé el paraguas.",
+      "group": "n4-forma-て",
+      "note": "ていく mira hacia adelante o se aleja del hablante. Puede ser hacer algo y marcharse, o un cambio que sigue.",
+      "piece": "てい",
+      "jp": "傘を持っていきました。",
+      "speak": "かさをもっていきました",
+      "cloze": "傘を持っ＿きました。",
+      "clozeKana": "かさをもっていきました"
+    },
+    {
+      "id": "g-te-kuru",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜てくる",
+      "kana": "te kuru",
+      "es": "venir haciendo",
+      "group": "n4-forma-て",
+      "note": "てくる se acerca al hablante, o describe un cambio hasta ahora. También es ir y volver.",
+      "piece": "てくる",
+      "jp": "てくる",
+      "speak": "あめがふってきました",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-te-kuru-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "雨が降ってきました。",
+      "kana": "あめがふってきました。",
+      "es": "Se ha puesto a llover.",
+      "group": "n4-forma-て",
+      "note": "てくる se acerca al hablante, o describe un cambio hasta ahora. También es ir y volver.",
+      "piece": "てくる",
+      "jp": "雨が降ってきました。",
+      "speak": "あめがふってきました",
+      "cloze": "",
+      "clozeKana": "あめがふってきました"
+    },
+    {
+      "id": "g-te-kuru-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "少し寒くなってきました。",
+      "kana": "すこさむくなってきました。",
+      "es": "Ha ido haciendo más frío.",
+      "group": "n4-forma-て",
+      "note": "てくる se acerca al hablante, o describe un cambio hasta ahora. También es ir y volver.",
+      "piece": "てくる",
+      "jp": "少し寒くなってきました。",
+      "speak": "すこさむくなってきました",
+      "cloze": "",
+      "clozeKana": "すこさむくなってきました"
+    },
+    {
+      "id": "g-te-shimau-chau",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜てしまう",
+      "kana": "te shimau",
+      "es": "acabar haciéndolo",
+      "group": "n4-forma-て",
+      "note": "てしまう es terminar del todo, o hacer algo que uno lamenta. ちゃう y じゃう son la forma de conversación.",
+      "piece": "てしま",
+      "jp": "てしまう",
+      "speak": "しゅくだいをわすれてしまいました",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-te-shimau-chau-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "宿題を忘れてしまいました。",
+      "kana": "しゅくだいをわすれてしまいました。",
+      "es": "Se me olvidó la tarea.",
+      "group": "n4-forma-て",
+      "note": "てしまう es terminar del todo, o hacer algo que uno lamenta. ちゃう y じゃう son la forma de conversación.",
+      "piece": "てしま",
+      "jp": "宿題を忘れてしまいました。",
+      "speak": "しゅくだいをわすれてしまいました",
+      "cloze": "宿題を忘れ＿いました。",
+      "clozeKana": "しゅくだいをわすれてしまいました"
+    },
+    {
+      "id": "g-te-shimau-chau-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "もう食べちゃいました。",
+      "kana": "もうたべちゃいました。",
+      "es": "Ya me lo comí, en conversación.",
+      "group": "n4-forma-て",
+      "note": "てしまう es terminar del todo, o hacer algo que uno lamenta. ちゃう y じゃう son la forma de conversación.",
+      "piece": "てしま",
+      "jp": "もう食べちゃいました。",
+      "speak": "もうたべちゃいました",
+      "cloze": "",
+      "clozeKana": "もうたべちゃいました"
+    },
+    {
+      "id": "g-te-oku",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜ておく",
+      "kana": "te oku",
+      "es": "dejarlo preparado",
+      "group": "n4-forma-て",
+      "note": "ておく es hacer algo ahora para más tarde, o dejarlo en ese estado. とく es la forma breve.",
+      "piece": "ておき",
+      "jp": "ておく",
+      "speak": "まどをあけておきます",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-te-oku-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "窓を開けておきます。",
+      "kana": "まどをあけておきます。",
+      "es": "Dejo la ventana abierta.",
+      "group": "n4-forma-て",
+      "note": "ておく es hacer algo ahora para más tarde, o dejarlo en ese estado. とく es la forma breve.",
+      "piece": "ておき",
+      "jp": "窓を開けておきます。",
+      "speak": "まどをあけておきます",
+      "cloze": "窓を開け＿ます。",
+      "clozeKana": "まどをあけておきます"
+    },
+    {
+      "id": "g-te-oku-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "先に予約しておきました。",
+      "kana": "さきによやくしておきました。",
+      "es": "Reservé antes.",
+      "group": "n4-forma-て",
+      "note": "ておく es hacer algo ahora para más tarde, o dejarlo en ese estado. とく es la forma breve.",
+      "piece": "ておき",
+      "jp": "先に予約しておきました。",
+      "speak": "さきによやくしておきました",
+      "cloze": "先に予約し＿ました。",
+      "clozeKana": "さきによやくしておきました"
+    },
+    {
+      "id": "g-te-miru",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜てみる",
+      "kana": "te miru",
+      "es": "probar a hacerlo",
+      "group": "n4-forma-て",
+      "note": "てみる es intentar una acción para ver qué pasa. No es 見る, ver, como verbo suelto.",
+      "piece": "てみ",
+      "jp": "てみる",
+      "speak": "このくつをはいてみます",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-te-miru-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "この靴をはいてみます。",
+      "kana": "このくつをはいてみます。",
+      "es": "Me pruebo estos zapatos.",
+      "group": "n4-forma-て",
+      "note": "てみる es intentar una acción para ver qué pasa. No es 見る, ver, como verbo suelto.",
+      "piece": "てみ",
+      "jp": "この靴をはいてみます。",
+      "speak": "このくつをはいてみます",
+      "cloze": "この靴をはい＿ます。",
+      "clozeKana": "このくつをはいてみます"
+    },
+    {
+      "id": "g-te-miru-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "一度聞いてみてください。",
+      "kana": "いちどきいてみてください。",
+      "es": "Prueba a preguntarlo.",
+      "group": "n4-forma-て",
+      "note": "てみる es intentar una acción para ver qué pasa. No es 見る, ver, como verbo suelto.",
+      "piece": "てみ",
+      "jp": "一度聞いてみてください。",
+      "speak": "いちどきいてみてください",
+      "cloze": "一度聞い＿てください。",
+      "clozeKana": "いちどきいてみてください"
+    },
+    {
+      "id": "g-te-aru",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜てある",
+      "kana": "te aru",
+      "es": "quedó hecho",
+      "group": "n4-forma-て",
+      "note": "てある es el resultado de una acción intencionada que sigue ahí. El objeto suele llevar が, no を.",
+      "piece": "てある",
+      "jp": "てある",
+      "speak": "まどがあけてあります",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-te-aru-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "窓が開けてあります。",
+      "kana": "まどがあけてあります。",
+      "es": "La ventana está abierta, alguien la abrió.",
+      "group": "n4-forma-て",
+      "note": "てある es el resultado de una acción intencionada que sigue ahí. El objeto suele llevar が, no を.",
+      "piece": "てあ",
+      "jp": "窓が開けてあります。",
+      "speak": "まどがあけてあります",
+      "cloze": "窓が開け＿ります。",
+      "clozeKana": "まどがあけてあります"
+    },
+    {
+      "id": "g-te-aru-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "名前が書いてあります。",
+      "kana": "なまえがかいてあります。",
+      "es": "El nombre está escrito.",
+      "group": "n4-forma-て",
+      "note": "てある es el resultado de una acción intencionada que sigue ahí. El objeto suele llevar が, no を.",
+      "piece": "てあ",
+      "jp": "名前が書いてあります。",
+      "speak": "なまえがかいてあります",
+      "cloze": "名前が書い＿ります。",
+      "clozeKana": "なまえがかいてあります"
+    },
+    {
+      "id": "g-toki",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜とき",
+      "kana": "toki",
+      "es": "cuando",
+      "group": "n4-tiempo",
+      "note": "とき es el momento en que ocurre algo. El verbo de antes puede ir en た si esa acción ya está hecha en ese instante.",
+      "piece": "とき",
+      "jp": "とき",
+      "speak": "ねるとき、でんきをけします",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-toki-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "寝るとき、電気を消します。",
+      "kana": "ねるとき、でんきをけします。",
+      "es": "Cuando me acuesto, apago la luz.",
+      "group": "n4-tiempo",
+      "note": "とき es el momento en que ocurre algo. El verbo de antes puede ir en た si esa acción ya está hecha en ese instante.",
+      "piece": "とき",
+      "jp": "寝るとき、電気を消します。",
+      "speak": "ねるとき、でんきをけします",
+      "cloze": "寝る＿、電気を消します。",
+      "clozeKana": "ねるとき、でんきをけします"
+    },
+    {
+      "id": "g-toki-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "国へ帰ったとき、会いました。",
+      "kana": "くにへかえったとき、あいました。",
+      "es": "Nos vimos cuando volví a mi país.",
+      "group": "n4-tiempo",
+      "note": "とき es el momento en que ocurre algo. El verbo de antes puede ir en た si esa acción ya está hecha en ese instante.",
+      "piece": "とき",
+      "jp": "国へ帰ったとき、会いました。",
+      "speak": "くにへかえったとき、あいました",
+      "cloze": "国へ帰った＿、会いました。",
+      "clozeKana": "くにへかえったとき、あいました"
+    },
+    {
+      "id": "g-aida-aida-ni",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜間",
+      "kana": "aida",
+      "es": "durante",
+      "group": "n4-tiempo",
+      "note": "間 es todo el rato que dura algo. 間に es en algún punto de ese rato, no durante todo.",
+      "piece": "間",
+      "jp": "間",
+      "speak": "なつやすみのあいだ、うみにいました",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-aida-aida-ni-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "夏休みの間、海にいました。",
+      "kana": "なつやすみのあいだ、うみにいました。",
+      "es": "Estuve en el mar durante las vacaciones.",
+      "group": "n4-tiempo",
+      "note": "間 es todo el rato que dura algo. 間に es en algún punto de ese rato, no durante todo.",
+      "piece": "間",
+      "jp": "夏休みの間、海にいました。",
+      "speak": "なつやすみのあいだ、うみにいました",
+      "cloze": "夏休みの＿、海にいました。",
+      "clozeKana": "なつやすみのあいだ、うみにいました"
+    },
+    {
+      "id": "g-aida-aida-ni-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "留守の間に、友だちが来ました。",
+      "kana": "るすのあいだに、ともだちがきました。",
+      "es": "Mientras no estaba, vino un amigo.",
+      "group": "n4-tiempo",
+      "note": "間 es todo el rato que dura algo. 間に es en algún punto de ese rato, no durante todo.",
+      "piece": "間",
+      "jp": "留守の間に、友だちが来ました。",
+      "speak": "るすのあいだに、ともだちがきました",
+      "cloze": "留守の＿に、友だちが来ました。",
+      "clozeKana": "るすのあいだに、ともだちがきました"
+    },
+    {
+      "id": "g-sou-da-appearance",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜そうだ",
+      "kana": "sou da",
+      "es": "parece, a punto de",
+      "group": "n4-apariencia",
+      "note": "Esta そうだ se pega al tronco del verbo o del adjetivo y dice cómo se ve algo. おいしそう es que tiene buena pinta. No es el rumor.",
+      "piece": "そう",
+      "jp": "そうだ",
+      "speak": "あめがふりそうです",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-sou-da-appearance-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "雨が降りそうです。",
+      "kana": "あめがふりそうです。",
+      "es": "Parece que va a llover.",
+      "group": "n4-apariencia",
+      "note": "Esta そうだ se pega al tronco del verbo o del adjetivo y dice cómo se ve algo. おいしそう es que tiene buena pinta. No es el rumor.",
+      "piece": "そう",
+      "jp": "雨が降りそうです。",
+      "speak": "あめがふりそうです",
+      "cloze": "雨が降り＿です。",
+      "clozeKana": "あめがふりそうです"
+    },
+    {
+      "id": "g-sou-da-appearance-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "このケーキはおいしそうです。",
+      "kana": "このケーキはおいしそうです。",
+      "es": "Este pastel tiene buena pinta.",
+      "group": "n4-apariencia",
+      "note": "Esta そうだ se pega al tronco del verbo o del adjetivo y dice cómo se ve algo. おいしそう es que tiene buena pinta. No es el rumor.",
+      "piece": "そう",
+      "jp": "このケーキはおいしそうです。",
+      "speak": "このケーキはおいしそうです",
+      "cloze": "このケーキはおいし＿です。",
+      "clozeKana": "このケーキはおいしそうです"
+    },
+    {
+      "id": "g-sou-da-hearsay",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜そうだ",
+      "kana": "sou da",
+      "es": "dicen que",
+      "group": "n4-apariencia",
+      "note": "Esta そうだ va después de una frase en plano y transmite un rumor. No se pega al tronco: 降るそうだ, no 降りそうだ.",
+      "piece": "そうだ",
+      "jp": "そうだ",
+      "speak": "あしたはあめだそうです",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-sou-da-hearsay-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "明日は雨だそうです。",
+      "kana": "あしたはあめだそうです。",
+      "es": "Dicen que mañana llueve.",
+      "group": "n4-apariencia",
+      "note": "Esta そうだ va después de una frase en plano y transmite un rumor. No se pega al tronco: 降るそうだ, no 降りそうだ.",
+      "piece": "そう",
+      "jp": "明日は雨だそうです。",
+      "speak": "あしたはあめだそうです",
+      "cloze": "明日は雨だ＿です。",
+      "clozeKana": "あしたはあめだそうです"
+    },
+    {
+      "id": "g-sou-da-hearsay-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "あの店は高いそうです。",
+      "kana": "あのみせはたかいそうです。",
+      "es": "Dicen que aquella tienda es cara.",
+      "group": "n4-apariencia",
+      "note": "Esta そうだ va después de una frase en plano y transmite un rumor. No se pega al tronco: 降るそうだ, no 降りそうだ.",
+      "piece": "そう",
+      "jp": "あの店は高いそうです。",
+      "speak": "あのみせはたかいそうです",
+      "cloze": "あの店は高い＿です。",
+      "clozeKana": "あのみせはたかいそうです"
+    },
+    {
+      "id": "g-rashii",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜らしい",
+      "kana": "rashii",
+      "es": "al parecer",
+      "group": "n4-apariencia",
+      "note": "らしい juzga por lo que se oye o se deduce. Después de un nombre no lleva な. También significa típico de: 子どもらしい.",
+      "piece": "らしい",
+      "jp": "らしい",
+      "speak": "かれはこないらしいです",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-rashii-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "彼は来ないらしいです。",
+      "kana": "かれはこないらしいです。",
+      "es": "Parece que él no viene.",
+      "group": "n4-apariencia",
+      "note": "らしい juzga por lo que se oye o se deduce. Después de un nombre no lleva な. También significa típico de: 子どもらしい.",
+      "piece": "らしい",
+      "jp": "彼は来ないらしいです。",
+      "speak": "かれはこないらしいです",
+      "cloze": "彼は来ない＿です。",
+      "clozeKana": "かれはこないらしいです"
+    },
+    {
+      "id": "g-rashii-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "それは本当らしいです。",
+      "kana": "それはほんとうらしいです。",
+      "es": "Parece que es verdad.",
+      "group": "n4-apariencia",
+      "note": "らしい juzga por lo que se oye o se deduce. Después de un nombre no lleva な. También significa típico de: 子どもらしい.",
+      "piece": "らしい",
+      "jp": "それは本当らしいです。",
+      "speak": "それはほんとうらしいです",
+      "cloze": "それは本当＿です。",
+      "clozeKana": "それはほんとうらしいです"
+    },
+    {
+      "id": "g-you-da",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜ようだ",
+      "kana": "you da",
+      "es": "da la impresión",
+      "group": "n4-apariencia",
+      "note": "ようだ es la impresión del hablante, a menudo por lo que ve. Después de un nombre va のようだ.",
+      "piece": "ようだ",
+      "jp": "ようだ",
+      "speak": "かぜをひいたようです",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-you-da-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "かぜをひいたようです。",
+      "kana": "かぜをひいたようです。",
+      "es": "Parece que se ha resfriado.",
+      "group": "n4-apariencia",
+      "note": "ようだ es la impresión del hablante, a menudo por lo que ve. Después de un nombre va のようだ.",
+      "piece": "よう",
+      "jp": "かぜをひいたようです。",
+      "speak": "かぜをひいたようです",
+      "cloze": "かぜをひいた＿です。",
+      "clozeKana": "かぜをひいたようです"
+    },
+    {
+      "id": "g-you-da-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "夢のようです。",
+      "kana": "ゆめのようです。",
+      "es": "Parece un sueño.",
+      "group": "n4-apariencia",
+      "note": "ようだ es la impresión del hablante, a menudo por lo que ve. Después de un nombre va のようだ.",
+      "piece": "よう",
+      "jp": "夢のようです。",
+      "speak": "ゆめのようです",
+      "cloze": "夢の＿です。",
+      "clozeKana": "ゆめのようです"
+    },
+    {
+      "id": "g-mitai",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜みたい",
+      "kana": "mitai",
+      "es": "parece, coloquial",
+      "group": "n4-apariencia",
+      "note": "みたい es la ようだ de conversación. Se pega al nombre sin の.",
+      "piece": "みたい",
+      "jp": "みたい",
+      "speak": "ゆきみたいです",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-mitai-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "雪みたいです。",
+      "kana": "ゆきみたいです。",
+      "es": "Parece nieve.",
+      "group": "n4-apariencia",
+      "note": "みたい es la ようだ de conversación. Se pega al nombre sin の.",
+      "piece": "みたい",
+      "jp": "雪みたいです。",
+      "speak": "ゆきみたいです",
+      "cloze": "雪＿です。",
+      "clozeKana": "ゆきみたいです"
+    },
+    {
+      "id": "g-mitai-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "子どもみたいに笑いました。",
+      "kana": "こどもみたいにわらいました。",
+      "es": "Se rio como un niño.",
+      "group": "n4-apariencia",
+      "note": "みたい es la ようだ de conversación. Se pega al nombre sin の.",
+      "piece": "みたい",
+      "jp": "子どもみたいに笑いました。",
+      "speak": "こどもみたいにわらいました",
+      "cloze": "子ども＿に笑いました。",
+      "clozeKana": "こどもみたいにわらいました"
+    },
+    {
+      "id": "g-sugiru",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜すぎる",
+      "kana": "sugiru",
+      "es": "demasiado",
+      "group": "n4-grado",
+      "note": "すぎる se pega al tronco del verbo o del adjetivo い, sin la い. Con adjetivos な, se pega al nombre. Se conjuga como ichidan.",
+      "piece": "すぎ",
+      "jp": "すぎる",
+      "speak": "たべすぎました",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-sugiru-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "食べすぎました。",
+      "kana": "たべすぎました。",
+      "es": "Comí demasiado.",
+      "group": "n4-grado",
+      "note": "すぎる se pega al tronco del verbo o del adjetivo い, sin la い. Con adjetivos な, se pega al nombre. Se conjuga como ichidan.",
+      "piece": "すぎ",
+      "jp": "食べすぎました。",
+      "speak": "たべすぎました",
+      "cloze": "食べ＿ました。",
+      "clozeKana": "たべすぎました"
+    },
+    {
+      "id": "g-sugiru-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "この荷物は重すぎます。",
+      "kana": "このにもつはおもすぎます。",
+      "es": "Este bulto pesa demasiado.",
+      "group": "n4-grado",
+      "note": "すぎる se pega al tronco del verbo o del adjetivo い, sin la い. Con adjetivos な, se pega al nombre. Se conjuga como ichidan.",
+      "piece": "すぎ",
+      "jp": "この荷物は重すぎます。",
+      "speak": "このにもつはおもすぎます",
+      "cloze": "この荷物は重＿ます。",
+      "clozeKana": "このにもつはおもすぎます"
+    },
+    {
+      "id": "g-kata",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜方",
+      "kana": "kata",
+      "es": "cómo se hace",
+      "group": "n4-manera",
+      "note": "方 se lee かた y se pega al tronco ます. 泳ぎ方 es la manera de nadar. No es ほう, el lado de la comparación.",
+      "piece": "方",
+      "jp": "方",
+      "speak": "つかいかたをおしえてください",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-kata-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "使い方を教えてください。",
+      "kana": "つかいかたをおしえてください。",
+      "es": "Enséñame cómo se usa.",
+      "group": "n4-manera",
+      "note": "方 se lee かた y se pega al tronco ます. 泳ぎ方 es la manera de nadar. No es ほう, el lado de la comparación.",
+      "piece": "方",
+      "jp": "使い方を教えてください。",
+      "speak": "つかいかたをおしえてください",
+      "cloze": "使い＿を教えてください。",
+      "clozeKana": "つかいかたをおしえてください"
+    },
+    {
+      "id": "g-kata-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "書き方が分かりません。",
+      "kana": "かきかたがわかりません。",
+      "es": "No entiendo cómo se escribe.",
+      "group": "n4-manera",
+      "note": "方 se lee かた y se pega al tronco ます. 泳ぎ方 es la manera de nadar. No es ほう, el lado de la comparación.",
+      "piece": "方",
+      "jp": "書き方が分かりません。",
+      "speak": "かきかたがわかりません",
+      "cloze": "書き＿が分かりません。",
+      "clozeKana": "かきかたがわかりません"
+    },
+    {
+      "id": "g-chuu-juu",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜中",
+      "kana": "chuu",
+      "es": "en medio de, o durante todo",
+      "group": "n4-tiempo",
+      "note": "中 se lee ちゅう cuando es en mitad de una acción, y じゅう cuando es durante todo un periodo o por todas partes.",
+      "piece": "中",
+      "jp": "中",
+      "speak": "いま、しょくじちゅうです",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-chuu-juu-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "今、食事中です。",
+      "kana": "いま、しょくじちゅうです。",
+      "es": "Ahora estoy comiendo.",
+      "group": "n4-tiempo",
+      "note": "中 se lee ちゅう cuando es en mitad de una acción, y じゅう cuando es durante todo un periodo o por todas partes.",
+      "piece": "中",
+      "jp": "今、食事中です。",
+      "speak": "いま、しょくじちゅうです",
+      "cloze": "今、食事＿です。",
+      "clozeKana": "いま、しょくじちゅうです"
+    },
+    {
+      "id": "g-chuu-juu-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "一日中、雨でした。",
+      "kana": "いちにちじゅう、あめでした。",
+      "es": "Llovió todo el día.",
+      "group": "n4-tiempo",
+      "note": "中 se lee ちゅう cuando es en mitad de una acción, y じゅう cuando es durante todo un periodo o por todas partes.",
+      "piece": "中",
+      "jp": "一日中、雨でした。",
+      "speak": "いちにちじゅう、あめでした",
+      "cloze": "一日＿、雨でした。",
+      "clozeKana": "いちにちじゅう、あめでした"
+    },
+    {
+      "id": "g-tsumori",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜つもり",
+      "kana": "tsumori",
+      "es": "tener pensado",
+      "group": "n4-intención",
+      "note": "つもり es la intención del hablante. Va después del plano. つもりはない es que no piensa hacerlo.",
+      "piece": "つもり",
+      "jp": "つもり",
+      "speak": "あしたいくつもりです",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-tsumori-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "明日行くつもりです。",
+      "kana": "あしたいくつもりです。",
+      "es": "Pienso ir mañana.",
+      "group": "n4-intención",
+      "note": "つもり es la intención del hablante. Va después del plano. つもりはない es que no piensa hacerlo.",
+      "piece": "つもり",
+      "jp": "明日行くつもりです。",
+      "speak": "あしたいくつもりです",
+      "cloze": "明日行く＿です。",
+      "clozeKana": "あしたいくつもりです"
+    },
+    {
+      "id": "g-tsumori-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "買うつもりはありません。",
+      "kana": "かうつもりはありません。",
+      "es": "No pienso comprarlo.",
+      "group": "n4-intención",
+      "note": "つもり es la intención del hablante. Va después del plano. つもりはない es que no piensa hacerlo.",
+      "piece": "つもり",
+      "jp": "買うつもりはありません。",
+      "speak": "かうつもりはありません",
+      "cloze": "買う＿はありません。",
+      "clozeKana": "かうつもりはありません"
+    },
+    {
+      "id": "g-yotei",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜予定",
+      "kana": "yotei",
+      "es": "está previsto",
+      "group": "n4-intención",
+      "note": "予定 es un plan ya fijado, a menudo de un horario. つもり es más personal.",
+      "piece": "予定",
+      "jp": "予定",
+      "speak": "さんじにあうよていです",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-yotei-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "三時に会う予定です。",
+      "kana": "さんじにあうよていです。",
+      "es": "Quedamos a las tres.",
+      "group": "n4-intención",
+      "note": "予定 es un plan ya fijado, a menudo de un horario. つもり es más personal.",
+      "piece": "予定",
+      "jp": "三時に会う予定です。",
+      "speak": "さんじにあうよていです",
+      "cloze": "三時に会う＿です。",
+      "clozeKana": "さんじにあうよていです"
+    },
+    {
+      "id": "g-yotei-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "旅行の予定はありません。",
+      "kana": "りょこうのよていはありません。",
+      "es": "No tengo previsto viajar.",
+      "group": "n4-intención",
+      "note": "予定 es un plan ya fijado, a menudo de un horario. つもり es más personal.",
+      "piece": "予定",
+      "jp": "旅行の予定はありません。",
+      "speak": "りょこうのよていはありません",
+      "cloze": "旅行の＿はありません。",
+      "clozeKana": "りょこうのよていはありません"
+    },
+    {
+      "id": "g-koto-ni-suru",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜ことにする",
+      "kana": "koto ni suru",
+      "es": "decidir hacerlo",
+      "group": "n4-intención",
+      "note": "ことにする es la decisión de quien habla. El pasado ことにした dice que ya se decidió.",
+      "piece": "ことにする",
+      "jp": "ことにする",
+      "speak": "まいにちあるくことにします",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-koto-ni-suru-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "毎日歩くことにします。",
+      "kana": "まいにちあるくことにします。",
+      "es": "Decido caminar cada día.",
+      "group": "n4-intención",
+      "note": "ことにする es la decisión de quien habla. El pasado ことにした dice que ya se decidió.",
+      "piece": "ことに",
+      "jp": "毎日歩くことにします。",
+      "speak": "まいにちあるくことにします",
+      "cloze": "毎日歩く＿します。",
+      "clozeKana": "まいにちあるくことにします"
+    },
+    {
+      "id": "g-koto-ni-suru-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "行かないことにしました。",
+      "kana": "いかないことにしました。",
+      "es": "Decidí no ir.",
+      "group": "n4-intención",
+      "note": "ことにする es la decisión de quien habla. El pasado ことにした dice que ya se decidió.",
+      "piece": "ことに",
+      "jp": "行かないことにしました。",
+      "speak": "いかないことにしました",
+      "cloze": "行かない＿しました。",
+      "clozeKana": "いかないことにしました"
+    },
+    {
+      "id": "g-koto-ni-naru",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜ことになる",
+      "kana": "koto ni naru",
+      "es": "queda decidido",
+      "group": "n4-intención",
+      "note": "ことになる es una decisión que llega de fuera, o el resultado de las circunstancias. No la toma solo el hablante.",
+      "piece": "ことになる",
+      "jp": "ことになる",
+      "speak": "らいげつ、おおさかへいくことになります",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-koto-ni-naru-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "来月、大阪へ行くことになります。",
+      "kana": "らいげつ、おおさかへいくことになります。",
+      "es": "Queda que el mes que viene voy a Osaka.",
+      "group": "n4-intención",
+      "note": "ことになる es una decisión que llega de fuera, o el resultado de las circunstancias. No la toma solo el hablante.",
+      "piece": "ことにな",
+      "jp": "来月、大阪へ行くことになります。",
+      "speak": "らいげつ、おおさかへいくことになります",
+      "cloze": "来月、大阪へ行く＿ります。",
+      "clozeKana": "らいげつ、おおさかへいくことになります"
+    },
+    {
+      "id": "g-koto-ni-naru-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "会議は中止になることになりました。",
+      "kana": "かいぎはちゅうしになることになりました。",
+      "es": "La reunión acabó suspendiéndose.",
+      "group": "n4-intención",
+      "note": "ことになる es una decisión que llega de fuera, o el resultado de las circunstancias. No la toma solo el hablante.",
+      "piece": "ことにな",
+      "jp": "会議は中止になることになりました。",
+      "speak": "かいぎはちゅうしになることになりました",
+      "cloze": "会議は中止になる＿りました。",
+      "clozeKana": "かいぎはちゅうしになることになりました"
+    },
+    {
+      "id": "g-koto-ga-dekiru",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜ことができる",
+      "kana": "koto ga dekiru",
+      "es": "poder hacer",
+      "group": "n4-voz",
+      "note": "ことができる envuelve el plano y dice que algo es posible. Vale con cualquier verbo, también する.",
+      "piece": "ことができる",
+      "jp": "ことができる",
+      "speak": "かんじをよむことができます",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-koto-ga-dekiru-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "漢字を読むことができます。",
+      "kana": "かんじをよむことができます。",
+      "es": "Puedo leer kanji.",
+      "group": "n4-voz",
+      "note": "ことができる envuelve el plano y dice que algo es posible. Vale con cualquier verbo, también する.",
+      "piece": "ことができ",
+      "jp": "漢字を読むことができます。",
+      "speak": "かんじをよむことができます",
+      "cloze": "漢字を読む＿ます。",
+      "clozeKana": "かんじをよむことができます"
+    },
+    {
+      "id": "g-koto-ga-dekiru-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "ここで写真を取ることはできません。",
+      "kana": "ここでしゃしんをとることはできません。",
+      "es": "Aquí no se pueden hacer fotos.",
+      "group": "n4-voz",
+      "note": "ことができる envuelve el plano y dice que algo es posible. Vale con cualquier verbo, también する.",
+      "piece": "こと",
+      "jp": "ここで写真を取ることはできません。",
+      "speak": "ここでしゃしんをとることはできません",
+      "cloze": "ここで写真を取る＿はできません。",
+      "clozeKana": "ここでしゃしんをとることはできません"
+    },
+    {
+      "id": "g-eru-rareru-potential",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜える / 〜られる",
+      "kana": "eru",
+      "es": "forma potencial",
+      "group": "n4-voz",
+      "note": "En godan, la última sílaba pasa a la fila e y se añade る: 書く → 書ける. En ichidan se añade られる: 食べる → 食べられる. する es できる y 来る es 来られる.",
+      "piece": "られる",
+      "jp": "える / られる",
+      "speak": "このかんじがよめます",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-eru-rareru-potential-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "この漢字が読めます。",
+      "kana": "このかんじがよめます。",
+      "es": "Puedo leer este kanji.",
+      "group": "n4-voz",
+      "note": "En godan, la última sílaba pasa a la fila e y se añade る: 書く → 書ける. En ichidan se añade られる: 食べる → 食べられる. する es できる y 来る es 来られる.",
+      "piece": "られる",
+      "jp": "この漢字が読めます。",
+      "speak": "このかんじがよめます",
+      "cloze": "",
+      "clozeKana": "このかんじがよめます"
+    },
+    {
+      "id": "g-eru-rareru-potential-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "一人で来られます。",
+      "kana": "ひとりでこられます。",
+      "es": "Puedo venir solo.",
+      "group": "n4-voz",
+      "note": "En godan, la última sílaba pasa a la fila e y se añade る: 書く → 書ける. En ichidan se añade られる: 食べる → 食べられる. する es できる y 来る es 来られる.",
+      "piece": "られ",
+      "jp": "一人で来られます。",
+      "speak": "ひとりでこられます",
+      "cloze": "一人で来＿ます。",
+      "clozeKana": "ひとりでこられます"
+    },
+    {
+      "id": "g-reru-rareru-passive",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜れる / 〜られる",
+      "kana": "reru",
+      "es": "voz pasiva",
+      "group": "n4-voz",
+      "note": "La pasiva godan usa la fila a más れる: 書く → 書かれる. La ichidan usa られる. Quien hace la acción lleva に. También expresa una molestia.",
+      "piece": "れる",
+      "jp": "れる / られる",
+      "speak": "おとうとにケーキをたべられました",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-reru-rareru-passive-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "弟にケーキを食べられました。",
+      "kana": "おとうとにケーキをたべられました。",
+      "es": "Mi hermano me comió el pastel.",
+      "group": "n4-voz",
+      "note": "La pasiva godan usa la fila a más れる: 書く → 書かれる. La ichidan usa られる. Quien hace la acción lleva に. También expresa una molestia.",
+      "piece": "れる",
+      "jp": "弟にケーキを食べられました。",
+      "speak": "おとうとにケーキをたべられました",
+      "cloze": "",
+      "clozeKana": "おとうとにケーキをたべられました"
+    },
+    {
+      "id": "g-reru-rareru-passive-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "雨に降られました。",
+      "kana": "あめにふられました。",
+      "es": "Me pilló la lluvia.",
+      "group": "n4-voz",
+      "note": "La pasiva godan usa la fila a más れる: 書く → 書かれる. La ichidan usa られる. Quien hace la acción lleva に. También expresa una molestia.",
+      "piece": "れる",
+      "jp": "雨に降られました。",
+      "speak": "あめにふられました",
+      "cloze": "",
+      "clozeKana": "あめにふられました"
+    },
+    {
+      "id": "g-seru-saseru",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜せる / 〜させる",
+      "kana": "seru",
+      "es": "hacer que alguien lo haga",
+      "group": "n4-voz",
+      "note": "Godan: fila a más せる, 書く → 書かせる. Ichidan: させる, 食べる → 食べさせる. する es させる y 来る es 来させる. Quien es obligado lleva に, o を si el verbo no tiene objeto.",
+      "piece": "させる",
+      "jp": "せる / させる",
+      "speak": "こどもにやさいをたべさせます",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-seru-saseru-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "子どもに野菜を食べさせます。",
+      "kana": "こどもにやさいをたべさせます。",
+      "es": "Hago que el niño coma verdura.",
+      "group": "n4-voz",
+      "note": "Godan: fila a más せる, 書く → 書かせる. Ichidan: させる, 食べる → 食べさせる. する es させる y 来る es 来させる. Quien es obligado lleva に, o を si el verbo no tiene objeto.",
+      "piece": "させ",
+      "jp": "子どもに野菜を食べさせます。",
+      "speak": "こどもにやさいをたべさせます",
+      "cloze": "子どもに野菜を食べ＿ます。",
+      "clozeKana": "こどもにやさいをたべさせます"
+    },
+    {
+      "id": "g-seru-saseru-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "先生は学生を立たせました。",
+      "kana": "せんせいはがくせいをたたせました。",
+      "es": "El profesor hizo ponerse de pie al estudiante.",
+      "group": "n4-voz",
+      "note": "Godan: fila a más せる, 書く → 書かせる. Ichidan: させる, 食べる → 食べさせる. する es させる y 来る es 来させる. Quien es obligado lleva に, o を si el verbo no tiene objeto.",
+      "piece": "させる",
+      "jp": "先生は学生を立たせました。",
+      "speak": "せんせいはがくせいをたたせました",
+      "cloze": "",
+      "clozeKana": "せんせいはがくせいをたたせました"
+    },
+    {
+      "id": "g-serareru-saserareru",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜せられる / 〜させられる",
+      "kana": "saserareru",
+      "es": "ser obligado",
+      "group": "n4-voz",
+      "note": "Es la pasiva de la causativa: a uno lo obligan. En godan corto a menudo se oye される: 書かされる.",
+      "piece": "させられ",
+      "jp": "せられる / させられる",
+      "speak": "ざんぎょうさせられました",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-serareru-saserareru-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "残業させられました。",
+      "kana": "ざんぎょうさせられました。",
+      "es": "Me hicieron quedarme a trabajar.",
+      "group": "n4-voz",
+      "note": "Es la pasiva de la causativa: a uno lo obligan. En godan corto a menudo se oye される: 書かされる.",
+      "piece": "させられ",
+      "jp": "残業させられました。",
+      "speak": "ざんぎょうさせられました",
+      "cloze": "残業＿ました。",
+      "clozeKana": "ざんぎょうさせられました"
+    },
+    {
+      "id": "g-serareru-saserareru-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "きらいなものを食べさせられた。",
+      "kana": "きらいなものをたべさせられた。",
+      "es": "Me obligaron a comer lo que no me gusta.",
+      "group": "n4-voz",
+      "note": "Es la pasiva de la causativa: a uno lo obligan. En godan corto a menudo se oye される: 書かされる.",
+      "piece": "させられ",
+      "jp": "きらいなものを食べさせられた。",
+      "speak": "きらいなものをたべさせられた",
+      "cloze": "きらいなものを食べ＿た。",
+      "clozeKana": "きらいなものをたべさせられた"
+    },
+    {
+      "id": "g-ou-you",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜おう / 〜よう",
+      "kana": "ou",
+      "es": "vamos a, o lo haré",
+      "group": "n4-voz",
+      "note": "Godan cambia a la fila o y añade う: 行こう. Ichidan añade よう: 食べよう. する es しよう y 来る es 来よう. Entre amigos invita. En solitario, es la decisión.",
+      "piece": "よう",
+      "jp": "おう / よう",
+      "speak": "いっしょにいこう",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-ou-you-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "一緒に行こう。",
+      "kana": "いっしょにいこう。",
+      "es": "Vamos juntos.",
+      "group": "n4-voz",
+      "note": "Godan cambia a la fila o y añade う: 行こう. Ichidan añade よう: 食べよう. する es しよう y 来る es 来よう. Entre amigos invita. En solitario, es la decisión.",
+      "piece": "よう",
+      "jp": "一緒に行こう。",
+      "speak": "いっしょにいこう",
+      "cloze": "",
+      "clozeKana": "いっしょにいこう"
+    },
+    {
+      "id": "g-ou-you-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "今日は早く寝よう。",
+      "kana": "きょうははやくねよう。",
+      "es": "Hoy me voy a acostar pronto.",
+      "group": "n4-voz",
+      "note": "Godan cambia a la fila o y añade う: 行こう. Ichidan añade よう: 食べよう. する es しよう y 来る es 来よう. Entre amigos invita. En solitario, es la decisión.",
+      "piece": "よう",
+      "jp": "今日は早く寝よう。",
+      "speak": "きょうははやくねよう",
+      "cloze": "今日は早く寝＿。",
+      "clozeKana": "きょうははやくねよう"
+    },
+    {
+      "id": "g-you-to-omou",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜(よ)うと思う",
+      "kana": "you to omou",
+      "es": "estoy por hacerlo",
+      "group": "n4-intención",
+      "note": "El volitivo más と思う es un plan aún no cerrado. と思っている es que se lo lleva pensando.",
+      "piece": "と思う",
+      "jp": "(よ)うと思う",
+      "speak": "なつにうみへいこうとおもいます",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-you-to-omou-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "夏に海へ行こうと思います。",
+      "kana": "なつにうみへいこうとおもいます。",
+      "es": "Estoy pensando en ir al mar en verano.",
+      "group": "n4-intención",
+      "note": "El volitivo más と思う es un plan aún no cerrado. と思っている es que se lo lleva pensando.",
+      "piece": "と思",
+      "jp": "夏に海へ行こうと思います。",
+      "speak": "なつにうみへいこうとおもいます",
+      "cloze": "夏に海へ行こう＿います。",
+      "clozeKana": "なつにうみへいこうとおもいます"
+    },
+    {
+      "id": "g-you-to-omou-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "新しい仕事をさがそうと思っています。",
+      "kana": "あたらしいしごとをさがそうとおもっています。",
+      "es": "Llevo pensando en buscar otro trabajo.",
+      "group": "n4-intención",
+      "note": "El volitivo más と思う es un plan aún no cerrado. と思っている es que se lo lleva pensando.",
+      "piece": "と思",
+      "jp": "新しい仕事をさがそうと思っています。",
+      "speak": "あたらしいしごとをさがそうとおもっています",
+      "cloze": "新しい仕事をさがそう＿っています。",
+      "clozeKana": "あたらしいしごとをさがそうとおもっています"
+    },
+    {
+      "id": "g-e-ro",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜え / 〜ろ",
+      "kana": "e",
+      "es": "hazlo, brusco",
+      "group": "n4-mandato",
+      "note": "Godan usa la fila e: 書け. Ichidan usa ろ: 見ろ. する es しろ y 来る es 来い. Es una orden seca. No se usa con un profesor.",
+      "piece": "ろ",
+      "jp": "え / ろ",
+      "speak": "はやくこい",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-e-ro-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "早く来い。",
+      "kana": "はやくこい。",
+      "es": "Ven ya.",
+      "group": "n4-mandato",
+      "note": "Godan usa la fila e: 書け. Ichidan usa ろ: 見ろ. する es しろ y 来る es 来い. Es una orden seca. No se usa con un profesor.",
+      "piece": "ろ",
+      "jp": "早く来い。",
+      "speak": "はやくこい",
+      "cloze": "",
+      "clozeKana": "はやくこい"
+    },
+    {
+      "id": "g-e-ro-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "これを見ろ。",
+      "kana": "これをみろ。",
+      "es": "Mira esto.",
+      "group": "n4-mandato",
+      "note": "Godan usa la fila e: 書け. Ichidan usa ろ: 見ろ. する es しろ y 来る es 来い. Es una orden seca. No se usa con un profesor.",
+      "piece": "ろ",
+      "jp": "これを見ろ。",
+      "speak": "これをみろ",
+      "cloze": "これを見＿。",
+      "clozeKana": "これをみろ"
+    },
+    {
+      "id": "g-na-prohibition",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜な",
+      "kana": "na",
+      "es": "prohibición seca",
+      "group": "n4-mandato",
+      "note": "な después del diccionario prohíbe con fuerza. No es la な de los adjetivos. 来るな es no vengas.",
+      "piece": "な",
+      "jp": "な",
+      "speak": "ここにはいるな",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-na-prohibition-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "ここに入るな。",
+      "kana": "ここにはいるな。",
+      "es": "No entres aquí.",
+      "group": "n4-mandato",
+      "note": "な después del diccionario prohíbe con fuerza. No es la な de los adjetivos. 来るな es no vengas.",
+      "piece": "な",
+      "jp": "ここに入るな。",
+      "speak": "ここにはいるな",
+      "cloze": "ここに入る＿。",
+      "clozeKana": "ここにはいるな"
+    },
+    {
+      "id": "g-na-prohibition-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "触るな。",
+      "kana": "さわるな。",
+      "es": "No lo toques.",
+      "group": "n4-mandato",
+      "note": "な después del diccionario prohíbe con fuerza. No es la な de los adjetivos. 来るな es no vengas.",
+      "piece": "な",
+      "jp": "触るな。",
+      "speak": "さわるな",
+      "cloze": "触る＿。",
+      "clozeKana": "さわるな"
+    },
+    {
+      "id": "g-nasai",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜なさい",
+      "kana": "nasai",
+      "es": "hazlo, instrucción",
+      "group": "n4-mandato",
+      "note": "なさい se pega al tronco ます. Es la orden de un padre o un maestro, más suave que el imperativo seco.",
+      "piece": "なさい",
+      "jp": "なさい",
+      "speak": "はやくねなさい",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-nasai-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "早く寝なさい。",
+      "kana": "はやくねなさい。",
+      "es": "Acuéstate pronto.",
+      "group": "n4-mandato",
+      "note": "なさい se pega al tronco ます. Es la orden de un padre o un maestro, más suave que el imperativo seco.",
+      "piece": "なさい",
+      "jp": "早く寝なさい。",
+      "speak": "はやくねなさい",
+      "cloze": "早く寝＿。",
+      "clozeKana": "はやくねなさい"
+    },
+    {
+      "id": "g-nasai-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "名前を書きなさい。",
+      "kana": "なまえをかきなさい。",
+      "es": "Escribe el nombre.",
+      "group": "n4-mandato",
+      "note": "なさい se pega al tronco ます. Es la orden de un padre o un maestro, más suave que el imperativo seco.",
+      "piece": "なさい",
+      "jp": "名前を書きなさい。",
+      "speak": "なまえをかきなさい",
+      "cloze": "名前を書き＿。",
+      "clozeKana": "なまえをかきなさい"
+    },
+    {
+      "id": "g-ba",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜ば",
+      "kana": "ba",
+      "es": "si, condición",
+      "group": "n4-condición",
+      "note": "Godan pasa a la fila e y añade ば: 書けば. Ichidan añade れば: 食べれば. する es すれば y 来る es 来れば. ば suele ser una condición general.",
+      "piece": "ば",
+      "jp": "ば",
+      "speak": "はるになれば、あたたかくなります",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-ba-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "春になれば、暖かくなります。",
+      "kana": "はるになれば、あたたかくなります。",
+      "es": "Cuando llega la primavera, hace más calor.",
+      "group": "n4-condición",
+      "note": "Godan pasa a la fila e y añade ば: 書けば. Ichidan añade れば: 食べれば. する es すれば y 来る es 来れば. ば suele ser una condición general.",
+      "piece": "ば",
+      "jp": "春になれば、暖かくなります。",
+      "speak": "はるになれば、あたたかくなります",
+      "cloze": "春になれ＿、暖かくなります。",
+      "clozeKana": "はるになれば、あたたかくなります"
+    },
+    {
+      "id": "g-ba-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "安ければ、買います。",
+      "kana": "やすければ、かいます。",
+      "es": "Si es barato, lo compro.",
+      "group": "n4-condición",
+      "note": "Godan pasa a la fila e y añade ば: 書けば. Ichidan añade れば: 食べれば. する es すれば y 来る es 来れば. ば suele ser una condición general.",
+      "piece": "ば",
+      "jp": "安ければ、買います。",
+      "speak": "やすければ、かいます",
+      "cloze": "安けれ＿、買います。",
+      "clozeKana": "やすければ、かいます"
+    },
+    {
+      "id": "g-tara",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜たら",
+      "kana": "tara",
+      "es": "si, o cuando",
+      "group": "n4-condición",
+      "note": "たら se añade a la forma た. Sirve para una condición y también para cuando termine algo. Es la condicional más usada en conversación.",
+      "piece": "たら",
+      "jp": "たら",
+      "speak": "ついたら、でんわします",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-tara-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "着いたら、電話します。",
+      "kana": "ついたら、でんわします。",
+      "es": "Cuando llegue, llamo.",
+      "group": "n4-condición",
+      "note": "たら se añade a la forma た. Sirve para una condición y también para cuando termine algo. Es la condicional más usada en conversación.",
+      "piece": "たら",
+      "jp": "着いたら、電話します。",
+      "speak": "ついたら、でんわします",
+      "cloze": "着い＿、電話します。",
+      "clozeKana": "ついたら、でんわします"
+    },
+    {
+      "id": "g-tara-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "雨だったら、行きません。",
+      "kana": "あめだったら、いきません。",
+      "es": "Si llueve, no voy.",
+      "group": "n4-condición",
+      "note": "たら se añade a la forma た. Sirve para una condición y también para cuando termine algo. Es la condicional más usada en conversación.",
+      "piece": "たら",
+      "jp": "雨だったら、行きません。",
+      "speak": "あめだったら、いきません",
+      "cloze": "雨だっ＿、行きません。",
+      "clozeKana": "あめだったら、いきません"
+    },
+    {
+      "id": "g-nara",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜なら",
+      "kana": "nara",
+      "es": "si se trata de",
+      "group": "n4-condición",
+      "note": "なら toma lo que acaba de decir el otro, o una suposición, y responde. Después de un nombre no hace falta だ.",
+      "piece": "なら",
+      "jp": "なら",
+      "speak": "にほんへいくなら、はるがいいです",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-nara-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "日本へ行くなら、春がいいです。",
+      "kana": "にほんへいくなら、はるがいいです。",
+      "es": "Si vas a Japón, mejor en primavera.",
+      "group": "n4-condición",
+      "note": "なら toma lo que acaba de decir el otro, o una suposición, y responde. Después de un nombre no hace falta だ.",
+      "piece": "なら",
+      "jp": "日本へ行くなら、春がいいです。",
+      "speak": "にほんへいくなら、はるがいいです",
+      "cloze": "日本へ行く＿、春がいいです。",
+      "clozeKana": "にほんへいくなら、はるがいいです"
+    },
+    {
+      "id": "g-nara-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "魚なら、この店が安いです。",
+      "kana": "さかななら、このみせがやすいです。",
+      "es": "Si es pescado, esta tienda es barata.",
+      "group": "n4-condición",
+      "note": "なら toma lo que acaba de decir el otro, o una suposición, y responde. Después de un nombre no hace falta だ.",
+      "piece": "なら",
+      "jp": "魚なら、この店が安いです。",
+      "speak": "さかななら、このみせがやすいです",
+      "cloze": "魚＿、この店が安いです。",
+      "clozeKana": "さかななら、このみせがやすいです"
+    },
+    {
+      "id": "g-to",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜と",
+      "kana": "to",
+      "es": "siempre que",
+      "group": "n4-condición",
+      "note": "と después del plano marca un resultado que se sigue solo: si haces esto, pasa aquello. No se usa para una decisión del hablante.",
+      "piece": "と",
+      "jp": "と",
+      "speak": "このボタンをおすと、ドアがひらきます",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-to-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "このボタンを押すと、ドアが開きます。",
+      "kana": "このボタンをおすと、ドアがひらきます。",
+      "es": "Si pulsas este botón, la puerta se abre.",
+      "group": "n4-condición",
+      "note": "と después del plano marca un resultado que se sigue solo: si haces esto, pasa aquello. No se usa para una decisión del hablante.",
+      "piece": "と",
+      "jp": "このボタンを押すと、ドアが開きます。",
+      "speak": "このボタンをおすと、ドアがひらきます",
+      "cloze": "このボタンを押す＿、ドアが開きます。",
+      "clozeKana": "このボタンをおすと、ドアがひらきます"
+    },
+    {
+      "id": "g-to-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "春になると、花が咲きます。",
+      "kana": "はるになると、はながさきます。",
+      "es": "Al llegar la primavera, salen las flores.",
+      "group": "n4-condición",
+      "note": "と después del plano marca un resultado que se sigue solo: si haces esto, pasa aquello. No se usa para una decisión del hablante.",
+      "piece": "と",
+      "jp": "春になると、花が咲きます。",
+      "speak": "はるになると、はながさきます",
+      "cloze": "春になる＿、花が咲きます。",
+      "clozeKana": "はるになると、はながさきます"
+    },
+    {
+      "id": "g-te-mo-de-mo",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜ても",
+      "kana": "te mo",
+      "es": "aunque",
+      "group": "n4-condición",
+      "note": "ても es aunque, o incluso si. Con nombres y adjetivos な se usa でも.",
+      "piece": "ても",
+      "jp": "ても",
+      "speak": "あめでも、いきます",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-te-mo-de-mo-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "雨でも、行きます。",
+      "kana": "あめでも、いきます。",
+      "es": "Aunque llueva, voy.",
+      "group": "n4-condición",
+      "note": "ても es aunque, o incluso si. Con nombres y adjetivos な se usa でも.",
+      "piece": "ても",
+      "jp": "雨でも、行きます。",
+      "speak": "あめでも、いきます",
+      "cloze": "",
+      "clozeKana": "あめでも、いきます"
+    },
+    {
+      "id": "g-te-mo-de-mo-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "高くても、買いたいです。",
+      "kana": "たかくても、かいたいです。",
+      "es": "Aunque sea caro, quiero comprarlo.",
+      "group": "n4-condición",
+      "note": "ても es aunque, o incluso si. Con nombres y adjetivos な se usa でも.",
+      "piece": "ても",
+      "jp": "高くても、買いたいです。",
+      "speak": "たかくても、かいたいです",
+      "cloze": "高く＿、買いたいです。",
+      "clozeKana": "たかくても、かいたいです"
+    },
+    {
+      "id": "g-noni-although",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜のに",
+      "kana": "noni",
+      "es": "y eso que",
+      "group": "n4-condición",
+      "note": "のに contrasta con sorpresa o queja: se esperaba otra cosa. No es un simple pero.",
+      "piece": "のに",
+      "jp": "のに",
+      "speak": "べんきょうしたのに、できませんでした",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-noni-although-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "勉強したのに、できませんでした。",
+      "kana": "べんきょうしたのに、できませんでした。",
+      "es": "Estudié, y aun así no pude.",
+      "group": "n4-condición",
+      "note": "のに contrasta con sorpresa o queja: se esperaba otra cosa. No es un simple pero.",
+      "piece": "のに",
+      "jp": "勉強したのに、できませんでした。",
+      "speak": "べんきょうしたのに、できませんでした",
+      "cloze": "勉強した＿、できませんでした。",
+      "clozeKana": "べんきょうしたのに、できませんでした"
+    },
+    {
+      "id": "g-noni-although-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "今日は日曜なのに、仕事です。",
+      "kana": "きょうはにちようなのに、しごとです。",
+      "es": "Es domingo, y aun así hay trabajo.",
+      "group": "n4-condición",
+      "note": "のに contrasta con sorpresa o queja: se esperaba otra cosa. No es un simple pero.",
+      "piece": "のに",
+      "jp": "今日は日曜なのに、仕事です。",
+      "speak": "きょうはにちようなのに、しごとです",
+      "cloze": "今日は日曜な＿、仕事です。",
+      "clozeKana": "きょうはにちようなのに、しごとです"
+    },
+    {
+      "id": "g-noni-purpose",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜のに",
+      "kana": "noni",
+      "es": "hace falta para",
+      "group": "n4-razón",
+      "note": "Esta のに va con tiempo, dinero o uso: lo que hace falta para algo. No lleva la queja de la otra のに.",
+      "piece": "のに",
+      "jp": "のに",
+      "speak": "このてがみをかくのに、いちじかんかかりました",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-noni-purpose-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "この手紙を書くのに、一時間かかりました。",
+      "kana": "このてがみをかくのに、いちじかんかかりました。",
+      "es": "Escribir esta carta me llevó una hora.",
+      "group": "n4-razón",
+      "note": "Esta のに va con tiempo, dinero o uso: lo que hace falta para algo. No lleva la queja de la otra のに.",
+      "piece": "のに",
+      "jp": "この手紙を書くのに、一時間かかりました。",
+      "speak": "このてがみをかくのに、いちじかんかかりました",
+      "cloze": "この手紙を書く＿、一時間かかりました。",
+      "clozeKana": "このてがみをかくのに、いちじかんかかりました"
+    },
+    {
+      "id": "g-noni-purpose-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "行くのに、お金が要ります。",
+      "kana": "いくのに、おかねがいります。",
+      "es": "Para ir hace falta dinero.",
+      "group": "n4-razón",
+      "note": "Esta のに va con tiempo, dinero o uso: lo que hace falta para algo. No lleva la queja de la otra のに.",
+      "piece": "のに",
+      "jp": "行くのに、お金が要ります。",
+      "speak": "いくのに、おかねがいります",
+      "cloze": "行く＿、お金が要ります。",
+      "clozeKana": "いくのに、おかねがいります"
+    },
+    {
+      "id": "g-node",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜ので",
+      "kana": "node",
+      "es": "como, porque",
+      "group": "n4-razón",
+      "note": "ので da una causa y suena más suave que から. Delante suele ir el plano, o なので con nombres.",
+      "piece": "ので",
+      "jp": "ので",
+      "speak": "あついので、まどをあけました",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-node-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "暑いので、窓を開けました。",
+      "kana": "あついので、まどをあけました。",
+      "es": "Como hace calor, abrí la ventana.",
+      "group": "n4-razón",
+      "note": "ので da una causa y suena más suave que から. Delante suele ir el plano, o なので con nombres.",
+      "piece": "ので",
+      "jp": "暑いので、窓を開けました。",
+      "speak": "あついので、まどをあけました",
+      "cloze": "暑い＿、窓を開けました。",
+      "clozeKana": "あついので、まどをあけました"
+    },
+    {
+      "id": "g-node-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "初めてなので、教えてください。",
+      "kana": "はじめてなので、おしえてください。",
+      "es": "Como es la primera vez, enséñamelo.",
+      "group": "n4-razón",
+      "note": "ので da una causa y suena más suave que から. Delante suele ir el plano, o なので con nombres.",
+      "piece": "ので",
+      "jp": "初めてなので、教えてください。",
+      "speak": "はじめてなので、おしえてください",
+      "cloze": "初めてな＿、教えてください。",
+      "clozeKana": "はじめてなので、おしえてください"
+    },
+    {
+      "id": "g-te-reason",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜て",
+      "kana": "te",
+      "es": "y por eso, un estado",
+      "group": "n4-razón",
+      "note": "La forma て puede unir una causa con un sentimiento o un estado. No es la forma て de secuencia.",
+      "piece": "て",
+      "jp": "て",
+      "speak": "ニュースをきいて、びっくりしました",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-te-reason-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "ニュースを聞いて、びっくりしました。",
+      "kana": "ニュースをきいて、びっくりしました。",
+      "es": "Al oír la noticia, me sobresalté.",
+      "group": "n4-razón",
+      "note": "La forma て puede unir una causa con un sentimiento o un estado. No es la forma て de secuencia.",
+      "piece": "て",
+      "jp": "ニュースを聞いて、びっくりしました。",
+      "speak": "ニュースをきいて、びっくりしました",
+      "cloze": "ニュースを聞い＿、びっくりしました。",
+      "clozeKana": "ニュースをきいて、びっくりしました"
+    },
+    {
+      "id": "g-te-reason-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "忙しくて、行けません。",
+      "kana": "いそがしくて、いけません。",
+      "es": "Estoy ocupado y no puedo ir.",
+      "group": "n4-razón",
+      "note": "La forma て puede unir una causa con un sentimiento o un estado. No es la forma て de secuencia.",
+      "piece": "て",
+      "jp": "忙しくて、行けません。",
+      "speak": "いそがしくて、いけません",
+      "cloze": "忙しく＿、行けません。",
+      "clozeKana": "いそがしくて、いけません"
+    },
+    {
+      "id": "g-shi",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜し",
+      "kana": "shi",
+      "es": "y además",
+      "group": "n4-razón",
+      "note": "し enumera razones. A menudo basta con una, y la otra se deja en el aire.",
+      "piece": "し",
+      "jp": "し",
+      "speak": "ちかいし、やすいし、このみせにします",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-shi-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "近いし、安いし、この店にします。",
+      "kana": "ちかいし、やすいし、このみせにします。",
+      "es": "Está cerca y es barata: me quedo con esta tienda.",
+      "group": "n4-razón",
+      "note": "し enumera razones. A menudo basta con una, y la otra se deja en el aire.",
+      "piece": "し",
+      "jp": "近いし、安いし、この店にします。",
+      "speak": "ちかいし、やすいし、このみせにします",
+      "cloze": "近い＿、安いし、この店にします。",
+      "clozeKana": "ちかいし、やすいし、このみせにします"
+    },
+    {
+      "id": "g-shi-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "明日は日曜だし、休みます。",
+      "kana": "あしたはにちようだし、やすみます。",
+      "es": "Mañana es domingo, así que descanso.",
+      "group": "n4-razón",
+      "note": "し enumera razones. A menudo basta con una, y la otra se deja en el aire.",
+      "piece": "し",
+      "jp": "明日は日曜だし、休みます。",
+      "speak": "あしたはにちようだし、やすみます",
+      "cloze": "明日は日曜だ＿、休みます。",
+      "clozeKana": "あしたはにちようだし、やすみます"
+    },
+    {
+      "id": "g-kedo-keredomo",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜けど",
+      "kana": "kedo",
+      "es": "pero",
+      "group": "n4-razón",
+      "note": "けど es el pero de conversación. けれども es más cuidado. También suaviza lo que viene después.",
+      "piece": "けど",
+      "jp": "けど",
+      "speak": "たかいけど、かいます",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-kedo-keredomo-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "高いけど、買います。",
+      "kana": "たかいけど、かいます。",
+      "es": "Es caro, pero lo compro.",
+      "group": "n4-razón",
+      "note": "けど es el pero de conversación. けれども es más cuidado. También suaviza lo que viene después.",
+      "piece": "けど",
+      "jp": "高いけど、買います。",
+      "speak": "たかいけど、かいます",
+      "cloze": "高い＿、買います。",
+      "clozeKana": "たかいけど、かいます"
+    },
+    {
+      "id": "g-kedo-keredomo-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "すみませんけど、ちょっといいですか。",
+      "kana": "すみませんけど、ちょっといいですか。",
+      "es": "Perdone, ¿tiene un momento?",
+      "group": "n4-razón",
+      "note": "けど es el pero de conversación. けれども es más cuidado. También suaviza lo que viene después.",
+      "piece": "けど",
+      "jp": "すみませんけど、ちょっといいですか。",
+      "speak": "すみませんけど、ちょっといいですか",
+      "cloze": "すみません＿、ちょっといいですか。",
+      "clozeKana": "すみませんけど、ちょっといいですか"
+    },
+    {
+      "id": "g-tame-ni",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜ために",
+      "kana": "tame ni",
+      "es": "para, o debido a",
+      "group": "n4-razón",
+      "note": "ために es la finalidad si el sujeto controla la acción. Si lo de antes es un hecho, es la causa.",
+      "piece": "ために",
+      "jp": "ために",
+      "speak": "かぞくのために働きます",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-tame-ni-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "家族のために働きます。",
+      "kana": "かぞくのために働きます。",
+      "es": "Trabajo por mi familia.",
+      "group": "n4-razón",
+      "note": "ために es la finalidad si el sujeto controla la acción. Si lo de antes es un hecho, es la causa.",
+      "piece": "ために",
+      "jp": "家族のために働きます。",
+      "speak": "かぞくのために働きます",
+      "cloze": "家族の＿働きます。",
+      "clozeKana": "かぞくのために働きます"
+    },
+    {
+      "id": "g-tame-ni-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "事故のために、電車が遅れました。",
+      "kana": "じこのために、でんしゃがおくれました。",
+      "es": "El tren se retrasó por un accidente.",
+      "group": "n4-razón",
+      "note": "ために es la finalidad si el sujeto controla la acción. Si lo de antes es un hecho, es la causa.",
+      "piece": "ために",
+      "jp": "事故のために、電車が遅れました。",
+      "speak": "じこのために、でんしゃがおくれました",
+      "cloze": "事故の＿、電車が遅れました。",
+      "clozeKana": "じこのために、でんしゃがおくれました"
+    },
+    {
+      "id": "g-you-ni",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜ように",
+      "kana": "you ni",
+      "es": "para que",
+      "group": "n4-razón",
+      "note": "ように expresa un objetivo que no se controla del todo: para que se pueda, para que no pase. A menudo va con potencial o negativo.",
+      "piece": "ように",
+      "jp": "ように",
+      "speak": "おくれないように、はやくでます",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-you-ni-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "遅れないように、早く出ます。",
+      "kana": "おくれないように、はやくでます。",
+      "es": "Salgo pronto para no llegar tarde.",
+      "group": "n4-razón",
+      "note": "ように expresa un objetivo que no se controla del todo: para que se pueda, para que no pase. A menudo va con potencial o negativo.",
+      "piece": "ように",
+      "jp": "遅れないように、早く出ます。",
+      "speak": "おくれないように、はやくでます",
+      "cloze": "遅れない＿、早く出ます。",
+      "clozeKana": "おくれないように、はやくでます"
+    },
+    {
+      "id": "g-you-ni-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "分かるように、ゆっくり話します。",
+      "kana": "わかるように、ゆっくりはなします。",
+      "es": "Hablo despacio para que se entienda.",
+      "group": "n4-razón",
+      "note": "ように expresa un objetivo que no se controla del todo: para que se pueda, para que no pase. A menudo va con potencial o negativo.",
+      "piece": "ように",
+      "jp": "分かるように、ゆっくり話します。",
+      "speak": "わかるように、ゆっくりはなします",
+      "cloze": "分かる＿、ゆっくり話します。",
+      "clozeKana": "わかるように、ゆっくりはなします"
+    },
+    {
+      "id": "g-you-ni-suru",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜ようにする",
+      "kana": "you ni suru",
+      "es": "procurar",
+      "group": "n4-intención",
+      "note": "ようにする es esforzarse por convertir algo en hábito. ようにしている es que ya lo intenta con regularidad.",
+      "piece": "ようにする",
+      "jp": "ようにする",
+      "speak": "やさいをたべるようにしています",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-you-ni-suru-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "野菜を食べるようにしています。",
+      "kana": "やさいをたべるようにしています。",
+      "es": "Procuro comer verdura.",
+      "group": "n4-intención",
+      "note": "ようにする es esforzarse por convertir algo en hábito. ようにしている es que ya lo intenta con regularidad.",
+      "piece": "ように",
+      "jp": "野菜を食べるようにしています。",
+      "speak": "やさいをたべるようにしています",
+      "cloze": "野菜を食べる＿しています。",
+      "clozeKana": "やさいをたべるようにしています"
+    },
+    {
+      "id": "g-you-ni-suru-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "夜、遅く起きないようにします。",
+      "kana": "よる、おそくおきないようにします。",
+      "es": "Voy a procurar no acostarme tarde.",
+      "group": "n4-intención",
+      "note": "ようにする es esforzarse por convertir algo en hábito. ようにしている es que ya lo intenta con regularidad.",
+      "piece": "ように",
+      "jp": "夜、遅く起きないようにします。",
+      "speak": "よる、おそくおきないようにします",
+      "cloze": "夜、遅く起きない＿します。",
+      "clozeKana": "よる、おそくおきないようにします"
+    },
+    {
+      "id": "g-you-ni-naru",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜ようになる",
+      "kana": "you ni naru",
+      "es": "llegar a poder",
+      "group": "n4-intención",
+      "note": "ようになる es un cambio: antes no, y ahora sí. Con potencial, es que se ha adquirido la capacidad.",
+      "piece": "ようになる",
+      "jp": "ようになる",
+      "speak": "かんじがよめるようになりました",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-you-ni-naru-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "漢字が読めるようになりました。",
+      "kana": "かんじがよめるようになりました。",
+      "es": "Ya consigo leer kanji.",
+      "group": "n4-intención",
+      "note": "ようになる es un cambio: antes no, y ahora sí. Con potencial, es que se ha adquirido la capacidad.",
+      "piece": "ようにな",
+      "jp": "漢字が読めるようになりました。",
+      "speak": "かんじがよめるようになりました",
+      "cloze": "漢字が読める＿りました。",
+      "clozeKana": "かんじがよめるようになりました"
+    },
+    {
+      "id": "g-you-ni-naru-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "一人で料理するようになりました。",
+      "kana": "ひとりでりょうりするようになりました。",
+      "es": "He llegado a cocinar solo.",
+      "group": "n4-intención",
+      "note": "ようになる es un cambio: antes no, y ahora sí. Con potencial, es que se ha adquirido la capacidad.",
+      "piece": "ようにな",
+      "jp": "一人で料理するようになりました。",
+      "speak": "ひとりでりょうりするようになりました",
+      "cloze": "一人で料理する＿りました。",
+      "clozeKana": "ひとりでりょうりするようになりました"
+    },
+    {
+      "id": "g-te-hoshii",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜てほしい",
+      "kana": "te hoshii",
+      "es": "quiero que lo haga",
+      "group": "n4-deseo",
+      "note": "てほしい es el deseo de que otra persona actúe. Quien debe hacerlo lleva に.",
+      "piece": "てほしい",
+      "jp": "てほしい",
+      "speak": "まどをあけてほしいです",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-te-hoshii-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "窓を開けてほしいです。",
+      "kana": "まどをあけてほしいです。",
+      "es": "Quiero que abras la ventana.",
+      "group": "n4-deseo",
+      "note": "てほしい es el deseo de que otra persona actúe. Quien debe hacerlo lleva に.",
+      "piece": "てほしい",
+      "jp": "窓を開けてほしいです。",
+      "speak": "まどをあけてほしいです",
+      "cloze": "窓を開け＿です。",
+      "clozeKana": "まどをあけてほしいです"
+    },
+    {
+      "id": "g-te-hoshii-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "ここに来てほしくないです。",
+      "kana": "ここにきてほしくないです。",
+      "es": "No quiero que vengas aquí.",
+      "group": "n4-deseo",
+      "note": "てほしい es el deseo de que otra persona actúe. Quien debe hacerlo lleva に.",
+      "piece": "てほし",
+      "jp": "ここに来てほしくないです。",
+      "speak": "ここにきてほしくないです",
+      "cloze": "ここに来＿くないです。",
+      "clozeKana": "ここにきてほしくないです"
+    },
+    {
+      "id": "g-tagaru",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜たがる",
+      "kana": "tagaru",
+      "es": "otro quiere",
+      "group": "n4-deseo",
+      "note": "たい es el deseo de quien habla. たがる se usa para el deseo visible de otra persona. Se pega al tronco ます.",
+      "piece": "たがる",
+      "jp": "たがる",
+      "speak": "こどもはそとであそびたがりました",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-tagaru-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "子どもは外で遊びたがりました。",
+      "kana": "こどもはそとであそびたがりました。",
+      "es": "El niño quería jugar fuera.",
+      "group": "n4-deseo",
+      "note": "たい es el deseo de quien habla. たがる se usa para el deseo visible de otra persona. Se pega al tronco ます.",
+      "piece": "たが",
+      "jp": "子どもは外で遊びたがりました。",
+      "speak": "こどもはそとであそびたがりました",
+      "cloze": "子どもは外で遊び＿りました。",
+      "clozeKana": "こどもはそとであそびたがりました"
+    },
+    {
+      "id": "g-tagaru-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "妹は犬を飼いたがっています。",
+      "kana": "いもうとはいぬをかいたがっています。",
+      "es": "Mi hermana quiere tener un perro.",
+      "group": "n4-deseo",
+      "note": "たい es el deseo de quien habla. たがる se usa para el deseo visible de otra persona. Se pega al tronco ます.",
+      "piece": "たが",
+      "jp": "妹は犬を飼いたがっています。",
+      "speak": "いもうとはいぬをかいたがっています",
+      "cloze": "妹は犬を飼い＿っています。",
+      "clozeKana": "いもうとはいぬをかいたがっています"
+    },
+    {
+      "id": "g-garu",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜がる",
+      "kana": "garu",
+      "es": "se le nota el sentimiento",
+      "group": "n4-deseo",
+      "note": "がる se pega al tronco del adjetivo い y muestra el sentimiento de otra persona: 怖がる, 恥ずかしがる.",
+      "piece": "がる",
+      "jp": "がる",
+      "speak": "おとうとはいぬをこわがります",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-garu-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "弟は犬を怖がります。",
+      "kana": "おとうとはいぬをこわがります。",
+      "es": "A mi hermano le dan miedo los perros.",
+      "group": "n4-deseo",
+      "note": "がる se pega al tronco del adjetivo い y muestra el sentimiento de otra persona: 怖がる, 恥ずかしがる.",
+      "piece": "がる",
+      "jp": "弟は犬を怖がります。",
+      "speak": "おとうとはいぬをこわがります",
+      "cloze": "",
+      "clozeKana": "おとうとはいぬをこわがります"
+    },
+    {
+      "id": "g-garu-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "子どもが寂しがっています。",
+      "kana": "こどもがさびしがっています。",
+      "es": "El niño se siente solo.",
+      "group": "n4-deseo",
+      "note": "がる se pega al tronco del adjetivo い y muestra el sentimiento de otra persona: 怖がる, 恥ずかしがる.",
+      "piece": "がる",
+      "jp": "子どもが寂しがっています。",
+      "speak": "こどもがさびしがっています",
+      "cloze": "",
+      "clozeKana": "こどもがさびしがっています"
+    },
+    {
+      "id": "g-kamo-shirenai",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜かもしれない",
+      "kana": "kamo shirenai",
+      "es": "puede que",
+      "group": "n4-conjetura",
+      "note": "かもしれない es una posibilidad, no una certeza. Va después del plano. かも es la forma breve.",
+      "piece": "かもしれない",
+      "jp": "かもしれない",
+      "speak": "あしたはあめかもしれません",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-kamo-shirenai-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "明日は雨かもしれません。",
+      "kana": "あしたはあめかもしれません。",
+      "es": "Puede que mañana llueva.",
+      "group": "n4-conjetura",
+      "note": "かもしれない es una posibilidad, no una certeza. Va después del plano. かも es la forma breve.",
+      "piece": "かもしれ",
+      "jp": "明日は雨かもしれません。",
+      "speak": "あしたはあめかもしれません",
+      "cloze": "明日は雨＿ません。",
+      "clozeKana": "あしたはあめかもしれません"
+    },
+    {
+      "id": "g-kamo-shirenai-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "彼はもう帰ったかもしれません。",
+      "kana": "かれはもうかえったかもしれません。",
+      "es": "Puede que ya se haya ido.",
+      "group": "n4-conjetura",
+      "note": "かもしれない es una posibilidad, no una certeza. Va después del plano. かも es la forma breve.",
+      "piece": "かもしれ",
+      "jp": "彼はもう帰ったかもしれません。",
+      "speak": "かれはもうかえったかもしれません",
+      "cloze": "彼はもう帰った＿ません。",
+      "clozeKana": "かれはもうかえったかもしれません"
+    },
+    {
+      "id": "g-darou",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜だろう",
+      "kana": "darou",
+      "es": "supongo",
+      "group": "n4-conjetura",
+      "note": "だろう es el plano de でしょう. Afirma con reserva. だろう？ pide acuerdo.",
+      "piece": "だろう",
+      "jp": "だろう",
+      "speak": "あしたははれるだろう",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-darou-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "明日は晴れるだろう。",
+      "kana": "あしたははれるだろう。",
+      "es": "Supongo que mañana despeja.",
+      "group": "n4-conjetura",
+      "note": "だろう es el plano de でしょう. Afirma con reserva. だろう？ pide acuerdo.",
+      "piece": "だろう",
+      "jp": "明日は晴れるだろう。",
+      "speak": "あしたははれるだろう",
+      "cloze": "明日は晴れる＿。",
+      "clozeKana": "あしたははれるだろう"
+    },
+    {
+      "id": "g-darou-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "これは君のだろう。",
+      "kana": "これはきみのだろう。",
+      "es": "Esto será tuyo, ¿no?",
+      "group": "n4-conjetura",
+      "note": "だろう es el plano de でしょう. Afirma con reserva. だろう？ pide acuerdo.",
+      "piece": "だろう",
+      "jp": "これは君のだろう。",
+      "speak": "これはきみのだろう",
+      "cloze": "これは君の＿。",
+      "clozeKana": "これはきみのだろう"
+    },
+    {
+      "id": "g-hazu-da",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜はずだ",
+      "kana": "hazu da",
+      "es": "debería ser",
+      "group": "n4-conjetura",
+      "note": "はずだ es lo que se espera por lógica o por un dato. No es un rumor. はずがない lo niega con fuerza.",
+      "piece": "はず",
+      "jp": "はずだ",
+      "speak": "いまはじゅぎょうちゅうのはずです",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-hazu-da-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "今は授業中のはずです。",
+      "kana": "いまはじゅぎょうちゅうのはずです。",
+      "es": "Ahora debería estar en clase.",
+      "group": "n4-conjetura",
+      "note": "はずだ es lo que se espera por lógica o por un dato. No es un rumor. はずがない lo niega con fuerza.",
+      "piece": "はず",
+      "jp": "今は授業中のはずです。",
+      "speak": "いまはじゅぎょうちゅうのはずです",
+      "cloze": "今は授業中の＿です。",
+      "clozeKana": "いまはじゅぎょうちゅうのはずです"
+    },
+    {
+      "id": "g-hazu-da-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "彼は知っているはずです。",
+      "kana": "かれはしっているはずです。",
+      "es": "Él tendría que saberlo.",
+      "group": "n4-conjetura",
+      "note": "はずだ es lo que se espera por lógica o por un dato. No es un rumor. はずがない lo niega con fuerza.",
+      "piece": "はず",
+      "jp": "彼は知っているはずです。",
+      "speak": "かれはしっているはずです",
+      "cloze": "彼は知っている＿です。",
+      "clozeKana": "かれはしっているはずです"
+    },
+    {
+      "id": "g-hazu-ga-nai",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜はずがない",
+      "kana": "hazu ga nai",
+      "es": "no puede ser",
+      "group": "n4-conjetura",
+      "note": "はずがない niega la expectativa: no hay manera de que sea así.",
+      "piece": "はずがない",
+      "jp": "はずがない",
+      "speak": "そんなはずがありません",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-hazu-ga-nai-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "そんなはずがありません。",
+      "kana": "そんなはずがありません。",
+      "es": "Eso no puede ser.",
+      "group": "n4-conjetura",
+      "note": "はずがない niega la expectativa: no hay manera de que sea así.",
+      "piece": "はずが",
+      "jp": "そんなはずがありません。",
+      "speak": "そんなはずがありません",
+      "cloze": "そんな＿ありません。",
+      "clozeKana": "そんなはずがありません"
+    },
+    {
+      "id": "g-hazu-ga-nai-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "彼が忘れるはずがない。",
+      "kana": "かれがわすれるはずがない。",
+      "es": "Él no puede olvidarlo.",
+      "group": "n4-conjetura",
+      "note": "はずがない niega la expectativa: no hay manera de que sea así.",
+      "piece": "はずがない",
+      "jp": "彼が忘れるはずがない。",
+      "speak": "かれがわすれるはずがない",
+      "cloze": "彼が忘れる＿。",
+      "clozeKana": "かれがわすれるはずがない"
+    },
+    {
+      "id": "g-n-desu-no-desu",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜んです",
+      "kana": "n desu",
+      "es": "es que",
+      "group": "n4-énfasis",
+      "note": "んです explica o pide la explicación. のです es más formal. Delante de un nombre o de un adjetivo な va なんです.",
+      "piece": "んです",
+      "jp": "んです",
+      "speak": "どうしておくれたんですか",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-n-desu-no-desu-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "どうして遅れたんですか。",
+      "kana": "どうしておくれたんですか。",
+      "es": "¿Por qué llegaste tarde?",
+      "group": "n4-énfasis",
+      "note": "んです explica o pide la explicación. のです es más formal. Delante de un nombre o de un adjetivo な va なんです.",
+      "piece": "んです",
+      "jp": "どうして遅れたんですか。",
+      "speak": "どうしておくれたんですか",
+      "cloze": "どうして遅れた＿か。",
+      "clozeKana": "どうしておくれたんですか"
+    },
+    {
+      "id": "g-n-desu-no-desu-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "頭が痛いんです。",
+      "kana": "あたまがいたいんです。",
+      "es": "Es que me duele la cabeza.",
+      "group": "n4-énfasis",
+      "note": "んです explica o pide la explicación. のです es más formal. Delante de un nombre o de un adjetivo な va なんです.",
+      "piece": "んです",
+      "jp": "頭が痛いんです。",
+      "speak": "あたまがいたいんです",
+      "cloze": "頭が痛い＿。",
+      "clozeKana": "あたまがいたいんです"
+    },
+    {
+      "id": "g-ka-dou-ka",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜かどうか",
+      "kana": "ka dou ka",
+      "es": "si o no",
+      "group": "n4-pregunta",
+      "note": "かどうか pregunta si algo es cierto, sin ofrecer la otra opción. No se añade otra か.",
+      "piece": "かどうか",
+      "jp": "かどうか",
+      "speak": "くるかどうか、わかりません",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-ka-dou-ka-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "来るかどうか、分かりません。",
+      "kana": "くるかどうか、わかりません。",
+      "es": "No sé si viene.",
+      "group": "n4-pregunta",
+      "note": "かどうか pregunta si algo es cierto, sin ofrecer la otra opción. No se añade otra か.",
+      "piece": "かどうか",
+      "jp": "来るかどうか、分かりません。",
+      "speak": "くるかどうか、わかりません",
+      "cloze": "来る＿、分かりません。",
+      "clozeKana": "くるかどうか、わかりません"
+    },
+    {
+      "id": "g-ka-dou-ka-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "本当かどうか、聞いてみます。",
+      "kana": "ほんとうかどうか、きいてみます。",
+      "es": "Voy a preguntar si es verdad.",
+      "group": "n4-pregunta",
+      "note": "かどうか pregunta si algo es cierto, sin ofrecer la otra opción. No se añade otra か.",
+      "piece": "かどうか",
+      "jp": "本当かどうか、聞いてみます。",
+      "speak": "ほんとうかどうか、きいてみます",
+      "cloze": "本当＿、聞いてみます。",
+      "clozeKana": "ほんとうかどうか、きいてみます"
+    },
+    {
+      "id": "g-ka-embedded-question",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜か",
+      "kana": "ka",
+      "es": "pregunta incrustada",
+      "group": "n4-pregunta",
+      "note": "か cierra una pregunta dentro de otra frase: qué, dónde, quién. No hace falta だ delante de か.",
+      "piece": "か",
+      "jp": "か",
+      "speak": "だれがくるか、しっていますか",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-ka-embedded-question-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "だれが来るか、知っていますか。",
+      "kana": "だれがくるか、しっていますか。",
+      "es": "¿Sabes quién viene?",
+      "group": "n4-pregunta",
+      "note": "か cierra una pregunta dentro de otra frase: qué, dónde, quién. No hace falta だ delante de か.",
+      "piece": "か",
+      "jp": "だれが来るか、知っていますか。",
+      "speak": "だれがくるか、しっていますか",
+      "cloze": "だれが来る＿、知っていますか。",
+      "clozeKana": "だれがくるか、しっていますか"
+    },
+    {
+      "id": "g-ka-embedded-question-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "どこで買うか、決めてください。",
+      "kana": "どこでかうか、きめてください。",
+      "es": "Decide dónde lo compras.",
+      "group": "n4-pregunta",
+      "note": "か cierra una pregunta dentro de otra frase: qué, dónde, quién. No hace falta だ delante de か.",
+      "piece": "か",
+      "jp": "どこで買うか、決めてください。",
+      "speak": "どこでかうか、きめてください",
+      "cloze": "どこで買う＿、決めてください。",
+      "clozeKana": "どこでかうか、きめてください"
+    },
+    {
+      "id": "g-to-omou",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜と思う",
+      "kana": "to omou",
+      "es": "creo que",
+      "group": "n4-cita",
+      "note": "と思う cita lo que uno piensa. Delante va el plano. Para nombres, だと思う.",
+      "piece": "と思う",
+      "jp": "と思う",
+      "speak": "あしたはあめだとおもいます",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-to-omou-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "明日は雨だと思います。",
+      "kana": "あしたはあめだとおもいます。",
+      "es": "Creo que mañana llueve.",
+      "group": "n4-cita",
+      "note": "と思う cita lo que uno piensa. Delante va el plano. Para nombres, だと思う.",
+      "piece": "と思",
+      "jp": "明日は雨だと思います。",
+      "speak": "あしたはあめだとおもいます",
+      "cloze": "明日は雨だ＿います。",
+      "clozeKana": "あしたはあめだとおもいます"
+    },
+    {
+      "id": "g-to-omou-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "この店が一番いいと思います。",
+      "kana": "このみせがいちばんいいとおもいます。",
+      "es": "Creo que esta tienda es la mejor.",
+      "group": "n4-cita",
+      "note": "と思う cita lo que uno piensa. Delante va el plano. Para nombres, だと思う.",
+      "piece": "と思",
+      "jp": "この店が一番いいと思います。",
+      "speak": "このみせがいちばんいいとおもいます",
+      "cloze": "この店が一番いい＿います。",
+      "clozeKana": "このみせがいちばんいいとおもいます"
+    },
+    {
+      "id": "g-to-iu-say",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜と言う",
+      "kana": "to iu",
+      "es": "decir que",
+      "group": "n4-cita",
+      "note": "と言う cita las palabras de alguien. という también une un nombre con lo que se dice de él.",
+      "piece": "と言う",
+      "jp": "と言う",
+      "speak": "はははこないといいました",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-to-iu-say-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "母は来ないと言いました。",
+      "kana": "はははこないといいました。",
+      "es": "Mi madre dijo que no viene.",
+      "group": "n4-cita",
+      "note": "と言う cita las palabras de alguien. という también une un nombre con lo que se dice de él.",
+      "piece": "と言",
+      "jp": "母は来ないと言いました。",
+      "speak": "はははこないといいました",
+      "cloze": "母は来ない＿いました。",
+      "clozeKana": "はははこないといいました"
+    },
+    {
+      "id": "g-to-iu-say-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "田中という人です。",
+      "kana": "たなかというひとです。",
+      "es": "Es una persona que se llama Tanaka.",
+      "group": "n4-cita",
+      "note": "と言う cita las palabras de alguien. という también une un nombre con lo que se dice de él.",
+      "piece": "と言う",
+      "jp": "田中という人です。",
+      "speak": "たなかというひとです",
+      "cloze": "",
+      "clozeKana": "たなかというひとです"
+    },
+    {
+      "id": "g-shika-nai",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜しか〜ない",
+      "kana": "shika nai",
+      "es": "solo, nada más",
+      "group": "n4-cantidad",
+      "note": "しか va con un verbo negativo y el conjunto es afirmativo limitado: solo hay eso.",
+      "piece": "しか",
+      "jp": "しかない",
+      "speak": "みずしかありません",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-shika-nai-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "水しかありません。",
+      "kana": "みずしかありません。",
+      "es": "Solo hay agua.",
+      "group": "n4-cantidad",
+      "note": "しか va con un verbo negativo y el conjunto es afirmativo limitado: solo hay eso.",
+      "piece": "しか",
+      "jp": "水しかありません。",
+      "speak": "みずしかありません",
+      "cloze": "水＿ありません。",
+      "clozeKana": "みずしかありません"
+    },
+    {
+      "id": "g-shika-nai-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "百円しか持っていません。",
+      "kana": "ひゃくえんしかもっていません。",
+      "es": "Solo llevo cien yenes.",
+      "group": "n4-cantidad",
+      "note": "しか va con un verbo negativo y el conjunto es afirmativo limitado: solo hay eso.",
+      "piece": "しか",
+      "jp": "百円しか持っていません。",
+      "speak": "ひゃくえんしかもっていません",
+      "cloze": "百円＿持っていません。",
+      "clozeKana": "ひゃくえんしかもっていません"
+    },
+    {
+      "id": "g-bakari",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜ばかり",
+      "kana": "bakari",
+      "es": "no hace más que",
+      "group": "n4-cantidad",
+      "note": "ばかり insiste en que solo hay eso, a menudo con queja. No es だけ, que es más neutro.",
+      "piece": "ばかり",
+      "jp": "ばかり",
+      "speak": "ゲームばかりしています",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-bakari-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "ゲームばかりしています。",
+      "kana": "ゲームばかりしています。",
+      "es": "No hace más que jugar.",
+      "group": "n4-cantidad",
+      "note": "ばかり insiste en que solo hay eso, a menudo con queja. No es だけ, que es más neutro.",
+      "piece": "ばかり",
+      "jp": "ゲームばかりしています。",
+      "speak": "ゲームばかりしています",
+      "cloze": "ゲーム＿しています。",
+      "clozeKana": "ゲームばかりしています"
+    },
+    {
+      "id": "g-bakari-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "甘いものばかり食べないで。",
+      "kana": "あまいものばかりたべないで。",
+      "es": "No comas solo dulces.",
+      "group": "n4-cantidad",
+      "note": "ばかり insiste en que solo hay eso, a menudo con queja. No es だけ, que es más neutro.",
+      "piece": "ばかり",
+      "jp": "甘いものばかり食べないで。",
+      "speak": "あまいものばかりたべないで",
+      "cloze": "甘いもの＿食べないで。",
+      "clozeKana": "あまいものばかりたべないで"
+    },
+    {
+      "id": "g-ta-bakari",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜たばかり",
+      "kana": "ta bakari",
+      "es": "acabar de",
+      "group": "n4-tiempo",
+      "note": "たばかり es que acaba de ocurrir, desde el punto de vista de quien habla. No tiene que ser hace un segundo.",
+      "piece": "たばかり",
+      "jp": "たばかり",
+      "speak": "いま、ついたばかりです",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-ta-bakari-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "今、着いたばかりです。",
+      "kana": "いま、ついたばかりです。",
+      "es": "Acabo de llegar.",
+      "group": "n4-tiempo",
+      "note": "たばかり es que acaba de ocurrir, desde el punto de vista de quien habla. No tiene que ser hace un segundo.",
+      "piece": "たばかり",
+      "jp": "今、着いたばかりです。",
+      "speak": "いま、ついたばかりです",
+      "cloze": "今、着い＿です。",
+      "clozeKana": "いま、ついたばかりです"
+    },
+    {
+      "id": "g-ta-bakari-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "日本に来たばかりのころは、大変でした。",
+      "kana": "にほんにきたばかりのころは、たいへんでした。",
+      "es": "Cuando acababa de llegar a Japón, fue duro.",
+      "group": "n4-tiempo",
+      "note": "たばかり es que acaba de ocurrir, desde el punto de vista de quien habla. No tiene que ser hace un segundo.",
+      "piece": "たばかり",
+      "jp": "日本に来たばかりのころは、大変でした。",
+      "speak": "にほんにきたばかりのころは、たいへんでした",
+      "cloze": "日本に来＿のころは、大変でした。",
+      "clozeKana": "にほんにきたばかりのころは、たいへんでした"
+    },
+    {
+      "id": "g-tokoro-da",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜ところだ",
+      "kana": "tokoro da",
+      "es": "a punto de, o justo",
+      "group": "n4-tiempo",
+      "note": "辞書形ところだ es a punto de. ているところだ es en mitad de. たところだ es justo ahora.",
+      "piece": "ところ",
+      "jp": "ところだ",
+      "speak": "いまからたべるところです",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-tokoro-da-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "今から食べるところです。",
+      "kana": "いまからたべるところです。",
+      "es": "Estoy a punto de comer.",
+      "group": "n4-tiempo",
+      "note": "辞書形ところだ es a punto de. ているところだ es en mitad de. たところだ es justo ahora.",
+      "piece": "ところ",
+      "jp": "今から食べるところです。",
+      "speak": "いまからたべるところです",
+      "cloze": "今から食べる＿です。",
+      "clozeKana": "いまからたべるところです"
+    },
+    {
+      "id": "g-tokoro-da-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "今、食べているところです。",
+      "kana": "いま、たべているところです。",
+      "es": "Estoy comiendo ahora mismo.",
+      "group": "n4-tiempo",
+      "note": "辞書形ところだ es a punto de. ているところだ es en mitad de. たところだ es justo ahora.",
+      "piece": "ところ",
+      "jp": "今、食べているところです。",
+      "speak": "いま、たべているところです",
+      "cloze": "今、食べている＿です。",
+      "clozeKana": "いま、たべているところです"
+    },
+    {
+      "id": "g-yasui-nikui",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜やすい / 〜にくい",
+      "kana": "yasui",
+      "es": "fácil o difícil de",
+      "group": "n4-grado",
+      "note": "Se pegan al tronco ます. やすい es fácil de hacer. にくい es que cuesta. Se conjugan como adjetivos い.",
+      "piece": "やすい",
+      "jp": "やすい / にくい",
+      "speak": "このペンはかきやすいです",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-yasui-nikui-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "このペンは書きやすいです。",
+      "kana": "このペンはかきやすいです。",
+      "es": "Este bolígrafo escribe fácil.",
+      "group": "n4-grado",
+      "note": "Se pegan al tronco ます. やすい es fácil de hacer. にくい es que cuesta. Se conjugan como adjetivos い.",
+      "piece": "やすい",
+      "jp": "このペンは書きやすいです。",
+      "speak": "このペンはかきやすいです",
+      "cloze": "このペンは書き＿です。",
+      "clozeKana": "このペンはかきやすいです"
+    },
+    {
+      "id": "g-yasui-nikui-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "この漢字は読みにくいです。",
+      "kana": "このかんじはよみにくいです。",
+      "es": "Este kanji es difícil de leer.",
+      "group": "n4-grado",
+      "note": "Se pegan al tronco ます. やすい es fácil de hacer. にくい es que cuesta. Se conjugan como adjetivos い.",
+      "piece": "やすい",
+      "jp": "この漢字は読みにくいです。",
+      "speak": "このかんじはよみにくいです",
+      "cloze": "",
+      "clozeKana": "このかんじはよみにくいです"
+    },
+    {
+      "id": "g-hajimeru-owaru-tsuzukeru",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜始める",
+      "kana": "hajimeru",
+      "es": "empezar, acabar, seguir",
+      "group": "n4-tiempo",
+      "note": "Se pegan al tronco ます. 始める es ponerse a. 終わる es terminar de. 続ける es seguir.",
+      "piece": "始める",
+      "jp": "始める",
+      "speak": "よみはじめました",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-hajimeru-owaru-tsuzukeru-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "読み始めました。",
+      "kana": "よみはじめました。",
+      "es": "Empecé a leer.",
+      "group": "n4-tiempo",
+      "note": "Se pegan al tronco ます. 始める es ponerse a. 終わる es terminar de. 続ける es seguir.",
+      "piece": "始め",
+      "jp": "読み始めました。",
+      "speak": "よみはじめました",
+      "cloze": "読み＿ました。",
+      "clozeKana": "よみはじめました"
+    },
+    {
+      "id": "g-hajimeru-owaru-tsuzukeru-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "雨が降り続けています。",
+      "kana": "あめがふりつづけています。",
+      "es": "Sigue lloviendo.",
+      "group": "n4-tiempo",
+      "note": "Se pegan al tronco ます. 始める es ponerse a. 終わる es terminar de. 続ける es seguir.",
+      "piece": "始める",
+      "jp": "雨が降り続けています。",
+      "speak": "あめがふりつづけています",
+      "cloze": "",
+      "clozeKana": "あめがふりつづけています"
+    },
+    {
+      "id": "g-dasu",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜出す",
+      "kana": "dasu",
+      "es": "ponerse de pronto",
+      "group": "n4-tiempo",
+      "note": "出す pegado al tronco es empezar de golpe. No es 出す, sacar, como verbo suelto.",
+      "piece": "出す",
+      "jp": "出す",
+      "speak": "きゅうになきだしました",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-dasu-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "急に泣き出しました。",
+      "kana": "きゅうになきだしました。",
+      "es": "De pronto se puso a llorar.",
+      "group": "n4-tiempo",
+      "note": "出す pegado al tronco es empezar de golpe. No es 出す, sacar, como verbo suelto.",
+      "piece": "出す",
+      "jp": "急に泣き出しました。",
+      "speak": "きゅうになきだしました",
+      "cloze": "",
+      "clozeKana": "きゅうになきだしました"
+    },
+    {
+      "id": "g-dasu-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "走り出した。",
+      "kana": "はしりだした。",
+      "es": "Echó a correr.",
+      "group": "n4-tiempo",
+      "note": "出す pegado al tronco es empezar de golpe. No es 出す, sacar, como verbo suelto.",
+      "piece": "出す",
+      "jp": "走り出した。",
+      "speak": "はしりだした",
+      "cloze": "",
+      "clozeKana": "はしりだした"
+    },
+    {
+      "id": "g-hodo-nai",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜ほど〜ない",
+      "kana": "hodo nai",
+      "es": "no tanto como",
+      "group": "n4-cantidad",
+      "note": "ほど con negativo compara: no llega al grado de lo otro. より es más neutro.",
+      "piece": "ほど",
+      "jp": "ほどない",
+      "speak": "あにほどせがたかくありません",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-hodo-nai-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "兄ほど背が高くありません。",
+      "kana": "あにほどせがたかくありません。",
+      "es": "No soy tan alto como mi hermano.",
+      "group": "n4-cantidad",
+      "note": "ほど con negativo compara: no llega al grado de lo otro. より es más neutro.",
+      "piece": "ほど",
+      "jp": "兄ほど背が高くありません。",
+      "speak": "あにほどせがたかくありません",
+      "cloze": "兄＿背が高くありません。",
+      "clozeKana": "あにほどせがたかくありません"
+    },
+    {
+      "id": "g-hodo-nai-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "思ったほど難しくなかった。",
+      "kana": "おもったほどむずかしくなかった。",
+      "es": "No fue tan difícil como pensaba.",
+      "group": "n4-cantidad",
+      "note": "ほど con negativo compara: no llega al grado de lo otro. より es más neutro.",
+      "piece": "ほど",
+      "jp": "思ったほど難しくなかった。",
+      "speak": "おもったほどむずかしくなかった",
+      "cloze": "思った＿難しくなかった。",
+      "clozeKana": "おもったほどむずかしくなかった"
+    },
+    {
+      "id": "g-nakanaka-nai",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "なかなか〜ない",
+      "kana": "nakanaka nai",
+      "es": "no hay manera",
+      "group": "n4-cantidad",
+      "note": "なかなか con negativo es que no se consigue con facilidad. No es el なかなか afirmativo de bastante.",
+      "piece": "なかなか",
+      "jp": "なかなかない",
+      "speak": "なかなかおわらない",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-nakanaka-nai-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "なかなか終わらない。",
+      "kana": "なかなかおわらない。",
+      "es": "No hay manera de que termine.",
+      "group": "n4-cantidad",
+      "note": "なかなか con negativo es que no se consigue con facilidad. No es el なかなか afirmativo de bastante.",
+      "piece": "なかなか",
+      "jp": "なかなか終わらない。",
+      "speak": "なかなかおわらない",
+      "cloze": "＿終わらない。",
+      "clozeKana": "なかなかおわらない"
+    },
+    {
+      "id": "g-nakanaka-nai-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "バスがなかなか来ません。",
+      "kana": "バスがなかなかきません。",
+      "es": "El autobús no acaba de llegar.",
+      "group": "n4-cantidad",
+      "note": "なかなか con negativo es que no se consigue con facilidad. No es el なかなか afirmativo de bastante.",
+      "piece": "なかなか",
+      "jp": "バスがなかなか来ません。",
+      "speak": "バスがなかなかきません",
+      "cloze": "バスが＿来ません。",
+      "clozeKana": "バスがなかなかきません"
+    },
+    {
+      "id": "g-zutsu",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜ずつ",
+      "kana": "zutsu",
+      "es": "cada uno",
+      "group": "n4-cantidad",
+      "note": "ずつ reparte la misma cantidad. Va después de un número o de 少し.",
+      "piece": "ずつ",
+      "jp": "ずつ",
+      "speak": "ひとりにふたつずつあります",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-zutsu-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "一人に二つずつあります。",
+      "kana": "ひとりにふたつずつあります。",
+      "es": "Hay dos para cada uno.",
+      "group": "n4-cantidad",
+      "note": "ずつ reparte la misma cantidad. Va después de un número o de 少し.",
+      "piece": "ずつ",
+      "jp": "一人に二つずつあります。",
+      "speak": "ひとりにふたつずつあります",
+      "cloze": "一人に二つ＿あります。",
+      "clozeKana": "ひとりにふたつずつあります"
+    },
+    {
+      "id": "g-zutsu-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "毎日、少しずつ覚えます。",
+      "kana": "まいにち、すこしずつおぼえます。",
+      "es": "Cada día aprendo un poco.",
+      "group": "n4-cantidad",
+      "note": "ずつ reparte la misma cantidad. Va después de un número o de 少し.",
+      "piece": "ずつ",
+      "jp": "毎日、少しずつ覚えます。",
+      "speak": "まいにち、すこしずつおぼえます",
+      "cloze": "毎日、少し＿覚えます。",
+      "clozeKana": "まいにち、すこしずつおぼえます"
+    },
+    {
+      "id": "g-mo-emphasis",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜も",
+      "kana": "mo",
+      "es": "tanto como",
+      "group": "n4-cantidad",
+      "note": "も con una cantidad subraya que es mucha, o, con negativo, que no llega ni a esa.",
+      "piece": "も",
+      "jp": "も",
+      "speak": "さんじかんもまちました",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-mo-emphasis-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "三時間も待ちました。",
+      "kana": "さんじかんもまちました。",
+      "es": "Esperé nada menos que tres horas.",
+      "group": "n4-cantidad",
+      "note": "も con una cantidad subraya que es mucha, o, con negativo, que no llega ni a esa.",
+      "piece": "も",
+      "jp": "三時間も待ちました。",
+      "speak": "さんじかんもまちました",
+      "cloze": "三時間＿待ちました。",
+      "clozeKana": "さんじかんもまちました"
+    },
+    {
+      "id": "g-mo-emphasis-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "一つもありません。",
+      "kana": "ひとつもありません。",
+      "es": "No hay ni uno.",
+      "group": "n4-cantidad",
+      "note": "も con una cantidad subraya que es mucha, o, con negativo, que no llega ni a esa.",
+      "piece": "も",
+      "jp": "一つもありません。",
+      "speak": "ひとつもありません",
+      "cloze": "一つ＿ありません。",
+      "clozeKana": "ひとつもありません"
+    },
+    {
+      "id": "g-made-ni",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜までに",
+      "kana": "made ni",
+      "es": "para tal hora",
+      "group": "n4-tiempo",
+      "note": "までに es el límite: antes de ese momento, no durante todo el rato. まで es hasta.",
+      "piece": "までに",
+      "jp": "までに",
+      "speak": "ごじまでにくいてください",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-made-ni-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "五時までに来てください。",
+      "kana": "ごじまでにくいてください。",
+      "es": "Ven antes de las cinco.",
+      "group": "n4-tiempo",
+      "note": "までに es el límite: antes de ese momento, no durante todo el rato. まで es hasta.",
+      "piece": "までに",
+      "jp": "五時までに来てください。",
+      "speak": "ごじまでにくいてください",
+      "cloze": "五時＿来てください。",
+      "clozeKana": "ごじまでにくいてください"
+    },
+    {
+      "id": "g-made-ni-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "金曜日までに出します。",
+      "kana": "きんようびまでにだします。",
+      "es": "Lo entrego para el viernes.",
+      "group": "n4-tiempo",
+      "note": "までに es el límite: antes de ese momento, no durante todo el rato. まで es hasta.",
+      "piece": "までに",
+      "jp": "金曜日までに出します。",
+      "speak": "きんようびまでにだします",
+      "cloze": "金曜日＿出します。",
+      "clozeKana": "きんようびまでにだします"
+    },
+    {
+      "id": "g-koto-ga-aru",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜ことがある",
+      "kana": "koto ga aru",
+      "es": "a veces",
+      "group": "n4-tiempo",
+      "note": "El plano más ことがある es que a veces pasa. No es たことがある, que es la experiencia de haberlo hecho.",
+      "piece": "ことがある",
+      "jp": "ことがある",
+      "speak": "よる、おそくなることがあります",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-koto-ga-aru-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "夜、遅くなることがあります。",
+      "kana": "よる、おそくなることがあります。",
+      "es": "A veces se me hace tarde por la noche.",
+      "group": "n4-tiempo",
+      "note": "El plano más ことがある es que a veces pasa. No es たことがある, que es la experiencia de haberlo hecho.",
+      "piece": "ことがあ",
+      "jp": "夜、遅くなることがあります。",
+      "speak": "よる、おそくなることがあります",
+      "cloze": "夜、遅くなる＿ります。",
+      "clozeKana": "よる、おそくなることがあります"
+    },
+    {
+      "id": "g-koto-ga-aru-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "ここで食べることもあります。",
+      "kana": "ここでたべることもあります。",
+      "es": "A veces también como aquí.",
+      "group": "n4-tiempo",
+      "note": "El plano más ことがある es que a veces pasa. No es たことがある, que es la experiencia de haberlo hecho.",
+      "piece": "こと",
+      "jp": "ここで食べることもあります。",
+      "speak": "ここでたべることもあります",
+      "cloze": "ここで食べる＿もあります。",
+      "clozeKana": "ここでたべることもあります"
+    },
+    {
+      "id": "g-nai-to-ikenai-nakucha",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜ないといけない",
+      "kana": "nai to ikenai",
+      "es": "hay que",
+      "group": "n4-obligación",
+      "note": "ないといけない es la obligación de conversación. なくちゃ y なきゃ son más breves. El sentido es hay que, no la suma de las piezas.",
+      "piece": "ないといけない",
+      "jp": "ないといけない",
+      "speak": "もうかえらないといけません",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-nai-to-ikenai-nakucha-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "もう帰らないといけません。",
+      "kana": "もうかえらないといけません。",
+      "es": "Ya me tengo que ir.",
+      "group": "n4-obligación",
+      "note": "ないといけない es la obligación de conversación. なくちゃ y なきゃ son más breves. El sentido es hay que, no la suma de las piezas.",
+      "piece": "ないといけ",
+      "jp": "もう帰らないといけません。",
+      "speak": "もうかえらないといけません",
+      "cloze": "もう帰ら＿ません。",
+      "clozeKana": "もうかえらないといけません"
+    },
+    {
+      "id": "g-nai-to-ikenai-nakucha-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "今日中に出さなくちゃ。",
+      "kana": "きょうじゅうにださなくちゃ。",
+      "es": "Tengo que entregarlo hoy.",
+      "group": "n4-obligación",
+      "note": "ないといけない es la obligación de conversación. なくちゃ y なきゃ son más breves. El sentido es hay que, no la suma de las piezas.",
+      "piece": "ないといけない",
+      "jp": "今日中に出さなくちゃ。",
+      "speak": "きょうじゅうにださなくちゃ",
+      "cloze": "",
+      "clozeKana": "きょうじゅうにださなくちゃ"
+    },
+    {
+      "id": "g-sasete-kudasai",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜させてください",
+      "kana": "sasete kudasai",
+      "es": "déjeme hacerlo",
+      "group": "n4-petición",
+      "note": "La causativa más てください pide permiso para hacer algo uno mismo.",
+      "piece": "させてください",
+      "jp": "させてください",
+      "speak": "わたしにやらせてください",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-sasete-kudasai-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "私にやらせてください。",
+      "kana": "わたしにやらせてください。",
+      "es": "Déjeme hacerlo a mí.",
+      "group": "n4-petición",
+      "note": "La causativa más てください pide permiso para hacer algo uno mismo.",
+      "piece": "させてください",
+      "jp": "私にやらせてください。",
+      "speak": "わたしにやらせてください",
+      "cloze": "",
+      "clozeKana": "わたしにやらせてください"
+    },
+    {
+      "id": "g-sasete-kudasai-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "ちょっと考えさせてください。",
+      "kana": "かんがえさせてください。",
+      "es": "Déjeme pensarlo un momento.",
+      "group": "n4-petición",
+      "note": "La causativa más てください pide permiso para hacer algo uno mismo.",
+      "piece": "させてください",
+      "jp": "ちょっと考えさせてください。",
+      "speak": "かんがえさせてください",
+      "cloze": "ちょっと考え＿。",
+      "clozeKana": "かんがえさせてください"
+    },
+    {
+      "id": "g-sonkeigo",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "尊敬語",
+      "kana": "sonkeigo",
+      "es": "habla de respeto",
+      "group": "n4-cortesía",
+      "note": "El respeto eleva la acción de la otra persona. いる, 行く y 来る pasan a いらっしゃる. 言う es おっしゃる. 食べる es 召し上がる. する es なさる.",
+      "piece": "尊敬",
+      "jp": "尊敬語",
+      "speak": "せんせいはもういらっしゃいました",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-sonkeigo-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "先生はもういらっしゃいました。",
+      "kana": "せんせいはもういらっしゃいました。",
+      "es": "El profesor ya llegó.",
+      "group": "n4-cortesía",
+      "note": "El respeto eleva la acción de la otra persona. いる, 行く y 来る pasan a いらっしゃる. 言う es おっしゃる. 食べる es 召し上がる. する es なさる.",
+      "piece": "尊敬",
+      "jp": "先生はもういらっしゃいました。",
+      "speak": "せんせいはもういらっしゃいました",
+      "cloze": "",
+      "clozeKana": "せんせいはもういらっしゃいました"
+    },
+    {
+      "id": "g-sonkeigo-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "社長がそうおっしゃいました。",
+      "kana": "しゃちょうがそうおっしゃいました。",
+      "es": "El presidente dijo eso.",
+      "group": "n4-cortesía",
+      "note": "El respeto eleva la acción de la otra persona. いる, 行く y 来る pasan a いらっしゃる. 言う es おっしゃる. 食べる es 召し上がる. する es なさる.",
+      "piece": "尊敬",
+      "jp": "社長がそうおっしゃいました。",
+      "speak": "しゃちょうがそうおっしゃいました",
+      "cloze": "",
+      "clozeKana": "しゃちょうがそうおっしゃいました"
+    },
+    {
+      "id": "g-kenjougo",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "謙譲語",
+      "kana": "kenjougo",
+      "es": "habla humilde",
+      "group": "n4-cortesía",
+      "note": "Lo humilde baja la acción de quien habla, a menudo porque afecta a alguien respetado. 行く es 参る. 言う es 申す. 見る es 拝見する. する es いたす.",
+      "piece": "謙譲",
+      "jp": "謙譲語",
+      "speak": "わたしがまいります",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-kenjougo-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "私が参ります。",
+      "kana": "わたしがまいります。",
+      "es": "Iré yo.",
+      "group": "n4-cortesía",
+      "note": "Lo humilde baja la acción de quien habla, a menudo porque afecta a alguien respetado. 行く es 参る. 言う es 申す. 見る es 拝見する. する es いたす.",
+      "piece": "謙譲",
+      "jp": "私が参ります。",
+      "speak": "わたしがまいります",
+      "cloze": "",
+      "clozeKana": "わたしがまいります"
+    },
+    {
+      "id": "g-kenjougo-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "資料を拝見しました。",
+      "kana": "しりょうをはいけんしました。",
+      "es": "He visto el documento, con humildad.",
+      "group": "n4-cortesía",
+      "note": "Lo humilde baja la acción de quien habla, a menudo porque afecta a alguien respetado. 行く es 参る. 言う es 申す. 見る es 拝見する. する es いたす.",
+      "piece": "謙譲",
+      "jp": "資料を拝見しました。",
+      "speak": "しりょうをはいけんしました",
+      "cloze": "",
+      "clozeKana": "しりょうをはいけんしました"
+    },
+    {
+      "id": "g-o-ni-naru",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "お〜になる",
+      "kana": "o ni naru",
+      "es": "respeto regular",
+      "group": "n4-cortesía",
+      "note": "お más el tronco ます más になる eleva la acción de otra persona cuando no hay un verbo especial.",
+      "piece": "になり",
+      "jp": "おになる",
+      "speak": "せんせいはもうおかえりになりました",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-o-ni-naru-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "先生はもうお帰りになりました。",
+      "kana": "せんせいはもうおかえりになりました。",
+      "es": "El profesor ya se fue.",
+      "group": "n4-cortesía",
+      "note": "お más el tronco ます más になる eleva la acción de otra persona cuando no hay un verbo especial.",
+      "piece": "になり",
+      "jp": "先生はもうお帰りになりました。",
+      "speak": "せんせいはもうおかえりになりました",
+      "cloze": "先生はもうお帰り＿ました。",
+      "clozeKana": "せんせいはもうおかえりになりました"
+    },
+    {
+      "id": "g-o-ni-naru-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "社長がお読みになりました。",
+      "kana": "しゃちょうがおよみになりました。",
+      "es": "El presidente lo leyó.",
+      "group": "n4-cortesía",
+      "note": "お más el tronco ます más になる eleva la acción de otra persona cuando no hay un verbo especial.",
+      "piece": "になり",
+      "jp": "社長がお読みになりました。",
+      "speak": "しゃちょうがおよみになりました",
+      "cloze": "社長がお読み＿ました。",
+      "clozeKana": "しゃちょうがおよみになりました"
+    },
+    {
+      "id": "g-o-suru",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "お〜する",
+      "kana": "o suru",
+      "es": "humilde regular",
+      "group": "n4-cortesía",
+      "note": "お más el tronco más する baja la acción de quien habla hecha para otra persona.",
+      "piece": "お持ち",
+      "jp": "おする",
+      "speak": "にもつをおもちします",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-o-suru-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "荷物をお持ちします。",
+      "kana": "にもつをおもちします。",
+      "es": "Yo le llevo el equipaje.",
+      "group": "n4-cortesía",
+      "note": "お más el tronco más する baja la acción de quien habla hecha para otra persona.",
+      "piece": "お持ち",
+      "jp": "荷物をお持ちします。",
+      "speak": "にもつをおもちします",
+      "cloze": "荷物を＿します。",
+      "clozeKana": "にもつをおもちします"
+    },
+    {
+      "id": "g-o-suru-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "明日お電話します。",
+      "kana": "あしたおでんわします。",
+      "es": "Mañana le llamo.",
+      "group": "n4-cortesía",
+      "note": "お más el tronco más する baja la acción de quien habla hecha para otra persona.",
+      "piece": "お持ち",
+      "jp": "明日お電話します。",
+      "speak": "あしたおでんわします",
+      "cloze": "",
+      "clozeKana": "あしたおでんわします"
+    },
+    {
+      "id": "g-de-gozaimasu",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜でございます",
+      "kana": "de gozaimasu",
+      "es": "es, muy cortés",
+      "group": "n4-cortesía",
+      "note": "でございます es el です de mostrador, hotel o presentación formal.",
+      "piece": "でございます",
+      "jp": "でございます",
+      "speak": "こちらがたなかでございます",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-de-gozaimasu-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "こちらが田中でございます。",
+      "kana": "こちらがたなかでございます。",
+      "es": "Le presento a Tanaka.",
+      "group": "n4-cortesía",
+      "note": "でございます es el です de mostrador, hotel o presentación formal.",
+      "piece": "でございます",
+      "jp": "こちらが田中でございます。",
+      "speak": "こちらがたなかでございます",
+      "cloze": "こちらが田中＿。",
+      "clozeKana": "こちらがたなかでございます"
+    },
+    {
+      "id": "g-de-gozaimasu-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "部屋はこちらでございます。",
+      "kana": "へやはこちらでございます。",
+      "es": "La habitación es por aquí.",
+      "group": "n4-cortesía",
+      "note": "でございます es el です de mostrador, hotel o presentación formal.",
+      "piece": "でございます",
+      "jp": "部屋はこちらでございます。",
+      "speak": "へやはこちらでございます",
+      "cloze": "部屋はこちら＿。",
+      "clozeKana": "へやはこちらでございます"
+    },
+    {
+      "id": "g-te-mo-kamawanai",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜ても構わない",
+      "kana": "te mo kamawanai",
+      "es": "no importa si",
+      "group": "n4-permiso",
+      "note": "ても構わない da permiso, o dice que algo no molesta. でもいい es más coloquial.",
+      "piece": "ても構わない",
+      "jp": "ても構わない",
+      "speak": "あしたでもかまいません",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-te-mo-kamawanai-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "明日でも構いません。",
+      "kana": "あしたでもかまいません。",
+      "es": "Mañana también me vale.",
+      "group": "n4-permiso",
+      "note": "ても構わない da permiso, o dice que algo no molesta. でもいい es más coloquial.",
+      "piece": "ても構わない",
+      "jp": "明日でも構いません。",
+      "speak": "あしたでもかまいません",
+      "cloze": "",
+      "clozeKana": "あしたでもかまいません"
+    },
+    {
+      "id": "g-te-mo-kamawanai-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "ここで食べても構わないですか。",
+      "kana": "ここでたべてもかまわないですか。",
+      "es": "¿No importa si como aquí?",
+      "group": "n4-permiso",
+      "note": "ても構わない da permiso, o dice que algo no molesta. でもいい es más coloquial.",
+      "piece": "ても構わない",
+      "jp": "ここで食べても構わないですか。",
+      "speak": "ここでたべてもかまわないですか",
+      "cloze": "ここで食べ＿ですか。",
+      "clozeKana": "ここでたべてもかまわないですか"
+    },
+    {
+      "id": "g-no-koto-nominalizer",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜の / 〜こと",
+      "kana": "no",
+      "es": "el hecho de",
+      "group": "n4-otros",
+      "note": "の y こと convierten un verbo en nombre. こと es más general. の se usa con lo que se ve o se percibe.",
+      "piece": "こと",
+      "jp": "の / こと",
+      "speak": "およぐことがすきです",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-no-koto-nominalizer-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "泳ぐことが好きです。",
+      "kana": "およぐことがすきです。",
+      "es": "Me gusta nadar.",
+      "group": "n4-otros",
+      "note": "の y こと convierten un verbo en nombre. こと es más general. の se usa con lo que se ve o se percibe.",
+      "piece": "こと",
+      "jp": "泳ぐことが好きです。",
+      "speak": "およぐことがすきです",
+      "cloze": "泳ぐ＿が好きです。",
+      "clozeKana": "およぐことがすきです"
+    },
+    {
+      "id": "g-no-koto-nominalizer-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "鳥が飛ぶのが見えました。",
+      "kana": "とりがとぶのがみえました。",
+      "es": "Vi un pájaro volar.",
+      "group": "n4-otros",
+      "note": "の y こと convierten un verbo en nombre. こと es más general. の se usa con lo que se ve o se percibe.",
+      "piece": "こと",
+      "jp": "鳥が飛ぶのが見えました。",
+      "speak": "とりがとぶのがみえました",
+      "cloze": "",
+      "clozeKana": "とりがとぶのがみえました"
+    },
+    {
+      "id": "g-ba-yokatta",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜ばよかった",
+      "kana": "ba yokatta",
+      "es": "ojalá hubiera",
+      "group": "n4-consejo",
+      "note": "ばよかった es el arrepentimiento: habría sido mejor hacer eso.",
+      "piece": "ばよかった",
+      "jp": "ばよかった",
+      "speak": "もっとはやくくればよかった",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-ba-yokatta-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "もっと早く来ればよかった。",
+      "kana": "もっとはやくくればよかった。",
+      "es": "Ojalá hubiera venido antes.",
+      "group": "n4-consejo",
+      "note": "ばよかった es el arrepentimiento: habría sido mejor hacer eso.",
+      "piece": "ばよかった",
+      "jp": "もっと早く来ればよかった。",
+      "speak": "もっとはやくくればよかった",
+      "cloze": "もっと早く来れ＿。",
+      "clozeKana": "もっとはやくくればよかった"
+    },
+    {
+      "id": "g-ba-yokatta-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "言えばよかったです。",
+      "kana": "いえばよかったです。",
+      "es": "Debería haberlo dicho.",
+      "group": "n4-consejo",
+      "note": "ばよかった es el arrepentimiento: habría sido mejor hacer eso.",
+      "piece": "ばよかった",
+      "jp": "言えばよかったです。",
+      "speak": "いえばよかったです",
+      "cloze": "言え＿です。",
+      "clozeKana": "いえばよかったです"
+    },
+    {
+      "id": "g-tara-dou",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜たらどう",
+      "kana": "tara dou",
+      "es": "¿y si?",
+      "group": "n4-consejo",
+      "note": "たらどう propone una acción al otro. たらどうですか es la forma cuidada.",
+      "piece": "たらどう",
+      "jp": "たらどう",
+      "speak": "せんせいにきいたらどうですか",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-tara-dou-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "先生に聞いたらどうですか。",
+      "kana": "せんせいにきいたらどうですか。",
+      "es": "¿Y si se lo preguntas al profesor?",
+      "group": "n4-consejo",
+      "note": "たらどう propone una acción al otro. たらどうですか es la forma cuidada.",
+      "piece": "たらどう",
+      "jp": "先生に聞いたらどうですか。",
+      "speak": "せんせいにきいたらどうですか",
+      "cloze": "先生に聞い＿ですか。",
+      "clozeKana": "せんせいにきいたらどうですか"
+    },
+    {
+      "id": "g-tara-dou-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "少し休んだらどう。",
+      "kana": "すこしやすんだらどう。",
+      "es": "¿Y si descansas un poco?",
+      "group": "n4-consejo",
+      "note": "たらどう propone una acción al otro. たらどうですか es la forma cuidada.",
+      "piece": "たらどう",
+      "jp": "少し休んだらどう。",
+      "speak": "すこしやすんだらどう",
+      "cloze": "",
+      "clozeKana": "すこしやすんだらどう"
+    },
+    {
+      "id": "g-hou-ga-ii",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜ほうがいい",
+      "kana": "hou ga ii",
+      "es": "más vale",
+      "group": "n4-consejo",
+      "note": "たほうがいい aconseja hacer algo. ないほうがいい aconseja no hacerlo.",
+      "piece": "ほうがいい",
+      "jp": "ほうがいい",
+      "speak": "はやくねたほうがいいです",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-hou-ga-ii-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "早く寝たほうがいいです。",
+      "kana": "はやくねたほうがいいです。",
+      "es": "Más vale acostarse pronto.",
+      "group": "n4-consejo",
+      "note": "たほうがいい aconseja hacer algo. ないほうがいい aconseja no hacerlo.",
+      "piece": "ほうがいい",
+      "jp": "早く寝たほうがいいです。",
+      "speak": "はやくねたほうがいいです",
+      "cloze": "早く寝た＿です。",
+      "clozeKana": "はやくねたほうがいいです"
+    },
+    {
+      "id": "g-hou-ga-ii-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "夜、一人で歩かないほうがいい。",
+      "kana": "よる、ひとりであるかないほうがいい。",
+      "es": "Más vale no caminar solo de noche.",
+      "group": "n4-consejo",
+      "note": "たほうがいい aconseja hacer algo. ないほうがいい aconseja no hacerlo.",
+      "piece": "ほうがいい",
+      "jp": "夜、一人で歩かないほうがいい。",
+      "speak": "よる、ひとりであるかないほうがいい",
+      "cloze": "夜、一人で歩かない＿。",
+      "clozeKana": "よる、ひとりであるかないほうがいい"
+    },
+    {
+      "id": "g-toka-toka",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜とか〜とか",
+      "kana": "toka",
+      "es": "cosas como",
+      "group": "n4-otros",
+      "note": "とか enumera ejemplos sin cerrar la lista. Es de conversación.",
+      "piece": "とか",
+      "jp": "とかとか",
+      "speak": "すしとか、てんぷらとか、たべたいです",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-toka-toka-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "寿司とか、てんぷらとか、食べたいです。",
+      "kana": "すしとか、てんぷらとか、たべたいです。",
+      "es": "Quiero comer sushi, tempura y cosas así.",
+      "group": "n4-otros",
+      "note": "とか enumera ejemplos sin cerrar la lista. Es de conversación.",
+      "piece": "とか",
+      "jp": "寿司とか、てんぷらとか、食べたいです。",
+      "speak": "すしとか、てんぷらとか、たべたいです",
+      "cloze": "寿司＿、てんぷらとか、食べたいです。",
+      "clozeKana": "すしとか、てんぷらとか、たべたいです"
+    },
+    {
+      "id": "g-toka-toka-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "映画とかを見ます。",
+      "kana": "えいがとかをみます。",
+      "es": "Veo películas y eso.",
+      "group": "n4-otros",
+      "note": "とか enumera ejemplos sin cerrar la lista. Es de conversación.",
+      "piece": "とか",
+      "jp": "映画とかを見ます。",
+      "speak": "えいがとかをみます",
+      "cloze": "映画＿を見ます。",
+      "clozeKana": "えいがとかをみます"
+    },
+    {
+      "id": "g-nado",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜など",
+      "kana": "nado",
+      "es": "y demás",
+      "group": "n4-otros",
+      "note": "など cierra una lista incompleta. Es más neutro que とか.",
+      "piece": "など",
+      "jp": "など",
+      "speak": "りんごやみかんなどをかいました",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-nado-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "りんごやみかんなどを買いました。",
+      "kana": "りんごやみかんなどをかいました。",
+      "es": "Compré manzanas, mandarinas y más.",
+      "group": "n4-otros",
+      "note": "など cierra una lista incompleta. Es más neutro que とか.",
+      "piece": "など",
+      "jp": "りんごやみかんなどを買いました。",
+      "speak": "りんごやみかんなどをかいました",
+      "cloze": "りんごやみかん＿を買いました。",
+      "clozeKana": "りんごやみかんなどをかいました"
+    },
+    {
+      "id": "g-nado-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "これなどはどうですか。",
+      "kana": "これなどはどうですか。",
+      "es": "¿Qué le parece algo como esto?",
+      "group": "n4-otros",
+      "note": "など cierra una lista incompleta. Es más neutro que とか.",
+      "piece": "など",
+      "jp": "これなどはどうですか。",
+      "speak": "これなどはどうですか",
+      "cloze": "これ＿はどうですか。",
+      "clozeKana": "これなどはどうですか"
+    },
+    {
+      "id": "g-de-mo-suggestion",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜でも",
+      "kana": "de mo",
+      "es": "o algo así",
+      "group": "n4-otros",
+      "note": "でも después de un nombre suaviza una propuesta: té o lo que sea. No es el でも de aunque.",
+      "piece": "でも",
+      "jp": "でも",
+      "speak": "おちゃでものみませんか",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-de-mo-suggestion-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "お茶でも飲みませんか。",
+      "kana": "おちゃでものみませんか。",
+      "es": "¿Tomamos un té o algo?",
+      "group": "n4-otros",
+      "note": "でも después de un nombre suaviza una propuesta: té o lo que sea. No es el でも de aunque.",
+      "piece": "でも",
+      "jp": "お茶でも飲みませんか。",
+      "speak": "おちゃでものみませんか",
+      "cloze": "お茶＿飲みませんか。",
+      "clozeKana": "おちゃでものみませんか"
+    },
+    {
+      "id": "g-de-mo-suggestion-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "映画でも見よう。",
+      "kana": "えいがでもみよう。",
+      "es": "Veamos una película o algo.",
+      "group": "n4-otros",
+      "note": "でも después de un nombre suaviza una propuesta: té o lo que sea. No es el でも de aunque.",
+      "piece": "でも",
+      "jp": "映画でも見よう。",
+      "speak": "えいがでもみよう",
+      "cloze": "映画＿見よう。",
+      "clozeKana": "えいがでもみよう"
+    },
+    {
+      "id": "g-sa",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜さ",
+      "kana": "sa",
+      "es": "el grado de",
+      "group": "n4-otros",
+      "note": "さ convierte un adjetivo en nombre de grado: 高さ, 便利さ. Se quita la い del adjetivo い.",
+      "piece": "さ",
+      "jp": "さ",
+      "speak": "このやまのたかさをしっていますか",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-sa-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "この山の高さを知っていますか。",
+      "kana": "このやまのたかさをしっていますか。",
+      "es": "¿Sabes la altura de esta montaña?",
+      "group": "n4-otros",
+      "note": "さ convierte un adjetivo en nombre de grado: 高さ, 便利さ. Se quita la い del adjetivo い.",
+      "piece": "さ",
+      "jp": "この山の高さを知っていますか。",
+      "speak": "このやまのたかさをしっていますか",
+      "cloze": "この山の高＿を知っていますか。",
+      "clozeKana": "このやまのたかさをしっていますか"
+    },
+    {
+      "id": "g-sa-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "便利さが一番です。",
+      "kana": "べんりさがいちばんです。",
+      "es": "Lo que más importa es lo práctico.",
+      "group": "n4-otros",
+      "note": "さ convierte un adjetivo en nombre de grado: 高さ, 便利さ. Se quita la い del adjetivo い.",
+      "piece": "さ",
+      "jp": "便利さが一番です。",
+      "speak": "べんりさがいちばんです",
+      "cloze": "便利＿が一番です。",
+      "clozeKana": "べんりさがいちばんです"
+    },
+    {
+      "id": "g-me",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜目",
+      "kana": "me",
+      "es": "el número de orden",
+      "group": "n4-cantidad",
+      "note": "目 después de un contador hace el ordinal: 一つ目, 二番目.",
+      "piece": "目",
+      "jp": "目",
+      "speak": "みっつめのしんごうをみぎへ",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-me-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "三つ目の信号を右へ。",
+      "kana": "みっつめのしんごうをみぎへ。",
+      "es": "En el tercer semáforo, a la derecha.",
+      "group": "n4-cantidad",
+      "note": "目 después de un contador hace el ordinal: 一つ目, 二番目.",
+      "piece": "目",
+      "jp": "三つ目の信号を右へ。",
+      "speak": "みっつめのしんごうをみぎへ",
+      "cloze": "三つ＿の信号を右へ。",
+      "clozeKana": "みっつめのしんごうをみぎへ"
+    },
+    {
+      "id": "g-me-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "二番目の人はだれですか。",
+      "kana": "にばんめのひとはだれですか。",
+      "es": "¿Quién es la segunda persona?",
+      "group": "n4-cantidad",
+      "note": "目 después de un contador hace el ordinal: 一つ目, 二番目.",
+      "piece": "目",
+      "jp": "二番目の人はだれですか。",
+      "speak": "にばんめのひとはだれですか",
+      "cloze": "二番＿の人はだれですか。",
+      "clozeKana": "にばんめのひとはだれですか"
+    },
+    {
+      "id": "g-oki-ni",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜おきに",
+      "kana": "oki ni",
+      "es": "cada tanto",
+      "group": "n4-tiempo",
+      "note": "おきに es el intervalo que se salta: 一日おき es cada dos días, no cada día. ごとに es cada uno, sin saltar.",
+      "piece": "おきに",
+      "jp": "おきに",
+      "speak": "ふつかおきにくすりをのみます",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-oki-ni-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "二日おきに薬を飲みます。",
+      "kana": "ふつかおきにくすりをのみます。",
+      "es": "Tomo la medicina dejando un día.",
+      "group": "n4-tiempo",
+      "note": "おきに es el intervalo que se salta: 一日おき es cada dos días, no cada día. ごとに es cada uno, sin saltar.",
+      "piece": "おきに",
+      "jp": "二日おきに薬を飲みます。",
+      "speak": "ふつかおきにくすりをのみます",
+      "cloze": "二日＿薬を飲みます。",
+      "clozeKana": "ふつかおきにくすりをのみます"
+    },
+    {
+      "id": "g-oki-ni-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "一駅おきに止まります。",
+      "kana": "いちえきおきにとまります。",
+      "es": "Para en una estación sí y en otra no.",
+      "group": "n4-tiempo",
+      "note": "おきに es el intervalo que se salta: 一日おき es cada dos días, no cada día. ごとに es cada uno, sin saltar.",
+      "piece": "おきに",
+      "jp": "一駅おきに止まります。",
+      "speak": "いちえきおきにとまります",
+      "cloze": "一駅＿止まります。",
+      "clozeKana": "いちえきおきにとまります"
+    },
+    {
+      "id": "g-ku-suru-ni-suru",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜くする",
+      "kana": "ku suru",
+      "es": "volverlo así",
+      "group": "n4-cambio",
+      "note": "くする cambia un adjetivo い. にする cambia un adjetivo な o un nombre. Es un cambio que alguien provoca.",
+      "piece": "くする",
+      "jp": "くする",
+      "speak": "へやをあたたかくします",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-ku-suru-ni-suru-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "部屋を暖かくします。",
+      "kana": "へやをあたたかくします。",
+      "es": "Caliento la habitación.",
+      "group": "n4-cambio",
+      "note": "くする cambia un adjetivo い. にする cambia un adjetivo な o un nombre. Es un cambio que alguien provoca.",
+      "piece": "くする",
+      "jp": "部屋を暖かくします。",
+      "speak": "へやをあたたかくします",
+      "cloze": "",
+      "clozeKana": "へやをあたたかくします"
+    },
+    {
+      "id": "g-ku-suru-ni-suru-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "音を小さくしてください。",
+      "kana": "おとをちいさくしてください。",
+      "es": "Baje el volumen.",
+      "group": "n4-cambio",
+      "note": "くする cambia un adjetivo い. にする cambia un adjetivo な o un nombre. Es un cambio que alguien provoca.",
+      "piece": "くする",
+      "jp": "音を小さくしてください。",
+      "speak": "おとをちいさくしてください",
+      "cloze": "",
+      "clozeKana": "おとをちいさくしてください"
+    },
+    {
+      "id": "g-ga-suru",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜がする",
+      "kana": "ga suru",
+      "es": "se percibe",
+      "group": "n4-otros",
+      "note": "がする se usa con olor, sabor, sonido o una sensación. No es する, hacer, en general.",
+      "piece": "がする",
+      "jp": "がする",
+      "speak": "いいにおいがします",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-ga-suru-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "いいにおいがします。",
+      "kana": "いいにおいがします。",
+      "es": "Huele bien.",
+      "group": "n4-otros",
+      "note": "がする se usa con olor, sabor, sonido o una sensación. No es する, hacer, en general.",
+      "piece": "がする",
+      "jp": "いいにおいがします。",
+      "speak": "いいにおいがします",
+      "cloze": "",
+      "clozeKana": "いいにおいがします"
+    },
+    {
+      "id": "g-ga-suru-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "変な音がしました。",
+      "kana": "へんなおとがしました。",
+      "es": "Se oyó un ruido raro.",
+      "group": "n4-otros",
+      "note": "がする se usa con olor, sabor, sonido o una sensación. No es する, hacer, en general.",
+      "piece": "がする",
+      "jp": "変な音がしました。",
+      "speak": "へんなおとがしました",
+      "cloze": "",
+      "clozeKana": "へんなおとがしました"
+    },
+    {
+      "id": "g-kana-kashira",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜かな",
+      "kana": "kana",
+      "es": "me pregunto",
+      "group": "n4-pregunta",
+      "note": "かな es una pregunta hacia uno mismo. かしら es más de habla femenina, y hoy se oye menos.",
+      "piece": "かな",
+      "jp": "かな",
+      "speak": "あした、はれるかな",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-kana-kashira-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "明日、晴れるかな。",
+      "kana": "あした、はれるかな。",
+      "es": "¿Hará bueno mañana?",
+      "group": "n4-pregunta",
+      "note": "かな es una pregunta hacia uno mismo. かしら es más de habla femenina, y hoy se oye menos.",
+      "piece": "かな",
+      "jp": "明日、晴れるかな。",
+      "speak": "あした、はれるかな",
+      "cloze": "明日、晴れる＿。",
+      "clozeKana": "あした、はれるかな"
+    },
+    {
+      "id": "g-kana-kashira-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "これでいいかしら。",
+      "kana": "これでいいかしら。",
+      "es": "¿Estará bien así?",
+      "group": "n4-pregunta",
+      "note": "かな es una pregunta hacia uno mismo. かしら es más de habla femenina, y hoy se oye menos.",
+      "piece": "かな",
+      "jp": "これでいいかしら。",
+      "speak": "これでいいかしら",
+      "cloze": "",
+      "clozeKana": "これでいいかしら"
+    },
+    {
+      "id": "g-te-kuremasen-ka-te-itadakemasen-ka",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜てくれませんか",
+      "kana": "te kuremasen ka",
+      "es": "¿podría?",
+      "group": "n4-petición",
+      "note": "てくれませんか pide un favor. ていただけませんか es más cortés. Las dos esperan un sí.",
+      "piece": "てくれませんか",
+      "jp": "てくれませんか",
+      "speak": "ちょっとまってくれませんか",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-te-kuremasen-ka-te-itadakemasen-ka-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "ちょっと待ってくれませんか。",
+      "kana": "ちょっとまってくれませんか。",
+      "es": "¿Puede esperar un momento?",
+      "group": "n4-petición",
+      "note": "てくれませんか pide un favor. ていただけませんか es más cortés. Las dos esperan un sí.",
+      "piece": "てくれませんか",
+      "jp": "ちょっと待ってくれませんか。",
+      "speak": "ちょっとまってくれませんか",
+      "cloze": "ちょっと待っ＿。",
+      "clozeKana": "ちょっとまってくれませんか"
+    },
+    {
+      "id": "g-te-kuremasen-ka-te-itadakemasen-ka-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "もう一度言っていただけませんか。",
+      "kana": "もういちどいっていただけませんか。",
+      "es": "¿Podría repetirlo?",
+      "group": "n4-petición",
+      "note": "てくれませんか pide un favor. ていただけませんか es más cortés. Las dos esperan un sí.",
+      "piece": "てくれませんか",
+      "jp": "もう一度言っていただけませんか。",
+      "speak": "もういちどいっていただけませんか",
+      "cloze": "",
+      "clozeKana": "もういちどいっていただけませんか"
+    },
+    {
+      "id": "g-naide",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "〜ないで",
+      "kana": "naide",
+      "es": "sin hacer",
+      "group": "n4-otros",
+      "note": "ないで es sin hacer lo anterior, y luego otra acción. なくて une causas. No son iguales.",
+      "piece": "ないで",
+      "jp": "ないで",
+      "speak": "あさごはんをたべないで、でかけました",
+      "cloze": "",
+      "clozeKana": ""
+    },
+    {
+      "id": "g-naide-1",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "朝ごはんを食べないで、出かけました。",
+      "kana": "あさごはんをたべないで、でかけました。",
+      "es": "Salí sin desayunar.",
+      "group": "n4-otros",
+      "note": "ないで es sin hacer lo anterior, y luego otra acción. なくて une causas. No son iguales.",
+      "piece": "ないで",
+      "jp": "朝ごはんを食べないで、出かけました。",
+      "speak": "あさごはんをたべないで、でかけました",
+      "cloze": "朝ごはんを食べ＿、出かけました。",
+      "clozeKana": "あさごはんをたべないで、でかけました"
+    },
+    {
+      "id": "g-naide-2",
+      "kind": "grammar",
+      "level": "n4",
+      "pattern": "見ないでください。",
+      "kana": "みないでください。",
+      "es": "No mire, por favor.",
+      "group": "n4-otros",
+      "note": "ないで es sin hacer lo anterior, y luego otra acción. なくて une causas. No son iguales.",
+      "piece": "ないで",
+      "jp": "見ないでください。",
+      "speak": "みないでください",
+      "cloze": "見＿ください。",
+      "clozeKana": "みないでください"
+    }
+  ],
+  "CONJ_VERBS": [
+    {
+      "id": "w-c3c3ac9f48",
+      "label": "あいさつする",
+      "dict": "あいさつする",
+      "dictKana": "あいさつする",
+      "stem": "あいさつし",
+      "stemKana": "あいさつし",
+      "te": "あいさつして",
+      "teKana": "あいさつして",
+      "nai": "あいさつしない",
+      "naiKana": "あいさつしない",
+      "ta": "あいさつした",
+      "taKana": "あいさつした",
+      "tai": "あいさつしたい",
+      "taiKana": "あいさつしたい",
+      "potential": "あいさつできる",
+      "potentialKana": "あいさつできる",
+      "volitional": "あいさつしよう",
+      "volitionalKana": "あいさつしよう",
+      "tara": "あいさつしたら",
+      "taraKana": "あいさつしたら",
+      "ba": "あいさつすれば",
+      "baKana": "あいさつすれば",
+      "passive": "あいさつされる",
+      "passiveKana": "あいさつされる",
+      "causative": "あいさつさせる",
+      "causativeKana": "あいさつさせる",
+      "gloss": "saludar",
+      "polite": "saludar, cortés",
+      "negative": "no saludar",
+      "past": "saludar, pasado cortés",
+      "plainNeg": "no saludar, plano",
+      "plainPast": "saludar, pasado plano",
+      "want": "quiero saludar",
+      "teNote": "する es irregular: します, できる, しよう.",
+      "kind": "suru"
+    },
+    {
+      "id": "w-54e1f7a772",
+      "label": "合う",
+      "dict": "合う",
+      "dictKana": "あう",
+      "stem": "合い",
+      "stemKana": "あい",
+      "te": "合って",
+      "teKana": "あって",
+      "nai": "合わない",
+      "naiKana": "あわない",
+      "ta": "合った",
+      "taKana": "あった",
+      "tai": "合いたい",
+      "taiKana": "あいたい",
+      "potential": "合える",
+      "potentialKana": "あえる",
+      "volitional": "合おう",
+      "volitionalKana": "あおう",
+      "tara": "合ったら",
+      "taraKana": "あったら",
+      "ba": "合えば",
+      "baKana": "あえば",
+      "passive": "合われる",
+      "passiveKana": "あわれる",
+      "causative": "合わせる",
+      "causativeKana": "あわせる",
+      "gloss": "coincidir",
+      "polite": "coincidir, cortés",
+      "negative": "no coincidir",
+      "past": "coincidir, pasado cortés",
+      "plainNeg": "no coincidir, plano",
+      "plainPast": "coincidir, pasado plano",
+      "want": "quiero coincidir",
+      "teNote": "Godan en う.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-4a3152836b",
+      "label": "上がる",
+      "dict": "上がる",
+      "dictKana": "あがる",
+      "stem": "上がり",
+      "stemKana": "あがり",
+      "te": "上がって",
+      "teKana": "あがって",
+      "nai": "上がらない",
+      "naiKana": "あがらない",
+      "ta": "上がった",
+      "taKana": "あがった",
+      "tai": "上がりたい",
+      "taiKana": "あがりたい",
+      "potential": "上がれる",
+      "potentialKana": "あがれる",
+      "volitional": "上がろう",
+      "volitionalKana": "あがろう",
+      "tara": "上がったら",
+      "taraKana": "あがったら",
+      "ba": "上がれば",
+      "baKana": "あがれば",
+      "passive": "上がられる",
+      "passiveKana": "あがられる",
+      "causative": "上がらせる",
+      "causativeKana": "あがらせる",
+      "gloss": "subir",
+      "polite": "subir, cortés",
+      "negative": "no subir",
+      "past": "subir, pasado cortés",
+      "plainNeg": "no subir, plano",
+      "plainPast": "subir, pasado plano",
+      "want": "quiero subir",
+      "teNote": "Godan en る.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-91f0d5ac9e",
+      "label": "空く",
+      "dict": "空く",
+      "dictKana": "あく",
+      "stem": "空き",
+      "stemKana": "あき",
+      "te": "空いて",
+      "teKana": "あいて",
+      "nai": "空かない",
+      "naiKana": "あかない",
+      "ta": "空いた",
+      "taKana": "あいた",
+      "tai": "空きたい",
+      "taiKana": "あきたい",
+      "potential": "空ける",
+      "potentialKana": "あける",
+      "volitional": "空こう",
+      "volitionalKana": "あこう",
+      "tara": "空いたら",
+      "taraKana": "あいたら",
+      "ba": "空けば",
+      "baKana": "あけば",
+      "passive": "空かれる",
+      "passiveKana": "あかれる",
+      "causative": "空かせる",
+      "causativeKana": "あかせる",
+      "gloss": "quedar vacío",
+      "polite": "quedar vacío, cortés",
+      "negative": "no quedar vacío",
+      "past": "quedar vacío, pasado cortés",
+      "plainNeg": "no quedar vacío, plano",
+      "plainPast": "quedar vacío, pasado plano",
+      "want": "quiero quedar vacío",
+      "teNote": "Godan en く.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-8c98c01eff",
+      "label": "集まる",
+      "dict": "集まる",
+      "dictKana": "あつまる",
+      "stem": "集まり",
+      "stemKana": "あつまり",
+      "te": "集まって",
+      "teKana": "あつまって",
+      "nai": "集まらない",
+      "naiKana": "あつまらない",
+      "ta": "集まった",
+      "taKana": "あつまった",
+      "tai": "集まりたい",
+      "taiKana": "あつまりたい",
+      "potential": "集まれる",
+      "potentialKana": "あつまれる",
+      "volitional": "集まろう",
+      "volitionalKana": "あつまろう",
+      "tara": "集まったら",
+      "taraKana": "あつまったら",
+      "ba": "集まれば",
+      "baKana": "あつまれば",
+      "passive": "集まられる",
+      "passiveKana": "あつまられる",
+      "causative": "集まらせる",
+      "causativeKana": "あつまらせる",
+      "gloss": "reunirse",
+      "polite": "reunirse, cortés",
+      "negative": "no reunirse",
+      "past": "reunirse, pasado cortés",
+      "plainNeg": "no reunirse, plano",
+      "plainPast": "reunirse, pasado plano",
+      "want": "quiero reunirse",
+      "teNote": "Godan en る.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-b00801af22",
+      "label": "集める",
+      "dict": "集める",
+      "dictKana": "あつめる",
+      "stem": "集め",
+      "stemKana": "あつめ",
+      "te": "集めて",
+      "teKana": "あつめて",
+      "nai": "集めない",
+      "naiKana": "あつめない",
+      "ta": "集めた",
+      "taKana": "あつめた",
+      "tai": "集めたい",
+      "taiKana": "あつめたい",
+      "potential": "集められる",
+      "potentialKana": "あつめられる",
+      "volitional": "集めよう",
+      "volitionalKana": "あつめよう",
+      "tara": "集めたら",
+      "taraKana": "あつめたら",
+      "ba": "集めれば",
+      "baKana": "あつめれば",
+      "passive": "集められる",
+      "passiveKana": "あつめられる",
+      "causative": "集めさせる",
+      "causativeKana": "あつめさせる",
+      "gloss": "reunir",
+      "polite": "reunir, cortés",
+      "negative": "no reunir",
+      "past": "reunir, pasado cortés",
+      "plainNeg": "no reunir, plano",
+      "plainPast": "reunir, pasado plano",
+      "want": "quiero reunir",
+      "teNote": "Ichidan: se quita る.",
+      "kind": "ichidan"
+    },
+    {
+      "id": "w-1056f23586",
+      "label": "謝る",
+      "dict": "謝る",
+      "dictKana": "あやまる",
+      "stem": "謝り",
+      "stemKana": "あやまり",
+      "te": "謝って",
+      "teKana": "あやまって",
+      "nai": "謝らない",
+      "naiKana": "あやまらない",
+      "ta": "謝った",
+      "taKana": "あやまった",
+      "tai": "謝りたい",
+      "taiKana": "あやまりたい",
+      "potential": "謝れる",
+      "potentialKana": "あやまれる",
+      "volitional": "謝ろう",
+      "volitionalKana": "あやまろう",
+      "tara": "謝ったら",
+      "taraKana": "あやまったら",
+      "ba": "謝れば",
+      "baKana": "あやまれば",
+      "passive": "謝られる",
+      "passiveKana": "あやまられる",
+      "causative": "謝らせる",
+      "causativeKana": "あやまらせる",
+      "gloss": "disculparse",
+      "polite": "disculparse, cortés",
+      "negative": "no disculparse",
+      "past": "disculparse, pasado cortés",
+      "plainNeg": "no disculparse, plano",
+      "plainPast": "disculparse, pasado plano",
+      "want": "quiero disculparse",
+      "teNote": "Godan en る.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-db01fd59d7",
+      "label": "生きる",
+      "dict": "生きる",
+      "dictKana": "いきる",
+      "stem": "生き",
+      "stemKana": "いき",
+      "te": "生きて",
+      "teKana": "いきて",
+      "nai": "生きない",
+      "naiKana": "いきない",
+      "ta": "生きた",
+      "taKana": "いきた",
+      "tai": "生きたい",
+      "taiKana": "いきたい",
+      "potential": "生きられる",
+      "potentialKana": "いきられる",
+      "volitional": "生きよう",
+      "volitionalKana": "いきよう",
+      "tara": "生きたら",
+      "taraKana": "いきたら",
+      "ba": "生きれば",
+      "baKana": "いきれば",
+      "passive": "生きられる",
+      "passiveKana": "いきられる",
+      "causative": "生きさせる",
+      "causativeKana": "いきさせる",
+      "gloss": "vivir, estar vivo",
+      "polite": "vivir, estar vivo, cortés",
+      "negative": "no vivir, estar vivo",
+      "past": "vivir, estar vivo, pasado cortés",
+      "plainNeg": "no vivir, estar vivo, plano",
+      "plainPast": "vivir, estar vivo, pasado plano",
+      "want": "quiero vivir, estar vivo",
+      "teNote": "Ichidan: se quita る.",
+      "kind": "ichidan"
+    },
+    {
+      "id": "w-770aa71095",
+      "label": "いじめる",
+      "dict": "いじめる",
+      "dictKana": "いじめる",
+      "stem": "いじめ",
+      "stemKana": "いじめ",
+      "te": "いじめて",
+      "teKana": "いじめて",
+      "nai": "いじめない",
+      "naiKana": "いじめない",
+      "ta": "いじめた",
+      "taKana": "いじめた",
+      "tai": "いじめたい",
+      "taiKana": "いじめたい",
+      "potential": "いじめられる",
+      "potentialKana": "いじめられる",
+      "volitional": "いじめよう",
+      "volitionalKana": "いじめよう",
+      "tara": "いじめたら",
+      "taraKana": "いじめたら",
+      "ba": "いじめれば",
+      "baKana": "いじめれば",
+      "passive": "いじめられる",
+      "passiveKana": "いじめられる",
+      "causative": "いじめさせる",
+      "causativeKana": "いじめさせる",
+      "gloss": "maltratar, burlarse",
+      "polite": "maltratar, burlarse, cortés",
+      "negative": "no maltratar, burlarse",
+      "past": "maltratar, burlarse, pasado cortés",
+      "plainNeg": "no maltratar, burlarse, plano",
+      "plainPast": "maltratar, burlarse, pasado plano",
+      "want": "quiero maltratar, burlarse",
+      "teNote": "Ichidan: se quita る.",
+      "kind": "ichidan"
+    },
+    {
+      "id": "w-05b5de61ab",
+      "label": "急ぐ",
+      "dict": "急ぐ",
+      "dictKana": "いそぐ",
+      "stem": "急ぎ",
+      "stemKana": "いそぎ",
+      "te": "急いで",
+      "teKana": "いそいで",
+      "nai": "急がない",
+      "naiKana": "いそがない",
+      "ta": "急いだ",
+      "taKana": "いそいだ",
+      "tai": "急ぎたい",
+      "taiKana": "いそぎたい",
+      "potential": "急げる",
+      "potentialKana": "いそげる",
+      "volitional": "急ごう",
+      "volitionalKana": "いそごう",
+      "tara": "急いだら",
+      "taraKana": "いそいだら",
+      "ba": "急げば",
+      "baKana": "いそげば",
+      "passive": "急がれる",
+      "passiveKana": "いそがれる",
+      "causative": "急がせる",
+      "causativeKana": "いそがせる",
+      "gloss": "darse prisa",
+      "polite": "darse prisa, cortés",
+      "negative": "no darse prisa",
+      "past": "darse prisa, pasado cortés",
+      "plainNeg": "no darse prisa, plano",
+      "plainPast": "darse prisa, pasado plano",
+      "want": "quiero darse prisa",
+      "teNote": "Godan en ぐ.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-6dbf756da1",
+      "label": "致す",
+      "dict": "致す",
+      "dictKana": "いたす",
+      "stem": "致し",
+      "stemKana": "いたし",
+      "te": "致して",
+      "teKana": "いたして",
+      "nai": "致さない",
+      "naiKana": "いたさない",
+      "ta": "致した",
+      "taKana": "いたした",
+      "tai": "致したい",
+      "taiKana": "いたしたい",
+      "potential": "致せる",
+      "potentialKana": "いたせる",
+      "volitional": "致そう",
+      "volitionalKana": "いたそう",
+      "tara": "致したら",
+      "taraKana": "いたしたら",
+      "ba": "致せば",
+      "baKana": "いたせば",
+      "passive": "致される",
+      "passiveKana": "いたされる",
+      "causative": "致させる",
+      "causativeKana": "いたさせる",
+      "gloss": "hacer, humilde",
+      "polite": "hacer, humilde, cortés",
+      "negative": "no hacer, humilde",
+      "past": "hacer, humilde, pasado cortés",
+      "plainNeg": "no hacer, humilde, plano",
+      "plainPast": "hacer, humilde, pasado plano",
+      "want": "quiero hacer, humilde",
+      "teNote": "Godan en す.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-47cc7185d5",
+      "label": "いただく",
+      "dict": "いただく",
+      "dictKana": "いただく",
+      "stem": "いただき",
+      "stemKana": "いただき",
+      "te": "いただいて",
+      "teKana": "いただいて",
+      "nai": "いただかない",
+      "naiKana": "いただかない",
+      "ta": "いただいた",
+      "taKana": "いただいた",
+      "tai": "いただきたい",
+      "taiKana": "いただきたい",
+      "potential": "いただける",
+      "potentialKana": "いただける",
+      "volitional": "いただこう",
+      "volitionalKana": "いただこう",
+      "tara": "いただいたら",
+      "taraKana": "いただいたら",
+      "ba": "いただけば",
+      "baKana": "いただけば",
+      "passive": "いただかれる",
+      "passiveKana": "いただかれる",
+      "causative": "いただかせる",
+      "causativeKana": "いただかせる",
+      "gloss": "recibir, humilde",
+      "polite": "recibir, humilde, cortés",
+      "negative": "no recibir, humilde",
+      "past": "recibir, humilde, pasado cortés",
+      "plainNeg": "no recibir, humilde, plano",
+      "plainPast": "recibir, humilde, pasado plano",
+      "want": "quiero recibir, humilde",
+      "teNote": "Godan en く.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-877a39a99f",
+      "label": "祈る",
+      "dict": "祈る",
+      "dictKana": "いのる",
+      "stem": "祈り",
+      "stemKana": "いのり",
+      "te": "祈って",
+      "teKana": "いのって",
+      "nai": "祈らない",
+      "naiKana": "いのらない",
+      "ta": "祈った",
+      "taKana": "いのった",
+      "tai": "祈りたい",
+      "taiKana": "いのりたい",
+      "potential": "祈れる",
+      "potentialKana": "いのれる",
+      "volitional": "祈ろう",
+      "volitionalKana": "いのろう",
+      "tara": "祈ったら",
+      "taraKana": "いのったら",
+      "ba": "祈れば",
+      "baKana": "いのれば",
+      "passive": "祈られる",
+      "passiveKana": "いのられる",
+      "causative": "祈らせる",
+      "causativeKana": "いのらせる",
+      "gloss": "rezar",
+      "polite": "rezar, cortés",
+      "negative": "no rezar",
+      "past": "rezar, pasado cortés",
+      "plainNeg": "no rezar, plano",
+      "plainPast": "rezar, pasado plano",
+      "want": "quiero rezar",
+      "teNote": "Godan en る.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-bc25dff617",
+      "label": "いらっしゃる",
+      "dict": "いらっしゃる",
+      "dictKana": "いらっしゃる",
+      "stem": "いらっしゃい",
+      "stemKana": "いらっしゃい",
+      "te": "いらっしゃって",
+      "teKana": "いらっしゃって",
+      "nai": "いらっしゃらない",
+      "naiKana": "いらっしゃらない",
+      "ta": "いらっしゃった",
+      "taKana": "いらっしゃった",
+      "tai": "いらっしゃりたい",
+      "taiKana": "いらっしゃりたい",
+      "potential": "",
+      "potentialKana": "",
+      "volitional": "いらっしゃろう",
+      "volitionalKana": "いらっしゃろう",
+      "tara": "いらっしゃったら",
+      "taraKana": "いらっしゃったら",
+      "ba": "いらっしゃれば",
+      "baKana": "いらっしゃれば",
+      "passive": "",
+      "passiveKana": "",
+      "causative": "",
+      "causativeKana": "",
+      "gloss": "estar, ir o venir, de respeto",
+      "polite": "estar, ir o venir, de respeto, cortés",
+      "negative": "no estar, ir o venir, de respeto",
+      "past": "estar, ir o venir, de respeto, pasado cortés",
+      "plainNeg": "no estar, ir o venir, de respeto, plano",
+      "plainPast": "estar, ir o venir, de respeto, pasado plano",
+      "want": "quiero estar, ir o venir, de respeto",
+      "teNote": "Respeto en ある: ます es います, no ります.",
+      "kind": "v5aru"
+    },
+    {
+      "id": "w-833af5347e",
+      "label": "植える",
+      "dict": "植える",
+      "dictKana": "うえる",
+      "stem": "植え",
+      "stemKana": "うえ",
+      "te": "植えて",
+      "teKana": "うえて",
+      "nai": "植えない",
+      "naiKana": "うえない",
+      "ta": "植えた",
+      "taKana": "うえた",
+      "tai": "植えたい",
+      "taiKana": "うえたい",
+      "potential": "植えられる",
+      "potentialKana": "うえられる",
+      "volitional": "植えよう",
+      "volitionalKana": "うえよう",
+      "tara": "植えたら",
+      "taraKana": "うえたら",
+      "ba": "植えれば",
+      "baKana": "うえれば",
+      "passive": "植えられる",
+      "passiveKana": "うえられる",
+      "causative": "植えさせる",
+      "causativeKana": "うえさせる",
+      "gloss": "plantar",
+      "polite": "plantar, cortés",
+      "negative": "no plantar",
+      "past": "plantar, pasado cortés",
+      "plainNeg": "no plantar, plano",
+      "plainPast": "plantar, pasado plano",
+      "want": "quiero plantar",
+      "teNote": "Ichidan: se quita る.",
+      "kind": "ichidan"
+    },
+    {
+      "id": "w-bf69a1d9f2",
+      "label": "うかがう",
+      "dict": "うかがう",
+      "dictKana": "うかがう",
+      "stem": "うかがい",
+      "stemKana": "うかがい",
+      "te": "うかがって",
+      "teKana": "うかがって",
+      "nai": "うかがわない",
+      "naiKana": "うかがわない",
+      "ta": "うかがった",
+      "taKana": "うかがった",
+      "tai": "うかがいたい",
+      "taiKana": "うかがいたい",
+      "potential": "うかがえる",
+      "potentialKana": "うかがえる",
+      "volitional": "うかがおう",
+      "volitionalKana": "うかがおう",
+      "tara": "うかがったら",
+      "taraKana": "うかがったら",
+      "ba": "うかがえば",
+      "baKana": "うかがえば",
+      "passive": "うかがわれる",
+      "passiveKana": "うかがわれる",
+      "causative": "うかがわせる",
+      "causativeKana": "うかがわせる",
+      "gloss": "visitar o preguntar, humilde",
+      "polite": "visitar o preguntar, humilde, cortés",
+      "negative": "no visitar o preguntar, humilde",
+      "past": "visitar o preguntar, humilde, pasado cortés",
+      "plainNeg": "no visitar o preguntar, humilde, plano",
+      "plainPast": "visitar o preguntar, humilde, pasado plano",
+      "want": "quiero visitar o preguntar, humilde",
+      "teNote": "Godan en う.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-20989c0cb5",
+      "label": "受ける",
+      "dict": "受ける",
+      "dictKana": "うける",
+      "stem": "受け",
+      "stemKana": "うけ",
+      "te": "受けて",
+      "teKana": "うけて",
+      "nai": "受けない",
+      "naiKana": "うけない",
+      "ta": "受けた",
+      "taKana": "うけた",
+      "tai": "受けたい",
+      "taiKana": "うけたい",
+      "potential": "受けられる",
+      "potentialKana": "うけられる",
+      "volitional": "受けよう",
+      "volitionalKana": "うけよう",
+      "tara": "受けたら",
+      "taraKana": "うけたら",
+      "ba": "受ければ",
+      "baKana": "うければ",
+      "passive": "受けられる",
+      "passiveKana": "うけられる",
+      "causative": "受けさせる",
+      "causativeKana": "うけさせる",
+      "gloss": "recibir, hacer un examen",
+      "polite": "recibir, hacer un examen, cortés",
+      "negative": "no recibir, hacer un examen",
+      "past": "recibir, hacer un examen, pasado cortés",
+      "plainNeg": "no recibir, hacer un examen, plano",
+      "plainPast": "recibir, hacer un examen, pasado plano",
+      "want": "quiero recibir, hacer un examen",
+      "teNote": "Ichidan: se quita る.",
+      "kind": "ichidan"
+    },
+    {
+      "id": "w-e54d4fef93",
+      "label": "動く",
+      "dict": "動く",
+      "dictKana": "うごく",
+      "stem": "動き",
+      "stemKana": "うごき",
+      "te": "動いて",
+      "teKana": "うごいて",
+      "nai": "動かない",
+      "naiKana": "うごかない",
+      "ta": "動いた",
+      "taKana": "うごいた",
+      "tai": "動きたい",
+      "taiKana": "うごきたい",
+      "potential": "動ける",
+      "potentialKana": "うごける",
+      "volitional": "動こう",
+      "volitionalKana": "うごこう",
+      "tara": "動いたら",
+      "taraKana": "うごいたら",
+      "ba": "動けば",
+      "baKana": "うごけば",
+      "passive": "動かれる",
+      "passiveKana": "うごかれる",
+      "causative": "動かせる",
+      "causativeKana": "うごかせる",
+      "gloss": "moverse",
+      "polite": "moverse, cortés",
+      "negative": "no moverse",
+      "past": "moverse, pasado cortés",
+      "plainNeg": "no moverse, plano",
+      "plainPast": "moverse, pasado plano",
+      "want": "quiero moverse",
+      "teNote": "Godan en く.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-e6f3a7d91a",
+      "label": "打つ",
+      "dict": "打つ",
+      "dictKana": "うつ",
+      "stem": "打ち",
+      "stemKana": "うち",
+      "te": "打って",
+      "teKana": "うって",
+      "nai": "打たない",
+      "naiKana": "うたない",
+      "ta": "打った",
+      "taKana": "うった",
+      "tai": "打ちたい",
+      "taiKana": "うちたい",
+      "potential": "打てる",
+      "potentialKana": "うてる",
+      "volitional": "打とう",
+      "volitionalKana": "うとう",
+      "tara": "打ったら",
+      "taraKana": "うったら",
+      "ba": "打てば",
+      "baKana": "うてば",
+      "passive": "打たれる",
+      "passiveKana": "うたれる",
+      "causative": "打たせる",
+      "causativeKana": "うたせる",
+      "gloss": "golpear",
+      "polite": "golpear, cortés",
+      "negative": "no golpear",
+      "past": "golpear, pasado cortés",
+      "plainNeg": "no golpear, plano",
+      "plainPast": "golpear, pasado plano",
+      "want": "quiero golpear",
+      "teNote": "Godan en つ.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-69589e0288",
+      "label": "写す",
+      "dict": "写す",
+      "dictKana": "うつす",
+      "stem": "写し",
+      "stemKana": "うつし",
+      "te": "写して",
+      "teKana": "うつして",
+      "nai": "写さない",
+      "naiKana": "うつさない",
+      "ta": "写した",
+      "taKana": "うつした",
+      "tai": "写したい",
+      "taiKana": "うつしたい",
+      "potential": "写せる",
+      "potentialKana": "うつせる",
+      "volitional": "写そう",
+      "volitionalKana": "うつそう",
+      "tara": "写したら",
+      "taraKana": "うつしたら",
+      "ba": "写せば",
+      "baKana": "うつせば",
+      "passive": "写される",
+      "passiveKana": "うつされる",
+      "causative": "写させる",
+      "causativeKana": "うつさせる",
+      "gloss": "copiar, fotografiar",
+      "polite": "copiar, fotografiar, cortés",
+      "negative": "no copiar, fotografiar",
+      "past": "copiar, fotografiar, pasado cortés",
+      "plainNeg": "no copiar, fotografiar, plano",
+      "plainPast": "copiar, fotografiar, pasado plano",
+      "want": "quiero copiar, fotografiar",
+      "teNote": "Godan en す.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-c7362b5e02",
+      "label": "移る",
+      "dict": "移る",
+      "dictKana": "うつる",
+      "stem": "移り",
+      "stemKana": "うつり",
+      "te": "移って",
+      "teKana": "うつって",
+      "nai": "移らない",
+      "naiKana": "うつらない",
+      "ta": "移った",
+      "taKana": "うつった",
+      "tai": "移りたい",
+      "taiKana": "うつりたい",
+      "potential": "移れる",
+      "potentialKana": "うつれる",
+      "volitional": "移ろう",
+      "volitionalKana": "うつろう",
+      "tara": "移ったら",
+      "taraKana": "うつったら",
+      "ba": "移れば",
+      "baKana": "うつれば",
+      "passive": "移られる",
+      "passiveKana": "うつられる",
+      "causative": "移らせる",
+      "causativeKana": "うつらせる",
+      "gloss": "mudarse, pasar a",
+      "polite": "mudarse, pasar a, cortés",
+      "negative": "no mudarse, pasar a",
+      "past": "mudarse, pasar a, pasado cortés",
+      "plainNeg": "no mudarse, pasar a, plano",
+      "plainPast": "mudarse, pasar a, pasado plano",
+      "want": "quiero mudarse, pasar a",
+      "teNote": "Godan en る.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-60c9784974",
+      "label": "選ぶ",
+      "dict": "選ぶ",
+      "dictKana": "えらぶ",
+      "stem": "選び",
+      "stemKana": "えらび",
+      "te": "選んで",
+      "teKana": "えらんで",
+      "nai": "選ばない",
+      "naiKana": "えらばない",
+      "ta": "選んだ",
+      "taKana": "えらんだ",
+      "tai": "選びたい",
+      "taiKana": "えらびたい",
+      "potential": "選べる",
+      "potentialKana": "えらべる",
+      "volitional": "選ぼう",
+      "volitionalKana": "えらぼう",
+      "tara": "選んだら",
+      "taraKana": "えらんだら",
+      "ba": "選べば",
+      "baKana": "えらべば",
+      "passive": "選ばれる",
+      "passiveKana": "えらばれる",
+      "causative": "選ばせる",
+      "causativeKana": "えらばせる",
+      "gloss": "elegir",
+      "polite": "elegir, cortés",
+      "negative": "no elegir",
+      "past": "elegir, pasado cortés",
+      "plainNeg": "no elegir, plano",
+      "plainPast": "elegir, pasado plano",
+      "want": "quiero elegir",
+      "teNote": "Godan en ぶ.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-53c76e5c6e",
+      "label": "おいでになる",
+      "dict": "おいでになる",
+      "dictKana": "おいでになる",
+      "stem": "おいでになり",
+      "stemKana": "おいでになり",
+      "te": "おいでになって",
+      "teKana": "おいでになって",
+      "nai": "おいでにならない",
+      "naiKana": "おいでにならない",
+      "ta": "おいでになった",
+      "taKana": "おいでになった",
+      "tai": "おいでになりたい",
+      "taiKana": "おいでになりたい",
+      "potential": "おいでになれる",
+      "potentialKana": "おいでになれる",
+      "volitional": "おいでになろう",
+      "volitionalKana": "おいでになろう",
+      "tara": "おいでになったら",
+      "taraKana": "おいでになったら",
+      "ba": "おいでになれば",
+      "baKana": "おいでになれば",
+      "passive": "おいでになられる",
+      "passiveKana": "おいでになられる",
+      "causative": "おいでにならせる",
+      "causativeKana": "おいでにならせる",
+      "gloss": "estar o ir, de respeto",
+      "polite": "estar o ir, de respeto, cortés",
+      "negative": "no estar o ir, de respeto",
+      "past": "estar o ir, de respeto, pasado cortés",
+      "plainNeg": "no estar o ir, de respeto, plano",
+      "plainPast": "estar o ir, de respeto, pasado plano",
+      "want": "quiero estar o ir, de respeto",
+      "teNote": "Godan en る.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-af1dae5588",
+      "label": "送る",
+      "dict": "送る",
+      "dictKana": "おくる",
+      "stem": "送り",
+      "stemKana": "おくり",
+      "te": "送って",
+      "teKana": "おくって",
+      "nai": "送らない",
+      "naiKana": "おくらない",
+      "ta": "送った",
+      "taKana": "おくった",
+      "tai": "送りたい",
+      "taiKana": "おくりたい",
+      "potential": "送れる",
+      "potentialKana": "おくれる",
+      "volitional": "送ろう",
+      "volitionalKana": "おくろう",
+      "tara": "送ったら",
+      "taraKana": "おくったら",
+      "ba": "送れば",
+      "baKana": "おくれば",
+      "passive": "送られる",
+      "passiveKana": "おくられる",
+      "causative": "送らせる",
+      "causativeKana": "おくらせる",
+      "gloss": "enviar",
+      "polite": "enviar, cortés",
+      "negative": "no enviar",
+      "past": "enviar, pasado cortés",
+      "plainNeg": "no enviar, plano",
+      "plainPast": "enviar, pasado plano",
+      "want": "quiero enviar",
+      "teNote": "Godan en る.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-ae8ce3986c",
+      "label": "遅れる",
+      "dict": "遅れる",
+      "dictKana": "おくれる",
+      "stem": "遅れ",
+      "stemKana": "おくれ",
+      "te": "遅れて",
+      "teKana": "おくれて",
+      "nai": "遅れない",
+      "naiKana": "おくれない",
+      "ta": "遅れた",
+      "taKana": "おくれた",
+      "tai": "遅れたい",
+      "taiKana": "おくれたい",
+      "potential": "遅れられる",
+      "potentialKana": "おくれられる",
+      "volitional": "遅れよう",
+      "volitionalKana": "おくれよう",
+      "tara": "遅れたら",
+      "taraKana": "おくれたら",
+      "ba": "遅れれば",
+      "baKana": "おくれれば",
+      "passive": "遅れられる",
+      "passiveKana": "おくれられる",
+      "causative": "遅れさせる",
+      "causativeKana": "おくれさせる",
+      "gloss": "llegar tarde",
+      "polite": "llegar tarde, cortés",
+      "negative": "no llegar tarde",
+      "past": "llegar tarde, pasado cortés",
+      "plainNeg": "no llegar tarde, plano",
+      "plainPast": "llegar tarde, pasado plano",
+      "want": "quiero llegar tarde",
+      "teNote": "Ichidan: se quita る.",
+      "kind": "ichidan"
+    },
+    {
+      "id": "w-99de4451f7",
+      "label": "起こす",
+      "dict": "起こす",
+      "dictKana": "おこす",
+      "stem": "起こし",
+      "stemKana": "おこし",
+      "te": "起こして",
+      "teKana": "おこして",
+      "nai": "起こさない",
+      "naiKana": "おこさない",
+      "ta": "起こした",
+      "taKana": "おこした",
+      "tai": "起こしたい",
+      "taiKana": "おこしたい",
+      "potential": "起こせる",
+      "potentialKana": "おこせる",
+      "volitional": "起こそう",
+      "volitionalKana": "おこそう",
+      "tara": "起こしたら",
+      "taraKana": "おこしたら",
+      "ba": "起こせば",
+      "baKana": "おこせば",
+      "passive": "起こされる",
+      "passiveKana": "おこされる",
+      "causative": "起こさせる",
+      "causativeKana": "おこさせる",
+      "gloss": "despertar a alguien",
+      "polite": "despertar a alguien, cortés",
+      "negative": "no despertar a alguien",
+      "past": "despertar a alguien, pasado cortés",
+      "plainNeg": "no despertar a alguien, plano",
+      "plainPast": "despertar a alguien, pasado plano",
+      "want": "quiero despertar a alguien",
+      "teNote": "Godan en す.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-2139fab218",
+      "label": "行う",
+      "dict": "行う",
+      "dictKana": "おこなう",
+      "stem": "行い",
+      "stemKana": "おこない",
+      "te": "行って",
+      "teKana": "おこなって",
+      "nai": "行わない",
+      "naiKana": "おこなわない",
+      "ta": "行った",
+      "taKana": "おこなった",
+      "tai": "行いたい",
+      "taiKana": "おこないたい",
+      "potential": "行える",
+      "potentialKana": "おこなえる",
+      "volitional": "行おう",
+      "volitionalKana": "おこなおう",
+      "tara": "行ったら",
+      "taraKana": "おこなったら",
+      "ba": "行えば",
+      "baKana": "おこなえば",
+      "passive": "行われる",
+      "passiveKana": "おこなわれる",
+      "causative": "行わせる",
+      "causativeKana": "おこなわせる",
+      "gloss": "llevar a cabo",
+      "polite": "llevar a cabo, cortés",
+      "negative": "no llevar a cabo",
+      "past": "llevar a cabo, pasado cortés",
+      "plainNeg": "no llevar a cabo, plano",
+      "plainPast": "llevar a cabo, pasado plano",
+      "want": "quiero llevar a cabo",
+      "teNote": "Godan en う.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-2e0f32c097",
+      "label": "怒る",
+      "dict": "怒る",
+      "dictKana": "おこる",
+      "stem": "怒り",
+      "stemKana": "おこり",
+      "te": "怒って",
+      "teKana": "おこって",
+      "nai": "怒らない",
+      "naiKana": "おこらない",
+      "ta": "怒った",
+      "taKana": "おこった",
+      "tai": "怒りたい",
+      "taiKana": "おこりたい",
+      "potential": "怒れる",
+      "potentialKana": "おこれる",
+      "volitional": "怒ろう",
+      "volitionalKana": "おころう",
+      "tara": "怒ったら",
+      "taraKana": "おこったら",
+      "ba": "怒れば",
+      "baKana": "おこれば",
+      "passive": "怒られる",
+      "passiveKana": "おこられる",
+      "causative": "怒らせる",
+      "causativeKana": "おこらせる",
+      "gloss": "enfadarse",
+      "polite": "enfadarse, cortés",
+      "negative": "no enfadarse",
+      "past": "enfadarse, pasado cortés",
+      "plainNeg": "no enfadarse, plano",
+      "plainPast": "enfadarse, pasado plano",
+      "want": "quiero enfadarse",
+      "teNote": "Godan en る.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-981ee66f59",
+      "label": "落ちる",
+      "dict": "落ちる",
+      "dictKana": "おちる",
+      "stem": "落ち",
+      "stemKana": "おち",
+      "te": "落ちて",
+      "teKana": "おちて",
+      "nai": "落ちない",
+      "naiKana": "おちない",
+      "ta": "落ちた",
+      "taKana": "おちた",
+      "tai": "落ちたい",
+      "taiKana": "おちたい",
+      "potential": "落ちられる",
+      "potentialKana": "おちられる",
+      "volitional": "落ちよう",
+      "volitionalKana": "おちよう",
+      "tara": "落ちたら",
+      "taraKana": "おちたら",
+      "ba": "落ちれば",
+      "baKana": "おちれば",
+      "passive": "落ちられる",
+      "passiveKana": "おちられる",
+      "causative": "落ちさせる",
+      "causativeKana": "おちさせる",
+      "gloss": "caerse",
+      "polite": "caerse, cortés",
+      "negative": "no caerse",
+      "past": "caerse, pasado cortés",
+      "plainNeg": "no caerse, plano",
+      "plainPast": "caerse, pasado plano",
+      "want": "quiero caerse",
+      "teNote": "Ichidan: se quita る.",
+      "kind": "ichidan"
+    },
+    {
+      "id": "w-050024e2d9",
+      "label": "おっしゃる",
+      "dict": "おっしゃる",
+      "dictKana": "おっしゃる",
+      "stem": "おっしゃい",
+      "stemKana": "おっしゃい",
+      "te": "おっしゃって",
+      "teKana": "おっしゃって",
+      "nai": "おっしゃらない",
+      "naiKana": "おっしゃらない",
+      "ta": "おっしゃった",
+      "taKana": "おっしゃった",
+      "tai": "おっしゃりたい",
+      "taiKana": "おっしゃりたい",
+      "potential": "",
+      "potentialKana": "",
+      "volitional": "おっしゃろう",
+      "volitionalKana": "おっしゃろう",
+      "tara": "おっしゃったら",
+      "taraKana": "おっしゃったら",
+      "ba": "おっしゃれば",
+      "baKana": "おっしゃれば",
+      "passive": "",
+      "passiveKana": "",
+      "causative": "",
+      "causativeKana": "",
+      "gloss": "decir, de respeto",
+      "polite": "decir, de respeto, cortés",
+      "negative": "no decir, de respeto",
+      "past": "decir, de respeto, pasado cortés",
+      "plainNeg": "no decir, de respeto, plano",
+      "plainPast": "decir, de respeto, pasado plano",
+      "want": "quiero decir, de respeto",
+      "teNote": "Respeto en ある: ます es います, no ります.",
+      "kind": "v5aru"
+    },
+    {
+      "id": "w-f786333cf9",
+      "label": "落とす",
+      "dict": "落とす",
+      "dictKana": "おとす",
+      "stem": "落とし",
+      "stemKana": "おとし",
+      "te": "落として",
+      "teKana": "おとして",
+      "nai": "落とさない",
+      "naiKana": "おとさない",
+      "ta": "落とした",
+      "taKana": "おとした",
+      "tai": "落としたい",
+      "taiKana": "おとしたい",
+      "potential": "落とせる",
+      "potentialKana": "おとせる",
+      "volitional": "落とそう",
+      "volitionalKana": "おとそう",
+      "tara": "落としたら",
+      "taraKana": "おとしたら",
+      "ba": "落とせば",
+      "baKana": "おとせば",
+      "passive": "落とされる",
+      "passiveKana": "おとされる",
+      "causative": "落とさせる",
+      "causativeKana": "おとさせる",
+      "gloss": "dejar caer",
+      "polite": "dejar caer, cortés",
+      "negative": "no dejar caer",
+      "past": "dejar caer, pasado cortés",
+      "plainNeg": "no dejar caer, plano",
+      "plainPast": "dejar caer, pasado plano",
+      "want": "quiero dejar caer",
+      "teNote": "Godan en す.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-3280103eb8",
+      "label": "踊る",
+      "dict": "踊る",
+      "dictKana": "おどる",
+      "stem": "踊り",
+      "stemKana": "おどり",
+      "te": "踊って",
+      "teKana": "おどって",
+      "nai": "踊らない",
+      "naiKana": "おどらない",
+      "ta": "踊った",
+      "taKana": "おどった",
+      "tai": "踊りたい",
+      "taiKana": "おどりたい",
+      "potential": "踊れる",
+      "potentialKana": "おどれる",
+      "volitional": "踊ろう",
+      "volitionalKana": "おどろう",
+      "tara": "踊ったら",
+      "taraKana": "おどったら",
+      "ba": "踊れば",
+      "baKana": "おどれば",
+      "passive": "踊られる",
+      "passiveKana": "おどられる",
+      "causative": "踊らせる",
+      "causativeKana": "おどらせる",
+      "gloss": "bailar",
+      "polite": "bailar, cortés",
+      "negative": "no bailar",
+      "past": "bailar, pasado cortés",
+      "plainNeg": "no bailar, plano",
+      "plainPast": "bailar, pasado plano",
+      "want": "quiero bailar",
+      "teNote": "Godan en る.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-6d69734463",
+      "label": "驚く",
+      "dict": "驚く",
+      "dictKana": "おどろく",
+      "stem": "驚き",
+      "stemKana": "おどろき",
+      "te": "驚いて",
+      "teKana": "おどろいて",
+      "nai": "驚かない",
+      "naiKana": "おどろかない",
+      "ta": "驚いた",
+      "taKana": "おどろいた",
+      "tai": "驚きたい",
+      "taiKana": "おどろきたい",
+      "potential": "驚ける",
+      "potentialKana": "おどろける",
+      "volitional": "驚こう",
+      "volitionalKana": "おどろこう",
+      "tara": "驚いたら",
+      "taraKana": "おどろいたら",
+      "ba": "驚けば",
+      "baKana": "おどろけば",
+      "passive": "驚かれる",
+      "passiveKana": "おどろかれる",
+      "causative": "驚かせる",
+      "causativeKana": "おどろかせる",
+      "gloss": "sorprenderse",
+      "polite": "sorprenderse, cortés",
+      "negative": "no sorprenderse",
+      "past": "sorprenderse, pasado cortés",
+      "plainNeg": "no sorprenderse, plano",
+      "plainPast": "sorprenderse, pasado plano",
+      "want": "quiero sorprenderse",
+      "teNote": "Godan en く.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-3e4c1468c7",
+      "label": "思い出す",
+      "dict": "思い出す",
+      "dictKana": "おもいだす",
+      "stem": "思い出し",
+      "stemKana": "おもいだし",
+      "te": "思い出して",
+      "teKana": "おもいだして",
+      "nai": "思い出さない",
+      "naiKana": "おもいださない",
+      "ta": "思い出した",
+      "taKana": "おもいだした",
+      "tai": "思い出したい",
+      "taiKana": "おもいだしたい",
+      "potential": "思い出せる",
+      "potentialKana": "おもいだせる",
+      "volitional": "思い出そう",
+      "volitionalKana": "おもいだそう",
+      "tara": "思い出したら",
+      "taraKana": "おもいだしたら",
+      "ba": "思い出せば",
+      "baKana": "おもいだせば",
+      "passive": "思い出される",
+      "passiveKana": "おもいだされる",
+      "causative": "思い出させる",
+      "causativeKana": "おもいださせる",
+      "gloss": "recordar",
+      "polite": "recordar, cortés",
+      "negative": "no recordar",
+      "past": "recordar, pasado cortés",
+      "plainNeg": "no recordar, plano",
+      "plainPast": "recordar, pasado plano",
+      "want": "quiero recordar",
+      "teNote": "Godan en す.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-bad913ed8f",
+      "label": "思う",
+      "dict": "思う",
+      "dictKana": "おもう",
+      "stem": "思い",
+      "stemKana": "おもい",
+      "te": "思って",
+      "teKana": "おもって",
+      "nai": "思わない",
+      "naiKana": "おもわない",
+      "ta": "思った",
+      "taKana": "おもった",
+      "tai": "思いたい",
+      "taiKana": "おもいたい",
+      "potential": "思える",
+      "potentialKana": "おもえる",
+      "volitional": "思おう",
+      "volitionalKana": "おもおう",
+      "tara": "思ったら",
+      "taraKana": "おもったら",
+      "ba": "思えば",
+      "baKana": "おもえば",
+      "passive": "思われる",
+      "passiveKana": "おもわれる",
+      "causative": "思わせる",
+      "causativeKana": "おもわせる",
+      "gloss": "pensar, opinar",
+      "polite": "pensar, opinar, cortés",
+      "negative": "no pensar, opinar",
+      "past": "pensar, opinar, pasado cortés",
+      "plainNeg": "no pensar, opinar, plano",
+      "plainPast": "pensar, opinar, pasado plano",
+      "want": "quiero pensar, opinar",
+      "teNote": "Godan en う.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-4806278f5b",
+      "label": "下りる",
+      "dict": "下りる",
+      "dictKana": "おりる",
+      "stem": "下り",
+      "stemKana": "おり",
+      "te": "下りて",
+      "teKana": "おりて",
+      "nai": "下りない",
+      "naiKana": "おりない",
+      "ta": "下りた",
+      "taKana": "おりた",
+      "tai": "下りたい",
+      "taiKana": "おりたい",
+      "potential": "下りられる",
+      "potentialKana": "おりられる",
+      "volitional": "下りよう",
+      "volitionalKana": "おりよう",
+      "tara": "下りたら",
+      "taraKana": "おりたら",
+      "ba": "下りれば",
+      "baKana": "おりれば",
+      "passive": "下りられる",
+      "passiveKana": "おりられる",
+      "causative": "下りさせる",
+      "causativeKana": "おりさせる",
+      "gloss": "bajar de un vehículo",
+      "polite": "bajar de un vehículo, cortés",
+      "negative": "no bajar de un vehículo",
+      "past": "bajar de un vehículo, pasado cortés",
+      "plainNeg": "no bajar de un vehículo, plano",
+      "plainPast": "bajar de un vehículo, pasado plano",
+      "want": "quiero bajar de un vehículo",
+      "teNote": "Ichidan: se quita る.",
+      "kind": "ichidan"
+    },
+    {
+      "id": "w-ac3d1de39a",
+      "label": "折る",
+      "dict": "折る",
+      "dictKana": "おる",
+      "stem": "折り",
+      "stemKana": "おり",
+      "te": "折って",
+      "teKana": "おって",
+      "nai": "折らない",
+      "naiKana": "おらない",
+      "ta": "折った",
+      "taKana": "おった",
+      "tai": "折りたい",
+      "taiKana": "おりたい",
+      "potential": "折れる",
+      "potentialKana": "おれる",
+      "volitional": "折ろう",
+      "volitionalKana": "おろう",
+      "tara": "折ったら",
+      "taraKana": "おったら",
+      "ba": "折れば",
+      "baKana": "おれば",
+      "passive": "折られる",
+      "passiveKana": "おられる",
+      "causative": "折らせる",
+      "causativeKana": "おらせる",
+      "gloss": "doblar, partir",
+      "polite": "doblar, partir, cortés",
+      "negative": "no doblar, partir",
+      "past": "doblar, partir, pasado cortés",
+      "plainNeg": "no doblar, partir, plano",
+      "plainPast": "doblar, partir, pasado plano",
+      "want": "quiero doblar, partir",
+      "teNote": "Godan en る.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-d517e5d931",
+      "label": "折れる",
+      "dict": "折れる",
+      "dictKana": "おれる",
+      "stem": "折れ",
+      "stemKana": "おれ",
+      "te": "折れて",
+      "teKana": "おれて",
+      "nai": "折れない",
+      "naiKana": "おれない",
+      "ta": "折れた",
+      "taKana": "おれた",
+      "tai": "折れたい",
+      "taiKana": "おれたい",
+      "potential": "折れられる",
+      "potentialKana": "おれられる",
+      "volitional": "折れよう",
+      "volitionalKana": "おれよう",
+      "tara": "折れたら",
+      "taraKana": "おれたら",
+      "ba": "折れれば",
+      "baKana": "おれれば",
+      "passive": "折れられる",
+      "passiveKana": "おれられる",
+      "causative": "折れさせる",
+      "causativeKana": "おれさせる",
+      "gloss": "doblarse, partirse",
+      "polite": "doblarse, partirse, cortés",
+      "negative": "no doblarse, partirse",
+      "past": "doblarse, partirse, pasado cortés",
+      "plainNeg": "no doblarse, partirse, plano",
+      "plainPast": "doblarse, partirse, pasado plano",
+      "want": "quiero doblarse, partirse",
+      "teNote": "Ichidan: se quita る.",
+      "kind": "ichidan"
+    },
+    {
+      "id": "w-64e3e16740",
+      "label": "変える",
+      "dict": "変える",
+      "dictKana": "かえる",
+      "stem": "変え",
+      "stemKana": "かえ",
+      "te": "変えて",
+      "teKana": "かえて",
+      "nai": "変えない",
+      "naiKana": "かえない",
+      "ta": "変えた",
+      "taKana": "かえた",
+      "tai": "変えたい",
+      "taiKana": "かえたい",
+      "potential": "変えられる",
+      "potentialKana": "かえられる",
+      "volitional": "変えよう",
+      "volitionalKana": "かえよう",
+      "tara": "変えたら",
+      "taraKana": "かえたら",
+      "ba": "変えれば",
+      "baKana": "かえれば",
+      "passive": "変えられる",
+      "passiveKana": "かえられる",
+      "causative": "変えさせる",
+      "causativeKana": "かえさせる",
+      "gloss": "cambiar algo",
+      "polite": "cambiar algo, cortés",
+      "negative": "no cambiar algo",
+      "past": "cambiar algo, pasado cortés",
+      "plainNeg": "no cambiar algo, plano",
+      "plainPast": "cambiar algo, pasado plano",
+      "want": "quiero cambiar algo",
+      "teNote": "Ichidan: se quita る.",
+      "kind": "ichidan"
+    },
+    {
+      "id": "w-2d6f99582c",
+      "label": "飾る",
+      "dict": "飾る",
+      "dictKana": "かざる",
+      "stem": "飾り",
+      "stemKana": "かざり",
+      "te": "飾って",
+      "teKana": "かざって",
+      "nai": "飾らない",
+      "naiKana": "かざらない",
+      "ta": "飾った",
+      "taKana": "かざった",
+      "tai": "飾りたい",
+      "taiKana": "かざりたい",
+      "potential": "飾れる",
+      "potentialKana": "かざれる",
+      "volitional": "飾ろう",
+      "volitionalKana": "かざろう",
+      "tara": "飾ったら",
+      "taraKana": "かざったら",
+      "ba": "飾れば",
+      "baKana": "かざれば",
+      "passive": "飾られる",
+      "passiveKana": "かざられる",
+      "causative": "飾らせる",
+      "causativeKana": "かざらせる",
+      "gloss": "decorar",
+      "polite": "decorar, cortés",
+      "negative": "no decorar",
+      "past": "decorar, pasado cortés",
+      "plainNeg": "no decorar, plano",
+      "plainPast": "decorar, pasado plano",
+      "want": "quiero decorar",
+      "teNote": "Godan en る.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-119fdf575e",
+      "label": "片付ける",
+      "dict": "片付ける",
+      "dictKana": "かたづける",
+      "stem": "片付け",
+      "stemKana": "かたづけ",
+      "te": "片付けて",
+      "teKana": "かたづけて",
+      "nai": "片付けない",
+      "naiKana": "かたづけない",
+      "ta": "片付けた",
+      "taKana": "かたづけた",
+      "tai": "片付けたい",
+      "taiKana": "かたづけたい",
+      "potential": "片付けられる",
+      "potentialKana": "かたづけられる",
+      "volitional": "片付けよう",
+      "volitionalKana": "かたづけよう",
+      "tara": "片付けたら",
+      "taraKana": "かたづけたら",
+      "ba": "片付ければ",
+      "baKana": "かたづければ",
+      "passive": "片付けられる",
+      "passiveKana": "かたづけられる",
+      "causative": "片付けさせる",
+      "causativeKana": "かたづけさせる",
+      "gloss": "ordenar",
+      "polite": "ordenar, cortés",
+      "negative": "no ordenar",
+      "past": "ordenar, pasado cortés",
+      "plainNeg": "no ordenar, plano",
+      "plainPast": "ordenar, pasado plano",
+      "want": "quiero ordenar",
+      "teNote": "Ichidan: se quita る.",
+      "kind": "ichidan"
+    },
+    {
+      "id": "w-021c00423f",
+      "label": "勝つ",
+      "dict": "勝つ",
+      "dictKana": "かつ",
+      "stem": "勝ち",
+      "stemKana": "かち",
+      "te": "勝って",
+      "teKana": "かって",
+      "nai": "勝たない",
+      "naiKana": "かたない",
+      "ta": "勝った",
+      "taKana": "かった",
+      "tai": "勝ちたい",
+      "taiKana": "かちたい",
+      "potential": "勝てる",
+      "potentialKana": "かてる",
+      "volitional": "勝とう",
+      "volitionalKana": "かとう",
+      "tara": "勝ったら",
+      "taraKana": "かったら",
+      "ba": "勝てば",
+      "baKana": "かてば",
+      "passive": "勝たれる",
+      "passiveKana": "かたれる",
+      "causative": "勝たせる",
+      "causativeKana": "かたせる",
+      "gloss": "ganar",
+      "polite": "ganar, cortés",
+      "negative": "no ganar",
+      "past": "ganar, pasado cortés",
+      "plainNeg": "no ganar, plano",
+      "plainPast": "ganar, pasado plano",
+      "want": "quiero ganar",
+      "teNote": "Godan en つ.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-e7dca3ae5a",
+      "label": "かまう",
+      "dict": "かまう",
+      "dictKana": "かまう",
+      "stem": "かまい",
+      "stemKana": "かまい",
+      "te": "かまって",
+      "teKana": "かまって",
+      "nai": "かまわない",
+      "naiKana": "かまわない",
+      "ta": "かまった",
+      "taKana": "かまった",
+      "tai": "かまいたい",
+      "taiKana": "かまいたい",
+      "potential": "かまえる",
+      "potentialKana": "かまえる",
+      "volitional": "かまおう",
+      "volitionalKana": "かまおう",
+      "tara": "かまったら",
+      "taraKana": "かまったら",
+      "ba": "かまえば",
+      "baKana": "かまえば",
+      "passive": "かまわれる",
+      "passiveKana": "かまわれる",
+      "causative": "かまわせる",
+      "causativeKana": "かまわせる",
+      "gloss": "importar",
+      "polite": "importar, cortés",
+      "negative": "no importar",
+      "past": "importar, pasado cortés",
+      "plainNeg": "no importar, plano",
+      "plainPast": "importar, pasado plano",
+      "want": "quiero importar",
+      "teNote": "Godan en う.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-6b240c6105",
+      "label": "噛む",
+      "dict": "噛む",
+      "dictKana": "かむ",
+      "stem": "噛み",
+      "stemKana": "かみ",
+      "te": "噛んで",
+      "teKana": "かんで",
+      "nai": "噛まない",
+      "naiKana": "かまない",
+      "ta": "噛んだ",
+      "taKana": "かんだ",
+      "tai": "噛みたい",
+      "taiKana": "かみたい",
+      "potential": "噛める",
+      "potentialKana": "かめる",
+      "volitional": "噛もう",
+      "volitionalKana": "かもう",
+      "tara": "噛んだら",
+      "taraKana": "かんだら",
+      "ba": "噛めば",
+      "baKana": "かめば",
+      "passive": "噛まれる",
+      "passiveKana": "かまれる",
+      "causative": "噛ませる",
+      "causativeKana": "かませる",
+      "gloss": "morder",
+      "polite": "morder, cortés",
+      "negative": "no morder",
+      "past": "morder, pasado cortés",
+      "plainNeg": "no morder, plano",
+      "plainPast": "morder, pasado plano",
+      "want": "quiero morder",
+      "teNote": "Godan en む.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-d1cd028481",
+      "label": "通う",
+      "dict": "通う",
+      "dictKana": "かよう",
+      "stem": "通い",
+      "stemKana": "かよい",
+      "te": "通って",
+      "teKana": "かよって",
+      "nai": "通わない",
+      "naiKana": "かよわない",
+      "ta": "通った",
+      "taKana": "かよった",
+      "tai": "通いたい",
+      "taiKana": "かよいたい",
+      "potential": "通える",
+      "potentialKana": "かよえる",
+      "volitional": "通おう",
+      "volitionalKana": "かよおう",
+      "tara": "通ったら",
+      "taraKana": "かよったら",
+      "ba": "通えば",
+      "baKana": "かよえば",
+      "passive": "通われる",
+      "passiveKana": "かよわれる",
+      "causative": "通わせる",
+      "causativeKana": "かよわせる",
+      "gloss": "ir habitualmente",
+      "polite": "ir habitualmente, cortés",
+      "negative": "no ir habitualmente",
+      "past": "ir habitualmente, pasado cortés",
+      "plainNeg": "no ir habitualmente, plano",
+      "plainPast": "ir habitualmente, pasado plano",
+      "want": "quiero ir habitualmente",
+      "teNote": "Godan en う.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-84c24fbab6",
+      "label": "乾く",
+      "dict": "乾く",
+      "dictKana": "かわく",
+      "stem": "乾き",
+      "stemKana": "かわき",
+      "te": "乾いて",
+      "teKana": "かわいて",
+      "nai": "乾かない",
+      "naiKana": "かわかない",
+      "ta": "乾いた",
+      "taKana": "かわいた",
+      "tai": "乾きたい",
+      "taiKana": "かわきたい",
+      "potential": "乾ける",
+      "potentialKana": "かわける",
+      "volitional": "乾こう",
+      "volitionalKana": "かわこう",
+      "tara": "乾いたら",
+      "taraKana": "かわいたら",
+      "ba": "乾けば",
+      "baKana": "かわけば",
+      "passive": "乾かれる",
+      "passiveKana": "かわかれる",
+      "causative": "乾かせる",
+      "causativeKana": "かわかせる",
+      "gloss": "secarse",
+      "polite": "secarse, cortés",
+      "negative": "no secarse",
+      "past": "secarse, pasado cortés",
+      "plainNeg": "no secarse, plano",
+      "plainPast": "secarse, pasado plano",
+      "want": "quiero secarse",
+      "teNote": "Godan en く.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-ec1bdccf03",
+      "label": "変わる",
+      "dict": "変わる",
+      "dictKana": "かわる",
+      "stem": "変わり",
+      "stemKana": "かわり",
+      "te": "変わって",
+      "teKana": "かわって",
+      "nai": "変わらない",
+      "naiKana": "かわらない",
+      "ta": "変わった",
+      "taKana": "かわった",
+      "tai": "変わりたい",
+      "taiKana": "かわりたい",
+      "potential": "変われる",
+      "potentialKana": "かわれる",
+      "volitional": "変わろう",
+      "volitionalKana": "かわろう",
+      "tara": "変わったら",
+      "taraKana": "かわったら",
+      "ba": "変われば",
+      "baKana": "かわれば",
+      "passive": "変わられる",
+      "passiveKana": "かわられる",
+      "causative": "変わらせる",
+      "causativeKana": "かわらせる",
+      "gloss": "cambiar",
+      "polite": "cambiar, cortés",
+      "negative": "no cambiar",
+      "past": "cambiar, pasado cortés",
+      "plainNeg": "no cambiar, plano",
+      "plainPast": "cambiar, pasado plano",
+      "want": "quiero cambiar",
+      "teNote": "Godan en る.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-cc34f28850",
+      "label": "考える",
+      "dict": "考える",
+      "dictKana": "かんがえる",
+      "stem": "考え",
+      "stemKana": "かんがえ",
+      "te": "考えて",
+      "teKana": "かんがえて",
+      "nai": "考えない",
+      "naiKana": "かんがえない",
+      "ta": "考えた",
+      "taKana": "かんがえた",
+      "tai": "考えたい",
+      "taiKana": "かんがえたい",
+      "potential": "考えられる",
+      "potentialKana": "かんがえられる",
+      "volitional": "考えよう",
+      "volitionalKana": "かんがえよう",
+      "tara": "考えたら",
+      "taraKana": "かんがえたら",
+      "ba": "考えれば",
+      "baKana": "かんがえれば",
+      "passive": "考えられる",
+      "passiveKana": "かんがえられる",
+      "causative": "考えさせる",
+      "causativeKana": "かんがえさせる",
+      "gloss": "pensar, considerar",
+      "polite": "pensar, considerar, cortés",
+      "negative": "no pensar, considerar",
+      "past": "pensar, considerar, pasado cortés",
+      "plainNeg": "no pensar, considerar, plano",
+      "plainPast": "pensar, considerar, pasado plano",
+      "want": "quiero pensar, considerar",
+      "teNote": "Ichidan: se quita る.",
+      "kind": "ichidan"
+    },
+    {
+      "id": "w-7225b79db5",
+      "label": "聞こえる",
+      "dict": "聞こえる",
+      "dictKana": "きこえる",
+      "stem": "聞こえ",
+      "stemKana": "きこえ",
+      "te": "聞こえて",
+      "teKana": "きこえて",
+      "nai": "聞こえない",
+      "naiKana": "きこえない",
+      "ta": "聞こえた",
+      "taKana": "きこえた",
+      "tai": "聞こえたい",
+      "taiKana": "きこえたい",
+      "potential": "",
+      "potentialKana": "",
+      "volitional": "聞こえよう",
+      "volitionalKana": "きこえよう",
+      "tara": "聞こえたら",
+      "taraKana": "きこえたら",
+      "ba": "聞こえれば",
+      "baKana": "きこえれば",
+      "passive": "",
+      "passiveKana": "",
+      "causative": "聞こえさせる",
+      "causativeKana": "きこえさせる",
+      "gloss": "oírse",
+      "polite": "oírse, cortés",
+      "negative": "no oírse",
+      "past": "oírse, pasado cortés",
+      "plainNeg": "no oírse, plano",
+      "plainPast": "oírse, pasado plano",
+      "want": "quiero oírse",
+      "teNote": "Ichidan: se quita る.",
+      "kind": "ichidan"
+    },
+    {
+      "id": "w-e4e7e09df0",
+      "label": "決まる",
+      "dict": "決まる",
+      "dictKana": "きまる",
+      "stem": "決まり",
+      "stemKana": "きまり",
+      "te": "決まって",
+      "teKana": "きまって",
+      "nai": "決まらない",
+      "naiKana": "きまらない",
+      "ta": "決まった",
+      "taKana": "きまった",
+      "tai": "決まりたい",
+      "taiKana": "きまりたい",
+      "potential": "決まれる",
+      "potentialKana": "きまれる",
+      "volitional": "決まろう",
+      "volitionalKana": "きまろう",
+      "tara": "決まったら",
+      "taraKana": "きまったら",
+      "ba": "決まれば",
+      "baKana": "きまれば",
+      "passive": "決まられる",
+      "passiveKana": "きまられる",
+      "causative": "決まらせる",
+      "causativeKana": "きまらせる",
+      "gloss": "quedar decidido",
+      "polite": "quedar decidido, cortés",
+      "negative": "no quedar decidido",
+      "past": "quedar decidido, pasado cortés",
+      "plainNeg": "no quedar decidido, plano",
+      "plainPast": "quedar decidido, pasado plano",
+      "want": "quiero quedar decidido",
+      "teNote": "Godan en る.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-6a98f898ab",
+      "label": "決める",
+      "dict": "決める",
+      "dictKana": "きめる",
+      "stem": "決め",
+      "stemKana": "きめ",
+      "te": "決めて",
+      "teKana": "きめて",
+      "nai": "決めない",
+      "naiKana": "きめない",
+      "ta": "決めた",
+      "taKana": "きめた",
+      "tai": "決めたい",
+      "taiKana": "きめたい",
+      "potential": "決められる",
+      "potentialKana": "きめられる",
+      "volitional": "決めよう",
+      "volitionalKana": "きめよう",
+      "tara": "決めたら",
+      "taraKana": "きめたら",
+      "ba": "決めれば",
+      "baKana": "きめれば",
+      "passive": "決められる",
+      "passiveKana": "きめられる",
+      "causative": "決めさせる",
+      "causativeKana": "きめさせる",
+      "gloss": "decidir",
+      "polite": "decidir, cortés",
+      "negative": "no decidir",
+      "past": "decidir, pasado cortés",
+      "plainNeg": "no decidir, plano",
+      "plainPast": "decidir, pasado plano",
+      "want": "quiero decidir",
+      "teNote": "Ichidan: se quita る.",
+      "kind": "ichidan"
+    },
+    {
+      "id": "w-b8da4537a2",
+      "label": "くださる",
+      "dict": "くださる",
+      "dictKana": "くださる",
+      "stem": "ください",
+      "stemKana": "ください",
+      "te": "くださって",
+      "teKana": "くださって",
+      "nai": "くださらない",
+      "naiKana": "くださらない",
+      "ta": "くださった",
+      "taKana": "くださった",
+      "tai": "くださりたい",
+      "taiKana": "くださりたい",
+      "potential": "",
+      "potentialKana": "",
+      "volitional": "くださろう",
+      "volitionalKana": "くださろう",
+      "tara": "くださったら",
+      "taraKana": "くださったら",
+      "ba": "くだされば",
+      "baKana": "くだされば",
+      "passive": "",
+      "passiveKana": "",
+      "causative": "",
+      "causativeKana": "",
+      "gloss": "dar, de respeto",
+      "polite": "dar, de respeto, cortés",
+      "negative": "no dar, de respeto",
+      "past": "dar, de respeto, pasado cortés",
+      "plainNeg": "no dar, de respeto, plano",
+      "plainPast": "dar, de respeto, pasado plano",
+      "want": "quiero dar, de respeto",
+      "teNote": "Respeto en ある: ます es います, no ります.",
+      "kind": "v5aru"
+    },
+    {
+      "id": "w-5bfe1d2c25",
+      "label": "比べる",
+      "dict": "比べる",
+      "dictKana": "くらべる",
+      "stem": "比べ",
+      "stemKana": "くらべ",
+      "te": "比べて",
+      "teKana": "くらべて",
+      "nai": "比べない",
+      "naiKana": "くらべない",
+      "ta": "比べた",
+      "taKana": "くらべた",
+      "tai": "比べたい",
+      "taiKana": "くらべたい",
+      "potential": "比べられる",
+      "potentialKana": "くらべられる",
+      "volitional": "比べよう",
+      "volitionalKana": "くらべよう",
+      "tara": "比べたら",
+      "taraKana": "くらべたら",
+      "ba": "比べれば",
+      "baKana": "くらべれば",
+      "passive": "比べられる",
+      "passiveKana": "くらべられる",
+      "causative": "比べさせる",
+      "causativeKana": "くらべさせる",
+      "gloss": "comparar",
+      "polite": "comparar, cortés",
+      "negative": "no comparar",
+      "past": "comparar, pasado cortés",
+      "plainNeg": "no comparar, plano",
+      "plainPast": "comparar, pasado plano",
+      "want": "quiero comparar",
+      "teNote": "Ichidan: se quita る.",
+      "kind": "ichidan"
+    },
+    {
+      "id": "w-7d2f81c2a3",
+      "label": "くれる",
+      "dict": "くれる",
+      "dictKana": "くれる",
+      "stem": "くれ",
+      "stemKana": "くれ",
+      "te": "くれて",
+      "teKana": "くれて",
+      "nai": "くれない",
+      "naiKana": "くれない",
+      "ta": "くれた",
+      "taKana": "くれた",
+      "tai": "くれたい",
+      "taiKana": "くれたい",
+      "potential": "くれられる",
+      "potentialKana": "くれられる",
+      "volitional": "くれよう",
+      "volitionalKana": "くれよう",
+      "tara": "くれたら",
+      "taraKana": "くれたら",
+      "ba": "くれれば",
+      "baKana": "くれれば",
+      "passive": "くれられる",
+      "passiveKana": "くれられる",
+      "causative": "くれさせる",
+      "causativeKana": "くれさせる",
+      "gloss": "darme",
+      "polite": "darme, cortés",
+      "negative": "no darme",
+      "past": "darme, pasado cortés",
+      "plainNeg": "no darme, plano",
+      "plainPast": "darme, pasado plano",
+      "want": "quiero darme",
+      "teNote": "Ichidan: se quita る.",
+      "kind": "ichidan"
+    },
+    {
+      "id": "w-17279b1beb",
+      "label": "暮れる",
+      "dict": "暮れる",
+      "dictKana": "くれる",
+      "stem": "暮れ",
+      "stemKana": "くれ",
+      "te": "暮れて",
+      "teKana": "くれて",
+      "nai": "暮れない",
+      "naiKana": "くれない",
+      "ta": "暮れた",
+      "taKana": "くれた",
+      "tai": "暮れたい",
+      "taiKana": "くれたい",
+      "potential": "暮れられる",
+      "potentialKana": "くれられる",
+      "volitional": "暮れよう",
+      "volitionalKana": "くれよう",
+      "tara": "暮れたら",
+      "taraKana": "くれたら",
+      "ba": "暮れれば",
+      "baKana": "くれれば",
+      "passive": "暮れられる",
+      "passiveKana": "くれられる",
+      "causative": "暮れさせる",
+      "causativeKana": "くれさせる",
+      "gloss": "anochecer",
+      "polite": "anochecer, cortés",
+      "negative": "no anochecer",
+      "past": "anochecer, pasado cortés",
+      "plainNeg": "no anochecer, plano",
+      "plainPast": "anochecer, pasado plano",
+      "want": "quiero anochecer",
+      "teNote": "Ichidan: se quita る.",
+      "kind": "ichidan"
+    },
+    {
+      "id": "w-8fb005254a",
+      "label": "けがする",
+      "dict": "けがする",
+      "dictKana": "けがする",
+      "stem": "けがし",
+      "stemKana": "けがし",
+      "te": "けがして",
+      "teKana": "けがして",
+      "nai": "けがしない",
+      "naiKana": "けがしない",
+      "ta": "けがした",
+      "taKana": "けがした",
+      "tai": "けがしたい",
+      "taiKana": "けがしたい",
+      "potential": "けができる",
+      "potentialKana": "けができる",
+      "volitional": "けがしよう",
+      "volitionalKana": "けがしよう",
+      "tara": "けがしたら",
+      "taraKana": "けがしたら",
+      "ba": "けがすれば",
+      "baKana": "けがすれば",
+      "passive": "けがされる",
+      "passiveKana": "けがされる",
+      "causative": "けがさせる",
+      "causativeKana": "けがさせる",
+      "gloss": "herirse",
+      "polite": "herirse, cortés",
+      "negative": "no herirse",
+      "past": "herirse, pasado cortés",
+      "plainNeg": "no herirse, plano",
+      "plainPast": "herirse, pasado plano",
+      "want": "quiero herirse",
+      "teNote": "する es irregular: します, できる, しよう.",
+      "kind": "suru"
+    },
+    {
+      "id": "w-063c94089d",
+      "label": "けんかする",
+      "dict": "けんかする",
+      "dictKana": "けんかする",
+      "stem": "けんかし",
+      "stemKana": "けんかし",
+      "te": "けんかして",
+      "teKana": "けんかして",
+      "nai": "けんかしない",
+      "naiKana": "けんかしない",
+      "ta": "けんかした",
+      "taKana": "けんかした",
+      "tai": "けんかしたい",
+      "taiKana": "けんかしたい",
+      "potential": "けんかできる",
+      "potentialKana": "けんかできる",
+      "volitional": "けんかしよう",
+      "volitionalKana": "けんかしよう",
+      "tara": "けんかしたら",
+      "taraKana": "けんかしたら",
+      "ba": "けんかすれば",
+      "baKana": "けんかすれば",
+      "passive": "けんかされる",
+      "passiveKana": "けんかされる",
+      "causative": "けんかさせる",
+      "causativeKana": "けんかさせる",
+      "gloss": "pelearse",
+      "polite": "pelearse, cortés",
+      "negative": "no pelearse",
+      "past": "pelearse, pasado cortés",
+      "plainNeg": "no pelearse, plano",
+      "plainPast": "pelearse, pasado plano",
+      "want": "quiero pelearse",
+      "teNote": "する es irregular: します, できる, しよう.",
+      "kind": "suru"
+    },
+    {
+      "id": "w-0470fc929f",
+      "label": "込む",
+      "dict": "込む",
+      "dictKana": "こむ",
+      "stem": "込み",
+      "stemKana": "こみ",
+      "te": "込んで",
+      "teKana": "こんで",
+      "nai": "込まない",
+      "naiKana": "こまない",
+      "ta": "込んだ",
+      "taKana": "こんだ",
+      "tai": "込みたい",
+      "taiKana": "こみたい",
+      "potential": "込める",
+      "potentialKana": "こめる",
+      "volitional": "込もう",
+      "volitionalKana": "こもう",
+      "tara": "込んだら",
+      "taraKana": "こんだら",
+      "ba": "込めば",
+      "baKana": "こめば",
+      "passive": "込まれる",
+      "passiveKana": "こまれる",
+      "causative": "込ませる",
+      "causativeKana": "こませる",
+      "gloss": "estar lleno de gente",
+      "polite": "estar lleno de gente, cortés",
+      "negative": "no estar lleno de gente",
+      "past": "estar lleno de gente, pasado cortés",
+      "plainNeg": "no estar lleno de gente, plano",
+      "plainPast": "estar lleno de gente, pasado plano",
+      "want": "quiero estar lleno de gente",
+      "teNote": "Godan en む.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-17fb3976d2",
+      "label": "ごらんになる",
+      "dict": "ごらんになる",
+      "dictKana": "ごらんになる",
+      "stem": "ごらんになり",
+      "stemKana": "ごらんになり",
+      "te": "ごらんになって",
+      "teKana": "ごらんになって",
+      "nai": "ごらんにならない",
+      "naiKana": "ごらんにならない",
+      "ta": "ごらんになった",
+      "taKana": "ごらんになった",
+      "tai": "ごらんになりたい",
+      "taiKana": "ごらんになりたい",
+      "potential": "ごらんになれる",
+      "potentialKana": "ごらんになれる",
+      "volitional": "ごらんになろう",
+      "volitionalKana": "ごらんになろう",
+      "tara": "ごらんになったら",
+      "taraKana": "ごらんになったら",
+      "ba": "ごらんになれば",
+      "baKana": "ごらんになれば",
+      "passive": "ごらんになられる",
+      "passiveKana": "ごらんになられる",
+      "causative": "ごらんにならせる",
+      "causativeKana": "ごらんにならせる",
+      "gloss": "ver, de respeto",
+      "polite": "ver, de respeto, cortés",
+      "negative": "no ver, de respeto",
+      "past": "ver, de respeto, pasado cortés",
+      "plainNeg": "no ver, de respeto, plano",
+      "plainPast": "ver, de respeto, pasado plano",
+      "want": "quiero ver, de respeto",
+      "teNote": "Godan en る.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-0b089107f6",
+      "label": "壊す",
+      "dict": "壊す",
+      "dictKana": "こわす",
+      "stem": "壊し",
+      "stemKana": "こわし",
+      "te": "壊して",
+      "teKana": "こわして",
+      "nai": "壊さない",
+      "naiKana": "こわさない",
+      "ta": "壊した",
+      "taKana": "こわした",
+      "tai": "壊したい",
+      "taiKana": "こわしたい",
+      "potential": "壊せる",
+      "potentialKana": "こわせる",
+      "volitional": "壊そう",
+      "volitionalKana": "こわそう",
+      "tara": "壊したら",
+      "taraKana": "こわしたら",
+      "ba": "壊せば",
+      "baKana": "こわせば",
+      "passive": "壊される",
+      "passiveKana": "こわされる",
+      "causative": "壊させる",
+      "causativeKana": "こわさせる",
+      "gloss": "romper",
+      "polite": "romper, cortés",
+      "negative": "no romper",
+      "past": "romper, pasado cortés",
+      "plainNeg": "no romper, plano",
+      "plainPast": "romper, pasado plano",
+      "want": "quiero romper",
+      "teNote": "Godan en す.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-63290aef69",
+      "label": "壊れる",
+      "dict": "壊れる",
+      "dictKana": "こわれる",
+      "stem": "壊れ",
+      "stemKana": "こわれ",
+      "te": "壊れて",
+      "teKana": "こわれて",
+      "nai": "壊れない",
+      "naiKana": "こわれない",
+      "ta": "壊れた",
+      "taKana": "こわれた",
+      "tai": "壊れたい",
+      "taiKana": "こわれたい",
+      "potential": "壊れられる",
+      "potentialKana": "こわれられる",
+      "volitional": "壊れよう",
+      "volitionalKana": "こわれよう",
+      "tara": "壊れたら",
+      "taraKana": "こわれたら",
+      "ba": "壊れれば",
+      "baKana": "こわれれば",
+      "passive": "壊れられる",
+      "passiveKana": "こわれられる",
+      "causative": "壊れさせる",
+      "causativeKana": "こわれさせる",
+      "gloss": "romperse",
+      "polite": "romperse, cortés",
+      "negative": "no romperse",
+      "past": "romperse, pasado cortés",
+      "plainNeg": "no romperse, plano",
+      "plainPast": "romperse, pasado plano",
+      "want": "quiero romperse",
+      "teNote": "Ichidan: se quita る.",
+      "kind": "ichidan"
+    },
+    {
+      "id": "w-0f4440571e",
+      "label": "探す",
+      "dict": "探す",
+      "dictKana": "さがす",
+      "stem": "探し",
+      "stemKana": "さがし",
+      "te": "探して",
+      "teKana": "さがして",
+      "nai": "探さない",
+      "naiKana": "さがさない",
+      "ta": "探した",
+      "taKana": "さがした",
+      "tai": "探したい",
+      "taiKana": "さがしたい",
+      "potential": "探せる",
+      "potentialKana": "さがせる",
+      "volitional": "探そう",
+      "volitionalKana": "さがそう",
+      "tara": "探したら",
+      "taraKana": "さがしたら",
+      "ba": "探せば",
+      "baKana": "さがせば",
+      "passive": "探される",
+      "passiveKana": "さがされる",
+      "causative": "探させる",
+      "causativeKana": "さがさせる",
+      "gloss": "buscar",
+      "polite": "buscar, cortés",
+      "negative": "no buscar",
+      "past": "buscar, pasado cortés",
+      "plainNeg": "no buscar, plano",
+      "plainPast": "buscar, pasado plano",
+      "want": "quiero buscar",
+      "teNote": "Godan en す.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-608037bdca",
+      "label": "下がる",
+      "dict": "下がる",
+      "dictKana": "さがる",
+      "stem": "下がり",
+      "stemKana": "さがり",
+      "te": "下がって",
+      "teKana": "さがって",
+      "nai": "下がらない",
+      "naiKana": "さがらない",
+      "ta": "下がった",
+      "taKana": "さがった",
+      "tai": "下がりたい",
+      "taiKana": "さがりたい",
+      "potential": "下がれる",
+      "potentialKana": "さがれる",
+      "volitional": "下がろう",
+      "volitionalKana": "さがろう",
+      "tara": "下がったら",
+      "taraKana": "さがったら",
+      "ba": "下がれば",
+      "baKana": "さがれば",
+      "passive": "下がられる",
+      "passiveKana": "さがられる",
+      "causative": "下がらせる",
+      "causativeKana": "さがらせる",
+      "gloss": "bajar",
+      "polite": "bajar, cortés",
+      "negative": "no bajar",
+      "past": "bajar, pasado cortés",
+      "plainNeg": "no bajar, plano",
+      "plainPast": "bajar, pasado plano",
+      "want": "quiero bajar",
+      "teNote": "Godan en る.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-92226ca7db",
+      "label": "下げる",
+      "dict": "下げる",
+      "dictKana": "さげる",
+      "stem": "下げ",
+      "stemKana": "さげ",
+      "te": "下げて",
+      "teKana": "さげて",
+      "nai": "下げない",
+      "naiKana": "さげない",
+      "ta": "下げた",
+      "taKana": "さげた",
+      "tai": "下げたい",
+      "taiKana": "さげたい",
+      "potential": "下げられる",
+      "potentialKana": "さげられる",
+      "volitional": "下げよう",
+      "volitionalKana": "さげよう",
+      "tara": "下げたら",
+      "taraKana": "さげたら",
+      "ba": "下げれば",
+      "baKana": "さげれば",
+      "passive": "下げられる",
+      "passiveKana": "さげられる",
+      "causative": "下げさせる",
+      "causativeKana": "さげさせる",
+      "gloss": "bajar algo",
+      "polite": "bajar algo, cortés",
+      "negative": "no bajar algo",
+      "past": "bajar algo, pasado cortés",
+      "plainNeg": "no bajar algo, plano",
+      "plainPast": "bajar algo, pasado plano",
+      "want": "quiero bajar algo",
+      "teNote": "Ichidan: se quita る.",
+      "kind": "ichidan"
+    },
+    {
+      "id": "w-4d497f75cf",
+      "label": "差し上げる",
+      "dict": "差し上げる",
+      "dictKana": "さしあげる",
+      "stem": "差し上げ",
+      "stemKana": "さしあげ",
+      "te": "差し上げて",
+      "teKana": "さしあげて",
+      "nai": "差し上げない",
+      "naiKana": "さしあげない",
+      "ta": "差し上げた",
+      "taKana": "さしあげた",
+      "tai": "差し上げたい",
+      "taiKana": "さしあげたい",
+      "potential": "差し上げられる",
+      "potentialKana": "さしあげられる",
+      "volitional": "差し上げよう",
+      "volitionalKana": "さしあげよう",
+      "tara": "差し上げたら",
+      "taraKana": "さしあげたら",
+      "ba": "差し上げれば",
+      "baKana": "さしあげれば",
+      "passive": "差し上げられる",
+      "passiveKana": "さしあげられる",
+      "causative": "差し上げさせる",
+      "causativeKana": "さしあげさせる",
+      "gloss": "dar, cortés",
+      "polite": "dar, cortés, cortés",
+      "negative": "no dar, cortés",
+      "past": "dar, cortés, pasado cortés",
+      "plainNeg": "no dar, cortés, plano",
+      "plainPast": "dar, cortés, pasado plano",
+      "want": "quiero dar, cortés",
+      "teNote": "Ichidan: se quita る.",
+      "kind": "ichidan"
+    },
+    {
+      "id": "w-5afe333d1c",
+      "label": "騒ぐ",
+      "dict": "騒ぐ",
+      "dictKana": "さわぐ",
+      "stem": "騒ぎ",
+      "stemKana": "さわぎ",
+      "te": "騒いで",
+      "teKana": "さわいで",
+      "nai": "騒がない",
+      "naiKana": "さわがない",
+      "ta": "騒いだ",
+      "taKana": "さわいだ",
+      "tai": "騒ぎたい",
+      "taiKana": "さわぎたい",
+      "potential": "騒げる",
+      "potentialKana": "さわげる",
+      "volitional": "騒ごう",
+      "volitionalKana": "さわごう",
+      "tara": "騒いだら",
+      "taraKana": "さわいだら",
+      "ba": "騒げば",
+      "baKana": "さわげば",
+      "passive": "騒がれる",
+      "passiveKana": "さわがれる",
+      "causative": "騒がせる",
+      "causativeKana": "さわがせる",
+      "gloss": "armar ruido",
+      "polite": "armar ruido, cortés",
+      "negative": "no armar ruido",
+      "past": "armar ruido, pasado cortés",
+      "plainNeg": "no armar ruido, plano",
+      "plainPast": "armar ruido, pasado plano",
+      "want": "quiero armar ruido",
+      "teNote": "Godan en ぐ.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-6d0bb40a1f",
+      "label": "触る",
+      "dict": "触る",
+      "dictKana": "さわる",
+      "stem": "触り",
+      "stemKana": "さわり",
+      "te": "触って",
+      "teKana": "さわって",
+      "nai": "触らない",
+      "naiKana": "さわらない",
+      "ta": "触った",
+      "taKana": "さわった",
+      "tai": "触りたい",
+      "taiKana": "さわりたい",
+      "potential": "触れる",
+      "potentialKana": "さわれる",
+      "volitional": "触ろう",
+      "volitionalKana": "さわろう",
+      "tara": "触ったら",
+      "taraKana": "さわったら",
+      "ba": "触れば",
+      "baKana": "さわれば",
+      "passive": "触られる",
+      "passiveKana": "さわられる",
+      "causative": "触らせる",
+      "causativeKana": "さわらせる",
+      "gloss": "tocar",
+      "polite": "tocar, cortés",
+      "negative": "no tocar",
+      "past": "tocar, pasado cortés",
+      "plainNeg": "no tocar, plano",
+      "plainPast": "tocar, pasado plano",
+      "want": "quiero tocar",
+      "teNote": "Godan en る.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-1a680b4cf9",
+      "label": "知らせる",
+      "dict": "知らせる",
+      "dictKana": "しらせる",
+      "stem": "知らせ",
+      "stemKana": "しらせ",
+      "te": "知らせて",
+      "teKana": "しらせて",
+      "nai": "知らせない",
+      "naiKana": "しらせない",
+      "ta": "知らせた",
+      "taKana": "しらせた",
+      "tai": "知らせたい",
+      "taiKana": "しらせたい",
+      "potential": "知らせられる",
+      "potentialKana": "しらせられる",
+      "volitional": "知らせよう",
+      "volitionalKana": "しらせよう",
+      "tara": "知らせたら",
+      "taraKana": "しらせたら",
+      "ba": "知らせれば",
+      "baKana": "しらせれば",
+      "passive": "知らせられる",
+      "passiveKana": "しらせられる",
+      "causative": "知らせさせる",
+      "causativeKana": "しらせさせる",
+      "gloss": "avisar",
+      "polite": "avisar, cortés",
+      "negative": "no avisar",
+      "past": "avisar, pasado cortés",
+      "plainNeg": "no avisar, plano",
+      "plainPast": "avisar, pasado plano",
+      "want": "quiero avisar",
+      "teNote": "Ichidan: se quita る.",
+      "kind": "ichidan"
+    },
+    {
+      "id": "w-beb32f751c",
+      "label": "調べる",
+      "dict": "調べる",
+      "dictKana": "しらべる",
+      "stem": "調べ",
+      "stemKana": "しらべ",
+      "te": "調べて",
+      "teKana": "しらべて",
+      "nai": "調べない",
+      "naiKana": "しらべない",
+      "ta": "調べた",
+      "taKana": "しらべた",
+      "tai": "調べたい",
+      "taiKana": "しらべたい",
+      "potential": "調べられる",
+      "potentialKana": "しらべられる",
+      "volitional": "調べよう",
+      "volitionalKana": "しらべよう",
+      "tara": "調べたら",
+      "taraKana": "しらべたら",
+      "ba": "調べれば",
+      "baKana": "しらべれば",
+      "passive": "調べられる",
+      "passiveKana": "しらべられる",
+      "causative": "調べさせる",
+      "causativeKana": "しらべさせる",
+      "gloss": "consultar, investigar",
+      "polite": "consultar, investigar, cortés",
+      "negative": "no consultar, investigar",
+      "past": "consultar, investigar, pasado cortés",
+      "plainNeg": "no consultar, investigar, plano",
+      "plainPast": "consultar, investigar, pasado plano",
+      "want": "quiero consultar, investigar",
+      "teNote": "Ichidan: se quita る.",
+      "kind": "ichidan"
+    },
+    {
+      "id": "w-6701f8cbba",
+      "label": "過ぎる",
+      "dict": "過ぎる",
+      "dictKana": "すぎる",
+      "stem": "過ぎ",
+      "stemKana": "すぎ",
+      "te": "過ぎて",
+      "teKana": "すぎて",
+      "nai": "過ぎない",
+      "naiKana": "すぎない",
+      "ta": "過ぎた",
+      "taKana": "すぎた",
+      "tai": "過ぎたい",
+      "taiKana": "すぎたい",
+      "potential": "過ぎられる",
+      "potentialKana": "すぎられる",
+      "volitional": "過ぎよう",
+      "volitionalKana": "すぎよう",
+      "tara": "過ぎたら",
+      "taraKana": "すぎたら",
+      "ba": "過ぎれば",
+      "baKana": "すぎれば",
+      "passive": "過ぎられる",
+      "passiveKana": "すぎられる",
+      "causative": "過ぎさせる",
+      "causativeKana": "すぎさせる",
+      "gloss": "pasarse, exceder",
+      "polite": "pasarse, exceder, cortés",
+      "negative": "no pasarse, exceder",
+      "past": "pasarse, exceder, pasado cortés",
+      "plainNeg": "no pasarse, exceder, plano",
+      "plainPast": "pasarse, exceder, pasado plano",
+      "want": "quiero pasarse, exceder",
+      "teNote": "Ichidan: se quita る.",
+      "kind": "ichidan"
+    },
+    {
+      "id": "w-8065461ace",
+      "label": "すく",
+      "dict": "すく",
+      "dictKana": "すく",
+      "stem": "すき",
+      "stemKana": "すき",
+      "te": "すいて",
+      "teKana": "すいて",
+      "nai": "すかない",
+      "naiKana": "すかない",
+      "ta": "すいた",
+      "taKana": "すいた",
+      "tai": "すきたい",
+      "taiKana": "すきたい",
+      "potential": "すける",
+      "potentialKana": "すける",
+      "volitional": "すこう",
+      "volitionalKana": "すこう",
+      "tara": "すいたら",
+      "taraKana": "すいたら",
+      "ba": "すけば",
+      "baKana": "すけば",
+      "passive": "すかれる",
+      "passiveKana": "すかれる",
+      "causative": "すかせる",
+      "causativeKana": "すかせる",
+      "gloss": "vaciarse",
+      "polite": "vaciarse, cortés",
+      "negative": "no vaciarse",
+      "past": "vaciarse, pasado cortés",
+      "plainNeg": "no vaciarse, plano",
+      "plainPast": "vaciarse, pasado plano",
+      "want": "quiero vaciarse",
+      "teNote": "Godan en く.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-5c8702fe01",
+      "label": "進む",
+      "dict": "進む",
+      "dictKana": "すすむ",
+      "stem": "進み",
+      "stemKana": "すすみ",
+      "te": "進んで",
+      "teKana": "すすんで",
+      "nai": "進まない",
+      "naiKana": "すすまない",
+      "ta": "進んだ",
+      "taKana": "すすんだ",
+      "tai": "進みたい",
+      "taiKana": "すすみたい",
+      "potential": "進める",
+      "potentialKana": "すすめる",
+      "volitional": "進もう",
+      "volitionalKana": "すすもう",
+      "tara": "進んだら",
+      "taraKana": "すすんだら",
+      "ba": "進めば",
+      "baKana": "すすめば",
+      "passive": "進まれる",
+      "passiveKana": "すすまれる",
+      "causative": "進ませる",
+      "causativeKana": "すすませる",
+      "gloss": "avanzar",
+      "polite": "avanzar, cortés",
+      "negative": "no avanzar",
+      "past": "avanzar, pasado cortés",
+      "plainNeg": "no avanzar, plano",
+      "plainPast": "avanzar, pasado plano",
+      "want": "quiero avanzar",
+      "teNote": "Godan en む.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-49ac3c55c7",
+      "label": "捨てる",
+      "dict": "捨てる",
+      "dictKana": "すてる",
+      "stem": "捨て",
+      "stemKana": "すて",
+      "te": "捨てて",
+      "teKana": "すてて",
+      "nai": "捨てない",
+      "naiKana": "すてない",
+      "ta": "捨てた",
+      "taKana": "すてた",
+      "tai": "捨てたい",
+      "taiKana": "すてたい",
+      "potential": "捨てられる",
+      "potentialKana": "すてられる",
+      "volitional": "捨てよう",
+      "volitionalKana": "すてよう",
+      "tara": "捨てたら",
+      "taraKana": "すてたら",
+      "ba": "捨てれば",
+      "baKana": "すてれば",
+      "passive": "捨てられる",
+      "passiveKana": "すてられる",
+      "causative": "捨てさせる",
+      "causativeKana": "すてさせる",
+      "gloss": "tirar",
+      "polite": "tirar, cortés",
+      "negative": "no tirar",
+      "past": "tirar, pasado cortés",
+      "plainNeg": "no tirar, plano",
+      "plainPast": "tirar, pasado plano",
+      "want": "quiero tirar",
+      "teNote": "Ichidan: se quita る.",
+      "kind": "ichidan"
+    },
+    {
+      "id": "w-081d0fb4bb",
+      "label": "滑る",
+      "dict": "滑る",
+      "dictKana": "すべる",
+      "stem": "滑り",
+      "stemKana": "すべり",
+      "te": "滑って",
+      "teKana": "すべって",
+      "nai": "滑らない",
+      "naiKana": "すべらない",
+      "ta": "滑った",
+      "taKana": "すべった",
+      "tai": "滑りたい",
+      "taiKana": "すべりたい",
+      "potential": "滑れる",
+      "potentialKana": "すべれる",
+      "volitional": "滑ろう",
+      "volitionalKana": "すべろう",
+      "tara": "滑ったら",
+      "taraKana": "すべったら",
+      "ba": "滑れば",
+      "baKana": "すべれば",
+      "passive": "滑られる",
+      "passiveKana": "すべられる",
+      "causative": "滑らせる",
+      "causativeKana": "すべらせる",
+      "gloss": "resbalar",
+      "polite": "resbalar, cortés",
+      "negative": "no resbalar",
+      "past": "resbalar, pasado cortés",
+      "plainNeg": "no resbalar, plano",
+      "plainPast": "resbalar, pasado plano",
+      "want": "quiero resbalar",
+      "teNote": "Godan en る.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-1e1b53a2d3",
+      "label": "済む",
+      "dict": "済む",
+      "dictKana": "すむ",
+      "stem": "済み",
+      "stemKana": "すみ",
+      "te": "済んで",
+      "teKana": "すんで",
+      "nai": "済まない",
+      "naiKana": "すまない",
+      "ta": "済んだ",
+      "taKana": "すんだ",
+      "tai": "済みたい",
+      "taiKana": "すみたい",
+      "potential": "済める",
+      "potentialKana": "すめる",
+      "volitional": "済もう",
+      "volitionalKana": "すもう",
+      "tara": "済んだら",
+      "taraKana": "すんだら",
+      "ba": "済めば",
+      "baKana": "すめば",
+      "passive": "済まれる",
+      "passiveKana": "すまれる",
+      "causative": "済ませる",
+      "causativeKana": "すませる",
+      "gloss": "terminar, bastar",
+      "polite": "terminar, bastar, cortés",
+      "negative": "no terminar, bastar",
+      "past": "terminar, bastar, pasado cortés",
+      "plainNeg": "no terminar, bastar, plano",
+      "plainPast": "terminar, bastar, pasado plano",
+      "want": "quiero terminar, bastar",
+      "teNote": "Godan en む.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-ec43853e0f",
+      "label": "育てる",
+      "dict": "育てる",
+      "dictKana": "そだてる",
+      "stem": "育て",
+      "stemKana": "そだて",
+      "te": "育てて",
+      "teKana": "そだてて",
+      "nai": "育てない",
+      "naiKana": "そだてない",
+      "ta": "育てた",
+      "taKana": "そだてた",
+      "tai": "育てたい",
+      "taiKana": "そだてたい",
+      "potential": "育てられる",
+      "potentialKana": "そだてられる",
+      "volitional": "育てよう",
+      "volitionalKana": "そだてよう",
+      "tara": "育てたら",
+      "taraKana": "そだてたら",
+      "ba": "育てれば",
+      "baKana": "そだてれば",
+      "passive": "育てられる",
+      "passiveKana": "そだてられる",
+      "causative": "育てさせる",
+      "causativeKana": "そだてさせる",
+      "gloss": "criar",
+      "polite": "criar, cortés",
+      "negative": "no criar",
+      "past": "criar, pasado cortés",
+      "plainNeg": "no criar, plano",
+      "plainPast": "criar, pasado plano",
+      "want": "quiero criar",
+      "teNote": "Ichidan: se quita る.",
+      "kind": "ichidan"
+    },
+    {
+      "id": "w-23afff6d4b",
+      "label": "倒れる",
+      "dict": "倒れる",
+      "dictKana": "たおれる",
+      "stem": "倒れ",
+      "stemKana": "たおれ",
+      "te": "倒れて",
+      "teKana": "たおれて",
+      "nai": "倒れない",
+      "naiKana": "たおれない",
+      "ta": "倒れた",
+      "taKana": "たおれた",
+      "tai": "倒れたい",
+      "taiKana": "たおれたい",
+      "potential": "倒れられる",
+      "potentialKana": "たおれられる",
+      "volitional": "倒れよう",
+      "volitionalKana": "たおれよう",
+      "tara": "倒れたら",
+      "taraKana": "たおれたら",
+      "ba": "倒れれば",
+      "baKana": "たおれれば",
+      "passive": "倒れられる",
+      "passiveKana": "たおれられる",
+      "causative": "倒れさせる",
+      "causativeKana": "たおれさせる",
+      "gloss": "desplomarse",
+      "polite": "desplomarse, cortés",
+      "negative": "no desplomarse",
+      "past": "desplomarse, pasado cortés",
+      "plainNeg": "no desplomarse, plano",
+      "plainPast": "desplomarse, pasado plano",
+      "want": "quiero desplomarse",
+      "teNote": "Ichidan: se quita る.",
+      "kind": "ichidan"
+    },
+    {
+      "id": "w-12d94456b3",
+      "label": "足す",
+      "dict": "足す",
+      "dictKana": "たす",
+      "stem": "足し",
+      "stemKana": "たし",
+      "te": "足して",
+      "teKana": "たして",
+      "nai": "足さない",
+      "naiKana": "たさない",
+      "ta": "足した",
+      "taKana": "たした",
+      "tai": "足したい",
+      "taiKana": "たしたい",
+      "potential": "足せる",
+      "potentialKana": "たせる",
+      "volitional": "足そう",
+      "volitionalKana": "たそう",
+      "tara": "足したら",
+      "taraKana": "たしたら",
+      "ba": "足せば",
+      "baKana": "たせば",
+      "passive": "足される",
+      "passiveKana": "たされる",
+      "causative": "足させる",
+      "causativeKana": "たさせる",
+      "gloss": "sumar",
+      "polite": "sumar, cortés",
+      "negative": "no sumar",
+      "past": "sumar, pasado cortés",
+      "plainNeg": "no sumar, plano",
+      "plainPast": "sumar, pasado plano",
+      "want": "quiero sumar",
+      "teNote": "Godan en す.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-d73148e8d0",
+      "label": "尋ねる",
+      "dict": "尋ねる",
+      "dictKana": "たずねる",
+      "stem": "尋ね",
+      "stemKana": "たずね",
+      "te": "尋ねて",
+      "teKana": "たずねて",
+      "nai": "尋ねない",
+      "naiKana": "たずねない",
+      "ta": "尋ねた",
+      "taKana": "たずねた",
+      "tai": "尋ねたい",
+      "taiKana": "たずねたい",
+      "potential": "尋ねられる",
+      "potentialKana": "たずねられる",
+      "volitional": "尋ねよう",
+      "volitionalKana": "たずねよう",
+      "tara": "尋ねたら",
+      "taraKana": "たずねたら",
+      "ba": "尋ねれば",
+      "baKana": "たずねれば",
+      "passive": "尋ねられる",
+      "passiveKana": "たずねられる",
+      "causative": "尋ねさせる",
+      "causativeKana": "たずねさせる",
+      "gloss": "preguntar",
+      "polite": "preguntar, cortés",
+      "negative": "no preguntar",
+      "past": "preguntar, pasado cortés",
+      "plainNeg": "no preguntar, plano",
+      "plainPast": "preguntar, pasado plano",
+      "want": "quiero preguntar",
+      "teNote": "Ichidan: se quita る.",
+      "kind": "ichidan"
+    },
+    {
+      "id": "w-2710211107",
+      "label": "訪ねる",
+      "dict": "訪ねる",
+      "dictKana": "たずねる",
+      "stem": "訪ね",
+      "stemKana": "たずね",
+      "te": "訪ねて",
+      "teKana": "たずねて",
+      "nai": "訪ねない",
+      "naiKana": "たずねない",
+      "ta": "訪ねた",
+      "taKana": "たずねた",
+      "tai": "訪ねたい",
+      "taiKana": "たずねたい",
+      "potential": "訪ねられる",
+      "potentialKana": "たずねられる",
+      "volitional": "訪ねよう",
+      "volitionalKana": "たずねよう",
+      "tara": "訪ねたら",
+      "taraKana": "たずねたら",
+      "ba": "訪ねれば",
+      "baKana": "たずねれば",
+      "passive": "訪ねられる",
+      "passiveKana": "たずねられる",
+      "causative": "訪ねさせる",
+      "causativeKana": "たずねさせる",
+      "gloss": "visitar",
+      "polite": "visitar, cortés",
+      "negative": "no visitar",
+      "past": "visitar, pasado cortés",
+      "plainNeg": "no visitar, plano",
+      "plainPast": "visitar, pasado plano",
+      "want": "quiero visitar",
+      "teNote": "Ichidan: se quita る.",
+      "kind": "ichidan"
+    },
+    {
+      "id": "w-c5741f54d6",
+      "label": "建てる",
+      "dict": "建てる",
+      "dictKana": "たてる",
+      "stem": "建て",
+      "stemKana": "たて",
+      "te": "建てて",
+      "teKana": "たてて",
+      "nai": "建てない",
+      "naiKana": "たてない",
+      "ta": "建てた",
+      "taKana": "たてた",
+      "tai": "建てたい",
+      "taiKana": "たてたい",
+      "potential": "建てられる",
+      "potentialKana": "たてられる",
+      "volitional": "建てよう",
+      "volitionalKana": "たてよう",
+      "tara": "建てたら",
+      "taraKana": "たてたら",
+      "ba": "建てれば",
+      "baKana": "たてれば",
+      "passive": "建てられる",
+      "passiveKana": "たてられる",
+      "causative": "建てさせる",
+      "causativeKana": "たてさせる",
+      "gloss": "construir",
+      "polite": "construir, cortés",
+      "negative": "no construir",
+      "past": "construir, pasado cortés",
+      "plainNeg": "no construir, plano",
+      "plainPast": "construir, pasado plano",
+      "want": "quiero construir",
+      "teNote": "Ichidan: se quita る.",
+      "kind": "ichidan"
+    },
+    {
+      "id": "w-cad7f1010a",
+      "label": "立てる",
+      "dict": "立てる",
+      "dictKana": "たてる",
+      "stem": "立て",
+      "stemKana": "たて",
+      "te": "立てて",
+      "teKana": "たてて",
+      "nai": "立てない",
+      "naiKana": "たてない",
+      "ta": "立てた",
+      "taKana": "たてた",
+      "tai": "立てたい",
+      "taiKana": "たてたい",
+      "potential": "立てられる",
+      "potentialKana": "たてられる",
+      "volitional": "立てよう",
+      "volitionalKana": "たてよう",
+      "tara": "立てたら",
+      "taraKana": "たてたら",
+      "ba": "立てれば",
+      "baKana": "たてれば",
+      "passive": "立てられる",
+      "passiveKana": "たてられる",
+      "causative": "立てさせる",
+      "causativeKana": "たてさせる",
+      "gloss": "poner de pie",
+      "polite": "poner de pie, cortés",
+      "negative": "no poner de pie",
+      "past": "poner de pie, pasado cortés",
+      "plainNeg": "no poner de pie, plano",
+      "plainPast": "poner de pie, pasado plano",
+      "want": "quiero poner de pie",
+      "teNote": "Ichidan: se quita る.",
+      "kind": "ichidan"
+    },
+    {
+      "id": "w-9f86b83cad",
+      "label": "楽しむ",
+      "dict": "楽しむ",
+      "dictKana": "たのしむ",
+      "stem": "楽しみ",
+      "stemKana": "たのしみ",
+      "te": "楽しんで",
+      "teKana": "たのしんで",
+      "nai": "楽しまない",
+      "naiKana": "たのしまない",
+      "ta": "楽しんだ",
+      "taKana": "たのしんだ",
+      "tai": "楽しみたい",
+      "taiKana": "たのしみたい",
+      "potential": "楽しめる",
+      "potentialKana": "たのしめる",
+      "volitional": "楽しもう",
+      "volitionalKana": "たのしもう",
+      "tara": "楽しんだら",
+      "taraKana": "たのしんだら",
+      "ba": "楽しめば",
+      "baKana": "たのしめば",
+      "passive": "楽しまれる",
+      "passiveKana": "たのしまれる",
+      "causative": "楽しませる",
+      "causativeKana": "たのしませる",
+      "gloss": "disfrutar",
+      "polite": "disfrutar, cortés",
+      "negative": "no disfrutar",
+      "past": "disfrutar, pasado cortés",
+      "plainNeg": "no disfrutar, plano",
+      "plainPast": "disfrutar, pasado plano",
+      "want": "quiero disfrutar",
+      "teNote": "Godan en む.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-19f08c094e",
+      "label": "足りる",
+      "dict": "足りる",
+      "dictKana": "たりる",
+      "stem": "足り",
+      "stemKana": "たり",
+      "te": "足りて",
+      "teKana": "たりて",
+      "nai": "足りない",
+      "naiKana": "たりない",
+      "ta": "足りた",
+      "taKana": "たりた",
+      "tai": "足りたい",
+      "taiKana": "たりたい",
+      "potential": "足りられる",
+      "potentialKana": "たりられる",
+      "volitional": "足りよう",
+      "volitionalKana": "たりよう",
+      "tara": "足りたら",
+      "taraKana": "たりたら",
+      "ba": "足りれば",
+      "baKana": "たりれば",
+      "passive": "足りられる",
+      "passiveKana": "たりられる",
+      "causative": "足りさせる",
+      "causativeKana": "たりさせる",
+      "gloss": "bastar",
+      "polite": "bastar, cortés",
+      "negative": "no bastar",
+      "past": "bastar, pasado cortés",
+      "plainNeg": "no bastar, plano",
+      "plainPast": "bastar, pasado plano",
+      "want": "quiero bastar",
+      "teNote": "Ichidan: se quita る.",
+      "kind": "ichidan"
+    },
+    {
+      "id": "w-ef537ea4a9",
+      "label": "捕まえる",
+      "dict": "捕まえる",
+      "dictKana": "つかまえる",
+      "stem": "捕まえ",
+      "stemKana": "つかまえ",
+      "te": "捕まえて",
+      "teKana": "つかまえて",
+      "nai": "捕まえない",
+      "naiKana": "つかまえない",
+      "ta": "捕まえた",
+      "taKana": "つかまえた",
+      "tai": "捕まえたい",
+      "taiKana": "つかまえたい",
+      "potential": "捕まえられる",
+      "potentialKana": "つかまえられる",
+      "volitional": "捕まえよう",
+      "volitionalKana": "つかまえよう",
+      "tara": "捕まえたら",
+      "taraKana": "つかまえたら",
+      "ba": "捕まえれば",
+      "baKana": "つかまえれば",
+      "passive": "捕まえられる",
+      "passiveKana": "つかまえられる",
+      "causative": "捕まえさせる",
+      "causativeKana": "つかまえさせる",
+      "gloss": "atrapar",
+      "polite": "atrapar, cortés",
+      "negative": "no atrapar",
+      "past": "atrapar, pasado cortés",
+      "plainNeg": "no atrapar, plano",
+      "plainPast": "atrapar, pasado plano",
+      "want": "quiero atrapar",
+      "teNote": "Ichidan: se quita る.",
+      "kind": "ichidan"
+    },
+    {
+      "id": "w-356e03170b",
+      "label": "付く",
+      "dict": "付く",
+      "dictKana": "つく",
+      "stem": "付き",
+      "stemKana": "つき",
+      "te": "付いて",
+      "teKana": "ついて",
+      "nai": "付かない",
+      "naiKana": "つかない",
+      "ta": "付いた",
+      "taKana": "ついた",
+      "tai": "付きたい",
+      "taiKana": "つきたい",
+      "potential": "付ける",
+      "potentialKana": "つける",
+      "volitional": "付こう",
+      "volitionalKana": "つこう",
+      "tara": "付いたら",
+      "taraKana": "ついたら",
+      "ba": "付けば",
+      "baKana": "つけば",
+      "passive": "付かれる",
+      "passiveKana": "つかれる",
+      "causative": "付かせる",
+      "causativeKana": "つかせる",
+      "gloss": "pegarse, encenderse",
+      "polite": "pegarse, encenderse, cortés",
+      "negative": "no pegarse, encenderse",
+      "past": "pegarse, encenderse, pasado cortés",
+      "plainNeg": "no pegarse, encenderse, plano",
+      "plainPast": "pegarse, encenderse, pasado plano",
+      "want": "quiero pegarse, encenderse",
+      "teNote": "Godan en く.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-c206b05b9d",
+      "label": "漬ける",
+      "dict": "漬ける",
+      "dictKana": "つける",
+      "stem": "漬け",
+      "stemKana": "つけ",
+      "te": "漬けて",
+      "teKana": "つけて",
+      "nai": "漬けない",
+      "naiKana": "つけない",
+      "ta": "漬けた",
+      "taKana": "つけた",
+      "tai": "漬けたい",
+      "taiKana": "つけたい",
+      "potential": "漬けられる",
+      "potentialKana": "つけられる",
+      "volitional": "漬けよう",
+      "volitionalKana": "つけよう",
+      "tara": "漬けたら",
+      "taraKana": "つけたら",
+      "ba": "漬ければ",
+      "baKana": "つければ",
+      "passive": "漬けられる",
+      "passiveKana": "つけられる",
+      "causative": "漬けさせる",
+      "causativeKana": "つけさせる",
+      "gloss": "poner en remojo",
+      "polite": "poner en remojo, cortés",
+      "negative": "no poner en remojo",
+      "past": "poner en remojo, pasado cortés",
+      "plainNeg": "no poner en remojo, plano",
+      "plainPast": "poner en remojo, pasado plano",
+      "want": "quiero poner en remojo",
+      "teNote": "Ichidan: se quita る.",
+      "kind": "ichidan"
+    },
+    {
+      "id": "w-bbe4edb30f",
+      "label": "伝える",
+      "dict": "伝える",
+      "dictKana": "つたえる",
+      "stem": "伝え",
+      "stemKana": "つたえ",
+      "te": "伝えて",
+      "teKana": "つたえて",
+      "nai": "伝えない",
+      "naiKana": "つたえない",
+      "ta": "伝えた",
+      "taKana": "つたえた",
+      "tai": "伝えたい",
+      "taiKana": "つたえたい",
+      "potential": "伝えられる",
+      "potentialKana": "つたえられる",
+      "volitional": "伝えよう",
+      "volitionalKana": "つたえよう",
+      "tara": "伝えたら",
+      "taraKana": "つたえたら",
+      "ba": "伝えれば",
+      "baKana": "つたえれば",
+      "passive": "伝えられる",
+      "passiveKana": "つたえられる",
+      "causative": "伝えさせる",
+      "causativeKana": "つたえさせる",
+      "gloss": "transmitir",
+      "polite": "transmitir, cortés",
+      "negative": "no transmitir",
+      "past": "transmitir, pasado cortés",
+      "plainNeg": "no transmitir, plano",
+      "plainPast": "transmitir, pasado plano",
+      "want": "quiero transmitir",
+      "teNote": "Ichidan: se quita る.",
+      "kind": "ichidan"
+    },
+    {
+      "id": "w-a1db204b87",
+      "label": "続く",
+      "dict": "続く",
+      "dictKana": "つづく",
+      "stem": "続き",
+      "stemKana": "つづき",
+      "te": "続いて",
+      "teKana": "つづいて",
+      "nai": "続かない",
+      "naiKana": "つづかない",
+      "ta": "続いた",
+      "taKana": "つづいた",
+      "tai": "続きたい",
+      "taiKana": "つづきたい",
+      "potential": "続ける",
+      "potentialKana": "つづける",
+      "volitional": "続こう",
+      "volitionalKana": "つづこう",
+      "tara": "続いたら",
+      "taraKana": "つづいたら",
+      "ba": "続けば",
+      "baKana": "つづけば",
+      "passive": "続かれる",
+      "passiveKana": "つづかれる",
+      "causative": "続かせる",
+      "causativeKana": "つづかせる",
+      "gloss": "continuar",
+      "polite": "continuar, cortés",
+      "negative": "no continuar",
+      "past": "continuar, pasado cortés",
+      "plainNeg": "no continuar, plano",
+      "plainPast": "continuar, pasado plano",
+      "want": "quiero continuar",
+      "teNote": "Godan en く.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-d177796b00",
+      "label": "続ける",
+      "dict": "続ける",
+      "dictKana": "つづける",
+      "stem": "続け",
+      "stemKana": "つづけ",
+      "te": "続けて",
+      "teKana": "つづけて",
+      "nai": "続けない",
+      "naiKana": "つづけない",
+      "ta": "続けた",
+      "taKana": "つづけた",
+      "tai": "続けたい",
+      "taiKana": "つづけたい",
+      "potential": "続けられる",
+      "potentialKana": "つづけられる",
+      "volitional": "続けよう",
+      "volitionalKana": "つづけよう",
+      "tara": "続けたら",
+      "taraKana": "つづけたら",
+      "ba": "続ければ",
+      "baKana": "つづければ",
+      "passive": "続けられる",
+      "passiveKana": "つづけられる",
+      "causative": "続けさせる",
+      "causativeKana": "つづけさせる",
+      "gloss": "seguir haciendo",
+      "polite": "seguir haciendo, cortés",
+      "negative": "no seguir haciendo",
+      "past": "seguir haciendo, pasado cortés",
+      "plainNeg": "no seguir haciendo, plano",
+      "plainPast": "seguir haciendo, pasado plano",
+      "want": "quiero seguir haciendo",
+      "teNote": "Ichidan: se quita る.",
+      "kind": "ichidan"
+    },
+    {
+      "id": "w-ce21381e4f",
+      "label": "包む",
+      "dict": "包む",
+      "dictKana": "つつむ",
+      "stem": "包み",
+      "stemKana": "つつみ",
+      "te": "包んで",
+      "teKana": "つつんで",
+      "nai": "包まない",
+      "naiKana": "つつまない",
+      "ta": "包んだ",
+      "taKana": "つつんだ",
+      "tai": "包みたい",
+      "taiKana": "つつみたい",
+      "potential": "包める",
+      "potentialKana": "つつめる",
+      "volitional": "包もう",
+      "volitionalKana": "つつもう",
+      "tara": "包んだら",
+      "taraKana": "つつんだら",
+      "ba": "包めば",
+      "baKana": "つつめば",
+      "passive": "包まれる",
+      "passiveKana": "つつまれる",
+      "causative": "包ませる",
+      "causativeKana": "つつませる",
+      "gloss": "envolver",
+      "polite": "envolver, cortés",
+      "negative": "no envolver",
+      "past": "envolver, pasado cortés",
+      "plainNeg": "no envolver, plano",
+      "plainPast": "envolver, pasado plano",
+      "want": "quiero envolver",
+      "teNote": "Godan en む.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-15f9f72b7c",
+      "label": "釣る",
+      "dict": "釣る",
+      "dictKana": "つる",
+      "stem": "釣り",
+      "stemKana": "つり",
+      "te": "釣って",
+      "teKana": "つって",
+      "nai": "釣らない",
+      "naiKana": "つらない",
+      "ta": "釣った",
+      "taKana": "つった",
+      "tai": "釣りたい",
+      "taiKana": "つりたい",
+      "potential": "釣れる",
+      "potentialKana": "つれる",
+      "volitional": "釣ろう",
+      "volitionalKana": "つろう",
+      "tara": "釣ったら",
+      "taraKana": "つったら",
+      "ba": "釣れば",
+      "baKana": "つれば",
+      "passive": "釣られる",
+      "passiveKana": "つられる",
+      "causative": "釣らせる",
+      "causativeKana": "つらせる",
+      "gloss": "pescar",
+      "polite": "pescar, cortés",
+      "negative": "no pescar",
+      "past": "pescar, pasado cortés",
+      "plainNeg": "no pescar, plano",
+      "plainPast": "pescar, pasado plano",
+      "want": "quiero pescar",
+      "teNote": "Godan en る.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-0319cd1801",
+      "label": "連れる",
+      "dict": "連れる",
+      "dictKana": "つれる",
+      "stem": "連れ",
+      "stemKana": "つれ",
+      "te": "連れて",
+      "teKana": "つれて",
+      "nai": "連れない",
+      "naiKana": "つれない",
+      "ta": "連れた",
+      "taKana": "つれた",
+      "tai": "連れたい",
+      "taiKana": "つれたい",
+      "potential": "連れられる",
+      "potentialKana": "つれられる",
+      "volitional": "連れよう",
+      "volitionalKana": "つれよう",
+      "tara": "連れたら",
+      "taraKana": "つれたら",
+      "ba": "連れれば",
+      "baKana": "つれれば",
+      "passive": "連れられる",
+      "passiveKana": "つれられる",
+      "causative": "連れさせる",
+      "causativeKana": "つれさせる",
+      "gloss": "llevar consigo",
+      "polite": "llevar consigo, cortés",
+      "negative": "no llevar consigo",
+      "past": "llevar consigo, pasado cortés",
+      "plainNeg": "no llevar consigo, plano",
+      "plainPast": "llevar consigo, pasado plano",
+      "want": "quiero llevar consigo",
+      "teNote": "Ichidan: se quita る.",
+      "kind": "ichidan"
+    },
+    {
+      "id": "w-b4206ea6cb",
+      "label": "手伝う",
+      "dict": "手伝う",
+      "dictKana": "てつだう",
+      "stem": "手伝い",
+      "stemKana": "てつだい",
+      "te": "手伝って",
+      "teKana": "てつだって",
+      "nai": "手伝わない",
+      "naiKana": "てつだわない",
+      "ta": "手伝った",
+      "taKana": "てつだった",
+      "tai": "手伝いたい",
+      "taiKana": "てつだいたい",
+      "potential": "手伝える",
+      "potentialKana": "てつだえる",
+      "volitional": "手伝おう",
+      "volitionalKana": "てつだおう",
+      "tara": "手伝ったら",
+      "taraKana": "てつだったら",
+      "ba": "手伝えば",
+      "baKana": "てつだえば",
+      "passive": "手伝われる",
+      "passiveKana": "てつだわれる",
+      "causative": "手伝わせる",
+      "causativeKana": "てつだわせる",
+      "gloss": "ayudar",
+      "polite": "ayudar, cortés",
+      "negative": "no ayudar",
+      "past": "ayudar, pasado cortés",
+      "plainNeg": "no ayudar, plano",
+      "plainPast": "ayudar, pasado plano",
+      "want": "quiero ayudar",
+      "teNote": "Godan en う.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-e9c1a3ae2c",
+      "label": "通る",
+      "dict": "通る",
+      "dictKana": "とおる",
+      "stem": "通り",
+      "stemKana": "とおり",
+      "te": "通って",
+      "teKana": "とおって",
+      "nai": "通らない",
+      "naiKana": "とおらない",
+      "ta": "通った",
+      "taKana": "とおった",
+      "tai": "通りたい",
+      "taiKana": "とおりたい",
+      "potential": "通れる",
+      "potentialKana": "とおれる",
+      "volitional": "通ろう",
+      "volitionalKana": "とおろう",
+      "tara": "通ったら",
+      "taraKana": "とおったら",
+      "ba": "通れば",
+      "baKana": "とおれば",
+      "passive": "通られる",
+      "passiveKana": "とおられる",
+      "causative": "通らせる",
+      "causativeKana": "とおらせる",
+      "gloss": "pasar",
+      "polite": "pasar, cortés",
+      "negative": "no pasar",
+      "past": "pasar, pasado cortés",
+      "plainNeg": "no pasar, plano",
+      "plainPast": "pasar, pasado plano",
+      "want": "quiero pasar",
+      "teNote": "Godan en る.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-bc1e0c2895",
+      "label": "届ける",
+      "dict": "届ける",
+      "dictKana": "とどける",
+      "stem": "届け",
+      "stemKana": "とどけ",
+      "te": "届けて",
+      "teKana": "とどけて",
+      "nai": "届けない",
+      "naiKana": "とどけない",
+      "ta": "届けた",
+      "taKana": "とどけた",
+      "tai": "届けたい",
+      "taiKana": "とどけたい",
+      "potential": "届けられる",
+      "potentialKana": "とどけられる",
+      "volitional": "届けよう",
+      "volitionalKana": "とどけよう",
+      "tara": "届けたら",
+      "taraKana": "とどけたら",
+      "ba": "届ければ",
+      "baKana": "とどければ",
+      "passive": "届けられる",
+      "passiveKana": "とどけられる",
+      "causative": "届けさせる",
+      "causativeKana": "とどけさせる",
+      "gloss": "entregar",
+      "polite": "entregar, cortés",
+      "negative": "no entregar",
+      "past": "entregar, pasado cortés",
+      "plainNeg": "no entregar, plano",
+      "plainPast": "entregar, pasado plano",
+      "want": "quiero entregar",
+      "teNote": "Ichidan: se quita る.",
+      "kind": "ichidan"
+    },
+    {
+      "id": "w-1200266b8d",
+      "label": "泊まる",
+      "dict": "泊まる",
+      "dictKana": "とまる",
+      "stem": "泊まり",
+      "stemKana": "とまり",
+      "te": "泊まって",
+      "teKana": "とまって",
+      "nai": "泊まらない",
+      "naiKana": "とまらない",
+      "ta": "泊まった",
+      "taKana": "とまった",
+      "tai": "泊まりたい",
+      "taiKana": "とまりたい",
+      "potential": "泊まれる",
+      "potentialKana": "とまれる",
+      "volitional": "泊まろう",
+      "volitionalKana": "とまろう",
+      "tara": "泊まったら",
+      "taraKana": "とまったら",
+      "ba": "泊まれば",
+      "baKana": "とまれば",
+      "passive": "泊まられる",
+      "passiveKana": "とまられる",
+      "causative": "泊まらせる",
+      "causativeKana": "とまらせる",
+      "gloss": "alojarse",
+      "polite": "alojarse, cortés",
+      "negative": "no alojarse",
+      "past": "alojarse, pasado cortés",
+      "plainNeg": "no alojarse, plano",
+      "plainPast": "alojarse, pasado plano",
+      "want": "quiero alojarse",
+      "teNote": "Godan en る.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-3aadcbc234",
+      "label": "止める",
+      "dict": "止める",
+      "dictKana": "とめる",
+      "stem": "止め",
+      "stemKana": "とめ",
+      "te": "止めて",
+      "teKana": "とめて",
+      "nai": "止めない",
+      "naiKana": "とめない",
+      "ta": "止めた",
+      "taKana": "とめた",
+      "tai": "止めたい",
+      "taiKana": "とめたい",
+      "potential": "止められる",
+      "potentialKana": "とめられる",
+      "volitional": "止めよう",
+      "volitionalKana": "とめよう",
+      "tara": "止めたら",
+      "taraKana": "とめたら",
+      "ba": "止めれば",
+      "baKana": "とめれば",
+      "passive": "止められる",
+      "passiveKana": "とめられる",
+      "causative": "止めさせる",
+      "causativeKana": "とめさせる",
+      "gloss": "parar algo",
+      "polite": "parar algo, cortés",
+      "negative": "no parar algo",
+      "past": "parar algo, pasado cortés",
+      "plainNeg": "no parar algo, plano",
+      "plainPast": "parar algo, pasado plano",
+      "want": "quiero parar algo",
+      "teNote": "Ichidan: se quita る.",
+      "kind": "ichidan"
+    },
+    {
+      "id": "w-7becfb8f21",
+      "label": "取り替える",
+      "dict": "取り替える",
+      "dictKana": "とりかえる",
+      "stem": "取り替え",
+      "stemKana": "とりかえ",
+      "te": "取り替えて",
+      "teKana": "とりかえて",
+      "nai": "取り替えない",
+      "naiKana": "とりかえない",
+      "ta": "取り替えた",
+      "taKana": "とりかえた",
+      "tai": "取り替えたい",
+      "taiKana": "とりかえたい",
+      "potential": "取り替えられる",
+      "potentialKana": "とりかえられる",
+      "volitional": "取り替えよう",
+      "volitionalKana": "とりかえよう",
+      "tara": "取り替えたら",
+      "taraKana": "とりかえたら",
+      "ba": "取り替えれば",
+      "baKana": "とりかえれば",
+      "passive": "取り替えられる",
+      "passiveKana": "とりかえられる",
+      "causative": "取り替えさせる",
+      "causativeKana": "とりかえさせる",
+      "gloss": "cambiar, sustituir",
+      "polite": "cambiar, sustituir, cortés",
+      "negative": "no cambiar, sustituir",
+      "past": "cambiar, sustituir, pasado cortés",
+      "plainNeg": "no cambiar, sustituir, plano",
+      "plainPast": "cambiar, sustituir, pasado plano",
+      "want": "quiero cambiar, sustituir",
+      "teNote": "Ichidan: se quita る.",
+      "kind": "ichidan"
+    },
+    {
+      "id": "w-8b7b602246",
+      "label": "直す",
+      "dict": "直す",
+      "dictKana": "なおす",
+      "stem": "直し",
+      "stemKana": "なおし",
+      "te": "直して",
+      "teKana": "なおして",
+      "nai": "直さない",
+      "naiKana": "なおさない",
+      "ta": "直した",
+      "taKana": "なおした",
+      "tai": "直したい",
+      "taiKana": "なおしたい",
+      "potential": "直せる",
+      "potentialKana": "なおせる",
+      "volitional": "直そう",
+      "volitionalKana": "なおそう",
+      "tara": "直したら",
+      "taraKana": "なおしたら",
+      "ba": "直せば",
+      "baKana": "なおせば",
+      "passive": "直される",
+      "passiveKana": "なおされる",
+      "causative": "直させる",
+      "causativeKana": "なおさせる",
+      "gloss": "arreglar",
+      "polite": "arreglar, cortés",
+      "negative": "no arreglar",
+      "past": "arreglar, pasado cortés",
+      "plainNeg": "no arreglar, plano",
+      "plainPast": "arreglar, pasado plano",
+      "want": "quiero arreglar",
+      "teNote": "Godan en す.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-9f64a96651",
+      "label": "治る",
+      "dict": "治る",
+      "dictKana": "なおる",
+      "stem": "治り",
+      "stemKana": "なおり",
+      "te": "治って",
+      "teKana": "なおって",
+      "nai": "治らない",
+      "naiKana": "なおらない",
+      "ta": "治った",
+      "taKana": "なおった",
+      "tai": "治りたい",
+      "taiKana": "なおりたい",
+      "potential": "治れる",
+      "potentialKana": "なおれる",
+      "volitional": "治ろう",
+      "volitionalKana": "なおろう",
+      "tara": "治ったら",
+      "taraKana": "なおったら",
+      "ba": "治れば",
+      "baKana": "なおれば",
+      "passive": "治られる",
+      "passiveKana": "なおられる",
+      "causative": "治らせる",
+      "causativeKana": "なおらせる",
+      "gloss": "curarse",
+      "polite": "curarse, cortés",
+      "negative": "no curarse",
+      "past": "curarse, pasado cortés",
+      "plainNeg": "no curarse, plano",
+      "plainPast": "curarse, pasado plano",
+      "want": "quiero curarse",
+      "teNote": "Godan en る.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-b43872b197",
+      "label": "直る",
+      "dict": "直る",
+      "dictKana": "なおる",
+      "stem": "直り",
+      "stemKana": "なおり",
+      "te": "直って",
+      "teKana": "なおって",
+      "nai": "直らない",
+      "naiKana": "なおらない",
+      "ta": "直った",
+      "taKana": "なおった",
+      "tai": "直りたい",
+      "taiKana": "なおりたい",
+      "potential": "直れる",
+      "potentialKana": "なおれる",
+      "volitional": "直ろう",
+      "volitionalKana": "なおろう",
+      "tara": "直ったら",
+      "taraKana": "なおったら",
+      "ba": "直れば",
+      "baKana": "なおれば",
+      "passive": "直られる",
+      "passiveKana": "なおられる",
+      "causative": "直らせる",
+      "causativeKana": "なおらせる",
+      "gloss": "arreglarse",
+      "polite": "arreglarse, cortés",
+      "negative": "no arreglarse",
+      "past": "arreglarse, pasado cortés",
+      "plainNeg": "no arreglarse, plano",
+      "plainPast": "arreglarse, pasado plano",
+      "want": "quiero arreglarse",
+      "teNote": "Godan en る.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-a777a7ce62",
+      "label": "泣く",
+      "dict": "泣く",
+      "dictKana": "なく",
+      "stem": "泣き",
+      "stemKana": "なき",
+      "te": "泣いて",
+      "teKana": "ないて",
+      "nai": "泣かない",
+      "naiKana": "なかない",
+      "ta": "泣いた",
+      "taKana": "ないた",
+      "tai": "泣きたい",
+      "taiKana": "なきたい",
+      "potential": "泣ける",
+      "potentialKana": "なける",
+      "volitional": "泣こう",
+      "volitionalKana": "なこう",
+      "tara": "泣いたら",
+      "taraKana": "ないたら",
+      "ba": "泣けば",
+      "baKana": "なけば",
+      "passive": "泣かれる",
+      "passiveKana": "なかれる",
+      "causative": "泣かせる",
+      "causativeKana": "なかせる",
+      "gloss": "llorar",
+      "polite": "llorar, cortés",
+      "negative": "no llorar",
+      "past": "llorar, pasado cortés",
+      "plainNeg": "no llorar, plano",
+      "plainPast": "llorar, pasado plano",
+      "want": "quiero llorar",
+      "teNote": "Godan en く.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-2adec6b9b4",
+      "label": "亡くなる",
+      "dict": "亡くなる",
+      "dictKana": "なくなる",
+      "stem": "亡くなり",
+      "stemKana": "なくなり",
+      "te": "亡くなって",
+      "teKana": "なくなって",
+      "nai": "亡くならない",
+      "naiKana": "なくならない",
+      "ta": "亡くなった",
+      "taKana": "なくなった",
+      "tai": "亡くなりたい",
+      "taiKana": "なくなりたい",
+      "potential": "亡くなれる",
+      "potentialKana": "なくなれる",
+      "volitional": "亡くなろう",
+      "volitionalKana": "なくなろう",
+      "tara": "亡くなったら",
+      "taraKana": "なくなったら",
+      "ba": "亡くなれば",
+      "baKana": "なくなれば",
+      "passive": "亡くなられる",
+      "passiveKana": "なくなられる",
+      "causative": "亡くならせる",
+      "causativeKana": "なくならせる",
+      "gloss": "fallecer",
+      "polite": "fallecer, cortés",
+      "negative": "no fallecer",
+      "past": "fallecer, pasado cortés",
+      "plainNeg": "no fallecer, plano",
+      "plainPast": "fallecer, pasado plano",
+      "want": "quiero fallecer",
+      "teNote": "Godan en る.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-1d28dbb450",
+      "label": "無くなる",
+      "dict": "無くなる",
+      "dictKana": "なくなる",
+      "stem": "無くなり",
+      "stemKana": "なくなり",
+      "te": "無くなって",
+      "teKana": "なくなって",
+      "nai": "無くならない",
+      "naiKana": "なくならない",
+      "ta": "無くなった",
+      "taKana": "なくなった",
+      "tai": "無くなりたい",
+      "taiKana": "なくなりたい",
+      "potential": "無くなれる",
+      "potentialKana": "なくなれる",
+      "volitional": "無くなろう",
+      "volitionalKana": "なくなろう",
+      "tara": "無くなったら",
+      "taraKana": "なくなったら",
+      "ba": "無くなれば",
+      "baKana": "なくなれば",
+      "passive": "無くなられる",
+      "passiveKana": "なくなられる",
+      "causative": "無くならせる",
+      "causativeKana": "なくならせる",
+      "gloss": "acabarse",
+      "polite": "acabarse, cortés",
+      "negative": "no acabarse",
+      "past": "acabarse, pasado cortés",
+      "plainNeg": "no acabarse, plano",
+      "plainPast": "acabarse, pasado plano",
+      "want": "quiero acabarse",
+      "teNote": "Godan en る.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-1b35adeae4",
+      "label": "投げる",
+      "dict": "投げる",
+      "dictKana": "なげる",
+      "stem": "投げ",
+      "stemKana": "なげ",
+      "te": "投げて",
+      "teKana": "なげて",
+      "nai": "投げない",
+      "naiKana": "なげない",
+      "ta": "投げた",
+      "taKana": "なげた",
+      "tai": "投げたい",
+      "taiKana": "なげたい",
+      "potential": "投げられる",
+      "potentialKana": "なげられる",
+      "volitional": "投げよう",
+      "volitionalKana": "なげよう",
+      "tara": "投げたら",
+      "taraKana": "なげたら",
+      "ba": "投げれば",
+      "baKana": "なげれば",
+      "passive": "投げられる",
+      "passiveKana": "なげられる",
+      "causative": "投げさせる",
+      "causativeKana": "なげさせる",
+      "gloss": "lanzar",
+      "polite": "lanzar, cortés",
+      "negative": "no lanzar",
+      "past": "lanzar, pasado cortés",
+      "plainNeg": "no lanzar, plano",
+      "plainPast": "lanzar, pasado plano",
+      "want": "quiero lanzar",
+      "teNote": "Ichidan: se quita る.",
+      "kind": "ichidan"
+    },
+    {
+      "id": "w-74c23dc218",
+      "label": "なさる",
+      "dict": "なさる",
+      "dictKana": "なさる",
+      "stem": "なさい",
+      "stemKana": "なさい",
+      "te": "なさって",
+      "teKana": "なさって",
+      "nai": "なさらない",
+      "naiKana": "なさらない",
+      "ta": "なさった",
+      "taKana": "なさった",
+      "tai": "なさりたい",
+      "taiKana": "なさりたい",
+      "potential": "",
+      "potentialKana": "",
+      "volitional": "なさろう",
+      "volitionalKana": "なさろう",
+      "tara": "なさったら",
+      "taraKana": "なさったら",
+      "ba": "なされば",
+      "baKana": "なされば",
+      "passive": "",
+      "passiveKana": "",
+      "causative": "",
+      "causativeKana": "",
+      "gloss": "hacer, de respeto",
+      "polite": "hacer, de respeto, cortés",
+      "negative": "no hacer, de respeto",
+      "past": "hacer, de respeto, pasado cortés",
+      "plainNeg": "no hacer, de respeto, plano",
+      "plainPast": "hacer, de respeto, pasado plano",
+      "want": "quiero hacer, de respeto",
+      "teNote": "Respeto en ある: ます es います, no ります.",
+      "kind": "v5aru"
+    },
+    {
+      "id": "w-3a915c9be5",
+      "label": "鳴る",
+      "dict": "鳴る",
+      "dictKana": "なる",
+      "stem": "鳴り",
+      "stemKana": "なり",
+      "te": "鳴って",
+      "teKana": "なって",
+      "nai": "鳴らない",
+      "naiKana": "ならない",
+      "ta": "鳴った",
+      "taKana": "なった",
+      "tai": "鳴りたい",
+      "taiKana": "なりたい",
+      "potential": "鳴れる",
+      "potentialKana": "なれる",
+      "volitional": "鳴ろう",
+      "volitionalKana": "なろう",
+      "tara": "鳴ったら",
+      "taraKana": "なったら",
+      "ba": "鳴れば",
+      "baKana": "なれば",
+      "passive": "鳴られる",
+      "passiveKana": "なられる",
+      "causative": "鳴らせる",
+      "causativeKana": "ならせる",
+      "gloss": "sonar",
+      "polite": "sonar, cortés",
+      "negative": "no sonar",
+      "past": "sonar, pasado cortés",
+      "plainNeg": "no sonar, plano",
+      "plainPast": "sonar, pasado plano",
+      "want": "quiero sonar",
+      "teNote": "Godan en る.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-ce2f134cda",
+      "label": "慣れる",
+      "dict": "慣れる",
+      "dictKana": "なれる",
+      "stem": "慣れ",
+      "stemKana": "なれ",
+      "te": "慣れて",
+      "teKana": "なれて",
+      "nai": "慣れない",
+      "naiKana": "なれない",
+      "ta": "慣れた",
+      "taKana": "なれた",
+      "tai": "慣れたい",
+      "taiKana": "なれたい",
+      "potential": "慣れられる",
+      "potentialKana": "なれられる",
+      "volitional": "慣れよう",
+      "volitionalKana": "なれよう",
+      "tara": "慣れたら",
+      "taraKana": "なれたら",
+      "ba": "慣れれば",
+      "baKana": "なれれば",
+      "passive": "慣れられる",
+      "passiveKana": "なれられる",
+      "causative": "慣れさせる",
+      "causativeKana": "なれさせる",
+      "gloss": "acostumbrarse",
+      "polite": "acostumbrarse, cortés",
+      "negative": "no acostumbrarse",
+      "past": "acostumbrarse, pasado cortés",
+      "plainNeg": "no acostumbrarse, plano",
+      "plainPast": "acostumbrarse, pasado plano",
+      "want": "quiero acostumbrarse",
+      "teNote": "Ichidan: se quita る.",
+      "kind": "ichidan"
+    },
+    {
+      "id": "w-f7a51f2c1c",
+      "label": "逃げる",
+      "dict": "逃げる",
+      "dictKana": "にげる",
+      "stem": "逃げ",
+      "stemKana": "にげ",
+      "te": "逃げて",
+      "teKana": "にげて",
+      "nai": "逃げない",
+      "naiKana": "にげない",
+      "ta": "逃げた",
+      "taKana": "にげた",
+      "tai": "逃げたい",
+      "taiKana": "にげたい",
+      "potential": "逃げられる",
+      "potentialKana": "にげられる",
+      "volitional": "逃げよう",
+      "volitionalKana": "にげよう",
+      "tara": "逃げたら",
+      "taraKana": "にげたら",
+      "ba": "逃げれば",
+      "baKana": "にげれば",
+      "passive": "逃げられる",
+      "passiveKana": "にげられる",
+      "causative": "逃げさせる",
+      "causativeKana": "にげさせる",
+      "gloss": "huir",
+      "polite": "huir, cortés",
+      "negative": "no huir",
+      "past": "huir, pasado cortés",
+      "plainNeg": "no huir, plano",
+      "plainPast": "huir, pasado plano",
+      "want": "quiero huir",
+      "teNote": "Ichidan: se quita る.",
+      "kind": "ichidan"
+    },
+    {
+      "id": "w-ea2fe2f5de",
+      "label": "似る",
+      "dict": "似る",
+      "dictKana": "にる",
+      "stem": "似",
+      "stemKana": "に",
+      "te": "似て",
+      "teKana": "にて",
+      "nai": "似ない",
+      "naiKana": "にない",
+      "ta": "似た",
+      "taKana": "にた",
+      "tai": "似たい",
+      "taiKana": "にたい",
+      "potential": "似られる",
+      "potentialKana": "にられる",
+      "volitional": "似よう",
+      "volitionalKana": "によう",
+      "tara": "似たら",
+      "taraKana": "にたら",
+      "ba": "似れば",
+      "baKana": "にれば",
+      "passive": "似られる",
+      "passiveKana": "にられる",
+      "causative": "似させる",
+      "causativeKana": "にさせる",
+      "gloss": "parecerse",
+      "polite": "parecerse, cortés",
+      "negative": "no parecerse",
+      "past": "parecerse, pasado cortés",
+      "plainNeg": "no parecerse, plano",
+      "plainPast": "parecerse, pasado plano",
+      "want": "quiero parecerse",
+      "teNote": "Ichidan: se quita る.",
+      "kind": "ichidan"
+    },
+    {
+      "id": "w-88710a5d10",
+      "label": "盗む",
+      "dict": "盗む",
+      "dictKana": "ぬすむ",
+      "stem": "盗み",
+      "stemKana": "ぬすみ",
+      "te": "盗んで",
+      "teKana": "ぬすんで",
+      "nai": "盗まない",
+      "naiKana": "ぬすまない",
+      "ta": "盗んだ",
+      "taKana": "ぬすんだ",
+      "tai": "盗みたい",
+      "taiKana": "ぬすみたい",
+      "potential": "盗める",
+      "potentialKana": "ぬすめる",
+      "volitional": "盗もう",
+      "volitionalKana": "ぬすもう",
+      "tara": "盗んだら",
+      "taraKana": "ぬすんだら",
+      "ba": "盗めば",
+      "baKana": "ぬすめば",
+      "passive": "盗まれる",
+      "passiveKana": "ぬすまれる",
+      "causative": "盗ませる",
+      "causativeKana": "ぬすませる",
+      "gloss": "robar",
+      "polite": "robar, cortés",
+      "negative": "no robar",
+      "past": "robar, pasado cortés",
+      "plainNeg": "no robar, plano",
+      "plainPast": "robar, pasado plano",
+      "want": "quiero robar",
+      "teNote": "Godan en む.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-6631558c00",
+      "label": "塗る",
+      "dict": "塗る",
+      "dictKana": "ぬる",
+      "stem": "塗り",
+      "stemKana": "ぬり",
+      "te": "塗って",
+      "teKana": "ぬって",
+      "nai": "塗らない",
+      "naiKana": "ぬらない",
+      "ta": "塗った",
+      "taKana": "ぬった",
+      "tai": "塗りたい",
+      "taiKana": "ぬりたい",
+      "potential": "塗れる",
+      "potentialKana": "ぬれる",
+      "volitional": "塗ろう",
+      "volitionalKana": "ぬろう",
+      "tara": "塗ったら",
+      "taraKana": "ぬったら",
+      "ba": "塗れば",
+      "baKana": "ぬれば",
+      "passive": "塗られる",
+      "passiveKana": "ぬられる",
+      "causative": "塗らせる",
+      "causativeKana": "ぬらせる",
+      "gloss": "pintar, untar",
+      "polite": "pintar, untar, cortés",
+      "negative": "no pintar, untar",
+      "past": "pintar, untar, pasado cortés",
+      "plainNeg": "no pintar, untar, plano",
+      "plainPast": "pintar, untar, pasado plano",
+      "want": "quiero pintar, untar",
+      "teNote": "Godan en る.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-cdabcdd725",
+      "label": "ぬれる",
+      "dict": "ぬれる",
+      "dictKana": "ぬれる",
+      "stem": "ぬれ",
+      "stemKana": "ぬれ",
+      "te": "ぬれて",
+      "teKana": "ぬれて",
+      "nai": "ぬれない",
+      "naiKana": "ぬれない",
+      "ta": "ぬれた",
+      "taKana": "ぬれた",
+      "tai": "ぬれたい",
+      "taiKana": "ぬれたい",
+      "potential": "ぬれられる",
+      "potentialKana": "ぬれられる",
+      "volitional": "ぬれよう",
+      "volitionalKana": "ぬれよう",
+      "tara": "ぬれたら",
+      "taraKana": "ぬれたら",
+      "ba": "ぬれれば",
+      "baKana": "ぬれれば",
+      "passive": "ぬれられる",
+      "passiveKana": "ぬれられる",
+      "causative": "ぬれさせる",
+      "causativeKana": "ぬれさせる",
+      "gloss": "mojarse",
+      "polite": "mojarse, cortés",
+      "negative": "no mojarse",
+      "past": "mojarse, pasado cortés",
+      "plainNeg": "no mojarse, plano",
+      "plainPast": "mojarse, pasado plano",
+      "want": "quiero mojarse",
+      "teNote": "Ichidan: se quita る.",
+      "kind": "ichidan"
+    },
+    {
+      "id": "w-3575e37548",
+      "label": "眠る",
+      "dict": "眠る",
+      "dictKana": "ねむる",
+      "stem": "眠り",
+      "stemKana": "ねむり",
+      "te": "眠って",
+      "teKana": "ねむって",
+      "nai": "眠らない",
+      "naiKana": "ねむらない",
+      "ta": "眠った",
+      "taKana": "ねむった",
+      "tai": "眠りたい",
+      "taiKana": "ねむりたい",
+      "potential": "眠れる",
+      "potentialKana": "ねむれる",
+      "volitional": "眠ろう",
+      "volitionalKana": "ねむろう",
+      "tara": "眠ったら",
+      "taraKana": "ねむったら",
+      "ba": "眠れば",
+      "baKana": "ねむれば",
+      "passive": "眠られる",
+      "passiveKana": "ねむられる",
+      "causative": "眠らせる",
+      "causativeKana": "ねむらせる",
+      "gloss": "dormir",
+      "polite": "dormir, cortés",
+      "negative": "no dormir",
+      "past": "dormir, pasado cortés",
+      "plainNeg": "no dormir, plano",
+      "plainPast": "dormir, pasado plano",
+      "want": "quiero dormir",
+      "teNote": "Godan en る.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-d7f56d8d34",
+      "label": "残る",
+      "dict": "残る",
+      "dictKana": "のこる",
+      "stem": "残り",
+      "stemKana": "のこり",
+      "te": "残って",
+      "teKana": "のこって",
+      "nai": "残らない",
+      "naiKana": "のこらない",
+      "ta": "残った",
+      "taKana": "のこった",
+      "tai": "残りたい",
+      "taiKana": "のこりたい",
+      "potential": "残れる",
+      "potentialKana": "のこれる",
+      "volitional": "残ろう",
+      "volitionalKana": "のころう",
+      "tara": "残ったら",
+      "taraKana": "のこったら",
+      "ba": "残れば",
+      "baKana": "のこれば",
+      "passive": "残られる",
+      "passiveKana": "のこられる",
+      "causative": "残らせる",
+      "causativeKana": "のこらせる",
+      "gloss": "quedar",
+      "polite": "quedar, cortés",
+      "negative": "no quedar",
+      "past": "quedar, pasado cortés",
+      "plainNeg": "no quedar, plano",
+      "plainPast": "quedar, pasado plano",
+      "want": "quiero quedar",
+      "teNote": "Godan en る.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-0114521256",
+      "label": "乗り換える",
+      "dict": "乗り換える",
+      "dictKana": "のりかえる",
+      "stem": "乗り換え",
+      "stemKana": "のりかえ",
+      "te": "乗り換えて",
+      "teKana": "のりかえて",
+      "nai": "乗り換えない",
+      "naiKana": "のりかえない",
+      "ta": "乗り換えた",
+      "taKana": "のりかえた",
+      "tai": "乗り換えたい",
+      "taiKana": "のりかえたい",
+      "potential": "乗り換えられる",
+      "potentialKana": "のりかえられる",
+      "volitional": "乗り換えよう",
+      "volitionalKana": "のりかえよう",
+      "tara": "乗り換えたら",
+      "taraKana": "のりかえたら",
+      "ba": "乗り換えれば",
+      "baKana": "のりかえれば",
+      "passive": "乗り換えられる",
+      "passiveKana": "のりかえられる",
+      "causative": "乗り換えさせる",
+      "causativeKana": "のりかえさせる",
+      "gloss": "hacer transbordo",
+      "polite": "hacer transbordo, cortés",
+      "negative": "no hacer transbordo",
+      "past": "hacer transbordo, pasado cortés",
+      "plainNeg": "no hacer transbordo, plano",
+      "plainPast": "hacer transbordo, pasado plano",
+      "want": "quiero hacer transbordo",
+      "teNote": "Ichidan: se quita る.",
+      "kind": "ichidan"
+    },
+    {
+      "id": "w-2404bdfdb3",
+      "label": "運ぶ",
+      "dict": "運ぶ",
+      "dictKana": "はこぶ",
+      "stem": "運び",
+      "stemKana": "はこび",
+      "te": "運んで",
+      "teKana": "はこんで",
+      "nai": "運ばない",
+      "naiKana": "はこばない",
+      "ta": "運んだ",
+      "taKana": "はこんだ",
+      "tai": "運びたい",
+      "taiKana": "はこびたい",
+      "potential": "運べる",
+      "potentialKana": "はこべる",
+      "volitional": "運ぼう",
+      "volitionalKana": "はこぼう",
+      "tara": "運んだら",
+      "taraKana": "はこんだら",
+      "ba": "運べば",
+      "baKana": "はこべば",
+      "passive": "運ばれる",
+      "passiveKana": "はこばれる",
+      "causative": "運ばせる",
+      "causativeKana": "はこばせる",
+      "gloss": "transportar",
+      "polite": "transportar, cortés",
+      "negative": "no transportar",
+      "past": "transportar, pasado cortés",
+      "plainNeg": "no transportar, plano",
+      "plainPast": "transportar, pasado plano",
+      "want": "quiero transportar",
+      "teNote": "Godan en ぶ.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-4610276c99",
+      "label": "始める",
+      "dict": "始める",
+      "dictKana": "はじめる",
+      "stem": "始め",
+      "stemKana": "はじめ",
+      "te": "始めて",
+      "teKana": "はじめて",
+      "nai": "始めない",
+      "naiKana": "はじめない",
+      "ta": "始めた",
+      "taKana": "はじめた",
+      "tai": "始めたい",
+      "taiKana": "はじめたい",
+      "potential": "始められる",
+      "potentialKana": "はじめられる",
+      "volitional": "始めよう",
+      "volitionalKana": "はじめよう",
+      "tara": "始めたら",
+      "taraKana": "はじめたら",
+      "ba": "始めれば",
+      "baKana": "はじめれば",
+      "passive": "始められる",
+      "passiveKana": "はじめられる",
+      "causative": "始めさせる",
+      "causativeKana": "はじめさせる",
+      "gloss": "empezar",
+      "polite": "empezar, cortés",
+      "negative": "no empezar",
+      "past": "empezar, pasado cortés",
+      "plainNeg": "no empezar, plano",
+      "plainPast": "empezar, pasado plano",
+      "want": "quiero empezar",
+      "teNote": "Ichidan: se quita る.",
+      "kind": "ichidan"
+    },
+    {
+      "id": "w-a6b7fa4afc",
+      "label": "払う",
+      "dict": "払う",
+      "dictKana": "はらう",
+      "stem": "払い",
+      "stemKana": "はらい",
+      "te": "払って",
+      "teKana": "はらって",
+      "nai": "払わない",
+      "naiKana": "はらわない",
+      "ta": "払った",
+      "taKana": "はらった",
+      "tai": "払いたい",
+      "taiKana": "はらいたい",
+      "potential": "払える",
+      "potentialKana": "はらえる",
+      "volitional": "払おう",
+      "volitionalKana": "はらおう",
+      "tara": "払ったら",
+      "taraKana": "はらったら",
+      "ba": "払えば",
+      "baKana": "はらえば",
+      "passive": "払われる",
+      "passiveKana": "はらわれる",
+      "causative": "払わせる",
+      "causativeKana": "はらわせる",
+      "gloss": "pagar",
+      "polite": "pagar, cortés",
+      "negative": "no pagar",
+      "past": "pagar, pasado cortés",
+      "plainNeg": "no pagar, plano",
+      "plainPast": "pagar, pasado plano",
+      "want": "quiero pagar",
+      "teNote": "Godan en う.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-28c2a94407",
+      "label": "冷える",
+      "dict": "冷える",
+      "dictKana": "ひえる",
+      "stem": "冷え",
+      "stemKana": "ひえ",
+      "te": "冷えて",
+      "teKana": "ひえて",
+      "nai": "冷えない",
+      "naiKana": "ひえない",
+      "ta": "冷えた",
+      "taKana": "ひえた",
+      "tai": "冷えたい",
+      "taiKana": "ひえたい",
+      "potential": "冷えられる",
+      "potentialKana": "ひえられる",
+      "volitional": "冷えよう",
+      "volitionalKana": "ひえよう",
+      "tara": "冷えたら",
+      "taraKana": "ひえたら",
+      "ba": "冷えれば",
+      "baKana": "ひえれば",
+      "passive": "冷えられる",
+      "passiveKana": "ひえられる",
+      "causative": "冷えさせる",
+      "causativeKana": "ひえさせる",
+      "gloss": "enfriarse",
+      "polite": "enfriarse, cortés",
+      "negative": "no enfriarse",
+      "past": "enfriarse, pasado cortés",
+      "plainNeg": "no enfriarse, plano",
+      "plainPast": "enfriarse, pasado plano",
+      "want": "quiero enfriarse",
+      "teNote": "Ichidan: se quita る.",
+      "kind": "ichidan"
+    },
+    {
+      "id": "w-8b7dab271d",
+      "label": "光る",
+      "dict": "光る",
+      "dictKana": "ひかる",
+      "stem": "光り",
+      "stemKana": "ひかり",
+      "te": "光って",
+      "teKana": "ひかって",
+      "nai": "光らない",
+      "naiKana": "ひからない",
+      "ta": "光った",
+      "taKana": "ひかった",
+      "tai": "光りたい",
+      "taiKana": "ひかりたい",
+      "potential": "光れる",
+      "potentialKana": "ひかれる",
+      "volitional": "光ろう",
+      "volitionalKana": "ひかろう",
+      "tara": "光ったら",
+      "taraKana": "ひかったら",
+      "ba": "光れば",
+      "baKana": "ひかれば",
+      "passive": "光られる",
+      "passiveKana": "ひかられる",
+      "causative": "光らせる",
+      "causativeKana": "ひからせる",
+      "gloss": "brillar",
+      "polite": "brillar, cortés",
+      "negative": "no brillar",
+      "past": "brillar, pasado cortés",
+      "plainNeg": "no brillar, plano",
+      "plainPast": "brillar, pasado plano",
+      "want": "quiero brillar",
+      "teNote": "Godan en る.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-5d8e0ae01f",
+      "label": "引き出す",
+      "dict": "引き出す",
+      "dictKana": "ひきだす",
+      "stem": "引き出し",
+      "stemKana": "ひきだし",
+      "te": "引き出して",
+      "teKana": "ひきだして",
+      "nai": "引き出さない",
+      "naiKana": "ひきださない",
+      "ta": "引き出した",
+      "taKana": "ひきだした",
+      "tai": "引き出したい",
+      "taiKana": "ひきだしたい",
+      "potential": "引き出せる",
+      "potentialKana": "ひきだせる",
+      "volitional": "引き出そう",
+      "volitionalKana": "ひきだそう",
+      "tara": "引き出したら",
+      "taraKana": "ひきだしたら",
+      "ba": "引き出せば",
+      "baKana": "ひきだせば",
+      "passive": "引き出される",
+      "passiveKana": "ひきだされる",
+      "causative": "引き出させる",
+      "causativeKana": "ひきださせる",
+      "gloss": "sacar, retirar",
+      "polite": "sacar, retirar, cortés",
+      "negative": "no sacar, retirar",
+      "past": "sacar, retirar, pasado cortés",
+      "plainNeg": "no sacar, retirar, plano",
+      "plainPast": "sacar, retirar, pasado plano",
+      "want": "quiero sacar, retirar",
+      "teNote": "Godan en す.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-ab4a88a2c0",
+      "label": "びっくりする",
+      "dict": "びっくりする",
+      "dictKana": "びっくりする",
+      "stem": "びっくりし",
+      "stemKana": "びっくりし",
+      "te": "びっくりして",
+      "teKana": "びっくりして",
+      "nai": "びっくりしない",
+      "naiKana": "びっくりしない",
+      "ta": "びっくりした",
+      "taKana": "びっくりした",
+      "tai": "びっくりしたい",
+      "taiKana": "びっくりしたい",
+      "potential": "びっくりできる",
+      "potentialKana": "びっくりできる",
+      "volitional": "びっくりしよう",
+      "volitionalKana": "びっくりしよう",
+      "tara": "びっくりしたら",
+      "taraKana": "びっくりしたら",
+      "ba": "びっくりすれば",
+      "baKana": "びっくりすれば",
+      "passive": "びっくりされる",
+      "passiveKana": "びっくりされる",
+      "causative": "びっくりさせる",
+      "causativeKana": "びっくりさせる",
+      "gloss": "sobresaltarse",
+      "polite": "sobresaltarse, cortés",
+      "negative": "no sobresaltarse",
+      "past": "sobresaltarse, pasado cortés",
+      "plainNeg": "no sobresaltarse, plano",
+      "plainPast": "sobresaltarse, pasado plano",
+      "want": "quiero sobresaltarse",
+      "teNote": "する es irregular: します, できる, しよう.",
+      "kind": "suru"
+    },
+    {
+      "id": "w-d801b8b37a",
+      "label": "引っ越す",
+      "dict": "引っ越す",
+      "dictKana": "ひっこす",
+      "stem": "引っ越し",
+      "stemKana": "ひっこし",
+      "te": "引っ越して",
+      "teKana": "ひっこして",
+      "nai": "引っ越さない",
+      "naiKana": "ひっこさない",
+      "ta": "引っ越した",
+      "taKana": "ひっこした",
+      "tai": "引っ越したい",
+      "taiKana": "ひっこしたい",
+      "potential": "引っ越せる",
+      "potentialKana": "ひっこせる",
+      "volitional": "引っ越そう",
+      "volitionalKana": "ひっこそう",
+      "tara": "引っ越したら",
+      "taraKana": "ひっこしたら",
+      "ba": "引っ越せば",
+      "baKana": "ひっこせば",
+      "passive": "引っ越される",
+      "passiveKana": "ひっこされる",
+      "causative": "引っ越させる",
+      "causativeKana": "ひっこさせる",
+      "gloss": "mudarse",
+      "polite": "mudarse, cortés",
+      "negative": "no mudarse",
+      "past": "mudarse, pasado cortés",
+      "plainNeg": "no mudarse, plano",
+      "plainPast": "mudarse, pasado plano",
+      "want": "quiero mudarse",
+      "teNote": "Godan en す.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-dddceb65a5",
+      "label": "開く",
+      "dict": "開く",
+      "dictKana": "ひらく",
+      "stem": "開き",
+      "stemKana": "ひらき",
+      "te": "開いて",
+      "teKana": "ひらいて",
+      "nai": "開かない",
+      "naiKana": "ひらかない",
+      "ta": "開いた",
+      "taKana": "ひらいた",
+      "tai": "開きたい",
+      "taiKana": "ひらきたい",
+      "potential": "開ける",
+      "potentialKana": "ひらける",
+      "volitional": "開こう",
+      "volitionalKana": "ひらこう",
+      "tara": "開いたら",
+      "taraKana": "ひらいたら",
+      "ba": "開けば",
+      "baKana": "ひらけば",
+      "passive": "開かれる",
+      "passiveKana": "ひらかれる",
+      "causative": "開かせる",
+      "causativeKana": "ひらかせる",
+      "gloss": "abrir, un acto o un local",
+      "polite": "abrir, un acto o un local, cortés",
+      "negative": "no abrir, un acto o un local",
+      "past": "abrir, un acto o un local, pasado cortés",
+      "plainNeg": "no abrir, un acto o un local, plano",
+      "plainPast": "abrir, un acto o un local, pasado plano",
+      "want": "quiero abrir, un acto o un local",
+      "teNote": "Godan en く.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-a441432c8a",
+      "label": "拾う",
+      "dict": "拾う",
+      "dictKana": "ひろう",
+      "stem": "拾い",
+      "stemKana": "ひろい",
+      "te": "拾って",
+      "teKana": "ひろって",
+      "nai": "拾わない",
+      "naiKana": "ひろわない",
+      "ta": "拾った",
+      "taKana": "ひろった",
+      "tai": "拾いたい",
+      "taiKana": "ひろいたい",
+      "potential": "拾える",
+      "potentialKana": "ひろえる",
+      "volitional": "拾おう",
+      "volitionalKana": "ひろおう",
+      "tara": "拾ったら",
+      "taraKana": "ひろったら",
+      "ba": "拾えば",
+      "baKana": "ひろえば",
+      "passive": "拾われる",
+      "passiveKana": "ひろわれる",
+      "causative": "拾わせる",
+      "causativeKana": "ひろわせる",
+      "gloss": "recoger",
+      "polite": "recoger, cortés",
+      "negative": "no recoger",
+      "past": "recoger, pasado cortés",
+      "plainNeg": "no recoger, plano",
+      "plainPast": "recoger, pasado plano",
+      "want": "quiero recoger",
+      "teNote": "Godan en う.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-59bc2e87aa",
+      "label": "増える",
+      "dict": "増える",
+      "dictKana": "ふえる",
+      "stem": "増え",
+      "stemKana": "ふえ",
+      "te": "増えて",
+      "teKana": "ふえて",
+      "nai": "増えない",
+      "naiKana": "ふえない",
+      "ta": "増えた",
+      "taKana": "ふえた",
+      "tai": "増えたい",
+      "taiKana": "ふえたい",
+      "potential": "増えられる",
+      "potentialKana": "ふえられる",
+      "volitional": "増えよう",
+      "volitionalKana": "ふえよう",
+      "tara": "増えたら",
+      "taraKana": "ふえたら",
+      "ba": "増えれば",
+      "baKana": "ふえれば",
+      "passive": "増えられる",
+      "passiveKana": "ふえられる",
+      "causative": "増えさせる",
+      "causativeKana": "ふえさせる",
+      "gloss": "aumentar",
+      "polite": "aumentar, cortés",
+      "negative": "no aumentar",
+      "past": "aumentar, pasado cortés",
+      "plainNeg": "no aumentar, plano",
+      "plainPast": "aumentar, pasado plano",
+      "want": "quiero aumentar",
+      "teNote": "Ichidan: se quita る.",
+      "kind": "ichidan"
+    },
+    {
+      "id": "w-f6b676e45f",
+      "label": "太る",
+      "dict": "太る",
+      "dictKana": "ふとる",
+      "stem": "太り",
+      "stemKana": "ふとり",
+      "te": "太って",
+      "teKana": "ふとって",
+      "nai": "太らない",
+      "naiKana": "ふとらない",
+      "ta": "太った",
+      "taKana": "ふとった",
+      "tai": "太りたい",
+      "taiKana": "ふとりたい",
+      "potential": "太れる",
+      "potentialKana": "ふとれる",
+      "volitional": "太ろう",
+      "volitionalKana": "ふとろう",
+      "tara": "太ったら",
+      "taraKana": "ふとったら",
+      "ba": "太れば",
+      "baKana": "ふとれば",
+      "passive": "太られる",
+      "passiveKana": "ふとられる",
+      "causative": "太らせる",
+      "causativeKana": "ふとらせる",
+      "gloss": "engordar",
+      "polite": "engordar, cortés",
+      "negative": "no engordar",
+      "past": "engordar, pasado cortés",
+      "plainNeg": "no engordar, plano",
+      "plainPast": "engordar, pasado plano",
+      "want": "quiero engordar",
+      "teNote": "Godan en る.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-375c7ef77f",
+      "label": "踏む",
+      "dict": "踏む",
+      "dictKana": "ふむ",
+      "stem": "踏み",
+      "stemKana": "ふみ",
+      "te": "踏んで",
+      "teKana": "ふんで",
+      "nai": "踏まない",
+      "naiKana": "ふまない",
+      "ta": "踏んだ",
+      "taKana": "ふんだ",
+      "tai": "踏みたい",
+      "taiKana": "ふみたい",
+      "potential": "踏める",
+      "potentialKana": "ふめる",
+      "volitional": "踏もう",
+      "volitionalKana": "ふもう",
+      "tara": "踏んだら",
+      "taraKana": "ふんだら",
+      "ba": "踏めば",
+      "baKana": "ふめば",
+      "passive": "踏まれる",
+      "passiveKana": "ふまれる",
+      "causative": "踏ませる",
+      "causativeKana": "ふませる",
+      "gloss": "pisar",
+      "polite": "pisar, cortés",
+      "negative": "no pisar",
+      "past": "pisar, pasado cortés",
+      "plainNeg": "no pisar, plano",
+      "plainPast": "pisar, pasado plano",
+      "want": "quiero pisar",
+      "teNote": "Godan en む.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-927b45c2eb",
+      "label": "降り出す",
+      "dict": "降り出す",
+      "dictKana": "ふりだす",
+      "stem": "降り出し",
+      "stemKana": "ふりだし",
+      "te": "降り出して",
+      "teKana": "ふりだして",
+      "nai": "降り出さない",
+      "naiKana": "ふりださない",
+      "ta": "降り出した",
+      "taKana": "ふりだした",
+      "tai": "降り出したい",
+      "taiKana": "ふりだしたい",
+      "potential": "降り出せる",
+      "potentialKana": "ふりだせる",
+      "volitional": "降り出そう",
+      "volitionalKana": "ふりだそう",
+      "tara": "降り出したら",
+      "taraKana": "ふりだしたら",
+      "ba": "降り出せば",
+      "baKana": "ふりだせば",
+      "passive": "降り出される",
+      "passiveKana": "ふりだされる",
+      "causative": "降り出させる",
+      "causativeKana": "ふりださせる",
+      "gloss": "empezar a llover",
+      "polite": "empezar a llover, cortés",
+      "negative": "no empezar a llover",
+      "past": "empezar a llover, pasado cortés",
+      "plainNeg": "no empezar a llover, plano",
+      "plainPast": "empezar a llover, pasado plano",
+      "want": "quiero empezar a llover",
+      "teNote": "Godan en す.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-9097d5cc39",
+      "label": "ほめる",
+      "dict": "ほめる",
+      "dictKana": "ほめる",
+      "stem": "ほめ",
+      "stemKana": "ほめ",
+      "te": "ほめて",
+      "teKana": "ほめて",
+      "nai": "ほめない",
+      "naiKana": "ほめない",
+      "ta": "ほめた",
+      "taKana": "ほめた",
+      "tai": "ほめたい",
+      "taiKana": "ほめたい",
+      "potential": "ほめられる",
+      "potentialKana": "ほめられる",
+      "volitional": "ほめよう",
+      "volitionalKana": "ほめよう",
+      "tara": "ほめたら",
+      "taraKana": "ほめたら",
+      "ba": "ほめれば",
+      "baKana": "ほめれば",
+      "passive": "ほめられる",
+      "passiveKana": "ほめられる",
+      "causative": "ほめさせる",
+      "causativeKana": "ほめさせる",
+      "gloss": "elogiar",
+      "polite": "elogiar, cortés",
+      "negative": "no elogiar",
+      "past": "elogiar, pasado cortés",
+      "plainNeg": "no elogiar, plano",
+      "plainPast": "elogiar, pasado plano",
+      "want": "quiero elogiar",
+      "teNote": "Ichidan: se quita る.",
+      "kind": "ichidan"
+    },
+    {
+      "id": "w-7c74c440e5",
+      "label": "参る",
+      "dict": "参る",
+      "dictKana": "まいる",
+      "stem": "参り",
+      "stemKana": "まいり",
+      "te": "参って",
+      "teKana": "まいって",
+      "nai": "参らない",
+      "naiKana": "まいらない",
+      "ta": "参った",
+      "taKana": "まいった",
+      "tai": "参りたい",
+      "taiKana": "まいりたい",
+      "potential": "参れる",
+      "potentialKana": "まいれる",
+      "volitional": "参ろう",
+      "volitionalKana": "まいろう",
+      "tara": "参ったら",
+      "taraKana": "まいったら",
+      "ba": "参れば",
+      "baKana": "まいれば",
+      "passive": "参られる",
+      "passiveKana": "まいられる",
+      "causative": "参らせる",
+      "causativeKana": "まいらせる",
+      "gloss": "ir o venir, humilde",
+      "polite": "ir o venir, humilde, cortés",
+      "negative": "no ir o venir, humilde",
+      "past": "ir o venir, humilde, pasado cortés",
+      "plainNeg": "no ir o venir, humilde, plano",
+      "plainPast": "ir o venir, humilde, pasado plano",
+      "want": "quiero ir o venir, humilde",
+      "teNote": "Godan en る.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-cb6d7546fb",
+      "label": "負ける",
+      "dict": "負ける",
+      "dictKana": "まける",
+      "stem": "負け",
+      "stemKana": "まけ",
+      "te": "負けて",
+      "teKana": "まけて",
+      "nai": "負けない",
+      "naiKana": "まけない",
+      "ta": "負けた",
+      "taKana": "まけた",
+      "tai": "負けたい",
+      "taiKana": "まけたい",
+      "potential": "負けられる",
+      "potentialKana": "まけられる",
+      "volitional": "負けよう",
+      "volitionalKana": "まけよう",
+      "tara": "負けたら",
+      "taraKana": "まけたら",
+      "ba": "負ければ",
+      "baKana": "まければ",
+      "passive": "負けられる",
+      "passiveKana": "まけられる",
+      "causative": "負けさせる",
+      "causativeKana": "まけさせる",
+      "gloss": "perder",
+      "polite": "perder, cortés",
+      "negative": "no perder",
+      "past": "perder, pasado cortés",
+      "plainNeg": "no perder, plano",
+      "plainPast": "perder, pasado plano",
+      "want": "quiero perder",
+      "teNote": "Ichidan: se quita る.",
+      "kind": "ichidan"
+    },
+    {
+      "id": "w-91094911c0",
+      "label": "間違える",
+      "dict": "間違える",
+      "dictKana": "まちがえる",
+      "stem": "間違え",
+      "stemKana": "まちがえ",
+      "te": "間違えて",
+      "teKana": "まちがえて",
+      "nai": "間違えない",
+      "naiKana": "まちがえない",
+      "ta": "間違えた",
+      "taKana": "まちがえた",
+      "tai": "間違えたい",
+      "taiKana": "まちがえたい",
+      "potential": "間違えられる",
+      "potentialKana": "まちがえられる",
+      "volitional": "間違えよう",
+      "volitionalKana": "まちがえよう",
+      "tara": "間違えたら",
+      "taraKana": "まちがえたら",
+      "ba": "間違えれば",
+      "baKana": "まちがえれば",
+      "passive": "間違えられる",
+      "passiveKana": "まちがえられる",
+      "causative": "間違えさせる",
+      "causativeKana": "まちがえさせる",
+      "gloss": "equivocarse",
+      "polite": "equivocarse, cortés",
+      "negative": "no equivocarse",
+      "past": "equivocarse, pasado cortés",
+      "plainNeg": "no equivocarse, plano",
+      "plainPast": "equivocarse, pasado plano",
+      "want": "quiero equivocarse",
+      "teNote": "Ichidan: se quita る.",
+      "kind": "ichidan"
+    },
+    {
+      "id": "w-675232ef05",
+      "label": "間に合う",
+      "dict": "間に合う",
+      "dictKana": "まにあう",
+      "stem": "間に合い",
+      "stemKana": "まにあい",
+      "te": "間に合って",
+      "teKana": "まにあって",
+      "nai": "間に合わない",
+      "naiKana": "まにあわない",
+      "ta": "間に合った",
+      "taKana": "まにあった",
+      "tai": "間に合いたい",
+      "taiKana": "まにあいたい",
+      "potential": "間に合える",
+      "potentialKana": "まにあえる",
+      "volitional": "間に合おう",
+      "volitionalKana": "まにあおう",
+      "tara": "間に合ったら",
+      "taraKana": "まにあったら",
+      "ba": "間に合えば",
+      "baKana": "まにあえば",
+      "passive": "間に合われる",
+      "passiveKana": "まにあわれる",
+      "causative": "間に合わせる",
+      "causativeKana": "まにあわせる",
+      "gloss": "llegar a tiempo",
+      "polite": "llegar a tiempo, cortés",
+      "negative": "no llegar a tiempo",
+      "past": "llegar a tiempo, pasado cortés",
+      "plainNeg": "no llegar a tiempo, plano",
+      "plainPast": "llegar a tiempo, pasado plano",
+      "want": "quiero llegar a tiempo",
+      "teNote": "Godan en う.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-b7644eb3fc",
+      "label": "回る",
+      "dict": "回る",
+      "dictKana": "まわる",
+      "stem": "回り",
+      "stemKana": "まわり",
+      "te": "回って",
+      "teKana": "まわって",
+      "nai": "回らない",
+      "naiKana": "まわらない",
+      "ta": "回った",
+      "taKana": "まわった",
+      "tai": "回りたい",
+      "taiKana": "まわりたい",
+      "potential": "回れる",
+      "potentialKana": "まわれる",
+      "volitional": "回ろう",
+      "volitionalKana": "まわろう",
+      "tara": "回ったら",
+      "taraKana": "まわったら",
+      "ba": "回れば",
+      "baKana": "まわれば",
+      "passive": "回られる",
+      "passiveKana": "まわられる",
+      "causative": "回らせる",
+      "causativeKana": "まわらせる",
+      "gloss": "dar vueltas",
+      "polite": "dar vueltas, cortés",
+      "negative": "no dar vueltas",
+      "past": "dar vueltas, pasado cortés",
+      "plainNeg": "no dar vueltas, plano",
+      "plainPast": "dar vueltas, pasado plano",
+      "want": "quiero dar vueltas",
+      "teNote": "Godan en る.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-0c27b9183f",
+      "label": "見える",
+      "dict": "見える",
+      "dictKana": "みえる",
+      "stem": "見え",
+      "stemKana": "みえ",
+      "te": "見えて",
+      "teKana": "みえて",
+      "nai": "見えない",
+      "naiKana": "みえない",
+      "ta": "見えた",
+      "taKana": "みえた",
+      "tai": "見えたい",
+      "taiKana": "みえたい",
+      "potential": "",
+      "potentialKana": "",
+      "volitional": "見えよう",
+      "volitionalKana": "みえよう",
+      "tara": "見えたら",
+      "taraKana": "みえたら",
+      "ba": "見えれば",
+      "baKana": "みえれば",
+      "passive": "",
+      "passiveKana": "",
+      "causative": "見えさせる",
+      "causativeKana": "みえさせる",
+      "gloss": "verse",
+      "polite": "verse, cortés",
+      "negative": "no verse",
+      "past": "verse, pasado cortés",
+      "plainNeg": "no verse, plano",
+      "plainPast": "verse, pasado plano",
+      "want": "quiero verse",
+      "teNote": "Ichidan: se quita る.",
+      "kind": "ichidan"
+    },
+    {
+      "id": "w-a4e2dc046c",
+      "label": "見つかる",
+      "dict": "見つかる",
+      "dictKana": "みつかる",
+      "stem": "見つかり",
+      "stemKana": "みつかり",
+      "te": "見つかって",
+      "teKana": "みつかって",
+      "nai": "見つからない",
+      "naiKana": "みつからない",
+      "ta": "見つかった",
+      "taKana": "みつかった",
+      "tai": "見つかりたい",
+      "taiKana": "みつかりたい",
+      "potential": "見つかれる",
+      "potentialKana": "みつかれる",
+      "volitional": "見つかろう",
+      "volitionalKana": "みつかろう",
+      "tara": "見つかったら",
+      "taraKana": "みつかったら",
+      "ba": "見つかれば",
+      "baKana": "みつかれば",
+      "passive": "見つかられる",
+      "passiveKana": "みつかられる",
+      "causative": "見つからせる",
+      "causativeKana": "みつからせる",
+      "gloss": "ser encontrado",
+      "polite": "ser encontrado, cortés",
+      "negative": "no ser encontrado",
+      "past": "ser encontrado, pasado cortés",
+      "plainNeg": "no ser encontrado, plano",
+      "plainPast": "ser encontrado, pasado plano",
+      "want": "quiero ser encontrado",
+      "teNote": "Godan en る.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-64f85b7fdf",
+      "label": "見つける",
+      "dict": "見つける",
+      "dictKana": "みつける",
+      "stem": "見つけ",
+      "stemKana": "みつけ",
+      "te": "見つけて",
+      "teKana": "みつけて",
+      "nai": "見つけない",
+      "naiKana": "みつけない",
+      "ta": "見つけた",
+      "taKana": "みつけた",
+      "tai": "見つけたい",
+      "taiKana": "みつけたい",
+      "potential": "見つけられる",
+      "potentialKana": "みつけられる",
+      "volitional": "見つけよう",
+      "volitionalKana": "みつけよう",
+      "tara": "見つけたら",
+      "taraKana": "みつけたら",
+      "ba": "見つければ",
+      "baKana": "みつければ",
+      "passive": "見つけられる",
+      "passiveKana": "みつけられる",
+      "causative": "見つけさせる",
+      "causativeKana": "みつけさせる",
+      "gloss": "encontrar",
+      "polite": "encontrar, cortés",
+      "negative": "no encontrar",
+      "past": "encontrar, pasado cortés",
+      "plainNeg": "no encontrar, plano",
+      "plainPast": "encontrar, pasado plano",
+      "want": "quiero encontrar",
+      "teNote": "Ichidan: se quita る.",
+      "kind": "ichidan"
+    },
+    {
+      "id": "w-6978e278b2",
+      "label": "向かう",
+      "dict": "向かう",
+      "dictKana": "むかう",
+      "stem": "向かい",
+      "stemKana": "むかい",
+      "te": "向かって",
+      "teKana": "むかって",
+      "nai": "向かわない",
+      "naiKana": "むかわない",
+      "ta": "向かった",
+      "taKana": "むかった",
+      "tai": "向かいたい",
+      "taiKana": "むかいたい",
+      "potential": "向かえる",
+      "potentialKana": "むかえる",
+      "volitional": "向かおう",
+      "volitionalKana": "むかおう",
+      "tara": "向かったら",
+      "taraKana": "むかったら",
+      "ba": "向かえば",
+      "baKana": "むかえば",
+      "passive": "向かわれる",
+      "passiveKana": "むかわれる",
+      "causative": "向かわせる",
+      "causativeKana": "むかわせる",
+      "gloss": "dirigirse",
+      "polite": "dirigirse, cortés",
+      "negative": "no dirigirse",
+      "past": "dirigirse, pasado cortés",
+      "plainNeg": "no dirigirse, plano",
+      "plainPast": "dirigirse, pasado plano",
+      "want": "quiero dirigirse",
+      "teNote": "Godan en う.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-1687840ea3",
+      "label": "迎える",
+      "dict": "迎える",
+      "dictKana": "むかえる",
+      "stem": "迎え",
+      "stemKana": "むかえ",
+      "te": "迎えて",
+      "teKana": "むかえて",
+      "nai": "迎えない",
+      "naiKana": "むかえない",
+      "ta": "迎えた",
+      "taKana": "むかえた",
+      "tai": "迎えたい",
+      "taiKana": "むかえたい",
+      "potential": "迎えられる",
+      "potentialKana": "むかえられる",
+      "volitional": "迎えよう",
+      "volitionalKana": "むかえよう",
+      "tara": "迎えたら",
+      "taraKana": "むかえたら",
+      "ba": "迎えれば",
+      "baKana": "むかえれば",
+      "passive": "迎えられる",
+      "passiveKana": "むかえられる",
+      "causative": "迎えさせる",
+      "causativeKana": "むかえさせる",
+      "gloss": "ir a recibir",
+      "polite": "ir a recibir, cortés",
+      "negative": "no ir a recibir",
+      "past": "ir a recibir, pasado cortés",
+      "plainNeg": "no ir a recibir, plano",
+      "plainPast": "ir a recibir, pasado plano",
+      "want": "quiero ir a recibir",
+      "teNote": "Ichidan: se quita る.",
+      "kind": "ichidan"
+    },
+    {
+      "id": "w-d9c64cdfa1",
+      "label": "召し上がる",
+      "dict": "召し上がる",
+      "dictKana": "めしあがる",
+      "stem": "召し上がり",
+      "stemKana": "めしあがり",
+      "te": "召し上がって",
+      "teKana": "めしあがって",
+      "nai": "召し上がらない",
+      "naiKana": "めしあがらない",
+      "ta": "召し上がった",
+      "taKana": "めしあがった",
+      "tai": "召し上がりたい",
+      "taiKana": "めしあがりたい",
+      "potential": "召し上がれる",
+      "potentialKana": "めしあがれる",
+      "volitional": "召し上がろう",
+      "volitionalKana": "めしあがろう",
+      "tara": "召し上がったら",
+      "taraKana": "めしあがったら",
+      "ba": "召し上がれば",
+      "baKana": "めしあがれば",
+      "passive": "召し上がられる",
+      "passiveKana": "めしあがられる",
+      "causative": "召し上がらせる",
+      "causativeKana": "めしあがらせる",
+      "gloss": "comer o beber, de respeto",
+      "polite": "comer o beber, de respeto, cortés",
+      "negative": "no comer o beber, de respeto",
+      "past": "comer o beber, de respeto, pasado cortés",
+      "plainNeg": "no comer o beber, de respeto, plano",
+      "plainPast": "comer o beber, de respeto, pasado plano",
+      "want": "quiero comer o beber, de respeto",
+      "teNote": "Godan en る.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-5434f0c376",
+      "label": "申し上げる",
+      "dict": "申し上げる",
+      "dictKana": "もうしあげる",
+      "stem": "申し上げ",
+      "stemKana": "もうしあげ",
+      "te": "申し上げて",
+      "teKana": "もうしあげて",
+      "nai": "申し上げない",
+      "naiKana": "もうしあげない",
+      "ta": "申し上げた",
+      "taKana": "もうしあげた",
+      "tai": "申し上げたい",
+      "taiKana": "もうしあげたい",
+      "potential": "申し上げられる",
+      "potentialKana": "もうしあげられる",
+      "volitional": "申し上げよう",
+      "volitionalKana": "もうしあげよう",
+      "tara": "申し上げたら",
+      "taraKana": "もうしあげたら",
+      "ba": "申し上げれば",
+      "baKana": "もうしあげれば",
+      "passive": "申し上げられる",
+      "passiveKana": "もうしあげられる",
+      "causative": "申し上げさせる",
+      "causativeKana": "もうしあげさせる",
+      "gloss": "decir, humilde",
+      "polite": "decir, humilde, cortés",
+      "negative": "no decir, humilde",
+      "past": "decir, humilde, pasado cortés",
+      "plainNeg": "no decir, humilde, plano",
+      "plainPast": "decir, humilde, pasado plano",
+      "want": "quiero decir, humilde",
+      "teNote": "Ichidan: se quita る.",
+      "kind": "ichidan"
+    },
+    {
+      "id": "w-8e7b945555",
+      "label": "申す",
+      "dict": "申す",
+      "dictKana": "もうす",
+      "stem": "申し",
+      "stemKana": "もうし",
+      "te": "申して",
+      "teKana": "もうして",
+      "nai": "申さない",
+      "naiKana": "もうさない",
+      "ta": "申した",
+      "taKana": "もうした",
+      "tai": "申したい",
+      "taiKana": "もうしたい",
+      "potential": "申せる",
+      "potentialKana": "もうせる",
+      "volitional": "申そう",
+      "volitionalKana": "もうそう",
+      "tara": "申したら",
+      "taraKana": "もうしたら",
+      "ba": "申せば",
+      "baKana": "もうせば",
+      "passive": "申される",
+      "passiveKana": "もうされる",
+      "causative": "申させる",
+      "causativeKana": "もうさせる",
+      "gloss": "llamarse, humilde",
+      "polite": "llamarse, humilde, cortés",
+      "negative": "no llamarse, humilde",
+      "past": "llamarse, humilde, pasado cortés",
+      "plainNeg": "no llamarse, humilde, plano",
+      "plainPast": "llamarse, humilde, pasado plano",
+      "want": "quiero llamarse, humilde",
+      "teNote": "Godan en す.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-c858640672",
+      "label": "戻る",
+      "dict": "戻る",
+      "dictKana": "もどる",
+      "stem": "戻り",
+      "stemKana": "もどり",
+      "te": "戻って",
+      "teKana": "もどって",
+      "nai": "戻らない",
+      "naiKana": "もどらない",
+      "ta": "戻った",
+      "taKana": "もどった",
+      "tai": "戻りたい",
+      "taiKana": "もどりたい",
+      "potential": "戻れる",
+      "potentialKana": "もどれる",
+      "volitional": "戻ろう",
+      "volitionalKana": "もどろう",
+      "tara": "戻ったら",
+      "taraKana": "もどったら",
+      "ba": "戻れば",
+      "baKana": "もどれば",
+      "passive": "戻られる",
+      "passiveKana": "もどられる",
+      "causative": "戻らせる",
+      "causativeKana": "もどらせる",
+      "gloss": "volver",
+      "polite": "volver, cortés",
+      "negative": "no volver",
+      "past": "volver, pasado cortés",
+      "plainNeg": "no volver, plano",
+      "plainPast": "volver, pasado plano",
+      "want": "quiero volver",
+      "teNote": "Godan en る.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-ad62110b55",
+      "label": "もらう",
+      "dict": "もらう",
+      "dictKana": "もらう",
+      "stem": "もらい",
+      "stemKana": "もらい",
+      "te": "もらって",
+      "teKana": "もらって",
+      "nai": "もらわない",
+      "naiKana": "もらわない",
+      "ta": "もらった",
+      "taKana": "もらった",
+      "tai": "もらいたい",
+      "taiKana": "もらいたい",
+      "potential": "もらえる",
+      "potentialKana": "もらえる",
+      "volitional": "もらおう",
+      "volitionalKana": "もらおう",
+      "tara": "もらったら",
+      "taraKana": "もらったら",
+      "ba": "もらえば",
+      "baKana": "もらえば",
+      "passive": "もらわれる",
+      "passiveKana": "もらわれる",
+      "causative": "もらわせる",
+      "causativeKana": "もらわせる",
+      "gloss": "recibir",
+      "polite": "recibir, cortés",
+      "negative": "no recibir",
+      "past": "recibir, pasado cortés",
+      "plainNeg": "no recibir, plano",
+      "plainPast": "recibir, pasado plano",
+      "want": "quiero recibir",
+      "teNote": "Godan en う.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-506aca7161",
+      "label": "焼く",
+      "dict": "焼く",
+      "dictKana": "やく",
+      "stem": "焼き",
+      "stemKana": "やき",
+      "te": "焼いて",
+      "teKana": "やいて",
+      "nai": "焼かない",
+      "naiKana": "やかない",
+      "ta": "焼いた",
+      "taKana": "やいた",
+      "tai": "焼きたい",
+      "taiKana": "やきたい",
+      "potential": "焼ける",
+      "potentialKana": "やける",
+      "volitional": "焼こう",
+      "volitionalKana": "やこう",
+      "tara": "焼いたら",
+      "taraKana": "やいたら",
+      "ba": "焼けば",
+      "baKana": "やけば",
+      "passive": "焼かれる",
+      "passiveKana": "やかれる",
+      "causative": "焼かせる",
+      "causativeKana": "やかせる",
+      "gloss": "asar, hornear",
+      "polite": "asar, hornear, cortés",
+      "negative": "no asar, hornear",
+      "past": "asar, hornear, pasado cortés",
+      "plainNeg": "no asar, hornear, plano",
+      "plainPast": "asar, hornear, pasado plano",
+      "want": "quiero asar, hornear",
+      "teNote": "Godan en く.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-8011fa51a8",
+      "label": "役に立つ",
+      "dict": "役に立つ",
+      "dictKana": "やくにたつ",
+      "stem": "役に立ち",
+      "stemKana": "やくにたち",
+      "te": "役に立って",
+      "teKana": "やくにたって",
+      "nai": "役に立たない",
+      "naiKana": "やくにたたない",
+      "ta": "役に立った",
+      "taKana": "やくにたった",
+      "tai": "役に立ちたい",
+      "taiKana": "やくにたちたい",
+      "potential": "役に立てる",
+      "potentialKana": "やくにたてる",
+      "volitional": "役に立とう",
+      "volitionalKana": "やくにたとう",
+      "tara": "役に立ったら",
+      "taraKana": "やくにたったら",
+      "ba": "役に立てば",
+      "baKana": "やくにたてば",
+      "passive": "役に立たれる",
+      "passiveKana": "やくにたたれる",
+      "causative": "役に立たせる",
+      "causativeKana": "やくにたたせる",
+      "gloss": "ser útil",
+      "polite": "ser útil, cortés",
+      "negative": "no ser útil",
+      "past": "ser útil, pasado cortés",
+      "plainNeg": "no ser útil, plano",
+      "plainPast": "ser útil, pasado plano",
+      "want": "quiero ser útil",
+      "teNote": "Godan en つ.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-7d2bcb5a30",
+      "label": "焼ける",
+      "dict": "焼ける",
+      "dictKana": "やける",
+      "stem": "焼け",
+      "stemKana": "やけ",
+      "te": "焼けて",
+      "teKana": "やけて",
+      "nai": "焼けない",
+      "naiKana": "やけない",
+      "ta": "焼けた",
+      "taKana": "やけた",
+      "tai": "焼けたい",
+      "taiKana": "やけたい",
+      "potential": "焼けられる",
+      "potentialKana": "やけられる",
+      "volitional": "焼けよう",
+      "volitionalKana": "やけよう",
+      "tara": "焼けたら",
+      "taraKana": "やけたら",
+      "ba": "焼ければ",
+      "baKana": "やければ",
+      "passive": "焼けられる",
+      "passiveKana": "やけられる",
+      "causative": "焼けさせる",
+      "causativeKana": "やけさせる",
+      "gloss": "asarse, quemarse",
+      "polite": "asarse, quemarse, cortés",
+      "negative": "no asarse, quemarse",
+      "past": "asarse, quemarse, pasado cortés",
+      "plainNeg": "no asarse, quemarse, plano",
+      "plainPast": "asarse, quemarse, pasado plano",
+      "want": "quiero asarse, quemarse",
+      "teNote": "Ichidan: se quita る.",
+      "kind": "ichidan"
+    },
+    {
+      "id": "w-3771ac0921",
+      "label": "痩せる",
+      "dict": "痩せる",
+      "dictKana": "やせる",
+      "stem": "痩せ",
+      "stemKana": "やせ",
+      "te": "痩せて",
+      "teKana": "やせて",
+      "nai": "痩せない",
+      "naiKana": "やせない",
+      "ta": "痩せた",
+      "taKana": "やせた",
+      "tai": "痩せたい",
+      "taiKana": "やせたい",
+      "potential": "痩せられる",
+      "potentialKana": "やせられる",
+      "volitional": "痩せよう",
+      "volitionalKana": "やせよう",
+      "tara": "痩せたら",
+      "taraKana": "やせたら",
+      "ba": "痩せれば",
+      "baKana": "やせれば",
+      "passive": "痩せられる",
+      "passiveKana": "やせられる",
+      "causative": "痩せさせる",
+      "causativeKana": "やせさせる",
+      "gloss": "adelgazar",
+      "polite": "adelgazar, cortés",
+      "negative": "no adelgazar",
+      "past": "adelgazar, pasado cortés",
+      "plainNeg": "no adelgazar, plano",
+      "plainPast": "adelgazar, pasado plano",
+      "want": "quiero adelgazar",
+      "teNote": "Ichidan: se quita る.",
+      "kind": "ichidan"
+    },
+    {
+      "id": "w-10ee6bdb9e",
+      "label": "止む",
+      "dict": "止む",
+      "dictKana": "やむ",
+      "stem": "止み",
+      "stemKana": "やみ",
+      "te": "止んで",
+      "teKana": "やんで",
+      "nai": "止まない",
+      "naiKana": "やまない",
+      "ta": "止んだ",
+      "taKana": "やんだ",
+      "tai": "止みたい",
+      "taiKana": "やみたい",
+      "potential": "止める",
+      "potentialKana": "やめる",
+      "volitional": "止もう",
+      "volitionalKana": "やもう",
+      "tara": "止んだら",
+      "taraKana": "やんだら",
+      "ba": "止めば",
+      "baKana": "やめば",
+      "passive": "止まれる",
+      "passiveKana": "やまれる",
+      "causative": "止ませる",
+      "causativeKana": "やませる",
+      "gloss": "parar, la lluvia o el dolor",
+      "polite": "parar, la lluvia o el dolor, cortés",
+      "negative": "no parar, la lluvia o el dolor",
+      "past": "parar, la lluvia o el dolor, pasado cortés",
+      "plainNeg": "no parar, la lluvia o el dolor, plano",
+      "plainPast": "parar, la lluvia o el dolor, pasado plano",
+      "want": "quiero parar, la lluvia o el dolor",
+      "teNote": "Godan en む.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-fa8716c349",
+      "label": "揺れる",
+      "dict": "揺れる",
+      "dictKana": "ゆれる",
+      "stem": "揺れ",
+      "stemKana": "ゆれ",
+      "te": "揺れて",
+      "teKana": "ゆれて",
+      "nai": "揺れない",
+      "naiKana": "ゆれない",
+      "ta": "揺れた",
+      "taKana": "ゆれた",
+      "tai": "揺れたい",
+      "taiKana": "ゆれたい",
+      "potential": "揺れられる",
+      "potentialKana": "ゆれられる",
+      "volitional": "揺れよう",
+      "volitionalKana": "ゆれよう",
+      "tara": "揺れたら",
+      "taraKana": "ゆれたら",
+      "ba": "揺れれば",
+      "baKana": "ゆれれば",
+      "passive": "揺れられる",
+      "passiveKana": "ゆれられる",
+      "causative": "揺れさせる",
+      "causativeKana": "ゆれさせる",
+      "gloss": "temblar",
+      "polite": "temblar, cortés",
+      "negative": "no temblar",
+      "past": "temblar, pasado cortés",
+      "plainNeg": "no temblar, plano",
+      "plainPast": "temblar, pasado plano",
+      "want": "quiero temblar",
+      "teNote": "Ichidan: se quita る.",
+      "kind": "ichidan"
+    },
+    {
+      "id": "w-cd96cff1ab",
+      "label": "汚れる",
+      "dict": "汚れる",
+      "dictKana": "よごれる",
+      "stem": "汚れ",
+      "stemKana": "よごれ",
+      "te": "汚れて",
+      "teKana": "よごれて",
+      "nai": "汚れない",
+      "naiKana": "よごれない",
+      "ta": "汚れた",
+      "taKana": "よごれた",
+      "tai": "汚れたい",
+      "taiKana": "よごれたい",
+      "potential": "汚れられる",
+      "potentialKana": "よごれられる",
+      "volitional": "汚れよう",
+      "volitionalKana": "よごれよう",
+      "tara": "汚れたら",
+      "taraKana": "よごれたら",
+      "ba": "汚れれば",
+      "baKana": "よごれれば",
+      "passive": "汚れられる",
+      "passiveKana": "よごれられる",
+      "causative": "汚れさせる",
+      "causativeKana": "よごれさせる",
+      "gloss": "ensuciarse",
+      "polite": "ensuciarse, cortés",
+      "negative": "no ensuciarse",
+      "past": "ensuciarse, pasado cortés",
+      "plainNeg": "no ensuciarse, plano",
+      "plainPast": "ensuciarse, pasado plano",
+      "want": "quiero ensuciarse",
+      "teNote": "Ichidan: se quita る.",
+      "kind": "ichidan"
+    },
+    {
+      "id": "w-7ffceb4055",
+      "label": "寄る",
+      "dict": "寄る",
+      "dictKana": "よる",
+      "stem": "寄り",
+      "stemKana": "より",
+      "te": "寄って",
+      "teKana": "よって",
+      "nai": "寄らない",
+      "naiKana": "よらない",
+      "ta": "寄った",
+      "taKana": "よった",
+      "tai": "寄りたい",
+      "taiKana": "よりたい",
+      "potential": "寄れる",
+      "potentialKana": "よれる",
+      "volitional": "寄ろう",
+      "volitionalKana": "よろう",
+      "tara": "寄ったら",
+      "taraKana": "よったら",
+      "ba": "寄れば",
+      "baKana": "よれば",
+      "passive": "寄られる",
+      "passiveKana": "よられる",
+      "causative": "寄らせる",
+      "causativeKana": "よらせる",
+      "gloss": "acercarse, pasar por",
+      "polite": "acercarse, pasar por, cortés",
+      "negative": "no acercarse, pasar por",
+      "past": "acercarse, pasar por, pasado cortés",
+      "plainNeg": "no acercarse, pasar por, plano",
+      "plainPast": "acercarse, pasar por, pasado plano",
+      "want": "quiero acercarse, pasar por",
+      "teNote": "Godan en る.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-82b0bf966f",
+      "label": "喜ぶ",
+      "dict": "喜ぶ",
+      "dictKana": "よろこぶ",
+      "stem": "喜び",
+      "stemKana": "よろこび",
+      "te": "喜んで",
+      "teKana": "よろこんで",
+      "nai": "喜ばない",
+      "naiKana": "よろこばない",
+      "ta": "喜んだ",
+      "taKana": "よろこんだ",
+      "tai": "喜びたい",
+      "taiKana": "よろこびたい",
+      "potential": "喜べる",
+      "potentialKana": "よろこべる",
+      "volitional": "喜ぼう",
+      "volitionalKana": "よろこぼう",
+      "tara": "喜んだら",
+      "taraKana": "よろこんだら",
+      "ba": "喜べば",
+      "baKana": "よろこべば",
+      "passive": "喜ばれる",
+      "passiveKana": "よろこばれる",
+      "causative": "喜ばせる",
+      "causativeKana": "よろこばせる",
+      "gloss": "alegrarse",
+      "polite": "alegrarse, cortés",
+      "negative": "no alegrarse",
+      "past": "alegrarse, pasado cortés",
+      "plainNeg": "no alegrarse, plano",
+      "plainPast": "alegrarse, pasado plano",
+      "want": "quiero alegrarse",
+      "teNote": "Godan en ぶ.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-58c9a21aa1",
+      "label": "沸かす",
+      "dict": "沸かす",
+      "dictKana": "わかす",
+      "stem": "沸かし",
+      "stemKana": "わかし",
+      "te": "沸かして",
+      "teKana": "わかして",
+      "nai": "沸かさない",
+      "naiKana": "わかさない",
+      "ta": "沸かした",
+      "taKana": "わかした",
+      "tai": "沸かしたい",
+      "taiKana": "わかしたい",
+      "potential": "沸かせる",
+      "potentialKana": "わかせる",
+      "volitional": "沸かそう",
+      "volitionalKana": "わかそう",
+      "tara": "沸かしたら",
+      "taraKana": "わかしたら",
+      "ba": "沸かせば",
+      "baKana": "わかせば",
+      "passive": "沸かされる",
+      "passiveKana": "わかされる",
+      "causative": "沸かさせる",
+      "causativeKana": "わかさせる",
+      "gloss": "hervir algo",
+      "polite": "hervir algo, cortés",
+      "negative": "no hervir algo",
+      "past": "hervir algo, pasado cortés",
+      "plainNeg": "no hervir algo, plano",
+      "plainPast": "hervir algo, pasado plano",
+      "want": "quiero hervir algo",
+      "teNote": "Godan en す.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-e1641974f4",
+      "label": "別れる",
+      "dict": "別れる",
+      "dictKana": "わかれる",
+      "stem": "別れ",
+      "stemKana": "わかれ",
+      "te": "別れて",
+      "teKana": "わかれて",
+      "nai": "別れない",
+      "naiKana": "わかれない",
+      "ta": "別れた",
+      "taKana": "わかれた",
+      "tai": "別れたい",
+      "taiKana": "わかれたい",
+      "potential": "別れられる",
+      "potentialKana": "わかれられる",
+      "volitional": "別れよう",
+      "volitionalKana": "わかれよう",
+      "tara": "別れたら",
+      "taraKana": "わかれたら",
+      "ba": "別れれば",
+      "baKana": "わかれれば",
+      "passive": "別れられる",
+      "passiveKana": "わかれられる",
+      "causative": "別れさせる",
+      "causativeKana": "わかれさせる",
+      "gloss": "separarse",
+      "polite": "separarse, cortés",
+      "negative": "no separarse",
+      "past": "separarse, pasado cortés",
+      "plainNeg": "no separarse, plano",
+      "plainPast": "separarse, pasado plano",
+      "want": "quiero separarse",
+      "teNote": "Ichidan: se quita る.",
+      "kind": "ichidan"
+    },
+    {
+      "id": "w-f7e0744822",
+      "label": "沸く",
+      "dict": "沸く",
+      "dictKana": "わく",
+      "stem": "沸き",
+      "stemKana": "わき",
+      "te": "沸いて",
+      "teKana": "わいて",
+      "nai": "沸かない",
+      "naiKana": "わかない",
+      "ta": "沸いた",
+      "taKana": "わいた",
+      "tai": "沸きたい",
+      "taiKana": "わきたい",
+      "potential": "沸ける",
+      "potentialKana": "わける",
+      "volitional": "沸こう",
+      "volitionalKana": "わこう",
+      "tara": "沸いたら",
+      "taraKana": "わいたら",
+      "ba": "沸けば",
+      "baKana": "わけば",
+      "passive": "沸かれる",
+      "passiveKana": "わかれる",
+      "causative": "沸かせる",
+      "causativeKana": "わかせる",
+      "gloss": "hervir",
+      "polite": "hervir, cortés",
+      "negative": "no hervir",
+      "past": "hervir, pasado cortés",
+      "plainNeg": "no hervir, plano",
+      "plainPast": "hervir, pasado plano",
+      "want": "quiero hervir",
+      "teNote": "Godan en く.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-327c67b830",
+      "label": "笑う",
+      "dict": "笑う",
+      "dictKana": "わらう",
+      "stem": "笑い",
+      "stemKana": "わらい",
+      "te": "笑って",
+      "teKana": "わらって",
+      "nai": "笑わない",
+      "naiKana": "わらわない",
+      "ta": "笑った",
+      "taKana": "わらった",
+      "tai": "笑いたい",
+      "taiKana": "わらいたい",
+      "potential": "笑える",
+      "potentialKana": "わらえる",
+      "volitional": "笑おう",
+      "volitionalKana": "わらおう",
+      "tara": "笑ったら",
+      "taraKana": "わらったら",
+      "ba": "笑えば",
+      "baKana": "わらえば",
+      "passive": "笑われる",
+      "passiveKana": "わらわれる",
+      "causative": "笑わせる",
+      "causativeKana": "わらわせる",
+      "gloss": "reír",
+      "polite": "reír, cortés",
+      "negative": "no reír",
+      "past": "reír, pasado cortés",
+      "plainNeg": "no reír, plano",
+      "plainPast": "reír, pasado plano",
+      "want": "quiero reír",
+      "teNote": "Godan en う.",
+      "kind": "godan"
+    },
+    {
+      "id": "w-27046b71e1",
+      "label": "割れる",
+      "dict": "割れる",
+      "dictKana": "われる",
+      "stem": "割れ",
+      "stemKana": "われ",
+      "te": "割れて",
+      "teKana": "われて",
+      "nai": "割れない",
+      "naiKana": "われない",
+      "ta": "割れた",
+      "taKana": "われた",
+      "tai": "割れたい",
+      "taiKana": "われたい",
+      "potential": "割れられる",
+      "potentialKana": "われられる",
+      "volitional": "割れよう",
+      "volitionalKana": "われよう",
+      "tara": "割れたら",
+      "taraKana": "われたら",
+      "ba": "割れれば",
+      "baKana": "われれば",
+      "passive": "割れられる",
+      "passiveKana": "われられる",
+      "causative": "割れさせる",
+      "causativeKana": "われさせる",
+      "gloss": "agrietarse",
+      "polite": "agrietarse, cortés",
+      "negative": "no agrietarse",
+      "past": "agrietarse, pasado cortés",
+      "plainNeg": "no agrietarse, plano",
+      "plainPast": "agrietarse, pasado plano",
+      "want": "quiero agrietarse",
+      "teNote": "Ichidan: se quita る.",
+      "kind": "ichidan"
+    }
+  ],
+  "CONJ_STARTER": [
+    "w-4610276c99",
+    "w-bc25dff617",
+    "w-bad913ed8f"
+  ],
+  "LESSONS": [
+    {
+      "id": "l-n4-puente",
+      "title": "El N4 empieza aquí",
+      "stage": "N4",
+      "minutes": 6,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Encima del N5",
+          "text": "Este camino no repite silabarios ni el N5. El JLPT no publica lista oficial desde 2010: esto es el recorte comunitario, no el examen. Aquí entran potencial, condicionales, voz y el habla de respeto.",
+          "examples": [
+            {
+              "jp": "漢字が読めます",
+              "kana": "かんじがよめます",
+              "es": "Puedo leer kanji."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "words",
+        "direction": "word-es",
+        "ids": [
+          "w-4fff6d0441",
+          "w-6a4011f27f",
+          "w-c3c3ac9f48",
+          "w-d1a343e501",
+          "w-54e1f7a772",
+          "w-2a6a55be8d",
+          "w-4a3152836b",
+          "w-e877021bf4"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-ageru-kureru-morau",
+      "title": "あげる, くれる, もらう",
+      "stage": "N4 · Regalo",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "あげる / くれる / もらう",
+          "text": "あげる es dar a alguien de fuera. くれる es que alguien da al hablante o a su grupo. もらう es recibir, y quien da va con に.",
+          "examples": [
+            {
+              "jp": "私は友だちに本をあげます。",
+              "kana": "わたしはともだちにほんをあげます。",
+              "es": "Le doy un libro a un amigo."
+            },
+            {
+              "jp": "兄が私にくれました。",
+              "kana": "あにがわたしにくれました。",
+              "es": "Mi hermano me lo dio."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-ageru-kureru-morau",
+          "g-ageru-kureru-morau-1",
+          "g-ageru-kureru-morau-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-te-ageru",
+      "title": "てあげる: hacerlo por otro",
+      "stage": "N4 · Regalo",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜てあげる",
+          "text": "てあげる es hacer un favor a otra persona. No se usa para hablar de lo que uno recibe.",
+          "examples": [
+            {
+              "jp": "荷物を持ってあげます。",
+              "kana": "にもつをもってあげます。",
+              "es": "Te llevo el equipaje."
+            },
+            {
+              "jp": "妹に読んであげました。",
+              "kana": "いもうとによんであげました。",
+              "es": "Se lo leí a mi hermana."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-te-ageru",
+          "g-te-ageru-1",
+          "g-te-ageru-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-te-kureru",
+      "title": "てくれる: lo hacen por mí",
+      "stage": "N4 · Regalo",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜てくれる",
+          "text": "てくれる es que otra persona hace algo a favor del hablante o de su grupo.",
+          "examples": [
+            {
+              "jp": "友だちが手伝ってくれました。",
+              "kana": "ともだちがてつだってくれました。",
+              "es": "Un amigo me ayudó."
+            },
+            {
+              "jp": "母が作ってくれます。",
+              "kana": "ははがつくってくれます。",
+              "es": "Mi madre me lo prepara."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-te-kureru",
+          "g-te-kureru-1",
+          "g-te-kureru-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-te-morau",
+      "title": "てもらう: lograr que lo hagan",
+      "stage": "N4 · Regalo",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜てもらう",
+          "text": "てもらう es recibir el favor. Quien lo hace va con に.",
+          "examples": [
+            {
+              "jp": "友だちに来てもらいます。",
+              "kana": "ともだちにきてもらいます。",
+              "es": "Le pido a un amigo que venga."
+            },
+            {
+              "jp": "先生に見てもらいました。",
+              "kana": "せんせいにみてもらいました。",
+              "es": "El profesor me lo revisó."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-te-morau",
+          "g-te-morau-1",
+          "g-te-morau-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-te-kudasaru-te-itadaku",
+      "title": "てくださる y ていただく",
+      "stage": "N4 · Regalo",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜てくださる",
+          "text": "てくださる es el respeto de てくれる: alguien respetado lo hace por mí. ていただく es el humilde de てもらう.",
+          "examples": [
+            {
+              "jp": "先生が教えてくださいました。",
+              "kana": "せんせいがおしえてくださいました。",
+              "es": "El profesor tuvo la amabilidad de explicármelo."
+            },
+            {
+              "jp": "部長に聞いていただきました。",
+              "kana": "ぶちょうにきいていただきました。",
+              "es": "Se lo consulté al jefe, con humildad."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-te-kudasaru-te-itadaku",
+          "g-te-kudasaru-te-itadaku-1",
+          "g-te-kudasaru-te-itadaku-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-te-iku",
+      "title": "ていく: ir haciendo",
+      "stage": "N4 · Forma て",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜ていく",
+          "text": "ていく mira hacia adelante o se aleja del hablante. Puede ser hacer algo y marcharse, o un cambio que sigue.",
+          "examples": [
+            {
+              "jp": "このまま太っていきます。",
+              "kana": "このままふとっていきます。",
+              "es": "Si sigo así, voy a engordar."
+            },
+            {
+              "jp": "傘を持っていきました。",
+              "kana": "かさをもっていきました。",
+              "es": "Me llevé el paraguas."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-te-iku",
+          "g-te-iku-1",
+          "g-te-iku-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-te-kuru",
+      "title": "てくる: venir haciendo",
+      "stage": "N4 · Forma て",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜てくる",
+          "text": "てくる se acerca al hablante, o describe un cambio hasta ahora. También es ir y volver.",
+          "examples": [
+            {
+              "jp": "雨が降ってきました。",
+              "kana": "あめがふってきました。",
+              "es": "Se ha puesto a llover."
+            },
+            {
+              "jp": "少し寒くなってきました。",
+              "kana": "すこさむくなってきました。",
+              "es": "Ha ido haciendo más frío."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-te-kuru",
+          "g-te-kuru-1",
+          "g-te-kuru-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-te-shimau-chau",
+      "title": "てしまう: acabar o lamentar",
+      "stage": "N4 · Forma て",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜てしまう",
+          "text": "てしまう es terminar del todo, o hacer algo que uno lamenta. ちゃう y じゃう son la forma de conversación.",
+          "examples": [
+            {
+              "jp": "宿題を忘れてしまいました。",
+              "kana": "しゅくだいをわすれてしまいました。",
+              "es": "Se me olvidó la tarea."
+            },
+            {
+              "jp": "もう食べちゃいました。",
+              "kana": "もうたべちゃいました。",
+              "es": "Ya me lo comí, en conversación."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-te-shimau-chau",
+          "g-te-shimau-chau-1",
+          "g-te-shimau-chau-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-te-oku",
+      "title": "ておく: dejarlo hecho",
+      "stage": "N4 · Forma て",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜ておく",
+          "text": "ておく es hacer algo ahora para más tarde, o dejarlo en ese estado. とく es la forma breve.",
+          "examples": [
+            {
+              "jp": "窓を開けておきます。",
+              "kana": "まどをあけておきます。",
+              "es": "Dejo la ventana abierta."
+            },
+            {
+              "jp": "先に予約しておきました。",
+              "kana": "さきによやくしておきました。",
+              "es": "Reservé antes."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-te-oku",
+          "g-te-oku-1",
+          "g-te-oku-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-te-miru",
+      "title": "てみる: probar a hacerlo",
+      "stage": "N4 · Forma て",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜てみる",
+          "text": "てみる es intentar una acción para ver qué pasa. No es 見る, ver, como verbo suelto.",
+          "examples": [
+            {
+              "jp": "この靴をはいてみます。",
+              "kana": "このくつをはいてみます。",
+              "es": "Me pruebo estos zapatos."
+            },
+            {
+              "jp": "一度聞いてみてください。",
+              "kana": "いちどきいてみてください。",
+              "es": "Prueba a preguntarlo."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-te-miru",
+          "g-te-miru-1",
+          "g-te-miru-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-te-aru",
+      "title": "てある: quedó hecho",
+      "stage": "N4 · Forma て",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜てある",
+          "text": "てある es el resultado de una acción intencionada que sigue ahí. El objeto suele llevar が, no を.",
+          "examples": [
+            {
+              "jp": "窓が開けてあります。",
+              "kana": "まどがあけてあります。",
+              "es": "La ventana está abierta, alguien la abrió."
+            },
+            {
+              "jp": "名前が書いてあります。",
+              "kana": "なまえがかいてあります。",
+              "es": "El nombre está escrito."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-te-aru",
+          "g-te-aru-1",
+          "g-te-aru-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-toki",
+      "title": "とき: cuando",
+      "stage": "N4 · Tiempo",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜とき",
+          "text": "とき es el momento en que ocurre algo. El verbo de antes puede ir en た si esa acción ya está hecha en ese instante.",
+          "examples": [
+            {
+              "jp": "寝るとき、電気を消します。",
+              "kana": "ねるとき、でんきをけします。",
+              "es": "Cuando me acuesto, apago la luz."
+            },
+            {
+              "jp": "国へ帰ったとき、会いました。",
+              "kana": "くにへかえったとき、あいました。",
+              "es": "Nos vimos cuando volví a mi país."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-toki",
+          "g-toki-1",
+          "g-toki-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-aida-aida-ni",
+      "title": "間 y 間に",
+      "stage": "N4 · Tiempo",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜間",
+          "text": "間 es todo el rato que dura algo. 間に es en algún punto de ese rato, no durante todo.",
+          "examples": [
+            {
+              "jp": "夏休みの間、海にいました。",
+              "kana": "なつやすみのあいだ、うみにいました。",
+              "es": "Estuve en el mar durante las vacaciones."
+            },
+            {
+              "jp": "留守の間に、友だちが来ました。",
+              "kana": "るすのあいだに、ともだちがきました。",
+              "es": "Mientras no estaba, vino un amigo."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-aida-aida-ni",
+          "g-aida-aida-ni-1",
+          "g-aida-aida-ni-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-sou-da-appearance",
+      "title": "そうだ: parece que va a",
+      "stage": "N4 · Apariencia",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜そうだ",
+          "text": "Esta そうだ se pega al tronco del verbo o del adjetivo y dice cómo se ve algo. おいしそう es que tiene buena pinta. No es el rumor.",
+          "examples": [
+            {
+              "jp": "雨が降りそうです。",
+              "kana": "あめがふりそうです。",
+              "es": "Parece que va a llover."
+            },
+            {
+              "jp": "このケーキはおいしそうです。",
+              "kana": "このケーキはおいしそうです。",
+              "es": "Este pastel tiene buena pinta."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-sou-da-appearance",
+          "g-sou-da-appearance-1",
+          "g-sou-da-appearance-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-sou-da-hearsay",
+      "title": "そうだ: dicen que",
+      "stage": "N4 · Apariencia",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜そうだ",
+          "text": "Esta そうだ va después de una frase en plano y transmite un rumor. No se pega al tronco: 降るそうだ, no 降りそうだ.",
+          "examples": [
+            {
+              "jp": "明日は雨だそうです。",
+              "kana": "あしたはあめだそうです。",
+              "es": "Dicen que mañana llueve."
+            },
+            {
+              "jp": "あの店は高いそうです。",
+              "kana": "あのみせはたかいそうです。",
+              "es": "Dicen que aquella tienda es cara."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-sou-da-hearsay",
+          "g-sou-da-hearsay-1",
+          "g-sou-da-hearsay-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-rashii",
+      "title": "らしい: por lo que se ve",
+      "stage": "N4 · Apariencia",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜らしい",
+          "text": "らしい juzga por lo que se oye o se deduce. Después de un nombre no lleva な. También significa típico de: 子どもらしい.",
+          "examples": [
+            {
+              "jp": "彼は来ないらしいです。",
+              "kana": "かれはこないらしいです。",
+              "es": "Parece que él no viene."
+            },
+            {
+              "jp": "それは本当らしいです。",
+              "kana": "それはほんとうらしいです。",
+              "es": "Parece que es verdad."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-rashii",
+          "g-rashii-1",
+          "g-rashii-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-you-da",
+      "title": "ようだ: da la impresión",
+      "stage": "N4 · Apariencia",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜ようだ",
+          "text": "ようだ es la impresión del hablante, a menudo por lo que ve. Después de un nombre va のようだ.",
+          "examples": [
+            {
+              "jp": "かぜをひいたようです。",
+              "kana": "かぜをひいたようです。",
+              "es": "Parece que se ha resfriado."
+            },
+            {
+              "jp": "夢のようです。",
+              "kana": "ゆめのようです。",
+              "es": "Parece un sueño."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-you-da",
+          "g-you-da-1",
+          "g-you-da-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-mitai",
+      "title": "みたい: parece, coloquial",
+      "stage": "N4 · Apariencia",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜みたい",
+          "text": "みたい es la ようだ de conversación. Se pega al nombre sin の.",
+          "examples": [
+            {
+              "jp": "雪みたいです。",
+              "kana": "ゆきみたいです。",
+              "es": "Parece nieve."
+            },
+            {
+              "jp": "子どもみたいに笑いました。",
+              "kana": "こどもみたいにわらいました。",
+              "es": "Se rio como un niño."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-mitai",
+          "g-mitai-1",
+          "g-mitai-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-sugiru",
+      "title": "すぎる: demasiado",
+      "stage": "N4 · Grado",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜すぎる",
+          "text": "すぎる se pega al tronco del verbo o del adjetivo い, sin la い. Con adjetivos な, se pega al nombre. Se conjuga como ichidan.",
+          "examples": [
+            {
+              "jp": "食べすぎました。",
+              "kana": "たべすぎました。",
+              "es": "Comí demasiado."
+            },
+            {
+              "jp": "この荷物は重すぎます。",
+              "kana": "このにもつはおもすぎます。",
+              "es": "Este bulto pesa demasiado."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-sugiru",
+          "g-sugiru-1",
+          "g-sugiru-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-kata",
+      "title": "方: cómo se hace",
+      "stage": "N4 · Manera",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜方",
+          "text": "方 se lee かた y se pega al tronco ます. 泳ぎ方 es la manera de nadar. No es ほう, el lado de la comparación.",
+          "examples": [
+            {
+              "jp": "使い方を教えてください。",
+              "kana": "つかいかたをおしえてください。",
+              "es": "Enséñame cómo se usa."
+            },
+            {
+              "jp": "書き方が分かりません。",
+              "kana": "かきかたがわかりません。",
+              "es": "No entiendo cómo se escribe."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-kata",
+          "g-kata-1",
+          "g-kata-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-chuu-juu",
+      "title": "中: en medio o durante todo",
+      "stage": "N4 · Tiempo",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜中",
+          "text": "中 se lee ちゅう cuando es en mitad de una acción, y じゅう cuando es durante todo un periodo o por todas partes.",
+          "examples": [
+            {
+              "jp": "今、食事中です。",
+              "kana": "いま、しょくじちゅうです。",
+              "es": "Ahora estoy comiendo."
+            },
+            {
+              "jp": "一日中、雨でした。",
+              "kana": "いちにちじゅう、あめでした。",
+              "es": "Llovió todo el día."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-chuu-juu",
+          "g-chuu-juu-1",
+          "g-chuu-juu-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-tsumori",
+      "title": "つもり: tener pensado",
+      "stage": "N4 · Intención",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜つもり",
+          "text": "つもり es la intención del hablante. Va después del plano. つもりはない es que no piensa hacerlo.",
+          "examples": [
+            {
+              "jp": "明日行くつもりです。",
+              "kana": "あしたいくつもりです。",
+              "es": "Pienso ir mañana."
+            },
+            {
+              "jp": "買うつもりはありません。",
+              "kana": "かうつもりはありません。",
+              "es": "No pienso comprarlo."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-tsumori",
+          "g-tsumori-1",
+          "g-tsumori-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-yotei",
+      "title": "予定: está previsto",
+      "stage": "N4 · Intención",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜予定",
+          "text": "予定 es un plan ya fijado, a menudo de un horario. つもり es más personal.",
+          "examples": [
+            {
+              "jp": "三時に会う予定です。",
+              "kana": "さんじにあうよていです。",
+              "es": "Quedamos a las tres."
+            },
+            {
+              "jp": "旅行の予定はありません。",
+              "kana": "りょこうのよていはありません。",
+              "es": "No tengo previsto viajar."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-yotei",
+          "g-yotei-1",
+          "g-yotei-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-koto-ni-suru",
+      "title": "ことにする: decidir",
+      "stage": "N4 · Intención",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜ことにする",
+          "text": "ことにする es la decisión de quien habla. El pasado ことにした dice que ya se decidió.",
+          "examples": [
+            {
+              "jp": "毎日歩くことにします。",
+              "kana": "まいにちあるくことにします。",
+              "es": "Decido caminar cada día."
+            },
+            {
+              "jp": "行かないことにしました。",
+              "kana": "いかないことにしました。",
+              "es": "Decidí no ir."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-koto-ni-suru",
+          "g-koto-ni-suru-1",
+          "g-koto-ni-suru-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-koto-ni-naru",
+      "title": "ことになる: queda decidido",
+      "stage": "N4 · Intención",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜ことになる",
+          "text": "ことになる es una decisión que llega de fuera, o el resultado de las circunstancias. No la toma solo el hablante.",
+          "examples": [
+            {
+              "jp": "来月、大阪へ行くことになります。",
+              "kana": "らいげつ、おおさかへいくことになります。",
+              "es": "Queda que el mes que viene voy a Osaka."
+            },
+            {
+              "jp": "会議は中止になることになりました。",
+              "kana": "かいぎはちゅうしになることになりました。",
+              "es": "La reunión acabó suspendiéndose."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-koto-ni-naru",
+          "g-koto-ni-naru-1",
+          "g-koto-ni-naru-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-koto-ga-dekiru",
+      "title": "ことができる: poder",
+      "stage": "N4 · Voz",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜ことができる",
+          "text": "ことができる envuelve el plano y dice que algo es posible. Vale con cualquier verbo, también する.",
+          "examples": [
+            {
+              "jp": "漢字を読むことができます。",
+              "kana": "かんじをよむことができます。",
+              "es": "Puedo leer kanji."
+            },
+            {
+              "jp": "ここで写真を取ることはできません。",
+              "kana": "ここでしゃしんをとることはできません。",
+              "es": "Aquí no se pueden hacer fotos."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-koto-ga-dekiru",
+          "g-koto-ga-dekiru-1",
+          "g-koto-ga-dekiru-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-eru-rareru-potential",
+      "title": "Potencial: poder",
+      "stage": "N4 · Voz",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜える / 〜られる",
+          "text": "En godan, la última sílaba pasa a la fila e y se añade る: 書く → 書ける. En ichidan se añade られる: 食べる → 食べられる. する es できる y 来る es 来られる.",
+          "examples": [
+            {
+              "jp": "この漢字が読めます。",
+              "kana": "このかんじがよめます。",
+              "es": "Puedo leer este kanji."
+            },
+            {
+              "jp": "一人で来られます。",
+              "kana": "ひとりでこられます。",
+              "es": "Puedo venir solo."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-eru-rareru-potential",
+          "g-eru-rareru-potential-1",
+          "g-eru-rareru-potential-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-reru-rareru-passive",
+      "title": "Pasiva",
+      "stage": "N4 · Voz",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜れる / 〜られる",
+          "text": "La pasiva godan usa la fila a más れる: 書く → 書かれる. La ichidan usa られる. Quien hace la acción lleva に. También expresa una molestia.",
+          "examples": [
+            {
+              "jp": "弟にケーキを食べられました。",
+              "kana": "おとうとにケーキをたべられました。",
+              "es": "Mi hermano me comió el pastel."
+            },
+            {
+              "jp": "雨に降られました。",
+              "kana": "あめにふられました。",
+              "es": "Me pilló la lluvia."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-reru-rareru-passive",
+          "g-reru-rareru-passive-1",
+          "g-reru-rareru-passive-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-seru-saseru",
+      "title": "Causativa: hacer que",
+      "stage": "N4 · Voz",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜せる / 〜させる",
+          "text": "Godan: fila a más せる, 書く → 書かせる. Ichidan: させる, 食べる → 食べさせる. する es させる y 来る es 来させる. Quien es obligado lleva に, o を si el verbo no tiene objeto.",
+          "examples": [
+            {
+              "jp": "子どもに野菜を食べさせます。",
+              "kana": "こどもにやさいをたべさせます。",
+              "es": "Hago que el niño coma verdura."
+            },
+            {
+              "jp": "先生は学生を立たせました。",
+              "kana": "せんせいはがくせいをたたせました。",
+              "es": "El profesor hizo ponerse de pie al estudiante."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-seru-saseru",
+          "g-seru-saseru-1",
+          "g-seru-saseru-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-serareru-saserareru",
+      "title": "Ser obligado",
+      "stage": "N4 · Voz",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜せられる / 〜させられる",
+          "text": "Es la pasiva de la causativa: a uno lo obligan. En godan corto a menudo se oye される: 書かされる.",
+          "examples": [
+            {
+              "jp": "残業させられました。",
+              "kana": "ざんぎょうさせられました。",
+              "es": "Me hicieron quedarme a trabajar."
+            },
+            {
+              "jp": "きらいなものを食べさせられた。",
+              "kana": "きらいなものをたべさせられた。",
+              "es": "Me obligaron a comer lo que no me gusta."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-serareru-saserareru",
+          "g-serareru-saserareru-1",
+          "g-serareru-saserareru-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-ou-you",
+      "title": "Volitivo: おう y よう",
+      "stage": "N4 · Voz",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜おう / 〜よう",
+          "text": "Godan cambia a la fila o y añade う: 行こう. Ichidan añade よう: 食べよう. する es しよう y 来る es 来よう. Entre amigos invita. En solitario, es la decisión.",
+          "examples": [
+            {
+              "jp": "一緒に行こう。",
+              "kana": "いっしょにいこう。",
+              "es": "Vamos juntos."
+            },
+            {
+              "jp": "今日は早く寝よう。",
+              "kana": "きょうははやくねよう。",
+              "es": "Hoy me voy a acostar pronto."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-ou-you",
+          "g-ou-you-1",
+          "g-ou-you-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-you-to-omou",
+      "title": "ようと思う: estoy por hacerlo",
+      "stage": "N4 · Intención",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜(よ)うと思う",
+          "text": "El volitivo más と思う es un plan aún no cerrado. と思っている es que se lo lleva pensando.",
+          "examples": [
+            {
+              "jp": "夏に海へ行こうと思います。",
+              "kana": "なつにうみへいこうとおもいます。",
+              "es": "Estoy pensando en ir al mar en verano."
+            },
+            {
+              "jp": "新しい仕事をさがそうと思っています。",
+              "kana": "あたらしいしごとをさがそうとおもっています。",
+              "es": "Llevo pensando en buscar otro trabajo."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-you-to-omou",
+          "g-you-to-omou-1",
+          "g-you-to-omou-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-e-ro",
+      "title": "Imperativo brusco",
+      "stage": "N4 · Mandato",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜え / 〜ろ",
+          "text": "Godan usa la fila e: 書け. Ichidan usa ろ: 見ろ. する es しろ y 来る es 来い. Es una orden seca. No se usa con un profesor.",
+          "examples": [
+            {
+              "jp": "早く来い。",
+              "kana": "はやくこい。",
+              "es": "Ven ya."
+            },
+            {
+              "jp": "これを見ろ。",
+              "kana": "これをみろ。",
+              "es": "Mira esto."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-e-ro",
+          "g-e-ro-1",
+          "g-e-ro-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-na-prohibition",
+      "title": "な: no lo hagas",
+      "stage": "N4 · Mandato",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜な",
+          "text": "な después del diccionario prohíbe con fuerza. No es la な de los adjetivos. 来るな es no vengas.",
+          "examples": [
+            {
+              "jp": "ここに入るな。",
+              "kana": "ここにはいるな。",
+              "es": "No entres aquí."
+            },
+            {
+              "jp": "触るな。",
+              "kana": "さわるな。",
+              "es": "No lo toques."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-na-prohibition",
+          "g-na-prohibition-1",
+          "g-na-prohibition-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-nasai",
+      "title": "なさい: la instrucción",
+      "stage": "N4 · Mandato",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜なさい",
+          "text": "なさい se pega al tronco ます. Es la orden de un padre o un maestro, más suave que el imperativo seco.",
+          "examples": [
+            {
+              "jp": "早く寝なさい。",
+              "kana": "はやくねなさい。",
+              "es": "Acuéstate pronto."
+            },
+            {
+              "jp": "名前を書きなさい。",
+              "kana": "なまえをかきなさい。",
+              "es": "Escribe el nombre."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-nasai",
+          "g-nasai-1",
+          "g-nasai-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-ba",
+      "title": "ば: si",
+      "stage": "N4 · Condición",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜ば",
+          "text": "Godan pasa a la fila e y añade ば: 書けば. Ichidan añade れば: 食べれば. する es すれば y 来る es 来れば. ば suele ser una condición general.",
+          "examples": [
+            {
+              "jp": "春になれば、暖かくなります。",
+              "kana": "はるになれば、あたたかくなります。",
+              "es": "Cuando llega la primavera, hace más calor."
+            },
+            {
+              "jp": "安ければ、買います。",
+              "kana": "やすければ、かいます。",
+              "es": "Si es barato, lo compro."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-ba",
+          "g-ba-1",
+          "g-ba-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-tara",
+      "title": "たら: si, o cuando",
+      "stage": "N4 · Condición",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜たら",
+          "text": "たら se añade a la forma た. Sirve para una condición y también para cuando termine algo. Es la condicional más usada en conversación.",
+          "examples": [
+            {
+              "jp": "着いたら、電話します。",
+              "kana": "ついたら、でんわします。",
+              "es": "Cuando llegue, llamo."
+            },
+            {
+              "jp": "雨だったら、行きません。",
+              "kana": "あめだったら、いきません。",
+              "es": "Si llueve, no voy."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-tara",
+          "g-tara-1",
+          "g-tara-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-nara",
+      "title": "なら: si se trata de",
+      "stage": "N4 · Condición",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜なら",
+          "text": "なら toma lo que acaba de decir el otro, o una suposición, y responde. Después de un nombre no hace falta だ.",
+          "examples": [
+            {
+              "jp": "日本へ行くなら、春がいいです。",
+              "kana": "にほんへいくなら、はるがいいです。",
+              "es": "Si vas a Japón, mejor en primavera."
+            },
+            {
+              "jp": "魚なら、この店が安いです。",
+              "kana": "さかななら、このみせがやすいです。",
+              "es": "Si es pescado, esta tienda es barata."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-nara",
+          "g-nara-1",
+          "g-nara-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-to",
+      "title": "と: siempre que",
+      "stage": "N4 · Condición",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜と",
+          "text": "と después del plano marca un resultado que se sigue solo: si haces esto, pasa aquello. No se usa para una decisión del hablante.",
+          "examples": [
+            {
+              "jp": "このボタンを押すと、ドアが開きます。",
+              "kana": "このボタンをおすと、ドアがひらきます。",
+              "es": "Si pulsas este botón, la puerta se abre."
+            },
+            {
+              "jp": "春になると、花が咲きます。",
+              "kana": "はるになると、はながさきます。",
+              "es": "Al llegar la primavera, salen las flores."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-to",
+          "g-to-1",
+          "g-to-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-te-mo-de-mo",
+      "title": "ても: aunque",
+      "stage": "N4 · Condición",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜ても",
+          "text": "ても es aunque, o incluso si. Con nombres y adjetivos な se usa でも.",
+          "examples": [
+            {
+              "jp": "雨でも、行きます。",
+              "kana": "あめでも、いきます。",
+              "es": "Aunque llueva, voy."
+            },
+            {
+              "jp": "高くても、買いたいです。",
+              "kana": "たかくても、かいたいです。",
+              "es": "Aunque sea caro, quiero comprarlo."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-te-mo-de-mo",
+          "g-te-mo-de-mo-1",
+          "g-te-mo-de-mo-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-noni-although",
+      "title": "のに: y eso que",
+      "stage": "N4 · Condición",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜のに",
+          "text": "のに contrasta con sorpresa o queja: se esperaba otra cosa. No es un simple pero.",
+          "examples": [
+            {
+              "jp": "勉強したのに、できませんでした。",
+              "kana": "べんきょうしたのに、できませんでした。",
+              "es": "Estudié, y aun así no pude."
+            },
+            {
+              "jp": "今日は日曜なのに、仕事です。",
+              "kana": "きょうはにちようなのに、しごとです。",
+              "es": "Es domingo, y aun así hay trabajo."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-noni-although",
+          "g-noni-although-1",
+          "g-noni-although-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-noni-purpose",
+      "title": "のに: para, con uso",
+      "stage": "N4 · Razón",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜のに",
+          "text": "Esta のに va con tiempo, dinero o uso: lo que hace falta para algo. No lleva la queja de la otra のに.",
+          "examples": [
+            {
+              "jp": "この手紙を書くのに、一時間かかりました。",
+              "kana": "このてがみをかくのに、いちじかんかかりました。",
+              "es": "Escribir esta carta me llevó una hora."
+            },
+            {
+              "jp": "行くのに、お金が要ります。",
+              "kana": "いくのに、おかねがいります。",
+              "es": "Para ir hace falta dinero."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-noni-purpose",
+          "g-noni-purpose-1",
+          "g-noni-purpose-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-node",
+      "title": "ので: como, porque",
+      "stage": "N4 · Razón",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜ので",
+          "text": "ので da una causa y suena más suave que から. Delante suele ir el plano, o なので con nombres.",
+          "examples": [
+            {
+              "jp": "暑いので、窓を開けました。",
+              "kana": "あついので、まどをあけました。",
+              "es": "Como hace calor, abrí la ventana."
+            },
+            {
+              "jp": "初めてなので、教えてください。",
+              "kana": "はじめてなので、おしえてください。",
+              "es": "Como es la primera vez, enséñamelo."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-node",
+          "g-node-1",
+          "g-node-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-te-reason",
+      "title": "て: la causa de un estado",
+      "stage": "N4 · Razón",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜て",
+          "text": "La forma て puede unir una causa con un sentimiento o un estado. No es la forma て de secuencia.",
+          "examples": [
+            {
+              "jp": "ニュースを聞いて、びっくりしました。",
+              "kana": "ニュースをきいて、びっくりしました。",
+              "es": "Al oír la noticia, me sobresalté."
+            },
+            {
+              "jp": "忙しくて、行けません。",
+              "kana": "いそがしくて、いけません。",
+              "es": "Estoy ocupado y no puedo ir."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-te-reason",
+          "g-te-reason-1",
+          "g-te-reason-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-shi",
+      "title": "し: y además",
+      "stage": "N4 · Razón",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜し",
+          "text": "し enumera razones. A menudo basta con una, y la otra se deja en el aire.",
+          "examples": [
+            {
+              "jp": "近いし、安いし、この店にします。",
+              "kana": "ちかいし、やすいし、このみせにします。",
+              "es": "Está cerca y es barata: me quedo con esta tienda."
+            },
+            {
+              "jp": "明日は日曜だし、休みます。",
+              "kana": "あしたはにちようだし、やすみます。",
+              "es": "Mañana es domingo, así que descanso."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-shi",
+          "g-shi-1",
+          "g-shi-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-kedo-keredomo",
+      "title": "けど: pero",
+      "stage": "N4 · Razón",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜けど",
+          "text": "けど es el pero de conversación. けれども es más cuidado. También suaviza lo que viene después.",
+          "examples": [
+            {
+              "jp": "高いけど、買います。",
+              "kana": "たかいけど、かいます。",
+              "es": "Es caro, pero lo compro."
+            },
+            {
+              "jp": "すみませんけど、ちょっといいですか。",
+              "kana": "すみませんけど、ちょっといいですか。",
+              "es": "Perdone, ¿tiene un momento?"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-kedo-keredomo",
+          "g-kedo-keredomo-1",
+          "g-kedo-keredomo-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-tame-ni",
+      "title": "ために: para, o por",
+      "stage": "N4 · Razón",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜ために",
+          "text": "ために es la finalidad si el sujeto controla la acción. Si lo de antes es un hecho, es la causa.",
+          "examples": [
+            {
+              "jp": "家族のために働きます。",
+              "kana": "かぞくのために働きます。",
+              "es": "Trabajo por mi familia."
+            },
+            {
+              "jp": "事故のために、電車が遅れました。",
+              "kana": "じこのために、でんしゃがおくれました。",
+              "es": "El tren se retrasó por un accidente."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-tame-ni",
+          "g-tame-ni-1",
+          "g-tame-ni-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-you-ni",
+      "title": "ように: para que",
+      "stage": "N4 · Razón",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜ように",
+          "text": "ように expresa un objetivo que no se controla del todo: para que se pueda, para que no pase. A menudo va con potencial o negativo.",
+          "examples": [
+            {
+              "jp": "遅れないように、早く出ます。",
+              "kana": "おくれないように、はやくでます。",
+              "es": "Salgo pronto para no llegar tarde."
+            },
+            {
+              "jp": "分かるように、ゆっくり話します。",
+              "kana": "わかるように、ゆっくりはなします。",
+              "es": "Hablo despacio para que se entienda."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-you-ni",
+          "g-you-ni-1",
+          "g-you-ni-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-you-ni-suru",
+      "title": "ようにする: procurar",
+      "stage": "N4 · Intención",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜ようにする",
+          "text": "ようにする es esforzarse por convertir algo en hábito. ようにしている es que ya lo intenta con regularidad.",
+          "examples": [
+            {
+              "jp": "野菜を食べるようにしています。",
+              "kana": "やさいをたべるようにしています。",
+              "es": "Procuro comer verdura."
+            },
+            {
+              "jp": "夜、遅く起きないようにします。",
+              "kana": "よる、おそくおきないようにします。",
+              "es": "Voy a procurar no acostarme tarde."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-you-ni-suru",
+          "g-you-ni-suru-1",
+          "g-you-ni-suru-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-you-ni-naru",
+      "title": "ようになる: llegar a",
+      "stage": "N4 · Intención",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜ようになる",
+          "text": "ようになる es un cambio: antes no, y ahora sí. Con potencial, es que se ha adquirido la capacidad.",
+          "examples": [
+            {
+              "jp": "漢字が読めるようになりました。",
+              "kana": "かんじがよめるようになりました。",
+              "es": "Ya consigo leer kanji."
+            },
+            {
+              "jp": "一人で料理するようになりました。",
+              "kana": "ひとりでりょうりするようになりました。",
+              "es": "He llegado a cocinar solo."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-you-ni-naru",
+          "g-you-ni-naru-1",
+          "g-you-ni-naru-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-te-hoshii",
+      "title": "てほしい: quiero que lo haga",
+      "stage": "N4 · Deseo",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜てほしい",
+          "text": "てほしい es el deseo de que otra persona actúe. Quien debe hacerlo lleva に.",
+          "examples": [
+            {
+              "jp": "窓を開けてほしいです。",
+              "kana": "まどをあけてほしいです。",
+              "es": "Quiero que abras la ventana."
+            },
+            {
+              "jp": "ここに来てほしくないです。",
+              "kana": "ここにきてほしくないです。",
+              "es": "No quiero que vengas aquí."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-te-hoshii",
+          "g-te-hoshii-1",
+          "g-te-hoshii-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-tagaru",
+      "title": "たがる: otro quiere",
+      "stage": "N4 · Deseo",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜たがる",
+          "text": "たい es el deseo de quien habla. たがる se usa para el deseo visible de otra persona. Se pega al tronco ます.",
+          "examples": [
+            {
+              "jp": "子どもは外で遊びたがりました。",
+              "kana": "こどもはそとであそびたがりました。",
+              "es": "El niño quería jugar fuera."
+            },
+            {
+              "jp": "妹は犬を飼いたがっています。",
+              "kana": "いもうとはいぬをかいたがっています。",
+              "es": "Mi hermana quiere tener un perro."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-tagaru",
+          "g-tagaru-1",
+          "g-tagaru-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-garu",
+      "title": "がる: se le nota",
+      "stage": "N4 · Deseo",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜がる",
+          "text": "がる se pega al tronco del adjetivo い y muestra el sentimiento de otra persona: 怖がる, 恥ずかしがる.",
+          "examples": [
+            {
+              "jp": "弟は犬を怖がります。",
+              "kana": "おとうとはいぬをこわがります。",
+              "es": "A mi hermano le dan miedo los perros."
+            },
+            {
+              "jp": "子どもが寂しがっています。",
+              "kana": "こどもがさびしがっています。",
+              "es": "El niño se siente solo."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-garu",
+          "g-garu-1",
+          "g-garu-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-kamo-shirenai",
+      "title": "かもしれない: puede que",
+      "stage": "N4 · Conjetura",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜かもしれない",
+          "text": "かもしれない es una posibilidad, no una certeza. Va después del plano. かも es la forma breve.",
+          "examples": [
+            {
+              "jp": "明日は雨かもしれません。",
+              "kana": "あしたはあめかもしれません。",
+              "es": "Puede que mañana llueva."
+            },
+            {
+              "jp": "彼はもう帰ったかもしれません。",
+              "kana": "かれはもうかえったかもしれません。",
+              "es": "Puede que ya se haya ido."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-kamo-shirenai",
+          "g-kamo-shirenai-1",
+          "g-kamo-shirenai-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-darou",
+      "title": "だろう: supongo",
+      "stage": "N4 · Conjetura",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜だろう",
+          "text": "だろう es el plano de でしょう. Afirma con reserva. だろう？ pide acuerdo.",
+          "examples": [
+            {
+              "jp": "明日は晴れるだろう。",
+              "kana": "あしたははれるだろう。",
+              "es": "Supongo que mañana despeja."
+            },
+            {
+              "jp": "これは君のだろう。",
+              "kana": "これはきみのだろう。",
+              "es": "Esto será tuyo, ¿no?"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-darou",
+          "g-darou-1",
+          "g-darou-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-hazu-da",
+      "title": "はずだ: debería",
+      "stage": "N4 · Conjetura",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜はずだ",
+          "text": "はずだ es lo que se espera por lógica o por un dato. No es un rumor. はずがない lo niega con fuerza.",
+          "examples": [
+            {
+              "jp": "今は授業中のはずです。",
+              "kana": "いまはじゅぎょうちゅうのはずです。",
+              "es": "Ahora debería estar en clase."
+            },
+            {
+              "jp": "彼は知っているはずです。",
+              "kana": "かれはしっているはずです。",
+              "es": "Él tendría que saberlo."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-hazu-da",
+          "g-hazu-da-1",
+          "g-hazu-da-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-hazu-ga-nai",
+      "title": "はずがない: no puede ser",
+      "stage": "N4 · Conjetura",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜はずがない",
+          "text": "はずがない niega la expectativa: no hay manera de que sea así.",
+          "examples": [
+            {
+              "jp": "そんなはずがありません。",
+              "kana": "そんなはずがありません。",
+              "es": "Eso no puede ser."
+            },
+            {
+              "jp": "彼が忘れるはずがない。",
+              "kana": "かれがわすれるはずがない。",
+              "es": "Él no puede olvidarlo."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-hazu-ga-nai",
+          "g-hazu-ga-nai-1",
+          "g-hazu-ga-nai-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-n-desu-no-desu",
+      "title": "んです: es que",
+      "stage": "N4 · Énfasis",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜んです",
+          "text": "んです explica o pide la explicación. のです es más formal. Delante de un nombre o de un adjetivo な va なんです.",
+          "examples": [
+            {
+              "jp": "どうして遅れたんですか。",
+              "kana": "どうしておくれたんですか。",
+              "es": "¿Por qué llegaste tarde?"
+            },
+            {
+              "jp": "頭が痛いんです。",
+              "kana": "あたまがいたいんです。",
+              "es": "Es que me duele la cabeza."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-n-desu-no-desu",
+          "g-n-desu-no-desu-1",
+          "g-n-desu-no-desu-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-ka-dou-ka",
+      "title": "かどうか: si o no",
+      "stage": "N4 · Pregunta",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜かどうか",
+          "text": "かどうか pregunta si algo es cierto, sin ofrecer la otra opción. No se añade otra か.",
+          "examples": [
+            {
+              "jp": "来るかどうか、分かりません。",
+              "kana": "くるかどうか、わかりません。",
+              "es": "No sé si viene."
+            },
+            {
+              "jp": "本当かどうか、聞いてみます。",
+              "kana": "ほんとうかどうか、きいてみます。",
+              "es": "Voy a preguntar si es verdad."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-ka-dou-ka",
+          "g-ka-dou-ka-1",
+          "g-ka-dou-ka-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-ka-embedded-question",
+      "title": "か: la pregunta dentro",
+      "stage": "N4 · Pregunta",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜か",
+          "text": "か cierra una pregunta dentro de otra frase: qué, dónde, quién. No hace falta だ delante de か.",
+          "examples": [
+            {
+              "jp": "だれが来るか、知っていますか。",
+              "kana": "だれがくるか、しっていますか。",
+              "es": "¿Sabes quién viene?"
+            },
+            {
+              "jp": "どこで買うか、決めてください。",
+              "kana": "どこでかうか、きめてください。",
+              "es": "Decide dónde lo compras."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-ka-embedded-question",
+          "g-ka-embedded-question-1",
+          "g-ka-embedded-question-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-to-omou",
+      "title": "と思う: creo que",
+      "stage": "N4 · Cita",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜と思う",
+          "text": "と思う cita lo que uno piensa. Delante va el plano. Para nombres, だと思う.",
+          "examples": [
+            {
+              "jp": "明日は雨だと思います。",
+              "kana": "あしたはあめだとおもいます。",
+              "es": "Creo que mañana llueve."
+            },
+            {
+              "jp": "この店が一番いいと思います。",
+              "kana": "このみせがいちばんいいとおもいます。",
+              "es": "Creo que esta tienda es la mejor."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-to-omou",
+          "g-to-omou-1",
+          "g-to-omou-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-to-iu-say",
+      "title": "と言う: decir que",
+      "stage": "N4 · Cita",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜と言う",
+          "text": "と言う cita las palabras de alguien. という también une un nombre con lo que se dice de él.",
+          "examples": [
+            {
+              "jp": "母は来ないと言いました。",
+              "kana": "はははこないといいました。",
+              "es": "Mi madre dijo que no viene."
+            },
+            {
+              "jp": "田中という人です。",
+              "kana": "たなかというひとです。",
+              "es": "Es una persona que se llama Tanaka."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-to-iu-say",
+          "g-to-iu-say-1",
+          "g-to-iu-say-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-shika-nai",
+      "title": "しかない: solo, con negativo",
+      "stage": "N4 · Cantidad",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜しか〜ない",
+          "text": "しか va con un verbo negativo y el conjunto es afirmativo limitado: solo hay eso.",
+          "examples": [
+            {
+              "jp": "水しかありません。",
+              "kana": "みずしかありません。",
+              "es": "Solo hay agua."
+            },
+            {
+              "jp": "百円しか持っていません。",
+              "kana": "ひゃくえんしかもっていません。",
+              "es": "Solo llevo cien yenes."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-shika-nai",
+          "g-shika-nai-1",
+          "g-shika-nai-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-bakari",
+      "title": "ばかり: no hace más que",
+      "stage": "N4 · Cantidad",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜ばかり",
+          "text": "ばかり insiste en que solo hay eso, a menudo con queja. No es だけ, que es más neutro.",
+          "examples": [
+            {
+              "jp": "ゲームばかりしています。",
+              "kana": "ゲームばかりしています。",
+              "es": "No hace más que jugar."
+            },
+            {
+              "jp": "甘いものばかり食べないで。",
+              "kana": "あまいものばかりたべないで。",
+              "es": "No comas solo dulces."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-bakari",
+          "g-bakari-1",
+          "g-bakari-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-ta-bakari",
+      "title": "たばかり: acabar de",
+      "stage": "N4 · Tiempo",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜たばかり",
+          "text": "たばかり es que acaba de ocurrir, desde el punto de vista de quien habla. No tiene que ser hace un segundo.",
+          "examples": [
+            {
+              "jp": "今、着いたばかりです。",
+              "kana": "いま、ついたばかりです。",
+              "es": "Acabo de llegar."
+            },
+            {
+              "jp": "日本に来たばかりのころは、大変でした。",
+              "kana": "にほんにきたばかりのころは、たいへんでした。",
+              "es": "Cuando acababa de llegar a Japón, fue duro."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-ta-bakari",
+          "g-ta-bakari-1",
+          "g-ta-bakari-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-tokoro-da",
+      "title": "ところだ: a punto, en ello, justo",
+      "stage": "N4 · Tiempo",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜ところだ",
+          "text": "辞書形ところだ es a punto de. ているところだ es en mitad de. たところだ es justo ahora.",
+          "examples": [
+            {
+              "jp": "今から食べるところです。",
+              "kana": "いまからたべるところです。",
+              "es": "Estoy a punto de comer."
+            },
+            {
+              "jp": "今、食べているところです。",
+              "kana": "いま、たべているところです。",
+              "es": "Estoy comiendo ahora mismo."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-tokoro-da",
+          "g-tokoro-da-1",
+          "g-tokoro-da-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-yasui-nikui",
+      "title": "やすい y にくい",
+      "stage": "N4 · Grado",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜やすい / 〜にくい",
+          "text": "Se pegan al tronco ます. やすい es fácil de hacer. にくい es que cuesta. Se conjugan como adjetivos い.",
+          "examples": [
+            {
+              "jp": "このペンは書きやすいです。",
+              "kana": "このペンはかきやすいです。",
+              "es": "Este bolígrafo escribe fácil."
+            },
+            {
+              "jp": "この漢字は読みにくいです。",
+              "kana": "このかんじはよみにくいです。",
+              "es": "Este kanji es difícil de leer."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-yasui-nikui",
+          "g-yasui-nikui-1",
+          "g-yasui-nikui-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-hajimeru-owaru-tsuzukeru",
+      "title": "始める, 終わる, 続ける",
+      "stage": "N4 · Tiempo",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜始める",
+          "text": "Se pegan al tronco ます. 始める es ponerse a. 終わる es terminar de. 続ける es seguir.",
+          "examples": [
+            {
+              "jp": "読み始めました。",
+              "kana": "よみはじめました。",
+              "es": "Empecé a leer."
+            },
+            {
+              "jp": "雨が降り続けています。",
+              "kana": "あめがふりつづけています。",
+              "es": "Sigue lloviendo."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-hajimeru-owaru-tsuzukeru",
+          "g-hajimeru-owaru-tsuzukeru-1",
+          "g-hajimeru-owaru-tsuzukeru-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-dasu",
+      "title": "出す: ponerse de pronto",
+      "stage": "N4 · Tiempo",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜出す",
+          "text": "出す pegado al tronco es empezar de golpe. No es 出す, sacar, como verbo suelto.",
+          "examples": [
+            {
+              "jp": "急に泣き出しました。",
+              "kana": "きゅうになきだしました。",
+              "es": "De pronto se puso a llorar."
+            },
+            {
+              "jp": "走り出した。",
+              "kana": "はしりだした。",
+              "es": "Echó a correr."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-dasu",
+          "g-dasu-1",
+          "g-dasu-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-hodo-nai",
+      "title": "ほどない: no tanto como",
+      "stage": "N4 · Cantidad",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜ほど〜ない",
+          "text": "ほど con negativo compara: no llega al grado de lo otro. より es más neutro.",
+          "examples": [
+            {
+              "jp": "兄ほど背が高くありません。",
+              "kana": "あにほどせがたかくありません。",
+              "es": "No soy tan alto como mi hermano."
+            },
+            {
+              "jp": "思ったほど難しくなかった。",
+              "kana": "おもったほどむずかしくなかった。",
+              "es": "No fue tan difícil como pensaba."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-hodo-nai",
+          "g-hodo-nai-1",
+          "g-hodo-nai-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-nakanaka-nai",
+      "title": "なかなかない: no hay manera",
+      "stage": "N4 · Cantidad",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "なかなか〜ない",
+          "text": "なかなか con negativo es que no se consigue con facilidad. No es el なかなか afirmativo de bastante.",
+          "examples": [
+            {
+              "jp": "なかなか終わらない。",
+              "kana": "なかなかおわらない。",
+              "es": "No hay manera de que termine."
+            },
+            {
+              "jp": "バスがなかなか来ません。",
+              "kana": "バスがなかなかきません。",
+              "es": "El autobús no acaba de llegar."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-nakanaka-nai",
+          "g-nakanaka-nai-1",
+          "g-nakanaka-nai-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-zutsu",
+      "title": "ずつ: cada uno",
+      "stage": "N4 · Cantidad",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜ずつ",
+          "text": "ずつ reparte la misma cantidad. Va después de un número o de 少し.",
+          "examples": [
+            {
+              "jp": "一人に二つずつあります。",
+              "kana": "ひとりにふたつずつあります。",
+              "es": "Hay dos para cada uno."
+            },
+            {
+              "jp": "毎日、少しずつ覚えます。",
+              "kana": "まいにち、すこしずつおぼえます。",
+              "es": "Cada día aprendo un poco."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-zutsu",
+          "g-zutsu-1",
+          "g-zutsu-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-mo-emphasis",
+      "title": "も: tanto como",
+      "stage": "N4 · Cantidad",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜も",
+          "text": "も con una cantidad subraya que es mucha, o, con negativo, que no llega ni a esa.",
+          "examples": [
+            {
+              "jp": "三時間も待ちました。",
+              "kana": "さんじかんもまちました。",
+              "es": "Esperé nada menos que tres horas."
+            },
+            {
+              "jp": "一つもありません。",
+              "kana": "ひとつもありません。",
+              "es": "No hay ni uno."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-mo-emphasis",
+          "g-mo-emphasis-1",
+          "g-mo-emphasis-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-made-ni",
+      "title": "までに: para tal hora",
+      "stage": "N4 · Tiempo",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜までに",
+          "text": "までに es el límite: antes de ese momento, no durante todo el rato. まで es hasta.",
+          "examples": [
+            {
+              "jp": "五時までに来てください。",
+              "kana": "ごじまでにくいてください。",
+              "es": "Ven antes de las cinco."
+            },
+            {
+              "jp": "金曜日までに出します。",
+              "kana": "きんようびまでにだします。",
+              "es": "Lo entrego para el viernes."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-made-ni",
+          "g-made-ni-1",
+          "g-made-ni-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-koto-ga-aru",
+      "title": "ことがある: a veces",
+      "stage": "N4 · Tiempo",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜ことがある",
+          "text": "El plano más ことがある es que a veces pasa. No es たことがある, que es la experiencia de haberlo hecho.",
+          "examples": [
+            {
+              "jp": "夜、遅くなることがあります。",
+              "kana": "よる、おそくなることがあります。",
+              "es": "A veces se me hace tarde por la noche."
+            },
+            {
+              "jp": "ここで食べることもあります。",
+              "kana": "ここでたべることもあります。",
+              "es": "A veces también como aquí."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-koto-ga-aru",
+          "g-koto-ga-aru-1",
+          "g-koto-ga-aru-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-nai-to-ikenai-nakucha",
+      "title": "ないといけない: hay que",
+      "stage": "N4 · Obligación",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜ないといけない",
+          "text": "ないといけない es la obligación de conversación. なくちゃ y なきゃ son más breves. El sentido es hay que, no la suma de las piezas.",
+          "examples": [
+            {
+              "jp": "もう帰らないといけません。",
+              "kana": "もうかえらないといけません。",
+              "es": "Ya me tengo que ir."
+            },
+            {
+              "jp": "今日中に出さなくちゃ。",
+              "kana": "きょうじゅうにださなくちゃ。",
+              "es": "Tengo que entregarlo hoy."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-nai-to-ikenai-nakucha",
+          "g-nai-to-ikenai-nakucha-1",
+          "g-nai-to-ikenai-nakucha-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-sasete-kudasai",
+      "title": "させてください: déjeme",
+      "stage": "N4 · Petición",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜させてください",
+          "text": "La causativa más てください pide permiso para hacer algo uno mismo.",
+          "examples": [
+            {
+              "jp": "私にやらせてください。",
+              "kana": "わたしにやらせてください。",
+              "es": "Déjeme hacerlo a mí."
+            },
+            {
+              "jp": "ちょっと考えさせてください。",
+              "kana": "かんがえさせてください。",
+              "es": "Déjeme pensarlo un momento."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-sasete-kudasai",
+          "g-sasete-kudasai-1",
+          "g-sasete-kudasai-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-sonkeigo",
+      "title": "Lenguaje de respeto",
+      "stage": "N4 · Cortesía",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "尊敬語",
+          "text": "El respeto eleva la acción de la otra persona. いる, 行く y 来る pasan a いらっしゃる. 言う es おっしゃる. 食べる es 召し上がる. する es なさる.",
+          "examples": [
+            {
+              "jp": "先生はもういらっしゃいました。",
+              "kana": "せんせいはもういらっしゃいました。",
+              "es": "El profesor ya llegó."
+            },
+            {
+              "jp": "社長がそうおっしゃいました。",
+              "kana": "しゃちょうがそうおっしゃいました。",
+              "es": "El presidente dijo eso."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-sonkeigo",
+          "g-sonkeigo-1",
+          "g-sonkeigo-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-kenjougo",
+      "title": "Lenguaje humilde",
+      "stage": "N4 · Cortesía",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "謙譲語",
+          "text": "Lo humilde baja la acción de quien habla, a menudo porque afecta a alguien respetado. 行く es 参る. 言う es 申す. 見る es 拝見する. する es いたす.",
+          "examples": [
+            {
+              "jp": "私が参ります。",
+              "kana": "わたしがまいります。",
+              "es": "Iré yo."
+            },
+            {
+              "jp": "資料を拝見しました。",
+              "kana": "しりょうをはいけんしました。",
+              "es": "He visto el documento, con humildad."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-kenjougo",
+          "g-kenjougo-1",
+          "g-kenjougo-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-o-ni-naru",
+      "title": "お〜になる: respeto regular",
+      "stage": "N4 · Cortesía",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "お〜になる",
+          "text": "お más el tronco ます más になる eleva la acción de otra persona cuando no hay un verbo especial.",
+          "examples": [
+            {
+              "jp": "先生はもうお帰りになりました。",
+              "kana": "せんせいはもうおかえりになりました。",
+              "es": "El profesor ya se fue."
+            },
+            {
+              "jp": "社長がお読みになりました。",
+              "kana": "しゃちょうがおよみになりました。",
+              "es": "El presidente lo leyó."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-o-ni-naru",
+          "g-o-ni-naru-1",
+          "g-o-ni-naru-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-o-suru",
+      "title": "お〜する: humilde regular",
+      "stage": "N4 · Cortesía",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "お〜する",
+          "text": "お más el tronco más する baja la acción de quien habla hecha para otra persona.",
+          "examples": [
+            {
+              "jp": "荷物をお持ちします。",
+              "kana": "にもつをおもちします。",
+              "es": "Yo le llevo el equipaje."
+            },
+            {
+              "jp": "明日お電話します。",
+              "kana": "あしたおでんわします。",
+              "es": "Mañana le llamo."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-o-suru",
+          "g-o-suru-1",
+          "g-o-suru-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-de-gozaimasu",
+      "title": "でございます: es, muy cortés",
+      "stage": "N4 · Cortesía",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜でございます",
+          "text": "でございます es el です de mostrador, hotel o presentación formal.",
+          "examples": [
+            {
+              "jp": "こちらが田中でございます。",
+              "kana": "こちらがたなかでございます。",
+              "es": "Le presento a Tanaka."
+            },
+            {
+              "jp": "部屋はこちらでございます。",
+              "kana": "へやはこちらでございます。",
+              "es": "La habitación es por aquí."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-de-gozaimasu",
+          "g-de-gozaimasu-1",
+          "g-de-gozaimasu-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-te-mo-kamawanai",
+      "title": "ても構わない: no importa si",
+      "stage": "N4 · Permiso",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜ても構わない",
+          "text": "ても構わない da permiso, o dice que algo no molesta. でもいい es más coloquial.",
+          "examples": [
+            {
+              "jp": "明日でも構いません。",
+              "kana": "あしたでもかまいません。",
+              "es": "Mañana también me vale."
+            },
+            {
+              "jp": "ここで食べても構わないですか。",
+              "kana": "ここでたべてもかまわないですか。",
+              "es": "¿No importa si como aquí?"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-te-mo-kamawanai",
+          "g-te-mo-kamawanai-1",
+          "g-te-mo-kamawanai-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-no-koto-nominalizer",
+      "title": "の y こと: convertir en nombre",
+      "stage": "N4 · Otros",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜の / 〜こと",
+          "text": "の y こと convierten un verbo en nombre. こと es más general. の se usa con lo que se ve o se percibe.",
+          "examples": [
+            {
+              "jp": "泳ぐことが好きです。",
+              "kana": "およぐことがすきです。",
+              "es": "Me gusta nadar."
+            },
+            {
+              "jp": "鳥が飛ぶのが見えました。",
+              "kana": "とりがとぶのがみえました。",
+              "es": "Vi un pájaro volar."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-no-koto-nominalizer",
+          "g-no-koto-nominalizer-1",
+          "g-no-koto-nominalizer-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-ba-yokatta",
+      "title": "ばよかった: ojalá hubiera",
+      "stage": "N4 · Consejo",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜ばよかった",
+          "text": "ばよかった es el arrepentimiento: habría sido mejor hacer eso.",
+          "examples": [
+            {
+              "jp": "もっと早く来ればよかった。",
+              "kana": "もっとはやくくればよかった。",
+              "es": "Ojalá hubiera venido antes."
+            },
+            {
+              "jp": "言えばよかったです。",
+              "kana": "いえばよかったです。",
+              "es": "Debería haberlo dicho."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-ba-yokatta",
+          "g-ba-yokatta-1",
+          "g-ba-yokatta-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-tara-dou",
+      "title": "たらどう: ¿y si?",
+      "stage": "N4 · Consejo",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜たらどう",
+          "text": "たらどう propone una acción al otro. たらどうですか es la forma cuidada.",
+          "examples": [
+            {
+              "jp": "先生に聞いたらどうですか。",
+              "kana": "せんせいにきいたらどうですか。",
+              "es": "¿Y si se lo preguntas al profesor?"
+            },
+            {
+              "jp": "少し休んだらどう。",
+              "kana": "すこしやすんだらどう。",
+              "es": "¿Y si descansas un poco?"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-tara-dou",
+          "g-tara-dou-1",
+          "g-tara-dou-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-hou-ga-ii",
+      "title": "ほうがいい: más vale",
+      "stage": "N4 · Consejo",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜ほうがいい",
+          "text": "たほうがいい aconseja hacer algo. ないほうがいい aconseja no hacerlo.",
+          "examples": [
+            {
+              "jp": "早く寝たほうがいいです。",
+              "kana": "はやくねたほうがいいです。",
+              "es": "Más vale acostarse pronto."
+            },
+            {
+              "jp": "夜、一人で歩かないほうがいい。",
+              "kana": "よる、ひとりであるかないほうがいい。",
+              "es": "Más vale no caminar solo de noche."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-hou-ga-ii",
+          "g-hou-ga-ii-1",
+          "g-hou-ga-ii-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-toka-toka",
+      "title": "とか: cosas como",
+      "stage": "N4 · Otros",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜とか〜とか",
+          "text": "とか enumera ejemplos sin cerrar la lista. Es de conversación.",
+          "examples": [
+            {
+              "jp": "寿司とか、てんぷらとか、食べたいです。",
+              "kana": "すしとか、てんぷらとか、たべたいです。",
+              "es": "Quiero comer sushi, tempura y cosas así."
+            },
+            {
+              "jp": "映画とかを見ます。",
+              "kana": "えいがとかをみます。",
+              "es": "Veo películas y eso."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-toka-toka",
+          "g-toka-toka-1",
+          "g-toka-toka-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-nado",
+      "title": "など: y demás",
+      "stage": "N4 · Otros",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜など",
+          "text": "など cierra una lista incompleta. Es más neutro que とか.",
+          "examples": [
+            {
+              "jp": "りんごやみかんなどを買いました。",
+              "kana": "りんごやみかんなどをかいました。",
+              "es": "Compré manzanas, mandarinas y más."
+            },
+            {
+              "jp": "これなどはどうですか。",
+              "kana": "これなどはどうですか。",
+              "es": "¿Qué le parece algo como esto?"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-nado",
+          "g-nado-1",
+          "g-nado-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-de-mo-suggestion",
+      "title": "でも: o algo así",
+      "stage": "N4 · Otros",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜でも",
+          "text": "でも después de un nombre suaviza una propuesta: té o lo que sea. No es el でも de aunque.",
+          "examples": [
+            {
+              "jp": "お茶でも飲みませんか。",
+              "kana": "おちゃでものみませんか。",
+              "es": "¿Tomamos un té o algo?"
+            },
+            {
+              "jp": "映画でも見よう。",
+              "kana": "えいがでもみよう。",
+              "es": "Veamos una película o algo."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-de-mo-suggestion",
+          "g-de-mo-suggestion-1",
+          "g-de-mo-suggestion-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-sa",
+      "title": "さ: el grado",
+      "stage": "N4 · Otros",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜さ",
+          "text": "さ convierte un adjetivo en nombre de grado: 高さ, 便利さ. Se quita la い del adjetivo い.",
+          "examples": [
+            {
+              "jp": "この山の高さを知っていますか。",
+              "kana": "このやまのたかさをしっていますか。",
+              "es": "¿Sabes la altura de esta montaña?"
+            },
+            {
+              "jp": "便利さが一番です。",
+              "kana": "べんりさがいちばんです。",
+              "es": "Lo que más importa es lo práctico."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-sa",
+          "g-sa-1",
+          "g-sa-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-me",
+      "title": "目: el ordinal",
+      "stage": "N4 · Cantidad",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜目",
+          "text": "目 después de un contador hace el ordinal: 一つ目, 二番目.",
+          "examples": [
+            {
+              "jp": "三つ目の信号を右へ。",
+              "kana": "みっつめのしんごうをみぎへ。",
+              "es": "En el tercer semáforo, a la derecha."
+            },
+            {
+              "jp": "二番目の人はだれですか。",
+              "kana": "にばんめのひとはだれですか。",
+              "es": "¿Quién es la segunda persona?"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-me",
+          "g-me-1",
+          "g-me-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-oki-ni",
+      "title": "おきに: cada tanto",
+      "stage": "N4 · Tiempo",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜おきに",
+          "text": "おきに es el intervalo que se salta: 一日おき es cada dos días, no cada día. ごとに es cada uno, sin saltar.",
+          "examples": [
+            {
+              "jp": "二日おきに薬を飲みます。",
+              "kana": "ふつかおきにくすりをのみます。",
+              "es": "Tomo la medicina dejando un día."
+            },
+            {
+              "jp": "一駅おきに止まります。",
+              "kana": "いちえきおきにとまります。",
+              "es": "Para en una estación sí y en otra no."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-oki-ni",
+          "g-oki-ni-1",
+          "g-oki-ni-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-ku-suru-ni-suru",
+      "title": "くする y にする: volverlo",
+      "stage": "N4 · Cambio",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜くする",
+          "text": "くする cambia un adjetivo い. にする cambia un adjetivo な o un nombre. Es un cambio que alguien provoca.",
+          "examples": [
+            {
+              "jp": "部屋を暖かくします。",
+              "kana": "へやをあたたかくします。",
+              "es": "Caliento la habitación."
+            },
+            {
+              "jp": "音を小さくしてください。",
+              "kana": "おとをちいさくしてください。",
+              "es": "Baje el volumen."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-ku-suru-ni-suru",
+          "g-ku-suru-ni-suru-1",
+          "g-ku-suru-ni-suru-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-ga-suru",
+      "title": "がする: se percibe",
+      "stage": "N4 · Otros",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜がする",
+          "text": "がする se usa con olor, sabor, sonido o una sensación. No es する, hacer, en general.",
+          "examples": [
+            {
+              "jp": "いいにおいがします。",
+              "kana": "いいにおいがします。",
+              "es": "Huele bien."
+            },
+            {
+              "jp": "変な音がしました。",
+              "kana": "へんなおとがしました。",
+              "es": "Se oyó un ruido raro."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-ga-suru",
+          "g-ga-suru-1",
+          "g-ga-suru-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-kana-kashira",
+      "title": "かな: me pregunto",
+      "stage": "N4 · Pregunta",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜かな",
+          "text": "かな es una pregunta hacia uno mismo. かしら es más de habla femenina, y hoy se oye menos.",
+          "examples": [
+            {
+              "jp": "明日、晴れるかな。",
+              "kana": "あした、はれるかな。",
+              "es": "¿Hará bueno mañana?"
+            },
+            {
+              "jp": "これでいいかしら。",
+              "kana": "これでいいかしら。",
+              "es": "¿Estará bien así?"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-kana-kashira",
+          "g-kana-kashira-1",
+          "g-kana-kashira-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-te-kuremasen-ka-te-itadakemasen-ka",
+      "title": "てくれませんか: ¿podría?",
+      "stage": "N4 · Petición",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜てくれませんか",
+          "text": "てくれませんか pide un favor. ていただけませんか es más cortés. Las dos esperan un sí.",
+          "examples": [
+            {
+              "jp": "ちょっと待ってくれませんか。",
+              "kana": "ちょっとまってくれませんか。",
+              "es": "¿Puede esperar un momento?"
+            },
+            {
+              "jp": "もう一度言っていただけませんか。",
+              "kana": "もういちどいっていただけませんか。",
+              "es": "¿Podría repetirlo?"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-te-kuremasen-ka-te-itadakemasen-ka",
+          "g-te-kuremasen-ka-te-itadakemasen-ka-1",
+          "g-te-kuremasen-ka-te-itadakemasen-ka-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-g-naide",
+      "title": "ないで: sin hacer",
+      "stage": "N4 · Otros",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "〜ないで",
+          "text": "ないで es sin hacer lo anterior, y luego otra acción. なくて une causas. No son iguales.",
+          "examples": [
+            {
+              "jp": "朝ごはんを食べないで、出かけました。",
+              "kana": "あさごはんをたべないで、でかけました。",
+              "es": "Salí sin desayunar."
+            },
+            {
+              "jp": "見ないでください。",
+              "kana": "みないでください。",
+              "es": "No mire, por favor."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-naide",
+          "g-naide-1",
+          "g-naide-2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-v-n4-otros-1",
+      "title": "Vocabulario N4: Otros 1",
+      "stage": "Vocabulario N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Otros",
+          "text": "Palabras del N4 comunitario que no estaban en el N5. Si hay kanji, la lectura va debajo.",
+          "examples": [
+            {
+              "jp": "あ",
+              "kana": "あ",
+              "es": "ah"
+            },
+            {
+              "jp": "ああ",
+              "kana": "ああ",
+              "es": "así, de esa manera"
+            },
+            {
+              "jp": "遊び",
+              "kana": "あそび",
+              "es": "el juego"
+            },
+            {
+              "jp": "以下",
+              "kana": "いか",
+              "es": "por debajo de"
+            },
+            {
+              "jp": "以外",
+              "kana": "いがい",
+              "es": "excepto"
+            },
+            {
+              "jp": "以上",
+              "kana": "いじょう",
+              "es": "por encima de"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "words",
+        "direction": "word-es",
+        "ids": [
+          "w-4fff6d0441",
+          "w-6a4011f27f",
+          "w-7fe5e36942",
+          "w-629362dbfc",
+          "w-da4198f39c",
+          "w-13ab63d79a",
+          "w-cf69ef2274",
+          "w-95f7288e1b",
+          "w-3de1fe452d",
+          "w-556e3e0d99",
+          "w-da1a2f9721",
+          "w-533b248802"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-v-n4-otros-2",
+      "title": "Vocabulario N4: Otros 2",
+      "stage": "Vocabulario N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Otros",
+          "text": "Palabras del N4 comunitario que no estaban en el N5. Si hay kanji, la lectura va debajo.",
+          "examples": [
+            {
+              "jp": "おかげ",
+              "kana": "おかげ",
+              "es": "gracias a"
+            },
+            {
+              "jp": "贈り物",
+              "kana": "おくりもの",
+              "es": "regalo"
+            },
+            {
+              "jp": "おつり",
+              "kana": "おつり",
+              "es": "el cambio, dinero"
+            },
+            {
+              "jp": "音",
+              "kana": "おと",
+              "es": "sonido"
+            },
+            {
+              "jp": "踊り",
+              "kana": "おどり",
+              "es": "baile"
+            },
+            {
+              "jp": "お土産",
+              "kana": "おみやげ",
+              "es": "recuerdo de viaje"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "words",
+        "direction": "word-es",
+        "ids": [
+          "w-e5e5899ce2",
+          "w-ba001e2f36",
+          "w-f2c38f9517",
+          "w-c6815e7618",
+          "w-8c636a46f4",
+          "w-f586632207",
+          "w-1579d0db1b",
+          "w-d9cf4f541d",
+          "w-26f2ddd0a2",
+          "w-876713fb67",
+          "w-5a76ee84b9",
+          "w-34071d7901"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-v-n4-otros-3",
+      "title": "Vocabulario N4: Otros 3",
+      "stage": "Vocabulario N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Otros",
+          "text": "Palabras del N4 comunitario que no estaban en el N5. Si hay kanji, la lectura va debajo.",
+          "examples": [
+            {
+              "jp": "気",
+              "kana": "き",
+              "es": "ánimo"
+            },
+            {
+              "jp": "きっと",
+              "kana": "きっと",
+              "es": "seguro que"
+            },
+            {
+              "jp": "気持ち",
+              "kana": "きもち",
+              "es": "sentimiento"
+            },
+            {
+              "jp": "興味",
+              "kana": "きょうみ",
+              "es": "interés"
+            },
+            {
+              "jp": "決して",
+              "kana": "けっして",
+              "es": "nunca, con negativo"
+            },
+            {
+              "jp": "けれど",
+              "kana": "けれど",
+              "es": "pero"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "words",
+        "direction": "word-es",
+        "ids": [
+          "w-ab366b6c9d",
+          "w-b284605582",
+          "w-af80712b7b",
+          "w-23ea485338",
+          "w-511cbf9eee",
+          "w-0435dab637",
+          "w-43f91bcf9d",
+          "w-3cd723d544",
+          "w-5bb88bc7a4",
+          "w-038f67b635",
+          "w-918e096f88",
+          "w-88125cd960"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-v-n4-otros-4",
+      "title": "Vocabulario N4: Otros 4",
+      "stage": "Vocabulario N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Otros",
+          "text": "Palabras del N4 comunitario que no estaban en el N5. Si hay kanji, la lectura va debajo.",
+          "examples": [
+            {
+              "jp": "しかる",
+              "kana": "しかる",
+              "es": "cierto, un determinado"
+            },
+            {
+              "jp": "しっかり",
+              "kana": "しっかり",
+              "es": "con firmeza"
+            },
+            {
+              "jp": "品物",
+              "kana": "しなもの",
+              "es": "artículo, mercancía"
+            },
+            {
+              "jp": "じゃま",
+              "kana": "じゃま",
+              "es": "estorbo"
+            },
+            {
+              "jp": "住所",
+              "kana": "じゅうしょ",
+              "es": "dirección postal"
+            },
+            {
+              "jp": "柔道",
+              "kana": "じゅうどう",
+              "es": "judo"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "words",
+        "direction": "word-es",
+        "ids": [
+          "w-f9a20b5203",
+          "w-48fce6928c",
+          "w-17af6092db",
+          "w-694ea10b56",
+          "w-47593d1123",
+          "w-dcfb33317b",
+          "w-7c6d792073",
+          "w-689dc7a66e",
+          "w-78de196fe8",
+          "w-cdddb30c94",
+          "w-8a13543a80",
+          "w-270801de39"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-v-n4-otros-5",
+      "title": "Vocabulario N4: Otros 5",
+      "stage": "Vocabulario N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Otros",
+          "text": "Palabras del N4 comunitario que no estaban en el N5. Si hay kanji, la lectura va debajo.",
+          "examples": [
+            {
+              "jp": "すっかり",
+              "kana": "すっかり",
+              "es": "por completo"
+            },
+            {
+              "jp": "すっと",
+              "kana": "すっと",
+              "es": "de un tirón"
+            },
+            {
+              "jp": "ステレオ",
+              "kana": "ステレオ",
+              "es": "equipo de música"
+            },
+            {
+              "jp": "すると",
+              "kana": "すると",
+              "es": "entonces"
+            },
+            {
+              "jp": "ぜひ",
+              "kana": "ぜひ",
+              "es": "sin falta, insistiendo"
+            },
+            {
+              "jp": "線",
+              "kana": "せん",
+              "es": "línea"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "words",
+        "direction": "word-es",
+        "ids": [
+          "w-44f773f94f",
+          "w-424826c446",
+          "w-9071f08832",
+          "w-416c1b3679",
+          "w-bdf6b26213",
+          "w-da94019cdd",
+          "w-ba20bc66d0",
+          "w-554ab81272",
+          "w-67c8e8ac31",
+          "w-074e70b529",
+          "w-e35f288b22",
+          "w-d1cca83038"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-v-n4-otros-6",
+      "title": "Vocabulario N4: Otros 6",
+      "stage": "Vocabulario N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Otros",
+          "text": "Palabras del N4 comunitario que no estaban en el N5. Si hay kanji, la lectura va debajo.",
+          "examples": [
+            {
+              "jp": "大体",
+              "kana": "だいたい",
+              "es": "en general"
+            },
+            {
+              "jp": "たいてい",
+              "kana": "たいてい",
+              "es": "normalmente"
+            },
+            {
+              "jp": "タイプ",
+              "kana": "タイプ",
+              "es": "tipo"
+            },
+            {
+              "jp": "大分",
+              "kana": "だいぶ",
+              "es": "bastante, bastante más"
+            },
+            {
+              "jp": "だから",
+              "kana": "だから",
+              "es": "así que"
+            },
+            {
+              "jp": "確か",
+              "kana": "たしか",
+              "es": "si no me equivoco"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "words",
+        "direction": "word-es",
+        "ids": [
+          "w-c0afe72b73",
+          "w-4e5dab579c",
+          "w-a174ca4443",
+          "w-b442490fff",
+          "w-ced135c81e",
+          "w-2b610cb1a7",
+          "w-1cda12dd3f",
+          "w-fb53d716c6",
+          "w-06aec1d647",
+          "w-43965bbba0",
+          "w-f527f52c5c",
+          "w-7d940762d2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-v-n4-otros-7",
+      "title": "Vocabulario N4: Otros 7",
+      "stage": "Vocabulario N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Otros",
+          "text": "Palabras del N4 comunitario que no estaban en el N5. Si hay kanji, la lectura va debajo.",
+          "examples": [
+            {
+              "jp": "つもり",
+              "kana": "つもり",
+              "es": "intención"
+            },
+            {
+              "jp": "できるだけ",
+              "kana": "できるだけ",
+              "es": "todo lo posible"
+            },
+            {
+              "jp": "テニス",
+              "kana": "テニス",
+              "es": "tenis"
+            },
+            {
+              "jp": "電報",
+              "kana": "でんぽう",
+              "es": "telegrama"
+            },
+            {
+              "jp": "道具",
+              "kana": "どうぐ",
+              "es": "herramienta"
+            },
+            {
+              "jp": "特に",
+              "kana": "とくに",
+              "es": "especialmente"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "words",
+        "direction": "word-es",
+        "ids": [
+          "w-342df55815",
+          "w-bbf07b44f0",
+          "w-02dea2f4f6",
+          "w-84e17fcbc2",
+          "w-c64697ccaa",
+          "w-0b2acf3460",
+          "w-ccfefc657c",
+          "w-d3b3911a79",
+          "w-626ae1ff39",
+          "w-76a4fc9d6d",
+          "w-40f67571a6",
+          "w-0ddf8d04c2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-v-n4-otros-8",
+      "title": "Vocabulario N4: Otros 8",
+      "stage": "Vocabulario N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Otros",
+          "text": "Palabras del N4 comunitario que no estaban en el N5. Si hay kanji, la lectura va debajo.",
+          "examples": [
+            {
+              "jp": "人形",
+              "kana": "にんぎょう",
+              "es": "muñeca"
+            },
+            {
+              "jp": "ねだん",
+              "kana": "ねだん",
+              "es": "precio"
+            },
+            {
+              "jp": "場合",
+              "kana": "ばあい",
+              "es": "caso"
+            },
+            {
+              "jp": "はず",
+              "kana": "はず",
+              "es": "lo esperado"
+            },
+            {
+              "jp": "パソコン",
+              "kana": "パソコン",
+              "es": "ordenador personal"
+            },
+            {
+              "jp": "はっきり",
+              "kana": "はっきり",
+              "es": "claramente"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "words",
+        "direction": "word-es",
+        "ids": [
+          "w-5cda324083",
+          "w-b89d0618be",
+          "w-2d86d7e0fc",
+          "w-d02b870af1",
+          "w-54a6f375d8",
+          "w-2078b08350",
+          "w-76e19fba1a",
+          "w-897bcab845",
+          "w-be23bfe1f6",
+          "w-ced6d3f112",
+          "w-fbb6245e8b",
+          "w-cb716261e6"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-v-n4-otros-9",
+      "title": "Vocabulario N4: Otros 9",
+      "stage": "Vocabulario N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Otros",
+          "text": "Palabras del N4 comunitario que no estaban en el N5. Si hay kanji, la lectura va debajo.",
+          "examples": [
+            {
+              "jp": "ベル",
+              "kana": "ベル",
+              "es": "timbre"
+            },
+            {
+              "jp": "ほど",
+              "kana": "ほど",
+              "es": "grado"
+            },
+            {
+              "jp": "ほとんど",
+              "kana": "ほとんど",
+              "es": "casi"
+            },
+            {
+              "jp": "まず",
+              "kana": "まず",
+              "es": "primero"
+            },
+            {
+              "jp": "または",
+              "kana": "または",
+              "es": "o bien"
+            },
+            {
+              "jp": "漫画",
+              "kana": "まんが",
+              "es": "cómic"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "words",
+        "direction": "word-es",
+        "ids": [
+          "w-e5cfcfab45",
+          "w-b3f18d07d4",
+          "w-7e5b1397b9",
+          "w-9c0ee7cfcc",
+          "w-0fa3edce9b",
+          "w-8077c744a0",
+          "w-bbaeab9c94",
+          "w-a695a20c52",
+          "w-6e13cee4dc",
+          "w-7a0b48d3e5",
+          "w-79e62e3c87",
+          "w-7c9d2c46eb"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-v-n4-otros-10",
+      "title": "Vocabulario N4: Otros 10",
+      "stage": "Vocabulario N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Otros",
+          "text": "Palabras del N4 comunitario que no estaban en el N5. Si hay kanji, la lectura va debajo.",
+          "examples": [
+            {
+              "jp": "用事",
+              "kana": "ようじ",
+              "es": "recado"
+            },
+            {
+              "jp": "理由",
+              "kana": "りゆう",
+              "es": "motivo"
+            },
+            {
+              "jp": "両方",
+              "kana": "りょうほう",
+              "es": "ambos"
+            },
+            {
+              "jp": "留守",
+              "kana": "るす",
+              "es": "ausencia"
+            },
+            {
+              "jp": "ワープロ",
+              "kana": "ワープロ",
+              "es": "procesador de textos"
+            },
+            {
+              "jp": "訳",
+              "kana": "わけ",
+              "es": "el porqué"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "words",
+        "direction": "word-es",
+        "ids": [
+          "w-c64fff23ae",
+          "w-df83eb2b9c",
+          "w-520cc83d87",
+          "w-0989d94de1",
+          "w-f079ca12a7",
+          "w-ceec15828f",
+          "w-12abb2a2c6",
+          "w-44a2bc7c32"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-v-n4-verbos-1",
+      "title": "Vocabulario N4: Verbos 1",
+      "stage": "Vocabulario N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Verbos",
+          "text": "Palabras del N4 comunitario que no estaban en el N5. Si hay kanji, la lectura va debajo.",
+          "examples": [
+            {
+              "jp": "あいさつする",
+              "kana": "あいさつする",
+              "es": "saludar"
+            },
+            {
+              "jp": "合う",
+              "kana": "あう",
+              "es": "coincidir"
+            },
+            {
+              "jp": "上がる",
+              "kana": "あがる",
+              "es": "subir"
+            },
+            {
+              "jp": "空く",
+              "kana": "あく",
+              "es": "quedar vacío"
+            },
+            {
+              "jp": "集まる",
+              "kana": "あつまる",
+              "es": "reunirse"
+            },
+            {
+              "jp": "集める",
+              "kana": "あつめる",
+              "es": "reunir"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "words",
+        "direction": "word-es",
+        "ids": [
+          "w-c3c3ac9f48",
+          "w-54e1f7a772",
+          "w-4a3152836b",
+          "w-91f0d5ac9e",
+          "w-8c98c01eff",
+          "w-b00801af22",
+          "w-1056f23586",
+          "w-52a79a5d69",
+          "w-db01fd59d7",
+          "w-770aa71095",
+          "w-05b5de61ab",
+          "w-6dbf756da1"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-v-n4-verbos-2",
+      "title": "Vocabulario N4: Verbos 2",
+      "stage": "Vocabulario N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Verbos",
+          "text": "Palabras del N4 comunitario que no estaban en el N5. Si hay kanji, la lectura va debajo.",
+          "examples": [
+            {
+              "jp": "いただく",
+              "kana": "いただく",
+              "es": "recibir, humilde"
+            },
+            {
+              "jp": "祈る",
+              "kana": "いのる",
+              "es": "rezar"
+            },
+            {
+              "jp": "いらっしゃる",
+              "kana": "いらっしゃる",
+              "es": "estar, ir o venir, de respeto"
+            },
+            {
+              "jp": "植える",
+              "kana": "うえる",
+              "es": "plantar"
+            },
+            {
+              "jp": "うかがう",
+              "kana": "うかがう",
+              "es": "visitar o preguntar, humilde"
+            },
+            {
+              "jp": "受ける",
+              "kana": "うける",
+              "es": "recibir, hacer un examen"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "words",
+        "direction": "word-es",
+        "ids": [
+          "w-47cc7185d5",
+          "w-877a39a99f",
+          "w-bc25dff617",
+          "w-833af5347e",
+          "w-bf69a1d9f2",
+          "w-20989c0cb5",
+          "w-e54d4fef93",
+          "w-e6f3a7d91a",
+          "w-69589e0288",
+          "w-c7362b5e02",
+          "w-44f33984fb",
+          "w-47487b1e85"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-v-n4-verbos-3",
+      "title": "Vocabulario N4: Verbos 3",
+      "stage": "Vocabulario N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Verbos",
+          "text": "Palabras del N4 comunitario que no estaban en el N5. Si hay kanji, la lectura va debajo.",
+          "examples": [
+            {
+              "jp": "選ぶ",
+              "kana": "えらぶ",
+              "es": "elegir"
+            },
+            {
+              "jp": "遠慮",
+              "kana": "えんりょ",
+              "es": "reservarse, declinar"
+            },
+            {
+              "jp": "おいでになる",
+              "kana": "おいでになる",
+              "es": "estar o ir, de respeto"
+            },
+            {
+              "jp": "送る",
+              "kana": "おくる",
+              "es": "enviar"
+            },
+            {
+              "jp": "遅れる",
+              "kana": "おくれる",
+              "es": "llegar tarde"
+            },
+            {
+              "jp": "起こす",
+              "kana": "おこす",
+              "es": "despertar a alguien"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "words",
+        "direction": "word-es",
+        "ids": [
+          "w-60c9784974",
+          "w-5ceed9165d",
+          "w-53c76e5c6e",
+          "w-af1dae5588",
+          "w-ae8ce3986c",
+          "w-99de4451f7",
+          "w-2139fab218",
+          "w-2e0f32c097",
+          "w-981ee66f59",
+          "w-050024e2d9",
+          "w-f786333cf9",
+          "w-3280103eb8"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-v-n4-verbos-4",
+      "title": "Vocabulario N4: Verbos 4",
+      "stage": "Vocabulario N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Verbos",
+          "text": "Palabras del N4 comunitario que no estaban en el N5. Si hay kanji, la lectura va debajo.",
+          "examples": [
+            {
+              "jp": "驚く",
+              "kana": "おどろく",
+              "es": "sorprenderse"
+            },
+            {
+              "jp": "思い出す",
+              "kana": "おもいだす",
+              "es": "recordar"
+            },
+            {
+              "jp": "思う",
+              "kana": "おもう",
+              "es": "pensar, opinar"
+            },
+            {
+              "jp": "下りる",
+              "kana": "おりる",
+              "es": "bajar de un vehículo"
+            },
+            {
+              "jp": "折る",
+              "kana": "おる",
+              "es": "doblar, partir"
+            },
+            {
+              "jp": "折れる",
+              "kana": "おれる",
+              "es": "doblarse, partirse"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "words",
+        "direction": "word-es",
+        "ids": [
+          "w-6d69734463",
+          "w-3e4c1468c7",
+          "w-bad913ed8f",
+          "w-4806278f5b",
+          "w-ac3d1de39a",
+          "w-d517e5d931",
+          "w-64e3e16740",
+          "w-2d6f99582c",
+          "w-119fdf575e",
+          "w-021c00423f",
+          "w-e7dca3ae5a",
+          "w-6b240c6105"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-v-n4-verbos-5",
+      "title": "Vocabulario N4: Verbos 5",
+      "stage": "Vocabulario N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Verbos",
+          "text": "Palabras del N4 comunitario que no estaban en el N5. Si hay kanji, la lectura va debajo.",
+          "examples": [
+            {
+              "jp": "通う",
+              "kana": "かよう",
+              "es": "ir habitualmente"
+            },
+            {
+              "jp": "乾く",
+              "kana": "かわく",
+              "es": "secarse"
+            },
+            {
+              "jp": "変わる",
+              "kana": "かわる",
+              "es": "cambiar"
+            },
+            {
+              "jp": "考える",
+              "kana": "かんがえる",
+              "es": "pensar, considerar"
+            },
+            {
+              "jp": "聞こえる",
+              "kana": "きこえる",
+              "es": "oírse"
+            },
+            {
+              "jp": "決まる",
+              "kana": "きまる",
+              "es": "quedar decidido"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "words",
+        "direction": "word-es",
+        "ids": [
+          "w-d1cd028481",
+          "w-84c24fbab6",
+          "w-ec1bdccf03",
+          "w-cc34f28850",
+          "w-7225b79db5",
+          "w-e4e7e09df0",
+          "w-6a98f898ab",
+          "w-b8da4537a2",
+          "w-5bfe1d2c25",
+          "w-7d2f81c2a3",
+          "w-17279b1beb",
+          "w-836311c7d4"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-v-n4-verbos-6",
+      "title": "Vocabulario N4: Verbos 6",
+      "stage": "Vocabulario N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Verbos",
+          "text": "Palabras del N4 comunitario que no estaban en el N5. Si hay kanji, la lectura va debajo.",
+          "examples": [
+            {
+              "jp": "経験",
+              "kana": "けいけん",
+              "es": "experimentar"
+            },
+            {
+              "jp": "けがする",
+              "kana": "けがする",
+              "es": "herirse"
+            },
+            {
+              "jp": "けんかする",
+              "kana": "けんかする",
+              "es": "pelearse"
+            },
+            {
+              "jp": "見物",
+              "kana": "けんぶつ",
+              "es": "ir a ver, turismo"
+            },
+            {
+              "jp": "故障",
+              "kana": "こしょう",
+              "es": "averiarse"
+            },
+            {
+              "jp": "込む",
+              "kana": "こむ",
+              "es": "estar lleno de gente"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "words",
+        "direction": "word-es",
+        "ids": [
+          "w-9746b57413",
+          "w-8fb005254a",
+          "w-063c94089d",
+          "w-a9a71878f0",
+          "w-ce133477e7",
+          "w-0470fc929f",
+          "w-17fb3976d2",
+          "w-0b089107f6",
+          "w-63290aef69",
+          "w-0f4440571e",
+          "w-608037bdca",
+          "w-92226ca7db"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-v-n4-verbos-7",
+      "title": "Vocabulario N4: Verbos 7",
+      "stage": "Vocabulario N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Verbos",
+          "text": "Palabras del N4 comunitario que no estaban en el N5. Si hay kanji, la lectura va debajo.",
+          "examples": [
+            {
+              "jp": "差し上げる",
+              "kana": "さしあげる",
+              "es": "dar, cortés"
+            },
+            {
+              "jp": "騒ぐ",
+              "kana": "さわぐ",
+              "es": "armar ruido"
+            },
+            {
+              "jp": "触る",
+              "kana": "さわる",
+              "es": "tocar"
+            },
+            {
+              "jp": "支度",
+              "kana": "したく",
+              "es": "prepararse"
+            },
+            {
+              "jp": "失敗",
+              "kana": "しっぱい",
+              "es": "fracasar"
+            },
+            {
+              "jp": "出席",
+              "kana": "しゅっせき",
+              "es": "asistir"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "words",
+        "direction": "word-es",
+        "ids": [
+          "w-4d497f75cf",
+          "w-5afe333d1c",
+          "w-6d0bb40a1f",
+          "w-ecb83e16fd",
+          "w-a89d2853ea",
+          "w-93f910e281",
+          "w-c614552d23",
+          "w-6ce523bcb6",
+          "w-c151fe4163",
+          "w-6111e87e72",
+          "w-b377c7b2ea",
+          "w-1ad2f6d941"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-v-n4-verbos-8",
+      "title": "Vocabulario N4: Verbos 8",
+      "stage": "Vocabulario N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Verbos",
+          "text": "Palabras del N4 comunitario que no estaban en el N5. Si hay kanji, la lectura va debajo.",
+          "examples": [
+            {
+              "jp": "知らせる",
+              "kana": "しらせる",
+              "es": "avisar"
+            },
+            {
+              "jp": "調べる",
+              "kana": "しらべる",
+              "es": "consultar, investigar"
+            },
+            {
+              "jp": "心配",
+              "kana": "しんぱい",
+              "es": "preocuparse"
+            },
+            {
+              "jp": "過ぎる",
+              "kana": "すぎる",
+              "es": "pasarse, exceder"
+            },
+            {
+              "jp": "すく",
+              "kana": "すく",
+              "es": "vaciarse"
+            },
+            {
+              "jp": "進む",
+              "kana": "すすむ",
+              "es": "avanzar"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "words",
+        "direction": "word-es",
+        "ids": [
+          "w-1a680b4cf9",
+          "w-beb32f751c",
+          "w-ff60f2830f",
+          "w-6701f8cbba",
+          "w-8065461ace",
+          "w-5c8702fe01",
+          "w-49ac3c55c7",
+          "w-081d0fb4bb",
+          "w-1e1b53a2d3",
+          "w-7817c4eed6",
+          "w-75acde1d68",
+          "w-123ee74d43"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-v-n4-verbos-9",
+      "title": "Vocabulario N4: Verbos 9",
+      "stage": "Vocabulario N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Verbos",
+          "text": "Palabras del N4 comunitario que no estaban en el N5. Si hay kanji, la lectura va debajo.",
+          "examples": [
+            {
+              "jp": "世話",
+              "kana": "せわ",
+              "es": "cuidar, atender"
+            },
+            {
+              "jp": "相談",
+              "kana": "そうだん",
+              "es": "consultar"
+            },
+            {
+              "jp": "育てる",
+              "kana": "そだてる",
+              "es": "criar"
+            },
+            {
+              "jp": "卒業",
+              "kana": "そつぎょう",
+              "es": "graduarse"
+            },
+            {
+              "jp": "退院",
+              "kana": "たいいん",
+              "es": "recibir el alta"
+            },
+            {
+              "jp": "倒れる",
+              "kana": "たおれる",
+              "es": "desplomarse"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "words",
+        "direction": "word-es",
+        "ids": [
+          "w-dac7bb4374",
+          "w-aa663833e4",
+          "w-ec43853e0f",
+          "w-6a89d1feee",
+          "w-ced7c01cf1",
+          "w-23afff6d4b",
+          "w-12d94456b3",
+          "w-d73148e8d0",
+          "w-2710211107",
+          "w-c5741f54d6",
+          "w-cad7f1010a",
+          "w-9f86b83cad"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-v-n4-verbos-10",
+      "title": "Vocabulario N4: Verbos 10",
+      "stage": "Vocabulario N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Verbos",
+          "text": "Palabras del N4 comunitario que no estaban en el N5. Si hay kanji, la lectura va debajo.",
+          "examples": [
+            {
+              "jp": "足りる",
+              "kana": "たりる",
+              "es": "bastar"
+            },
+            {
+              "jp": "チェックする",
+              "kana": "チェックする",
+              "es": "revisar"
+            },
+            {
+              "jp": "注意",
+              "kana": "ちゅうい",
+              "es": "tener cuidado, avisar"
+            },
+            {
+              "jp": "捕まえる",
+              "kana": "つかまえる",
+              "es": "atrapar"
+            },
+            {
+              "jp": "付く",
+              "kana": "つく",
+              "es": "pegarse, encenderse"
+            },
+            {
+              "jp": "漬ける",
+              "kana": "つける",
+              "es": "poner en remojo"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "words",
+        "direction": "word-es",
+        "ids": [
+          "w-19f08c094e",
+          "w-83a456da88",
+          "w-4e6d200127",
+          "w-ef537ea4a9",
+          "w-356e03170b",
+          "w-c206b05b9d",
+          "w-bbe4edb30f",
+          "w-a1db204b87",
+          "w-d177796b00",
+          "w-ce21381e4f",
+          "w-15f9f72b7c",
+          "w-0319cd1801"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-v-n4-verbos-11",
+      "title": "Vocabulario N4: Verbos 11",
+      "stage": "Vocabulario N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Verbos",
+          "text": "Palabras del N4 comunitario que no estaban en el N5. Si hay kanji, la lectura va debajo.",
+          "examples": [
+            {
+              "jp": "手伝う",
+              "kana": "てつだう",
+              "es": "ayudar"
+            },
+            {
+              "jp": "通る",
+              "kana": "とおる",
+              "es": "pasar"
+            },
+            {
+              "jp": "届ける",
+              "kana": "とどける",
+              "es": "entregar"
+            },
+            {
+              "jp": "泊まる",
+              "kana": "とまる",
+              "es": "alojarse"
+            },
+            {
+              "jp": "止める",
+              "kana": "とめる",
+              "es": "parar algo"
+            },
+            {
+              "jp": "取り替える",
+              "kana": "とりかえる",
+              "es": "cambiar, sustituir"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "words",
+        "direction": "word-es",
+        "ids": [
+          "w-b4206ea6cb",
+          "w-e9c1a3ae2c",
+          "w-bc1e0c2895",
+          "w-1200266b8d",
+          "w-3aadcbc234",
+          "w-7becfb8f21",
+          "w-8b7b602246",
+          "w-9f64a96651",
+          "w-b43872b197",
+          "w-a777a7ce62",
+          "w-2adec6b9b4",
+          "w-1d28dbb450"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-v-n4-verbos-12",
+      "title": "Vocabulario N4: Verbos 12",
+      "stage": "Vocabulario N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Verbos",
+          "text": "Palabras del N4 comunitario que no estaban en el N5. Si hay kanji, la lectura va debajo.",
+          "examples": [
+            {
+              "jp": "投げる",
+              "kana": "なげる",
+              "es": "lanzar"
+            },
+            {
+              "jp": "なさる",
+              "kana": "なさる",
+              "es": "hacer, de respeto"
+            },
+            {
+              "jp": "鳴る",
+              "kana": "なる",
+              "es": "sonar"
+            },
+            {
+              "jp": "慣れる",
+              "kana": "なれる",
+              "es": "acostumbrarse"
+            },
+            {
+              "jp": "逃げる",
+              "kana": "にげる",
+              "es": "huir"
+            },
+            {
+              "jp": "入院",
+              "kana": "にゅういん",
+              "es": "ingresar en el hospital"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "words",
+        "direction": "word-es",
+        "ids": [
+          "w-1b35adeae4",
+          "w-74c23dc218",
+          "w-3a915c9be5",
+          "w-ce2f134cda",
+          "w-f7a51f2c1c",
+          "w-178daf8296",
+          "w-433da13afb",
+          "w-ea2fe2f5de",
+          "w-88710a5d10",
+          "w-6631558c00",
+          "w-cdabcdd725",
+          "w-1af14ddd32"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-v-n4-verbos-13",
+      "title": "Vocabulario N4: Verbos 13",
+      "stage": "Vocabulario N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Verbos",
+          "text": "Palabras del N4 comunitario que no estaban en el N5. Si hay kanji, la lectura va debajo.",
+          "examples": [
+            {
+              "jp": "眠る",
+              "kana": "ねむる",
+              "es": "dormir"
+            },
+            {
+              "jp": "残る",
+              "kana": "のこる",
+              "es": "quedar"
+            },
+            {
+              "jp": "乗り換える",
+              "kana": "のりかえる",
+              "es": "hacer transbordo"
+            },
+            {
+              "jp": "拝見",
+              "kana": "はいけん",
+              "es": "ver, humilde"
+            },
+            {
+              "jp": "運ぶ",
+              "kana": "はこぶ",
+              "es": "transportar"
+            },
+            {
+              "jp": "始める",
+              "kana": "はじめる",
+              "es": "empezar"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "words",
+        "direction": "word-es",
+        "ids": [
+          "w-3575e37548",
+          "w-d7f56d8d34",
+          "w-0114521256",
+          "w-88a295c433",
+          "w-2404bdfdb3",
+          "w-4610276c99",
+          "w-a6b7fa4afc",
+          "w-d48ed47f5e",
+          "w-28c2a94407",
+          "w-8b7dab271d",
+          "w-5d8e0ae01f",
+          "w-ab4a88a2c0"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-v-n4-verbos-14",
+      "title": "Vocabulario N4: Verbos 14",
+      "stage": "Vocabulario N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Verbos",
+          "text": "Palabras del N4 comunitario que no estaban en el N5. Si hay kanji, la lectura va debajo.",
+          "examples": [
+            {
+              "jp": "引っ越す",
+              "kana": "ひっこす",
+              "es": "mudarse"
+            },
+            {
+              "jp": "開く",
+              "kana": "ひらく",
+              "es": "abrir, un acto o un local"
+            },
+            {
+              "jp": "拾う",
+              "kana": "ひろう",
+              "es": "recoger"
+            },
+            {
+              "jp": "増える",
+              "kana": "ふえる",
+              "es": "aumentar"
+            },
+            {
+              "jp": "復習",
+              "kana": "ふくしゅう",
+              "es": "repasar"
+            },
+            {
+              "jp": "太る",
+              "kana": "ふとる",
+              "es": "engordar"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "words",
+        "direction": "word-es",
+        "ids": [
+          "w-d801b8b37a",
+          "w-dddceb65a5",
+          "w-a441432c8a",
+          "w-59bc2e87aa",
+          "w-c00788993b",
+          "w-f6b676e45f",
+          "w-375c7ef77f",
+          "w-927b45c2eb",
+          "w-ff9e385277",
+          "w-96799b1b11",
+          "w-9097d5cc39",
+          "w-36dc0ccd26"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-v-n4-verbos-15",
+      "title": "Vocabulario N4: Verbos 15",
+      "stage": "Vocabulario N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Verbos",
+          "text": "Palabras del N4 comunitario que no estaban en el N5. Si hay kanji, la lectura va debajo.",
+          "examples": [
+            {
+              "jp": "参る",
+              "kana": "まいる",
+              "es": "ir o venir, humilde"
+            },
+            {
+              "jp": "負ける",
+              "kana": "まける",
+              "es": "perder"
+            },
+            {
+              "jp": "間違える",
+              "kana": "まちがえる",
+              "es": "equivocarse"
+            },
+            {
+              "jp": "間に合う",
+              "kana": "まにあう",
+              "es": "llegar a tiempo"
+            },
+            {
+              "jp": "回る",
+              "kana": "まわる",
+              "es": "dar vueltas"
+            },
+            {
+              "jp": "見える",
+              "kana": "みえる",
+              "es": "verse"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "words",
+        "direction": "word-es",
+        "ids": [
+          "w-7c74c440e5",
+          "w-cb6d7546fb",
+          "w-91094911c0",
+          "w-675232ef05",
+          "w-b7644eb3fc",
+          "w-0c27b9183f",
+          "w-a4e2dc046c",
+          "w-64f85b7fdf",
+          "w-6978e278b2",
+          "w-1687840ea3",
+          "w-d9c64cdfa1",
+          "w-5434f0c376"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-v-n4-verbos-16",
+      "title": "Vocabulario N4: Verbos 16",
+      "stage": "Vocabulario N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Verbos",
+          "text": "Palabras del N4 comunitario que no estaban en el N5. Si hay kanji, la lectura va debajo.",
+          "examples": [
+            {
+              "jp": "申す",
+              "kana": "もうす",
+              "es": "llamarse, humilde"
+            },
+            {
+              "jp": "戻る",
+              "kana": "もどる",
+              "es": "volver"
+            },
+            {
+              "jp": "もらう",
+              "kana": "もらう",
+              "es": "recibir"
+            },
+            {
+              "jp": "焼く",
+              "kana": "やく",
+              "es": "asar, hornear"
+            },
+            {
+              "jp": "約束",
+              "kana": "やくそく",
+              "es": "prometer"
+            },
+            {
+              "jp": "役に立つ",
+              "kana": "やくにたつ",
+              "es": "ser útil"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "words",
+        "direction": "word-es",
+        "ids": [
+          "w-8e7b945555",
+          "w-c858640672",
+          "w-ad62110b55",
+          "w-506aca7161",
+          "w-2ef2e06612",
+          "w-8011fa51a8",
+          "w-7d2bcb5a30",
+          "w-3771ac0921",
+          "w-10ee6bdb9e",
+          "w-ad11ce072b",
+          "w-5d0d49b3fe",
+          "w-fa8716c349"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-v-n4-verbos-17",
+      "title": "Vocabulario N4: Verbos 17",
+      "stage": "Vocabulario N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Verbos",
+          "text": "Palabras del N4 comunitario que no estaban en el N5. Si hay kanji, la lectura va debajo.",
+          "examples": [
+            {
+              "jp": "用意",
+              "kana": "ようい",
+              "es": "tener listo"
+            },
+            {
+              "jp": "汚れる",
+              "kana": "よごれる",
+              "es": "ensuciarse"
+            },
+            {
+              "jp": "予習",
+              "kana": "よしゅう",
+              "es": "preparar la lección"
+            },
+            {
+              "jp": "予定",
+              "kana": "よてい",
+              "es": "tener previsto"
+            },
+            {
+              "jp": "予約",
+              "kana": "よやく",
+              "es": "reservar"
+            },
+            {
+              "jp": "寄る",
+              "kana": "よる",
+              "es": "acercarse, pasar por"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "words",
+        "direction": "word-es",
+        "ids": [
+          "w-cbb67e1b4d",
+          "w-cd96cff1ab",
+          "w-de815ae4e6",
+          "w-a9fe0e98c1",
+          "w-ed37fe04b5",
+          "w-7ffceb4055",
+          "w-82b0bf966f",
+          "w-977d6bf88c",
+          "w-6926bbe9d4",
+          "w-58c9a21aa1",
+          "w-e1641974f4",
+          "w-f7e0744822"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-v-n4-verbos-18",
+      "title": "Vocabulario N4: Verbos 18",
+      "stage": "Vocabulario N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Verbos",
+          "text": "Palabras del N4 comunitario que no estaban en el N5. Si hay kanji, la lectura va debajo.",
+          "examples": [
+            {
+              "jp": "笑う",
+              "kana": "わらう",
+              "es": "reír"
+            },
+            {
+              "jp": "割れる",
+              "kana": "われる",
+              "es": "agrietarse"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "words",
+        "direction": "word-es",
+        "ids": [
+          "w-327c67b830",
+          "w-27046b71e1"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-v-n4-tiempo-1",
+      "title": "Vocabulario N4: Tiempo 1",
+      "stage": "Vocabulario N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Tiempo",
+          "text": "Palabras del N4 comunitario que no estaban en el N5. Si hay kanji, la lectura va debajo.",
+          "examples": [
+            {
+              "jp": "間",
+              "kana": "あいだ",
+              "es": "intervalo, mientras"
+            },
+            {
+              "jp": "明日",
+              "kana": "あす",
+              "es": "mañana, formal"
+            },
+            {
+              "jp": "一度",
+              "kana": "いちど",
+              "es": "una vez"
+            },
+            {
+              "jp": "終わり",
+              "kana": "おわり",
+              "es": "el final"
+            },
+            {
+              "jp": "帰り",
+              "kana": "かえり",
+              "es": "la vuelta"
+            },
+            {
+              "jp": "機会",
+              "kana": "きかい",
+              "es": "ocasión"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "words",
+        "direction": "word-es",
+        "ids": [
+          "w-d1a343e501",
+          "w-4c3461199c",
+          "w-bf82bb12d2",
+          "w-19cb869e4d",
+          "w-6365c5ac47",
+          "w-3f4f3a3b9d",
+          "w-a1afb31e7b",
+          "w-cd7dd383c9",
+          "w-22f8fe69bf",
+          "w-b71d50ee32",
+          "w-cbb63150b8",
+          "w-bdad768057"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-v-n4-tiempo-2",
+      "title": "Vocabulario N4: Tiempo 2",
+      "stage": "Vocabulario N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Tiempo",
+          "text": "Palabras del N4 comunitario que no estaban en el N5. Si hay kanji, la lectura va debajo.",
+          "examples": [
+            {
+              "jp": "最近",
+              "kana": "さいきん",
+              "es": "últimamente"
+            },
+            {
+              "jp": "最後",
+              "kana": "さいご",
+              "es": "el último"
+            },
+            {
+              "jp": "最初",
+              "kana": "さいしょ",
+              "es": "el principio"
+            },
+            {
+              "jp": "さっき",
+              "kana": "さっき",
+              "es": "hace un momento"
+            },
+            {
+              "jp": "再来月",
+              "kana": "さらいげつ",
+              "es": "dentro de dos meses"
+            },
+            {
+              "jp": "再来週",
+              "kana": "さらいしゅう",
+              "es": "dentro de dos semanas"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "words",
+        "direction": "word-es",
+        "ids": [
+          "w-df21df827a",
+          "w-c54201ce25",
+          "w-f5c169269f",
+          "w-97bf3a5f9e",
+          "w-22a8ff8a88",
+          "w-a6678a1d99",
+          "w-62ebad7ac3",
+          "w-03712fac9d",
+          "w-0e3ecb7665",
+          "w-0039e17a55",
+          "w-ebaf7ce5e4",
+          "w-5fd0c77ef5"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-v-n4-tiempo-3",
+      "title": "Vocabulario N4: Tiempo 3",
+      "stage": "Vocabulario N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Tiempo",
+          "text": "Palabras del N4 comunitario que no estaban en el N5. Si hay kanji, la lectura va debajo.",
+          "examples": [
+            {
+              "jp": "とうとう",
+              "kana": "とうとう",
+              "es": "al final"
+            },
+            {
+              "jp": "日",
+              "kana": "ひ",
+              "es": "día"
+            },
+            {
+              "jp": "久しぶり",
+              "kana": "ひさしぶり",
+              "es": "cuánto tiempo"
+            },
+            {
+              "jp": "昼間",
+              "kana": "ひるま",
+              "es": "de día"
+            },
+            {
+              "jp": "昼休み",
+              "kana": "ひるやすみ",
+              "es": "pausa del mediodía"
+            },
+            {
+              "jp": "昔",
+              "kana": "むかし",
+              "es": "antaño"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "words",
+        "direction": "word-es",
+        "ids": [
+          "w-9ef4ab5d2a",
+          "w-55a030e65f",
+          "w-8c813519f4",
+          "w-ee0c991348",
+          "w-26253e5000",
+          "w-58cd37c48b",
+          "w-0f494574f0",
+          "w-f2a77c1c6d"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-v-n4-gente-1",
+      "title": "Vocabulario N4: Gente 1",
+      "stage": "Vocabulario N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Gente",
+          "text": "Palabras del N4 comunitario que no estaban en el N5. Si hay kanji, la lectura va debajo.",
+          "examples": [
+            {
+              "jp": "あかちゃん",
+              "kana": "あかちゃん",
+              "es": "bebé"
+            },
+            {
+              "jp": "赤ん坊",
+              "kana": "あかんぼう",
+              "es": "bebé, coloquial"
+            },
+            {
+              "jp": "お金持ち",
+              "kana": "おかねもち",
+              "es": "persona rica"
+            },
+            {
+              "jp": "お嬢さん",
+              "kana": "おじょうさん",
+              "es": "su hija, cortés"
+            },
+            {
+              "jp": "夫",
+              "kana": "おっと",
+              "es": "esposo"
+            },
+            {
+              "jp": "親",
+              "kana": "おや",
+              "es": "padres"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "words",
+        "direction": "word-es",
+        "ids": [
+          "w-2a6a55be8d",
+          "w-e877021bf4",
+          "w-a58874b751",
+          "w-1f5a7d8e07",
+          "w-b8630e0875",
+          "w-9099d4615b",
+          "w-89927b8fa1",
+          "w-be3dacfc93",
+          "w-0963c50b58",
+          "w-6345553664",
+          "w-ed36e1d3a7",
+          "w-cb029e617e"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-v-n4-gente-2",
+      "title": "Vocabulario N4: Gente 2",
+      "stage": "Vocabulario N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Gente",
+          "text": "Palabras del N4 comunitario que no estaban en el N5. Si hay kanji, la lectura va debajo.",
+          "examples": [
+            {
+              "jp": "子",
+              "kana": "こ",
+              "es": "niño"
+            },
+            {
+              "jp": "高校生",
+              "kana": "こうこうせい",
+              "es": "estudiante de instituto"
+            },
+            {
+              "jp": "御主人",
+              "kana": "ごしゅじん",
+              "es": "su esposo, cortés"
+            },
+            {
+              "jp": "市民",
+              "kana": "しみん",
+              "es": "ciudadano"
+            },
+            {
+              "jp": "女性",
+              "kana": "じょせい",
+              "es": "mujer"
+            },
+            {
+              "jp": "すり",
+              "kana": "すり",
+              "es": "carterista"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "words",
+        "direction": "word-es",
+        "ids": [
+          "w-f17fa2d7e1",
+          "w-795156bbfe",
+          "w-8bd7bc72e8",
+          "w-8f69279374",
+          "w-8410c15b44",
+          "w-745024b527",
+          "w-9b3ce398bd",
+          "w-14363682cb",
+          "w-0f0ed38b4c",
+          "w-138dee4a26",
+          "w-73a3e59782",
+          "w-18035049f8"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-v-n4-gente-3",
+      "title": "Vocabulario N4: Gente 3",
+      "stage": "Vocabulario N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Gente",
+          "text": "Palabras del N4 comunitario que no estaban en el N5. Si hay kanji, la lectura va debajo.",
+          "examples": [
+            {
+              "jp": "妻",
+              "kana": "つま",
+              "es": "mi esposa"
+            },
+            {
+              "jp": "泥棒",
+              "kana": "どろぼう",
+              "es": "ladrón"
+            },
+            {
+              "jp": "僕",
+              "kana": "ぼく",
+              "es": "yo, masculino"
+            },
+            {
+              "jp": "皆",
+              "kana": "みな",
+              "es": "todos"
+            },
+            {
+              "jp": "息子",
+              "kana": "むすこ",
+              "es": "mi hijo"
+            },
+            {
+              "jp": "娘",
+              "kana": "むすめ",
+              "es": "mi hija"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "words",
+        "direction": "word-es",
+        "ids": [
+          "w-776c4df05f",
+          "w-76d7890e5d",
+          "w-1587d6fbcf",
+          "w-eb7247f404",
+          "w-88be7d523a",
+          "w-5c27cba3be"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-v-n4-ropa-1",
+      "title": "Vocabulario N4: Ropa",
+      "stage": "Vocabulario N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Ropa",
+          "text": "Palabras del N4 comunitario que no estaban en el N5. Si hay kanji, la lectura va debajo.",
+          "examples": [
+            {
+              "jp": "アクセサリー",
+              "kana": "アクセサリー",
+              "es": "accesorio"
+            },
+            {
+              "jp": "絹",
+              "kana": "きぬ",
+              "es": "seda"
+            },
+            {
+              "jp": "着物",
+              "kana": "きもの",
+              "es": "kimono"
+            },
+            {
+              "jp": "サンダル",
+              "kana": "サンダル",
+              "es": "sandalia"
+            },
+            {
+              "jp": "下着",
+              "kana": "したぎ",
+              "es": "ropa interior"
+            },
+            {
+              "jp": "スーツ",
+              "kana": "スーツ",
+              "es": "traje"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "words",
+        "direction": "word-es",
+        "ids": [
+          "w-628b6b8e9d",
+          "w-4d5b12c74c",
+          "w-a2a012c05f",
+          "w-4b94df57e2",
+          "w-0c0fb94d28",
+          "w-eb0f717433",
+          "w-be7c090b8e",
+          "w-70eb9aa3ff",
+          "w-96e10e7209",
+          "w-688ed7ca0f"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-v-n4-adjetivos-1",
+      "title": "Vocabulario N4: Adjetivos 1",
+      "stage": "Vocabulario N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Adjetivos",
+          "text": "Palabras del N4 comunitario que no estaban en el N5. Si hay kanji, la lectura va debajo.",
+          "examples": [
+            {
+              "jp": "浅い",
+              "kana": "あさい",
+              "es": "poco profundo"
+            },
+            {
+              "jp": "安心",
+              "kana": "あんしん",
+              "es": "alivio, tranquilo"
+            },
+            {
+              "jp": "安全",
+              "kana": "あんぜん",
+              "es": "seguridad, seguro"
+            },
+            {
+              "jp": "美しい",
+              "kana": "うつくしい",
+              "es": "hermoso"
+            },
+            {
+              "jp": "うまい",
+              "kana": "うまい",
+              "es": "rico, o hábil"
+            },
+            {
+              "jp": "うれしい",
+              "kana": "うれしい",
+              "es": "contento"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "words",
+        "direction": "word-es",
+        "ids": [
+          "w-f935952fed",
+          "w-d06643e4e1",
+          "w-160a8399af",
+          "w-0dd54894db",
+          "w-6d3b3fe0a4",
+          "w-c67a9658b1",
+          "w-4d2128cddd",
+          "w-d0e700807a",
+          "w-3153705f1f",
+          "w-ac20bba998",
+          "w-8bbbe3a9e8",
+          "w-d90ee2957c"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-v-n4-adjetivos-2",
+      "title": "Vocabulario N4: Adjetivos 2",
+      "stage": "Vocabulario N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Adjetivos",
+          "text": "Palabras del N4 comunitario que no estaban en el N5. Si hay kanji, la lectura va debajo.",
+          "examples": [
+            {
+              "jp": "急",
+              "kana": "きゅう",
+              "es": "urgente"
+            },
+            {
+              "jp": "細かい",
+              "kana": "こまかい",
+              "es": "menudo, detallado"
+            },
+            {
+              "jp": "怖い",
+              "kana": "こわい",
+              "es": "da miedo"
+            },
+            {
+              "jp": "盛ん",
+              "kana": "さかん",
+              "es": "activo, en auge"
+            },
+            {
+              "jp": "寂しい",
+              "kana": "さびしい",
+              "es": "solo, con nostalgia"
+            },
+            {
+              "jp": "残念",
+              "kana": "ざんねん",
+              "es": "qué pena"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "words",
+        "direction": "word-es",
+        "ids": [
+          "w-a02c2a6790",
+          "w-286e978a7d",
+          "w-a769e4c0da",
+          "w-c70caf0317",
+          "w-6dc70626da",
+          "w-6243a1575b",
+          "w-ab6fd5bdbb",
+          "w-c904982ded",
+          "w-ded62a84d0",
+          "w-0627e3997c",
+          "w-d2ab60015b",
+          "w-de9d61dd71"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-v-n4-adjetivos-3",
+      "title": "Vocabulario N4: Adjetivos 3",
+      "stage": "Vocabulario N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Adjetivos",
+          "text": "Palabras del N4 comunitario que no estaban en el N5. Si hay kanji, la lectura va debajo.",
+          "examples": [
+            {
+              "jp": "正しい",
+              "kana": "ただしい",
+              "es": "correcto"
+            },
+            {
+              "jp": "だめ",
+              "kana": "だめ",
+              "es": "no sirve"
+            },
+            {
+              "jp": "丁寧",
+              "kana": "ていねい",
+              "es": "cortés, con cuidado"
+            },
+            {
+              "jp": "適当",
+              "kana": "てきとう",
+              "es": "adecuado, o a la ligera"
+            },
+            {
+              "jp": "特別",
+              "kana": "とくべつ",
+              "es": "especial"
+            },
+            {
+              "jp": "苦い",
+              "kana": "にがい",
+              "es": "amargo"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "words",
+        "direction": "word-es",
+        "ids": [
+          "w-abb49cd233",
+          "w-6cf505ee55",
+          "w-aa30940947",
+          "w-fa043680e3",
+          "w-cc2bd01f0a",
+          "w-e1cfd51839",
+          "w-9de5a5daff",
+          "w-ac5fa7fe3b",
+          "w-847b1b7535",
+          "w-6907fc706d",
+          "w-33a024fce6",
+          "w-de718a81e9"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-v-n4-adjetivos-4",
+      "title": "Vocabulario N4: Adjetivos 4",
+      "stage": "Vocabulario N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Adjetivos",
+          "text": "Palabras del N4 comunitario que no estaban en el N5. Si hay kanji, la lectura va debajo.",
+          "examples": [
+            {
+              "jp": "複雑",
+              "kana": "ふくざつ",
+              "es": "complicado"
+            },
+            {
+              "jp": "不便",
+              "kana": "ふべん",
+              "es": "incómodo"
+            },
+            {
+              "jp": "別",
+              "kana": "べつ",
+              "es": "distinto"
+            },
+            {
+              "jp": "変",
+              "kana": "へん",
+              "es": "raro"
+            },
+            {
+              "jp": "まじめ",
+              "kana": "まじめ",
+              "es": "serio"
+            },
+            {
+              "jp": "無理",
+              "kana": "むり",
+              "es": "imposible"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "words",
+        "direction": "word-es",
+        "ids": [
+          "w-1d83ae6a5a",
+          "w-25d649bd20",
+          "w-f271b97de9",
+          "w-0f80788417",
+          "w-d3422596a8",
+          "w-3d1727a56f",
+          "w-6307098126",
+          "w-427a618271",
+          "w-3ccc927e4b",
+          "w-5f81e206e3"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-v-n4-comida-1",
+      "title": "Vocabulario N4: Comida",
+      "stage": "Vocabulario N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Comida",
+          "text": "Palabras del N4 comunitario que no estaban en el N5. Si hay kanji, la lectura va debajo.",
+          "examples": [
+            {
+              "jp": "味",
+              "kana": "あじ",
+              "es": "sabor"
+            },
+            {
+              "jp": "アルコール",
+              "kana": "アルコール",
+              "es": "alcohol"
+            },
+            {
+              "jp": "ケーキ",
+              "kana": "ケーキ",
+              "es": "pastel"
+            },
+            {
+              "jp": "ごちそう",
+              "kana": "ごちそう",
+              "es": "banquete, invitar a comer"
+            },
+            {
+              "jp": "米",
+              "kana": "こめ",
+              "es": "arroz crudo"
+            },
+            {
+              "jp": "サラダ",
+              "kana": "サラダ",
+              "es": "ensalada"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "words",
+        "direction": "word-es",
+        "ids": [
+          "w-590fa58ca9",
+          "w-ab0767b2f7",
+          "w-8426193f36",
+          "w-5bd8adf14c",
+          "w-19a8ef6b7a",
+          "w-43f6c947f9",
+          "w-f919deef04",
+          "w-ddfb670acf",
+          "w-2ae7b1cb3b",
+          "w-d2937b2999",
+          "w-fceb1b247e",
+          "w-fcf790e186"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-v-n4-lugares-1",
+      "title": "Vocabulario N4: Lugares 1",
+      "stage": "Vocabulario N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Lugares",
+          "text": "Palabras del N4 comunitario que no estaban en el N5. Si hay kanji, la lectura va debajo.",
+          "examples": [
+            {
+              "jp": "アジア",
+              "kana": "アジア",
+              "es": "Asia"
+            },
+            {
+              "jp": "アフリカ",
+              "kana": "アフリカ",
+              "es": "África"
+            },
+            {
+              "jp": "アメリカ",
+              "kana": "アメリカ",
+              "es": "América, Estados Unidos"
+            },
+            {
+              "jp": "田舎",
+              "kana": "いなか",
+              "es": "el campo, zona rural"
+            },
+            {
+              "jp": "受付",
+              "kana": "うけつけ",
+              "es": "recepción"
+            },
+            {
+              "jp": "裏",
+              "kana": "うら",
+              "es": "el reverso"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "words",
+        "direction": "word-es",
+        "ids": [
+          "w-97bdb63259",
+          "w-0fa879c73d",
+          "w-b921645383",
+          "w-11d4a3118b",
+          "w-4bdd43130b",
+          "w-1b5a6286d6",
+          "w-11222e25b5",
+          "w-3139c14254",
+          "w-1065d7145c",
+          "w-721424863e",
+          "w-6f4ad2115e",
+          "w-93ff1a80c2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-v-n4-lugares-2",
+      "title": "Vocabulario N4: Lugares 2",
+      "stage": "Vocabulario N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Lugares",
+          "text": "Palabras del N4 comunitario que no estaban en el N5. Si hay kanji, la lectura va debajo.",
+          "examples": [
+            {
+              "jp": "会場",
+              "kana": "かいじょう",
+              "es": "sede del acto"
+            },
+            {
+              "jp": "ガソリンスタンド",
+              "kana": "ガソリンスタンド",
+              "es": "gasolinera"
+            },
+            {
+              "jp": "教会",
+              "kana": "きょうかい",
+              "es": "iglesia"
+            },
+            {
+              "jp": "近所",
+              "kana": "きんじょ",
+              "es": "vecindario"
+            },
+            {
+              "jp": "空港",
+              "kana": "くうこう",
+              "es": "aeropuerto"
+            },
+            {
+              "jp": "研究室",
+              "kana": "けんきゅうしつ",
+              "es": "laboratorio"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "words",
+        "direction": "word-es",
+        "ids": [
+          "w-7508a7d366",
+          "w-57c68573b7",
+          "w-7a7b79370f",
+          "w-a6d55823a0",
+          "w-0f74a8f3a4",
+          "w-912c269668",
+          "w-aa95e437a0",
+          "w-8b7434e649",
+          "w-8786f4e971",
+          "w-856f1c8216",
+          "w-988f9bb24f",
+          "w-b1573ec234"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-v-n4-lugares-3",
+      "title": "Vocabulario N4: Lugares 3",
+      "stage": "Vocabulario N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Lugares",
+          "text": "Palabras del N4 comunitario que no estaban en el N5. Si hay kanji, la lectura va debajo.",
+          "examples": [
+            {
+              "jp": "事務所",
+              "kana": "じむしょ",
+              "es": "oficina"
+            },
+            {
+              "jp": "神社",
+              "kana": "じんじゃ",
+              "es": "santuario"
+            },
+            {
+              "jp": "隅",
+              "kana": "すみ",
+              "es": "rincón"
+            },
+            {
+              "jp": "西洋",
+              "kana": "せいよう",
+              "es": "Occidente"
+            },
+            {
+              "jp": "世界",
+              "kana": "せかい",
+              "es": "el mundo"
+            },
+            {
+              "jp": "席",
+              "kana": "せき",
+              "es": "asiento"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "words",
+        "direction": "word-es",
+        "ids": [
+          "w-9690043102",
+          "w-40c673da45",
+          "w-9776ccd07d",
+          "w-1e4db2ac9d",
+          "w-bfe54303cd",
+          "w-d11d9a6207",
+          "w-36f583c207",
+          "w-a9687d55e3",
+          "w-53162e310d",
+          "w-69678bc04e",
+          "w-fc60a66d5c",
+          "w-8743cb4286"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-v-n4-lugares-4",
+      "title": "Vocabulario N4: Lugares 4",
+      "stage": "Vocabulario N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Lugares",
+          "text": "Palabras del N4 comunitario que no estaban en el N5. Si hay kanji, la lectura va debajo.",
+          "examples": [
+            {
+              "jp": "途中",
+              "kana": "とちゅう",
+              "es": "a mitad de camino"
+            },
+            {
+              "jp": "場所",
+              "kana": "ばしょ",
+              "es": "lugar"
+            },
+            {
+              "jp": "飛行場",
+              "kana": "ひこうじょう",
+              "es": "aeródromo"
+            },
+            {
+              "jp": "美術館",
+              "kana": "びじゅつかん",
+              "es": "museo de arte"
+            },
+            {
+              "jp": "ビル",
+              "kana": "ビル",
+              "es": "edificio"
+            },
+            {
+              "jp": "周り",
+              "kana": "まわり",
+              "es": "alrededor"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "words",
+        "direction": "word-es",
+        "ids": [
+          "w-9b799806d8",
+          "w-32ca6422d6",
+          "w-546e786cde",
+          "w-eced3a159f",
+          "w-1fb9d39cd6",
+          "w-f71b64fa1e",
+          "w-59944588a8",
+          "w-221e63cb1e",
+          "w-cd95253850",
+          "w-b80da200ff"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-v-n4-trabajo-1",
+      "title": "Vocabulario N4: Trabajo 1",
+      "stage": "Vocabulario N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Trabajo",
+          "text": "Palabras del N4 comunitario que no estaban en el N5. Si hay kanji, la lectura va debajo.",
+          "examples": [
+            {
+              "jp": "アナウンサー",
+              "kana": "アナウンサー",
+              "es": "locutor"
+            },
+            {
+              "jp": "アルバイト",
+              "kana": "アルバイト",
+              "es": "trabajo a tiempo parcial"
+            },
+            {
+              "jp": "運転手",
+              "kana": "うんてんしゅ",
+              "es": "conductor"
+            },
+            {
+              "jp": "会議",
+              "kana": "かいぎ",
+              "es": "reunión"
+            },
+            {
+              "jp": "課長",
+              "kana": "かちょう",
+              "es": "jefe de sección"
+            },
+            {
+              "jp": "看護婦",
+              "kana": "かんごふ",
+              "es": "enfermera"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "words",
+        "direction": "word-es",
+        "ids": [
+          "w-c1fb180c70",
+          "w-88d4196563",
+          "w-9f6e25d5e2",
+          "w-83af91b7eb",
+          "w-26a19196b7",
+          "w-374a0aa749",
+          "w-baaaf1524a",
+          "w-0c49fbf17c",
+          "w-a431dff83f",
+          "w-28faf8f7a3",
+          "w-a40ee6e509",
+          "w-f7e69f5427"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-v-n4-trabajo-2",
+      "title": "Vocabulario N4: Trabajo 2",
+      "stage": "Vocabulario N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Trabajo",
+          "text": "Palabras del N4 comunitario que no estaban en el N5. Si hay kanji, la lectura va debajo.",
+          "examples": [
+            {
+              "jp": "店員",
+              "kana": "てんいん",
+              "es": "dependiente"
+            },
+            {
+              "jp": "パート",
+              "kana": "パート",
+              "es": "media jornada"
+            },
+            {
+              "jp": "歯医者",
+              "kana": "はいしゃ",
+              "es": "dentista"
+            },
+            {
+              "jp": "部長",
+              "kana": "ぶちょう",
+              "es": "jefe de departamento"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "words",
+        "direction": "word-es",
+        "ids": [
+          "w-29b43fab16",
+          "w-d051720806",
+          "w-9bb337edc6",
+          "w-346a5da3c2"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-v-n4-preguntas-1",
+      "title": "Vocabulario N4: Preguntas",
+      "stage": "Vocabulario N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Preguntas",
+          "text": "Palabras del N4 comunitario que no estaban en el N5. Si hay kanji, la lectura va debajo.",
+          "examples": [
+            {
+              "jp": "あんな",
+              "kana": "あんな",
+              "es": "ese tipo de, lejos"
+            },
+            {
+              "jp": "そんな",
+              "kana": "そんな",
+              "es": "ese tipo de"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "words",
+        "direction": "word-es",
+        "ids": [
+          "w-367da027cb",
+          "w-73688428ee"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-v-n4-escuela-1",
+      "title": "Vocabulario N4: Escuela 1",
+      "stage": "Vocabulario N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Escuela",
+          "text": "Palabras del N4 comunitario que no estaban en el N5. Si hay kanji, la lectura va debajo.",
+          "examples": [
+            {
+              "jp": "医学",
+              "kana": "いがく",
+              "es": "medicina, la ciencia"
+            },
+            {
+              "jp": "会話",
+              "kana": "かいわ",
+              "es": "conversación"
+            },
+            {
+              "jp": "科学",
+              "kana": "かがく",
+              "es": "ciencia"
+            },
+            {
+              "jp": "技術",
+              "kana": "ぎじゅつ",
+              "es": "técnica"
+            },
+            {
+              "jp": "規則",
+              "kana": "きそく",
+              "es": "regla"
+            },
+            {
+              "jp": "教育",
+              "kana": "きょういく",
+              "es": "educación"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "words",
+        "direction": "word-es",
+        "ids": [
+          "w-20044dd689",
+          "w-81b9c23c14",
+          "w-ea150f3d48",
+          "w-bbf69b64f8",
+          "w-fcca18b129",
+          "w-319186af72",
+          "w-ba1b3c0d13",
+          "w-607f3c4430",
+          "w-8063587e53",
+          "w-22ba4ea959",
+          "w-9593b3e04f",
+          "w-aac669551b"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-v-n4-escuela-2",
+      "title": "Vocabulario N4: Escuela 2",
+      "stage": "Vocabulario N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Escuela",
+          "text": "Palabras del N4 comunitario que no estaban en el N5. Si hay kanji, la lectura va debajo.",
+          "examples": [
+            {
+              "jp": "字",
+              "kana": "じ",
+              "es": "carácter, letra"
+            },
+            {
+              "jp": "試験",
+              "kana": "しけん",
+              "es": "examen"
+            },
+            {
+              "jp": "辞典",
+              "kana": "じてん",
+              "es": "diccionario"
+            },
+            {
+              "jp": "小学校",
+              "kana": "しょうがっこう",
+              "es": "escuela primaria"
+            },
+            {
+              "jp": "数学",
+              "kana": "すうがく",
+              "es": "matemáticas"
+            },
+            {
+              "jp": "中学校",
+              "kana": "ちゅうがっこう",
+              "es": "secundaria"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "words",
+        "direction": "word-es",
+        "ids": [
+          "w-dd89673ae0",
+          "w-7855de335f",
+          "w-695b6626d4",
+          "w-b04bf40187",
+          "w-48341cc3a0",
+          "w-4b99b4673b",
+          "w-16db6a0f53",
+          "w-ccdf4613d1",
+          "w-67fb8c065d",
+          "w-3ce079af0b",
+          "w-452083ca3c",
+          "w-9eaa627a73"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-v-n4-escuela-3",
+      "title": "Vocabulario N4: Escuela 3",
+      "stage": "Vocabulario N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Escuela",
+          "text": "Palabras del N4 comunitario que no estaban en el N5. Si hay kanji, la lectura va debajo.",
+          "examples": [
+            {
+              "jp": "歴史",
+              "kana": "れきし",
+              "es": "historia"
+            },
+            {
+              "jp": "レポート",
+              "kana": "レポート",
+              "es": "informe"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "words",
+        "direction": "word-es",
+        "ids": [
+          "w-bcb7922671",
+          "w-d9f9f17224"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-v-n4-sociedad-1",
+      "title": "Vocabulario N4: Sociedad 1",
+      "stage": "Vocabulario N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Sociedad",
+          "text": "Palabras del N4 comunitario que no estaban en el N5. Si hay kanji, la lectura va debajo.",
+          "examples": [
+            {
+              "jp": "意見",
+              "kana": "いけん",
+              "es": "opinión"
+            },
+            {
+              "jp": "お祝い",
+              "kana": "おいわい",
+              "es": "felicitación"
+            },
+            {
+              "jp": "お祭り",
+              "kana": "おまつり",
+              "es": "festival"
+            },
+            {
+              "jp": "お見舞い",
+              "kana": "おみまい",
+              "es": "visita a un enfermo"
+            },
+            {
+              "jp": "お礼",
+              "kana": "おれい",
+              "es": "agradecimiento"
+            },
+            {
+              "jp": "火事",
+              "kana": "かじ",
+              "es": "incendio"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "words",
+        "direction": "word-es",
+        "ids": [
+          "w-ba5a03baf1",
+          "w-12e7bd036b",
+          "w-68ff489ea4",
+          "w-eb615955c8",
+          "w-12db3e5f4e",
+          "w-b64af0c4f7",
+          "w-f960d43119",
+          "w-a9dcbea815",
+          "w-5079fc5daf",
+          "w-25550955b0",
+          "w-8fd9bc63e8",
+          "w-d11b994212"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-v-n4-sociedad-2",
+      "title": "Vocabulario N4: Sociedad 2",
+      "stage": "Vocabulario N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Sociedad",
+          "text": "Palabras del N4 comunitario que no estaban en el N5. Si hay kanji, la lectura va debajo.",
+          "examples": [
+            {
+              "jp": "試合",
+              "kana": "しあい",
+              "es": "partido"
+            },
+            {
+              "jp": "事故",
+              "kana": "じこ",
+              "es": "accidente"
+            },
+            {
+              "jp": "社会",
+              "kana": "しゃかい",
+              "es": "sociedad"
+            },
+            {
+              "jp": "自由",
+              "kana": "じゆう",
+              "es": "libertad"
+            },
+            {
+              "jp": "習慣",
+              "kana": "しゅうかん",
+              "es": "costumbre"
+            },
+            {
+              "jp": "人口",
+              "kana": "じんこう",
+              "es": "población"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "words",
+        "direction": "word-es",
+        "ids": [
+          "w-fd00937783",
+          "w-7f6ffe3432",
+          "w-a7dc742b01",
+          "w-d1805965ec",
+          "w-eacd8a5221",
+          "w-7962f0cea1",
+          "w-75b0305c60",
+          "w-8c83cac81c",
+          "w-80eba2fabb",
+          "w-8825d6d645",
+          "w-2f79469321",
+          "w-3597362058"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-v-n4-sociedad-3",
+      "title": "Vocabulario N4: Sociedad 3",
+      "stage": "Vocabulario N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Sociedad",
+          "text": "Palabras del N4 comunitario que no estaban en el N5. Si hay kanji, la lectura va debajo.",
+          "examples": [
+            {
+              "jp": "法律",
+              "kana": "ほうりつ",
+              "es": "ley"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "words",
+        "direction": "word-es",
+        "ids": [
+          "w-845a23790b"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-v-n4-naturaleza-1",
+      "title": "Vocabulario N4: Naturaleza 1",
+      "stage": "Vocabulario N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Naturaleza",
+          "text": "Palabras del N4 comunitario que no estaban en el N5. Si hay kanji, la lectura va debajo.",
+          "examples": [
+            {
+              "jp": "石",
+              "kana": "いし",
+              "es": "piedra"
+            },
+            {
+              "jp": "枝",
+              "kana": "えだ",
+              "es": "rama"
+            },
+            {
+              "jp": "空気",
+              "kana": "くうき",
+              "es": "aire"
+            },
+            {
+              "jp": "草",
+              "kana": "くさ",
+              "es": "hierba"
+            },
+            {
+              "jp": "雲",
+              "kana": "くも",
+              "es": "nube"
+            },
+            {
+              "jp": "景色",
+              "kana": "けしき",
+              "es": "paisaje"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "words",
+        "direction": "word-es",
+        "ids": [
+          "w-372ce69caf",
+          "w-bb01cb559f",
+          "w-a70d257a61",
+          "w-b5b90cb965",
+          "w-7db3da6e1b",
+          "w-a200494cec",
+          "w-0ae014e274",
+          "w-ba8831572d",
+          "w-97a079585a",
+          "w-14d52a91d3",
+          "w-ba74488833",
+          "w-254439ebbe"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-v-n4-naturaleza-2",
+      "title": "Vocabulario N4: Naturaleza 2",
+      "stage": "Vocabulario N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Naturaleza",
+          "text": "Palabras del N4 comunitario que no estaban en el N5. Si hay kanji, la lectura va debajo.",
+          "examples": [
+            {
+              "jp": "林",
+              "kana": "はやし",
+              "es": "bosque pequeño"
+            },
+            {
+              "jp": "火",
+              "kana": "ひ",
+              "es": "fuego"
+            },
+            {
+              "jp": "光",
+              "kana": "ひかり",
+              "es": "luz"
+            },
+            {
+              "jp": "星",
+              "kana": "ほし",
+              "es": "estrella"
+            },
+            {
+              "jp": "湖",
+              "kana": "みずうみ",
+              "es": "lago"
+            },
+            {
+              "jp": "虫",
+              "kana": "むし",
+              "es": "insecto"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "words",
+        "direction": "word-es",
+        "ids": [
+          "w-a2962b07bc",
+          "w-f9f80b1a36",
+          "w-c8a0e96a6a",
+          "w-72df46ea9c",
+          "w-07a76f9be7",
+          "w-505c1fd62e",
+          "w-f0e069d89e"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-v-n4-casa-1",
+      "title": "Vocabulario N4: Casa 1",
+      "stage": "Vocabulario N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Casa",
+          "text": "Palabras del N4 comunitario que no estaban en el N5. Si hay kanji, la lectura va debajo.",
+          "examples": [
+            {
+              "jp": "うち",
+              "kana": "うち",
+              "es": "casa de uno, o dentro de"
+            },
+            {
+              "jp": "押し入れ",
+              "kana": "おしいれ",
+              "es": "armario empotrado"
+            },
+            {
+              "jp": "お宅",
+              "kana": "おたく",
+              "es": "su casa, cortés"
+            },
+            {
+              "jp": "カーテン",
+              "kana": "カーテン",
+              "es": "cortina"
+            },
+            {
+              "jp": "鏡",
+              "kana": "かがみ",
+              "es": "espejo"
+            },
+            {
+              "jp": "ガス",
+              "kana": "ガス",
+              "es": "gas"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "words",
+        "direction": "word-es",
+        "ids": [
+          "w-76d4bcd098",
+          "w-3787755f33",
+          "w-6693b4e9f7",
+          "w-cbbc4c3524",
+          "w-2c7db27d62",
+          "w-376ccb94c4",
+          "w-0752484ec5",
+          "w-4c9297421b",
+          "w-c3da539389",
+          "w-bdab237e0d",
+          "w-2070f21eae",
+          "w-b5579bc4a6"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-v-n4-casa-2",
+      "title": "Vocabulario N4: Casa 2",
+      "stage": "Vocabulario N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Casa",
+          "text": "Palabras del N4 comunitario que no estaban en el N5. Si hay kanji, la lectura va debajo.",
+          "examples": [
+            {
+              "jp": "棚",
+              "kana": "たな",
+              "es": "estante"
+            },
+            {
+              "jp": "暖房",
+              "kana": "だんぼう",
+              "es": "calefacción"
+            },
+            {
+              "jp": "電灯",
+              "kana": "でんとう",
+              "es": "lámpara"
+            },
+            {
+              "jp": "二階建て",
+              "kana": "にかいだて",
+              "es": "de dos plantas"
+            },
+            {
+              "jp": "引き出し",
+              "kana": "ひきだし",
+              "es": "cajón"
+            },
+            {
+              "jp": "布団",
+              "kana": "ふとん",
+              "es": "futón"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "words",
+        "direction": "word-es",
+        "ids": [
+          "w-9c96fd3cb4",
+          "w-aaac8221c9",
+          "w-db2fc03fcf",
+          "w-eef262a7dd",
+          "w-916e92f3da",
+          "w-f1ef6228cb",
+          "w-d81bb54f03",
+          "w-8ff4f12975"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-v-n4-cuerpo-1",
+      "title": "Vocabulario N4: Cuerpo 1",
+      "stage": "Vocabulario N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Cuerpo",
+          "text": "Palabras del N4 comunitario que no estaban en el N5. Si hay kanji, la lectura va debajo.",
+          "examples": [
+            {
+              "jp": "腕",
+              "kana": "うで",
+              "es": "brazo"
+            },
+            {
+              "jp": "髪",
+              "kana": "かみ",
+              "es": "pelo, cabello"
+            },
+            {
+              "jp": "気分",
+              "kana": "きぶん",
+              "es": "humor, cómo se siente uno"
+            },
+            {
+              "jp": "具合",
+              "kana": "ぐあい",
+              "es": "estado, cómo va"
+            },
+            {
+              "jp": "首",
+              "kana": "くび",
+              "es": "cuello"
+            },
+            {
+              "jp": "毛",
+              "kana": "け",
+              "es": "pelo, vello"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "words",
+        "direction": "word-es",
+        "ids": [
+          "w-78d94c404b",
+          "w-ec0fe6786a",
+          "w-42f05076b3",
+          "w-f36e445797",
+          "w-78c6412e35",
+          "w-e9bab5c151",
+          "w-be527b9f9d",
+          "w-d8623369cb",
+          "w-56a36774ce",
+          "w-3f26d1cef7",
+          "w-4fbc32438d",
+          "w-6a3d0e7070"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-v-n4-cuerpo-2",
+      "title": "Vocabulario N4: Cuerpo 2",
+      "stage": "Vocabulario N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Cuerpo",
+          "text": "Palabras del N4 comunitario que no estaban en el N5. Si hay kanji, la lectura va debajo.",
+          "examples": [
+            {
+              "jp": "ひげ",
+              "kana": "ひげ",
+              "es": "barba"
+            },
+            {
+              "jp": "指",
+              "kana": "ゆび",
+              "es": "dedo"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "words",
+        "direction": "word-es",
+        "ids": [
+          "w-36d0fd2044",
+          "w-63846aa88f"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-v-n4-transporte-1",
+      "title": "Vocabulario N4: Transporte",
+      "stage": "Vocabulario N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Transporte",
+          "text": "Palabras del N4 comunitario que no estaban en el N5. Si hay kanji, la lectura va debajo.",
+          "examples": [
+            {
+              "jp": "オートバイ",
+              "kana": "オートバイ",
+              "es": "motocicleta"
+            },
+            {
+              "jp": "ガソリン",
+              "kana": "ガソリン",
+              "es": "gasolina"
+            },
+            {
+              "jp": "汽車",
+              "kana": "きしゃ",
+              "es": "tren de vapor"
+            },
+            {
+              "jp": "急行",
+              "kana": "きゅうこう",
+              "es": "tren rápido"
+            },
+            {
+              "jp": "交通",
+              "kana": "こうつう",
+              "es": "tráfico"
+            },
+            {
+              "jp": "特急",
+              "kana": "とっきゅう",
+              "es": "tren expreso"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "words",
+        "direction": "word-es",
+        "ids": [
+          "w-5c63f36f44",
+          "w-b3c360789e",
+          "w-a0c815188f",
+          "w-b6027b4099",
+          "w-d64432f194",
+          "w-3753f20423",
+          "w-0787fd5472",
+          "w-45d920815a"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-v-n4-numeros-1",
+      "title": "Vocabulario N4: Números",
+      "stage": "Vocabulario N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Números",
+          "text": "Palabras del N4 comunitario que no estaban en el N5. Si hay kanji, la lectura va debajo.",
+          "examples": [
+            {
+              "jp": "億",
+              "kana": "おく",
+              "es": "cien millones"
+            },
+            {
+              "jp": "倍",
+              "kana": "ばい",
+              "es": "el doble"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "words",
+        "direction": "word-es",
+        "ids": [
+          "w-4cfa8f43e2",
+          "w-b7dd1f219b"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-kj-1",
+      "title": "Kanji N4, grupo 1",
+      "stage": "Kanji N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Lectura de este nivel",
+          "text": "Estos kanji no estaban en el recorte N5. Otras lecturas salen al corregir.",
+          "examples": [
+            {
+              "jp": "会",
+              "kana": "かい",
+              "es": "reunión"
+            },
+            {
+              "jp": "同",
+              "kana": "どう",
+              "es": "igual"
+            },
+            {
+              "jp": "事",
+              "kana": "じ",
+              "es": "asunto"
+            },
+            {
+              "jp": "自",
+              "kana": "じ",
+              "es": "uno mismo"
+            },
+            {
+              "jp": "社",
+              "kana": "しゃ",
+              "es": "empresa"
+            },
+            {
+              "jp": "発",
+              "kana": "はつ",
+              "es": "salida, emitir"
+            },
+            {
+              "jp": "者",
+              "kana": "しゃ",
+              "es": "persona, sufijo"
+            },
+            {
+              "jp": "地",
+              "kana": "ち",
+              "es": "tierra, suelo"
+            },
+            {
+              "jp": "業",
+              "kana": "ぎょう",
+              "es": "oficio, industria"
+            },
+            {
+              "jp": "方",
+              "kana": "ほう",
+              "es": "lado, dirección"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "kanji",
+        "direction": "kanji-es",
+        "ids": [
+          "k-会",
+          "k-同",
+          "k-事",
+          "k-自",
+          "k-社",
+          "k-発",
+          "k-者",
+          "k-地",
+          "k-業",
+          "k-方"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-kj-2",
+      "title": "Kanji N4, grupo 2",
+      "stage": "Kanji N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Lectura de este nivel",
+          "text": "Estos kanji no estaban en el recorte N5. Otras lecturas salen al corregir.",
+          "examples": [
+            {
+              "jp": "新",
+              "kana": "あたら",
+              "es": "nuevo"
+            },
+            {
+              "jp": "場",
+              "kana": "ば",
+              "es": "lugar"
+            },
+            {
+              "jp": "員",
+              "kana": "いん",
+              "es": "miembro"
+            },
+            {
+              "jp": "立",
+              "kana": "た",
+              "es": "ponerse de pie"
+            },
+            {
+              "jp": "開",
+              "kana": "ひら",
+              "es": "abrir"
+            },
+            {
+              "jp": "手",
+              "kana": "て",
+              "es": "mano"
+            },
+            {
+              "jp": "力",
+              "kana": "ちから",
+              "es": "fuerza"
+            },
+            {
+              "jp": "問",
+              "kana": "もん",
+              "es": "pregunta"
+            },
+            {
+              "jp": "代",
+              "kana": "だい",
+              "es": "época, sustituto"
+            },
+            {
+              "jp": "明",
+              "kana": "あか",
+              "es": "claro, brillante"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "kanji",
+        "direction": "kanji-es",
+        "ids": [
+          "k-新",
+          "k-場",
+          "k-員",
+          "k-立",
+          "k-開",
+          "k-手",
+          "k-力",
+          "k-問",
+          "k-代",
+          "k-明"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-kj-3",
+      "title": "Kanji N4, grupo 3",
+      "stage": "Kanji N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Lectura de este nivel",
+          "text": "Estos kanji no estaban en el recorte N5. Otras lecturas salen al corregir.",
+          "examples": [
+            {
+              "jp": "動",
+              "kana": "うご",
+              "es": "moverse"
+            },
+            {
+              "jp": "京",
+              "kana": "きょう",
+              "es": "capital"
+            },
+            {
+              "jp": "目",
+              "kana": "め",
+              "es": "ojo"
+            },
+            {
+              "jp": "通",
+              "kana": "とお",
+              "es": "pasar"
+            },
+            {
+              "jp": "言",
+              "kana": "い",
+              "es": "decir"
+            },
+            {
+              "jp": "理",
+              "kana": "り",
+              "es": "razón, principio"
+            },
+            {
+              "jp": "体",
+              "kana": "からだ",
+              "es": "cuerpo"
+            },
+            {
+              "jp": "田",
+              "kana": "た",
+              "es": "arrozal"
+            },
+            {
+              "jp": "主",
+              "kana": "ぬし",
+              "es": "dueño, principal"
+            },
+            {
+              "jp": "題",
+              "kana": "だい",
+              "es": "tema"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "kanji",
+        "direction": "kanji-es",
+        "ids": [
+          "k-動",
+          "k-京",
+          "k-目",
+          "k-通",
+          "k-言",
+          "k-理",
+          "k-体",
+          "k-田",
+          "k-主",
+          "k-題"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-kj-4",
+      "title": "Kanji N4, grupo 4",
+      "stage": "Kanji N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Lectura de este nivel",
+          "text": "Estos kanji no estaban en el recorte N5. Otras lecturas salen al corregir.",
+          "examples": [
+            {
+              "jp": "意",
+              "kana": "い",
+              "es": "intención, idea"
+            },
+            {
+              "jp": "不",
+              "kana": "ふ",
+              "es": "no, prefijo"
+            },
+            {
+              "jp": "作",
+              "kana": "さく",
+              "es": "hacer, obra"
+            },
+            {
+              "jp": "用",
+              "kana": "よう",
+              "es": "uso"
+            },
+            {
+              "jp": "度",
+              "kana": "ど",
+              "es": "vez, grado"
+            },
+            {
+              "jp": "強",
+              "kana": "つよ",
+              "es": "fuerte"
+            },
+            {
+              "jp": "公",
+              "kana": "こう",
+              "es": "público"
+            },
+            {
+              "jp": "持",
+              "kana": "も",
+              "es": "sostener"
+            },
+            {
+              "jp": "野",
+              "kana": "の",
+              "es": "campo"
+            },
+            {
+              "jp": "以",
+              "kana": "い",
+              "es": "a partir de, por medio de"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "kanji",
+        "direction": "kanji-es",
+        "ids": [
+          "k-意",
+          "k-不",
+          "k-作",
+          "k-用",
+          "k-度",
+          "k-強",
+          "k-公",
+          "k-持",
+          "k-野",
+          "k-以"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-kj-5",
+      "title": "Kanji N4, grupo 5",
+      "stage": "Kanji N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Lectura de este nivel",
+          "text": "Estos kanji no estaban en el recorte N5. Otras lecturas salen al corregir.",
+          "examples": [
+            {
+              "jp": "思",
+              "kana": "おも",
+              "es": "pensar"
+            },
+            {
+              "jp": "家",
+              "kana": "いえ",
+              "es": "casa"
+            },
+            {
+              "jp": "世",
+              "kana": "よ",
+              "es": "mundo, generación"
+            },
+            {
+              "jp": "多",
+              "kana": "おお",
+              "es": "mucho"
+            },
+            {
+              "jp": "正",
+              "kana": "ただ",
+              "es": "correcto"
+            },
+            {
+              "jp": "安",
+              "kana": "やす",
+              "es": "barato, tranquilo"
+            },
+            {
+              "jp": "院",
+              "kana": "いん",
+              "es": "institución"
+            },
+            {
+              "jp": "心",
+              "kana": "こころ",
+              "es": "corazón, mente"
+            },
+            {
+              "jp": "界",
+              "kana": "かい",
+              "es": "mundo, esfera"
+            },
+            {
+              "jp": "教",
+              "kana": "おし",
+              "es": "enseñar"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "kanji",
+        "direction": "kanji-es",
+        "ids": [
+          "k-思",
+          "k-家",
+          "k-世",
+          "k-多",
+          "k-正",
+          "k-安",
+          "k-院",
+          "k-心",
+          "k-界",
+          "k-教"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-kj-6",
+      "title": "Kanji N4, grupo 6",
+      "stage": "Kanji N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Lectura de este nivel",
+          "text": "Estos kanji no estaban en el recorte N5. Otras lecturas salen al corregir.",
+          "examples": [
+            {
+              "jp": "文",
+              "kana": "ぶん",
+              "es": "texto, letra"
+            },
+            {
+              "jp": "元",
+              "kana": "もと",
+              "es": "origen"
+            },
+            {
+              "jp": "重",
+              "kana": "おも",
+              "es": "pesado"
+            },
+            {
+              "jp": "近",
+              "kana": "ちか",
+              "es": "cerca"
+            },
+            {
+              "jp": "考",
+              "kana": "かんが",
+              "es": "pensar (考)"
+            },
+            {
+              "jp": "画",
+              "kana": "え",
+              "es": "dibujo, trazo"
+            },
+            {
+              "jp": "海",
+              "kana": "うみ",
+              "es": "mar"
+            },
+            {
+              "jp": "売",
+              "kana": "う",
+              "es": "vender"
+            },
+            {
+              "jp": "知",
+              "kana": "し",
+              "es": "saber"
+            },
+            {
+              "jp": "道",
+              "kana": "みち",
+              "es": "camino"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "kanji",
+        "direction": "kanji-es",
+        "ids": [
+          "k-文",
+          "k-元",
+          "k-重",
+          "k-近",
+          "k-考",
+          "k-画",
+          "k-海",
+          "k-売",
+          "k-知",
+          "k-道"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-kj-7",
+      "title": "Kanji N4, grupo 7",
+      "stage": "Kanji N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Lectura de este nivel",
+          "text": "Estos kanji no estaban en el recorte N5. Otras lecturas salen al corregir.",
+          "examples": [
+            {
+              "jp": "集",
+              "kana": "あつ",
+              "es": "reunir"
+            },
+            {
+              "jp": "別",
+              "kana": "わか",
+              "es": "separar, otro"
+            },
+            {
+              "jp": "物",
+              "kana": "もの",
+              "es": "cosa"
+            },
+            {
+              "jp": "使",
+              "kana": "つか",
+              "es": "usar"
+            },
+            {
+              "jp": "品",
+              "kana": "しな",
+              "es": "artículo"
+            },
+            {
+              "jp": "計",
+              "kana": "けい",
+              "es": "medir, plan"
+            },
+            {
+              "jp": "死",
+              "kana": "し",
+              "es": "muerte"
+            },
+            {
+              "jp": "特",
+              "kana": "とく",
+              "es": "especial"
+            },
+            {
+              "jp": "私",
+              "kana": "わたし",
+              "es": "yo, privado"
+            },
+            {
+              "jp": "始",
+              "kana": "はじ",
+              "es": "empezar"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "kanji",
+        "direction": "kanji-es",
+        "ids": [
+          "k-集",
+          "k-別",
+          "k-物",
+          "k-使",
+          "k-品",
+          "k-計",
+          "k-死",
+          "k-特",
+          "k-私",
+          "k-始"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-kj-8",
+      "title": "Kanji N4, grupo 8",
+      "stage": "Kanji N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Lectura de este nivel",
+          "text": "Estos kanji no estaban en el recorte N5. Otras lecturas salen al corregir.",
+          "examples": [
+            {
+              "jp": "朝",
+              "kana": "あさ",
+              "es": "mañana"
+            },
+            {
+              "jp": "運",
+              "kana": "はこ",
+              "es": "transportar"
+            },
+            {
+              "jp": "終",
+              "kana": "お",
+              "es": "terminar"
+            },
+            {
+              "jp": "台",
+              "kana": "だい",
+              "es": "contador, pedestal"
+            },
+            {
+              "jp": "広",
+              "kana": "ひろ",
+              "es": "ancho"
+            },
+            {
+              "jp": "住",
+              "kana": "す",
+              "es": "vivir en"
+            },
+            {
+              "jp": "真",
+              "kana": "ま",
+              "es": "verdad"
+            },
+            {
+              "jp": "有",
+              "kana": "あ",
+              "es": "haber, tener"
+            },
+            {
+              "jp": "口",
+              "kana": "くち",
+              "es": "boca"
+            },
+            {
+              "jp": "少",
+              "kana": "すく",
+              "es": "poco"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "kanji",
+        "direction": "kanji-es",
+        "ids": [
+          "k-朝",
+          "k-運",
+          "k-終",
+          "k-台",
+          "k-広",
+          "k-住",
+          "k-真",
+          "k-有",
+          "k-口",
+          "k-少"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-kj-9",
+      "title": "Kanji N4, grupo 9",
+      "stage": "Kanji N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Lectura de este nivel",
+          "text": "Estos kanji no estaban en el recorte N5. Otras lecturas salen al corregir.",
+          "examples": [
+            {
+              "jp": "町",
+              "kana": "まち",
+              "es": "barrio"
+            },
+            {
+              "jp": "料",
+              "kana": "りょう",
+              "es": "tarifa, material"
+            },
+            {
+              "jp": "工",
+              "kana": "こう",
+              "es": "obra, industria"
+            },
+            {
+              "jp": "建",
+              "kana": "た",
+              "es": "construir"
+            },
+            {
+              "jp": "空",
+              "kana": "そら",
+              "es": "cielo, vacío"
+            },
+            {
+              "jp": "急",
+              "kana": "いそ",
+              "es": "prisa"
+            },
+            {
+              "jp": "止",
+              "kana": "と",
+              "es": "parar"
+            },
+            {
+              "jp": "送",
+              "kana": "おく",
+              "es": "enviar"
+            },
+            {
+              "jp": "切",
+              "kana": "き",
+              "es": "cortar"
+            },
+            {
+              "jp": "転",
+              "kana": "てん",
+              "es": "girar, cambiar"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "kanji",
+        "direction": "kanji-es",
+        "ids": [
+          "k-町",
+          "k-料",
+          "k-工",
+          "k-建",
+          "k-空",
+          "k-急",
+          "k-止",
+          "k-送",
+          "k-切",
+          "k-転"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-kj-10",
+      "title": "Kanji N4, grupo 10",
+      "stage": "Kanji N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Lectura de este nivel",
+          "text": "Estos kanji no estaban en el recorte N5. Otras lecturas salen al corregir.",
+          "examples": [
+            {
+              "jp": "研",
+              "kana": "けん",
+              "es": "pulir, investigar"
+            },
+            {
+              "jp": "足",
+              "kana": "あし",
+              "es": "pie, pierna"
+            },
+            {
+              "jp": "究",
+              "kana": "きゅう",
+              "es": "investigar a fondo"
+            },
+            {
+              "jp": "楽",
+              "kana": "たの",
+              "es": "agradable"
+            },
+            {
+              "jp": "起",
+              "kana": "お",
+              "es": "levantarse"
+            },
+            {
+              "jp": "着",
+              "kana": "き",
+              "es": "ponerse, llegar"
+            },
+            {
+              "jp": "店",
+              "kana": "みせ",
+              "es": "tienda"
+            },
+            {
+              "jp": "病",
+              "kana": "びょう",
+              "es": "enfermedad"
+            },
+            {
+              "jp": "質",
+              "kana": "しつ",
+              "es": "calidad"
+            },
+            {
+              "jp": "待",
+              "kana": "ま",
+              "es": "esperar"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "kanji",
+        "direction": "kanji-es",
+        "ids": [
+          "k-研",
+          "k-足",
+          "k-究",
+          "k-楽",
+          "k-起",
+          "k-着",
+          "k-店",
+          "k-病",
+          "k-質",
+          "k-待"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-kj-11",
+      "title": "Kanji N4, grupo 11",
+      "stage": "Kanji N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Lectura de este nivel",
+          "text": "Estos kanji no estaban en el recorte N5. Otras lecturas salen al corregir.",
+          "examples": [
+            {
+              "jp": "試",
+              "kana": "ため",
+              "es": "probar"
+            },
+            {
+              "jp": "族",
+              "kana": "ぞく",
+              "es": "familia, grupo"
+            },
+            {
+              "jp": "銀",
+              "kana": "ぎん",
+              "es": "plata"
+            },
+            {
+              "jp": "早",
+              "kana": "はや",
+              "es": "pronto"
+            },
+            {
+              "jp": "映",
+              "kana": "うつ",
+              "es": "reflejarse"
+            },
+            {
+              "jp": "親",
+              "kana": "おや",
+              "es": "padre, madre"
+            },
+            {
+              "jp": "験",
+              "kana": "けん",
+              "es": "prueba"
+            },
+            {
+              "jp": "英",
+              "kana": "えい",
+              "es": "Inglaterra, inglés"
+            },
+            {
+              "jp": "医",
+              "kana": "い",
+              "es": "medicina"
+            },
+            {
+              "jp": "仕",
+              "kana": "つか",
+              "es": "servir"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "kanji",
+        "direction": "kanji-es",
+        "ids": [
+          "k-試",
+          "k-族",
+          "k-銀",
+          "k-早",
+          "k-映",
+          "k-親",
+          "k-験",
+          "k-英",
+          "k-医",
+          "k-仕"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-kj-12",
+      "title": "Kanji N4, grupo 12",
+      "stage": "Kanji N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Lectura de este nivel",
+          "text": "Estos kanji no estaban en el recorte N5. Otras lecturas salen al corregir.",
+          "examples": [
+            {
+              "jp": "去",
+              "kana": "さ",
+              "es": "irse"
+            },
+            {
+              "jp": "味",
+              "kana": "あじ",
+              "es": "sabor"
+            },
+            {
+              "jp": "写",
+              "kana": "うつ",
+              "es": "copiar"
+            },
+            {
+              "jp": "字",
+              "kana": "じ",
+              "es": "carácter"
+            },
+            {
+              "jp": "答",
+              "kana": "こた",
+              "es": "respuesta"
+            },
+            {
+              "jp": "夜",
+              "kana": "よる",
+              "es": "noche"
+            },
+            {
+              "jp": "音",
+              "kana": "おと",
+              "es": "sonido"
+            },
+            {
+              "jp": "注",
+              "kana": "ちゅう",
+              "es": "verter, prestar atención"
+            },
+            {
+              "jp": "帰",
+              "kana": "かえ",
+              "es": "volver"
+            },
+            {
+              "jp": "古",
+              "kana": "ふる",
+              "es": "viejo"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "kanji",
+        "direction": "kanji-es",
+        "ids": [
+          "k-去",
+          "k-味",
+          "k-写",
+          "k-字",
+          "k-答",
+          "k-夜",
+          "k-音",
+          "k-注",
+          "k-帰",
+          "k-古"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-kj-13",
+      "title": "Kanji N4, grupo 13",
+      "stage": "Kanji N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Lectura de este nivel",
+          "text": "Estos kanji no estaban en el recorte N5. Otras lecturas salen al corregir.",
+          "examples": [
+            {
+              "jp": "歌",
+              "kana": "うた",
+              "es": "canción"
+            },
+            {
+              "jp": "買",
+              "kana": "か",
+              "es": "comprar"
+            },
+            {
+              "jp": "悪",
+              "kana": "わる",
+              "es": "malo"
+            },
+            {
+              "jp": "図",
+              "kana": "ず",
+              "es": "diagrama"
+            },
+            {
+              "jp": "週",
+              "kana": "しゅう",
+              "es": "semana"
+            },
+            {
+              "jp": "室",
+              "kana": "しつ",
+              "es": "habitación"
+            },
+            {
+              "jp": "歩",
+              "kana": "ある",
+              "es": "caminar"
+            },
+            {
+              "jp": "風",
+              "kana": "かぜ",
+              "es": "viento"
+            },
+            {
+              "jp": "紙",
+              "kana": "かみ",
+              "es": "papel"
+            },
+            {
+              "jp": "黒",
+              "kana": "くろ",
+              "es": "negro"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "kanji",
+        "direction": "kanji-es",
+        "ids": [
+          "k-歌",
+          "k-買",
+          "k-悪",
+          "k-図",
+          "k-週",
+          "k-室",
+          "k-歩",
+          "k-風",
+          "k-紙",
+          "k-黒"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-kj-14",
+      "title": "Kanji N4, grupo 14",
+      "stage": "Kanji N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Lectura de este nivel",
+          "text": "Estos kanji no estaban en el recorte N5. Otras lecturas salen al corregir.",
+          "examples": [
+            {
+              "jp": "花",
+              "kana": "はな",
+              "es": "flor"
+            },
+            {
+              "jp": "春",
+              "kana": "はる",
+              "es": "primavera"
+            },
+            {
+              "jp": "赤",
+              "kana": "あか",
+              "es": "rojo"
+            },
+            {
+              "jp": "青",
+              "kana": "あお",
+              "es": "azul"
+            },
+            {
+              "jp": "館",
+              "kana": "かん",
+              "es": "edificio público"
+            },
+            {
+              "jp": "屋",
+              "kana": "や",
+              "es": "tienda, techo"
+            },
+            {
+              "jp": "色",
+              "kana": "いろ",
+              "es": "color"
+            },
+            {
+              "jp": "走",
+              "kana": "はし",
+              "es": "correr"
+            },
+            {
+              "jp": "秋",
+              "kana": "あき",
+              "es": "otoño"
+            },
+            {
+              "jp": "夏",
+              "kana": "なつ",
+              "es": "verano"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "kanji",
+        "direction": "kanji-es",
+        "ids": [
+          "k-花",
+          "k-春",
+          "k-赤",
+          "k-青",
+          "k-館",
+          "k-屋",
+          "k-色",
+          "k-走",
+          "k-秋",
+          "k-夏"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-kj-15",
+      "title": "Kanji N4, grupo 15",
+      "stage": "Kanji N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Lectura de este nivel",
+          "text": "Estos kanji no estaban en el recorte N5. Otras lecturas salen al corregir.",
+          "examples": [
+            {
+              "jp": "習",
+              "kana": "なら",
+              "es": "aprender"
+            },
+            {
+              "jp": "駅",
+              "kana": "えき",
+              "es": "estación"
+            },
+            {
+              "jp": "洋",
+              "kana": "よう",
+              "es": "océano, occidental"
+            },
+            {
+              "jp": "旅",
+              "kana": "たび",
+              "es": "viaje"
+            },
+            {
+              "jp": "服",
+              "kana": "ふく",
+              "es": "ropa"
+            },
+            {
+              "jp": "夕",
+              "kana": "ゆう",
+              "es": "atardecer"
+            },
+            {
+              "jp": "借",
+              "kana": "か",
+              "es": "pedir prestado"
+            },
+            {
+              "jp": "曜",
+              "kana": "よう",
+              "es": "día de la semana"
+            },
+            {
+              "jp": "飲",
+              "kana": "の",
+              "es": "beber"
+            },
+            {
+              "jp": "肉",
+              "kana": "にく",
+              "es": "carne"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "kanji",
+        "direction": "kanji-es",
+        "ids": [
+          "k-習",
+          "k-駅",
+          "k-洋",
+          "k-旅",
+          "k-服",
+          "k-夕",
+          "k-借",
+          "k-曜",
+          "k-飲",
+          "k-肉"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-kj-16",
+      "title": "Kanji N4, grupo 16",
+      "stage": "Kanji N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Lectura de este nivel",
+          "text": "Estos kanji no estaban en el recorte N5. Otras lecturas salen al corregir.",
+          "examples": [
+            {
+              "jp": "貸",
+              "kana": "か",
+              "es": "prestar"
+            },
+            {
+              "jp": "堂",
+              "kana": "どう",
+              "es": "sala"
+            },
+            {
+              "jp": "鳥",
+              "kana": "とり",
+              "es": "ave"
+            },
+            {
+              "jp": "飯",
+              "kana": "はん",
+              "es": "comida"
+            },
+            {
+              "jp": "勉",
+              "kana": "べん",
+              "es": "esforzarse"
+            },
+            {
+              "jp": "冬",
+              "kana": "ふゆ",
+              "es": "invierno"
+            },
+            {
+              "jp": "昼",
+              "kana": "ひる",
+              "es": "mediodía"
+            },
+            {
+              "jp": "茶",
+              "kana": "ちゃ",
+              "es": "té"
+            },
+            {
+              "jp": "弟",
+              "kana": "おとうと",
+              "es": "hermano menor"
+            },
+            {
+              "jp": "牛",
+              "kana": "うし",
+              "es": "vaca"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "kanji",
+        "direction": "kanji-es",
+        "ids": [
+          "k-貸",
+          "k-堂",
+          "k-鳥",
+          "k-飯",
+          "k-勉",
+          "k-冬",
+          "k-昼",
+          "k-茶",
+          "k-弟",
+          "k-牛"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-kj-17",
+      "title": "Kanji N4, grupo 17",
+      "stage": "Kanji N4",
+      "minutes": 8,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Lectura de este nivel",
+          "text": "Estos kanji no estaban en el recorte N5. Otras lecturas salen al corregir.",
+          "examples": [
+            {
+              "jp": "魚",
+              "kana": "さかな",
+              "es": "pez"
+            },
+            {
+              "jp": "兄",
+              "kana": "あに",
+              "es": "hermano mayor"
+            },
+            {
+              "jp": "犬",
+              "kana": "いぬ",
+              "es": "perro"
+            },
+            {
+              "jp": "妹",
+              "kana": "いもうと",
+              "es": "hermana menor"
+            },
+            {
+              "jp": "姉",
+              "kana": "あね",
+              "es": "hermana mayor"
+            },
+            {
+              "jp": "漢",
+              "kana": "かん",
+              "es": "China, han"
+            },
+            {
+              "jp": "坊",
+              "kana": "ぼう",
+              "es": "chico"
+            },
+            {
+              "jp": "凄",
+              "kana": "すご",
+              "es": "tremendo"
+            },
+            {
+              "jp": "痩",
+              "kana": "や",
+              "es": "adelgazar"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "kanji",
+        "direction": "kanji-es",
+        "ids": [
+          "k-魚",
+          "k-兄",
+          "k-犬",
+          "k-妹",
+          "k-姉",
+          "k-漢",
+          "k-坊",
+          "k-凄",
+          "k-痩"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-cj-1",
+      "title": "Conjugación N4, grupo 1",
+      "stage": "Conjugación N4",
+      "minutes": 10,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Potencial, たら y volitivo",
+          "text": "Además de ます y て, el N4 pide poder, si, y la forma おう/よう. いらっしゃる hace いらっしゃいます. する hace できる y しよう.",
+          "examples": [
+            {
+              "jp": "あいさつできる",
+              "kana": "あいさつできる",
+              "es": "forma nueva de saludar"
+            },
+            {
+              "jp": "合える",
+              "kana": "あえる",
+              "es": "forma nueva de coincidir"
+            },
+            {
+              "jp": "上がれる",
+              "kana": "あがれる",
+              "es": "forma nueva de subir"
+            },
+            {
+              "jp": "空ける",
+              "kana": "あける",
+              "es": "forma nueva de quedar vacío"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "conj",
+        "direction": "conj-es",
+        "ids": [
+          "w-c3c3ac9f48-potential",
+          "w-c3c3ac9f48-tara",
+          "w-c3c3ac9f48-volitional",
+          "w-54e1f7a772-potential",
+          "w-54e1f7a772-tara",
+          "w-54e1f7a772-volitional",
+          "w-4a3152836b-potential",
+          "w-4a3152836b-tara",
+          "w-4a3152836b-volitional",
+          "w-91f0d5ac9e-potential",
+          "w-91f0d5ac9e-tara",
+          "w-91f0d5ac9e-volitional",
+          "w-8c98c01eff-potential",
+          "w-8c98c01eff-tara",
+          "w-8c98c01eff-volitional",
+          "w-b00801af22-potential",
+          "w-b00801af22-tara",
+          "w-b00801af22-volitional",
+          "w-1056f23586-potential",
+          "w-1056f23586-tara",
+          "w-1056f23586-volitional",
+          "w-db01fd59d7-potential",
+          "w-db01fd59d7-tara",
+          "w-db01fd59d7-volitional"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-cj-2",
+      "title": "Conjugación N4, grupo 2",
+      "stage": "Conjugación N4",
+      "minutes": 10,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Potencial, たら y volitivo",
+          "text": "Además de ます y て, el N4 pide poder, si, y la forma おう/よう. いらっしゃる hace いらっしゃいます. する hace できる y しよう.",
+          "examples": [
+            {
+              "jp": "いじめられる",
+              "kana": "いじめられる",
+              "es": "forma nueva de maltratar, burlarse"
+            },
+            {
+              "jp": "急げる",
+              "kana": "いそげる",
+              "es": "forma nueva de darse prisa"
+            },
+            {
+              "jp": "致せる",
+              "kana": "いたせる",
+              "es": "forma nueva de hacer, humilde"
+            },
+            {
+              "jp": "いただける",
+              "kana": "いただける",
+              "es": "forma nueva de recibir, humilde"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "conj",
+        "direction": "conj-es",
+        "ids": [
+          "w-770aa71095-potential",
+          "w-770aa71095-tara",
+          "w-770aa71095-volitional",
+          "w-05b5de61ab-potential",
+          "w-05b5de61ab-tara",
+          "w-05b5de61ab-volitional",
+          "w-6dbf756da1-potential",
+          "w-6dbf756da1-tara",
+          "w-6dbf756da1-volitional",
+          "w-47cc7185d5-potential",
+          "w-47cc7185d5-tara",
+          "w-47cc7185d5-volitional",
+          "w-877a39a99f-potential",
+          "w-877a39a99f-tara",
+          "w-877a39a99f-volitional",
+          "w-bc25dff617-tara",
+          "w-bc25dff617-volitional",
+          "w-833af5347e-potential",
+          "w-833af5347e-tara",
+          "w-833af5347e-volitional",
+          "w-bf69a1d9f2-potential",
+          "w-bf69a1d9f2-tara",
+          "w-bf69a1d9f2-volitional"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-cj-3",
+      "title": "Conjugación N4, grupo 3",
+      "stage": "Conjugación N4",
+      "minutes": 10,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Potencial, たら y volitivo",
+          "text": "Además de ます y て, el N4 pide poder, si, y la forma おう/よう. いらっしゃる hace いらっしゃいます. する hace できる y しよう.",
+          "examples": [
+            {
+              "jp": "受けられる",
+              "kana": "うけられる",
+              "es": "forma nueva de recibir, hacer un examen"
+            },
+            {
+              "jp": "動ける",
+              "kana": "うごける",
+              "es": "forma nueva de moverse"
+            },
+            {
+              "jp": "打てる",
+              "kana": "うてる",
+              "es": "forma nueva de golpear"
+            },
+            {
+              "jp": "写せる",
+              "kana": "うつせる",
+              "es": "forma nueva de copiar, fotografiar"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "conj",
+        "direction": "conj-es",
+        "ids": [
+          "w-20989c0cb5-potential",
+          "w-20989c0cb5-tara",
+          "w-20989c0cb5-volitional",
+          "w-e54d4fef93-potential",
+          "w-e54d4fef93-tara",
+          "w-e54d4fef93-volitional",
+          "w-e6f3a7d91a-potential",
+          "w-e6f3a7d91a-tara",
+          "w-e6f3a7d91a-volitional",
+          "w-69589e0288-potential",
+          "w-69589e0288-tara",
+          "w-69589e0288-volitional",
+          "w-c7362b5e02-potential",
+          "w-c7362b5e02-tara",
+          "w-c7362b5e02-volitional",
+          "w-60c9784974-potential",
+          "w-60c9784974-tara",
+          "w-60c9784974-volitional",
+          "w-53c76e5c6e-potential",
+          "w-53c76e5c6e-tara",
+          "w-53c76e5c6e-volitional",
+          "w-af1dae5588-potential",
+          "w-af1dae5588-tara",
+          "w-af1dae5588-volitional"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-cj-4",
+      "title": "Conjugación N4, grupo 4",
+      "stage": "Conjugación N4",
+      "minutes": 10,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Potencial, たら y volitivo",
+          "text": "Además de ます y て, el N4 pide poder, si, y la forma おう/よう. いらっしゃる hace いらっしゃいます. する hace できる y しよう.",
+          "examples": [
+            {
+              "jp": "遅れられる",
+              "kana": "おくれられる",
+              "es": "forma nueva de llegar tarde"
+            },
+            {
+              "jp": "起こせる",
+              "kana": "おこせる",
+              "es": "forma nueva de despertar a alguien"
+            },
+            {
+              "jp": "行える",
+              "kana": "おこなえる",
+              "es": "forma nueva de llevar a cabo"
+            },
+            {
+              "jp": "怒れる",
+              "kana": "おこれる",
+              "es": "forma nueva de enfadarse"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "conj",
+        "direction": "conj-es",
+        "ids": [
+          "w-ae8ce3986c-potential",
+          "w-ae8ce3986c-tara",
+          "w-ae8ce3986c-volitional",
+          "w-99de4451f7-potential",
+          "w-99de4451f7-tara",
+          "w-99de4451f7-volitional",
+          "w-2139fab218-potential",
+          "w-2139fab218-tara",
+          "w-2139fab218-volitional",
+          "w-2e0f32c097-potential",
+          "w-2e0f32c097-tara",
+          "w-2e0f32c097-volitional",
+          "w-981ee66f59-potential",
+          "w-981ee66f59-tara",
+          "w-981ee66f59-volitional",
+          "w-050024e2d9-tara",
+          "w-050024e2d9-volitional",
+          "w-f786333cf9-potential",
+          "w-f786333cf9-tara",
+          "w-f786333cf9-volitional",
+          "w-3280103eb8-potential",
+          "w-3280103eb8-tara",
+          "w-3280103eb8-volitional"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-cj-5",
+      "title": "Conjugación N4, grupo 5",
+      "stage": "Conjugación N4",
+      "minutes": 10,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Potencial, たら y volitivo",
+          "text": "Además de ます y て, el N4 pide poder, si, y la forma おう/よう. いらっしゃる hace いらっしゃいます. する hace できる y しよう.",
+          "examples": [
+            {
+              "jp": "驚ける",
+              "kana": "おどろける",
+              "es": "forma nueva de sorprenderse"
+            },
+            {
+              "jp": "思い出せる",
+              "kana": "おもいだせる",
+              "es": "forma nueva de recordar"
+            },
+            {
+              "jp": "思える",
+              "kana": "おもえる",
+              "es": "forma nueva de pensar, opinar"
+            },
+            {
+              "jp": "下りられる",
+              "kana": "おりられる",
+              "es": "forma nueva de bajar de un vehículo"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "conj",
+        "direction": "conj-es",
+        "ids": [
+          "w-6d69734463-potential",
+          "w-6d69734463-tara",
+          "w-6d69734463-volitional",
+          "w-3e4c1468c7-potential",
+          "w-3e4c1468c7-tara",
+          "w-3e4c1468c7-volitional",
+          "w-bad913ed8f-potential",
+          "w-bad913ed8f-tara",
+          "w-bad913ed8f-volitional",
+          "w-4806278f5b-potential",
+          "w-4806278f5b-tara",
+          "w-4806278f5b-volitional",
+          "w-ac3d1de39a-potential",
+          "w-ac3d1de39a-tara",
+          "w-ac3d1de39a-volitional",
+          "w-d517e5d931-potential",
+          "w-d517e5d931-tara",
+          "w-d517e5d931-volitional",
+          "w-64e3e16740-potential",
+          "w-64e3e16740-tara",
+          "w-64e3e16740-volitional",
+          "w-2d6f99582c-potential",
+          "w-2d6f99582c-tara",
+          "w-2d6f99582c-volitional"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-cj-6",
+      "title": "Conjugación N4, grupo 6",
+      "stage": "Conjugación N4",
+      "minutes": 10,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Potencial, たら y volitivo",
+          "text": "Además de ます y て, el N4 pide poder, si, y la forma おう/よう. いらっしゃる hace いらっしゃいます. する hace できる y しよう.",
+          "examples": [
+            {
+              "jp": "片付けられる",
+              "kana": "かたづけられる",
+              "es": "forma nueva de ordenar"
+            },
+            {
+              "jp": "勝てる",
+              "kana": "かてる",
+              "es": "forma nueva de ganar"
+            },
+            {
+              "jp": "かまえる",
+              "kana": "かまえる",
+              "es": "forma nueva de importar"
+            },
+            {
+              "jp": "噛める",
+              "kana": "かめる",
+              "es": "forma nueva de morder"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "conj",
+        "direction": "conj-es",
+        "ids": [
+          "w-119fdf575e-potential",
+          "w-119fdf575e-tara",
+          "w-119fdf575e-volitional",
+          "w-021c00423f-potential",
+          "w-021c00423f-tara",
+          "w-021c00423f-volitional",
+          "w-e7dca3ae5a-potential",
+          "w-e7dca3ae5a-tara",
+          "w-e7dca3ae5a-volitional",
+          "w-6b240c6105-potential",
+          "w-6b240c6105-tara",
+          "w-6b240c6105-volitional",
+          "w-d1cd028481-potential",
+          "w-d1cd028481-tara",
+          "w-d1cd028481-volitional",
+          "w-84c24fbab6-potential",
+          "w-84c24fbab6-tara",
+          "w-84c24fbab6-volitional",
+          "w-ec1bdccf03-potential",
+          "w-ec1bdccf03-tara",
+          "w-ec1bdccf03-volitional",
+          "w-cc34f28850-potential",
+          "w-cc34f28850-tara",
+          "w-cc34f28850-volitional"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-cj-7",
+      "title": "Conjugación N4, grupo 7",
+      "stage": "Conjugación N4",
+      "minutes": 10,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Potencial, たら y volitivo",
+          "text": "Además de ます y て, el N4 pide poder, si, y la forma おう/よう. いらっしゃる hace いらっしゃいます. する hace できる y しよう.",
+          "examples": [
+            {
+              "jp": "聞こえよう",
+              "kana": "きこえよう",
+              "es": "forma nueva de oírse"
+            },
+            {
+              "jp": "決まれる",
+              "kana": "きまれる",
+              "es": "forma nueva de quedar decidido"
+            },
+            {
+              "jp": "決められる",
+              "kana": "きめられる",
+              "es": "forma nueva de decidir"
+            },
+            {
+              "jp": "くださろう",
+              "kana": "くださろう",
+              "es": "forma nueva de dar, de respeto"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "conj",
+        "direction": "conj-es",
+        "ids": [
+          "w-7225b79db5-tara",
+          "w-7225b79db5-volitional",
+          "w-e4e7e09df0-potential",
+          "w-e4e7e09df0-tara",
+          "w-e4e7e09df0-volitional",
+          "w-6a98f898ab-potential",
+          "w-6a98f898ab-tara",
+          "w-6a98f898ab-volitional",
+          "w-b8da4537a2-tara",
+          "w-b8da4537a2-volitional",
+          "w-5bfe1d2c25-potential",
+          "w-5bfe1d2c25-tara",
+          "w-5bfe1d2c25-volitional",
+          "w-7d2f81c2a3-potential",
+          "w-7d2f81c2a3-tara",
+          "w-7d2f81c2a3-volitional",
+          "w-17279b1beb-potential",
+          "w-17279b1beb-tara",
+          "w-17279b1beb-volitional",
+          "w-8fb005254a-potential",
+          "w-8fb005254a-tara",
+          "w-8fb005254a-volitional"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-cj-8",
+      "title": "Conjugación N4, grupo 8",
+      "stage": "Conjugación N4",
+      "minutes": 10,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Potencial, たら y volitivo",
+          "text": "Además de ます y て, el N4 pide poder, si, y la forma おう/よう. いらっしゃる hace いらっしゃいます. する hace できる y しよう.",
+          "examples": [
+            {
+              "jp": "けんかできる",
+              "kana": "けんかできる",
+              "es": "forma nueva de pelearse"
+            },
+            {
+              "jp": "込める",
+              "kana": "こめる",
+              "es": "forma nueva de estar lleno de gente"
+            },
+            {
+              "jp": "ごらんになれる",
+              "kana": "ごらんになれる",
+              "es": "forma nueva de ver, de respeto"
+            },
+            {
+              "jp": "壊せる",
+              "kana": "こわせる",
+              "es": "forma nueva de romper"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "conj",
+        "direction": "conj-es",
+        "ids": [
+          "w-063c94089d-potential",
+          "w-063c94089d-tara",
+          "w-063c94089d-volitional",
+          "w-0470fc929f-potential",
+          "w-0470fc929f-tara",
+          "w-0470fc929f-volitional",
+          "w-17fb3976d2-potential",
+          "w-17fb3976d2-tara",
+          "w-17fb3976d2-volitional",
+          "w-0b089107f6-potential",
+          "w-0b089107f6-tara",
+          "w-0b089107f6-volitional",
+          "w-63290aef69-potential",
+          "w-63290aef69-tara",
+          "w-63290aef69-volitional",
+          "w-0f4440571e-potential",
+          "w-0f4440571e-tara",
+          "w-0f4440571e-volitional",
+          "w-608037bdca-potential",
+          "w-608037bdca-tara",
+          "w-608037bdca-volitional",
+          "w-92226ca7db-potential",
+          "w-92226ca7db-tara",
+          "w-92226ca7db-volitional"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-cj-9",
+      "title": "Conjugación N4, grupo 9",
+      "stage": "Conjugación N4",
+      "minutes": 10,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Potencial, たら y volitivo",
+          "text": "Además de ます y て, el N4 pide poder, si, y la forma おう/よう. いらっしゃる hace いらっしゃいます. する hace できる y しよう.",
+          "examples": [
+            {
+              "jp": "差し上げられる",
+              "kana": "さしあげられる",
+              "es": "forma nueva de dar, cortés"
+            },
+            {
+              "jp": "騒げる",
+              "kana": "さわげる",
+              "es": "forma nueva de armar ruido"
+            },
+            {
+              "jp": "触れる",
+              "kana": "さわれる",
+              "es": "forma nueva de tocar"
+            },
+            {
+              "jp": "知らせられる",
+              "kana": "しらせられる",
+              "es": "forma nueva de avisar"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "conj",
+        "direction": "conj-es",
+        "ids": [
+          "w-4d497f75cf-potential",
+          "w-4d497f75cf-tara",
+          "w-4d497f75cf-volitional",
+          "w-5afe333d1c-potential",
+          "w-5afe333d1c-tara",
+          "w-5afe333d1c-volitional",
+          "w-6d0bb40a1f-potential",
+          "w-6d0bb40a1f-tara",
+          "w-6d0bb40a1f-volitional",
+          "w-1a680b4cf9-potential",
+          "w-1a680b4cf9-tara",
+          "w-1a680b4cf9-volitional",
+          "w-beb32f751c-potential",
+          "w-beb32f751c-tara",
+          "w-beb32f751c-volitional",
+          "w-6701f8cbba-potential",
+          "w-6701f8cbba-tara",
+          "w-6701f8cbba-volitional",
+          "w-8065461ace-potential",
+          "w-8065461ace-tara",
+          "w-8065461ace-volitional",
+          "w-5c8702fe01-potential",
+          "w-5c8702fe01-tara",
+          "w-5c8702fe01-volitional"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-cj-10",
+      "title": "Conjugación N4, grupo 10",
+      "stage": "Conjugación N4",
+      "minutes": 10,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Potencial, たら y volitivo",
+          "text": "Además de ます y て, el N4 pide poder, si, y la forma おう/よう. いらっしゃる hace いらっしゃいます. する hace できる y しよう.",
+          "examples": [
+            {
+              "jp": "捨てられる",
+              "kana": "すてられる",
+              "es": "forma nueva de tirar"
+            },
+            {
+              "jp": "滑れる",
+              "kana": "すべれる",
+              "es": "forma nueva de resbalar"
+            },
+            {
+              "jp": "済める",
+              "kana": "すめる",
+              "es": "forma nueva de terminar, bastar"
+            },
+            {
+              "jp": "育てられる",
+              "kana": "そだてられる",
+              "es": "forma nueva de criar"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "conj",
+        "direction": "conj-es",
+        "ids": [
+          "w-49ac3c55c7-potential",
+          "w-49ac3c55c7-tara",
+          "w-49ac3c55c7-volitional",
+          "w-081d0fb4bb-potential",
+          "w-081d0fb4bb-tara",
+          "w-081d0fb4bb-volitional",
+          "w-1e1b53a2d3-potential",
+          "w-1e1b53a2d3-tara",
+          "w-1e1b53a2d3-volitional",
+          "w-ec43853e0f-potential",
+          "w-ec43853e0f-tara",
+          "w-ec43853e0f-volitional",
+          "w-23afff6d4b-potential",
+          "w-23afff6d4b-tara",
+          "w-23afff6d4b-volitional",
+          "w-12d94456b3-potential",
+          "w-12d94456b3-tara",
+          "w-12d94456b3-volitional",
+          "w-d73148e8d0-potential",
+          "w-d73148e8d0-tara",
+          "w-d73148e8d0-volitional",
+          "w-2710211107-potential",
+          "w-2710211107-tara",
+          "w-2710211107-volitional"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-cj-11",
+      "title": "Conjugación N4, grupo 11",
+      "stage": "Conjugación N4",
+      "minutes": 10,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Potencial, たら y volitivo",
+          "text": "Además de ます y て, el N4 pide poder, si, y la forma おう/よう. いらっしゃる hace いらっしゃいます. する hace できる y しよう.",
+          "examples": [
+            {
+              "jp": "建てられる",
+              "kana": "たてられる",
+              "es": "forma nueva de construir"
+            },
+            {
+              "jp": "立てられる",
+              "kana": "たてられる",
+              "es": "forma nueva de poner de pie"
+            },
+            {
+              "jp": "楽しめる",
+              "kana": "たのしめる",
+              "es": "forma nueva de disfrutar"
+            },
+            {
+              "jp": "足りられる",
+              "kana": "たりられる",
+              "es": "forma nueva de bastar"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "conj",
+        "direction": "conj-es",
+        "ids": [
+          "w-c5741f54d6-potential",
+          "w-c5741f54d6-tara",
+          "w-c5741f54d6-volitional",
+          "w-cad7f1010a-potential",
+          "w-cad7f1010a-tara",
+          "w-cad7f1010a-volitional",
+          "w-9f86b83cad-potential",
+          "w-9f86b83cad-tara",
+          "w-9f86b83cad-volitional",
+          "w-19f08c094e-potential",
+          "w-19f08c094e-tara",
+          "w-19f08c094e-volitional",
+          "w-ef537ea4a9-potential",
+          "w-ef537ea4a9-tara",
+          "w-ef537ea4a9-volitional",
+          "w-356e03170b-potential",
+          "w-356e03170b-tara",
+          "w-356e03170b-volitional",
+          "w-c206b05b9d-potential",
+          "w-c206b05b9d-tara",
+          "w-c206b05b9d-volitional",
+          "w-bbe4edb30f-potential",
+          "w-bbe4edb30f-tara",
+          "w-bbe4edb30f-volitional"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-cj-12",
+      "title": "Conjugación N4, grupo 12",
+      "stage": "Conjugación N4",
+      "minutes": 10,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Potencial, たら y volitivo",
+          "text": "Además de ます y て, el N4 pide poder, si, y la forma おう/よう. いらっしゃる hace いらっしゃいます. する hace できる y しよう.",
+          "examples": [
+            {
+              "jp": "続ける",
+              "kana": "つづける",
+              "es": "forma nueva de continuar"
+            },
+            {
+              "jp": "続けられる",
+              "kana": "つづけられる",
+              "es": "forma nueva de seguir haciendo"
+            },
+            {
+              "jp": "包める",
+              "kana": "つつめる",
+              "es": "forma nueva de envolver"
+            },
+            {
+              "jp": "釣れる",
+              "kana": "つれる",
+              "es": "forma nueva de pescar"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "conj",
+        "direction": "conj-es",
+        "ids": [
+          "w-a1db204b87-potential",
+          "w-a1db204b87-tara",
+          "w-a1db204b87-volitional",
+          "w-d177796b00-potential",
+          "w-d177796b00-tara",
+          "w-d177796b00-volitional",
+          "w-ce21381e4f-potential",
+          "w-ce21381e4f-tara",
+          "w-ce21381e4f-volitional",
+          "w-15f9f72b7c-potential",
+          "w-15f9f72b7c-tara",
+          "w-15f9f72b7c-volitional",
+          "w-0319cd1801-potential",
+          "w-0319cd1801-tara",
+          "w-0319cd1801-volitional",
+          "w-b4206ea6cb-potential",
+          "w-b4206ea6cb-tara",
+          "w-b4206ea6cb-volitional",
+          "w-e9c1a3ae2c-potential",
+          "w-e9c1a3ae2c-tara",
+          "w-e9c1a3ae2c-volitional",
+          "w-bc1e0c2895-potential",
+          "w-bc1e0c2895-tara",
+          "w-bc1e0c2895-volitional"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-cj-13",
+      "title": "Conjugación N4, grupo 13",
+      "stage": "Conjugación N4",
+      "minutes": 10,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Potencial, たら y volitivo",
+          "text": "Además de ます y て, el N4 pide poder, si, y la forma おう/よう. いらっしゃる hace いらっしゃいます. する hace できる y しよう.",
+          "examples": [
+            {
+              "jp": "泊まれる",
+              "kana": "とまれる",
+              "es": "forma nueva de alojarse"
+            },
+            {
+              "jp": "止められる",
+              "kana": "とめられる",
+              "es": "forma nueva de parar algo"
+            },
+            {
+              "jp": "取り替えられる",
+              "kana": "とりかえられる",
+              "es": "forma nueva de cambiar, sustituir"
+            },
+            {
+              "jp": "直せる",
+              "kana": "なおせる",
+              "es": "forma nueva de arreglar"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "conj",
+        "direction": "conj-es",
+        "ids": [
+          "w-1200266b8d-potential",
+          "w-1200266b8d-tara",
+          "w-1200266b8d-volitional",
+          "w-3aadcbc234-potential",
+          "w-3aadcbc234-tara",
+          "w-3aadcbc234-volitional",
+          "w-7becfb8f21-potential",
+          "w-7becfb8f21-tara",
+          "w-7becfb8f21-volitional",
+          "w-8b7b602246-potential",
+          "w-8b7b602246-tara",
+          "w-8b7b602246-volitional",
+          "w-9f64a96651-potential",
+          "w-9f64a96651-tara",
+          "w-9f64a96651-volitional",
+          "w-b43872b197-potential",
+          "w-b43872b197-tara",
+          "w-b43872b197-volitional",
+          "w-a777a7ce62-potential",
+          "w-a777a7ce62-tara",
+          "w-a777a7ce62-volitional",
+          "w-2adec6b9b4-potential",
+          "w-2adec6b9b4-tara",
+          "w-2adec6b9b4-volitional"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-cj-14",
+      "title": "Conjugación N4, grupo 14",
+      "stage": "Conjugación N4",
+      "minutes": 10,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Potencial, たら y volitivo",
+          "text": "Además de ます y て, el N4 pide poder, si, y la forma おう/よう. いらっしゃる hace いらっしゃいます. する hace できる y しよう.",
+          "examples": [
+            {
+              "jp": "無くなれる",
+              "kana": "なくなれる",
+              "es": "forma nueva de acabarse"
+            },
+            {
+              "jp": "投げられる",
+              "kana": "なげられる",
+              "es": "forma nueva de lanzar"
+            },
+            {
+              "jp": "なさろう",
+              "kana": "なさろう",
+              "es": "forma nueva de hacer, de respeto"
+            },
+            {
+              "jp": "鳴れる",
+              "kana": "なれる",
+              "es": "forma nueva de sonar"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "conj",
+        "direction": "conj-es",
+        "ids": [
+          "w-1d28dbb450-potential",
+          "w-1d28dbb450-tara",
+          "w-1d28dbb450-volitional",
+          "w-1b35adeae4-potential",
+          "w-1b35adeae4-tara",
+          "w-1b35adeae4-volitional",
+          "w-74c23dc218-tara",
+          "w-74c23dc218-volitional",
+          "w-3a915c9be5-potential",
+          "w-3a915c9be5-tara",
+          "w-3a915c9be5-volitional",
+          "w-ce2f134cda-potential",
+          "w-ce2f134cda-tara",
+          "w-ce2f134cda-volitional",
+          "w-f7a51f2c1c-potential",
+          "w-f7a51f2c1c-tara",
+          "w-f7a51f2c1c-volitional",
+          "w-ea2fe2f5de-potential",
+          "w-ea2fe2f5de-tara",
+          "w-ea2fe2f5de-volitional",
+          "w-88710a5d10-potential",
+          "w-88710a5d10-tara",
+          "w-88710a5d10-volitional"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-cj-15",
+      "title": "Conjugación N4, grupo 15",
+      "stage": "Conjugación N4",
+      "minutes": 10,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Potencial, たら y volitivo",
+          "text": "Además de ます y て, el N4 pide poder, si, y la forma おう/よう. いらっしゃる hace いらっしゃいます. する hace できる y しよう.",
+          "examples": [
+            {
+              "jp": "塗れる",
+              "kana": "ぬれる",
+              "es": "forma nueva de pintar, untar"
+            },
+            {
+              "jp": "ぬれられる",
+              "kana": "ぬれられる",
+              "es": "forma nueva de mojarse"
+            },
+            {
+              "jp": "眠れる",
+              "kana": "ねむれる",
+              "es": "forma nueva de dormir"
+            },
+            {
+              "jp": "残れる",
+              "kana": "のこれる",
+              "es": "forma nueva de quedar"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "conj",
+        "direction": "conj-es",
+        "ids": [
+          "w-6631558c00-potential",
+          "w-6631558c00-tara",
+          "w-6631558c00-volitional",
+          "w-cdabcdd725-potential",
+          "w-cdabcdd725-tara",
+          "w-cdabcdd725-volitional",
+          "w-3575e37548-potential",
+          "w-3575e37548-tara",
+          "w-3575e37548-volitional",
+          "w-d7f56d8d34-potential",
+          "w-d7f56d8d34-tara",
+          "w-d7f56d8d34-volitional",
+          "w-0114521256-potential",
+          "w-0114521256-tara",
+          "w-0114521256-volitional",
+          "w-2404bdfdb3-potential",
+          "w-2404bdfdb3-tara",
+          "w-2404bdfdb3-volitional",
+          "w-4610276c99-potential",
+          "w-4610276c99-tara",
+          "w-4610276c99-volitional",
+          "w-a6b7fa4afc-potential",
+          "w-a6b7fa4afc-tara",
+          "w-a6b7fa4afc-volitional"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-cj-16",
+      "title": "Conjugación N4, grupo 16",
+      "stage": "Conjugación N4",
+      "minutes": 10,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Potencial, たら y volitivo",
+          "text": "Además de ます y て, el N4 pide poder, si, y la forma おう/よう. いらっしゃる hace いらっしゃいます. する hace できる y しよう.",
+          "examples": [
+            {
+              "jp": "冷えられる",
+              "kana": "ひえられる",
+              "es": "forma nueva de enfriarse"
+            },
+            {
+              "jp": "光れる",
+              "kana": "ひかれる",
+              "es": "forma nueva de brillar"
+            },
+            {
+              "jp": "引き出せる",
+              "kana": "ひきだせる",
+              "es": "forma nueva de sacar, retirar"
+            },
+            {
+              "jp": "びっくりできる",
+              "kana": "びっくりできる",
+              "es": "forma nueva de sobresaltarse"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "conj",
+        "direction": "conj-es",
+        "ids": [
+          "w-28c2a94407-potential",
+          "w-28c2a94407-tara",
+          "w-28c2a94407-volitional",
+          "w-8b7dab271d-potential",
+          "w-8b7dab271d-tara",
+          "w-8b7dab271d-volitional",
+          "w-5d8e0ae01f-potential",
+          "w-5d8e0ae01f-tara",
+          "w-5d8e0ae01f-volitional",
+          "w-ab4a88a2c0-potential",
+          "w-ab4a88a2c0-tara",
+          "w-ab4a88a2c0-volitional",
+          "w-d801b8b37a-potential",
+          "w-d801b8b37a-tara",
+          "w-d801b8b37a-volitional",
+          "w-dddceb65a5-potential",
+          "w-dddceb65a5-tara",
+          "w-dddceb65a5-volitional",
+          "w-a441432c8a-potential",
+          "w-a441432c8a-tara",
+          "w-a441432c8a-volitional",
+          "w-59bc2e87aa-potential",
+          "w-59bc2e87aa-tara",
+          "w-59bc2e87aa-volitional"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-cj-17",
+      "title": "Conjugación N4, grupo 17",
+      "stage": "Conjugación N4",
+      "minutes": 10,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Potencial, たら y volitivo",
+          "text": "Además de ます y て, el N4 pide poder, si, y la forma おう/よう. いらっしゃる hace いらっしゃいます. する hace できる y しよう.",
+          "examples": [
+            {
+              "jp": "太れる",
+              "kana": "ふとれる",
+              "es": "forma nueva de engordar"
+            },
+            {
+              "jp": "踏める",
+              "kana": "ふめる",
+              "es": "forma nueva de pisar"
+            },
+            {
+              "jp": "降り出せる",
+              "kana": "ふりだせる",
+              "es": "forma nueva de empezar a llover"
+            },
+            {
+              "jp": "ほめられる",
+              "kana": "ほめられる",
+              "es": "forma nueva de elogiar"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "conj",
+        "direction": "conj-es",
+        "ids": [
+          "w-f6b676e45f-potential",
+          "w-f6b676e45f-tara",
+          "w-f6b676e45f-volitional",
+          "w-375c7ef77f-potential",
+          "w-375c7ef77f-tara",
+          "w-375c7ef77f-volitional",
+          "w-927b45c2eb-potential",
+          "w-927b45c2eb-tara",
+          "w-927b45c2eb-volitional",
+          "w-9097d5cc39-potential",
+          "w-9097d5cc39-tara",
+          "w-9097d5cc39-volitional",
+          "w-7c74c440e5-potential",
+          "w-7c74c440e5-tara",
+          "w-7c74c440e5-volitional",
+          "w-cb6d7546fb-potential",
+          "w-cb6d7546fb-tara",
+          "w-cb6d7546fb-volitional",
+          "w-91094911c0-potential",
+          "w-91094911c0-tara",
+          "w-91094911c0-volitional",
+          "w-675232ef05-potential",
+          "w-675232ef05-tara",
+          "w-675232ef05-volitional"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-cj-18",
+      "title": "Conjugación N4, grupo 18",
+      "stage": "Conjugación N4",
+      "minutes": 10,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Potencial, たら y volitivo",
+          "text": "Además de ます y て, el N4 pide poder, si, y la forma おう/よう. いらっしゃる hace いらっしゃいます. する hace できる y しよう.",
+          "examples": [
+            {
+              "jp": "回れる",
+              "kana": "まわれる",
+              "es": "forma nueva de dar vueltas"
+            },
+            {
+              "jp": "見えよう",
+              "kana": "みえよう",
+              "es": "forma nueva de verse"
+            },
+            {
+              "jp": "見つかれる",
+              "kana": "みつかれる",
+              "es": "forma nueva de ser encontrado"
+            },
+            {
+              "jp": "見つけられる",
+              "kana": "みつけられる",
+              "es": "forma nueva de encontrar"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "conj",
+        "direction": "conj-es",
+        "ids": [
+          "w-b7644eb3fc-potential",
+          "w-b7644eb3fc-tara",
+          "w-b7644eb3fc-volitional",
+          "w-0c27b9183f-tara",
+          "w-0c27b9183f-volitional",
+          "w-a4e2dc046c-potential",
+          "w-a4e2dc046c-tara",
+          "w-a4e2dc046c-volitional",
+          "w-64f85b7fdf-potential",
+          "w-64f85b7fdf-tara",
+          "w-64f85b7fdf-volitional",
+          "w-6978e278b2-potential",
+          "w-6978e278b2-tara",
+          "w-6978e278b2-volitional",
+          "w-1687840ea3-potential",
+          "w-1687840ea3-tara",
+          "w-1687840ea3-volitional",
+          "w-d9c64cdfa1-potential",
+          "w-d9c64cdfa1-tara",
+          "w-d9c64cdfa1-volitional",
+          "w-5434f0c376-potential",
+          "w-5434f0c376-tara",
+          "w-5434f0c376-volitional"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-cj-19",
+      "title": "Conjugación N4, grupo 19",
+      "stage": "Conjugación N4",
+      "minutes": 10,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Potencial, たら y volitivo",
+          "text": "Además de ます y て, el N4 pide poder, si, y la forma おう/よう. いらっしゃる hace いらっしゃいます. する hace できる y しよう.",
+          "examples": [
+            {
+              "jp": "申せる",
+              "kana": "もうせる",
+              "es": "forma nueva de llamarse, humilde"
+            },
+            {
+              "jp": "戻れる",
+              "kana": "もどれる",
+              "es": "forma nueva de volver"
+            },
+            {
+              "jp": "もらえる",
+              "kana": "もらえる",
+              "es": "forma nueva de recibir"
+            },
+            {
+              "jp": "焼ける",
+              "kana": "やける",
+              "es": "forma nueva de asar, hornear"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "conj",
+        "direction": "conj-es",
+        "ids": [
+          "w-8e7b945555-potential",
+          "w-8e7b945555-tara",
+          "w-8e7b945555-volitional",
+          "w-c858640672-potential",
+          "w-c858640672-tara",
+          "w-c858640672-volitional",
+          "w-ad62110b55-potential",
+          "w-ad62110b55-tara",
+          "w-ad62110b55-volitional",
+          "w-506aca7161-potential",
+          "w-506aca7161-tara",
+          "w-506aca7161-volitional",
+          "w-8011fa51a8-potential",
+          "w-8011fa51a8-tara",
+          "w-8011fa51a8-volitional",
+          "w-7d2bcb5a30-potential",
+          "w-7d2bcb5a30-tara",
+          "w-7d2bcb5a30-volitional",
+          "w-3771ac0921-potential",
+          "w-3771ac0921-tara",
+          "w-3771ac0921-volitional",
+          "w-10ee6bdb9e-potential",
+          "w-10ee6bdb9e-tara",
+          "w-10ee6bdb9e-volitional"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-cj-20",
+      "title": "Conjugación N4, grupo 20",
+      "stage": "Conjugación N4",
+      "minutes": 10,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Potencial, たら y volitivo",
+          "text": "Además de ます y て, el N4 pide poder, si, y la forma おう/よう. いらっしゃる hace いらっしゃいます. する hace できる y しよう.",
+          "examples": [
+            {
+              "jp": "揺れられる",
+              "kana": "ゆれられる",
+              "es": "forma nueva de temblar"
+            },
+            {
+              "jp": "汚れられる",
+              "kana": "よごれられる",
+              "es": "forma nueva de ensuciarse"
+            },
+            {
+              "jp": "寄れる",
+              "kana": "よれる",
+              "es": "forma nueva de acercarse, pasar por"
+            },
+            {
+              "jp": "喜べる",
+              "kana": "よろこべる",
+              "es": "forma nueva de alegrarse"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "conj",
+        "direction": "conj-es",
+        "ids": [
+          "w-fa8716c349-potential",
+          "w-fa8716c349-tara",
+          "w-fa8716c349-volitional",
+          "w-cd96cff1ab-potential",
+          "w-cd96cff1ab-tara",
+          "w-cd96cff1ab-volitional",
+          "w-7ffceb4055-potential",
+          "w-7ffceb4055-tara",
+          "w-7ffceb4055-volitional",
+          "w-82b0bf966f-potential",
+          "w-82b0bf966f-tara",
+          "w-82b0bf966f-volitional",
+          "w-58c9a21aa1-potential",
+          "w-58c9a21aa1-tara",
+          "w-58c9a21aa1-volitional",
+          "w-e1641974f4-potential",
+          "w-e1641974f4-tara",
+          "w-e1641974f4-volitional",
+          "w-f7e0744822-potential",
+          "w-f7e0744822-tara",
+          "w-f7e0744822-volitional",
+          "w-327c67b830-potential",
+          "w-327c67b830-tara",
+          "w-327c67b830-volitional"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-cj-21",
+      "title": "Conjugación N4, grupo 21",
+      "stage": "Conjugación N4",
+      "minutes": 10,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Potencial, たら y volitivo",
+          "text": "Además de ます y て, el N4 pide poder, si, y la forma おう/よう. いらっしゃる hace いらっしゃいます. する hace できる y しよう.",
+          "examples": [
+            {
+              "jp": "割れられる",
+              "kana": "われられる",
+              "es": "forma nueva de agrietarse"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "conj",
+        "direction": "conj-es",
+        "ids": [
+          "w-27046b71e1-potential",
+          "w-27046b71e1-tara",
+          "w-27046b71e1-volitional"
+        ]
+      }
+    },
+    {
+      "id": "l-n4-repaso",
+      "title": "Repaso del N4",
+      "stage": "Repaso N4",
+      "minutes": 10,
+      "level": "n4",
+      "teach": [
+        {
+          "heading": "Junta el nivel",
+          "text": "No añade materia. Aprobar el examen real no depende de esta app.",
+          "examples": [
+            {
+              "jp": "漢字が読めるようになりました。",
+              "kana": "かんじがよめるようになりました。",
+              "es": "Ya consigo leer kanji."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-eru-rareru-potential",
+          "g-tara",
+          "g-ou-you",
+          "g-node",
+          "g-te-shimau-chau",
+          "g-sonkeigo"
+        ]
+      }
+    }
+  ]
+};
+    root.NihongoDojoN4 = data;
+    if (typeof module !== "undefined" && module.exports) module.exports = data;
+})(typeof window !== "undefined" ? window : globalThis);
