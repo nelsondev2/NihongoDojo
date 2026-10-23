@@ -15137,7 +15137,7 @@
       "teach": [
         {
           "heading": "Hiragana: Vocales",
-          "text": "Lee la sílaba, no letra por letra. し es shi, ち es chi, つ es tsu, ふ es fu, を es wo y ん es n.",
+          "text": "Cinco vocales, cada una una sílaba. あ es a, い es i, う es u, え es e, お es o.",
           "examples": [
             {
               "jp": "あ",
@@ -15188,7 +15188,7 @@
       "teach": [
         {
           "heading": "Hiragana: Fila ka",
-          "text": "Lee la sílaba, no letra por letra. し es shi, ち es chi, つ es tsu, ふ es fu, を es wo y ん es n.",
+          "text": "か es ka, き es ki, く es ku, け es ke, こ es ko. No se lee letra por letra: la vocal ya va dentro.",
           "examples": [
             {
               "jp": "か",
@@ -15239,7 +15239,7 @@
       "teach": [
         {
           "heading": "Hiragana: Fila sa",
-          "text": "Lee la sílaba, no letra por letra. し es shi, ち es chi, つ es tsu, ふ es fu, を es wo y ん es n.",
+          "text": "さ es sa, し es shi, す es su, せ es se, そ es so. し no es si.",
           "examples": [
             {
               "jp": "さ",
@@ -15290,7 +15290,7 @@
       "teach": [
         {
           "heading": "Hiragana: Fila ta",
-          "text": "Lee la sílaba, no letra por letra. し es shi, ち es chi, つ es tsu, ふ es fu, を es wo y ん es n.",
+          "text": "た es ta, ち es chi, つ es tsu, て es te, と es to. ち no es ti y つ no es tu.",
           "examples": [
             {
               "jp": "た",
@@ -15341,7 +15341,7 @@
       "teach": [
         {
           "heading": "Hiragana: Fila na",
-          "text": "Lee la sílaba, no letra por letra. し es shi, ち es chi, つ es tsu, ふ es fu, を es wo y ん es n.",
+          "text": "な es na, に es ni, ぬ es nu, ね es ne, の es no.",
           "examples": [
             {
               "jp": "な",
@@ -15392,7 +15392,7 @@
       "teach": [
         {
           "heading": "Hiragana: Fila ha",
-          "text": "Lee la sílaba, no letra por letra. し es shi, ち es chi, つ es tsu, ふ es fu, を es wo y ん es n.",
+          "text": "は es ha, ひ es hi, ふ es fu, へ es he, ほ es ho. ふ no es hu. Como carácter, は es ha y へ es he: wa y e son de partícula.",
           "examples": [
             {
               "jp": "は",
@@ -15443,7 +15443,7 @@
       "teach": [
         {
           "heading": "Hiragana: Fila ma",
-          "text": "Lee la sílaba, no letra por letra. し es shi, ち es chi, つ es tsu, ふ es fu, を es wo y ん es n.",
+          "text": "ま es ma, み es mi, む es mu, め es me, も es mo.",
           "examples": [
             {
               "jp": "ま",
@@ -15494,7 +15494,7 @@
       "teach": [
         {
           "heading": "Hiragana: Fila ya",
-          "text": "Lee la sílaba, no letra por letra. し es shi, ち es chi, つ es tsu, ふ es fu, を es wo y ん es n.",
+          "text": "や es ya, ゆ es yu, よ es yo. En el silabario moderno no hay yi ni ye.",
           "examples": [
             {
               "jp": "や",
@@ -15533,7 +15533,7 @@
       "teach": [
         {
           "heading": "Hiragana: Fila ra",
-          "text": "Lee la sílaba, no letra por letra. し es shi, ち es chi, つ es tsu, ふ es fu, を es wo y ん es n.",
+          "text": "ら es ra, り es ri, る es ru, れ es re, ろ es ro. Esa r no es la r española.",
           "examples": [
             {
               "jp": "ら",
@@ -15584,7 +15584,7 @@
       "teach": [
         {
           "heading": "Hiragana: Fila wa",
-          "text": "Lee la sílaba, no letra por letra. し es shi, ち es chi, つ es tsu, ふ es fu, を es wo y ん es n.",
+          "text": "わ es wa, を es wo y ん es n. を, como carácter, es wo; la partícula se lee o. ん no empieza palabra.",
           "examples": [
             {
               "jp": "わ",
@@ -15623,7 +15623,7 @@
       "teach": [
         {
           "heading": "Hiragana sonoro: Fila ga",
-          "text": "Las dos rayitas sonorizan. El círculo de la fila pa es la semi-sonora. じ y ぢ se leen ji. ず y づ se leen zu.",
+          "text": "が es ga, ぎ es gi, ぐ es gu, げ es ge, ご es go. Las dos rayitas sonorizan la fila ka.",
           "examples": [
             {
               "jp": "が",
@@ -15674,7 +15674,7 @@
       "teach": [
         {
           "heading": "Hiragana sonoro: Fila za",
-          "text": "Las dos rayitas sonorizan. El círculo de la fila pa es la semi-sonora. じ y ぢ se leen ji. ず y づ se leen zu.",
+          "text": "ざ es za, じ es ji, ず es zu, ぜ es ze, ぞ es zo. じ no es zi.",
           "examples": [
             {
               "jp": "ざ",
@@ -15725,7 +15725,7 @@
       "teach": [
         {
           "heading": "Hiragana sonoro: Fila da",
-          "text": "Las dos rayitas sonorizan. El círculo de la fila pa es la semi-sonora. じ y ぢ se leen ji. ず y づ se leen zu.",
+          "text": "だ es da, ぢ es ji, づ es zu, で es de, ど es do. ぢ y づ se leen igual que じ y ず, pero no son el mismo carácter.",
           "examples": [
             {
               "jp": "だ",
@@ -15776,7 +15776,7 @@
       "teach": [
         {
           "heading": "Hiragana sonoro: Fila ba",
-          "text": "Las dos rayitas sonorizan. El círculo de la fila pa es la semi-sonora. じ y ぢ se leen ji. ず y づ se leen zu.",
+          "text": "ば es ba, び es bi, ぶ es bu, べ es be, ぼ es bo. Las dos rayitas sonorizan la fila ha.",
           "examples": [
             {
               "jp": "ば",
@@ -15827,7 +15827,7 @@
       "teach": [
         {
           "heading": "Hiragana sonoro: Fila pa",
-          "text": "Las dos rayitas sonorizan. El círculo de la fila pa es la semi-sonora. じ y ぢ se leen ji. ず y づ se leen zu.",
+          "text": "ぱ es pa, ぴ es pi, ぷ es pu, ぺ es pe, ぽ es po. El círculo marca la semi-sonora.",
           "examples": [
             {
               "jp": "ぱ",

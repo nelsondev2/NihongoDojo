@@ -20,7 +20,8 @@
         ES_CONJ: "es-conj",
         GRAMMAR_ES: "grammar-es",
         ES_GRAMMAR: "es-grammar",
-        GRAMMAR_BLANK: "grammar-blank"
+        GRAMMAR_BLANK: "grammar-blank",
+        LISTEN_ES: "listen-es"
     };
 
     let N5 = root.NihongoDojoN5;
@@ -271,13 +272,13 @@
     }
     function validDirection(practice, direction) {
         if (practice === PRACTICES.KANJI) {
-            return direction === DIRECTIONS.KANJI_ES || direction === DIRECTIONS.ES_KANJI || direction === DIRECTIONS.KANJI_READING;
+            return direction === DIRECTIONS.KANJI_ES || direction === DIRECTIONS.ES_KANJI || direction === DIRECTIONS.KANJI_READING || direction === DIRECTIONS.LISTEN_ES;
         }
         if (practice === PRACTICES.WORDS) {
-            return direction === DIRECTIONS.WORD_ES || direction === DIRECTIONS.ES_WORD;
+            return direction === DIRECTIONS.WORD_ES || direction === DIRECTIONS.ES_WORD || direction === DIRECTIONS.LISTEN_ES;
         }
         if (practice === PRACTICES.PHRASES) {
-            return direction === DIRECTIONS.PHRASE_ES || direction === DIRECTIONS.ES_PHRASE || direction === DIRECTIONS.PARTICLE;
+            return direction === DIRECTIONS.PHRASE_ES || direction === DIRECTIONS.ES_PHRASE || direction === DIRECTIONS.PARTICLE || direction === DIRECTIONS.LISTEN_ES;
         }
         if (practice === PRACTICES.CONJ) {
             return direction === DIRECTIONS.CONJ_ES || direction === DIRECTIONS.ES_CONJ;
@@ -290,6 +291,7 @@
     function directionLabel(direction) {
         if (direction === DIRECTIONS.WORD_ES) return "palabra → español";
         if (direction === DIRECTIONS.ES_WORD) return "español → palabra";
+        if (direction === DIRECTIONS.LISTEN_ES) return "escuchar → español";
         if (direction === DIRECTIONS.KANJI_ES) return "kanji → significado";
         if (direction === DIRECTIONS.ES_KANJI) return "significado → kanji";
         if (direction === DIRECTIONS.KANJI_READING) return "kanji → lectura";
@@ -387,6 +389,22 @@
         };
     }
     function phraseView(item, direction) {
+        if (direction === DIRECTIONS.LISTEN_ES) {
+            return {
+                prompt: "♪",
+                promptLang: "ja",
+                furigana: "",
+                answer: item.es,
+                speak: item.kana || item.speak,
+                speakOnShow: true,
+                note: "No ves la frase. La dice la voz del sistema.",
+                settledNote: item.jp + " · " + item.kana,
+                choiceText: item.es,
+                choiceSub: "",
+                choiceLang: "es",
+                reveal: item.jp
+            };
+        }
         if (direction === DIRECTIONS.PARTICLE) {
             return {
                 prompt: item.blank || item.jp,
@@ -434,6 +452,22 @@
     function wordView(word, direction) {
         const jp = word.kanji || word.kana;
         const furigana = word.kanji ? word.kana : "";
+        if (direction === DIRECTIONS.LISTEN_ES) {
+            return {
+                prompt: "♪",
+                promptLang: "ja",
+                furigana: "",
+                answer: word.es,
+                speak: word.speak,
+                speakOnShow: true,
+                note: "La palabra no se muestra. Escucha y responde.",
+                settledNote: furigana ? jp + " · " + furigana : jp,
+                choiceText: word.es,
+                choiceSub: "",
+                choiceLang: "es",
+                reveal: jp
+            };
+        }
         if (direction === DIRECTIONS.ES_WORD) {
             return {
                 prompt: word.es,
@@ -464,6 +498,22 @@
         };
     }
     function kanjiView(kanji, direction) {
+        if (direction === DIRECTIONS.LISTEN_ES) {
+            return {
+                prompt: "♪",
+                promptLang: "ja",
+                furigana: "",
+                answer: kanji.es,
+                speak: kanji.reading,
+                speakOnShow: true,
+                note: "No ves el kanji. La lectura la dice la voz del sistema.",
+                settledNote: kanji.char + " · " + kanji.reading,
+                choiceText: kanji.es,
+                choiceSub: "",
+                choiceLang: "es",
+                reveal: kanji.char
+            };
+        }
         if (direction === DIRECTIONS.ES_KANJI) {
             return {
                 prompt: kanji.es,
@@ -619,7 +669,7 @@
             const markedCorrect = it.correct === true && !skipped;
             const hasUser = typeof it.user === "string";
             if (skipped || markedCorrect || hasUser) {
-                const user = hasUser ? String(it.user).slice(0, 40) : "";
+                const user = hasUser ? String(it.user).slice(0, 160) : "";
                 item.result = {
                     user: user,
                     expected: lex.id,
@@ -672,10 +722,108 @@
             waitingNext: waitingNext,
             lessonId: lessonIdOf(data),
             level: BUNDLES[data.level] ? data.level : "n5",
+            answerMode: data.answerMode === "write" ? "write" : "choice",
             correct: correct,
             wrong: wrong,
             skipped: skipped
         };
+    }
+
+    function foldJa(text) {
+        const src = String(text == null ? "" : text).normalize("NFKC");
+        let out = "";
+        for (const ch of src) {
+            if (" \t\r\n　。、．，,.！？!?「」『』（）()・…〜~".indexOf(ch) !== -1) continue;
+            const code = ch.codePointAt(0);
+            if (ch === "ヴ") out += "ゔ";
+            else if (code >= 0x30A1 && code <= 0x30F6) out += String.fromCharCode(code - 0x60);
+            else out += ch;
+        }
+        return out;
+    }
+    function foldEs(text) {
+        return String(text == null ? "" : text).normalize("NFKC").toLowerCase()
+            .replace(/[ \t\r\n　]+/g, " ")
+            .replace(/[.,;:!?¿¡。、！？]/g, "")
+            .trim();
+    }
+    function baseGloss(es) {
+        return String(es || "").split(" · ")[0].replace(/\s*\([^)]*\)\s*$/, "").trim();
+    }
+    function expectsSpanish(direction) {
+        return direction === DIRECTIONS.WORD_ES || direction === DIRECTIONS.KANJI_ES
+            || direction === DIRECTIONS.PHRASE_ES || direction === DIRECTIONS.CONJ_ES
+            || direction === DIRECTIONS.GRAMMAR_ES || direction === DIRECTIONS.LISTEN_ES;
+    }
+    function addForm(list, value) {
+        if (value) list.push(String(value));
+    }
+    function jaForms(item, direction) {
+        const forms = [];
+        if (isKanji(item)) {
+            if (direction === DIRECTIONS.ES_KANJI) addForm(forms, item.char);
+            if (direction === DIRECTIONS.KANJI_READING) addForm(forms, item.reading);
+            return forms;
+        }
+        if (isPhrase(item)) {
+            if (direction === DIRECTIONS.ES_PHRASE) {
+                addForm(forms, item.jp);
+                addForm(forms, item.kana);
+            }
+            if (direction === DIRECTIONS.PARTICLE) addForm(forms, item.particle);
+            return forms;
+        }
+        if (isConj(item)) {
+            if (direction === DIRECTIONS.ES_CONJ) {
+                addForm(forms, item.jp);
+                addForm(forms, item.kana);
+                addForm(forms, String(item.jp).split("（")[0]);
+            }
+            return forms;
+        }
+        if (isGrammar(item)) {
+            if (direction === DIRECTIONS.ES_GRAMMAR) {
+                addForm(forms, item.pattern);
+                addForm(forms, String(item.pattern || "").replace(/〜/g, ""));
+                addForm(forms, item.jp);
+            }
+            if (direction === DIRECTIONS.GRAMMAR_BLANK) addForm(forms, item.piece);
+            return forms;
+        }
+        if (direction === DIRECTIONS.ES_WORD) {
+            addForm(forms, item.kana);
+            addForm(forms, item.kanji);
+        }
+        return forms;
+    }
+    function checkWritten(item, direction, raw) {
+        if (!item || typeof raw !== "string" || !raw.trim()) {
+            return { user: "", expected: "", correct: false, empty: true, skipped: false, written: true };
+        }
+        const user = raw.trim().slice(0, 160);
+        let correct = false;
+        if (expectsSpanish(direction)) {
+            const folded = foldEs(user);
+            const forms = [item.es, baseGloss(item.es)];
+            correct = !!folded && forms.some(function (form) { return foldEs(form) === folded; });
+        } else {
+            const folded = foldJa(user);
+            correct = !!folded && jaForms(item, direction).some(function (form) { return foldJa(form) === folded; });
+        }
+        return {
+            user: user,
+            expected: item.id,
+            correct: correct,
+            empty: false,
+            skipped: false,
+            written: true
+        };
+    }
+    function applyMiss(list, id, correct, cap) {
+        const max = cap > 0 ? cap : 80;
+        const out = Array.isArray(list) ? list.filter(function (item) { return typeof item === "string" && item !== id; }) : [];
+        if (!correct && typeof id === "string" && id) out.unshift(id);
+        return out.slice(0, max);
     }
 
     function lessonIdOf(data) {
@@ -767,6 +915,8 @@
             buildChoices: buildChoices,
             ensureChoices: ensureChoices,
             checkChoice: checkChoice,
+            checkWritten: checkWritten,
+            applyMiss: applyMiss,
             findById: findById,
             catalogOf: catalogOf,
             shuffle: shuffle
@@ -801,6 +951,8 @@
         buildChoices,
         ensureChoices,
         checkChoice,
+        checkWritten,
+        applyMiss,
         filterByGroups,
         buildQueue,
         parseExamSnapshot,

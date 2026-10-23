@@ -128,6 +128,17 @@
     var conjAllBtn = $('conjAllBtn');
     var conjNoneBtn = $('conjNoneBtn');
     var practiceGrammarBtn = $('practiceGrammarBtn');
+    var practiceReadingBtn = $('practiceReadingBtn');
+    var answerModeGroup = $('answerModeGroup');
+    var answerChoiceBtn = $('answerChoiceBtn');
+    var answerWriteBtn = $('answerWriteBtn');
+    var answerModeNote = $('answerModeNote');
+    var readingPanel = $('readingPanel');
+    var reviewMissBtn = $('reviewMissBtn');
+    var listenWordBtn = $('listenWordBtn');
+    var listenKanjiBtn = $('listenKanjiBtn');
+    var listenPhraseBtn = $('listenPhraseBtn');
+    var Readings = window.NihongoDojoReadings;
     var grammarPanel = $('grammarPanel');
     var grammarChipContainer = $('grammarChipContainer');
     var grammarToEsBtn = $('grammarToEsBtn');
@@ -165,6 +176,7 @@
         phraseDirection: 'phrase-es',
         conjDirection: 'conj-es',
         grammarDirection: 'grammar-es',
+        answerMode: 'choice',
         wordGroups: new Set(),
         kanjiGroups: new Set(),
         phraseGroups: new Set(),
@@ -210,6 +222,7 @@
         practice: null,
         lessonId: '',
         level: 'n5',
+        answerMode: 'choice',
         correct: 0,
         wrong: 0,
         skipped: 0
@@ -219,7 +232,7 @@
 
     function emptyQuizEls() {
         return {
-            kanaChar: null, hint: null, input: null, inputArea: null,
+            kanaChar: null, hint: null, input: null, inputArea: null, passage: null,
             choiceArea: null, listenBtn: null, audioStatus: null, help: null,
             feedback: null, announcer: null, progress: null, total: null,
             skipBtn: null, nextBtn: null, exitBtn: null,
@@ -315,10 +328,18 @@
     function isNamedPractice(name) {
         return name === 'words' || name === 'kanji' || name === 'phrases' || name === 'conj' || name === 'grammar';
     }
+    function isReadingPractice(name) {
+        return name === 'reading';
+    }
     function isLexicon() {
         return isNamedPractice(exam.practice);
     }
+    function isWrite() {
+        return isLexicon() && exam.answerMode === 'write';
+    }
     function usesChoices() {
+        if (exam.practice === 'reading') return true;
+        if (isWrite()) return false;
         return isReverse() || isLexicon();
     }
     function activeDirection() {
@@ -338,6 +359,8 @@
         return 'kana → romaji';
     }
     function shareScope() {
+        if (exam.practice === 'reading') return 'lectura';
+        if ((exam.direction || '') === 'listen-es') return 'escucha';
         if (exam.practice === 'words') return 'palabras';
         if (exam.practice === 'kanji') return 'kanji';
         if (exam.practice === 'phrases') return 'frases';
@@ -346,6 +369,7 @@
         return state.currentType === 'katakana' ? 'katakana' : 'hiragana';
     }
     function practiceScope(practice, type) {
+        if (practice === 'reading') return 'lectura';
         if (practice === 'words') return 'palabras';
         if (practice === 'kanji') return 'kanji';
         if (practice === 'phrases') return 'frases';
@@ -364,19 +388,46 @@
         else if (settled && view.note) parts.push(view.note);
         return parts.join(' · ');
     }
-    function speakItem(item, settled) {
-        if (!item) return;
-        if (item.kanaObj) { speakKana(item.kanaObj.char); return; }
-        if (!item.lex) return;
+    function spokenText(item, settled) {
+        if (!item) return '';
+        if (item.kanaObj) return item.kanaObj.char;
+        if (item.reading) return item.reading.kana || item.reading.jp;
+        if (!item.lex) return '';
         var view = lexView(item);
-        if (view.speakOnShow || settled) speakKana(view.speak);
-        else noteAudio('En esta dirección el sonido se oye al corregir, para no revelar la respuesta.');
+        if (!settled && !view.speakOnShow && exam.direction !== 'listen-es') return '';
+        return view.speak || '';
+    }
+    function speakItem(item, settled) {
+        var text = item && item.reading ? (item.reading.kana || item.reading.jp) : spokenText(item, true);
+        if (item && item.lex && !item.reading) {
+            var view = lexView(item);
+            if (!view.speakOnShow && !settled && exam.direction !== 'listen-es') {
+                noteAudio('En esta dirección el sonido se oye al corregir, para no revelar la respuesta.');
+                return;
+            }
+            text = view.speak;
+        }
+        if (!text) return;
+        if (!speakJapanese(text) && exam.direction === 'listen-es' && systemSpeech()) {
+            noteAudio('Pulsa Oír. Hace falta la síntesis de voz del sistema.');
+        }
     }
     function maybeSpeakItem(item, settled) {
-        if (!state.audioOn || !item || !item.lex) return;
+        if (!item) return;
+        var listen = exam.direction === 'listen-es';
+        if (item.reading) {
+            if (!state.audioOn || settled) return;
+            var passageId = String(item.reading.id || '').replace(/-\d+$/, '');
+            if (exam.spokenPassage === passageId) return;
+            exam.spokenPassage = passageId;
+            speakJapanese(item.reading.kana || item.reading.jp);
+            return;
+        }
+        if (!item.lex) return;
         var view = lexView(item);
-        if (view.speakOnShow && !settled) speakKana(view.speak);
-        else if (!view.speakOnShow && settled) speakKana(view.speak);
+        if (!state.audioOn && !listen) return;
+        if ((view.speakOnShow || listen) && !settled) speakJapanese(view.speak);
+        else if (!view.speakOnShow && settled) speakJapanese(view.speak);
     }
 
     function reverseNote(item) {
@@ -396,11 +447,20 @@
         var tail = ' Pulsa Siguiente o Enter.';
         if (item.lex) {
             var view = lexView(item);
-            if (!r) return 'Elige la respuesta.';
-            if (r.skipped) return 'Saltada. ' + view.prompt + ' → ' + view.answer + '.' + tail;
+            var shown = view.reveal && r ? view.reveal : view.prompt;
+            if (!r) return isWrite() ? 'Escribe la respuesta y pulsa Enter.' : 'Elige la respuesta.';
+            if (r.skipped) return 'Saltada. ' + (view.reveal || view.prompt) + ' → ' + view.answer + '.' + tail;
             if (r.correct) return 'Correcto: ' + view.answer + '.' + tail;
-            var yours = examPack().textForId(exam.practice, r.user, exam.direction) || '—';
-            return 'Fallo. ' + view.prompt + ' → ' + view.answer + '. Tú: ' + yours + '.' + tail;
+            var yours = r.written ? (r.user || '—') : (examPack().textForId(exam.practice, r.user, exam.direction) || '—');
+            return 'Fallo. ' + shown + ' → ' + view.answer + '. Tú: ' + yours + '.' + tail;
+        }
+        if (item.reading) {
+            if (!r) return 'Elige la respuesta.';
+            if (r.skipped) return 'Saltada. ' + item.reading.ask + '.' + tail;
+            var picked = item.reading.choices[Number(r.user)];
+            var right = item.reading.choices[item.reading.answer];
+            if (r.correct) return 'Correcto: ' + right + '.' + tail;
+            return 'Fallo. ' + right + '. Tú: ' + (picked || '—') + '.' + tail;
         }
         var k = item.kanaObj;
         if (!r) return isReverse() ? 'Elige el kana.' : 'Escribe el romaji y pulsa Enter.';
@@ -463,6 +523,7 @@
         storageSet(selKey('conj'), JSON.stringify(Array.from(state.conjGroups)));
         storageSet(selKey('grammar'), JSON.stringify(Array.from(state.grammarGroups)));
     }
+    function persistAnswerMode() { storageSet('answerMode', state.answerMode === 'write' ? 'write' : 'choice'); }
     function persistLevel() {
         storageSet('level', state.level);
     }
@@ -508,8 +569,9 @@
         if (storedAudio === 'on') state.audioOn = true;
         if (storedAudio === 'off') state.audioOn = false;
         var storedPractice = storageGet('practice');
-        state.practice = storedPractice === 'words' || storedPractice === 'kanji' || storedPractice === 'phrases' || storedPractice === 'conj' || storedPractice === 'grammar'
+        state.practice = storedPractice === 'words' || storedPractice === 'kanji' || storedPractice === 'phrases' || storedPractice === 'conj' || storedPractice === 'grammar' || storedPractice === 'reading'
             ? storedPractice : 'kana';
+        state.answerMode = storageGet('answerMode') === 'write' ? 'write' : 'choice';
         var storedLevel = storageGet('level');
         state.level = knownLevel(storedLevel);
         if (Lex) {
@@ -548,6 +610,7 @@
             lessonId: exam.lessonId || '',
             index: exam.index,
             waitingNext: exam.waitingNext === true,
+            answerMode: exam.answerMode === 'write' ? 'write' : 'choice',
             items: exam.queue.map(function (item) {
                 var r = item.result;
                 return {
@@ -560,7 +623,26 @@
             })
         };
     }
+    function readingSnapshot() {
+        return {
+            v: 4,
+            level: exam.level || state.level || 'n5',
+            practice: 'reading',
+            index: exam.index,
+            waitingNext: exam.waitingNext === true,
+            items: exam.queue.map(function (item) {
+                var r = item.result;
+                return {
+                    id: item.reading.id,
+                    user: r ? r.user : null,
+                    correct: r ? r.correct === true : null,
+                    skipped: r ? r.skipped === true : null
+                };
+            })
+        };
+    }
     function examSnapshot() {
+        if (exam.practice === 'reading') return readingSnapshot();
         if (isLexicon()) return lexiconSnapshot();
         return {
             v: 2,
@@ -596,7 +678,9 @@
         var parsed = null;
         try {
             var data = JSON.parse(raw);
-            parsed = data && data.v === 3 && Lex
+            parsed = data && data.v === 4 && Readings
+                ? Readings.parseExamSnapshot(data)
+                : data && data.v === 3 && Lex
                 ? Lex.parseExamSnapshot(data)
                 : Core.parseExamSnapshot(data);
         }
@@ -615,7 +699,9 @@
         }
         var n = saved.index + 1;
         var scope = practiceScope(saved.practice, saved.type);
-        var way = isNamedPractice(saved.practice) && Lex
+        var way = saved.practice === 'reading'
+            ? 'lectura'
+            : isNamedPractice(saved.practice) && Lex
             ? Lex.directionLabel(saved.direction)
             : directionLabel(saved.direction);
         var lesson = saved.lessonId && Lessons ? Lessons.findLesson(saved.lessonId) : null;
@@ -668,6 +754,7 @@
     }
 
     function selectedCount() {
+        if (state.practice === 'reading' && Readings) return Readings.questionsFor(state.level).length;
         if (state.practice === 'words' && Lex) return bag().filterByGroups('words', state.wordGroups, state.wordDirection).length;
         if (state.practice === 'kanji' && Lex) return bag().filterByGroups('kanji', state.kanjiGroups, state.kanjiDirection).length;
         if (state.practice === 'phrases' && Lex) return bag().filterByGroups('phrases', state.phraseGroups, state.phraseDirection).length;
@@ -695,6 +782,10 @@
                 examCount.textContent = n === 0
                     ? 'Ninguna forma con esta selección.'
                     : (n === 1 ? '1 forma con esta selección.' : n + ' formas con esta selección.');
+            } else if (state.practice === 'reading') {
+                examCount.textContent = n === 0
+                    ? 'Este nivel no tiene textos.'
+                    : (n === 1 ? '1 pregunta de lectura.' : n + ' preguntas de lectura.');
             } else if (state.practice === 'grammar') {
                 examCount.textContent = n === 0
                     ? 'Ningún patrón con esta selección.'
@@ -772,40 +863,59 @@
             container.appendChild(chip);
         });
     }
+    function updateAnswerModeUI() {
+        var write = state.answerMode === 'write';
+        [answerChoiceBtn, answerWriteBtn].forEach(function (btn) {
+            if (!btn) return;
+            var on = btn.getAttribute('data-answer-mode') === (write ? 'write' : 'choice');
+            btn.classList.toggle('active', on);
+            btn.setAttribute('aria-pressed', on ? 'true' : 'false');
+        });
+        if (answerModeNote) {
+            answerModeNote.textContent = write
+                ? 'Escribes la respuesta y pulsas Enter. En japonés vale el kanji o el hiragana. Un salto no cuenta como fallo.'
+                : 'Elegir muestra opciones. Escribir pide la respuesta. Un salto no cuenta como fallo.';
+        }
+    }
     function updateLexDirectionUI() {
-        var wordReverse = state.wordDirection === 'es-word';
-        if (wordToEsBtn && esToWordBtn) {
-            wordToEsBtn.classList.toggle('active', !wordReverse);
-            esToWordBtn.classList.toggle('active', wordReverse);
-            wordToEsBtn.setAttribute('aria-pressed', wordReverse ? 'false' : 'true');
-            esToWordBtn.setAttribute('aria-pressed', wordReverse ? 'true' : 'false');
-        }
+        [wordToEsBtn, esToWordBtn, listenWordBtn].forEach(function (btn) {
+            if (!btn) return;
+            var on = btn.getAttribute('data-word-direction') === state.wordDirection;
+            btn.classList.toggle('active', on);
+            btn.setAttribute('aria-pressed', on ? 'true' : 'false');
+        });
         if (wordDirNote) {
-            wordDirNote.textContent = wordReverse
-                ? 'Ves el español y eliges la palabra. El sonido se oye al corregir.'
-                : 'Ves la palabra. Si lleva kanji, la lectura va debajo.';
+            wordDirNote.textContent = state.wordDirection === 'listen-es'
+                ? 'No ves la palabra. La dice la síntesis de voz del sistema, también en webxdc, y respondes el significado.'
+                : state.wordDirection === 'es-word'
+                    ? 'Ves el español y eliges la palabra. El sonido se oye al corregir.'
+                    : 'Ves la palabra. Si lleva kanji, la lectura va debajo.';
         }
-        [kanjiToEsBtn, esToKanjiBtn, kanjiReadingBtn].forEach(function (btn) {
+        [kanjiToEsBtn, esToKanjiBtn, kanjiReadingBtn, listenKanjiBtn].forEach(function (btn) {
             if (!btn) return;
             var on = btn.getAttribute('data-kanji-direction') === state.kanjiDirection;
             btn.classList.toggle('active', on);
             btn.setAttribute('aria-pressed', on ? 'true' : 'false');
         });
         if (kanjiDirNote) {
-            kanjiDirNote.textContent = state.kanjiDirection === 'kanji-reading'
+            kanjiDirNote.textContent = state.kanjiDirection === 'listen-es'
+                ? 'No ves el kanji. La lectura la dice la voz del sistema y eliges el significado.'
+                : state.kanjiDirection === 'kanji-reading'
                 ? 'Ves el kanji y eliges su lectura principal. Otras lecturas salen al corregir.'
                 : state.kanjiDirection === 'es-kanji'
                     ? 'Ves el significado y eliges el kanji. El sonido se oye al corregir.'
                     : 'Ves el kanji y eliges el significado. La lectura se oye, no se revela.';
         }
-        [phraseToEsBtn, esToPhraseBtn, particleBtn].forEach(function (btn) {
+        [phraseToEsBtn, esToPhraseBtn, particleBtn, listenPhraseBtn].forEach(function (btn) {
             if (!btn) return;
             var on = btn.getAttribute('data-phrase-direction') === state.phraseDirection;
             btn.classList.toggle('active', on);
             btn.setAttribute('aria-pressed', on ? 'true' : 'false');
         });
         if (phraseDirNote) {
-            phraseDirNote.textContent = state.phraseDirection === 'particle'
+            phraseDirNote.textContent = state.phraseDirection === 'listen-es'
+                ? 'No ves la frase. La dice la voz del sistema y eliges el significado.'
+                : state.phraseDirection === 'particle'
                 ? 'Ves el significado y la frase con un hueco. Elige la partícula.'
                 : state.phraseDirection === 'es-phrase'
                     ? 'Ves el español y eliges la frase. El sonido se oye al corregir.'
@@ -838,7 +948,7 @@
     }
     function updatePracticeUI() {
         var practice = isNamedPractice(state.practice) ? state.practice : 'kana';
-        [practiceKanaBtn, practiceWordsBtn, practiceKanjiBtn, practicePhrasesBtn, practiceConjBtn, practiceGrammarBtn].forEach(function (btn) {
+        [practiceKanaBtn, practiceWordsBtn, practiceKanjiBtn, practicePhrasesBtn, practiceConjBtn, practiceGrammarBtn, practiceReadingBtn].forEach(function (btn) {
             if (!btn) return;
             var on = btn.getAttribute('data-practice') === practice;
             btn.classList.toggle('active', on);
@@ -857,6 +967,8 @@
         setHidden(phrasePanel, practice !== 'phrases');
         setHidden(conjPanel, practice !== 'conj');
         setHidden(grammarPanel, practice !== 'grammar');
+        setHidden(readingPanel, practice !== 'reading');
+        setHidden(answerModeGroup, !isNamedPractice(practice));
         if (practiceNote) {
             practiceNote.textContent = practice === 'words'
                 ? 'Vocabulario del ' + levelName() + ' comunitario. Si hay kanji, la lectura va debajo.'
@@ -876,12 +988,16 @@
                                         : 'ます, て, ない, た y たい de los verbos N5. El potencial está en el N4.')
                             : practice === 'grammar'
                                 ? 'Patrones del ' + levelName() + ' comunitario. El JLPT no publica lista oficial desde 2010.'
-                                : 'Hiragana y katakana, carácter por carácter. El silabario no cambia de nivel.';
+                                : practice === 'reading'
+                                    ? 'Textos cortos del ' + levelName() + '. Lees y eliges. No es el examen.'
+                                    : 'Hiragana y katakana, carácter por carácter. El silabario no cambia de nivel.';
         }
         updateLevelUI();
         updateLexDirectionUI();
+        updateAnswerModeUI();
         renderLexChips();
         updateExamCount();
+        updateMissButton();
     }
 
     function updateLevelUI() {
@@ -918,13 +1034,25 @@
         }
     }
 
+    function speechSynth() {
+        return window.speechSynthesis || window.webkitSpeechSynthesis || null;
+    }
+    function UtteranceCtor() {
+        return window.SpeechSynthesisUtterance || window.webkitSpeechSynthesisUtterance || null;
+    }
+    function systemSpeech() {
+        var synth = speechSynth();
+        return !!(synth && typeof synth.speak === 'function' && UtteranceCtor());
+    }
+    function systemVoices() {
+        var synth = speechSynth();
+        if (!synth || typeof synth.getVoices !== 'function') return [];
+        try { return synth.getVoices() || []; }
+        catch (e) { return []; }
+    }
     function japaneseVoice() {
-        if (!window.speechSynthesis || typeof window.speechSynthesis.getVoices !== 'function') return null;
-        var voices = [];
-        try { voices = window.speechSynthesis.getVoices() || []; }
-        catch (e) { return null; }
-        var ja = voices.filter(function (v) { return v && /^ja([-_]|$)/i.test(v.lang || ''); });
-        return ja.filter(function (v) { return v.localService; })[0] || ja[0] || null;
+        var ja = systemVoices().filter(function (v) { return v && /^ja([-_]|$)/i.test(v.lang || ''); });
+        return ja.filter(function (v) { return v.localService; })[0] || null;
     }
     function noteAudio(message) {
         if (quizEls.audioStatus) {
@@ -937,43 +1065,85 @@
     function stopSpeech() {
         speechGen++;
         try {
-            if (window.speechSynthesis) window.speechSynthesis.cancel();
+            var synth = speechSynth();
+            if (synth) synth.cancel();
         } catch (e) { /* el dispositivo no tiene voz */ }
     }
-    function speakKana(ch) {
-        if (!ch) return false;
-        if (!window.speechSynthesis || typeof window.SpeechSynthesisUtterance !== 'function') {
-            noteAudio('Este dispositivo no tiene síntesis de voz.');
+    function speechChunks(text) {
+        var src = String(text || '').trim();
+        if (!src) return [];
+        if (Array.from(src).length <= 80) return [src];
+        var out = [];
+        var buf = '';
+        for (var i = 0; i < src.length; i++) {
+            var ch = src.charAt(i);
+            buf += ch;
+            var end = ch === '。' || ch === '！' || ch === '？';
+            var pause = Array.from(buf).length >= 80 && (ch === '、' || ch === '，' || ch === ',' || ch === ' ');
+            if (end || pause) {
+                if (buf.trim()) out.push(buf.trim());
+                buf = '';
+            }
+        }
+        if (buf.trim()) out.push(buf.trim());
+        return out.length ? out : [src];
+    }
+    function speakJapanese(text) {
+        if (!text) return false;
+        if (!systemSpeech()) {
+            noteAudio('Este cliente no expone la síntesis de voz del sistema. El resto del examen sigue disponible.');
             return false;
         }
+        var synth = speechSynth();
+        try { if (typeof synth.getVoices === 'function') synth.getVoices(); } catch (e) { /* la lista llega en voiceschanged */ }
         var voice = japaneseVoice();
-        var listed = 0;
-        try { listed = (window.speechSynthesis.getVoices() || []).length; }
-        catch (e) { listed = 0; }
-        if (!voice && listed) {
-            noteAudio('No hay una voz japonesa instalada. Puede no oírse, o sonar en otro idioma.');
+        if (!voice && systemVoices().length) {
+            noteAudio('No hay voz japonesa del sistema. Instálala en los ajustes de texto a voz.');
         }
-        // cancel() y speak() en el mismo instante se pierden en algunos WebView.
-        stopSpeech();
+        var busy = false;
+        try { busy = synth.speaking || synth.pending; } catch (e) { busy = false; }
+        if (busy) stopSpeech();
+        else speechGen++;
         var gen = speechGen;
+        var chunks = speechChunks(text);
+        function fire(retry) {
+            if (gen !== speechGen || !chunks.length) return;
+            try {
+                if (synth.paused) synth.resume();
+                var utterance = new (UtteranceCtor())(chunks[0]);
+                utterance.lang = 'ja-JP';
+                utterance.rate = chunks[0].length > 40 ? 0.92 : 0.88;
+                var picked = japaneseVoice();
+                if (picked) {
+                    utterance.voice = picked;
+                    if (exam.active) exam.voiceReadyIndex = exam.index;
+                }
+                utterance.onend = function () {
+                    if (gen !== speechGen) return;
+                    chunks.shift();
+                    if (chunks.length) fire(false);
+                };
+                utterance.onerror = function (ev) {
+                    if (gen !== speechGen) return;
+                    var code = ev && ev.error;
+                    if (code === 'interrupted' || code === 'canceled') return;
+                    noteAudio('No se pudo reproducir la voz del sistema. Pulsa Oír.');
+                };
+                synth.speak(utterance);
+            } catch (e) {
+                if (!retry) noteAudio('No se pudo reproducir la voz del sistema. Pulsa Oír.');
+            }
+        }
+        // El primer speak va en este turno: webxdc y WebKit solo hablan dentro del toque.
+        fire(false);
         window.setTimeout(function () {
             if (gen !== speechGen) return;
-            try {
-                if (window.speechSynthesis.paused) window.speechSynthesis.resume();
-                var utterance = new window.SpeechSynthesisUtterance(ch);
-                utterance.lang = 'ja-JP';
-                utterance.rate = 0.88;
-                if (voice) utterance.voice = voice;
-                utterance.onerror = function () {
-                    noteAudio('No se pudo reproducir la pronunciación.');
-                };
-                window.speechSynthesis.speak(utterance);
-            } catch (e) {
-                noteAudio('No se pudo reproducir la pronunciación.');
-            }
-        }, 40);
+            try { if (synth.speaking || synth.pending) return; } catch (e) { return; }
+            fire(true);
+        }, 50);
         return true;
     }
+    function speakKana(ch) { return speakJapanese(ch); }
     function updateAudioUI() {
         if (audioOnBtn && audioOffBtn) {
             audioOnBtn.classList.toggle('active', state.audioOn);
@@ -982,18 +1152,19 @@
             audioOffBtn.setAttribute('aria-pressed', state.audioOn ? 'false' : 'true');
         }
         if (!audioNote) return;
-        if (!window.speechSynthesis) {
-            audioNote.textContent = 'Este dispositivo no tiene síntesis de voz.';
+        if (!systemSpeech()) {
+            audioNote.textContent = 'Este cliente no expone la síntesis de voz del sistema. El resto del examen sigue disponible.';
             if (audioTestBtn) audioTestBtn.disabled = true;
             return;
         }
+        if (audioTestBtn) audioTestBtn.disabled = false;
         var voice = japaneseVoice();
         var when = state.audioOn
-            ? 'Se oye al mostrar cada pregunta. También puedes pulsar Escuchar.'
-            : 'Solo suena si pulsas Escuchar.';
+            ? 'La voz del sistema suena al mostrar, además de lo que ves. También puedes pulsar Oír.'
+            : 'La voz del sistema solo suena si pulsas Oír.';
         audioNote.textContent = voice
-            ? when + ' Voz: ' + voice.name + '.'
-            : when + ' Si no hay voz japonesa en el sistema, puede no oírse.';
+            ? when + ' Voz local: ' + voice.name + '.'
+            : when + ' Si no hay voz japonesa instalada, puede no oírse.';
     }
     function maybeSpeak(ch) {
         if (state.audioOn) speakKana(ch);
@@ -1012,6 +1183,7 @@
         var clone = quizTemplate.content.cloneNode(true);
         replaceChildren(quizArea, clone);
 
+        quizEls.passage = $('passageBox');
         quizEls.kanaChar = $('kanaChar');
         quizEls.hint = $('kanaHint');
         quizEls.input = $('answerInput');
@@ -1041,9 +1213,13 @@
             quizEls.choiceArea.setAttribute('aria-label', isLexicon() ? 'Elige la respuesta' : 'Elige el kana');
         }
         if (quizEls.help) {
-            quizEls.help.textContent = usesChoices()
-                ? 'Elige una opción. Las teclas 1 a 4 también valen. Escuchar reproduce el sonido.'
-                : 'Respuesta en romaji. Tras responder, pulsa Siguiente o Enter. Escuchar reproduce el sonido.';
+            quizEls.help.textContent = exam.practice === 'reading'
+                ? 'Lee el texto y elige. Las teclas 1 a 4 también valen. Tras responder, pulsa Siguiente.'
+                : isWrite()
+                    ? 'Escribe la respuesta y pulsa Enter. Tras corregir, pulsa Siguiente. Un salto no es un fallo.'
+                    : usesChoices()
+                        ? 'Elige una opción. Las teclas 1 a 4 también valen. Escuchar reproduce el sonido.'
+                        : 'Respuesta en romaji. Tras responder, pulsa Siguiente o Enter. Escuchar reproduce el sonido.';
         }
         quizEls.skipBtn.addEventListener('click', skipQuestion);
         quizEls.nextBtn.addEventListener('click', advanceNow);
@@ -1111,13 +1287,14 @@
     }
 
     function markChoicesSettled(item) {
-        if (item.lex) paintLexChoices(item, true);
+        if (item.reading) paintReading(item);
+        else if (item.lex) paintLexChoices(item, true);
         else paintChoices(item, true);
     }
 
     function clearPromptClasses() {
         if (!quizEls.kanaChar) return;
-        quizEls.kanaChar.classList.remove('prompt-romaji', 'prompt-es', 'prompt-long', 'prompt-xlong', 'prompt-sentence');
+        quizEls.kanaChar.classList.remove('prompt-romaji', 'prompt-es', 'prompt-long', 'prompt-xlong', 'prompt-sentence', 'prompt-listen');
     }
     function paintLexChoices(item, locked) {
         clearChoices();
@@ -1154,32 +1331,105 @@
             quizEls.choiceArea.appendChild(btn);
         });
     }
-    function paintLexiconPrompt(item) {
-        var view = lexView(item);
+    function hidePassage() {
+        if (!quizEls.passage) return;
+        quizEls.passage.textContent = '';
+        setHidden(quizEls.passage, true);
+    }
+    function paintPassage(question) {
+        if (!quizEls.passage || !question) return;
+        if (quizEls.passage.replaceChildren) quizEls.passage.replaceChildren();
+        else quizEls.passage.textContent = '';
+        quizEls.passage.appendChild(el('p', 'passage-title', question.title));
+        var jp = el('p', 'passage-jp', question.jp);
+        jp.lang = 'ja';
+        quizEls.passage.appendChild(jp);
+        var kana = el('p', 'passage-kana', question.kana);
+        kana.lang = 'ja';
+        quizEls.passage.appendChild(kana);
+        setHidden(quizEls.passage, false);
+    }
+    function paintReading(item) {
+        var question = item.reading;
+        hidePassage();
+        paintPassage(question);
         clearPromptClasses();
         if (quizEls.kanaChar) {
-            quizEls.kanaChar.textContent = view.prompt;
-            quizEls.kanaChar.lang = view.promptLang;
-            if (view.promptLang === 'es') quizEls.kanaChar.classList.add('prompt-es');
-            else {
-                var len = Array.from(view.prompt).length;
-                if (len > 10) quizEls.kanaChar.classList.add('prompt-sentence');
-                else if (len > 6) quizEls.kanaChar.classList.add('prompt-xlong');
-                else if (len > 3) quizEls.kanaChar.classList.add('prompt-long');
-            }
+            quizEls.kanaChar.textContent = question.ask;
+            quizEls.kanaChar.lang = 'es';
+            quizEls.kanaChar.classList.add('prompt-es');
         }
         setHidden(quizEls.inputArea, true);
         setHidden(quizEls.choiceArea, false);
+        clearChoices();
+        if (quizEls.choiceArea) quizEls.choiceArea.classList.add('choice-stack');
+        question.choices.forEach(function (text, i) {
+            var btn = document.createElement('button');
+            btn.type = 'button';
+            btn.className = 'choice-btn choice-lex choice-sentence';
+            btn.lang = 'es';
+            btn.textContent = text;
+            var key = el('span', 'choice-key', String(i + 1));
+            key.setAttribute('aria-hidden', 'true');
+            btn.appendChild(key);
+            btn.setAttribute('data-id', String(i));
+            btn.setAttribute('aria-label', 'Opción ' + (i + 1) + ', ' + text);
+            if (item.result) {
+                btn.disabled = true;
+                if (String(i) === String(question.answer)) btn.classList.add('choice-ok');
+                else if (!item.result.skipped && item.result.user === String(i) && !item.result.correct) btn.classList.add('choice-bad');
+            } else {
+                btn.addEventListener('click', function () { chooseOption(String(i)); });
+            }
+            quizEls.choiceArea.appendChild(btn);
+        });
+        item.choices = question.choices.map(function (text, i) { return { id: String(i), char: text }; });
+        return applyNote('');
+    }
+    function paintLexiconPrompt(item) {
+        var view = lexView(item);
+        var write = isWrite();
+        hidePassage();
+        clearPromptClasses();
+        if (quizEls.kanaChar) {
+            var reveal = item.result && view.reveal ? view.reveal : view.prompt;
+            quizEls.kanaChar.textContent = reveal;
+            quizEls.kanaChar.lang = item.result && view.reveal ? 'ja' : view.promptLang;
+            if (!item.result && view.reveal) quizEls.kanaChar.classList.add('prompt-listen');
+            else if ((item.result && view.reveal) || view.promptLang !== 'es') {
+                var len = Array.from(reveal).length;
+                if (len > 10) quizEls.kanaChar.classList.add('prompt-sentence');
+                else if (len > 6) quizEls.kanaChar.classList.add('prompt-xlong');
+                else if (len > 3) quizEls.kanaChar.classList.add('prompt-long');
+            } else {
+                quizEls.kanaChar.classList.add('prompt-es');
+            }
+        }
+        setHidden(quizEls.inputArea, !write);
+        setHidden(quizEls.choiceArea, write);
+        if (write && quizEls.input) {
+            quizEls.input.lang = view.choiceLang === 'ja' ? 'ja' : 'es';
+            quizEls.input.placeholder = view.choiceLang === 'ja'
+                ? 'Escribe en japonés o en hiragana'
+                : 'Escribe el significado';
+            if (!item.result) quizEls.input.value = '';
+        }
         if (quizEls.audioStatus) {
             quizEls.audioStatus.textContent = '';
             setHidden(quizEls.audioStatus, true);
         }
-        paintLexChoices(item, !!item.result);
-        return applyNote(lexiconHint(view, !!item.result));
+        if (!write) paintLexChoices(item, !!item.result);
+        var note = lexiconHint(view, !!item.result);
+        if (write && !item.result && view.choiceLang === 'ja') {
+            note = note ? note + ' · Vale el kanji o el hiragana.' : 'Vale el kanji o el hiragana.';
+        }
+        return applyNote(note);
     }
 
     function paintPrompt(item) {
+        if (item.reading) return paintReading(item);
         if (item.lex) return paintLexiconPrompt(item);
+        hidePassage();
         var reverse = isReverse();
         clearPromptClasses();
         if (quizEls.kanaChar) {
@@ -1201,8 +1451,11 @@
         if (!quizEls.announcer) return;
         var n = Math.min(exam.index + 1, exam.queue.length);
         var text = 'Pregunta ' + n + ' de ' + exam.queue.length + '. ';
-        if (item.lex) {
-            text += lexView(item).prompt + '. Elige la respuesta.';
+        if (item.reading) {
+            text += item.reading.ask + '. Elige la respuesta.';
+        } else if (item.lex) {
+            var heard = lexView(item);
+            text += (heard.reveal && !item.result ? 'Escucha. ' : heard.prompt + '. ') + (isWrite() ? 'Escribe la respuesta.' : 'Elige la respuesta.');
         } else if (isReverse()) {
             text += 'Romaji ' + item.kanaObj.romaji + '. Elige el kana.';
         } else {
@@ -1247,6 +1500,95 @@
         armTimer(ADVANCE_MS);
     }
 
+    var MISS_CAP = 80;
+    function missStorageKey(level, practice) {
+        if (practice === 'kana') return 'miss.kana';
+        return 'miss.' + knownLevel(level) + '.' + practice;
+    }
+    function loadMissIds(level, practice) {
+        var raw = storageGet(missStorageKey(level, practice));
+        if (!raw) return [];
+        try {
+            var parsed = JSON.parse(raw);
+            if (!Array.isArray(parsed)) return [];
+            return parsed.filter(function (id) { return typeof id === 'string' && id.length > 0 && id.length < 120; }).slice(0, MISS_CAP);
+        } catch (e) { return []; }
+    }
+    function saveMissIds(level, practice, ids) {
+        storageSet(missStorageKey(level, practice), JSON.stringify(ids.slice(0, MISS_CAP)));
+    }
+    function noteOutcome(item) {
+        if (!item || !item.result || item.result.skipped || !Lex) return;
+        var id = item.lex ? item.lex.id : item.reading ? item.reading.id : (item.kanaObj ? item.kanaObj.type + ':' + item.kanaObj.char : '');
+        if (!id) return;
+        var practice = item.kanaObj && !item.lex ? 'kana' : exam.practice;
+        var level = practice === 'kana' ? 'kana' : knownLevel(exam.level);
+        var next = Lex.applyMiss(loadMissIds(level, practice), id, item.result.correct === true, MISS_CAP);
+        saveMissIds(level, practice, next);
+        updateMissButton();
+    }
+    function visibleMissIds() {
+        var practice = state.practice === 'reading' ? 'reading' : (isNamedPractice(state.practice) ? state.practice : 'kana');
+        var ids = loadMissIds(practice === 'kana' ? 'kana' : state.level, practice);
+        if (practice === 'kana') {
+            return ids.filter(function (id) { return id.indexOf(state.currentType + ':') === 0; });
+        }
+        return ids;
+    }
+    function updateMissButton() {
+        if (!reviewMissBtn) return;
+        var n = visibleMissIds().length;
+        reviewMissBtn.textContent = n === 1 ? 'Repasar 1 fallo' : 'Repasar fallos (' + n + ')';
+        setHidden(reviewMissBtn, n === 0);
+    }
+    function startMissReview() {
+        if (exam.active) return;
+        var ids = visibleMissIds();
+        if (!ids.length) { updateMissButton(); return; }
+        if (loadSavedExam()) {
+            var discard = window.confirm('Hay un examen guardado. Si repasas los fallos, se descarta. ¿Continuar?');
+            if (!discard) return;
+            clearSavedExam();
+            refreshResumePanel();
+        }
+        if (state.practice === 'reading' && Readings) {
+            var readingQueue = [];
+            ids.forEach(function (id) {
+                var question = Readings.findQuestion(id);
+                if (question && question.level === state.level) readingQueue.push({ reading: question, userAnswer: null, result: null, choices: null });
+            });
+            if (!readingQueue.length) { showConfigWarning('Esos fallos ya no están en este nivel.'); return; }
+            beginExam(readingQueue, 0, { correct: 0, wrong: 0, skipped: 0, answerMode: 'choice' }, false);
+            return;
+        }
+        if (state.practice === 'kana') {
+            var kanaQueue = [];
+            ids.forEach(function (id) {
+                var cut = id.indexOf(':');
+                var kana = Core.findKana(id.slice(0, cut), id.slice(cut + 1));
+                if (kana) kanaQueue.push({ kanaObj: kana, userAnswer: null, result: null, choices: null });
+            });
+            if (!kanaQueue.length) { showConfigWarning('No quedan fallos de este silabario.'); return; }
+            if (state.direction === Core.DIRECTIONS.ROMAJI_KANA) Core.ensureChoices(kanaQueue);
+            beginExam(kanaQueue, 0, { correct: 0, wrong: 0, skipped: 0 }, false);
+            return;
+        }
+        var pack = bag();
+        var catalog = state.practice === 'kanji' ? pack.KANJI
+            : state.practice === 'phrases' ? pack.PHRASES
+            : state.practice === 'conj' ? pack.CONJ
+            : state.practice === 'grammar' ? pack.GRAMMAR
+            : pack.WORDS;
+        var lexQueue = [];
+        ids.forEach(function (id) {
+            var found = pack.findById(catalog, id);
+            if (found) lexQueue.push({ lex: found, userAnswer: null, result: null, choices: null });
+        });
+        if (!lexQueue.length) { showConfigWarning('Esos fallos ya no están en este nivel.'); return; }
+        if (state.answerMode !== 'write') pack.ensureChoices(lexQueue, activeDirection());
+        beginExam(lexQueue, 0, { correct: 0, wrong: 0, skipped: 0, answerMode: state.answerMode }, false);
+    }
+
     function beginExam(queue, index, counters, waiting, lessonId) {
         exam.active = true;
         exam.queue = queue;
@@ -1257,9 +1599,14 @@
         exam.waitingNext = false;
         exam.deadline = null;
         exam.lessonId = typeof lessonId === 'string' ? lessonId : '';
-        exam.level = knownLevel(state.level);
-        exam.practice = isNamedPractice(state.practice) ? state.practice : 'kana';
-        exam.direction = activeDirection();
+        exam.level = counters && counters.level ? knownLevel(counters.level) : knownLevel(state.level);
+        exam.practice = state.practice === 'reading' ? 'reading' : (isNamedPractice(state.practice) ? state.practice : 'kana');
+        exam.direction = state.practice === 'reading' ? 'lectura' : activeDirection();
+        exam.answerMode = counters && counters.answerMode === 'write' ? 'write'
+            : counters && counters.answerMode === 'choice' ? 'choice'
+            : (state.answerMode === 'write' ? 'write' : 'choice');
+        exam.spokenPassage = '';
+        exam.voiceReadyIndex = -1;
         clearTimer();
         setHidden(optionsPanel, true);
         setHidden(quizArea, false);
@@ -1279,7 +1626,15 @@
             refreshResumePanel();
         }
 
+        if (state.practice === 'reading') {
+            startReadingExam();
+            return;
+        }
         if (isNamedPractice(state.practice)) {
+            if (activeDirection() === 'listen-es' && !systemSpeech()) {
+                showConfigWarning('Este cliente no expone la síntesis de voz del sistema. Elige otra dirección: el resto sigue disponible.');
+                return;
+            }
             startLexiconExam();
             return;
         }
@@ -1296,6 +1651,16 @@
         }
         if (state.direction === Core.DIRECTIONS.ROMAJI_KANA) Core.ensureChoices(queue);
         beginExam(queue, 0, { correct: 0, wrong: 0, skipped: 0 }, false);
+    }
+
+    function startReadingExam() {
+        if (!Readings) { showConfigWarning('No se cargó la lectura.'); return; }
+        var questions = Readings.questionsFor(state.level);
+        if (!questions.length) { showConfigWarning('Este nivel no tiene textos.'); return; }
+        var queue = Lex.shuffle(questions).map(function (question) {
+            return { reading: question, userAnswer: null, result: null, choices: null };
+        });
+        beginExam(queue, 0, { correct: 0, wrong: 0, skipped: 0, answerMode: 'choice' }, false);
     }
 
     function startLexiconExam() {
@@ -1319,7 +1684,10 @@
     function resumeExam() {
         var saved = loadSavedExam();
         if (!saved) { refreshResumePanel(); return; }
-        if (isNamedPractice(saved.practice)) {
+        if (saved.practice === 'reading') {
+            state.practice = 'reading';
+            persistPractice();
+        } else if (isNamedPractice(saved.practice)) {
             state.practice = saved.practice;
             if (saved.practice === 'words') state.wordDirection = saved.direction;
             else if (saved.practice === 'kanji') state.kanjiDirection = saved.direction;
@@ -1341,6 +1709,10 @@
             persistType();
             persistMode();
             persistDirection();
+        }
+        if (saved.answerMode === 'write' || saved.answerMode === 'choice') {
+            state.answerMode = saved.answerMode;
+            persistAnswerMode();
         }
         if (saved.level && knownLevel(saved.level) === saved.level) {
             state.level = saved.level;
@@ -1368,7 +1740,9 @@
         unlockAnswerUI();
         var note = paintPrompt(item);
         if (quizEls.input) quizEls.input.value = '';
-        setFeedback(isLexicon() ? 'Elige la respuesta.' : (isReverse() ? 'Elige el kana.' : 'Escribe el romaji y pulsa Enter.'));
+        setFeedback(exam.practice === 'reading' || (isLexicon() && !isWrite())
+            ? 'Elige la respuesta.'
+            : (isWrite() ? 'Escribe la respuesta y pulsa Enter.' : (isReverse() ? 'Elige el kana.' : 'Escribe el romaji y pulsa Enter.')));
         updateStatsUI();
         announceQuestion(item, note);
         if (usesChoices()) {
@@ -1377,8 +1751,8 @@
             quizEls.input.focus();
         }
         saveExam();
-        if (item.lex) maybeSpeakItem(item, false);
-        else maybeSpeak(item.kanaObj.char);
+        if (item.reading || item.lex) maybeSpeakItem(item, false);
+        else if (item.kanaObj) maybeSpeak(item.kanaObj.char);
     }
 
     function showSettledQuestion() {
@@ -1403,7 +1777,9 @@
         if (exam.index >= exam.queue.length || usesChoices()) return;
 
         var item = exam.queue[exam.index];
-        var result = Core.checkAnswer(item.kanaObj, quizEls.input.value, state.romajiMode);
+        var result = item.lex
+            ? Lex.checkWritten(item.lex, exam.direction, quizEls.input.value)
+            : Core.checkAnswer(item.kanaObj, quizEls.input.value, state.romajiMode);
         if (result.empty) {
             setFeedback('Escribe una respuesta o pulsa Saltar.');
             return;
@@ -1416,6 +1792,7 @@
         lockAnswerUI();
         setFeedback(feedbackFor(item), resultKind(item));
         updateStatsUI();
+        noteOutcome(item);
         saveExam();
         maybeScheduleAutoAdvance();
     }
@@ -1443,12 +1820,15 @@
         if (!exam.active || exam.waitingNext || dialogOpen() || !usesChoices()) return;
         if (exam.index >= exam.queue.length) return;
         var item = exam.queue[exam.index];
-        var result = item.lex ? Lex.checkChoice(item.lex, id) : Core.checkChoice(item.kanaObj, id);
+        var result = item.reading ? Readings.check(item.reading, id)
+            : item.lex ? Lex.checkChoice(item.lex, id)
+            : Core.checkChoice(item.kanaObj, id);
         if (result.empty) return;
         item.userAnswer = result.user;
         item.result = result;
         if (result.correct) exam.correct++;
         else exam.wrong++;
+        noteOutcome(item);
         markChoicesSettled(item);
         lockAnswerUI();
         setFeedback(feedbackFor(item), resultKind(item));
@@ -1648,12 +2028,22 @@
         var list = el('ol', 'results-list');
         exam.queue.forEach(function (item) {
             var li = el('li');
+            if (item.reading) {
+                var question = item.reading;
+                var picked = item.result && !item.result.skipped ? question.choices[Number(item.result.user)] : '—';
+                li.appendChild(document.createTextNode(resultStatus(item) + '. ' + question.ask + ' → ' + question.choices[question.answer] + '. Tú: ' + (picked || '—')));
+                list.appendChild(li);
+                return;
+            }
             if (item.lex) {
                 var view = lexView(item);
                 var yours = item.result && item.result.skipped
                     ? '—'
-                    : (examPack().textForId(exam.practice, item.result && item.result.user, exam.direction) || '—');
-                li.appendChild(document.createTextNode(resultStatus(item) + '. ' + view.prompt + ' → ' + view.answer + '. Tú: ' + yours));
+                    : item.result && item.result.written
+                        ? (item.result.user || '—')
+                        : (examPack().textForId(exam.practice, item.result && item.result.user, exam.direction) || '—');
+                var prompt = item.result && view.reveal ? view.reveal : view.prompt;
+                li.appendChild(document.createTextNode(resultStatus(item) + '. ' + prompt + ' → ' + view.answer + '. Tú: ' + yours));
                 list.appendChild(li);
                 return;
             }
@@ -1892,6 +2282,12 @@
         if (!lesson || !lesson.quiz) return 0;
         return lesson.quiz.practice === 'kana' ? lesson.quiz.chars.length : lesson.quiz.ids.length;
     }
+    function kanaReading(ch) {
+        if (!ch || !Core || typeof Core.findKana !== 'function') return '';
+        var type = /[ァ-ヶー]/.test(ch) ? 'katakana' : 'hiragana';
+        var hit = Core.findKana(type, ch);
+        return hit && hit.romaji ? hit.romaji : '';
+    }
     function openLesson(id) {
         if (!Lessons) return;
         var lesson = Lessons.findLesson(id);
@@ -1920,7 +2316,11 @@
                             li.appendChild(document.createTextNode(' '));
                             li.appendChild(el('span', 'teach-kana', example.kana));
                         }
-                        li.appendChild(el('span', 'teach-es', ' — ' + example.es));
+                        var gloss = example.es || kanaReading(example.jp);
+                        if (gloss) {
+                            li.appendChild(document.createTextNode(' · '));
+                            li.appendChild(el('span', 'teach-es', gloss));
+                        }
                         list.appendChild(li);
                     });
                     section.appendChild(list);
@@ -2086,7 +2486,7 @@
         if (audioTestBtn) {
             audioTestBtn.addEventListener('click', function () { speakKana('あ'); });
         }
-        [practiceKanaBtn, practiceWordsBtn, practiceKanjiBtn, practicePhrasesBtn, practiceConjBtn, practiceGrammarBtn].forEach(function (btn) {
+        [practiceKanaBtn, practiceWordsBtn, practiceKanjiBtn, practicePhrasesBtn, practiceConjBtn, practiceGrammarBtn, practiceReadingBtn].forEach(function (btn) {
             if (!btn) return;
             btn.addEventListener('click', function () {
                 if (exam.active) return;
@@ -2099,7 +2499,7 @@
                 updatePracticeUI();
             });
         });
-        [wordToEsBtn, esToWordBtn].forEach(function (btn) {
+        [wordToEsBtn, esToWordBtn, listenWordBtn].forEach(function (btn) {
             if (!btn) return;
             btn.addEventListener('click', function () {
                 if (exam.active) return;
@@ -2108,7 +2508,7 @@
                 updateLexDirectionUI();
             });
         });
-        [kanjiToEsBtn, esToKanjiBtn, kanjiReadingBtn].forEach(function (btn) {
+        [kanjiToEsBtn, esToKanjiBtn, kanjiReadingBtn, listenKanjiBtn].forEach(function (btn) {
             if (!btn) return;
             btn.addEventListener('click', function () {
                 if (exam.active) return;
@@ -2137,7 +2537,7 @@
             state.kanjiGroups.clear();
             persistLexGroups(); clearConfigWarning(); renderLexChips(); updateExamCount();
         });
-        [phraseToEsBtn, esToPhraseBtn, particleBtn].forEach(function (btn) {
+        [phraseToEsBtn, esToPhraseBtn, particleBtn, listenPhraseBtn].forEach(function (btn) {
             if (!btn) return;
             btn.addEventListener('click', function () {
                 if (exam.active) return;
@@ -2221,10 +2621,36 @@
             renderPath();
             if (pathContinueBtn) pathContinueBtn.focus();
         });
+        [answerChoiceBtn, answerWriteBtn].forEach(function (btn) {
+            if (!btn) return;
+            btn.addEventListener('click', function () {
+                if (exam.active) return;
+                state.answerMode = btn.getAttribute('data-answer-mode') === 'write' ? 'write' : 'choice';
+                persistAnswerMode();
+                updateAnswerModeUI();
+            });
+        });
+        if (reviewMissBtn) reviewMissBtn.addEventListener('click', startMissReview);
         if (lessonStartBtn) lessonStartBtn.addEventListener('click', startLessonQuiz);
-        if (window.speechSynthesis && window.speechSynthesis.addEventListener) {
-            window.speechSynthesis.addEventListener('voiceschanged', updateAudioUI);
-            try { window.speechSynthesis.getVoices(); } catch (e) { /* aún no hay voces */ }
+        var synth = speechSynth();
+        if (synth && synth.addEventListener) {
+            synth.addEventListener('voiceschanged', function () {
+                updateAudioUI();
+                if (!exam.active || exam.waitingNext || !japaneseVoice()) return;
+                if (exam.voiceReadyIndex === exam.index) return;
+                try {
+                    if (synth.speaking || synth.pending) return;
+                } catch (e) { return; }
+                var item = exam.queue[exam.index];
+                if (!item) return;
+                var listen = exam.direction === 'listen-es';
+                var readAloud = !!(item.reading && state.audioOn);
+                if (!listen && !readAloud) return;
+                exam.voiceReadyIndex = exam.index;
+                if (readAloud) exam.spokenPassage = '';
+                maybeSpeakItem(item, false);
+            });
+            try { if (typeof synth.getVoices === 'function') synth.getVoices(); } catch (e) { /* aún no hay voces */ }
         }
         document.addEventListener('keydown', onDocumentKeydown);
         window.addEventListener('pagehide', onPageHide);

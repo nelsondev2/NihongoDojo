@@ -239,6 +239,46 @@ check('el N4 tiene catálogo propio y no alarga el N5', () => {
     assert.ok(n1.buildQueue('words', n1.WORD_STARTER, 'word-es', () => 0.2).every((item) => item.lex.level === 'n1'));
 });
 
+check('escribir no acepta un homófono ni un salto, y la escucha no enseña la palabra', () => {
+    const word = Lex.WORDS.find((item) => item.kana && item.kanji);
+    assert.ok(word);
+    const kanaHit = Lex.checkWritten(word, 'es-word', word.kana);
+    assert.strictEqual(kanaHit.correct, true);
+    assert.strictEqual(kanaHit.skipped, false);
+    if (word.kanji) assert.strictEqual(Lex.checkWritten(word, 'es-word', word.kanji).correct, true);
+    const other = Lex.WORDS.find((item) => item.id !== word.id);
+    assert.strictEqual(Lex.checkWritten(word, 'es-word', other.kana).correct, false);
+    assert.strictEqual(Lex.checkWritten(word, 'word-es', '   ').empty, true);
+    assert.strictEqual(Lex.checkWritten(word, 'word-es', word.es).correct, true);
+    const view = Lex.view(word, 'listen-es');
+    assert.strictEqual(view.prompt, '♪');
+    assert.strictEqual(view.reveal, word.kanji || word.kana);
+    assert.ok(!view.furigana);
+    const misses = Lex.applyMiss(['a'], 'b', false, 2);
+    assert.deepStrictEqual(misses, ['b', 'a']);
+    assert.deepStrictEqual(Lex.applyMiss(misses, 'b', true, 2), ['a']);
+    assert.deepStrictEqual(Lex.applyMiss(['a', 'b', 'c'], 'd', false, 2), ['d', 'a']);
+});
+
+check('escuchar oculta kanji y frases, y usa la voz del sistema', () => {
+    assert.strictEqual(Lex.validDirection('kanji', 'listen-es'), true);
+    assert.strictEqual(Lex.validDirection('phrases', 'listen-es'), true);
+    assert.strictEqual(Lex.validDirection('grammar', 'listen-es'), false);
+    const kanji = Lex.KANJI[0];
+    const heard = Lex.view(kanji, 'listen-es');
+    assert.strictEqual(heard.prompt, '♪');
+    assert.strictEqual(heard.speak, kanji.reading);
+    assert.strictEqual(heard.reveal, kanji.char);
+    assert.notStrictEqual(heard.choiceText, kanji.char);
+    const phrase = Lex.PHRASES.find((item) => item.kana && item.jp);
+    assert.ok(phrase);
+    const phraseHeard = Lex.view(phrase, 'listen-es');
+    assert.strictEqual(phraseHeard.prompt, '♪');
+    assert.strictEqual(phraseHeard.speak, phrase.kana);
+    assert.strictEqual(phraseHeard.reveal, phrase.jp);
+    assert.ok(!phraseHeard.prompt.includes(phrase.jp));
+});
+
 check('la cola inicial no mezcla temas no elegidos', () => {
     const queue = Lex.buildQueue('words', ['saludos'], 'es-word', () => 0.3);
     assert.ok(queue.length > 1);

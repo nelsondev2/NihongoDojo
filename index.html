@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, viewport-fit=cover">
-    <meta name="description" content="Camino comunitario del JLPT N5, N4, N3, N2 y N1, y quiz sin conexión: silabarios, vocabulario, kanji, gramática y conjugación. App webxdc para Delta Chat y ArcaneChat.">
+    <meta name="description" content="Camino comunitario del JLPT N5 a N1, sin conexión: silabarios, vocabulario, kanji, gramática, escritura, escucha y lectura corta. App webxdc para Delta Chat y ArcaneChat.">
     <meta name="color-scheme" content="light">
     <!-- CSP: la app no hace ninguna petición de red. scripts/styles externos
          propios, favicon data:. Defensa extra en el entorno webxdc.
@@ -25,6 +25,7 @@
     <script src="n1.js" defer></script>
     <script src="lexicon.js" defer></script>
     <script src="lessons.js" defer></script>
+    <script src="readings.js" defer></script>
     <script src="app.js" defer></script>
 </head>
 <body>
@@ -84,8 +85,22 @@
                 <button type="button" id="practicePhrasesBtn" class="type-btn" data-practice="phrases" aria-pressed="false">Frases</button>
                 <button type="button" id="practiceConjBtn" class="type-btn" data-practice="conj" aria-pressed="false">Conjugación</button>
                 <button type="button" id="practiceGrammarBtn" class="type-btn" data-practice="grammar" aria-pressed="false">Gramática</button>
+                <button type="button" id="practiceReadingBtn" class="type-btn" data-practice="reading" aria-pressed="false">Lectura</button>
             </div>
             <p id="practiceNote" class="mode-note">Hiragana y katakana, carácter por carácter.</p>
+        </div>
+
+        <div class="selector-group hidden" id="answerModeGroup">
+            <div class="selector-label" id="answerModeLabel"><span aria-hidden="true">✍️</span> Cómo respondes</div>
+            <div class="kana-type" role="group" aria-labelledby="answerModeLabel">
+                <button type="button" id="answerChoiceBtn" class="type-btn" data-answer-mode="choice" aria-pressed="true">Elegir</button>
+                <button type="button" id="answerWriteBtn" class="type-btn" data-answer-mode="write" aria-pressed="false">Escribir</button>
+            </div>
+            <p id="answerModeNote" class="mode-note">Elegir muestra opciones. Escribir pide la respuesta, en español o en japonés. Un salto no cuenta como fallo.</p>
+        </div>
+
+        <div id="readingPanel" class="hidden">
+            <p class="mode-note">Textos cortos del nivel elegido. Lees el japonés y eliges. Oír usa la voz del sistema, además de la lectura. No es el examen ni una lista oficial.</p>
         </div>
 
         <div class="selector-group" id="silabarioGroup">
@@ -120,6 +135,7 @@
                 <div class="kana-type" role="group" aria-labelledby="wordDirLabel">
                     <button type="button" id="wordToEsBtn" class="type-btn" data-word-direction="word-es" aria-pressed="true">Palabra → español</button>
                     <button type="button" id="esToWordBtn" class="type-btn" data-word-direction="es-word" aria-pressed="false">Español → palabra</button>
+                    <button type="button" id="listenWordBtn" class="type-btn" data-word-direction="listen-es" aria-pressed="false">Escuchar → español</button>
                 </div>
                 <p id="wordDirNote" class="mode-note">Ves la palabra. Si lleva kanji, la lectura va debajo.</p>
             </div>
@@ -140,6 +156,7 @@
                     <button type="button" id="kanjiToEsBtn" class="type-btn" data-kanji-direction="kanji-es" aria-pressed="true">Kanji → significado</button>
                     <button type="button" id="esToKanjiBtn" class="type-btn" data-kanji-direction="es-kanji" aria-pressed="false">Significado → kanji</button>
                     <button type="button" id="kanjiReadingBtn" class="type-btn" data-kanji-direction="kanji-reading" aria-pressed="false">Kanji → lectura</button>
+                    <button type="button" id="listenKanjiBtn" class="type-btn" data-kanji-direction="listen-es" aria-pressed="false">Escuchar → español</button>
                 </div>
                 <p id="kanjiDirNote" class="mode-note">Ves el kanji y eliges el significado. La lectura se oye, no se revela.</p>
             </div>
@@ -161,6 +178,7 @@
                     <button type="button" id="phraseToEsBtn" class="type-btn" data-phrase-direction="phrase-es" aria-pressed="true">Frase → español</button>
                     <button type="button" id="esToPhraseBtn" class="type-btn" data-phrase-direction="es-phrase" aria-pressed="false">Español → frase</button>
                     <button type="button" id="particleBtn" class="type-btn" data-phrase-direction="particle" aria-pressed="false">Partícula</button>
+                    <button type="button" id="listenPhraseBtn" class="type-btn" data-phrase-direction="listen-es" aria-pressed="false">Escuchar → español</button>
                 </div>
                 <p id="phraseDirNote" class="mode-note">Ves la frase. La lectura va debajo. Elige el significado.</p>
             </div>
@@ -222,7 +240,7 @@
                 <button type="button" id="audioOnBtn" class="type-btn" aria-pressed="true">Al mostrar</button>
                 <button type="button" id="audioOffBtn" class="type-btn" aria-pressed="false">Solo si pulso</button>
             </div>
-            <p id="audioNote" class="mode-note">Usa la voz japonesa del dispositivo. No sale a la red.</p>
+            <p id="audioNote" class="mode-note">Síntesis de voz del sistema, también en webxdc. No se descarga audio.</p>
             <button type="button" id="audioTestBtn" class="btn btn-secondary btn-block">Probar voz</button>
         </div>
 
@@ -251,6 +269,7 @@
             <button type="button" id="clearAllBtn" class="btn btn-secondary"><span aria-hidden="true">❌</span> Desmarcar todo</button>
         </div>
         <p id="examCount" class="mode-note" aria-live="polite"></p>
+        <button type="button" id="reviewMissBtn" class="btn btn-secondary btn-block hidden">Repasar fallos</button>
         <div class="action-buttons">
             <button type="button" id="startExamBtn" class="btn btn-primary btn-block"><span aria-hidden="true">🚀</span> <span id="startExamLabel">INICIAR EXAMEN</span></button>
         </div>
@@ -263,9 +282,10 @@
     <template id="quizCardTemplate">
         <div class="quiz-card">
             <div id="questionAnnouncer" class="visually-hidden" aria-live="polite" aria-atomic="true"></div>
+            <div id="passageBox" class="passage-box hidden"></div>
             <div class="kana-display" id="kanaChar" lang="ja">—</div>
             <div class="listen-row">
-                <button type="button" id="listenBtn" class="btn btn-secondary listen-btn"><span aria-hidden="true">🔊</span> Escuchar</button>
+                <button type="button" id="listenBtn" class="btn btn-secondary listen-btn"><span aria-hidden="true">🔊</span> Oír</button>
             </div>
             <p id="audioStatus" class="kana-hint hidden" role="status"></p>
             <p id="kanaHint" class="kana-hint hidden"></p>

@@ -488,12 +488,29 @@ def main():
             [{"jp": ch, "kana": "", "es": ""} for ch in chars[:8]],
             {"practice": "kana", "type": syllabary, "direction": "kana-romaji", "chars": chars},
         ))
+    hira_notes = {
+        "Vocales": "Cinco vocales, cada una una sílaba. あ es a, い es i, う es u, え es e, お es o.",
+        "Fila ka": "か es ka, き es ki, く es ku, け es ke, こ es ko. No se lee letra por letra: la vocal ya va dentro.",
+        "Fila sa": "さ es sa, し es shi, す es su, せ es se, そ es so. し no es si.",
+        "Fila ta": "た es ta, ち es chi, つ es tsu, て es te, と es to. ち no es ti y つ no es tu.",
+        "Fila na": "な es na, に es ni, ぬ es nu, ね es ne, の es no.",
+        "Fila ha": "は es ha, ひ es hi, ふ es fu, へ es he, ほ es ho. ふ no es hu. Como carácter, は es ha y へ es he: wa y e son de partícula.",
+        "Fila ma": "ま es ma, み es mi, む es mu, め es me, も es mo.",
+        "Fila ya": "や es ya, ゆ es yu, よ es yo. En el silabario moderno no hay yi ni ye.",
+        "Fila ra": "ら es ra, り es ri, る es ru, れ es re, ろ es ro. Esa r no es la r española.",
+        "Fila wa": "わ es wa, を es wo y ん es n. を, como carácter, es wo; la partícula se lee o. ん no empieza palabra.",
+    }
+    daku_notes = {
+        "Fila ga": "が es ga, ぎ es gi, ぐ es gu, げ es ge, ご es go. Las dos rayitas sonorizan la fila ka.",
+        "Fila za": "ざ es za, じ es ji, ず es zu, ぜ es ze, ぞ es zo. じ no es zi.",
+        "Fila da": "だ es da, ぢ es ji, づ es zu, で es de, ど es do. ぢ y づ se leen igual que じ y ず, pero no son el mismo carácter.",
+        "Fila ba": "ば es ba, び es bi, ぶ es bu, べ es be, ぼ es bo. Las dos rayitas sonorizan la fila ha.",
+        "Fila pa": "ぱ es pa, ぴ es pi, ぷ es pu, ぺ es pe, ぽ es po. El círculo marca la semi-sonora.",
+    }
     for name, chars in HIRA_ROWS:
-        add_kana("h-" + slug(name), "Hiragana: " + name, "Silabario", chars, "hiragana",
-                 "Lee la sílaba, no letra por letra. し es shi, ち es chi, つ es tsu, ふ es fu, を es wo y ん es n.")
+        add_kana("h-" + slug(name), "Hiragana: " + name, "Silabario", chars, "hiragana", hira_notes[name])
     for name, chars in DAKU_ROWS:
-        add_kana("hd-" + slug(name), "Hiragana sonoro: " + name, "Silabario", chars, "hiragana",
-                 "Las dos rayitas sonorizan. El círculo de la fila pa es la semi-sonora. じ y ぢ se leen ji. ず y づ se leen zu.")
+        add_kana("hd-" + slug(name), "Hiragana sonoro: " + name, "Silabario", chars, "hiragana", daku_notes[name])
     for name, chars in YOON_ROWS:
         add_kana("hy-" + slug(name), "Hiragana combinado: " + name, "Silabario", chars, "hiragana",
                  "Una sílaba pequeña ゃ, ゅ o ょ se pega a la consonante i. No son dos sílabas.")

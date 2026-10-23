@@ -401,6 +401,8 @@
             : scope === "frases" ? "frases"
             : scope === "conjugación" ? "conjugación"
             : scope === "gramática" ? "gramática"
+            : scope === "escucha" ? "escucha"
+            : scope === "lectura" ? "lectura"
             : "hiragana";
         const suffix = direction === DIRECTIONS.ROMAJI_KANA ? " · inv" : "";
         return {

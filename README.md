@@ -1,8 +1,8 @@
 # NihongoDojo
 
-Quiz sin conexión para el **JLPT N5, N4, N3, N2 y N1**: un camino de lecciones y exámenes libres de **silabarios**, **vocabulario**, **kanji**, **frases**, **gramática** y **conjugación**. En los silabarios ves el carácter y escribes el romaji, o al revés. En el resto eliges entre opciones. Si el dispositivo tiene voz japonesa, también se oye.
+Quiz sin conexión para el **JLPT N5, N4, N3, N2 y N1**: un camino de lecciones y exámenes libres de **silabarios**, **vocabulario**, **kanji**, **frases**, **gramática** y **conjugación**. En los silabarios ves el carácter y escribes el romaji, o al revés. En el resto eliges entre opciones. La voz es la del sistema, también dentro de un webxdc, además del examen.
 
-Es una mini-app [webxdc](https://webxdc.org/) para Delta Chat y ArcaneChat (versión 1.12.0). También se abre sola en el navegador: no tiene servidor, dependencias ni conexión de red.
+Es una mini-app [webxdc](https://webxdc.org/) para Delta Chat y ArcaneChat (versión 1.13.0). También se abre sola en el navegador: no tiene servidor, dependencias ni conexión de red.
 
 El JLPT no publica lista oficial de vocabulario, kanji ni gramática desde 2010. El N5 sigue el recorte comunitario de Jonathan Waller (el que usa Jisho), a través de OpenJLPT: 674 palabras, 84 kanji y 81 puntos de gramática, más los kana y las conjugaciones que esos ítems necesitan. El N4 añade el recorte incremental: 630 palabras, 169 kanji y 98 puntos de gramática, con potencial, condicionales y voz. El N3 añade otras 1.659 palabras, 387 kanji y 101 puntos, con la negación ず. El N2 añade el recorte siguiente: 1.778 palabras, 398 kanji y 123 puntos, con まい y los verbos en ずる. El N1 añade el último recorte: 3.070 palabras, 1.345 kanji y 123 puntos. No es el examen ni una promesa de aprobarlo.
 
@@ -40,17 +40,18 @@ Si la palabra se escribe con kanji, el examen muestra el carácter y, debajo, la
 
 84 kanji del recorte N5, incluida la lista comunitaria con 丈 y 貼. No es una lista oficial. Cada uno tiene un significado en español y una lectura de este nivel. Las otras lecturas aparecen al corregir.
 
-Tres direcciones: kanji → significado, significado → kanji, y kanji → lectura. En la de lectura, 日 y 火 no salen como trampas una de la otra: las dos se leen `ひ`.
+Cuatro direcciones: kanji → significado, significado → kanji, kanji → lectura, y escuchar → español. En la de lectura, 日 y 火 no salen como trampas una de la otra: las dos se leen `ひ`. En escuchar no ves el carácter: la voz del sistema dice la lectura.
 
 ### Frases y gramática
 
 164 frases y 246 fichas de gramática, en español original. Cubren los 81 puntos del recorte y, además, los contadores. La primera vez solo está marcado el grupo de cópulas.
 
-Tres direcciones en frases:
+Cuatro direcciones en frases:
 
 - **Frase → español:** ves la frase, con la lectura debajo, y eliges el significado.
 - **Español → frase:** ves el significado y eliges la frase. El sonido se oye al corregir.
 - **Partícula:** la frase tiene un hueco. El significado está debajo. No se repite la misma pieza entre las opciones.
+- **Escuchar → español:** no ves la frase. La dice la voz del sistema y eliges el significado.
 
 En gramática: patrón → español, español → patrón, o hueco. Si un ejemplo no tiene una pieza clara que tapar, no entra en Hueco.
 
@@ -94,13 +95,16 @@ El progreso va en `nihongodojo.lessons.n1`. Los temas marcados van en `sel.n1.*`
 
 ## Cómo usarla
 
-1. En **Camino**, elige **N5**, **N4**, **N3**, **N2** o **N1**. Abre una lección, lee la explicación y pulsa **Empezar el quiz**. O elige un examen libre: silabarios, palabras, kanji, frases, conjugación o gramática. El nivel también cambia esos temas. Luego la dirección.
+1. En **Camino**, elige **N5**, **N4**, **N3**, **N2** o **N1**. Abre una lección, lee la explicación y pulsa **Empezar el quiz**. O elige un examen libre: silabarios, palabras, kanji, frases, conjugación, gramática o lectura. El nivel también cambia esos temas. Luego la dirección. En palabras, kanji, frases, conjugación y gramática puedes **Elegir** o **Escribir**. Escribir pide la respuesta: en japonés vale el kanji o el hiragana. Un salto no cuenta como fallo.
    - **Silabarios:** kana → romaji, o romaji → kana.
    - **Palabras:** palabra → español, o español → palabra.
    - **Kanji:** kanji → significado, significado → kanji, o kanji → lectura.
    - **Frases:** frase → español, español → frase, o la partícula que falta.
    - **Conjugación:** forma → español, o español → forma.
    - **Gramática:** patrón → español, español → patrón, o el hueco.
+   - **Escuchar → español:** en palabras, kanji y frases, no ves el japonés. Lo dice la síntesis de voz del sistema, también en webxdc, y respondes el significado. Si ese cliente no expone la voz, no empieza; el resto sí.
+   - **Lectura:** dos textos cortos por nivel, originales de este dojo. Lees y eliges. **Oír** dice la lectura con la misma voz. No es el examen.
+   - **Repasar fallos:** guarda lo fallado de ese nivel y esa práctica, no los saltos. Un acierto posterior lo quita. Como mucho, 80.
 2. En silabarios, elige también el silabario y el modo de romanización.
    - **Kana → romaji:** ves el carácter y escribes la lectura.
    - **Romaji → kana:** ves la lectura y eliges el carácter. No hace falta teclado japonés. Las teclas 1 a 4 también eligen.
@@ -111,7 +115,7 @@ El progreso va en `nihongodojo.lessons.n1`. Los temas marcados van en `sel.n1.*`
    - En palabras, kanji, frases, conjugación y gramática se elige una opción. Las teclas 1 a 4 también valen.
    - **Saltar** muestra la respuesta y cuenta como saltada, no como fallo.
    - La corrección se queda en pantalla. **Siguiente** o Enter pasa a la otra pregunta.
-   - **Escuchar** reproduce el sonido. Si «Al mostrar» está activo, suena al aparecer la pregunta, salvo cuando eso revelaría la respuesta: entonces suena al corregir.
+   - **Oír** pide la voz del sistema. Si «Al mostrar» está activo, suena al aparecer la pregunta, salvo cuando eso revelaría la respuesta: entonces suena al corregir. En un texto largo, suena una vez al empezar.
 6. Al terminar ves aciertos, fallos, saltadas y el porcentaje (`aciertos / total`). Si hubo errores, **Repasar fallos** arma otro examen solo con esos elementos.
 7. **Salir del examen** pide confirmación. Si el dispositivo permite guardar, la sesión queda a medias y se puede continuar desde la pantalla inicial.
 
@@ -123,9 +127,9 @@ En romaji → kana, じ y ぢ no salen como opciones una de la otra: las dos se 
 
 ### Pronunciación
 
-El sonido lo pone la voz japonesa del dispositivo, con la API de voz del navegador. No se descarga nada y no se manda audio a la red. **Probar voz** dice あ antes de empezar.
+El sonido lo pone la síntesis de voz del sistema (`speechSynthesis`), no un archivo de audio. No se descarga nada y no se manda audio a la red. **Probar voz** dice あ antes de empezar.
 
-Si el sistema no tiene una voz `ja-JP`, el botón lo dice y puede no oírse. En el móvil suele hacer falta instalar el idioma japonés en los ajustes de texto a voz. Dentro de Delta Chat depende de que el WebView exponga esa API.
+Un webxdc puede usarla además del examen, el resumen y `sendUpdate`: el anfitrión ya ejecuta la página en su WebView. El primer `speak()` va en el mismo toque, porque si no algunos WebView se quedan mudos. Se prefiere una voz local `ja-JP`. Si el sistema no la tiene, la app lo dice y el resto del examen sigue. En el móvil suele hacer falta instalar el japonés en los ajustes de texto a voz.
 
 ### Romanización
 
@@ -208,6 +212,7 @@ n4.js           Datos del N4 comunitario y su camino. Lo genera scripts/build_n4
 n3.js           Datos del N3 comunitario y su camino. Lo genera scripts/build_n3.py
 n2.js           Datos del N2 comunitario y su camino. Lo genera scripts/build_n2.py
 n1.js           Datos del N1 comunitario y su camino. Lo genera scripts/build_n1.py
+readings.js     Textos cortos originales, dos por nivel
 lexicon.js      Exámenes de palabras, kanji, frases, gramática y conjugación
 lessons.js      Cola de cada lección y progreso del camino
 app.js          Interfaz, estado, almacenamiento y envío al chat

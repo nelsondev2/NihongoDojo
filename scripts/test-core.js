@@ -91,6 +91,11 @@ check('textos de compartir caben en los límites de la spec', () => {
     assert.strictEqual(conj.info, '100% (55/55) en conjugación');
     const grammar = Core.buildShareText(8, 10, 'gramática');
     assert.strictEqual(grammar.info, '80% (8/10) en gramática');
+    const listen = Core.buildShareText(8, 10, 'escucha');
+    assert.strictEqual(listen.info, '80% (8/10) en escucha');
+    const reading = Core.buildShareText(4, 4, 'lectura');
+    assert.strictEqual(reading.info, '100% (4/4) en lectura');
+    assert.strictEqual(Core.buildShareText(8, 10, 'n1').info, '80% (8/10) en hiragana');
     assert.ok([...grammar.info].length <= 50);
     assert.ok([...conj.info].length <= 50, conj.info);
     assert.ok([...frases.info].length <= 50);
