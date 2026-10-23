@@ -2,7 +2,7 @@
 
 Quiz sin conexión para el **JLPT N5, N4, N3, N2 y N1**: un camino de lecciones y exámenes libres de **silabarios**, **vocabulario**, **kanji**, **frases**, **gramática** y **conjugación**. En los silabarios ves el carácter y escribes el romaji, o al revés. En el resto eliges entre opciones. La voz es la del sistema, también dentro de un webxdc, además del examen.
 
-Es una mini-app [webxdc](https://webxdc.org/) para Delta Chat y ArcaneChat (versión 1.13.1). También se abre sola en el navegador: no tiene servidor, dependencias ni conexión de red.
+Es una mini-app [webxdc](https://webxdc.org/) para Delta Chat y ArcaneChat (versión 1.13.2). También se abre sola en el navegador: no tiene servidor, dependencias ni conexión de red.
 
 El JLPT no publica lista oficial de vocabulario, kanji ni gramática desde 2010. El N5 sigue el recorte comunitario de Jonathan Waller (el que usa Jisho), a través de OpenJLPT: 674 palabras, 84 kanji y 81 puntos de gramática, más los kana y las conjugaciones que esos ítems necesitan. El N4 añade el recorte incremental: 630 palabras, 169 kanji y 98 puntos de gramática, con potencial, condicionales y voz. El N3 añade otras 1.659 palabras, 387 kanji y 101 puntos, con la negación ず. El N2 añade el recorte siguiente: 1.778 palabras, 398 kanji y 123 puntos, con まい y los verbos en ずる. El N1 añade el último recorte: 3.070 palabras, 1.345 kanji y 123 puntos. No es el examen ni una promesa de aprobarlo.
 
@@ -200,7 +200,7 @@ El icono actual es un PNG de 256×256. Si lo sustituyes, usa un cuadrado de entr
 
 ### Compartir la calificación
 
-Dentro del chat, al terminar el examen aparece **Compartir en el chat**. El envío es voluntario, se hace una sola vez y, si la llamada falla, se puede reintentar. Los textos caben en los límites de [`sendUpdate`](https://webxdc.org/docs/spec/sendUpdate.html): el resumen junto al icono es `80% (83/104)` (como mucho 20 caracteres) y la línea del chat es `80% (83/104) en hiragana` (como mucho 50). En romaji → kana se añade ` · inv`. En palabras, kanji, frases, conjugación o gramática la línea dice `en palabras`, `en kanji`, `en frases`, `en conjugación` o `en gramática`, por ejemplo `80% (8/10) en palabras` o `80% (8/10) en gramática`. No se manda el detalle de cada respuesta. La app no lee los resultados de otras personas ni mantiene un ranking.
+Dentro del chat, al terminar el examen aparece **Compartir en el chat**. El envío es voluntario, se hace una sola vez y, si la llamada falla, se puede reintentar. Si el cliente pide esperar entre avisos, el botón espera y luego envía. Los textos caben en los límites de [`sendUpdate`](https://webxdc.org/docs/spec/sendUpdate.html): el resumen junto al icono es `80% (83/104)` (como mucho 20 caracteres) y la línea del chat es `80% (83/104) en hiragana` (como mucho 50). En romaji → kana se añade ` · inv`. En palabras, kanji, frases, conjugación o gramática la línea dice `en palabras`, `en kanji`, `en frases`, `en conjugación` o `en gramática`. En una lección no dice solo el silabario: `Lección 1. Hiragana: Vocales superada al 100%`. Si el aviso anterior sigue siendo el último del chat, ArcaneChat lo sustituye; por eso cada lección lleva su número y su título. No se manda el detalle de cada respuesta. La app no lee los resultados de otras personas ni mantiene un ranking.
 
 ## Estructura
 

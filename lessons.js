@@ -39,11 +39,19 @@
         if (EXTRA[level]) return EXTRA[level];
         return LESSONS;
     }
-    function findLesson(id) {
-        const lists = [LESSONS, EXTRA.n4 || [], EXTRA.n3 || [], EXTRA.n2 || [], EXTRA.n1 || []];
+    function locate(id) {
+        const lists = [
+            ["n5", LESSONS],
+            ["n4", EXTRA.n4 || []],
+            ["n3", EXTRA.n3 || []],
+            ["n2", EXTRA.n2 || []],
+            ["n1", EXTRA.n1 || []]
+        ];
         for (let n = 0; n < lists.length; n++) {
-            for (let i = 0; i < lists[n].length; i++) {
-                if (lists[n][i].id === id) return lists[n][i];
+            const level = lists[n][0];
+            const list = lists[n][1];
+            for (let i = 0; i < list.length; i++) {
+                if (list[i].id === id) return { lesson: list[i], number: i + 1, level: level };
             }
         }
         return null;
@@ -131,7 +139,11 @@
         PASS_PERCENT,
         LESSONS,
         lessonsFor,
-        findLesson,
+        findLesson: function (id) {
+            const found = locate(id);
+            return found ? found.lesson : null;
+        },
+        locate,
         buildQueue,
         validate,
         nextLesson,

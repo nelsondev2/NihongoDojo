@@ -96,6 +96,26 @@ check('textos de compartir caben en los límites de la spec', () => {
     const reading = Core.buildShareText(4, 4, 'lectura');
     assert.strictEqual(reading.info, '100% (4/4) en lectura');
     assert.strictEqual(Core.buildShareText(8, 10, 'n1').info, '80% (8/10) en hiragana');
+    const lesson = Core.buildLessonShareText(5, 5, { number: 1, title: 'Hiragana: Vocales', pass: 70 });
+    assert.strictEqual(lesson.info, 'Lección 1. Hiragana: Vocales superada al 100%');
+    assert.strictEqual(lesson.summary, 'L1 100%');
+    const later = Core.buildLessonShareText(5, 5, { number: 2, title: 'Hiragana: Fila ka', pass: 70 });
+    assert.notStrictEqual(later.info, lesson.info);
+    assert.ok(later.info.includes('Fila ka'));
+    assert.ok(later.info.includes('superada al 100%'));
+    const missed = Core.buildLessonShareText(2, 5, { number: 3, title: 'Hiragana: Fila sa', pass: 70 });
+    assert.strictEqual(missed.info.includes('superada'), false);
+    assert.ok(missed.info.includes('al 40%'));
+    const long = Core.buildLessonShareText(3, 3, {
+        number: 213,
+        title: 'Hiragana combinado: nya, hya, mya, rya',
+        pass: 70
+    });
+    assert.ok([...long.info].length <= 50, long.info);
+    assert.ok([...long.summary].length <= 20, long.summary);
+    assert.ok(long.info.startsWith('Lección 213. '));
+    assert.ok(long.info.endsWith(' superada al 100%'));
+    assert.strictEqual(/[\r\n]/.test(long.info + long.summary), false);
     assert.ok([...grammar.info].length <= 50);
     assert.ok([...conj.info].length <= 50, conj.info);
     assert.ok([...frases.info].length <= 50);

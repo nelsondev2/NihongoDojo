@@ -411,6 +411,27 @@
         };
     }
 
+    // Aviso de una lección. info ≤ 50 y summary ≤ 20, sin saltos de línea.
+    // No usa el alcance del examen: un nivel no debe colarse como silabario.
+    function buildLessonShareText(correct, total, lesson) {
+        const safeTotal = Number.isFinite(total) && total > 0 ? Math.floor(total) : 0;
+        let safeCorrect = Number.isFinite(correct) && correct > 0 ? Math.floor(correct) : 0;
+        if (safeCorrect > safeTotal) safeCorrect = safeTotal;
+        const pct = safeTotal === 0 ? 0 : Math.round((safeCorrect / safeTotal) * 100);
+        const number = lesson && Number.isFinite(lesson.number) && lesson.number > 0
+            ? Math.floor(lesson.number) : 1;
+        const pass = lesson && Number.isFinite(lesson.pass) ? lesson.pass : 70;
+        const title = oneLine(lesson && lesson.title ? lesson.title : "");
+        const head = "Lección " + number + ". ";
+        const tail = pct >= pass ? " superada al " + pct + "%" : " al " + pct + "%";
+        const room = 50 - Array.from(head).length - Array.from(tail).length;
+        const shown = room > 1 ? clipCodePoints(title, room) : "";
+        return {
+            summary: clipCodePoints(oneLine("L" + number + " " + pct + "%"), 20),
+            info: clipCodePoints(oneLine(head + shown + tail), 50)
+        };
+    }
+
     // Reconstruye un examen guardado. Descarta instantáneas corruptas
     // o de otra versión en lugar de reanudar a medias.
     function parseExamSnapshot(data) {
@@ -534,6 +555,7 @@
         findKana,
         clipCodePoints,
         buildShareText,
+        buildLessonShareText,
         parseExamSnapshot
     };
 

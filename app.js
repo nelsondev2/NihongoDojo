@@ -1939,8 +1939,34 @@
         }
     }
 
-    function shareResultToChat(total) {
-        var texts = Core.buildShareText(exam.correct, total, shareScope(), exam.direction || state.direction);
+    var lastShareAt = 0;
+    function shareInterval() {
+        var interval = 10000;
+        try {
+            var n = window.webxdc && window.webxdc.sendUpdateInterval;
+            if (typeof n === 'number' && isFinite(n) && n >= 0 && n <= 60000) interval = n;
+        } catch (e) { /* el cliente no publica el intervalo */ }
+        return interval;
+    }
+    function currentLessonShare() {
+        if (!exam.lessonId || !Lessons || typeof Lessons.locate !== 'function') return null;
+        var found = Lessons.locate(exam.lessonId);
+        if (!found || !found.lesson) return null;
+        return {
+            title: found.lesson.title,
+            number: found.number,
+            level: found.level,
+            pass: Lessons.PASS_PERCENT
+        };
+    }
+    function shareTextsFor(total) {
+        var lesson = currentLessonShare();
+        if (lesson && Core.buildLessonShareText) return Core.buildLessonShareText(exam.correct, total, lesson);
+        return Core.buildShareText(exam.correct, total, shareScope(), exam.direction || state.direction);
+    }
+    function shareResultToChat(total, texts) {
+        var ready = texts || shareTextsFor(total);
+        var lesson = currentLessonShare();
         var selfName = '';
         try { selfName = (window.webxdc && window.webxdc.selfName) || ''; }
         catch (e) { selfName = ''; }
@@ -1950,6 +1976,9 @@
                 kind: 'nihongodojo-score',
                 practice: exam.practice || 'kana',
                 syllabary: shareScope(),
+                lessonId: exam.lessonId || '',
+                lessonNumber: lesson ? lesson.number : 0,
+                lessonTitle: lesson ? lesson.title : '',
                 mode: state.romajiMode,
                 direction: exam.direction || state.direction,
                 correct: exam.correct,
@@ -1959,9 +1988,11 @@
                 percent: total === 0 ? 0 : (exam.correct / total) * 100,
                 selfName: selfName
             },
-            info: texts.info,
-            summary: texts.summary
+            info: ready.info,
+            summary: ready.summary
         }, '');
+        lastShareAt = Date.now();
+        return ready;
     }
 
     function resultStatus(item) {
@@ -2108,20 +2139,35 @@
 
         if (webxdcAvailable()) {
             var shareBtn = buttonWithIcon('btn share-btn', '📤', 'Compartir en el chat');
+            var shareNote = el('p', 'mode-note', '');
             var sent = false;
             shareBtn.addEventListener('click', function () {
                 if (sent) return;
                 sent = true;
-                try {
-                    shareResultToChat(total);
-                    shareBtn.textContent = 'Enviado al chat';
-                    shareBtn.disabled = true;
-                } catch (e) {
-                    sent = false;
-                    shareBtn.textContent = 'No se pudo enviar. Reintentar';
+                shareBtn.disabled = true;
+                var texts = shareTextsFor(total);
+                var wait = Math.max(0, shareInterval() - (Date.now() - lastShareAt));
+                function go() {
+                    try {
+                        var sentTexts = shareResultToChat(total, texts);
+                        shareBtn.textContent = 'Enviado al chat';
+                        shareNote.textContent = sentTexts.info;
+                    } catch (e) {
+                        sent = false;
+                        shareBtn.disabled = false;
+                        shareBtn.textContent = 'No se pudo enviar. Reintentar';
+                        shareNote.textContent = '';
+                    }
+                }
+                if (wait > 0) {
+                    shareBtn.textContent = 'Se envía en ' + Math.ceil(wait / 1000) + ' s';
+                    window.setTimeout(go, wait);
+                } else {
+                    go();
                 }
             });
             summary.appendChild(shareBtn);
+            summary.appendChild(shareNote);
         }
 
         card.appendChild(summary);
@@ -2229,13 +2275,16 @@
     }
     function lessonResultLine(percent) {
         if (!exam.lessonId || !Lessons) return '';
-        var lesson = Lessons.findLesson(exam.lessonId);
+        var found = Lessons.locate ? Lessons.locate(exam.lessonId) : null;
+        var lesson = found ? found.lesson : Lessons.findLesson(exam.lessonId);
         if (!lesson) return '';
+        var label = found ? 'Lección ' + found.number + ' · ' + lesson.title : lesson.title;
         var prev = loadProgress(lesson.level)[lesson.id];
         recordLesson(lesson.id, percent);
-        if (percent >= Lessons.PASS_PERCENT) return 'Lección superada: ' + lesson.title + '. Queda marcada en el camino.';
-        if (prev && prev.passed) return 'Este intento no llega al ' + Lessons.PASS_PERCENT + '%, pero «' + lesson.title + '» sigue superada.';
-        return '«' + lesson.title + '» no llega al ' + Lessons.PASS_PERCENT + '%. El camino todavía no la marca.';
+        var score = Math.round(percent);
+        if (percent >= Lessons.PASS_PERCENT) return label + ' superada al ' + score + '%. Queda marcada en el camino.';
+        if (prev && prev.passed) return label + ' queda en ' + score + '%. Sigue superada.';
+        return label + ' queda en ' + score + '%. El camino todavía no la marca.';
     }
     function closeLesson() {
         openLessonId = '';

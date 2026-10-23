@@ -41,6 +41,10 @@ check('cada lección arma su quiz con ítems que ya existen', () => {
 check('el camino propone la primera no superada y no bloquea el resto', () => {
     assert.strictEqual(Lessons.nextLesson({}).id, 'l-h-vocales');
     assert.strictEqual(Lessons.nextLesson({ 'l-h-vocales': { passed: true } }).id, 'l-h-fila-ka');
+    const first = Lessons.locate('l-h-vocales');
+    assert.strictEqual(first.number, 1);
+    assert.strictEqual(first.lesson.title, 'Hiragana: Vocales');
+    assert.strictEqual(Lessons.locate('l-h-fila-ka').number, 2);
     const ka = Lessons.findLesson('l-h-fila-ka');
     assert.ok(!ka.teach[0].text.includes('し'));
     assert.ok(ka.teach[0].text.includes('か es ka'));
