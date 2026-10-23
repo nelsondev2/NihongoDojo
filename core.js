@@ -1,5 +1,5 @@
 /* ============================================================
- * Kana Dojo — core.js
+ * NihongoDojo — core.js
  * Lógica pura (sin DOM): base de datos de kana (básicos, rendaku
  * 濁音/半濁音 y yōon 拗音), filtros por fila, cola aleatoria y
  * corrección de respuestas en romaji.
@@ -125,13 +125,13 @@
         "ふ": ["hu"], "フ": ["hu"],
         "じ": ["zi"], "ジ": ["zi"],
         "ぢ": ["di", "zi"], "ヂ": ["di", "zi"], // CORRECCIÓN: 'di' ahora aceptado
-        "づ": ["du"], "ヅ": ["du"],
+        "づ": ["du", "dzu"], "ヅ": ["du", "dzu"], // du Kunrei; dzu Hepburn tradicional
         "を": ["o"], "ヲ": ["o"],               // CORRECCIÓN: 'o' ahora aceptado
         "ん": ["nn"], "ン": ["nn"],             // CORRECCIÓN: 'nn' ahora aceptado
-        // Yōon: alternativas Kunrei (sya/tya/zya…) e IME (cya…).
-        "しゃ": ["sya"], "シャ": ["sya"],
-        "しゅ": ["syu"], "シュ": ["syu"],
-        "しょ": ["syo"], "ショ": ["syo"],
+        // Yōon: alternativas Kunrei (sya/tya/zya…), IME (cya…) y shya/shyu/shyo.
+        "しゃ": ["sya", "shya"], "シャ": ["sya", "shya"],
+        "しゅ": ["syu", "shyu"], "シュ": ["syu", "shyu"],
+        "しょ": ["syo", "shyo"], "ショ": ["syo", "shyo"],
         "ちゃ": ["tya", "cya"], "チャ": ["tya", "cya"],
         "ちゅ": ["tyu", "cyu"], "チュ": ["tyu", "cyu"],
         "ちょ": ["tyo", "cyo"], "チョ": ["tyo", "cyo"],
@@ -144,6 +144,8 @@
     // Por defecto, flexible: es el comportamiento más cercano al original
     // (que ya aceptaba si/ti/tu/hu/zi/du) pero ahora consistente.
     const DEFAULT_MODE = MODES.FLEXIBLE;
+    const DIRECTIONS = { KANA_ROMAJI: "kana-romaji", ROMAJI_KANA: "romaji-kana" };
+    const DEFAULT_DIRECTION = DIRECTIONS.KANA_ROMAJI;
 
     function buildDatabase() {
         const db = [];
@@ -299,14 +301,207 @@
         return shuffle(available, rng).map((k) => ({
             kanaObj: k,
             userAnswer: null,
-            result: null
+            result: null,
+            choices: null
         }));
+    }
+
+    function readingCollision(target, pool) {
+        if (!target || !pool) return false;
+        for (let i = 0; i < pool.length; i++) {
+            const k = pool[i];
+            if (k && k.char !== target.char && k.type === target.type && k.romaji === target.romaji) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    // Opciones del modo inverso: el kana correcto y hasta 3 distractores
+    // de otra lectura. Un homófono (じ/ぢ) no puede ser la respuesta falsa.
+    function buildChoices(target, pool, rng, count) {
+        const wanted = count === undefined ? 4 : count;
+        const others = [];
+        const seen = new Set([target.char]);
+        const source = pool || [];
+        for (let i = 0; i < source.length; i++) {
+            const k = source[i] && source[i].kanaObj ? source[i].kanaObj : source[i];
+            if (!k || k.type !== target.type || seen.has(k.char)) continue;
+            if (k.romaji === target.romaji) continue;
+            seen.add(k.char);
+            others.push(k);
+        }
+        function rank(k) {
+            if (k.fila === target.fila) return 0;
+            if (k.category === target.category) return 1;
+            return 2;
+        }
+        const groups = [[], [], []];
+        others.forEach((k) => groups[rank(k)].push(k));
+        const ranked = groups.reduce((acc, group) => acc.concat(shuffle(group, rng)), []);
+        const picked = ranked.slice(0, Math.max(0, wanted - 1));
+        return shuffle([target].concat(picked), rng);
+    }
+
+    function ensureChoices(queue, rng) {
+        const pool = queue.map((item) => item.kanaObj);
+        queue.forEach((item) => {
+            const hasTarget = item.choices && item.choices.some((k) => k.char === item.kanaObj.char);
+            if (!hasTarget) item.choices = buildChoices(item.kanaObj, pool, rng);
+        });
+        return queue;
+    }
+
+    function checkChoice(target, chosenChar) {
+        const chosen = findKana(target.type, chosenChar);
+        if (!chosen) {
+            return { user: "", expected: target.char, correct: false, empty: true, skipped: false };
+        }
+        // El acierto es el carácter pedido, no otro con la misma lectura.
+        // じ y ぢ se distinguen en la pregunta; no se dan por buenos entre sí.
+        return {
+            user: chosen.char,
+            expected: target.char,
+            correct: chosen.char === target.char,
+            empty: false,
+            skipped: false
+        };
+    }
+
+    function findKana(type, ch) {
+        for (let i = 0; i < KANA_DB.length; i++) {
+            if (KANA_DB[i].type === type && KANA_DB[i].char === ch) return KANA_DB[i];
+        }
+        return null;
+    }
+
+    // Recorte por puntos de código (no parte un emoji sustituto).
+    function clipCodePoints(text, max) {
+        const chars = Array.from(text == null ? "" : String(text));
+        if (chars.length <= max) return chars.join("");
+        if (max <= 1) return chars.slice(0, max).join("");
+        return chars.slice(0, max - 1).join("") + "…";
+    }
+
+    function oneLine(text) {
+        return String(text == null ? "" : text).replace(/[\r\n]+/g, " ").replace(/\s+/g, " ").trim();
+    }
+
+    // Textos de sendUpdate dentro de los límites de la spec webxdc:
+    // info ≈ 50 caracteres, summary ≈ 20. Sin saltos de línea.
+    function buildShareText(correct, total, scope, direction) {
+        const safeTotal = Number.isFinite(total) && total > 0 ? Math.floor(total) : 0;
+        let safeCorrect = Number.isFinite(correct) && correct > 0 ? Math.floor(correct) : 0;
+        if (safeCorrect > safeTotal) safeCorrect = safeTotal;
+        const pct = safeTotal === 0 ? 0 : Math.round((safeCorrect / safeTotal) * 100);
+        const score = pct + "% (" + safeCorrect + "/" + safeTotal + ")";
+        const syll = scope === "katakana" ? "katakana"
+            : scope === "palabras" ? "palabras"
+            : scope === "kanji" ? "kanji"
+            : scope === "frases" ? "frases"
+            : "hiragana";
+        const suffix = direction === DIRECTIONS.ROMAJI_KANA ? " · inv" : "";
+        return {
+            summary: clipCodePoints(oneLine(score), 20),
+            info: clipCodePoints(oneLine(score + " en " + syll + suffix), 50)
+        };
+    }
+
+    // Reconstruye un examen guardado. Descarta instantáneas corruptas
+    // o de otra versión en lugar de reanudar a medias.
+    function parseExamSnapshot(data) {
+        if (!data || (data.v !== 1 && data.v !== 2)) return null;
+        if (data.type !== "hiragana" && data.type !== "katakana") return null;
+        if (data.mode !== MODES.STRICT && data.mode !== MODES.FLEXIBLE) return null;
+        const direction = data.direction === DIRECTIONS.ROMAJI_KANA
+            ? DIRECTIONS.ROMAJI_KANA
+            : DIRECTIONS.KANA_ROMAJI;
+        const reverse = direction === DIRECTIONS.ROMAJI_KANA;
+        if (!Array.isArray(data.items) || data.items.length === 0 || data.items.length > 300) return null;
+        if (typeof data.index !== "number" || data.index !== Math.floor(data.index)) return null;
+        if (data.index < 0 || data.index >= data.items.length) return null;
+
+        const queue = [];
+        for (let i = 0; i < data.items.length; i++) {
+            const it = data.items[i];
+            if (!it || typeof it.char !== "string" || it.char.length > 8) return null;
+            const kana = findKana(typeof it.type === "string" ? it.type : data.type, it.char);
+            if (!kana || kana.type !== data.type) return null;
+            const item = { kanaObj: kana, userAnswer: null, result: null, choices: null };
+            const skipped = it.skipped === true;
+            const markedCorrect = it.correct === true && !skipped;
+            const hasUser = typeof it.user === "string";
+            if (skipped || markedCorrect || hasUser) {
+                let user = "";
+                if (hasUser) {
+                    user = reverse ? String(it.user).slice(0, 8) : sanitizeRomaji(it.user);
+                    if (!reverse && user.length > 80) user = user.slice(0, 80);
+                }
+                item.result = {
+                    user: user,
+                    expected: reverse ? kana.char : String(kana.romaji).toLowerCase(),
+                    correct: markedCorrect,
+                    empty: false,
+                    skipped: skipped
+                };
+                item.userAnswer = skipped ? null : user;
+            }
+            if (reverse && Array.isArray(it.choices)) {
+                const seen = new Set();
+                const resolved = [];
+                for (let c = 0; c < it.choices.length && resolved.length < 6; c++) {
+                    const choiceChar = it.choices[c];
+                    if (typeof choiceChar !== "string" || seen.has(choiceChar)) continue;
+                    const choice = findKana(data.type, choiceChar);
+                    if (!choice || choice.type !== data.type) continue;
+                    if (choice.romaji === kana.romaji && choice.char !== kana.char) continue;
+                    seen.add(choiceChar);
+                    resolved.push(choice);
+                }
+                if (!seen.has(kana.char)) resolved.unshift(kana);
+                if (resolved.length) item.choices = resolved;
+            }
+            queue.push(item);
+        }
+
+        // No repreguntar un ítem ya respondido, ni contar respuestas
+        // que un almacén manipulado hubiera puesto por delante del índice.
+        for (let i = data.index + 1; i < queue.length; i++) {
+            queue[i].result = null;
+            queue[i].userAnswer = null;
+        }
+        const waitingNext = !!queue[data.index].result;
+        if (reverse) ensureChoices(queue);
+        let correct = 0;
+        let wrong = 0;
+        let skipped = 0;
+        const last = waitingNext ? data.index : data.index - 1;
+        for (let i = 0; i <= last; i++) {
+            const result = queue[i].result;
+            if (!result) continue;
+            if (result.skipped) skipped++;
+            else if (result.correct) correct++;
+            else wrong++;
+        }
+        return {
+            type: data.type,
+            mode: data.mode,
+            queue: queue,
+            index: data.index,
+            waitingNext: waitingNext,
+            direction: direction,
+            correct: correct,
+            wrong: wrong,
+            skipped: skipped
+        };
     }
 
     // API pública
     const api = {
         MODES,
         DEFAULT_MODE,
+        DIRECTIONS,
+        DEFAULT_DIRECTION,
         KANA_DB,
         HIRAGANA_BASIC_ROWS,
         KATAKANA_BASIC_ROWS,
@@ -321,10 +516,18 @@
         getYoonRowsByType,
         getFilteredKana,
         shuffle,
-        buildQueue
+        buildQueue,
+        buildChoices,
+        ensureChoices,
+        checkChoice,
+        readingCollision,
+        findKana,
+        clipCodePoints,
+        buildShareText,
+        parseExamSnapshot
     };
 
-    root.KanaDojoCore = api;
+    root.NihongoDojoCore = api;
     if (typeof module !== "undefined" && module.exports) {
         module.exports = api;
     }
