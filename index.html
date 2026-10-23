@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, viewport-fit=cover">
+    <meta name="description" content="Quiz sin conexión para practicar hiragana, katakana, rendaku (濁音・半濁音) y yōon (拗音) con romanización configurable. App webxdc para Delta Chat y ArcaneChat.">
+    <meta name="color-scheme" content="light">
+    <!-- CSP: la app no hace ninguna petición de red. scripts/styles externos
+         propios, favicon data:. Defensa extra en el entorno webxdc.
+         v1.2.1 (BAJO-8): se añade object-src 'none' (refuerzo: la app
+         no necesita <object>/<embed> para nada). -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+    <title>Kana Dojo - Hiragana, Katakana, Rendaku y Yōon</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20100%20100'%3E%3Ctext%20y='0.9em'%20font-size='90'%3E%F0%9F%8E%B4%3C/text%3E%3C/svg%3E">
+    <link rel="stylesheet" href="styles.css">
+    <script src="core.js" defer></script>
+    <script src="app.js" defer></script>
+</head>
+<body>
+<div class="app-container">
+    <header class="header">
+        <h1><span aria-hidden="true">🎴</span> Kana Dojo</h1>
+        <p>Hiragana · Katakana · Rendaku (sonidos sordos → sonoros) · Yōon (combinadas)</p>
+    </header>
+
+    <noscript>
+        <div class="options-panel">
+            <p class="config-warning">Esta aplicación necesita JavaScript para funcionar.</p>
+        </div>
+    </noscript>
+
+    <!-- Panel de configuración -->
+    <div id="optionsPanel" class="options-panel">
+        <div class="selector-group">
+            <div class="selector-label" id="silabarioLabel"><span aria-hidden="true">🔤</span> Silabario</div>
+            <div class="kana-type" role="group" aria-labelledby="silabarioLabel">
+                <button type="button" class="type-btn" data-type="hiragana" aria-pressed="true"><span aria-hidden="true">🇯🇵</span> HIRAGANA</button>
+                <button type="button" class="type-btn" data-type="katakana" aria-pressed="false"><span aria-hidden="true">🔺</span> KATAKANA</button>
+            </div>
+        </div>
+
+        <div class="selector-group">
+            <div class="selector-label" id="modoLabel"><span aria-hidden="true">🕹️</span> Modo de romanización</div>
+            <div class="kana-type" role="group" aria-labelledby="modoLabel">
+                <button type="button" id="strictModeBtn" class="type-btn" aria-pressed="false">Modo estricto</button>
+                <button type="button" id="flexibleModeBtn" class="type-btn" aria-pressed="true">Modo flexible</button>
+            </div>
+            <p id="modeNote" class="mode-note">Flexible: también acepta si, ti, tu, hu, zi, di, du, o, nn y sya/tya/jya…</p>
+        </div>
+
+        <div class="selector-group">
+            <div class="selector-label" id="basicasLabel"><span aria-hidden="true">📌</span> Filas básicas</div>
+            <div id="filaContainer" class="fila-grid" role="group" aria-labelledby="basicasLabel"></div>
+        </div>
+
+        <div class="selector-group">
+            <div class="selector-label" id="rendakuLabel"><span aria-hidden="true">🔊</span> Sonorizadas y semi-sonorizadas (<span lang="ja">濁音・半濁音</span>)</div>
+            <div id="rendakuContainer" class="fila-grid" role="group" aria-labelledby="rendakuLabel"></div>
+            <p class="small-note">✔️ がぎぐげご (G), ざじずぜぞ (Z/J), だぢづでど (D), ばびぶべぼ (B), ぱぴぷぺぽ (P)</p>
+        </div>
+
+        <!-- v1.2.0 (MEDIO-1): el yōon ya SÍ existe en la base de datos -->
+        <div class="selector-group">
+            <div class="selector-label" id="yoonLabel"><span aria-hidden="true">🎼</span> Combinadas (<span lang="ja">拗音</span> yōon)</div>
+            <div id="yoonContainer" class="fila-grid" role="group" aria-labelledby="yoonLabel"></div>
+            <p class="small-note">✔️ きゃ (kya), しゃ (sha), ちゃ (cha), じゃ (ja), びゃ (bya)… 11 grupos × 3</p>
+        </div>
+
+        <div class="action-buttons">
+            <button type="button" id="selectAllBasicBtn" class="btn btn-secondary"><span aria-hidden="true">✅</span> Todas básicas</button>
+            <button type="button" id="selectAllRendakuBtn" class="btn btn-secondary"><span aria-hidden="true">🔊</span> Todos rendakus</button>
+            <button type="button" id="selectAllYoonBtn" class="btn btn-secondary"><span aria-hidden="true">🎼</span> Todos yōon</button>
+            <button type="button" id="clearAllBtn" class="btn btn-secondary"><span aria-hidden="true">❌</span> Desmarcar todo</button>
+        </div>
+        <div class="action-buttons">
+            <button type="button" id="startExamBtn" class="btn btn-primary btn-block"><span aria-hidden="true">🚀</span> INICIAR EXAMEN (cola aleatoria)</button>
+        </div>
+        <div id="configWarning" class="config-warning hidden" role="alert"></div>
+    </div>
+
+    <!-- Área del examen: se rellena clonando el template (fuente única de markup) -->
+    <div id="quizArea" class="hidden"></div>
+
+    <template id="quizCardTemplate">
+        <div class="quiz-card">
+            <div class="kana-display" id="kanaChar" lang="ja">—</div>
+            <div class="input-area">
+                <!-- v1.2.0: el yōon ahora SÍ está en la BD, el placeholder puede mencionarlo -->
+                <input type="text" id="answerInput" class="answer-input" placeholder="Escribe romaji (ej: ga, sha, kya)" autocomplete="off" autocapitalize="none" spellcheck="false" enterkeyhint="send" aria-label="Respuesta en romaji">
+            </div>
+            <div class="feedback" id="feedbackMsg" role="status" aria-live="polite">✍️ Escribe el romaji y pulsa Enter.</div>
+            <div class="quiz-actions">
+                <button type="button" id="skipBtn" class="btn btn-secondary"><span aria-hidden="true">⏭️</span> Saltar</button>
+                <button type="button" id="exitBtn" class="btn"><span aria-hidden="true">✖️</span> Salir del examen</button>
+            </div>
+            <div class="progress-info">
+                <span id="quizProgress">📋 Pregunta 1 de 1</span>
+                <span id="quizScore">✅ 0 · ❌ 0</span>
+            </div>
+            <div class="small-note">
+                💡 Respuesta en romaji: 'ga', 'sha', 'kya', 'de', 'bo'…<br>
+                Tras responder, avance automático en 2 segundos.
+            </div>
+        </div>
+    </template>
+</div>
+</body>
+</html>

@@ -1,0 +1,404 @@
+/* ============================================================
+ * Kana Dojo — styles.css
+ * Estilos extraídos del index.html original con correcciones:
+ *  - MEDIO-6: min-height con fallback 100dvh (iOS/Safari móvil).
+ *  - ALTO-4: contraste AA en .small-note, tamaño mínimo de letra,
+ *    :focus-visible, chips convertidos en <button> (reset de
+ *    apariencia), soporte prefers-reduced-motion.
+ *  - Sin estilos inline en el HTML: clase utilitaria .hidden.
+ *
+ * v1.2.1 — auditoría de contraste WCAG 2.1 AA (1.4.3) calculada
+ * con luminancia relativa (scripts/audit_contrast.py); se corrigen
+ * los 5 pares texto/fondo que quedaban por debajo de 4.5:1:
+ *  - WCAG-1 .header p:       rgba(255,255,255,.9) → blanco 100%   (4.28 → 4.98)
+ *  - WCAG-2 .btn-secondary:  #5f7f8c → #54707b                      (4.28 → 5.28)
+ *  - WCAG-3 .restart-btn:    #ff9800 → #bf360c                      (2.16 → 5.60)
+ *  - WCAG-4 .share-btn:      #00897b → #00796b (disabled #4fa397)   (4.32 → 5.32)
+ *  - WCAG-5 .summary h3:     #b45f06 → #9a4a04                      (4.15 → 5.66)
+ * ============================================================ */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(145deg, #f7f9fc 0%, #eef2f5 100%);
+    font-family: 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 16px;
+    min-height: 100vh;
+    min-height: 100dvh; /* MEDIO-6: corrige recorte con barra de direcciones móvil */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Utilitaria única para ocultar paneles (sin estilos inline) */
+.hidden {
+    display: none !important;
+}
+
+.app-container {
+    max-width: 650px;
+    width: 100%;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.96);
+    border-radius: 48px 32px 48px 32px;
+    box-shadow: 0 20px 35px -12px rgba(0, 0, 0, 0.2), 0 1px 3px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+}
+
+.header {
+    background: #d32f2f;
+    padding: 20px 20px 16px;
+    text-align: center;
+    color: white;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 1.9rem;
+    letter-spacing: -0.5px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.header p {
+    margin: 8px 0 0;
+    /* WCAG-1 (v1.2.1): antes opacity .9 → 4.28:1 (< 4.5). Blanco
+       pleno sobre #d32f2f da 4.98:1 y conserva el diseño. */
+    color: white;
+    font-weight: 500;
+    font-size: 0.85rem;
+}
+
+.options-panel {
+    padding: 20px 20px 14px;
+    background: #ffffff;
+}
+
+.selector-group {
+    margin-bottom: 20px;
+}
+
+.selector-label {
+    font-weight: 700;
+    font-size: 1rem;
+    color: #2c3e44;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+.kana-type {
+    display: flex;
+    gap: 8px;
+    background: #f1f3f5;
+    padding: 5px;
+    border-radius: 60px;
+    flex-wrap: wrap;
+}
+
+.type-btn {
+    flex: 1;
+    text-align: center;
+    padding: 10px 6px;
+    border-radius: 40px;
+    background: transparent;
+    border: none;
+    font-weight: 700;
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-family: inherit;
+    color: #4a5b66;
+}
+
+.type-btn.active {
+    background: white;
+    color: #d32f2f;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    border: 1px solid #ffe0e0;
+}
+
+.fila-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 12px;
+    max-height: 240px;
+    overflow-y: auto;
+    padding: 5px 2px;
+}
+
+/* ALTO-4: los chips ahora son <button type="button"> → se resetea la
+   apariencia nativa para conservar el diseño de píldora original. */
+.fila-chip {
+    appearance: none;
+    -webkit-appearance: none;
+    background: #f1f3f5;
+    border-radius: 40px;
+    padding: 6px 14px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #1e2a32;
+    cursor: pointer;
+    transition: all 0.2s;
+    border: 1px solid transparent;
+    text-align: center;
+    flex: 0 0 auto;
+    font-family: inherit;
+    line-height: 1.3;
+    min-height: 34px;              /* objetivo táctil razonable */
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+}
+
+.fila-chip.selected {
+    background: #d32f2f;
+    color: white;
+    border-color: #b71c1c;
+    box-shadow: 0 4px 8px rgba(211, 47, 47, 0.2);
+}
+
+.rendaku-chip {
+    background: #e8e0f0;
+    border-left: 3px solid #9c27b0;
+}
+
+.rendaku-chip.selected {
+    background: #7b1fa2;
+    border-color: #4a148c;
+    box-shadow: 0 4px 8px rgba(123, 31, 162, 0.25);
+}
+
+/* v1.2.0: chips yōon (拗音) con acento verde azulado propio, para que
+   los tres grupos se distingan de un vistazo. */
+.yoon-chip {
+    background: #e0f0ec;
+    border-left: 3px solid #00897b;
+}
+
+.yoon-chip.selected {
+    background: #00695c;
+    border-color: #004d40;
+    box-shadow: 0 4px 8px rgba(0, 105, 92, 0.25);
+}
+
+.mode-note {
+    font-size: 0.75rem;
+    color: #4a5b66;
+    margin-top: 8px;
+    text-align: center;
+}
+
+.config-warning {
+    background: #fff3e0;
+    border: 1px solid #ffcc80;
+    color: #8c3d00;
+    border-radius: 24px;
+    padding: 10px 16px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-top: 12px;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 10px;
+    margin: 15px 0 8px;
+    flex-wrap: wrap;
+}
+
+.btn {
+    background: #2c3e44;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 60px;
+    font-weight: 700;
+    font-size: 0.8rem;
+    color: white;
+    cursor: pointer;
+    flex: 1;
+    text-align: center;
+    font-family: inherit;
+    min-height: 44px; /* objetivo táctil accesible */
+}
+
+.btn-primary {
+    background: #d32f2f;
+    box-shadow: 0 4px 0 #8b1e1e;
+    transform: translateY(-1px);
+}
+
+.btn-primary:active {
+    transform: translateY(2px);
+    box-shadow: 0 1px 0 #8b1e1e;
+}
+
+/* WCAG-2 (v1.2.1): #5f7f8c daba 4.28:1 con texto blanco; #54707b
+   sube a 5.28:1 manteniendo el gris azulado. */
+.btn-secondary {
+    background: #54707b;
+}
+
+.btn-block {
+    width: 100%;
+    margin-top: 8px;
+}
+
+.quiz-card {
+    padding: 20px 24px 28px;
+    background: #fefcf5;
+}
+
+.kana-display {
+    background: white;
+    border-radius: 56px;
+    padding: 30px 16px;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 700;
+    font-family: "Noto Sans CJK JP", "Hiragino Kaku Gothic Pro", "Meiryo", "Noto Sans SC", sans-serif;
+    box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.06), 0 10px 20px -5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 24px;
+    color: #1f2a2e;
+    border: 1px solid #ffefcf;
+    min-height: 96px;
+    line-height: 1.2;
+}
+
+.answer-input {
+    width: 100%;
+    padding: 16px 20px;
+    font-size: 1.2rem;
+    text-align: center;
+    border: 2px solid #e2e8f0;
+    border-radius: 60px;
+    font-family: monospace;
+    background: white;
+    outline: none;
+    font-weight: 500;
+}
+
+.answer-input:focus {
+    border-color: #d32f2f;
+    box-shadow: 0 0 0 3px rgba(211, 47, 47, 0.2);
+}
+
+.answer-input:disabled {
+    background: #f6f7f8;
+    color: #9aa7ad;
+}
+
+.feedback {
+    text-align: center;
+    margin: 15px 0 10px;
+    font-weight: bold;
+    font-size: 1rem;
+    min-height: 48px;
+}
+
+.quiz-actions {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.progress-info {
+    display: flex;
+    justify-content: space-between;
+    background: #ede7e0;
+    padding: 10px 16px;
+    border-radius: 40px;
+    margin-top: 12px;
+    font-weight: 600;
+    font-size: 0.85rem;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+/* WCAG-3 (v1.2.1): blanco sobre #ff9800 era 2.16:1 — el peor
+   incumplimiento AA de la app. #bf360c (naranja profundo) da 5.60:1. */
+.restart-btn {
+    background: #bf360c;
+    margin-top: 12px;
+    width: 100%;
+}
+
+/* v1.2.0: botón «Compartir en el chat» (solo visible en webxdc)
+   WCAG-4 (v1.2.1): #00897b → #00796b (4.32 → 5.32:1); el estado
+   disabled usa un tono del mismo acento (exento de 1.4.3). */
+.share-btn {
+    background: #00796b;
+    margin-top: 8px;
+    width: 100%;
+}
+
+.share-btn:disabled {
+    background: #4fa397;
+    cursor: default;
+    transform: none;
+}
+
+/* ALTO-4: contraste ≥ 4.5:1 (#5a6b72 sobre #fefcf5 ≈ 5.4:1) y tamaño
+   legible (antes 0.65rem ≈ 10px y ≈ 4.3:1 → fallaba WCAG AA). */
+.small-note {
+    font-size: 0.75rem;
+    text-align: center;
+    margin-top: 16px;
+    color: #5a6b72;
+    line-height: 1.5;
+}
+
+.summary {
+    background: #fef2e0;
+    border-radius: 36px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ffdd99;
+}
+
+.summary h3 {
+    margin-top: 0;
+    /* WCAG-5 (v1.2.1): #b45f06 daba 4.15:1 sobre #fef2e0;
+       #9a4a04 alcanza 5.66:1. */
+    color: #9a4a04;
+}
+
+.results-list {
+    max-height: 240px;
+    overflow-y: auto;
+    text-align: left;
+    font-size: 0.8rem;
+    margin: 15px 0;
+}
+
+/* ALTO-4: indicador de foco visible y consistente para teclado */
+:focus-visible {
+    outline: 3px solid #1e88e5;
+    outline-offset: 2px;
+}
+
+.answer-input:focus-visible {
+    outline: none; /* el input ya comunica el foco con borde/sombra */
+}
+
+/* Respeto a usuarios con movimiento reducido */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        transition: none !important;
+        animation: none !important;
+    }
+}
+
+@media (max-width: 500px) {
+    .kana-display { font-size: 3.8rem; padding: 24px 12px; }
+    .fila-chip { padding: 5px 12px; font-size: 0.75rem; }
+    .type-btn { font-size: 0.75rem; }
+    .quiz-card { padding: 16px 14px 22px; }
+}
