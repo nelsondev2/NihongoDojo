@@ -8,8 +8,9 @@
     <!-- CSP: la app no hace ninguna petición de red. scripts/styles externos
          propios, favicon data:. Defensa extra en el entorno webxdc.
          v1.2.1 (BAJO-8): se añade object-src 'none' (refuerzo: la app
-         no necesita <object>/<embed> para nada). -->
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+         no necesita <object>/<embed> para nada). blob: solo sirve para
+         descargar la copia en el navegador; no es una petición de red. -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' blob:; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
     <title>NihongoDojo - Camino N5, N4, N3, N2 y N1</title>
     <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20100%20100'%3E%3Ctext%20y='0.9em'%20font-size='90'%3E%F0%9F%8E%B4%3C/text%3E%3C/svg%3E">
     <link rel="stylesheet" href="styles.css">
@@ -65,6 +66,15 @@
             <div class="home-switch" role="group" aria-label="Qué quieres hacer">
                 <button type="button" id="homePathBtn" class="type-btn" aria-pressed="true">Camino</button>
                 <button type="button" id="homeFreeBtn" class="type-btn" aria-pressed="false">Examen libre</button>
+            </div>
+            <div id="backupBar" class="backup-bar">
+                <p class="mode-note">Al cambiar de versión, este dispositivo no se lleva el progreso. Manda una copia al chat y ábrela en la versión nueva.</p>
+                <div class="action-buttons">
+                    <button type="button" id="exportBackupBtn" class="btn btn-secondary">Mandar copia al chat</button>
+                    <button type="button" id="importBackupBtn" class="btn btn-secondary">Restaurar copia</button>
+                </div>
+                <p id="backupNote" class="mode-note" role="status"></p>
+                <input type="file" id="backupFile" class="visually-hidden" accept="application/json,.json">
             </div>
         </div>
 

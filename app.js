@@ -158,6 +158,11 @@
     var pathContinueBtn = $('pathContinueBtn');
     var reviewDueBtn = $('reviewDueBtn');
     var reviewDueNote = $('reviewDueNote');
+    var exportBackupBtn = $('exportBackupBtn');
+    var importBackupBtn = $('importBackupBtn');
+    var backupNote = $('backupNote');
+    var backupFile = $('backupFile');
+    var APP_VERSION = '1.13.4';
     var lessonView = $('lessonView');
     var lessonBackBtn = $('lessonBackBtn');
     var lessonTitle = $('lessonTitle');
@@ -2523,6 +2528,132 @@
         return typeof window !== 'undefined' &&
             window.webxdc && typeof window.webxdc.sendUpdate === 'function';
     }
+    function canSendToChat() {
+        try { return !!(window.webxdc && typeof window.webxdc.sendToChat === 'function'); }
+        catch (e) { return false; }
+    }
+    function canImportFiles() {
+        try { return !!(window.webxdc && typeof window.webxdc.importFiles === 'function'); }
+        catch (e) { return false; }
+    }
+    function setBackupNote(text) {
+        if (backupNote) backupNote.textContent = text || '';
+    }
+    function eachStoredName(fn) {
+        if (!storageOk || !window.localStorage) return;
+        var names = [];
+        try {
+            for (var i = 0; i < window.localStorage.length; i++) {
+                var full = window.localStorage.key(i);
+                if (full && full.indexOf(STORAGE_PREFIX) === 0) names.push(full.slice(STORAGE_PREFIX.length));
+            }
+        } catch (e) { return; }
+        names.forEach(fn);
+    }
+    function collectBackupEntries() {
+        var out = {};
+        eachStoredName(function (name) {
+            if (name === 'probe') return;
+            var value = storageGet(name);
+            if (typeof value === 'string') out[name] = value;
+        });
+        return out;
+    }
+    function downloadBackup(name, json) {
+        var blob = new Blob([json], { type: 'application/json' });
+        var url = URL.createObjectURL(blob);
+        var a = document.createElement('a');
+        a.href = url;
+        a.download = name;
+        a.rel = 'noopener';
+        document.body.appendChild(a);
+        a.click();
+        a.remove();
+        setTimeout(function () { URL.revokeObjectURL(url); }, 1500);
+    }
+    function exportBackup() {
+        if (!Core.buildBackup) return;
+        var entries = collectBackupEntries();
+        var exportedAt = new Date().toISOString();
+        var backup = Core.buildBackup(entries, { app: APP_VERSION, exportedAt: exportedAt });
+        if (!backup) {
+            setBackupNote('No hay progreso que copiar.');
+            return;
+        }
+        var json = JSON.stringify(backup);
+        var name = Core.backupFileName(exportedAt);
+        var text = Core.backupChatText(Core.backupSummary(backup.keys));
+        if (canSendToChat()) {
+            if (exportBackupBtn) exportBackupBtn.disabled = true;
+            setBackupNote('Elige el chat. Mensajes guardados sirve. En la versión nueva, pulsa Restaurar copia.');
+            window.webxdc.sendToChat({
+                file: { name: name, plainText: json },
+                text: text
+            }).then(function () {
+                if (exportBackupBtn) exportBackupBtn.disabled = false;
+                setBackupNote('Copia lista. En la versión nueva, pulsa Restaurar copia.');
+            }).catch(function () {
+                if (exportBackupBtn) exportBackupBtn.disabled = false;
+                setBackupNote('No se mandó la copia. Si cancelaste, no pasa nada. Si no, inténtalo otra vez.');
+            });
+            return;
+        }
+        downloadBackup(name, json);
+        setBackupNote('Este cliente no manda archivos al chat. Se descargó la copia. En la versión nueva, pulsa Restaurar copia.');
+    }
+    function applyBackupText(text) {
+        var data;
+        try { data = JSON.parse(text); }
+        catch (e) {
+            setBackupNote('Ese archivo no es una copia de NihongoDojo.');
+            return;
+        }
+        var parsed = Core.parseBackup ? Core.parseBackup(data) : null;
+        if (!parsed) {
+            setBackupNote('Esa copia no se puede restaurar.');
+            return;
+        }
+        var line = Core.backupLine(Core.backupSummary(parsed.keys));
+        if (!window.confirm('Restaurar sustituye el progreso de este dispositivo. ' + line + ' ¿Continuar?')) return;
+        eachStoredName(function (name) {
+            if (name !== 'probe') storageRemove(name);
+        });
+        Object.keys(parsed.keys).forEach(function (name) {
+            storageSet(name, parsed.keys[name]);
+        });
+        window.location.reload();
+    }
+    function readBackupFile(file) {
+        if (!file) return;
+        var reader = new FileReader();
+        reader.onload = function () { applyBackupText(String(reader.result || '')); };
+        reader.onerror = function () { setBackupNote('No se pudo leer la copia.'); };
+        reader.readAsText(file);
+    }
+    function importBackup() {
+        if (canImportFiles()) {
+            window.webxdc.importFiles({
+                extensions: ['.json'],
+                mimeTypes: ['application/json', 'text/plain']
+            }).then(function (files) {
+                if (files && files.length) readBackupFile(files[0]);
+            }).catch(function () {
+                setBackupNote('No se pudo abrir la copia.');
+            });
+            return;
+        }
+        if (backupFile) backupFile.click();
+    }
+    function updateBackupUI() {
+        if (!exportBackupBtn) return;
+        var lead = document.querySelector('#backupBar > .mode-note');
+        if (canSendToChat()) {
+            exportBackupBtn.textContent = 'Mandar copia al chat';
+            return;
+        }
+        exportBackupBtn.textContent = 'Descargar copia';
+        if (lead) lead.textContent = 'Al cambiar de versión, este dispositivo no se lleva el progreso. Descarga la copia y ábrela en la versión nueva con Restaurar copia.';
+    }
 
     function exitExam() {
         stopSpeech();
@@ -3013,6 +3144,13 @@
         if (homePathBtn) homePathBtn.addEventListener('click', function () { setHome('path'); });
         if (homeFreeBtn) homeFreeBtn.addEventListener('click', function () { setHome('free'); });
         if (reviewDueBtn) reviewDueBtn.addEventListener('click', startReview);
+        if (exportBackupBtn) exportBackupBtn.addEventListener('click', exportBackup);
+        if (importBackupBtn) importBackupBtn.addEventListener('click', importBackup);
+        if (backupFile) backupFile.addEventListener('change', function () {
+            var file = backupFile.files && backupFile.files[0];
+            backupFile.value = '';
+            readBackupFile(file);
+        });
         if (pathListToggle) pathListToggle.addEventListener('click', function () {
             state.pathOpen = !state.pathOpen;
             renderPath();
@@ -3079,6 +3217,7 @@
         updateAudioUI();
         renderPath();
         refreshResumePanel();
+        updateBackupUI();
         bindEvents();
         setHidden(quizArea, true);
         setHidden(optionsPanel, false);

@@ -268,6 +268,37 @@ check('una instantánea inversa conserva el kana elegido', () => {
     assert.ok([...text.summary].length <= 20);
 });
 
+check('una copia guarda el camino y rechaza otra cosa', () => {
+    const entries = {
+        lessons: JSON.stringify({ 'l-h-vocales': { passed: true, best: 100, last: 80 } }),
+        'lessons.n4': JSON.stringify({ 'l-n4': { passed: false, best: 40, last: 40 } }),
+        'miss.n5.words': JSON.stringify(['w-1', 'w-2']),
+        'seen.n5': JSON.stringify({ 'kana\nhiragana:あ': [1, 1] }),
+        probe: '1',
+        'payload-ajeno': '{"kind":"nihongodojo-score"}'
+    };
+    const backup = Core.buildBackup(entries, { app: '1.13.4', exportedAt: '2026-10-23T12:00:00.000Z' });
+    assert.strictEqual(backup.kind, 'nihongodojo-backup');
+    assert.strictEqual(backup.v, 1);
+    assert.strictEqual(backup.keys.probe, undefined);
+    assert.strictEqual(backup.keys['payload-ajeno'], undefined);
+    assert.ok(backup.keys['seen.n5'].indexOf('あ') !== -1);
+    const parsed = Core.parseBackup(JSON.parse(JSON.stringify(backup)));
+    assert.strictEqual(parsed.keys.lessons, entries.lessons);
+    const summary = Core.backupSummary(parsed.keys);
+    assert.strictEqual(summary.passed.n5, 1);
+    assert.strictEqual(summary.passed.n4, 0);
+    assert.strictEqual(summary.misses, 2);
+    const text = Core.backupChatText(summary);
+    assert.ok(text.indexOf('N5 1') !== -1);
+    assert.ok(text.indexOf('Restaurar copia') !== -1);
+    assert.strictEqual(text.indexOf('\n'), -1);
+    assert.strictEqual(Core.backupFileName(backup.exportedAt), 'nihongodojo-copia-2026-10-23.json');
+    assert.strictEqual(Core.parseBackup({ kind: 'nihongodojo-score', v: 1, keys: entries }), null);
+    assert.strictEqual(Core.parseBackup({ kind: 'nihongodojo-backup', v: 1, keys: { lessons: { passed: true } } }), null);
+    assert.strictEqual(Core.buildBackup({}, { app: '1.13.4' }), null);
+});
+
 check('la cola básica de hiragana tiene 46 y no repite', () => {
     const rows = Core.getBasicRowsByType('hiragana');
     const queue = Core.buildQueue('hiragana', rows, [], [], () => 0);

@@ -473,6 +473,22 @@ body {
     flex-wrap: wrap;
 }
 
+.backup-bar {
+    margin-top: 14px;
+    padding-top: 10px;
+    border-top: 1px solid #f0e4e4;
+}
+
+.backup-bar .action-buttons {
+    margin: 8px 0 4px;
+}
+
+.backup-bar .btn {
+    flex: 1 1 140px;
+    white-space: normal;
+    line-height: 1.3;
+}
+
 .btn {
     background: #2c3e44;
     border: none;

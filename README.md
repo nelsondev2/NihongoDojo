@@ -2,7 +2,7 @@
 
 Quiz sin conexión para el **JLPT N5, N4, N3, N2 y N1**: un camino de lecciones y exámenes libres de **silabarios**, **vocabulario**, **kanji**, **frases**, **gramática** y **conjugación**. En los silabarios ves el carácter y escribes el romaji, o al revés. En el resto eliges entre opciones. La voz es la del sistema, también dentro de un webxdc, además del examen.
 
-Es una mini-app [webxdc](https://webxdc.org/) para Delta Chat y ArcaneChat (versión 1.13.3). También se abre sola en el navegador: no tiene servidor, dependencias ni conexión de red.
+Es una mini-app [webxdc](https://webxdc.org/) para Delta Chat y ArcaneChat (versión 1.13.4). También se abre sola en el navegador: no tiene servidor, dependencias ni conexión de red.
 
 El JLPT no publica lista oficial de vocabulario, kanji ni gramática desde 2010. El N5 sigue el recorte comunitario de Jonathan Waller (el que usa Jisho), a través de OpenJLPT: 674 palabras, 84 kanji y 81 puntos de gramática, más los kana y las conjugaciones que esos ítems necesitan. El N4 añade el recorte incremental: 630 palabras, 169 kanji y 98 puntos de gramática, con potencial, condicionales y voz. El N3 añade otras 1.659 palabras, 387 kanji y 101 puntos, con la negación ず. El N2 añade el recorte siguiente: 1.778 palabras, 398 kanji y 123 puntos, con まい y los verbos en ずる. El N1 añade el último recorte: 3.070 palabras, 1.345 kanji y 123 puntos. No es el examen ni una promesa de aprobarlo.
 
@@ -118,6 +118,7 @@ El progreso va en `nihongodojo.lessons.n1`. Los temas marcados van en `sel.n1.*`
    - **Oír** pide la voz del sistema. Si «Al mostrar» está activo, suena al aparecer la pregunta, salvo cuando eso revelaría la respuesta: entonces suena al corregir. En un texto largo, suena una vez al empezar.
 6. Al terminar ves aciertos, fallos, saltadas y el porcentaje (`aciertos / total`). Si hubo errores, **Repasar fallos** arma otro examen solo con esos elementos.
 7. **Salir del examen** pide confirmación. Si el dispositivo permite guardar, la sesión queda a medias y se puede continuar desde la pantalla inicial.
+8. Antes de cambiar de versión, pulsa **Mandar copia al chat**. El cliente te deja elegir el destino; Mensajes guardados sirve. El archivo se llama `nihongodojo-copia-AAAA-MM-DD.json` y no es un aviso de puntuación. En la versión nueva, **Restaurar copia** abre los archivos recientes del chat. Eso sustituye el progreso de ese dispositivo. Si el cliente no puede mandar archivos, se descarga la misma copia.
 
 El silabario, el modo, la práctica, los temas, las filas y el camino se recuerdan en `localStorage`. Si el almacenamiento no está disponible, la app sigue en memoria, pero al salir se pierde la sesión: el diálogo lo dice.
 
@@ -226,7 +227,7 @@ No hay paso de compilación. `core.js` no toca el DOM y también se puede cargar
 
 ## Privacidad
 
-La página no hace peticiones de red. La política de contenido solo permite scripts y estilos propios. Lo que escribes se queda en el dispositivo, salvo que pulses compartir: entonces se envía el resumen de esa sesión al chat, no cada respuesta. La pronunciación usa la síntesis de voz del sistema; la app no envía el audio a ningún servidor.
+La página no hace peticiones de red. La política de contenido solo permite scripts y estilos propios. Lo que escribes se queda en el dispositivo, salvo que pulses compartir: entonces se envía el resumen de esa sesión al chat, no cada respuesta. La copia del progreso solo sale si pulsas Mandar copia al chat y eliges el destino. Lleva el camino, los fallos, el repaso y, si lo hay, un examen a medias. No sale sola. La pronunciación usa la síntesis de voz del sistema; la app no envía el audio a ningún servidor.
 
 ## Licencia
 

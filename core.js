@@ -549,6 +549,105 @@
         return /^[a-z0-9-]{1,80}$/.test(data.lessonId) ? data.lessonId : "";
     }
 
+    // Copia del progreso. No es un aviso de puntuación: es un archivo para otra versión.
+    const BACKUP_KEY = /^(?:lessons(?:\.n[1-5])?|seen\.n[1-5]|miss\.kana|miss\.n[1-5]\.(?:words|kanji|phrases|conj|grammar|reading)|exam|mode|type|direction|audio|practice|answerMode|level|home|(?:word|kanji|phrase|conj|grammar)Direction|sel\.(?:hiragana|katakana)\.(?:basic|rendaku|yoon)|sel\.(?:words|kanji|phrases|conj|grammar)|sel\.n[1-5]\.(?:words|kanji|phrases|conj|grammar))$/;
+    const BACKUP_VALUE_MAX = 2000000;
+    const BACKUP_TOTAL_MAX = 4000000;
+    const BACKUP_KEYS_MAX = 200;
+
+    function isBackupKey(name) {
+        return typeof name === "string" && BACKUP_KEY.test(name);
+    }
+
+    function takeBackupKeys(source) {
+        if (!source || typeof source !== "object" || Array.isArray(source)) return null;
+        const names = Object.keys(source);
+        if (names.length > BACKUP_KEYS_MAX) return null;
+        const keys = {};
+        let total = 0;
+        for (let i = 0; i < names.length; i++) {
+            const name = names[i];
+            if (!isBackupKey(name)) continue;
+            const value = source[name];
+            if (typeof value !== "string" || value.length > BACKUP_VALUE_MAX) return null;
+            total += value.length;
+            if (total > BACKUP_TOTAL_MAX) return null;
+            keys[name] = value;
+        }
+        return keys;
+    }
+
+    function buildBackup(entries, meta) {
+        const keys = takeBackupKeys(entries || {});
+        if (!keys || !Object.keys(keys).length) return null;
+        const app = meta && typeof meta.app === "string" ? oneLine(meta.app).slice(0, 20) : "";
+        const exportedAt = meta && typeof meta.exportedAt === "string" ? oneLine(meta.exportedAt).slice(0, 40) : "";
+        return { kind: "nihongodojo-backup", v: 1, app: app, exportedAt: exportedAt, keys: keys };
+    }
+
+    function parseBackup(data) {
+        if (!data || data.kind !== "nihongodojo-backup" || data.v !== 1) return null;
+        const keys = takeBackupKeys(data.keys);
+        if (!keys || !Object.keys(keys).length) return null;
+        return {
+            v: 1,
+            app: typeof data.app === "string" ? oneLine(data.app).slice(0, 20) : "",
+            keys: keys
+        };
+    }
+
+    function backupSummary(keys) {
+        const passed = { n5: 0, n4: 0, n3: 0, n2: 0, n1: 0 };
+        function count(raw, level) {
+            if (typeof raw !== "string") return;
+            let data;
+            try { data = JSON.parse(raw); } catch (e) { return; }
+            if (!data || typeof data !== "object" || Array.isArray(data)) return;
+            Object.keys(data).forEach(function (id) {
+                if (data[id] && data[id].passed === true) passed[level] += 1;
+            });
+        }
+        count(keys && keys.lessons, "n5");
+        ["n4", "n3", "n2", "n1"].forEach(function (level) {
+            count(keys && keys["lessons." + level], level);
+        });
+        let misses = 0;
+        Object.keys(keys || {}).forEach(function (name) {
+            if (name.indexOf("miss.") !== 0) return;
+            try {
+                const arr = JSON.parse(keys[name]);
+                if (Array.isArray(arr)) misses += arr.length;
+            } catch (e) { /* un fallo ilegible no infla el resumen */ }
+        });
+        return { passed: passed, misses: misses };
+    }
+
+    function backupLine(summary) {
+        const parts = [];
+        let total = 0;
+        ["n5", "n4", "n3", "n2", "n1"].forEach(function (level) {
+            const n = summary && summary.passed ? summary.passed[level] : 0;
+            if (!n) return;
+            total += n;
+            parts.push(level.toUpperCase() + " " + n);
+        });
+        const lessons = parts.length
+            ? parts.join(", ") + (total === 1 ? " superada" : " superadas")
+            : "sin lecciones superadas";
+        const n = summary && summary.misses ? summary.misses : 0;
+        const misses = n ? n + (n === 1 ? " fallo" : " fallos") : "sin fallos";
+        return oneLine(lessons + ". " + misses + ".");
+    }
+
+    function backupChatText(summary) {
+        return clipCodePoints(oneLine("Copia de NihongoDojo. " + backupLine(summary) + " Ábrela en la versión nueva con Restaurar copia."), 500);
+    }
+
+    function backupFileName(iso) {
+        const day = String(iso || "").slice(0, 10);
+        return /^\d{4}-\d{2}-\d{2}$/.test(day) ? "nihongodojo-copia-" + day + ".json" : "nihongodojo-copia.json";
+    }
+
     // API pública
     const api = {
         MODES,
@@ -579,7 +678,13 @@
         buildShareText,
         buildLessonShareText,
         planReview,
-        parseExamSnapshot
+        parseExamSnapshot,
+        buildBackup,
+        parseBackup,
+        backupSummary,
+        backupLine,
+        backupChatText,
+        backupFileName
     };
 
     root.NihongoDojoCore = api;
