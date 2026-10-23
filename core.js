@@ -403,12 +403,34 @@
             : scope === "gramática" ? "gramática"
             : scope === "escucha" ? "escucha"
             : scope === "lectura" ? "lectura"
+            : scope === "repaso" ? "repaso"
             : "hiragana";
         const suffix = direction === DIRECTIONS.ROMAJI_KANA ? " · inv" : "";
         return {
             summary: clipCodePoints(oneLine(score), 20),
             info: clipCodePoints(oneLine(score + " en " + syll + suffix), 50)
         };
+    }
+
+    // Ordena un repaso ya estudiado. No inventa ítems: solo fallos y vistos.
+    function planReview(misses, seen, now, options) {
+        const limit = options && options.limit > 0 ? Math.floor(options.limit) : 20;
+        const dueMs = options && options.dueMs > 0 ? options.dueMs : 3 * 86400000;
+        const picked = [];
+        const used = new Set();
+        function add(row, reason) {
+            if (!row || typeof row.id !== "string" || !row.id || typeof row.practice !== "string" || !row.practice) return;
+            const key = row.practice + "\n" + row.id;
+            if (used.has(key) || picked.length >= limit) return;
+            used.add(key);
+            picked.push({ id: row.id, practice: row.practice, reason: reason });
+        }
+        (Array.isArray(misses) ? misses : []).forEach(function (row) { add(row, "miss"); });
+        const due = (Array.isArray(seen) ? seen : []).filter(function (row) {
+            return row && typeof row.t === "number" && now - row.t >= dueMs;
+        }).slice().sort(function (a, b) { return a.t - b.t; });
+        due.forEach(function (row) { add(row, "due"); });
+        return picked;
     }
 
     // Aviso de una lección. info ≤ 50 y summary ≤ 20, sin saltos de línea.
@@ -556,6 +578,7 @@
         clipCodePoints,
         buildShareText,
         buildLessonShareText,
+        planReview,
         parseExamSnapshot
     };
 

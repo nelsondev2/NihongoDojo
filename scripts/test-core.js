@@ -96,6 +96,25 @@ check('textos de compartir caben en los límites de la spec', () => {
     const reading = Core.buildShareText(4, 4, 'lectura');
     assert.strictEqual(reading.info, '100% (4/4) en lectura');
     assert.strictEqual(Core.buildShareText(8, 10, 'n1').info, '80% (8/10) en hiragana');
+    assert.strictEqual(Core.buildShareText(16, 20, 'repaso').info, '80% (16/20) en repaso');
+    const now = 1_000_000_000_000;
+    const day = 86400000;
+    const plan = Core.planReview(
+        [{ id: 'fallo', practice: 'words' }],
+        [
+            { id: 'fallo', practice: 'words', t: now - day },
+            { id: 'viejo', practice: 'kanji', t: now - 4 * day },
+            { id: 'reciente', practice: 'words', t: now - day },
+            { id: 'otro-nivel', practice: 'phrases', t: now - 9 * day }
+        ],
+        now,
+        { limit: 2, dueMs: 3 * day }
+    );
+    assert.deepStrictEqual(plan.map((row) => row.id), ['fallo', 'otro-nivel']);
+    assert.strictEqual(plan[0].reason, 'miss');
+    assert.strictEqual(plan[1].reason, 'due');
+    assert.ok(!plan.some((row) => row.id === 'reciente' || row.id === 'viejo'));
+    assert.strictEqual(Core.planReview([], [{ id: 'reciente', practice: 'words', t: now - day }], now, { dueMs: 3 * day }).length, 0);
     const lesson = Core.buildLessonShareText(5, 5, { number: 1, title: 'Hiragana: Vocales', pass: 70 });
     assert.strictEqual(lesson.info, 'Lección 1. Hiragana: Vocales superada al 100%');
     assert.strictEqual(lesson.summary, 'L1 100%');

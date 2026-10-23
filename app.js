@@ -156,6 +156,8 @@
     var levelN4Btn = $('levelN4Btn');
     var pathProgress = $('pathProgress');
     var pathContinueBtn = $('pathContinueBtn');
+    var reviewDueBtn = $('reviewDueBtn');
+    var reviewDueNote = $('reviewDueNote');
     var lessonView = $('lessonView');
     var lessonBackBtn = $('lessonBackBtn');
     var lessonTitle = $('lessonTitle');
@@ -342,7 +344,14 @@
     function isWrite() {
         return isLexicon() && exam.answerMode === 'write';
     }
-    function usesChoices() {
+    function usesChoices(item) {
+        if (!item && exam.queue) item = exam.queue[exam.index];
+        if (item && item.reading) return true;
+        if (item && item.lex) return exam.practice === 'review' || !isWrite();
+        if (item && item.kanaObj) {
+            var kanaDir = item.reviewDirection || exam.direction || state.direction;
+            return kanaDir === Core.DIRECTIONS.ROMAJI_KANA;
+        }
         if (exam.practice === 'reading') return true;
         if (isWrite()) return false;
         return isReverse() || isLexicon();
@@ -363,7 +372,19 @@
         }
         return 'kana → romaji';
     }
+    function itemPractice(item) {
+        if (item && item.reviewPractice) return item.reviewPractice;
+        if (item && item.reading) return 'reading';
+        if (item && item.kanaObj && !item.lex) return 'kana';
+        return exam.practice;
+    }
+    function itemDirection(item) {
+        if (item && item.reviewDirection) return item.reviewDirection;
+        if (item && item.reading) return 'lectura';
+        return exam.direction || activeDirection();
+    }
     function shareScope() {
+        if (exam.practice === 'review') return 'repaso';
         if (exam.practice === 'reading') return 'lectura';
         if ((exam.direction || '') === 'listen-es') return 'escucha';
         if (exam.practice === 'words') return 'palabras';
@@ -383,7 +404,7 @@
         return type === 'katakana' ? 'katakana' : 'hiragana';
     }
     function lexView(item) {
-        return Lex.view(item.lex, exam.direction || activeDirection());
+        return Lex.view(item.lex, itemDirection(item));
     }
     function lexiconHint(view, settled) {
         var parts = [];
@@ -456,7 +477,7 @@
             if (!r) return isWrite() ? 'Escribe la respuesta y pulsa Enter.' : 'Elige la respuesta.';
             if (r.skipped) return 'Saltada. ' + (view.reveal || view.prompt) + ' → ' + view.answer + '.' + tail;
             if (r.correct) return 'Correcto: ' + view.answer + '.' + tail;
-            var yours = r.written ? (r.user || '—') : (examPack().textForId(exam.practice, r.user, exam.direction) || '—');
+            var yours = r.written ? (r.user || '—') : (examPack().textForId(itemPractice(item), r.user, itemDirection(item)) || '—');
             return 'Fallo. ' + shown + ' → ' + view.answer + '. Tú: ' + yours + '.' + tail;
         }
         if (item.reading) {
@@ -650,7 +671,86 @@
             })
         };
     }
+    function reviewSnapshot() {
+        return {
+            v: 5,
+            level: knownLevel(exam.level),
+            practice: 'review',
+            index: exam.index,
+            waitingNext: exam.waitingNext === true,
+            items: exam.queue.map(function (item) {
+                var r = item.result;
+                return {
+                    practice: item.reviewPractice,
+                    direction: item.reviewDirection,
+                    id: item.lex ? item.lex.id : item.reading ? item.reading.id : (item.kanaObj.type + ':' + item.kanaObj.char),
+                    user: r ? r.user : null,
+                    correct: r ? r.correct === true : null,
+                    skipped: r ? r.skipped === true : null,
+                    choices: item.lex && item.choices ? item.choices.map(function (c) { return c.id; }) : null
+                };
+            })
+        };
+    }
+    function parseReviewSnapshot(data) {
+        if (!data || data.v !== 5 || data.practice !== 'review') return null;
+        if (!Lex || !Lex.LEVELS || Lex.LEVELS.indexOf(data.level) === -1) return null;
+        if (!Array.isArray(data.items) || data.items.length === 0 || data.items.length > 40) return null;
+        if (typeof data.index !== 'number' || data.index !== Math.floor(data.index)) return null;
+        if (data.index < 0 || data.index >= data.items.length) return null;
+        var queue = [];
+        for (var i = 0; i < data.items.length; i++) {
+            var it = data.items[i];
+            if (!it || typeof it.id !== 'string' || typeof it.practice !== 'string') return null;
+            var item = buildReviewItem(data.level, it);
+            if (!item) return null;
+            var skipped = it.skipped === true;
+            var markedCorrect = it.correct === true && !skipped;
+            var hasUser = typeof it.user === 'string';
+            if (skipped || markedCorrect || hasUser) {
+                item.result = {
+                    user: hasUser ? String(it.user).slice(0, 160) : '',
+                    expected: item.lex ? item.lex.id : it.id,
+                    correct: markedCorrect,
+                    empty: false,
+                    skipped: skipped
+                };
+                item.userAnswer = skipped ? null : item.result.user;
+            }
+            queue.push(item);
+        }
+        for (var j = data.index + 1; j < queue.length; j++) {
+            queue[j].result = null;
+            queue[j].userAnswer = null;
+        }
+        var waitingNext = !!queue[data.index].result;
+        var correct = 0;
+        var wrong = 0;
+        var skippedCount = 0;
+        var last = waitingNext ? data.index : data.index - 1;
+        for (var n = 0; n <= last; n++) {
+            var result = queue[n].result;
+            if (!result) continue;
+            if (result.skipped) skippedCount++;
+            else if (result.correct) correct++;
+            else wrong++;
+        }
+        return {
+            queue: queue,
+            index: data.index,
+            waitingNext: waitingNext,
+            correct: correct,
+            wrong: wrong,
+            skipped: skippedCount,
+            practice: 'review',
+            direction: 'repaso',
+            level: data.level,
+            lessonId: '',
+            answerMode: 'choice'
+        };
+    }
     function examSnapshot() {
+        if (exam.practice === 'review') return reviewSnapshot();
         if (exam.practice === 'reading') return readingSnapshot();
         if (isLexicon()) return lexiconSnapshot();
         return {
@@ -687,7 +787,9 @@
         var parsed = null;
         try {
             var data = JSON.parse(raw);
-            parsed = data && data.v === 4 && Readings
+            parsed = data && data.v === 5
+                ? parseReviewSnapshot(data)
+                : data && data.v === 4 && Readings
                 ? Readings.parseExamSnapshot(data)
                 : data && data.v === 3 && Lex
                 ? Lex.parseExamSnapshot(data)
@@ -714,14 +816,20 @@
             ? Lex.directionLabel(saved.direction)
             : directionLabel(saved.direction);
         var lesson = saved.lessonId && Lessons ? Lessons.findLesson(saved.lessonId) : null;
+        if (saved.practice === 'review') {
+            scope = 'repaso';
+            way = 'del ' + String(saved.level || '').toUpperCase();
+        }
         if (resumeText) {
-            resumeText.textContent = (lesson ? 'Lección «' + lesson.title + '» a medias' : 'Examen a medias') + ' (' + scope + ', ' +
-                way + '): pregunta ' + n +
+            resumeText.textContent = (saved.practice === 'review'
+                ? 'Repaso a medias del ' + String(saved.level || 'n5').toUpperCase()
+                : (lesson ? 'Lección «' + lesson.title + '» a medias' : 'Examen a medias') + ' (' + scope + ', ' + way + ')') + ': pregunta ' + n +
                 ' de ' + saved.queue.length + '. ' +
                 plural(saved.correct, 'acierto', 'aciertos') + ', ' +
                 plural(saved.wrong, 'fallo', 'fallos') + ', ' +
                 plural(saved.skipped, 'saltada', 'saltadas') + '.';
         }
+        if (resumeBtn) resumeBtn.textContent = saved.practice === 'review' ? 'Continuar repaso' : 'Continuar examen';
         setHidden(resumePanel, false);
     }
 
@@ -1232,10 +1340,12 @@
             if (item) speakItem(item, exam.waitingNext);
         });
         if (quizEls.choiceArea) {
-            quizEls.choiceArea.setAttribute('aria-label', isLexicon() ? 'Elige la respuesta' : 'Elige el kana');
+            quizEls.choiceArea.setAttribute('aria-label', exam.practice === 'review' || isLexicon() ? 'Elige la respuesta' : 'Elige el kana');
         }
         if (quizEls.help) {
-            quizEls.help.textContent = exam.practice === 'reading'
+            quizEls.help.textContent = exam.practice === 'review'
+                ? 'Repaso del nivel. Primero lo fallado. Un salto no es un fallo. Tras responder, pulsa Siguiente.'
+                : exam.practice === 'reading'
                 ? 'Lee el texto y elige. Las teclas 1 a 4 también valen. Tras responder, pulsa Siguiente.'
                 : isWrite()
                     ? 'Escribe la respuesta y pulsa Enter. Tras corregir, pulsa Siguiente. Un salto no es un fallo.'
@@ -1543,11 +1653,15 @@
         if (!item || !item.result || item.result.skipped || !Lex) return;
         var id = item.lex ? item.lex.id : item.reading ? item.reading.id : (item.kanaObj ? item.kanaObj.type + ':' + item.kanaObj.char : '');
         if (!id) return;
-        var practice = item.kanaObj && !item.lex ? 'kana' : exam.practice;
-        var level = practice === 'kana' ? 'kana' : knownLevel(exam.level);
-        var next = Lex.applyMiss(loadMissIds(level, practice), id, item.result.correct === true, MISS_CAP);
-        saveMissIds(level, practice, next);
+        var practice = itemPractice(item);
+        if (!practice || practice === 'review') return;
+        var missLevel = practice === 'kana' ? 'kana' : knownLevel(exam.level);
+        var next = Lex.applyMiss(loadMissIds(missLevel, practice), id, item.result.correct === true, MISS_CAP);
+        saveMissIds(missLevel, practice, next);
+        seedSeen(knownLevel(exam.level));
+        touchSeen(knownLevel(exam.level), practice, id, item.result.correct === true);
         updateMissButton();
+        updateReviewButton();
     }
     function visibleMissIds() {
         var practice = state.practice === 'reading' ? 'reading' : (isNamedPractice(state.practice) ? state.practice : 'kana');
@@ -1611,6 +1725,185 @@
         beginExam(lexQueue, 0, { correct: 0, wrong: 0, skipped: 0, answerMode: state.answerMode }, false);
     }
 
+    var REVIEW_LIMIT = 20;
+    var REVIEW_DUE_MS = 3 * 86400000;
+    var REVIEW_DIR = {
+        words: 'word-es',
+        kanji: 'kanji-es',
+        phrases: 'phrase-es',
+        conj: 'conj-es',
+        grammar: 'grammar-es',
+        reading: 'lectura',
+        kana: 'kana-romaji'
+    };
+    function seenKey(level) {
+        return 'seen.' + knownLevel(level);
+    }
+    function loadSeenMap(level) {
+        var raw = storageGet(seenKey(level));
+        if (!raw) return null;
+        try {
+            var parsed = JSON.parse(raw);
+            if (!parsed || typeof parsed !== 'object' || Array.isArray(parsed)) return {};
+            return parsed;
+        } catch (e) { return {}; }
+    }
+    function saveSeenMap(level, map) {
+        storageSet(seenKey(level), JSON.stringify(map));
+    }
+    function touchSeen(level, practice, id, correct) {
+        if (!practice || !id) return;
+        var map = loadSeenMap(level) || {};
+        map[practice + '\n' + id] = [Date.now(), correct ? 1 : 0];
+        saveSeenMap(level, map);
+    }
+    function seedSeen(level) {
+        if (storageGet(seenKey(level)) !== null || !Lessons) return;
+        var map = {};
+        var progress = loadProgress(level);
+        var list = Lessons.lessonsFor ? Lessons.lessonsFor(level) : [];
+        var old = Date.now() - REVIEW_DUE_MS - 86400000;
+        list.forEach(function (lesson) {
+            var row = progress[lesson.id];
+            if (!row || row.passed !== true || !lesson.quiz) return;
+            var quiz = lesson.quiz;
+            if (quiz.practice === 'kana') {
+                (quiz.chars || []).forEach(function (ch) {
+                    map['kana\n' + quiz.type + ':' + ch] = [old, 1];
+                });
+            } else if (quiz.practice === 'reading' || isNamedPractice(quiz.practice)) {
+                (quiz.ids || []).forEach(function (id) {
+                    map[quiz.practice + '\n' + id] = [old, 1];
+                });
+            }
+        });
+        saveSeenMap(level, map);
+    }
+    function seenRows(level) {
+        var map = loadSeenMap(level) || {};
+        return Object.keys(map).map(function (key) {
+            var cut = key.indexOf('\n');
+            var rec = map[key];
+            if (cut < 1 || !Array.isArray(rec) || typeof rec[0] !== 'number') return null;
+            return { practice: key.slice(0, cut), id: key.slice(cut + 1), t: rec[0], ok: rec[1] === 1 };
+        }).filter(Boolean);
+    }
+    function reviewMisses(level) {
+        var lists = ['words', 'kanji', 'phrases', 'conj', 'grammar', 'reading'].map(function (practice) {
+            return loadMissIds(level, practice).map(function (id) {
+                return { id: id, practice: practice };
+            });
+        });
+        var seen = loadSeenMap(level) || {};
+        lists.push(loadMissIds('kana', 'kana').filter(function (id) {
+            return !!seen['kana\n' + id];
+        }).map(function (id) {
+            return { id: id, practice: 'kana' };
+        }));
+        var rows = [];
+        var more = true;
+        while (more) {
+            more = false;
+            lists.forEach(function (list) {
+                if (!list.length) return;
+                rows.push(list.shift());
+                more = true;
+            });
+        }
+        return rows;
+    }
+    function reviewPlan(level) {
+        seedSeen(level);
+        if (!Core.planReview) return [];
+        return Core.planReview(reviewMisses(level), seenRows(level), Date.now(), {
+            limit: REVIEW_LIMIT,
+            dueMs: REVIEW_DUE_MS
+        });
+    }
+    function buildReviewItem(level, row) {
+        if (!row || !row.id || !row.practice) return null;
+        var direction = REVIEW_DIR[row.practice];
+        if (!direction) return null;
+        if (row.practice === 'kana') {
+            var cut = row.id.indexOf(':');
+            if (cut < 1) return null;
+            var kana = Core.findKana(row.id.slice(0, cut), row.id.slice(cut + 1));
+            if (!kana) return null;
+            return { kanaObj: kana, reviewPractice: 'kana', reviewDirection: direction, userAnswer: null, result: null, choices: null };
+        }
+        if (row.practice === 'reading') {
+            if (!Readings || typeof Readings.findQuestion !== 'function') return null;
+            var question = Readings.findQuestion(row.id);
+            if (!question || question.level !== level) return null;
+            return { reading: question, reviewPractice: 'reading', reviewDirection: direction, userAnswer: null, result: null, choices: null };
+        }
+        if (!isNamedPractice(row.practice) || !Lex) return null;
+        var pack = Lex.forLevel(level);
+        var catalog = row.practice === 'kanji' ? pack.KANJI
+            : row.practice === 'phrases' ? pack.PHRASES
+            : row.practice === 'conj' ? pack.CONJ
+            : row.practice === 'grammar' ? pack.GRAMMAR
+            : pack.WORDS;
+        var found = pack.findById(catalog, row.id);
+        if (!found) return null;
+        var item = { lex: found, reviewPractice: row.practice, reviewDirection: direction, userAnswer: null, result: null, choices: null };
+        if (Array.isArray(row.choices) && row.choices.length) {
+            var restored = [];
+            row.choices.forEach(function (id) {
+                if (typeof id !== 'string') return;
+                var choice = pack.findById(catalog, id);
+                if (choice) restored.push(choice);
+            });
+            if (restored.some(function (choice) { return choice.id === found.id; })) item.choices = restored;
+        }
+        if (!item.choices) pack.ensureChoices([item], direction);
+        return item;
+    }
+    function updateReviewButton() {
+        if (!reviewDueBtn) return;
+        var plan = reviewPlan(state.level);
+        var misses = plan.filter(function (row) { return row.reason === 'miss'; }).length;
+        var due = plan.length - misses;
+        reviewDueBtn.disabled = plan.length === 0;
+        reviewDueBtn.textContent = plan.length
+            ? 'Repaso de hoy · ' + plan.length
+            : 'Repaso de hoy';
+        if (reviewDueNote) {
+            reviewDueNote.textContent = plan.length
+                ? (misses ? misses + (misses === 1 ? ' fallo' : ' fallos') : 'Sin fallos pendientes')
+                    + (due ? ' · ' + due + ' de hace días' : '')
+                    + '. Unos 10 minutos. No es el examen.'
+                : 'Nada pendiente en este nivel. Lo fallado vuelve al momento. Lo acertado, a los 3 días.';
+        }
+    }
+    function startReview() {
+        if (exam.active || !Lex) return;
+        var plan = reviewPlan(state.level);
+        if (!plan.length) { updateReviewButton(); return; }
+        if (loadSavedExam()) {
+            var discard = window.confirm('Hay un examen guardado. Si empiezas el repaso, se descarta. ¿Continuar?');
+            if (!discard) return;
+            clearSavedExam();
+            refreshResumePanel();
+        }
+        var queue = [];
+        plan.forEach(function (row) {
+            var item = buildReviewItem(state.level, row);
+            if (item) queue.push(item);
+        });
+        if (!queue.length) {
+            showConfigWarning('Esos repasos ya no están en este nivel.');
+            return;
+        }
+        closeLesson();
+        beginExam(queue, 0, {
+            correct: 0, wrong: 0, skipped: 0,
+            answerMode: 'choice',
+            practice: 'review',
+            level: state.level
+        }, false);
+    }
+
     function beginExam(queue, index, counters, waiting, lessonId) {
         exam.active = true;
         exam.queue = queue;
@@ -1622,11 +1915,18 @@
         exam.deadline = null;
         exam.lessonId = typeof lessonId === 'string' ? lessonId : '';
         exam.level = counters && counters.level ? knownLevel(counters.level) : knownLevel(state.level);
-        exam.practice = state.practice === 'reading' ? 'reading' : (isNamedPractice(state.practice) ? state.practice : 'kana');
-        exam.direction = state.practice === 'reading' ? 'lectura' : activeDirection();
-        exam.answerMode = counters && counters.answerMode === 'write' ? 'write'
-            : counters && counters.answerMode === 'choice' ? 'choice'
-            : (state.answerMode === 'write' ? 'write' : 'choice');
+        if (counters && counters.practice === 'review') {
+            exam.practice = 'review';
+            exam.direction = 'repaso';
+            exam.answerMode = 'choice';
+            exam.lessonId = '';
+        } else {
+            exam.practice = state.practice === 'reading' ? 'reading' : (isNamedPractice(state.practice) ? state.practice : 'kana');
+            exam.direction = state.practice === 'reading' ? 'lectura' : activeDirection();
+            exam.answerMode = counters && counters.answerMode === 'write' ? 'write'
+                : counters && counters.answerMode === 'choice' ? 'choice'
+                : (state.answerMode === 'write' ? 'write' : 'choice');
+        }
         exam.spokenPassage = '';
         exam.voiceReadyIndex = -1;
         clearTimer();
@@ -1706,7 +2006,13 @@
     function resumeExam() {
         var saved = loadSavedExam();
         if (!saved) { refreshResumePanel(); return; }
-        if (saved.practice === 'reading') {
+        if (saved.practice === 'review') {
+            if (saved.level && knownLevel(saved.level) === saved.level) {
+                state.level = saved.level;
+                persistLevel();
+                reloadLexSelections();
+            }
+        } else if (saved.practice === 'reading') {
             state.practice = 'reading';
             persistPractice();
         } else if (isNamedPractice(saved.practice)) {
@@ -1762,9 +2068,9 @@
         unlockAnswerUI();
         var note = paintPrompt(item);
         if (quizEls.input) quizEls.input.value = '';
-        setFeedback(exam.practice === 'reading' || (isLexicon() && !isWrite())
-            ? 'Elige la respuesta.'
-            : (isWrite() ? 'Escribe la respuesta y pulsa Enter.' : (isReverse() ? 'Elige el kana.' : 'Escribe el romaji y pulsa Enter.')));
+        setFeedback(usesChoices(item)
+            ? (item.kanaObj && !item.lex && !item.reading ? 'Elige el kana.' : 'Elige la respuesta.')
+            : (isWrite() ? 'Escribe la respuesta y pulsa Enter.' : 'Escribe el romaji y pulsa Enter.'));
         updateStatsUI();
         announceQuestion(item, note);
         if (usesChoices()) {
@@ -1824,7 +2130,9 @@
         if (exam.index >= exam.queue.length) return;
         var item = exam.queue[exam.index];
         item.userAnswer = null;
-        item.result = item.lex
+        item.result = item.reading
+            ? { user: '', expected: String(item.reading.answer), correct: false, empty: false, skipped: true }
+            : item.lex
             ? { user: '', expected: item.lex.id, correct: false, empty: false, skipped: true }
             : Core.markSkipped(item.kanaObj);
         exam.skipped++;
@@ -2026,6 +2334,32 @@
             return item.result && !item.result.correct;
         });
         if (!misses.length) return;
+        if (exam.practice === 'review') {
+            var again = misses.map(function (item) {
+                return {
+                    kanaObj: item.kanaObj || null,
+                    lex: item.lex || null,
+                    reading: item.reading || null,
+                    reviewPractice: item.reviewPractice,
+                    reviewDirection: item.reviewDirection,
+                    userAnswer: null,
+                    result: null,
+                    choices: null
+                };
+            });
+            again.forEach(function (item) {
+                if (!item.lex || !Lex) return;
+                Lex.forLevel(exam.level).ensureChoices([item], item.reviewDirection);
+            });
+            clearSavedExam();
+            beginExam(again, 0, {
+                correct: 0, wrong: 0, skipped: 0,
+                answerMode: 'choice',
+                practice: 'review',
+                level: exam.level
+            }, false);
+            return;
+        }
         if (isLexicon()) {
             var lexQueue = Lex.shuffle(misses.map(function (item) { return item.lex; })).map(function (lex) {
                 return { lex: lex, userAnswer: null, result: null, choices: null };
@@ -2062,7 +2396,9 @@
         var card = el('div', 'quiz-card');
         var summary = el('div', 'summary');
         summary.appendChild(el('h3', null, 'Resultado final'));
-        summary.appendChild(el('p', null, isLexicon()
+        summary.appendChild(el('p', null, exam.practice === 'review'
+            ? (exam.level || state.level || 'n5').toUpperCase() + ' · repaso · no es el examen'
+            : isLexicon()
             ? levelName() + ' · ' + scope + ' · ' + way
             : scope + ' · ' + way + ' · modo ' + modeLabel));
         summary.appendChild(el('p', null,
@@ -2094,7 +2430,7 @@
                     ? '—'
                     : item.result && item.result.written
                         ? (item.result.user || '—')
-                        : (examPack().textForId(exam.practice, item.result && item.result.user, exam.direction) || '—');
+                        : (examPack().textForId(itemPractice(item), item.result && item.result.user, itemDirection(item)) || '—');
                 var prompt = item.result && view.reveal ? view.reveal : view.prompt;
                 li.appendChild(document.createTextNode(resultStatus(item) + '. ' + prompt + ' → ' + view.answer + '. Tú: ' + yours));
                 list.appendChild(li);
@@ -2133,7 +2469,7 @@
             summary.appendChild(reviewBtn);
         }
 
-        var restartBtn = buttonWithIcon('btn restart-btn', '🔄', exam.lessonId ? 'Volver al camino' : 'Nuevo examen');
+        var restartBtn = buttonWithIcon('btn restart-btn', '🔄', exam.lessonId || exam.practice === 'review' ? 'Volver al camino' : 'Nuevo examen');
         restartBtn.addEventListener('click', exitExam);
         summary.appendChild(restartBtn);
 
@@ -2171,7 +2507,9 @@
         }
 
         card.appendChild(summary);
-        card.appendChild(el('div', 'small-note', exam.lessonId
+        card.appendChild(el('div', 'small-note', exam.practice === 'review'
+            ? 'El repaso no marca lecciones. Un acierto lo quita de los fallos. Lo acertado vuelve a los 3 días.'
+            : exam.lessonId
             ? 'El camino recuerda si superaste la lección. Un intento peor no borra una ya superada.'
             : isLexicon()
                 ? 'Podrás elegir temas nuevamente.'
@@ -2305,7 +2643,9 @@
         var passed = Lessons.passedCount(progress, state.level);
         if (pathIntro) pathIntro.textContent = 'Lista comunitaria. No es el examen oficial.';
         if (pathProgress) {
-            pathProgress.textContent = passed + ' de ' + list.length + ' superadas · ' + Lessons.PASS_PERCENT + '%';
+            var due = reviewPlan(state.level).length;
+            pathProgress.textContent = passed + ' de ' + list.length + ' superadas · ' + Lessons.PASS_PERCENT + '%'
+                + (due ? ' · ' + due + ' para repasar' : '');
         }
         var next = Lessons.nextLesson(progress, state.level);
         var allPassed = passed === list.length;
@@ -2317,6 +2657,7 @@
             pathListToggle.setAttribute('aria-expanded', state.pathOpen ? 'true' : 'false');
         }
         setHidden(pathList, !state.pathOpen);
+        updateReviewButton();
         if (!state.pathOpen) return;
         var lastStage = '';
         list.forEach(function (lesson, i) {
@@ -2671,6 +3012,7 @@
         });
         if (homePathBtn) homePathBtn.addEventListener('click', function () { setHome('path'); });
         if (homeFreeBtn) homeFreeBtn.addEventListener('click', function () { setHome('free'); });
+        if (reviewDueBtn) reviewDueBtn.addEventListener('click', startReview);
         if (pathListToggle) pathListToggle.addEventListener('click', function () {
             state.pathOpen = !state.pathOpen;
             renderPath();
