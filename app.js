@@ -865,7 +865,9 @@
                     : practice === 'phrases'
                         ? 'Frases de los patrones ' + levelName() + ': traducirlas o elegir la pieza que falta.'
                         : practice === 'conj'
-                            ? (state.level === 'n2'
+                            ? (state.level === 'n1'
+                                ? 'ます, て, potencial, condicionales, voz, ず y まい de los verbos N1. ずる va por じ. 問うて, no 問って.'
+                                : state.level === 'n2'
                                 ? 'ます, て, potencial, condicionales, voz, ず y まい de los verbos N2. ずる va por じ.'
                                 : state.level === 'n3'
                                     ? 'ます, て, potencial, condicionales, voz y la negación ず de los verbos N3.'
@@ -1840,7 +1842,9 @@
         var progress = loadProgress(state.level);
         var passed = Lessons.passedCount(progress, state.level);
         if (pathIntro) {
-            pathIntro.textContent = state.level === 'n2'
+            pathIntro.textContent = state.level === 'n1'
+                ? 'Camino N1, encima del N2. Registro escrito, べし y まじき. Lista comunitaria, no el examen oficial.'
+                : state.level === 'n2'
                 ? 'Camino N2, encima del N3. Registro formal, まい y los verbos en ずる. Lista comunitaria, no el examen oficial.'
                 : state.level === 'n3'
                 ? 'Camino N3, encima del N4. Conclusión, causa, grado y la negación ず. Lista comunitaria, no el examen oficial.'

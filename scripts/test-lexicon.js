@@ -231,6 +231,12 @@ check('el N4 tiene catálogo propio y no alarga el N5', () => {
     assert.ok(n2.CONJ.some((item) => item.form === 'まい'));
     assert.ok(!Lex.CONJ.some((item) => item.form === 'まい'));
     assert.ok(n2.buildQueue('conj', n2.CONJ_STARTER, 'conj-es', () => 0.2).every((item) => item.lex.level === 'n2'));
+    const n1 = Lex.forLevel('n1');
+    assert.strictEqual(n1.WORDS.length, 3070);
+    assert.strictEqual(n1.KANJI.length, 1345);
+    assert.ok(n1.CONJ.some((item) => item.form === 'まい' && item.jp === '演ずるまい'));
+    assert.ok(!Lex.CONJ.some((item) => item.form === 'まい'));
+    assert.ok(n1.buildQueue('words', n1.WORD_STARTER, 'word-es', () => 0.2).every((item) => item.lex.level === 'n1'));
 });
 
 check('la cola inicial no mezcla temas no elegidos', () => {

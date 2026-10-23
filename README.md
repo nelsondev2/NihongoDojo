@@ -1,10 +1,10 @@
 # NihongoDojo
 
-Quiz sin conexión para el **JLPT N5, N4, N3 y N2**: un camino de lecciones y exámenes libres de **silabarios**, **vocabulario**, **kanji**, **frases**, **gramática** y **conjugación**. En los silabarios ves el carácter y escribes el romaji, o al revés. En el resto eliges entre opciones. Si el dispositivo tiene voz japonesa, también se oye.
+Quiz sin conexión para el **JLPT N5, N4, N3, N2 y N1**: un camino de lecciones y exámenes libres de **silabarios**, **vocabulario**, **kanji**, **frases**, **gramática** y **conjugación**. En los silabarios ves el carácter y escribes el romaji, o al revés. En el resto eliges entre opciones. Si el dispositivo tiene voz japonesa, también se oye.
 
-Es una mini-app [webxdc](https://webxdc.org/) para Delta Chat y ArcaneChat (versión 1.11.0). También se abre sola en el navegador: no tiene servidor, dependencias ni conexión de red.
+Es una mini-app [webxdc](https://webxdc.org/) para Delta Chat y ArcaneChat (versión 1.12.0). También se abre sola en el navegador: no tiene servidor, dependencias ni conexión de red.
 
-El JLPT no publica lista oficial de vocabulario, kanji ni gramática desde 2010. El N5 sigue el recorte comunitario de Jonathan Waller (el que usa Jisho), a través de OpenJLPT: 674 palabras, 84 kanji y 81 puntos de gramática, más los kana y las conjugaciones que esos ítems necesitan. El N4 añade el recorte incremental: 630 palabras, 169 kanji y 98 puntos de gramática, con potencial, condicionales y voz. El N3 añade otras 1.659 palabras, 387 kanji y 101 puntos, con la negación ず. El N2 añade el recorte siguiente: 1.778 palabras, 398 kanji y 123 puntos, con まい y los verbos en ずる. No es el examen ni una promesa de aprobarlo. N1 no está todavía.
+El JLPT no publica lista oficial de vocabulario, kanji ni gramática desde 2010. El N5 sigue el recorte comunitario de Jonathan Waller (el que usa Jisho), a través de OpenJLPT: 674 palabras, 84 kanji y 81 puntos de gramática, más los kana y las conjugaciones que esos ítems necesitan. El N4 añade el recorte incremental: 630 palabras, 169 kanji y 98 puntos de gramática, con potencial, condicionales y voz. El N3 añade otras 1.659 palabras, 387 kanji y 101 puntos, con la negación ず. El N2 añade el recorte siguiente: 1.778 palabras, 398 kanji y 123 puntos, con まい y los verbos en ずる. El N1 añade el último recorte: 3.070 palabras, 1.345 kanji y 123 puntos. No es el examen ni una promesa de aprobarlo.
 
 ## Qué practica
 
@@ -24,9 +24,9 @@ La primera vez solo están marcadas las filas básicas (46 preguntas). Sonoras y
 
 ### Camino
 
-En Camino hay cuatro botones, N5, N4, N3 y N2. No se mezclan. El N5 tiene 213 lecciones: los dos silabarios, っ y ー, cada punto de gramática, el vocabulario en tandas de 12, los 84 kanji en tandas de 10, la conjugación y un repaso. El N4 tiene 199 lecciones encima de eso: un puente, cada punto de gramática, el vocabulario nuevo, los 169 kanji y la conjugación nueva. El N3 tiene 317 lecciones más: el recorte que no estaba en N5 ni en N4. El N2 tiene 369 lecciones más. La lista se desplaza; ninguna lección está bloqueada.
+En Camino hay cinco botones, N5, N4, N3, N2 y N1. No se mezclan. El N5 tiene 213 lecciones: los dos silabarios, っ y ー, cada punto de gramática, el vocabulario en tandas de 12, los 84 kanji en tandas de 10, la conjugación y un repaso. El N4 tiene 199 lecciones encima de eso: un puente, cada punto de gramática, el vocabulario nuevo, los 169 kanji y la conjugación nueva. El N3 tiene 317 lecciones más: el recorte que no estaba en N5 ni en N4. El N2 tiene 369 lecciones más. El N1 tiene 574 lecciones más. La lista se desplaza; ninguna lección está bloqueada.
 
-Cada lección explica el paso y después abre el examen con ítems que ya están en la app. Se supera con 70%. El progreso del N5 queda en `nihongodojo.lessons`. El del N4, en `nihongodojo.lessons.n4`. El del N3, en `nihongodojo.lessons.n3`. El del N2, en `nihongodojo.lessons.n2`. Se puede saltar o repetir. Un intento peor no borra una lección ya superada.
+Cada lección explica el paso y después abre el examen con ítems que ya están en la app. Se supera con 70%. El progreso del N5 queda en `nihongodojo.lessons`. El del N4, en `nihongodojo.lessons.n4`. El del N3, en `nihongodojo.lessons.n3`. El del N2, en `nihongodojo.lessons.n2`. El del N1, en `nihongodojo.lessons.n1`. Se puede saltar o repetir. Un intento peor no borra una lección ya superada.
 
 ### Palabras
 
@@ -84,9 +84,17 @@ La conjugación N2 tiene las formas del N3 y, además, まい. Los ocho verbos e
 
 El progreso va en `nihongodojo.lessons.n2`. Los temas marcados van en `sel.n2.*`.
 
+### N1
+
+El botón N1 cambia el camino y los temas. No repite N5, N4, N3 ni N2, salvo cinco contadores que la lista fuente vuelve a incluir: 冊, と, 匹, 分 y 枚. Son 3.070 palabras, 1.345 kanji, 246 frases y 369 fichas de los 123 puntos de gramática. La primera vez, en palabras, están marcados verbos y sociedad.
+
+La conjugación N1 tiene las mismas formas que el N2, incluida まい. No añade una forma nueva: べし, まじき, んばかり y うものなら son puntos de gramática, no un ejercicio por verbo. Los cinco verbos en ずる se conjugan por じ: 演じます, 演じて, 演ずるまい. Si una forma coincide con la de otro verbo, el examen añade el diccionario entre paréntesis: 演じます（演ずる） y 演じます（演じる）. 擦る se lee かする, pero es godan: 擦ります, no します. 化する, con la misma lectura, sí es する. 問う hace 問うて, no 問って. 給う no: 給って. 入る se lee いる y es godan: 入ります, no います. 来る se lee きたる y también es godan: 来ります, no きます. 御覧なさい y seis entradas sin clase verbal no se conjugan.
+
+El progreso va en `nihongodojo.lessons.n1`. Los temas marcados van en `sel.n1.*`.
+
 ## Cómo usarla
 
-1. En **Camino**, elige **N5**, **N4**, **N3** o **N2**. Abre una lección, lee la explicación y pulsa **Empezar el quiz**. O elige un examen libre: silabarios, palabras, kanji, frases, conjugación o gramática. El nivel también cambia esos temas. Luego la dirección.
+1. En **Camino**, elige **N5**, **N4**, **N3**, **N2** o **N1**. Abre una lección, lee la explicación y pulsa **Empezar el quiz**. O elige un examen libre: silabarios, palabras, kanji, frases, conjugación o gramática. El nivel también cambia esos temas. Luego la dirección.
    - **Silabarios:** kana → romaji, o romaji → kana.
    - **Palabras:** palabra → español, o español → palabra.
    - **Kanji:** kanji → significado, significado → kanji, o kanji → lectura.
@@ -199,13 +207,14 @@ n5.js           Datos del N5 comunitario y su camino. Lo genera scripts/build_n5
 n4.js           Datos del N4 comunitario y su camino. Lo genera scripts/build_n4.py
 n3.js           Datos del N3 comunitario y su camino. Lo genera scripts/build_n3.py
 n2.js           Datos del N2 comunitario y su camino. Lo genera scripts/build_n2.py
+n1.js           Datos del N1 comunitario y su camino. Lo genera scripts/build_n1.py
 lexicon.js      Exámenes de palabras, kanji, frases, gramática y conjugación
 lessons.js      Cola de cada lección y progreso del camino
 app.js          Interfaz, estado, almacenamiento y envío al chat
 styles.css      Estilos
 manifest.toml   Nombre y enlace al código para el cliente webxdc
 icon.png        Icono de la app (256×256)
-scripts/        Generadores del N5, del N4, del N3 y del N2, y comprobaciones; no van en el .xdc
+scripts/        Generadores del N5, del N4, del N3, del N2 y del N1, y comprobaciones; no van en el .xdc
 ```
 
 No hay paso de compilación. `core.js` no toca el DOM y también se puede cargar desde Node con `require("./core.js")`.

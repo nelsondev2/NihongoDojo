@@ -4,5 +4,5 @@
 # un cliente puede ignorarlos.
 name = "NihongoDojo"
 source_code_url = "https://github.com/nelsondev2/NihongoDojo"
-version = "1.11.0"
-description = "Camino comunitario N5, N4, N3 y N2, y quiz sin conexión de silabarios, vocabulario, kanji, gramática y conjugación."
+version = "1.12.0"
+description = "Camino comunitario N5, N4, N3, N2 y N1, y quiz sin conexión de silabarios, vocabulario, kanji, gramática y conjugación."

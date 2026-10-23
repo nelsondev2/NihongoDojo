@@ -169,6 +169,8 @@
         }
         if (!data || !data.WORD_ROWS) return;
         const verbs = data.CONJ_VERBS || [];
+        const conj = verbs.reduce(function (acc, verb) { return acc.concat(conjFromVerb(verb)); }, []);
+        if (level === "n1") splitSharedConj(conj, verbs);
         BUNDLES[level] = {
             level: level,
             WORD_GROUPS: data.WORD_GROUPS, KANJI_GROUPS: data.KANJI_GROUPS, PHRASE_GROUPS: data.PHRASE_GROUPS,
@@ -180,12 +182,33 @@
             KANJI: tagLevel(data.KANJI_ROWS.map(kanjiFromRow), level),
             PHRASES: tagLevel(data.PHRASE_ROWS.map(phraseFromRow), level),
             GRAMMAR: tagLevel(data.GRAMMAR, level),
-            CONJ: tagLevel(verbs.reduce(function (acc, verb) { return acc.concat(conjFromVerb(verb)); }, []), level)
+            CONJ: tagLevel(conj, level)
         };
+    }
+    function splitSharedConj(items, verbs) {
+        const dictOf = {};
+        verbs.forEach(function (verb) { dictOf[verb.id] = verb.dict; });
+        const buckets = {};
+        items.forEach(function (item) {
+            const key = item.jp + "\n" + item.kana;
+            if (!buckets[key]) buckets[key] = [];
+            buckets[key].push(item);
+        });
+        Object.keys(buckets).forEach(function (key) {
+            const list = buckets[key];
+            const verbsIn = {};
+            list.forEach(function (item) { verbsIn[item.group] = true; });
+            if (Object.keys(verbsIn).length < 2) return;
+            list.forEach(function (item) {
+                const dict = dictOf[item.group];
+                if (dict) item.jp = item.jp + "（" + dict + "）";
+            });
+        });
     }
     loadBundle("NihongoDojoN4", "./n4.js", "n4");
     loadBundle("NihongoDojoN3", "./n3.js", "n3");
     loadBundle("NihongoDojoN2", "./n2.js", "n2");
+    loadBundle("NihongoDojoN1", "./n1.js", "n1");
     function bundleFor(level) {
         return BUNDLES[level] || BUNDLES.n5;
     }
@@ -786,7 +809,7 @@
         catalogOf,
         shuffle,
         forLevel,
-        LEVELS: ["n5", "n4", "n3", "n2"].filter(function (level) { return !!BUNDLES[level]; })
+        LEVELS: ["n5", "n4", "n3", "n2", "n1"].filter(function (level) { return !!BUNDLES[level]; })
     };
 
     root.NihongoDojoLexicon = api;

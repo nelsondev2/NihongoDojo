@@ -1,6 +1,6 @@
 /**
- * NihongoDojo — camino del JLPT N5, N4, N3 y N2.
- * Las lecciones viven en n5.js, n4.js, n3.js y n2.js. El corte no es una lista oficial.
+ * NihongoDojo — camino del JLPT N5, N4, N3, N2 y N1.
+ * Las lecciones viven en n5.js, n4.js, n3.js, n2.js y n1.js. El corte no es una lista oficial.
  */
 (function (root) {
     "use strict";
@@ -33,13 +33,14 @@
     loadLessons("NihongoDojoN4", "./n4.js", "n4");
     loadLessons("NihongoDojoN3", "./n3.js", "n3");
     loadLessons("NihongoDojoN2", "./n2.js", "n2");
+    loadLessons("NihongoDojoN1", "./n1.js", "n1");
 
     function lessonsFor(level) {
         if (EXTRA[level]) return EXTRA[level];
         return LESSONS;
     }
     function findLesson(id) {
-        const lists = [LESSONS, EXTRA.n4 || [], EXTRA.n3 || [], EXTRA.n2 || []];
+        const lists = [LESSONS, EXTRA.n4 || [], EXTRA.n3 || [], EXTRA.n2 || [], EXTRA.n1 || []];
         for (let n = 0; n < lists.length; n++) {
             for (let i = 0; i < lists[n].length; i++) {
                 if (lists[n][i].id === id) return lists[n][i];

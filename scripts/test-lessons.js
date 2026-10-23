@@ -117,6 +117,30 @@ check('el N2 no mezcla el camino ni el catálogo del N3', () => {
     assert.ok(pack.CONJ.some((item) => item.form === 'まい' && item.jp === '応ずるまい'));
 });
 
+check('el N1 no mezcla el camino ni el catálogo del N2', () => {
+    const n1 = Lessons.lessonsFor('n1');
+    assert.strictEqual(n1.length, 574);
+    assert.strictEqual(Lessons.nextLesson({}, 'n1').id, 'l-n1-puente');
+    assert.strictEqual(Lessons.passedCount({ 'l-n1-puente': { passed: true } }, 'n2'), 0);
+    const other = new Set(Lessons.LESSONS.concat(Lessons.lessonsFor('n4'), Lessons.lessonsFor('n3'), Lessons.lessonsFor('n2')).map((lesson) => lesson.id));
+    for (const lesson of n1) {
+        assert.strictEqual(lesson.level, 'n1');
+        assert.strictEqual(other.has(lesson.id), false, lesson.id);
+        const queue = Lessons.buildQueue(lesson, Core, Lex, () => 0.2);
+        assert.strictEqual(queue.length, lesson.quiz.ids.length, lesson.id);
+        assert.ok(queue.every((item) => item.lex && item.lex.level === 'n1'));
+    }
+    const pack = Lex.forLevel('n1');
+    assert.strictEqual(pack.WORDS.length, 3070);
+    assert.strictEqual(pack.KANJI.length, 1345);
+    assert.ok(pack.CONJ.some((item) => item.jp === '擦ります' || item.kana === 'かすります'));
+    assert.ok(pack.CONJ.some((item) => item.jp === '演じます（演ずる）'));
+    assert.ok(pack.CONJ.some((item) => item.jp === '演じます（演じる）'));
+    assert.ok(pack.CONJ.some((item) => item.jp === '問うて'));
+    assert.ok(pack.CONJ.some((item) => item.jp === '来って' && item.kana === 'きたって'));
+    assert.ok(!pack.CONJ.some((item) => item.jp === '御覧なさい'));
+});
+
 if (failed) {
     console.error('\n' + failed + ' comprobaciones fallaron');
     process.exit(1);
