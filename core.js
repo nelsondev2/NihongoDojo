@@ -639,6 +639,122 @@
         return oneLine(lessons + ". " + misses + ".");
     }
 
+    function soundRevealsAnswer(item, direction) {
+        if (!item) return false;
+        if (item.kanaObj && !item.lex && !item.reading) return true;
+        if (!item.lex) return false;
+        const dir = direction || "";
+        if (item.lex.kind === "word") return dir === "es-word";
+        if (item.lex.kind === "kanji") return dir === "es-kanji";
+        if (item.lex.kind === "phrase") return dir === "es-phrase";
+        if (item.lex.kind === "conj") return dir === "es-conj";
+        if (item.lex.kind === "grammar") return dir === "es-grammar";
+        return false;
+    }
+
+    function parseJsonObject(raw) {
+        if (typeof raw !== "string" || !raw) return {};
+        try {
+            const data = JSON.parse(raw);
+            if (!data || typeof data !== "object" || Array.isArray(data)) return {};
+            return data;
+        } catch (e) { return {}; }
+    }
+
+    function parseJsonArray(raw) {
+        if (typeof raw !== "string" || !raw) return [];
+        try {
+            const data = JSON.parse(raw);
+            return Array.isArray(data) ? data : [];
+        } catch (e) { return []; }
+    }
+
+    function lessonScore(row) {
+        if (!row || typeof row !== "object" || Array.isArray(row)) return null;
+        const best = Number(row.best);
+        const last = Number(row.last);
+        const passed = row.passed === true;
+        if (!passed && !(best > 0) && !(last > 0)) return null;
+        return {
+            passed: passed,
+            best: Number.isFinite(best) && best > 0 ? Math.min(100, Math.floor(best)) : 0,
+            last: Number.isFinite(last) && last > 0 ? Math.min(100, Math.floor(last)) : 0
+        };
+    }
+
+    function mergeLessonMaps(localRaw, backupRaw) {
+        const local = parseJsonObject(localRaw);
+        const backup = parseJsonObject(backupRaw);
+        const ids = Object.keys(local);
+        Object.keys(backup).forEach(function (id) {
+            if (ids.indexOf(id) === -1) ids.push(id);
+        });
+        const out = {};
+        ids.forEach(function (id) {
+            if (!/^[a-z0-9-]{1,80}$/.test(id)) return;
+            const here = lessonScore(local[id]);
+            const there = lessonScore(backup[id]);
+            if (!here && !there) return;
+            if (here && !there) { out[id] = here; return; }
+            if (there && !here) { out[id] = there; return; }
+            out[id] = {
+                passed: here.passed || there.passed,
+                best: Math.max(here.best, there.best),
+                last: here.last || there.last
+            };
+        });
+        return JSON.stringify(out);
+    }
+
+    function mergeSeenMaps(localRaw, backupRaw) {
+        const local = parseJsonObject(localRaw);
+        const backup = parseJsonObject(backupRaw);
+        const keys = Object.keys(local);
+        Object.keys(backup).forEach(function (key) {
+            if (keys.indexOf(key) === -1) keys.push(key);
+        });
+        const out = {};
+        keys.forEach(function (key) {
+            const here = Array.isArray(local[key]) ? local[key] : null;
+            const there = Array.isArray(backup[key]) ? backup[key] : null;
+            if (!here && !there) return;
+            const pick = !here ? there : !there ? here : ((Number(there[0]) || 0) > (Number(here[0]) || 0) ? there : here);
+            out[key] = [Number(pick[0]) || 0, pick[1] ? 1 : 0];
+        });
+        return JSON.stringify(out);
+    }
+
+    function mergeMissLists(localRaw, backupRaw) {
+        const out = [];
+        const seen = new Set();
+        parseJsonArray(localRaw).concat(parseJsonArray(backupRaw)).forEach(function (id) {
+            if (typeof id !== "string" || !id || id.length > 160 || seen.has(id) || out.length >= 80) return;
+            seen.add(id);
+            out.push(id);
+        });
+        return JSON.stringify(out);
+    }
+
+    // Combina una copia con lo de este dispositivo. Una lección superada no se borra.
+    function mergeBackup(localKeys, backupKeys) {
+        const local = takeBackupKeys(localKeys || {}) || {};
+        const incoming = takeBackupKeys(backupKeys || {});
+        if (!incoming || !Object.keys(incoming).length) return null;
+        const out = Object.assign({}, local);
+        Object.keys(incoming).forEach(function (name) {
+            if (name === "lessons" || name.indexOf("lessons.") === 0) {
+                out[name] = mergeLessonMaps(local[name], incoming[name]);
+            } else if (name.indexOf("seen.") === 0) {
+                out[name] = mergeSeenMaps(local[name], incoming[name]);
+            } else if (name.indexOf("miss.") === 0) {
+                out[name] = mergeMissLists(local[name], incoming[name]);
+            } else if (!local[name]) {
+                out[name] = incoming[name];
+            }
+        });
+        return out;
+    }
+
     function backupChatText(summary) {
         return clipCodePoints(oneLine("Copia de NihongoDojo. " + backupLine(summary) + " Ábrela en la versión nueva con Restaurar copia."), 500);
     }
@@ -679,8 +795,10 @@
         buildLessonShareText,
         planReview,
         parseExamSnapshot,
+        soundRevealsAnswer,
         buildBackup,
         parseBackup,
+        mergeBackup,
         backupSummary,
         backupLine,
         backupChatText,

@@ -162,7 +162,7 @@
     var importBackupBtn = $('importBackupBtn');
     var backupNote = $('backupNote');
     var backupFile = $('backupFile');
-    var APP_VERSION = '1.13.5';
+    var APP_VERSION = '1.13.6';
     var lessonView = $('lessonView');
     var lessonBackBtn = $('lessonBackBtn');
     var lessonTitle = $('lessonTitle');
@@ -204,6 +204,47 @@
     function knownLevel(level) {
         if (Lex && Lex.LEVELS && Lex.LEVELS.indexOf(level) !== -1) return level;
         return 'n5';
+    }
+    var LEVEL_SRC = { n4: 'n4.js', n3: 'n3.js', n2: 'n2.js', n1: 'n1.js' };
+    var levelWait = {};
+    function levelReady(level) {
+        if (!level || level === 'n5') return true;
+        return !!(Lex && Lex.loaded && Lex.loaded(level) && Lessons && Lessons.ready && Lessons.ready(level));
+    }
+    function levelPending(level) {
+        return !!(levelWait[level] && levelWait[level].length);
+    }
+    function ensureLevel(level, done) {
+        if (!LEVEL_SRC[level]) { done(level === 'n5'); return; }
+        if (levelReady(level)) { done(true); return; }
+        if (levelWait[level]) { levelWait[level].push(done); return; }
+        levelWait[level] = [done];
+        var script = document.createElement('script');
+        script.src = LEVEL_SRC[level];
+        function finish(ok) {
+            var waiters = levelWait[level] || [];
+            levelWait[level] = null;
+            waiters.forEach(function (fn) { fn(ok); });
+        }
+        script.onload = function () {
+            if (Lex && Lex.attach) Lex.attach(level);
+            if (Lessons && Lessons.attach) Lessons.attach(level);
+            finish(levelReady(level));
+        };
+        script.onerror = function () { finish(false); };
+        document.head.appendChild(script);
+    }
+    function preloadOtherLevels() {
+        ['n4', 'n3', 'n2', 'n1'].forEach(function (level, i) {
+            if (level === state.level || levelReady(level)) return;
+            window.setTimeout(function () {
+                if (exam.active) {
+                    window.setTimeout(function () { ensureLevel(level, function () {}); }, 8000);
+                    return;
+                }
+                ensureLevel(level, function () {});
+            }, 1500 + i * 2500);
+        });
     }
     function bag() {
         return Lex && Lex.forLevel ? Lex.forLevel(knownLevel(state.level)) : Lex;
@@ -459,7 +500,10 @@
     }
     function maybeSpeakKana(item, settled) {
         if (!item || !item.kanaObj || item.lex || item.reading || !state.audioOn) return;
-        if (soundRevealsKana(item)) {
+        var waits = Core.soundRevealsAnswer
+            ? Core.soundRevealsAnswer(item, kanaDirection(item))
+            : soundRevealsKana(item);
+        if (waits) {
             if (settled) speakKana(item.kanaObj.char);
             return;
         }
@@ -1142,6 +1186,7 @@
         setHidden($('pathPanel'), free || !!openLessonId);
         setHidden($('freeExam'), !free || !!openLessonId);
         setHidden($('homeBar'), !!openLessonId);
+        setHidden($('backupBar'), !!openLessonId);
         if (homePathBtn) {
             homePathBtn.classList.toggle('active', !free);
             homePathBtn.setAttribute('aria-pressed', free ? 'false' : 'true');
@@ -1168,13 +1213,18 @@
     function setLevel(level) {
         if (exam.active) return;
         var next = knownLevel(level);
-        if (next === state.level) return;
+        if (next === state.level && levelReady(next)) return;
         state.level = next;
         persistLevel();
-        reloadLexSelections();
-        closeLesson();
-        updatePracticeUI();
-        renderPath();
+        if (pathIntro) pathIntro.textContent = 'Cargando el ' + next.toUpperCase() + '…';
+        ensureLevel(next, function (ok) {
+            if (state.level !== next) return;
+            reloadLexSelections();
+            closeLesson();
+            updatePracticeUI();
+            renderPath();
+            if (!ok && pathIntro) pathIntro.textContent = 'Este nivel no está en esta copia. No se muestra el N5 en su lugar.';
+        });
     }
     function updateDirectionUI() {
         var reverse = state.direction === Core.DIRECTIONS.ROMAJI_KANA;
@@ -1186,8 +1236,8 @@
         }
         if (directionNote) {
             directionNote.textContent = reverse
-                ? 'Ves el romaji y eliges el kana. El modo estricto no cambia esta dirección.'
-                : 'Ves el kana y escribes el romaji.';
+                ? 'Ves el romaji y eliges el kana. El sonido automático espera a la corrección.'
+                : 'Ves el kana y escribes el romaji. El sonido espera a la corrección.';
         }
     }
 
@@ -1210,6 +1260,28 @@
     function japaneseVoice() {
         var ja = systemVoices().filter(function (v) { return v && /^ja([-_]|$)/i.test(v.lang || ''); });
         return ja.filter(function (v) { return v.localService; })[0] || null;
+    }
+    function requireJapaneseVoice(onReady, onMissing) {
+        if (japaneseVoice()) { onReady(); return; }
+        if (!systemSpeech()) { onMissing('no-synth'); return; }
+        if (systemVoices().length) { onMissing('no-ja'); return; }
+        var synth = speechSynth();
+        var settled = false;
+        function finish(ok) {
+            if (settled) return;
+            settled = true;
+            if (synth && synth.removeEventListener) synth.removeEventListener('voiceschanged', onVoices);
+            if (ok) onReady();
+            else onMissing('no-ja');
+        }
+        function onVoices() {
+            if (japaneseVoice()) finish(true);
+        }
+        if (synth && synth.addEventListener) synth.addEventListener('voiceschanged', onVoices);
+        try { if (synth) synth.getVoices(); } catch (e) { /* la lista llega después */ }
+        if (japaneseVoice()) { finish(true); return; }
+        noteAudio('Buscando la voz japonesa del sistema…');
+        window.setTimeout(function () { finish(!!japaneseVoice()); }, 800);
     }
     function noteAudio(message) {
         if (quizEls.audioStatus) {
@@ -1317,7 +1389,7 @@
         if (audioTestBtn) audioTestBtn.disabled = false;
         var voice = japaneseVoice();
         var when = state.audioOn
-            ? 'La voz suena al mostrar, salvo si delata la respuesta: entonces suena al corregir.'
+            ? 'La voz suena al mostrar, salvo si delata la respuesta: entonces suena al corregir. En kana, también si ves el romaji, espera a la corrección.'
             : 'La voz solo suena si pulsas Oír. Si delata la respuesta, espera a la corrección.';
         audioNote.textContent = voice
             ? when + ' Voz local: ' + voice.name + '.'
@@ -1590,7 +1662,7 @@
         clearPromptClasses();
         if (quizEls.kanaChar) {
             quizEls.kanaChar.textContent = reverse ? item.kanaObj.romaji : item.kanaObj.char;
-            quizEls.kanaChar.lang = reverse ? 'en' : 'ja';
+            quizEls.kanaChar.lang = reverse ? 'en' : (item.result ? 'ja' : 'zxx');
             quizEls.kanaChar.classList.toggle('prompt-romaji', reverse);
         }
         setHidden(quizEls.inputArea, reverse);
@@ -1613,10 +1685,13 @@
             var heard = lexView(item);
             text += (heard.reveal && !item.result ? 'Escucha. ' : heard.prompt + '. ') + (isWrite() ? 'Escribe la respuesta.' : 'Elige la respuesta.');
         } else if (isReverse()) {
-            text += 'Romaji ' + item.kanaObj.romaji + '. Elige el kana.';
-        } else {
-            text += 'Carácter ' + item.kanaObj.char + '.';
-            if (!note) text += ' Escribe el romaji.';
+            text += item.result
+                ? ('La respuesta era ' + item.kanaObj.char + '.')
+                : 'Ves el romaji. Elige el carácter. El sonido espera a la corrección.';
+        } else if (item.kanaObj) {
+            text += item.result
+                ? ('La lectura era ' + item.kanaObj.romaji + '.')
+                : 'Ves el carácter. Escribe el romaji. El sonido espera a la corrección.';
         }
         if (note) text += ' ' + note;
         quizEls.announcer.textContent = text;
@@ -1786,18 +1861,19 @@
         var map = {};
         var progress = loadProgress(level);
         var list = Lessons.lessonsFor ? Lessons.lessonsFor(level) : [];
-        var old = Date.now() - REVIEW_DUE_MS - 86400000;
+        // No conocemos el día real: no los marques como vencidos.
+        var seenAt = Date.now();
         list.forEach(function (lesson) {
             var row = progress[lesson.id];
             if (!row || row.passed !== true || !lesson.quiz) return;
             var quiz = lesson.quiz;
             if (quiz.practice === 'kana') {
                 (quiz.chars || []).forEach(function (ch) {
-                    map['kana\n' + quiz.type + ':' + ch] = [old, 1];
+                    map['kana\n' + quiz.type + ':' + ch] = [seenAt, 1];
                 });
             } else if (quiz.practice === 'reading' || isNamedPractice(quiz.practice)) {
                 (quiz.ids || []).forEach(function (id) {
-                    map[quiz.practice + '\n' + id] = [old, 1];
+                    map[quiz.practice + '\n' + id] = [seenAt, 1];
                 });
             }
         });
@@ -1977,8 +2053,12 @@
             return;
         }
         if (isNamedPractice(state.practice)) {
-            if (activeDirection() === 'listen-es' && !systemSpeech()) {
-                showConfigWarning('Este cliente no expone la síntesis de voz del sistema. Elige otra dirección: el resto sigue disponible.');
+            if (activeDirection() === 'listen-es') {
+                requireJapaneseVoice(startLexiconExam, function (why) {
+                    showConfigWarning(why === 'no-synth'
+                        ? 'Este cliente no expone la síntesis de voz del sistema. Elige otra dirección: el resto sigue disponible.'
+                        : 'No hay voz japonesa del sistema. Instálala en los ajustes de texto a voz. El resto sigue disponible.');
+                });
                 return;
             }
             startLexiconExam();
@@ -2637,12 +2717,20 @@
             return;
         }
         var line = Core.backupLine(Core.backupSummary(parsed.keys));
-        if (!window.confirm('Restaurar sustituye el progreso de este dispositivo. ' + line + ' ¿Continuar?')) return;
+        if (!window.confirm('Se combina con el progreso de este dispositivo. Una lección ya superada no se borra. ' + line + ' ¿Continuar?')) return;
+        var local = {};
         eachStoredName(function (name) {
-            if (name !== 'probe') storageRemove(name);
+            if (name === 'probe') return;
+            var value = storageGet(name);
+            if (typeof value === 'string') local[name] = value;
         });
-        Object.keys(parsed.keys).forEach(function (name) {
-            storageSet(name, parsed.keys[name]);
+        var merged = Core.mergeBackup ? Core.mergeBackup(local, parsed.keys) : null;
+        if (!merged) {
+            setBackupNote('Esa copia no se pudo combinar con el progreso de este dispositivo.');
+            return;
+        }
+        Object.keys(merged).forEach(function (name) {
+            storageSet(name, merged[name]);
         });
         window.location.reload();
     }
@@ -2675,7 +2763,7 @@
             return;
         }
         exportBackupBtn.textContent = 'Descargar copia';
-        if (lead) lead.textContent = 'Al cambiar de versión, este dispositivo no se lleva el progreso. Descarga la copia y ábrela en la versión nueva con Restaurar copia.';
+        if (lead) lead.textContent = 'Al cambiar de versión, este dispositivo no se lleva el progreso. Descarga la copia y ábrela en la versión nueva con Restaurar copia. Restaurar combina: no borra una lección ya superada.';
     }
 
     function exitExam() {
@@ -2795,7 +2883,26 @@
         var list = Lessons.lessonsFor ? Lessons.lessonsFor(state.level) : Lessons.LESSONS;
         var progress = loadProgress(state.level);
         var passed = Lessons.passedCount(progress, state.level);
-        if (pathIntro) pathIntro.textContent = 'Lista comunitaria. No es el examen oficial.';
+        if (levelPending(state.level)) {
+            if (pathIntro) pathIntro.textContent = 'Cargando el ' + state.level.toUpperCase() + '…';
+            if (pathContinueBtn) {
+                pathContinueBtn.disabled = true;
+                pathContinueBtn.textContent = 'Cargando…';
+            }
+            if (pathProgress) pathProgress.textContent = '';
+            return;
+        }
+        if (!list.length && state.level !== 'n5') {
+            if (pathIntro) pathIntro.textContent = 'Este nivel no está en esta copia. No se muestra el N5 en su lugar.';
+            if (pathProgress) pathProgress.textContent = '0 de 0 superadas';
+            if (pathContinueBtn) {
+                pathContinueBtn.disabled = true;
+                pathContinueBtn.textContent = 'Nivel no disponible';
+            }
+            return;
+        }
+        if (pathContinueBtn) pathContinueBtn.disabled = false;
+        if (pathIntro) pathIntro.textContent = 'Lista comunitaria. Incluye frases, escucha y lectura. No es el examen oficial.';
         if (pathProgress) {
             var due = reviewPlan(state.level).length;
             pathProgress.textContent = passed + ' de ' + list.length + ' superadas · ' + Lessons.PASS_PERCENT + '%'
@@ -2901,7 +3008,7 @@
         updateHomeUI();
     }
     function applyQuizSettings(practice, direction, type) {
-        state.practice = isNamedPractice(practice) ? practice : 'kana';
+        state.practice = practice === 'reading' ? 'reading' : (isNamedPractice(practice) ? practice : 'kana');
         if (practice === 'words') state.wordDirection = direction;
         else if (practice === 'kanji') state.kanjiDirection = direction;
         else if (practice === 'phrases') state.phraseDirection = direction;
@@ -2936,22 +3043,36 @@
             }
             return;
         }
-        applyQuizSettings(lesson.quiz.practice, lesson.quiz.direction, lesson.quiz.type);
-        persistPractice();
-        persistType();
-        persistDirection();
-        persistWordDirection();
-        persistKanjiDirection();
-        persistPhraseDirection();
-        persistConjDirection();
-        persistGrammarDirection();
-        var lessonId = lesson.id;
-        if (lesson.level && knownLevel(lesson.level) === lesson.level) {
-            state.level = lesson.level;
-            persistLevel();
+        function launch() {
+            applyQuizSettings(lesson.quiz.practice, lesson.quiz.direction, lesson.quiz.type);
+            persistPractice();
+            persistType();
+            persistDirection();
+            persistWordDirection();
+            persistKanjiDirection();
+            persistPhraseDirection();
+            persistConjDirection();
+            persistGrammarDirection();
+            var lessonId = lesson.id;
+            if (lesson.level && knownLevel(lesson.level) === lesson.level) {
+                state.level = lesson.level;
+                persistLevel();
+            }
+            var counters = { correct: 0, wrong: 0, skipped: 0 };
+            if (lesson.quiz.direction === 'listen-es' || lesson.quiz.practice === 'reading') counters.answerMode = 'choice';
+            closeLesson();
+            beginExam(queue, 0, counters, false, lessonId);
         }
-        closeLesson();
-        beginExam(queue, 0, { correct: 0, wrong: 0, skipped: 0 }, false, lessonId);
+        if (lesson.quiz.direction === 'listen-es') {
+            requireJapaneseVoice(launch, function () {
+                if (lessonWarning) {
+                    lessonWarning.textContent = 'No hay voz japonesa del sistema. Instálala en los ajustes de texto a voz. Esta lección no empieza sin ella.';
+                    setHidden(lessonWarning, false);
+                }
+            });
+            return;
+        }
+        launch();
     }
 
     function bindEvents() {
@@ -3185,6 +3306,7 @@
             var next = Lessons.passedCount(progress, state.level) === list.length
                 ? list[0]
                 : Lessons.nextLesson(progress, state.level);
+            if (!next) return;
             openLesson(next.id);
         });
         if (lessonBackBtn) lessonBackBtn.addEventListener('click', function () {
@@ -3229,8 +3351,7 @@
         document.addEventListener('visibilitychange', onVisibility);
     }
 
-    function init() {
-        loadState();
+    function finishInit() {
         renderChips();
         updateTypeButtonsUI();
         updateModeButtonsUI();
@@ -3241,9 +3362,17 @@
         renderPath();
         refreshResumePanel();
         updateBackupUI();
-        bindEvents();
         setHidden(quizArea, true);
         setHidden(optionsPanel, false);
+        preloadOtherLevels();
+    }
+    function init() {
+        loadState();
+        bindEvents();
+        if (state.level && state.level !== 'n5' && pathIntro) {
+            pathIntro.textContent = 'Cargando el ' + state.level.toUpperCase() + '…';
+        }
+        ensureLevel(state.level, function () { finishInit(); });
     }
 
     init();

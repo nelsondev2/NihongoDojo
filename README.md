@@ -2,7 +2,7 @@
 
 Quiz sin conexión para el **JLPT N5, N4, N3, N2 y N1**: un camino de lecciones y exámenes libres de **silabarios**, **vocabulario**, **kanji**, **frases**, **gramática** y **conjugación**. En los silabarios ves el carácter y escribes el romaji, o al revés. En el resto eliges entre opciones. La voz es la del sistema, también dentro de un webxdc, además del examen.
 
-Es una mini-app [webxdc](https://webxdc.org/) para Delta Chat y ArcaneChat (versión 1.13.5). También se abre sola en el navegador: no tiene servidor, dependencias ni conexión de red.
+Es una mini-app [webxdc](https://webxdc.org/) para Delta Chat y ArcaneChat (versión 1.13.6). También se abre sola en el navegador: no tiene servidor, dependencias ni conexión de red.
 
 El JLPT no publica lista oficial de vocabulario, kanji ni gramática desde 2010. El N5 sigue el recorte comunitario de Jonathan Waller (el que usa Jisho), a través de OpenJLPT: 674 palabras, 84 kanji y 81 puntos de gramática, más los kana y las conjugaciones que esos ítems necesitan. El N4 añade el recorte incremental: 630 palabras, 169 kanji y 98 puntos de gramática, con potencial, condicionales y voz. El N3 añade otras 1.659 palabras, 387 kanji y 101 puntos, con la negación ず. El N2 añade el recorte siguiente: 1.778 palabras, 398 kanji y 123 puntos, con まい y los verbos en ずる. El N1 añade el último recorte: 3.070 palabras, 1.345 kanji y 123 puntos. No es el examen ni una promesa de aprobarlo.
 
@@ -24,7 +24,9 @@ La primera vez solo están marcadas las filas básicas (46 preguntas). Sonoras y
 
 ### Camino
 
-En Camino hay cinco botones, N5, N4, N3, N2 y N1. No se mezclan. El N5 tiene 213 lecciones: los dos silabarios, っ y ー, cada punto de gramática, el vocabulario en tandas de 12, los 84 kanji en tandas de 10, la conjugación y un repaso. El N4 tiene 199 lecciones encima de eso: un puente, cada punto de gramática, el vocabulario nuevo, los 169 kanji y la conjugación nueva. El N3 tiene 317 lecciones más: el recorte que no estaba en N5 ni en N4. El N2 tiene 369 lecciones más. El N1 tiene 574 lecciones más. La lista se desplaza; ninguna lección está bloqueada.
+En Camino hay cinco botones, N5, N4, N3, N2 y N1. No se mezclan. Si un nivel no está en esta copia, no se muestra el N5 en su lugar. La primera pantalla carga el N5. N4, N3, N2 y N1 se cargan al elegirlos, para no leer varios megabytes antes de empezar.
+
+El N5 tiene 357 lecciones: los dos silabarios, っ y ー, cada punto de gramática, el vocabulario en tandas de 12, los 84 kanji en tandas de 10, la conjugación, las frases, la escucha de palabras, kanji y frases, y seis textos. El N4 tiene 363. El N3 tiene 581. El N2 tiene 649. El N1 tiene 1.043. La lista se desplaza; ninguna lección está bloqueada. Una lección de escucha no empieza si el sistema no tiene voz japonesa.
 
 Cada lección explica el paso y después abre el examen con ítems que ya están en la app. Se supera con 70%. El progreso del N5 queda en `nihongodojo.lessons`. El del N4, en `nihongodojo.lessons.n4`. El del N3, en `nihongodojo.lessons.n3`. El del N2, en `nihongodojo.lessons.n2`. El del N1, en `nihongodojo.lessons.n1`. Se puede saltar o repetir. Un intento peor no borra una lección ya superada.
 
@@ -103,7 +105,7 @@ El progreso va en `nihongodojo.lessons.n1`. Los temas marcados van en `sel.n1.*`
    - **Conjugación:** forma → español, o español → forma.
    - **Gramática:** patrón → español, español → patrón, o el hueco.
    - **Escuchar → español:** en palabras, kanji y frases, no ves el japonés. Lo dice la síntesis de voz del sistema, también en webxdc, y respondes el significado. Si ese cliente no expone la voz, no empieza; el resto sí.
-   - **Lectura:** dos textos cortos por nivel, originales de este dojo. Lees y eliges. **Oír** dice la lectura con la misma voz. No es el examen.
+   - **Lectura:** seis textos cortos por nivel, originales de este dojo. Lees y eliges. **Oír** dice la lectura con la misma voz. No es el examen.
    - **Repasar fallos:** guarda lo fallado de ese nivel y esa práctica, no los saltos. Un acierto posterior lo quita. Como mucho, 80.
 2. En silabarios, elige también el silabario y el modo de romanización.
    - **Kana → romaji:** ves el carácter y escribes la lectura.
@@ -115,10 +117,10 @@ El progreso va en `nihongodojo.lessons.n1`. Los temas marcados van en `sel.n1.*`
    - En palabras, kanji, frases, conjugación y gramática se elige una opción. Las teclas 1 a 4 también valen.
    - **Saltar** muestra la respuesta y cuenta como saltada, no como fallo.
    - La corrección se queda en pantalla. **Siguiente** o Enter pasa a la otra pregunta.
-   - **Oír** pide la voz del sistema. Si «Al mostrar» está activo, suena al aparecer la pregunta, salvo cuando eso revelaría la respuesta: entonces suena al corregir. En hiragana y katakana la lectura es la respuesta, así que no suena hasta corregir. En un texto largo, suena una vez al empezar.
+   - **Oír** pide la voz del sistema. Si «Automática» está activa, suena al aparecer la pregunta, salvo cuando eso revelaría la respuesta: entonces suena al corregir. En hiragana y katakana, también si ves el romaji, el sonido automático espera a la corrección. En un texto largo, suena una vez al empezar. Escuchar → español no empieza si no hay voz japonesa.
 6. Al terminar ves aciertos, fallos, saltadas y el porcentaje (`aciertos / total`). Si hubo errores, **Repasar fallos** arma otro examen solo con esos elementos.
 7. **Salir del examen** pide confirmación. Si el dispositivo permite guardar, la sesión queda a medias y se puede continuar desde la pantalla inicial.
-8. Antes de cambiar de versión, pulsa **Mandar copia al chat**. El cliente te deja elegir el destino; Mensajes guardados sirve. El archivo se llama `nihongodojo-copia-AAAA-MM-DD.json` y no es un aviso de puntuación. En la versión nueva, **Restaurar copia** abre los archivos recientes del chat. Eso sustituye el progreso de ese dispositivo. Si el cliente no puede mandar archivos, se descarga la misma copia.
+8. Antes de cambiar de versión, pulsa **Copia del progreso** y **Mandar copia al chat**. El cliente te deja elegir el destino; Mensajes guardados sirve. El archivo se llama `nihongodojo-copia-AAAA-MM-DD.json` y no es un aviso de puntuación. En la versión nueva, **Restaurar copia** abre los archivos recientes del chat y combina: no borra una lección ya superada ni un repaso más reciente. Si el cliente no puede mandar archivos, se descarga la misma copia.
 
 El silabario, el modo, la práctica, los temas, las filas y el camino se recuerdan en `localStorage`. Si el almacenamiento no está disponible, la app sigue en memoria, pero al salir se pierde la sesión: el diálogo lo dice.
 
@@ -178,6 +180,11 @@ zip -9 -X NihongoDojo.xdc \
   index.html \
   core.js \
   n5.js \
+  n4.js \
+  n3.js \
+  n2.js \
+  n1.js \
+  readings.js \
   lexicon.js \
   lessons.js \
   app.js \
@@ -213,7 +220,7 @@ n4.js           Datos del N4 comunitario y su camino. Lo genera scripts/build_n4
 n3.js           Datos del N3 comunitario y su camino. Lo genera scripts/build_n3.py
 n2.js           Datos del N2 comunitario y su camino. Lo genera scripts/build_n2.py
 n1.js           Datos del N1 comunitario y su camino. Lo genera scripts/build_n1.py
-readings.js     Textos cortos originales, dos por nivel
+readings.js     Textos cortos originales, seis por nivel
 lexicon.js      Exámenes de palabras, kanji, frases, gramática y conjugación
 lessons.js      Cola de cada lección y progreso del camino
 app.js          Interfaz, estado, almacenamiento y envío al chat

@@ -35,23 +35,140 @@
     loadLessons("NihongoDojoN2", "./n2.js", "n2");
     loadLessons("NihongoDojoN1", "./n1.js", "n1");
 
+    const PATH = {};
+    function lexiconOf() {
+        if (root.NihongoDojoLexicon && root.NihongoDojoLexicon.forLevel) return root.NihongoDojoLexicon;
+        if (typeof require !== "undefined") {
+            try {
+                const api = require("./lexicon.js");
+                root.NihongoDojoLexicon = api;
+                return api;
+            } catch (e) { return null; }
+        }
+        return null;
+    }
+    function readingsOf() {
+        if (root.NihongoDojoReadings && root.NihongoDojoReadings.questionsFor) return root.NihongoDojoReadings;
+        if (typeof require !== "undefined") {
+            try {
+                const api = require("./readings.js");
+                root.NihongoDojoReadings = api;
+                return api;
+            } catch (e) { return null; }
+        }
+        return null;
+    }
+    function chunks(ids, size) {
+        const out = [];
+        for (let i = 0; i < ids.length; i += size) out.push(ids.slice(i, i + size));
+        return out;
+    }
+    function groupedIds(catalog, groups) {
+        const known = {};
+        const out = [];
+        (groups || []).forEach(function (group) {
+            known[group.id] = true;
+            const ids = [];
+            (catalog || []).forEach(function (item) {
+                if (item.group === group.id) ids.push(item.id);
+            });
+            if (ids.length) out.push({ label: group.label || group.id, ids: ids });
+        });
+        const orphan = [];
+        (catalog || []).forEach(function (item) {
+            if (!known[item.group]) orphan.push(item.id);
+        });
+        if (orphan.length) out.push({ label: "Otros", ids: orphan });
+        return out;
+    }
+    function pushChunks(out, level, kind, stage, prefix, practice, direction, groups, size, blurb) {
+        let n = 0;
+        groups.forEach(function (group) {
+            const parts = chunks(group.ids, size);
+            parts.forEach(function (ids, index) {
+                n += 1;
+                const title = prefix + ": " + group.label + (parts.length > 1 ? " " + (index + 1) : "");
+                out.push({
+                    id: "l-" + level + "-" + kind + "-" + n,
+                    level: level,
+                    stage: stage,
+                    title: title,
+                    minutes: practice === "reading" ? 8 : 6,
+                    teach: [{ heading: title, text: blurb }],
+                    quiz: { practice: practice, direction: direction, ids: ids }
+                });
+            });
+        });
+    }
+    function pathExtras(level) {
+        const Lex = lexiconOf();
+        if (!Lex || !Lex.forLevel) return [];
+        const pack = Lex.forLevel(level);
+        if (!pack || pack.level !== level || !pack.PHRASES) return [];
+        const listen = Lex.DIRECTIONS && Lex.DIRECTIONS.LISTEN_ES ? Lex.DIRECTIONS.LISTEN_ES : "listen-es";
+        const phraseEs = Lex.DIRECTIONS && Lex.DIRECTIONS.PHRASE_ES ? Lex.DIRECTIONS.PHRASE_ES : "phrase-es";
+        const out = [];
+        pushChunks(out, level, "fr", "Frases", "Frases", "phrases", phraseEs,
+            groupedIds(pack.PHRASES, pack.PHRASE_GROUPS), 8,
+            "Ves la frase y eliges el significado. Lista comunitaria: no es el examen.");
+        pushChunks(out, level, "lw", "Escucha", "Escucha", "words", listen,
+            groupedIds(pack.WORDS, pack.WORD_GROUPS), 12,
+            "No ves la palabra. La voz del sistema la dice y eliges el significado. Si no hay voz japonesa, esta lección no empieza. No se descarga audio.");
+        pushChunks(out, level, "lk", "Escucha", "Escucha kanji", "kanji", listen,
+            groupedIds(pack.KANJI, pack.KANJI_GROUPS), 10,
+            "No ves el kanji. La voz del sistema dice la lectura y eliges el significado. Si no hay voz japonesa, esta lección no empieza.");
+        pushChunks(out, level, "lp", "Escucha", "Escucha frases", "phrases", listen,
+            groupedIds(pack.PHRASES, pack.PHRASE_GROUPS), 8,
+            "No ves la frase. La voz del sistema la dice y eliges el significado. Si no hay voz japonesa, esta lección no empieza.");
+        const Readings = readingsOf();
+        if (Readings && Readings.questionsFor) {
+            const byText = [];
+            const index = {};
+            Readings.questionsFor(level).forEach(function (question) {
+                const key = String(question.id).replace(/-\d+$/, "");
+                if (index[key] === undefined) {
+                    index[key] = byText.length;
+                    byText.push({ label: question.title || ("Texto " + (byText.length + 1)), ids: [] });
+                }
+                byText[index[key]].ids.push(question.id);
+            });
+            pushChunks(out, level, "rd", "Lectura", "Lectura", "reading", "lectura", byText, 8,
+                "Lees un texto corto y eliges. El japonés y las preguntas son de este dojo. No es el examen.");
+        }
+        return out;
+    }
     function lessonsFor(level) {
-        if (EXTRA[level]) return EXTRA[level];
-        return LESSONS;
+        const key = !level ? "n5" : level;
+        if (key !== "n5" && key !== "n4" && key !== "n3" && key !== "n2" && key !== "n1") return [];
+        if (key !== "n5" && !(EXTRA[key] && EXTRA[key].length)) return [];
+        if (PATH[key]) return PATH[key];
+        const base = key === "n5" ? LESSONS : EXTRA[key];
+        PATH[key] = base.concat(pathExtras(key));
+        return PATH[key];
+    }
+    function attach(level) {
+        const files = {
+            n4: ["NihongoDojoN4", "./n4.js"],
+            n3: ["NihongoDojoN3", "./n3.js"],
+            n2: ["NihongoDojoN2", "./n2.js"],
+            n1: ["NihongoDojoN1", "./n1.js"]
+        };
+        const spec = files[level];
+        if (!spec) return false;
+        loadLessons(spec[0], spec[1], level);
+        delete PATH[level];
+        return !!(EXTRA[level] && EXTRA[level].length);
+    }
+    function ready(level) {
+        if (!level || level === "n5") return true;
+        return !!(EXTRA[level] && EXTRA[level].length);
     }
     function locate(id) {
-        const lists = [
-            ["n5", LESSONS],
-            ["n4", EXTRA.n4 || []],
-            ["n3", EXTRA.n3 || []],
-            ["n2", EXTRA.n2 || []],
-            ["n1", EXTRA.n1 || []]
-        ];
-        for (let n = 0; n < lists.length; n++) {
-            const level = lists[n][0];
-            const list = lists[n][1];
+        const levels = ["n5", "n4", "n3", "n2", "n1"];
+        for (let n = 0; n < levels.length; n++) {
+            const list = lessonsFor(levels[n]);
             for (let i = 0; i < list.length; i++) {
-                if (list[i].id === id) return { lesson: list[i], number: i + 1, level: level };
+                if (list[i].id === id) return { lesson: list[i], number: i + 1, level: levels[n] };
             }
         }
         return null;
@@ -72,6 +189,18 @@
     function buildQueue(lesson, Core, Lex, rng) {
         if (!lesson || !lesson.quiz) return [];
         const quiz = lesson.quiz;
+        if (quiz.practice === "reading") {
+            const Readings = readingsOf();
+            if (!Readings || !Readings.findQuestion) return [];
+            const queue = [];
+            const ids = quiz.ids || [];
+            for (let i = 0; i < ids.length; i++) {
+                const question = Readings.findQuestion(ids[i]);
+                if (!question || question.level !== (lesson.level || "n5")) return [];
+                queue.push({ reading: question, userAnswer: null, result: null, choices: null });
+            }
+            return shuffle(queue, rng);
+        }
         if (quiz.practice === "kana") {
             const queue = [];
             const chars = quiz.chars || [];
@@ -139,6 +268,8 @@
         PASS_PERCENT,
         LESSONS,
         lessonsFor,
+        attach,
+        ready,
         findLesson: function (id) {
             const found = locate(id);
             return found ? found.lesson : null;

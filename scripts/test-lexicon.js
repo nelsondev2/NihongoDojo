@@ -287,6 +287,17 @@ check('la cola inicial no mezcla temas no elegidos', () => {
     assert.strictEqual(Lex.buildQueue('kanji', [], 'kanji-es').length, 0);
 });
 
+check('un nivel ausente no devuelve el catálogo del N5', () => {
+    const missing = Lex.forLevel('n9');
+    assert.strictEqual(missing.level, 'n9');
+    assert.strictEqual(missing.WORDS.length, 0);
+    assert.strictEqual(missing.PHRASES.length, 0);
+    assert.notStrictEqual(missing.WORDS, Lex.WORDS);
+    assert.deepStrictEqual(Lex.LEVELS, ['n5', 'n4', 'n3', 'n2', 'n1']);
+    assert.strictEqual(Lex.loaded('n9'), false);
+    assert.strictEqual(Lex.loaded('n5'), true);
+});
+
 if (failed) {
     console.error('\n' + failed + ' comprobaciones fallaron');
     process.exit(1);

@@ -20,7 +20,7 @@ check('cada nivel tiene textos propios y respuestas distintas', () => {
     const ids = new Set();
     for (const level of ['n5', 'n4', 'n3', 'n2', 'n1']) {
         const questions = Readings.questionsFor(level);
-        assert.strictEqual(questions.length, 4, level);
+        assert.strictEqual(questions.length, 12, level);
         const answers = new Set();
         for (const question of questions) {
             assert.strictEqual(ids.has(question.id), false, question.id);
@@ -35,7 +35,7 @@ check('cada nivel tiene textos propios y respuestas distintas', () => {
         }
         assert.ok(answers.size > 1, level);
     }
-    assert.strictEqual(ids.size, 20);
+    assert.strictEqual(ids.size, 60);
 });
 
 check('una instantánea de lectura no repregunta lo ya respondido', () => {

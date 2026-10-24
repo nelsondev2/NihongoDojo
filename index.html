@@ -20,13 +20,9 @@
     <script src="webxdc.js"></script>
     <script src="core.js" defer></script>
     <script src="n5.js" defer></script>
-    <script src="n4.js" defer></script>
-    <script src="n3.js" defer></script>
-    <script src="n2.js" defer></script>
-    <script src="n1.js" defer></script>
     <script src="lexicon.js" defer></script>
-    <script src="lessons.js" defer></script>
     <script src="readings.js" defer></script>
+    <script src="lessons.js" defer></script>
     <script src="app.js" defer></script>
 </head>
 <body>
@@ -66,15 +62,6 @@
             <div class="home-switch" role="group" aria-label="Qué quieres hacer">
                 <button type="button" id="homePathBtn" class="type-btn" aria-pressed="true">Camino</button>
                 <button type="button" id="homeFreeBtn" class="type-btn" aria-pressed="false">Examen libre</button>
-            </div>
-            <div id="backupBar" class="backup-bar">
-                <p class="mode-note">Al cambiar de versión, este dispositivo no se lleva el progreso. Manda una copia al chat y ábrela en la versión nueva.</p>
-                <div class="action-buttons">
-                    <button type="button" id="exportBackupBtn" class="btn btn-secondary">Mandar copia al chat</button>
-                    <button type="button" id="importBackupBtn" class="btn btn-secondary">Restaurar copia</button>
-                </div>
-                <p id="backupNote" class="mode-note" role="status"></p>
-                <input type="file" id="backupFile" class="visually-hidden" accept="application/json,.json">
             </div>
         </div>
 
@@ -258,7 +245,7 @@
         <div class="selector-group" id="audioGroup">
             <div class="selector-label" id="audioLabel">Voz del sistema</div>
             <div class="kana-type" role="group" aria-labelledby="audioLabel">
-                <button type="button" id="audioOnBtn" class="type-btn" aria-pressed="true">Al mostrar</button>
+                <button type="button" id="audioOnBtn" class="type-btn" aria-pressed="true">Automática</button>
                 <button type="button" id="audioOffBtn" class="type-btn" aria-pressed="false">Solo si pulso</button>
             </div>
             <p id="audioNote" class="mode-note">Síntesis de voz del sistema, también en webxdc. No se descarga audio.</p>
@@ -297,6 +284,16 @@
             <div id="configWarning" class="config-warning hidden" role="alert"></div>
         </div>
         </div>
+        <details id="backupBar" class="fold backup-fold">
+            <summary>Copia del progreso</summary>
+            <p class="mode-note">Al cambiar de versión, este dispositivo no se lleva el progreso. Manda una copia al chat y ábrela en la versión nueva. Restaurar combina: no borra una lección ya superada.</p>
+            <div class="action-buttons">
+                <button type="button" id="exportBackupBtn" class="btn btn-secondary">Mandar copia al chat</button>
+                <button type="button" id="importBackupBtn" class="btn btn-secondary">Restaurar copia</button>
+            </div>
+            <p id="backupNote" class="mode-note" role="status"></p>
+            <input type="file" id="backupFile" class="visually-hidden" accept="application/json,.json">
+        </details>
     </div>
 
     <!-- Área del examen: se rellena clonando el template (fuente única de markup) -->

@@ -1,6 +1,6 @@
 /**
  * NihongoDojo — textos cortos originales.
- * No son el examen ni una lista oficial. El japonés y las preguntas son de este dojo.
+ * Seis por nivel. No son el examen ni una lista oficial. El japonés y las preguntas son de este dojo.
  */
 (function (root) {
     "use strict";
@@ -94,6 +94,186 @@
             questions: [
                 { ask: "¿La explicación miente?", choices: ["Es falsa de cabo a rabo", "Es un contrato", "No, pero omite lo desfavorable", "No se puede leer"], answer: 2 },
                 { ask: "¿Qué riesgo señala?", choices: ["Perder el tren", "Llevar a un juicio equivocado", "No poder entrar", "Quedarse sin voz"], answer: 1 }
+            ]
+        },
+        {
+            id: "rd-n5-eki", level: "n5", title: "La estación",
+            jp: "駅で電車を待ちます。七時の電車に乗ります。駅の前に店があります。",
+            kana: "えきででんしゃをまちます。しちじのでんしゃにのります。えきのまえにみせがあります。",
+            questions: [
+                { ask: "¿Qué hace a las siete?", choices: ["Se sube al tren", "Compra en la tienda", "Vuelve a casa", "Escribe una carta"], answer: 0 },
+                { ask: "¿Qué hay delante de la estación?", choices: ["Una escuela", "Una tienda", "Un parque", "Un hospital"], answer: 1 }
+            ]
+        },
+        {
+            id: "rd-n5-mise", level: "n5", title: "La compra",
+            jp: "スーパーでりんごを三つ買います。パンも買います。水は買いません。",
+            kana: "スーパーでりんごをみっつかいます。パンもかいます。みずはかいません。",
+            questions: [
+                { ask: "¿Qué no compra?", choices: ["Manzanas", "Pan", "Tres", "Agua"], answer: 3 },
+                { ask: "¿Cuántas manzanas compra?", choices: ["Una", "Dos", "Tres", "Cinco"], answer: 2 }
+            ]
+        },
+        {
+            id: "rd-n5-ame", level: "n5", title: "La lluvia",
+            jp: "今日は雨です。傘を持って行きます。午後は図書館で本を読みます。",
+            kana: "きょうはあめです。かさをもっていきます。ごごはとしょかんでほんをよみます。",
+            questions: [
+                { ask: "¿Qué tiempo hace hoy?", choices: ["Hace sol", "Nieva", "Llueve", "Hace viento"], answer: 2 },
+                { ask: "¿Adónde va por la tarde?", choices: ["A la biblioteca", "A la estación", "A la escuela", "A la tienda"], answer: 0 }
+            ]
+        },
+        {
+            id: "rd-n5-kazoku", level: "n5", title: "La familia",
+            jp: "わたしの家族は四人です。父と母と弟がいます。弟は中学生です。",
+            kana: "わたしのかぞくはよにんです。ちちとははとおとうとがいます。おとうとはちゅうがくせいです。",
+            questions: [
+                { ask: "¿Cuántas personas hay en la familia?", choices: ["Dos", "Tres", "Cuatro", "Cinco"], answer: 2 },
+                { ask: "¿Qué es el hermano menor?", choices: ["Profesor", "Estudiante de secundaria", "Empleado", "Universitario"], answer: 1 }
+            ]
+        },
+        {
+            id: "rd-n4-jitensha", level: "n4", title: "La bici",
+            jp: "鈴木さんは自転車に乗れます。車はまだ運転できません。来月、練習するつもりです。",
+            kana: "すずきさんはじてんしゃにのれます。くるまはまだうんてんできません。らいげつ、れんしゅうするつもりです。",
+            questions: [
+                { ask: "¿Qué puede hacer Suzuki?", choices: ["Conducir un coche", "Montar en bici", "Pilotar", "Nadar"], answer: 1 },
+                { ask: "¿Qué piensa hacer el mes que viene?", choices: ["Vender la bici", "Dejar de estudiar", "Practicar", "Comprar un tren"], answer: 2 }
+            ]
+        },
+        {
+            id: "rd-n4-okureru", level: "n4", title: "Si llega tarde",
+            jp: "この電車に遅れたら、次は三十分後です。早めに駅へ来てください。",
+            kana: "このでんしゃにおくれたら、つぎはさんじゅっぷんごです。はやめにえきへきてください。",
+            questions: [
+                { ask: "Si pierde ese tren, ¿cuándo es el siguiente?", choices: ["En diez minutos", "En treinta minutos", "Mañana", "No hay otro"], answer: 1 },
+                { ask: "¿Qué pide el texto?", choices: ["Llegar pronto a la estación", "Comprar un billete caro", "Esperar en casa", "Cambiar de ciudad"], answer: 0 }
+            ]
+        },
+        {
+            id: "rd-n4-hon", level: "n4", title: "Dos libros",
+            jp: "この本のほうが面白いです。あの本は易しいですが、話は短いです。",
+            kana: "このほんのほうがおもしろいです。あのほんはやさしいですが、はなしはみじかいです。",
+            questions: [
+                { ask: "¿Cómo es este libro?", choices: ["Más aburrido", "Más interesante que aquel", "Más corto", "Más difícil de encontrar"], answer: 1 },
+                { ask: "¿Cómo es la historia de aquel libro?", choices: ["Larga", "Corta", "Triste", "No tiene historia"], answer: 1 }
+            ]
+        },
+        {
+            id: "rd-n4-yoyaku", level: "n4", title: "La reserva",
+            jp: "来週、京都へ行くつもりです。新幹線で行きます。ホテルはもう予約しました。",
+            kana: "らいしゅう、きょうとへいくつもりです。しんかんせんでいきます。ホテルはもうよやくしました。",
+            questions: [
+                { ask: "¿Qué reservó ya?", choices: ["El hotel", "El shinkansen", "Un restaurante", "El partido"], answer: 0 },
+                { ask: "¿Cómo va a Kioto?", choices: ["En autobús", "En shinkansen", "A pie", "En barco"], answer: 1 }
+            ]
+        },
+        {
+            id: "rd-n3-densha", level: "n3", title: "Se le escapó",
+            jp: "急いで駅へ行ったのに、電車はもう出てしまいました。次は二十分後です。",
+            kana: "いそいでえきへいったのに、でんしゃはもうでてしまいました。つぎはにじゅっぷんごです。",
+            questions: [
+                { ask: "¿Qué pasó con el tren?", choices: ["Ya había salido", "Llegó tarde", "Se canceló el viaje", "Estaba vacío"], answer: 0 },
+                { ask: "¿Cuándo es el siguiente?", choices: ["En cinco minutos", "En veinte minutos", "Mañana por la mañana", "No lo dice"], answer: 1 }
+            ]
+        },
+        {
+            id: "rd-n3-hazu", level: "n3", title: "Debería venir",
+            jp: "田中さんは今日来るはずです。でも、連絡がないので、少し心配しています。",
+            kana: "たなかさんはきょうくるはずです。でも、れんらくがないので、すこししんぱいしています。",
+            questions: [
+                { ask: "¿Qué se esperaba de Tanaka?", choices: ["Que llamara ayer", "Que viniera hoy", "Que se mudara", "Que faltara"], answer: 1 },
+                { ask: "¿Por qué hay preocupación?", choices: ["Por la lluvia", "Porque no hay noticias", "Porque ya llegó", "Por el examen"], answer: 1 }
+            ]
+        },
+        {
+            id: "rd-n3-ongaku", level: "n3", title: "Con música",
+            jp: "音楽を聞きながら、宿題をしています。でも、歌が始まると、集中できなくなります。",
+            kana: "おんがくをききながら、しゅくだいをしています。でも、うたがはじまると、しゅうちゅうできなくなります。",
+            questions: [
+                { ask: "¿Qué hace mientras estudia los deberes?", choices: ["Escucha música", "Duerme", "Cocina", "Corre"], answer: 0 },
+                { ask: "¿Qué pasa cuando empieza la canción?", choices: ["Termina los deberes", "Sale de casa", "Ya no puede concentrarse", "Apaga la luz"], answer: 2 }
+            ]
+        },
+        {
+            id: "rd-n3-tame", level: "n3", title: "Para usarlo",
+            jp: "日本語を使うために、毎週会話のクラスに出ています。クラスのあと、ノートを見直します。",
+            kana: "にほんごをつかうために、まいしゅうかいわのクラスにでています。クラスのあと、ノートをみなおします。",
+            questions: [
+                { ask: "¿Para qué va a clase?", choices: ["Para usar el japonés", "Para enseñar", "Para descansar", "Para comprar libros"], answer: 0 },
+                { ask: "¿Qué hace después de la clase?", choices: ["Tira los apuntes", "Repasa el cuaderno", "Cancela la semana", "Vuelve al examen"], answer: 1 }
+            ]
+        },
+        {
+            id: "rd-n2-kawa", level: "n2", title: "El río",
+            jp: "この川は、大雨のあとにあふれるおそれがあります。近くの人は早めに避難してください。",
+            kana: "このかわは、おおあめのあとにあふれるおそれがあります。ちかくのひとははやめにひなんしてください。",
+            questions: [
+                { ask: "¿Qué riesgo señala?", choices: ["Que el río se desborde", "Que deje de llover", "Que no haya tren", "Que cierre la escuela"], answer: 0 },
+                { ask: "¿Qué se pide a quien vive cerca?", choices: ["Quedarse a mirar", "Evacuar con tiempo", "Abrir las ventanas", "Esperar al mediodía"], answer: 1 }
+            ]
+        },
+        {
+            id: "rd-n2-keiyaku", level: "n2", title: "El contrato",
+            jp: "契約するうえで、料金と解約の条件を確認してください。サインのあとでは、変更が難しいです。",
+            kana: "けいやくするうえで、りょうきんとかいやくのじょうけんをかくにんしてください。サインのあとでは、へんこうがむずかしいです。",
+            questions: [
+                { ask: "¿Qué hay que confirmar antes de firmar?", choices: ["El tiempo y el tren", "La tarifa y cómo cancelar", "El número de asientos", "El nombre del río"], answer: 1 },
+                { ask: "Después de firmar, ¿qué pasa con un cambio?", choices: ["Es fácil", "No hace falta", "Es difícil", "Lo hace el público"], answer: 2 }
+            ]
+        },
+        {
+            id: "rd-n2-setsumei", level: "n2", title: "Lo que omite",
+            jp: "その説明は大事な点を省いているため、事実の一部しか伝えていません。読む人は不利な条件に気づきにくいです。",
+            kana: "そのせつめいはだいじなてんをはぶいているため、じじつのいちぶしかつたえていません。よむひとはふりなじょうけんにきづきにくいです。",
+            questions: [
+                { ask: "¿Qué problema tiene la explicación?", choices: ["Omite puntos importantes", "Está en otro idioma", "Es demasiado larga", "Ya no existe"], answer: 0 },
+                { ask: "¿Qué le cuesta ver a quien lee?", choices: ["El título", "La fecha", "Las condiciones desfavorables", "El precio del tren"], answer: 2 }
+            ]
+        },
+        {
+            id: "rd-n2-kekseki", level: "n2", title: "No puede faltar",
+            jp: "今日の会議は、都合が悪くても欠席するわけにはいきません。資料だけは先に送っておきます。",
+            kana: "きょうのかいぎは、つごうがわるくてもけっせきするわけにはいきません。しりょうだけはさきにおくっておきます。",
+            questions: [
+                { ask: "¿Qué no puede hacer con la reunión de hoy?", choices: ["Faltar", "Llegar", "Hablar", "Escuchar"], answer: 0 },
+                { ask: "¿Qué manda por adelantado?", choices: ["El contrato firmado", "Solo los materiales", "La disculpa", "Nada"], answer: 1 }
+            ]
+        },
+        {
+            id: "rd-n1-uwasa", level: "n1", title: "El rumor",
+            jp: "その噂をそのまま信じると、判断を誤るかねない。出典を確かめてから話すべきだ。",
+            kana: "そのうわさをそのまましんじると、はんだんをあやまるかねない。しゅってんをたしかめてからはなすべきだ。",
+            questions: [
+                { ask: "Si se cree el rumor tal cual, ¿qué puede pasar?", choices: ["Equivocarse al juzgar", "Quedar la fuente clara", "Subir la calidad", "Hacer innecesario el acuerdo"], answer: 0 },
+                { ask: "¿Qué hay que hacer antes de contarlo?", choices: ["Firmar", "Comprobar la fuente", "Borrar el texto", "Votarlo"], answer: 1 }
+            ]
+        },
+        {
+            id: "rd-n1-kisoku", level: "n1", title: "La norma",
+            jp: "規則に即して処理してください。前例があるからといって、例外を認めてはいけません。",
+            kana: "きそくにそくしてしょりしてください。ぜんれいがあるからといって、れいがいをみとめてはいけません。",
+            questions: [
+                { ask: "¿Cómo hay que tramitarlo?", choices: ["Según la norma", "A criterio de una sola persona", "Como el público vote", "Dejándolo para otro día"], answer: 0 },
+                { ask: "Aunque haya un precedente, ¿qué no se debe hacer?", choices: ["Leer la norma", "Avisar", "Aceptar una excepción", "Archivar el papel"], answer: 2 }
+            ]
+        },
+        {
+            id: "rd-n1-suuji", level: "n1", title: "Sin cifras",
+            jp: "数字が示されていない以上、その提案を採用するのは早い。まず根拠を出してもらいたい。",
+            kana: "すうじがしめされていないいじょう、そのていあんをさいようするのははやい。まずこんきょをだしてもらいたい。",
+            questions: [
+                { ask: "¿Por qué es pronto adoptar la propuesta?", choices: ["Porque no hay cifras", "Porque ya se aprobó", "Porque sobra gente", "Porque el plazo acabó"], answer: 0 },
+                { ask: "¿Qué pide primero?", choices: ["Una disculpa", "El fundamento", "Un precedente", "Cerrar el tema"], answer: 1 }
+            ]
+        },
+        {
+            id: "rd-n1-hatsugen", level: "n1", title: "La intervención",
+            jp: "彼の発言は丁寧ではある。とはいえ、責任の所在が曖昧なままでは、合意したことにはならない。",
+            kana: "かれのはつげんはていねいではある。とはいえ、せきにんのしょざいがあいまいなままでは、ごういしたことにはならない。",
+            questions: [
+                { ask: "¿Cómo es el tono de lo que dijo?", choices: ["Cortés", "Gritado", "En otro idioma", "Ilegible"], answer: 0 },
+                { ask: "Si no está claro quién responde, ¿qué no hay?", choices: ["Un rumor", "Una norma", "Un acuerdo", "Un plazo de un día"], answer: 2 }
             ]
         }
     ];

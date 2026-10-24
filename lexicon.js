@@ -210,8 +210,37 @@
     loadBundle("NihongoDojoN3", "./n3.js", "n3");
     loadBundle("NihongoDojoN2", "./n2.js", "n2");
     loadBundle("NihongoDojoN1", "./n1.js", "n1");
+    function emptyBundle(level) {
+        const none = [];
+        return {
+            level: level || "",
+            WORD_GROUPS: none.slice(), KANJI_GROUPS: none.slice(), PHRASE_GROUPS: none.slice(),
+            GRAMMAR_GROUPS: none.slice(), CONJ_GROUPS: none.slice(),
+            WORD_STARTER: none.slice(), KANJI_STARTER: none.slice(), PHRASE_STARTER: none.slice(),
+            GRAMMAR_STARTER: none.slice(), CONJ_STARTER: none.slice(),
+            WORDS: none.slice(), KANJI: none.slice(), PHRASES: none.slice(),
+            GRAMMAR: none.slice(), CONJ: none.slice()
+        };
+    }
     function bundleFor(level) {
-        return BUNDLES[level] || BUNDLES.n5;
+        if (!level || level === "n5") return BUNDLES.n5;
+        return BUNDLES[level] || emptyBundle(level);
+    }
+    function attach(level) {
+        const files = {
+            n4: ["NihongoDojoN4", "./n4.js"],
+            n3: ["NihongoDojoN3", "./n3.js"],
+            n2: ["NihongoDojoN2", "./n2.js"],
+            n1: ["NihongoDojoN1", "./n1.js"]
+        };
+        const spec = files[level];
+        if (!spec) return false;
+        loadBundle(spec[0], spec[1], level);
+        return !!BUNDLES[level];
+    }
+    function loaded(level) {
+        if (!level || level === "n5") return true;
+        return !!BUNDLES[level];
     }
 
     function isGrammar(item) {
@@ -961,7 +990,9 @@
         catalogOf,
         shuffle,
         forLevel,
-        LEVELS: ["n5", "n4", "n3", "n2", "n1"].filter(function (level) { return !!BUNDLES[level]; })
+        attach,
+        loaded,
+        LEVELS: ["n5", "n4", "n3", "n2", "n1"]
     };
 
     root.NihongoDojoLexicon = api;

@@ -168,6 +168,10 @@ body {
     grid-template-columns: 1fr 1fr;
 }
 
+.backup-fold {
+    margin-top: 16px;
+}
+
 .fold {
     margin: 4px 0 12px;
     border: 1px solid #e7ecef;

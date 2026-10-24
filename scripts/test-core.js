@@ -299,6 +299,66 @@ check('una copia guarda el camino y rechaza otra cosa', () => {
     assert.strictEqual(Core.buildBackup({}, { app: '1.13.4' }), null);
 });
 
+check('el sonido automático espera si delata la lectura', () => {
+    assert.strictEqual(Core.soundRevealsAnswer({ kanaObj: { char: 'あ' } }, 'kana-romaji'), true);
+    assert.strictEqual(Core.soundRevealsAnswer({ kanaObj: { char: 'あ' } }, 'romaji-kana'), true);
+    assert.strictEqual(Core.soundRevealsAnswer({ lex: { kind: 'word' } }, 'word-es'), false);
+    assert.strictEqual(Core.soundRevealsAnswer({ lex: { kind: 'word' } }, 'es-word'), true);
+    assert.strictEqual(Core.soundRevealsAnswer({ lex: { kind: 'word' } }, 'listen-es'), false);
+    assert.strictEqual(Core.soundRevealsAnswer({ lex: { kind: 'phrase' } }, 'phrase-es'), false);
+    assert.strictEqual(Core.soundRevealsAnswer({ reading: { id: 'rd' } }, 'lectura'), false);
+});
+
+check('un sello de hoy no entra en el repaso de 3 días', () => {
+    const now = 1700000000000;
+    const due = 3 * 86400000;
+    const fresh = Core.planReview([], [{ id: 'w-1', practice: 'words', t: now }], now, { dueMs: due });
+    assert.strictEqual(fresh.length, 0);
+    const overdue = Core.planReview([], [{ id: 'w-1', practice: 'words', t: now - due - 86400000 }], now, { dueMs: due });
+    assert.strictEqual(overdue.length, 1);
+    assert.strictEqual(overdue[0].reason, 'due');
+});
+
+check('una copia vieja no borra estudio más reciente', () => {
+    const local = {
+        lessons: JSON.stringify({
+            'l-h-vocales': { passed: true, best: 80, last: 70 },
+            'l-h-fila-ka': { passed: false, best: 40, last: 40 }
+        }),
+        'seen.n5': JSON.stringify({ 'words\nw-1': [50, 0] }),
+        'miss.n5.words': JSON.stringify(['a', 'b']),
+        level: 'n5',
+        exam: '{"v":5}'
+    };
+    const backup = {
+        lessons: JSON.stringify({
+            'l-h-vocales': { passed: false, best: 100, last: 50 },
+            'l-g-desu': { passed: true, best: 90, last: 90 }
+        }),
+        'seen.n5': JSON.stringify({ 'words\nw-1': [10, 1], 'words\nw-2': [80, 1] }),
+        'miss.n5.words': JSON.stringify(['b', 'c']),
+        level: 'n4',
+        exam: '{"v":4}'
+    };
+    const merged = Core.mergeBackup(local, backup);
+    const lessons = JSON.parse(merged.lessons);
+    assert.strictEqual(lessons['l-h-vocales'].passed, true);
+    assert.strictEqual(lessons['l-h-vocales'].best, 100);
+    assert.strictEqual(lessons['l-h-vocales'].last, 70);
+    assert.strictEqual(lessons['l-g-desu'].passed, true);
+    assert.strictEqual(merged.level, 'n5');
+    assert.strictEqual(merged.exam, '{"v":5}');
+    const seen = JSON.parse(merged['seen.n5']);
+    assert.strictEqual(seen['words\nw-1'][0], 50);
+    assert.strictEqual(seen['words\nw-2'][0], 80);
+    assert.deepStrictEqual(JSON.parse(merged['miss.n5.words']), ['a', 'b', 'c']);
+    const fresh = Core.mergeBackup({}, backup);
+    assert.strictEqual(JSON.parse(fresh.lessons)['l-h-vocales'].passed, false);
+    assert.strictEqual(JSON.parse(fresh.lessons)['l-g-desu'].passed, true);
+    assert.strictEqual(fresh.level, 'n4');
+    assert.strictEqual(fresh.exam, '{"v":4}');
+});
+
 check('la cola básica de hiragana tiene 46 y no repite', () => {
     const rows = Core.getBasicRowsByType('hiragana');
     const queue = Core.buildQueue('hiragana', rows, [], [], () => 0);
