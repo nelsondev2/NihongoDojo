@@ -1,0 +1,131 @@
+{
+  "leccion_id": "N5-01",
+  "nivel": "N5",
+  "titulo": "La partícula は (wa) — tu primer superpoder en japonés",
+  "duracion_estimada_min": 5,
+  "nivel_usuario": "N5 (0 — primera vez con partículas)",
+  "secciones": [
+    {
+      "tipo": "gancho",
+      "texto": "Imagina esto. Estás en un izakaya en Osaka — luces amarillas, olor a yakitori, mesas bajitas. El camarero se acerca sonriendo, te mira y dice: “Tanaka-san wa…?” y se queda esperando. Tú solo entendiste “Tanaka”. ¿Quién es Tanaka? ¿Te está preguntando si tú eres Tanaka? ¿Si quieres la mesa de Tanaka? ¿Si Tanaka ya pagó?\n\nEsa es la trampa de la primera semana de japonés: oyes palabras sueltas y crees que entiendes, pero te falta la pieza que dice DE QUIÉN estamos hablando. Esa pieza es は. Hoy, en 5 minutos, vas a entenderla tan bien que la próxima vez que la oigas — en un tren, en un anime sin subtítulos, en Delta Chat con un amigo japonés — sabrás exactamente qué hacer: levantar la antena y pensar “ah, ahora habla de esto”. No es gramática aburrida: es tu brújula."
+    },
+    {
+      "tipo": "explicacion",
+      "texto": "Vale, vamos sin prisa. En español marcas quién hace qué con el orden: “Yo como sushi” — yo va primero, es el sujeto. En japonés no confían en el orden. Marcan cada papel con una partículita detrás de la palabra. Es como ponerle una etiqueta: “yo-TEMA”, “sushi-OBJETO”, “en Tokio-LUGAR”.\n\nPiensa en una reunión. Alguien levanta la mano y dice: “Respecto a la fiesta de mañana…”. Aún no ha dicho qué pasa con la fiesta, pero ya sabemos de qué tema vamos a hablar. Eso es exactamente は. No significa “soy”, no significa “es”. Solo avisa: “Oye, a partir de ahora hablamos de ESTO”.\n\nMira este ejemplo mínimo:\n\n私 (watashi) = yo\n私は (watashi wa) = en cuanto a mí / respecto a mí\n\nSolo con añadir は, cambias “yo” de palabra suelta a “el tema de la frase”. Lo que venga después dirá algo sobre ese tema. Si después dices 学生です (gakusei desu = soy estudiante), la frase completa 私は学生です suena a “En cuanto a mí, soy estudiante”. En español lo traducimos corto como “Soy estudiante”, pero tu cabeza tiene que oír el matiz: estoy presentando de qué hablo.\n\nAhora, seguro te preguntas: ¿por qué se escribe は (ha) pero se lee “wa”? Muy buena duda, y no es error tuyo. Hace unos mil años sí se decía “ha”. La pronunciación se suavizó a “wa” cuando va como partícula, pero la escritura se quedó antigua. Es la única excepción que tienes que memorizar aquí: cuando は es partícula, SIEMPRE es “wa”. Cuando es parte de una palabra (como はは = madre, leído “haha”), sí es “ha”. Ver la partícula y dudar es normal; con dos días de práctica deja de pasar.\n\nOtra analogía que ayuda: imagina que は es un foco. Lo que pones antes de は se ilumina. Esta es Ana. Este es mi libro. Hoy es lunes. No importa si es persona, cosa o tiempo: lo que brille antes de は es el protagonista de la siguiente idea.\n\nY aquí viene un detalle fino que te ahorrará meses de confusión: は no dice qué hace el sujeto. Solo dice cuál es el tema. Por eso puedes decir 私はうなぎです (watashi wa unagi desu) y, fuera de contexto, un japonés pensará que estás pidiendo anguila en un restaurante (“En cuanto a mí, anguila”), no que tú eres una anguila. El contexto manda, y は es la que abre ese contexto.\n\nÚltima pieza por hoy: la partícula は suena pegada a lo anterior, sin pausa escrita: 私は, これは. No lleva espacio. Al hablar, tampoco hagas pausa: “watashiwa”, fluido. Eso le dice al oyente que el tema ya está presentado y viene la información.",
+      "palabras": 538
+    },
+    {
+      "tipo": "ejemplos",
+      "items": [
+        {
+          "jp": "私は田中です。",
+          "furigana": "わたしはたなかです。",
+          "romaji": "watashi wa tanaka desu.",
+          "es": "Soy Tanaka. (En cuanto a mí, me llamo Tanaka)",
+          "pitch_accent": "Heiban",
+          "rate": 0.85
+        },
+        {
+          "jp": "これは本です。",
+          "furigana": "これはほんです。",
+          "romaji": "kore wa hon desu.",
+          "es": "Esto es un libro. (Respecto a esto, es un libro)",
+          "pitch_accent": "Heiban",
+          "rate": 0.85
+        },
+        {
+          "jp": "田中さんは学生ですか。",
+          "furigana": "たなかさんはがくせいですか。",
+          "romaji": "tanaka-san wa gakusei desu ka.",
+          "es": "¿Tanaka es estudiante?",
+          "pitch_accent": "Heiban",
+          "rate": 0.85
+        },
+        {
+          "jp": "今日は暑いですね。",
+          "furigana": "きょうはあついですね。",
+          "romaji": "kyou wa atsui desu ne.",
+          "es": "Hoy hace calor, ¿verdad?",
+          "pitch_accent": "Heiban",
+          "rate": 0.85
+        }
+      ]
+    },
+    {
+      "tipo": "practica",
+      "ejercicios": [
+        {
+          "tipo": "listen_only",
+          "jp": "私は田中です。",
+          "furigana": "わたしはたなかです。",
+          "es": "Soy Tanaka.",
+          "mostrar_texto_antes": false,
+          "rate": 0.9,
+          "prompt": "Escucha (texto oculto) y elige la traducción correcta.",
+          "respuesta": "私は田中です。 — Soy Tanaka."
+        },
+        {
+          "tipo": "listen_only",
+          "jp": "これは本です。",
+          "furigana": "これはほんです。",
+          "es": "Esto es un libro.",
+          "mostrar_texto_antes": false,
+          "rate": 0.9,
+          "prompt": "Escucha sin mirar. ¿Qué oíste?",
+          "respuesta": "これは本です。 — Esto es un libro."
+        },
+        {
+          "tipo": "shadowing",
+          "jp": "私は学生です。",
+          "furigana": "わたしはがくせいです。",
+          "romaji": "watashi wa gakusei desu.",
+          "es": "Soy estudiante.",
+          "pausa_ms": 3000,
+          "rate": 0.85,
+          "prompt": "Escucha, pausa 3s, repite en voz alta imitando ritmo."
+        },
+        {
+          "tipo": "produccion",
+          "prompt": "Di en japonés: 'En cuanto a mí, soy estudiante.' (usa 私は)",
+          "respuesta": "私は学生です。",
+          "jp": "私は学生です。",
+          "mostrar_texto_antes": false,
+          "rate": 0.8
+        },
+        {
+          "tipo": "produccion",
+          "prompt": "Traduce escuchando: ¿Cómo preguntas '¿Esto es un libro?' con は y か?",
+          "respuesta": "これは本ですか。",
+          "jp": "これは本ですか。",
+          "mostrar_texto_antes": false,
+          "rate": 0.9
+        }
+      ]
+    },
+    {
+      "tipo": "errores_comunes",
+      "texto": "Error #1 (el más común): creer que は significa 'soy/es'. No. 'Soy' es です. は solo marca tema. Si piensas “wa = soy”, luego no entenderás 私はうなぎです en un restaurante. Di en tu cabeza: “respecto a X…” y luego lee el resto.\n\nError #2: usar が donde va は al presentarte. 私が田中です suena a “SOY YO quien es Tanaka (y no otro)”, como respondiendo a “¿Quién es Tanaka?”. Para presentarte neutra, es 私は田中です. La diferencia は/が es sutil y la puliremos en la próxima lección, pero hoy quédate con: presentarte = は.\n\nAmable recordatorio: solo dos correcciones por sesión, para no saturar. Si hoy fallas más de dos veces la misma partícula, la app la traerá mañana en Repaso de hoy (SRS), no te la machacará ahora."
+    },
+    {
+      "tipo": "cierre",
+      "texto": "Hoy aprendiste que は marca el tema — “de qué hablamos” —, que se escribe は pero se lee “wa” cuando es partícula, y que no significa “soy” (eso es です). Con solo eso ya entiendes “Tanaka-san wa…” en una estación.\n\nAntes de cerrar, di en voz alta, sin mirar: 私は学生です。 Escucha cómo suena “watashi wa” pegadito, sin pausa.\n\nEn la próxima lección viene が, el primo de は: marca el foco, la información nueva. Entender cuándo usar cada uno es lo que separa al turista del que realmente sigue una conversación. Descansa, y si quieres, dale a Repaso de hoy mañana: lo que hoy dudaste volverá al momento, lo que acertaste volverá en 3 días — SRS determinista, sin improvisar."
+    }
+  ],
+  "autoevaluacion": {
+    "explica_no_informa": true,
+    "nivel_respetado": "N5 (solo vocabulario N5: 私, 学生, 本, 田中, 今日, 暑い — ninguno por encima de N5+1)",
+    "furigana_correcto": true,
+    "traduccion_natural": true,
+    "ejemplo_uso_real": true,
+    "regla_inventada": false,
+    "palabras_explicacion": 538,
+    "analogias": 2,
+    "dudas_anticipadas": 1,
+    "listening_puro_incluido": true,
+    "listening_puro_cantidad": 2,
+    "confianza": 9,
+    "riesgos_detectados": [
+      "Confusión は/が si se introduce demasiado pronto — mitigado limitando a 2 errores por sesión"
+    ]
+  }
+}

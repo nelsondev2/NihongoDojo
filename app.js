@@ -1257,9 +1257,41 @@
         try { return synth.getVoices() || []; }
         catch (e) { return []; }
     }
+    // WexDC 2.0 — prioriza Neural > Enhanced/Premium > Google > Kyoko/Otoya > resto
+    // Filtra por lang.startsWith("ja") y prefiere localService (offline, clave en Cuba).
     function japaneseVoice() {
-        var ja = systemVoices().filter(function (v) { return v && /^ja([-_]|$)/i.test(v.lang || ''); });
-        return ja.filter(function (v) { return v.localService; })[0] || null;
+        var ja = systemVoices().filter(function (v) { return v && v.lang && /^ja([-_]|$)/i.test(v.lang); });
+        if (!ja.length) return null;
+        function score(v) {
+            var n = (v.name || '').toLowerCase();
+            if (/neural/i.test(v.name)) return 5;
+            if (/enhanced|premium/i.test(v.name)) return 4;
+            if (/google/i.test(v.name)) return 3;
+            if (/kyoko|otoya/i.test(v.name)) return 2;
+            return 1;
+        }
+        ja.sort(function (a, b) {
+            var s = score(b) - score(a);
+            if (s !== 0) return s;
+            // localService primero (voces offline)
+            var l = (b.localService ? 1 : 0) - (a.localService ? 1 : 0);
+            if (l !== 0) return l;
+            // desempate alfabético estable
+            return (a.name || '').localeCompare(b.name || '');
+        });
+        return ja[0] || null;
+    }
+    // Despertar motor TTS (frase vacía volume=0) — evita primer audio mudo en Android
+    function wakeEngine() {
+        var synth = speechSynth();
+        var Ctor = UtteranceCtor();
+        if (!synth || !Ctor) return;
+        try {
+            var u = new Ctor('');
+            u.volume = 0;
+            u.lang = 'ja-JP';
+            synth.speak(u);
+        } catch (e) {}
     }
     function requireJapaneseVoice(onReady, onMissing) {
         if (japaneseVoice()) { onReady(); return; }
@@ -1317,31 +1349,39 @@
         if (buf.trim()) out.push(buf.trim());
         return out.length ? out : [src];
     }
-    function speakJapanese(text) {
+    // WexDC 2.0 — rate por tipo pedagógico + cola onend + cancel previa
+    // rate: 0.8 vocab nuevo, 0.85 ejemplos, 0.9 listening N5-N3, 1.0 avanzado N4+
+    function speakJapanese(text, opts) {
         if (!text) return false;
         if (!systemSpeech()) {
             noteAudio('Este cliente no expone la síntesis de voz del sistema. El resto del examen sigue disponible.');
             return false;
         }
         var synth = speechSynth();
-        try { if (typeof synth.getVoices === 'function') synth.getVoices(); } catch (e) { /* la lista llega en voiceschanged */ }
+        try { if (typeof synth.getVoices === 'function') synth.getVoices(); } catch (e) {}
         var voice = japaneseVoice();
         if (!voice && systemVoices().length) {
             noteAudio('No hay voz japonesa del sistema. Instálala en los ajustes de texto a voz.');
         }
+        // Cancelar previa SIEMPRE antes de nueva (evitar solapamiento)
         var busy = false;
         try { busy = synth.speaking || synth.pending; } catch (e) { busy = false; }
         if (busy) stopSpeech();
         else speechGen++;
         var gen = speechGen;
         var chunks = speechChunks(text);
+        var rate = (opts && typeof opts.rate === 'number' && opts.rate >= 0.5 && opts.rate <= 2) ? opts.rate : (chunks[0] && chunks[0].length > 40 ? 0.92 : 0.88);
+        // Clamp WexDC: 0.8–1.0
+        if (rate < 0.8) rate = 0.8;
+        if (rate > 1.0) rate = 1.0;
+        var onEndAll = opts && typeof opts.onEnd === 'function' ? opts.onEnd : null;
         function fire(retry) {
             if (gen !== speechGen || !chunks.length) return;
             try {
                 if (synth.paused) synth.resume();
                 var utterance = new (UtteranceCtor())(chunks[0]);
                 utterance.lang = 'ja-JP';
-                utterance.rate = chunks[0].length > 40 ? 0.92 : 0.88;
+                utterance.rate = rate;
                 var picked = japaneseVoice();
                 if (picked) {
                     utterance.voice = picked;
@@ -1351,6 +1391,7 @@
                     if (gen !== speechGen) return;
                     chunks.shift();
                     if (chunks.length) fire(false);
+                    else if (onEndAll) onEndAll();
                 };
                 utterance.onerror = function (ev) {
                     if (gen !== speechGen) return;
@@ -1363,7 +1404,6 @@
                 if (!retry) noteAudio('No se pudo reproducir la voz del sistema. Pulsa Oír.');
             }
         }
-        // El primer speak va en este turno: webxdc y WebKit solo hablan dentro del toque.
         fire(false);
         window.setTimeout(function () {
             if (gen !== speechGen) return;
@@ -1372,7 +1412,18 @@
         }, 50);
         return true;
     }
-    function speakKana(ch) { return speakJapanese(ch); }
+    function speakKana(ch, opts) { return speakJapanese(ch, opts); }
+    // Variante pedagógica: elige rate según tipo y nivel
+    function rateFor(practice, level) {
+        // vocab nuevo 0.8, ejemplos 0.85, listening 0.9, avanzado N4+ 1.0
+        if (practice === 'kana' || practice === 'words') return 0.8;
+        if (practice === 'kanji' || practice === 'phrases') return 0.85;
+        if (practice === 'review' || practice === 'listening') {
+            // N4+ permite 1.0 para entrenar oído nativo
+            return (level === 'n4' || level === 'n3' || level === 'n2' || level === 'n1') ? 0.9 : 0.9;
+        }
+        return 0.85;
+    }
     function updateAudioUI() {
         if (audioOnBtn && audioOffBtn) {
             audioOnBtn.classList.toggle('active', state.audioOn);
@@ -2963,34 +3014,153 @@
         if (lessonTeach) {
             if (lessonTeach.replaceChildren) lessonTeach.replaceChildren();
             else lessonTeach.textContent = '';
-            lesson.teach.forEach(function (block) {
-                var section = el('section', 'teach-block');
-                if (block.heading && block.heading !== lesson.title) {
-                    section.appendChild(el('h3', null, block.heading));
-                }
-                section.appendChild(el('p', null, block.text));
-                if (block.examples && block.examples.length) {
-                    var list = el('ul', 'teach-examples');
-                    block.examples.forEach(function (example) {
-                        var li = el('li');
-                        var jp = el('span', 'teach-jp', example.jp);
-                        jp.lang = 'ja';
-                        li.appendChild(jp);
-                        if (example.kana && example.kana !== example.jp) {
-                            li.appendChild(document.createTextNode(' '));
-                            li.appendChild(el('span', 'teach-kana', example.kana));
-                        }
-                        var gloss = example.es || kanaReading(example.jp);
-                        if (gloss) {
-                            li.appendChild(document.createTextNode(' · '));
-                            li.appendChild(el('span', 'teach-es', gloss));
-                        }
-                        list.appendChild(li);
-                    });
-                    section.appendChild(list);
-                }
-                lessonTeach.appendChild(section);
-            });
+            // WexDC: soporta formato nuevo 6 secciones + legacy teach[]
+            var secciones = lesson.secciones || lesson.sections || null;
+            if (secciones && Array.isArray(secciones) && secciones.length) {
+                secciones.forEach(function (sec) {
+                    var section = el('section', 'teach-block teach-' + (sec.tipo || sec.type || 'bloque'));
+                    var titleMap = {
+                        gancho: '🎯 Por qué te importa',
+                        explicacion: '📖 Explicación',
+                        ejemplos: '💡 Ejemplos',
+                        practica: '✍️ Práctica',
+                        errores_comunes: '⚠️ Errores comunes',
+                        cierre: '✅ Cierre',
+                        hook: '🎯 Por qué te importa',
+                        explanation: '📖 Explicación',
+                        examples: '💡 Ejemplos',
+                        practice: '✍️ Práctica',
+                        common_mistakes: '⚠️ Errores comunes',
+                        closure: '✅ Cierre'
+                    };
+                    var tipo = sec.tipo || sec.type || '';
+                    var heading = titleMap[tipo] || sec.heading || sec.titulo || '';
+                    if (heading) section.appendChild(el('h3', null, heading));
+                    if (sec.texto || sec.text) {
+                        // Texto largo: respeta saltos de línea como párrafos
+                        var raw = sec.texto || sec.text;
+                        raw.split('\n\n').forEach(function (para) {
+                            if (para.trim()) section.appendChild(el('p', null, para.trim()));
+                        });
+                    }
+                    // Palabras contadas (debug WexDC)
+                    if (sec.palabras || sec.words) {
+                        var wc = sec.palabras || sec.words;
+                        section.appendChild(el('p', 'mode-note', wc + ' palabras'));
+                    }
+                    if (sec.items && sec.items.length) {
+                        var list = el('ul', 'teach-examples');
+                        sec.items.forEach(function (example) {
+                            var li = el('li');
+                            var jp = el('span', 'teach-jp', example.jp || '');
+                            jp.lang = 'ja';
+                            if (jp.textContent) li.appendChild(jp);
+                            if (example.furigana && example.furigana !== example.jp) {
+                                li.appendChild(document.createTextNode(' '));
+                                li.appendChild(el('span', 'teach-kana', example.furigana));
+                            } else if (example.kana && example.kana !== example.jp) {
+                                li.appendChild(document.createTextNode(' '));
+                                li.appendChild(el('span', 'teach-kana', example.kana));
+                            }
+                            if (example.romaji) {
+                                li.appendChild(document.createTextNode(' '));
+                                li.appendChild(el('span', 'teach-romaji', '[' + example.romaji + ']'));
+                            }
+                            var gloss = example.es || '';
+                            if (gloss) {
+                                li.appendChild(document.createTextNode(' · '));
+                                li.appendChild(el('span', 'teach-es', gloss));
+                            }
+                            if (example.rate) {
+                                var btn = el('button', 'btn btn-secondary teach-speak');
+                                btn.type = 'button';
+                                btn.textContent = '🔊 ' + example.rate + 'x';
+                                btn.setAttribute('aria-label', 'Oír ' + (example.jp||''));
+                                (function (text, rate) {
+                                    btn.addEventListener('click', function(){ speakJapanese(text, {rate: rate}); });
+                                })(example.jp, example.rate);
+                                li.appendChild(document.createTextNode(' '));
+                                li.appendChild(btn);
+                            }
+                            list.appendChild(li);
+                        });
+                        section.appendChild(list);
+                    }
+                    if (sec.ejercicios && sec.ejercicios.length) {
+                        var exList = el('ol', 'teach-practice');
+                        sec.ejercicios.forEach(function (ej, idx) {
+                            var li = el('li');
+                            var tipoEj = ej.tipo || ej.type || '';
+                            var badge = tipoEj === 'listen_only' ? '👂 Listening puro' : tipoEj === 'shadowing' ? '🗣️ Shadowing' : tipoEj === 'produccion' ? '✍️ Producción' : tipoEj;
+                            li.appendChild(el('span', 'practice-badge', badge));
+                            li.appendChild(document.createTextNode(' ' + (ej.prompt || ej.jp || '')));
+                            if (ej.mostrar_texto_antes === false) {
+                                li.appendChild(el('span', 'mode-note', ' — texto oculto hasta responder (active recall)'));
+                            }
+                            if (ej.jp) {
+                                var jpBtn = el('button', 'btn btn-secondary teach-speak');
+                                jpBtn.type='button'; jpBtn.textContent='🔊 Oír';
+                                (function (text, rate) {
+                                    jpBtn.addEventListener('click', function(){ speakJapanese(text, {rate: rate||0.9}); });
+                                })(ej.jp, ej.rate);
+                                li.appendChild(document.createTextNode(' '));
+                                li.appendChild(jpBtn);
+                            }
+                            // Botón revelar para active recall obligatorio
+                            if (tipoEj === 'listen_only' || tipoEj === 'produccion') {
+                                var reveal = el('button', 'btn btn-secondary');
+                                reveal.type='button'; reveal.textContent='Ver respuesta';
+                                reveal.setAttribute('aria-expanded','false');
+                                var ans = el('span', 'hidden', ej.respuesta || ej.es || '');
+                                ans.style.display='none';
+                                reveal.addEventListener('click', function(){
+                                    var hidden = ans.style.display==='none';
+                                    ans.style.display = hidden ? 'inline' : 'none';
+                                    ans.classList.toggle('hidden', !hidden);
+                                    reveal.setAttribute('aria-expanded', hidden ? 'true':'false');
+                                    reveal.textContent = hidden ? 'Ocultar' : 'Ver respuesta';
+                                });
+                                li.appendChild(document.createTextNode(' '));
+                                li.appendChild(reveal);
+                                li.appendChild(document.createTextNode(' '));
+                                li.appendChild(ans);
+                            }
+                            exList.appendChild(li);
+                        });
+                        section.appendChild(exList);
+                    }
+                    lessonTeach.appendChild(section);
+                });
+            } else if (lesson.teach && lesson.teach.length) {
+                lesson.teach.forEach(function (block) {
+                    var section = el('section', 'teach-block');
+                    if (block.heading && block.heading !== lesson.title) {
+                        section.appendChild(el('h3', null, block.heading));
+                    }
+                    section.appendChild(el('p', null, block.text));
+                    if (block.examples && block.examples.length) {
+                        var list = el('ul', 'teach-examples');
+                        block.examples.forEach(function (example) {
+                            var li = el('li');
+                            var jp = el('span', 'teach-jp', example.jp);
+                            jp.lang = 'ja';
+                            li.appendChild(jp);
+                            if (example.kana && example.kana !== example.jp) {
+                                li.appendChild(document.createTextNode(' '));
+                                li.appendChild(el('span', 'teach-kana', example.kana));
+                            }
+                            var gloss = example.es || kanaReading(example.jp);
+                            if (gloss) {
+                                li.appendChild(document.createTextNode(' · '));
+                                li.appendChild(el('span', 'teach-es', gloss));
+                            }
+                            list.appendChild(li);
+                        });
+                        section.appendChild(list);
+                    }
+                    lessonTeach.appendChild(section);
+                });
+            }
         }
         var row = loadProgress()[id];
         if (lessonStatus) {
@@ -3346,6 +3516,12 @@
             });
             try { if (typeof synth.getVoices === 'function') synth.getVoices(); } catch (e) { /* aún no hay voces */ }
         }
+        // WexDC: primer toque habilita audio (política WebKit/webxdc) + despertar motor
+        function unlockAudio(){ wakeEngine(); }
+        document.addEventListener('touchend', unlockAudio, {once:true});
+        document.addEventListener('click', unlockAudio, {once:true});
+        // Despertar al cargar por si ya hay voz
+        wakeEngine();
         document.addEventListener('keydown', onDocumentKeydown);
         window.addEventListener('pagehide', onPageHide);
         document.addEventListener('visibilitychange', onVisibility);

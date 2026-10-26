@@ -933,3 +933,16 @@ body {
     .type-btn { font-size: 0.75rem; }
     .quiz-card { padding: 16px 14px 22px; }
 }
+
+/* WexDC 2.0 — Lecciones ricas (6 secciones, active recall, listening puro) */
+.teach-gancho { border-left: 4px solid #d32f2f; background: #fff5f5; }
+.teach-explicacion { border-left: 4px solid #1565c0; background: #f0f6ff; }
+.teach-ejemplos { border-left: 4px solid #2e7d32; }
+.teach-practica { border-left: 4px solid #6a1b9a; background: #faf4ff; }
+.teach-errores_comunes { border-left: 4px solid #ef6c00; background: #fff8e1; }
+.teach-cierre { border-left: 4px solid #00796b; background: #e0f2f1; }
+.teach-romaji { color: #6a7a86; font-size: 0.85rem; font-style: italic; }
+.teach-speak { font-size: 0.7rem; padding: 4px 8px; min-height: auto; }
+.practice-badge { display: inline-block; background: #ede7f6; color: #4a148c; font-size: 0.7rem; font-weight: 700; padding: 2px 6px; border-radius: 8px; }
+.teach-practice li { margin: 8px 0; line-height: 1.5; }
+.lesson-view.wexdc-rich .lesson-title { font-size: 1.25rem; }
