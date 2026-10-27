@@ -7,6 +7,24 @@ IN = ROOT / f"{level}.js"
 OUT = ROOT / f"{level}.js"
 UPPER = level.upper()
 
+def first_sentence(text, max_len=200):
+    if not text:
+        return text
+    if "。" in text:
+        s = text.split("。")[0] + "。"
+        if len(s) <= max_len:
+            return s
+        return s[:max_len].rsplit(" ",1)[0] if " " in s[:max_len] else s[:max_len]
+    if "." in text:
+        s = text.split(".")[0] + "."
+        if len(s) <= max_len:
+            return s
+        return s[:max_len].rsplit(" ",1)[0] if " " in s[:max_len] else s[:max_len]
+    if len(text) <= max_len:
+        return text
+    cut = text[:max_len]
+    return cut.rsplit(" ",1)[0] if " " in cut else cut
+
 def words(text):
     # JS-compatible: split on whitespace like lessons.js validate does
     return len([w for w in re.split(r"\s+", text.strip()) if w]) if text.strip() else 0
@@ -39,7 +57,7 @@ def build_clear_explicacion(old, examples, stage):
         objetivo = f"Objetivo: dominar {title} sin traducir literal del español."
 
     # Fórmula
-    formula = f"Fórmula: {orig.split('。')[0][:70] if '。' in orig else orig[:70]}"
+    formula = f"Fórmula: {first_sentence(orig, 150)}"
     formula_exp = "Piensa en bloques: [tema] + [marca] + [predicado al final]. El verbo/adjetivo siempre cierra la frase japonesa."
 
     # Pasos
@@ -150,7 +168,7 @@ def build_rich_lesson(old, stage_default):
         {"tipo": "ejemplos", "items": ej_items or [{"jp": title, "furigana": "", "es": orig_text[:40]}]},
         {"tipo": "practica", "ejercicios": ejercicios},
         {"tipo": "errores_comunes", "texto": "Error típico: traducir literal. Piensa en etiquetas detrás de la palabra, no en orden español. Solo 2 correcciones/sesión — resto al SRS."},
-        {"tipo": "cierre", "texto": f"Hoy: {orig_text[:80].strip()} Próxima: {stage.lower()}. Di en voz alta: {examples[0].get('jp','がんばります') if examples else 'がんばります'}"},
+        {"tipo": "cierre", "texto": f"Hoy: {first_sentence(orig_text, 180)} Próxima: {stage.lower()}. Di en voz alta: {examples[0].get('jp','がんばります') if examples else 'がんばります'}"},
     ]
     # Validación WexDC: asegurar 400+ palabras JS en total de secciones
     total_words = sum(len([w for w in re.split(r"\s+", (s.get("texto") or s.get("text") or "").strip()) if w]) for s in secciones)

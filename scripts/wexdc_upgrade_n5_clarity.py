@@ -34,6 +34,27 @@ VERBAL_INFO = {
     "ます": {"formula": "raíz + ます (presente/futuro cortés)", "contrast": "ます (corto? no, cortés presente) vs ました (pasado) vs ません (negativo) vs ませんでした (pasado negativo)", "tip": "する→します, 来る→来ます. El tiempo lo da el contexto: 明日、行きます = mañana iré."},
 }
 
+
+def first_sentence(text, max_len=200):
+    """Primera frase completa sin cortar palabras a mitad, sin ellipsis truncation"""
+    if not text:
+        return text
+    if '。' in text:
+        s = text.split('。')[0] + '。'
+        if len(s) <= max_len:
+            return s
+        return s[:max_len].rsplit(' ',1)[0] if ' ' in s[:max_len] else s[:max_len]
+    if '.' in text:
+        s = text.split('.')[0] + '.'
+        if len(s) <= max_len:
+            return s
+        return s[:max_len].rsplit(' ',1)[0] if ' ' in s[:max_len] else s[:max_len]
+    if len(text) <= max_len:
+        return text
+    cut = text[:max_len]
+    return cut.rsplit(' ',1)[0] if ' ' in cut else cut
+
+
 def get_particle_detail(title, orig_text):
     # extrae partícula del título si contiene
     for k,v in PARTICLE_INFO.items():
@@ -90,7 +111,7 @@ def build_clear_explicacion(old, examples, stage):
         formula = "Fórmula: raíz verbal + ます/ません/ました/ませんでした"
         formula_exp = "Ej: 食べる→食べます (como/comeré) / 食べません (no como) / 食べました (comí) / 食べませんでした (no comí)."
     else:
-        formula = f"Fórmula base: {orig.split('。')[0] if '。' in orig else orig[:60]}"
+        formula = f"Fórmula base: {first_sentence(orig, 150)}"
         formula_exp = "Piensa en bloques: tema + partículas + predicado al final. El verbo/adjetivo siempre cierra."
 
     # Pasos 3
@@ -117,7 +138,7 @@ def build_clear_explicacion(old, examples, stage):
     elif "て" in title:
         tabla = "Tabla て según verbo:\n| Grupo | Ejemplo | て |\n|---|---|---|\n| ichidan (食べる) | 食べます | 食べて |\n| godan く (書く) | 書きます | 書いて |\n| godan ぐ (泳ぐ) | 泳ぎます | 泳いで |\n| irregular | 行きます→行って | します→して |"
     else:
-        tabla = f"Mapa rápido — {stage}:\n| Patrón | Ejemplo | Cuándo |\n|---|---|---|\n| {title} | {examples[0].get('jp','ejemplo') if examples else 'ejemplo'} | {orig[:40]} |"
+        tabla = f"Mapa rápido — {stage}:\n| Patrón | Ejemplo | Cuándo |\n|---|---|---|\n| {title} | {examples[0].get('jp','ejemplo') if examples else 'ejemplo'} | {first_sentence(orig, 150)} |"
 
     # Ejemplos desglosados
     ejemplos_text = ""
@@ -144,7 +165,7 @@ def build_clear_explicacion(old, examples, stage):
                     desglose = f" → {jp[:idx]} + に({particle_data['role'] if particle_data else 'destino/tiempo'}) + {jp[idx+1:]}"
             else:
                 desglose = f" → {kana} = {es}"
-            ejemplos_text += f"{i}) {jp} ({kana}) — “{es}”{desglose}\n   Por qué así: {orig.split('.')[0][:80]}\n"
+            ejemplos_text += f"{i}) {jp} ({kana}) — “{es}”{desglose}\n   Por qué así: {first_sentence(orig, 150)}\n"
     else:
         ejemplos_text = "Ejemplo base: " + orig + "\n"
 
@@ -212,7 +233,8 @@ def ensure_js_words(text, target=410):
     return base + extra
 
 def build_rich_lesson(old):
-    if old.get("clarity") == 3:
+    # WexDC fix: regenerar incluso si clarity==3 para corregir truncamientos y falta de お
+    if False and old.get("clarity") == 3:
         return old
     teach = old.get("teach") or []
     orig_text = ""
@@ -235,30 +257,50 @@ def build_rich_lesson(old):
     }
     gancho_key = stage if stage in gancho_map else "Partículas" if "Partícul" in stage else stage.split("·")[-1].strip() if "·" in stage else stage
     gancho = gancho_map.get(gancho_key, f"Hoy dominas {kw}. Sin esto, tu frase japonesa se cae.")
-    # Ejemplos con detalle
+    # Ejemplos con detalle — silabario incluye TODAS las kana (evita falta de お/ちょ)
     ej_items = []
-    for ex in (examples[:4] if examples else []):
-        ej_items.append({"jp": ex.get("jp",""), "furigana": ex.get("kana","") or "", "romaji": "", "es": ex.get("es","") or "", "pitch_accent": "Heiban", "rate": 0.85, "desglose": f"Marca: {title[:20]}"})
-    if not ej_items and old.get("quiz",{}).get("chars"):
-        for ch in old["quiz"]["chars"][:3]:
+    quiz_chars = old.get("quiz",{}).get("chars") or []
+    is_silabario = (stage == "Silabario" or "Silabario" in stage)
+    if is_silabario and quiz_chars:
+        for ch in quiz_chars:
             ej_items.append({"jp": ch, "furigana": ch, "es": f"Kana {ch} — traza 3 veces mientras dices el sonido", "rate": 0.8})
-    # Práctica: 2 listening puro + shadowing + producción
-    ejercicios = []
-    for ex in examples[:2]:
-        ejercicios.append({"tipo": "listen_only", "jp": ex.get("jp",""), "furigana": ex.get("kana",""), "es": ex.get("es",""), "mostrar_texto_antes": False, "rate": 0.9, "prompt": "♪ Escucha (texto oculto) y elige.", "respuesta": ex.get("jp","")+" — "+ex.get("es","")})
-    if examples:
-        ex = examples[0]
-        ejercicios.append({"tipo": "shadowing", "jp": ex.get("jp",""), "furigana": ex.get("kana",""), "es": ex.get("es",""), "pausa_ms": 3000, "rate": 0.85, "prompt": "Escucha, pausa 3s, repite en voz alta (shadowing)."})
-        ex2 = examples[-1]
-        ejercicios.append({"tipo": "produccion", "prompt": f"Produce en japonés: '{ex2.get('es','')}'", "respuesta": ex2.get("jp",""), "jp": ex2.get("jp",""), "mostrar_texto_antes": False, "rate": 0.8})
     else:
-        ejercicios.append({"tipo": "listen_only", "jp": title[:10], "es": orig_text[:30], "mostrar_texto_antes": False, "rate": 0.9, "prompt": "Escucha y elige."})
+        for ex in (examples if examples else []):
+            ej_items.append({"jp": ex.get("jp",""), "furigana": ex.get("kana","") or "", "romaji": "", "es": ex.get("es","") or "", "pitch_accent": "Heiban", "rate": 0.85, "desglose": f"Marca: {title[:20]}"})
+        if not ej_items and quiz_chars:
+            for ch in quiz_chars:
+                ej_items.append({"jp": ch, "furigana": ch, "es": f"Kana {ch} — traza 3 veces mientras dices el sonido", "rate": 0.8})
+    # Práctica: cubre todas las vocales/kana + 2 listening puro + shadowing + producción
+    ejercicios = []
+    quiz_chars = old.get("quiz",{}).get("chars") or []
+    is_silabario = (stage == "Silabario" or "Silabario" in stage or "vocal" in title.lower())
+    if is_silabario and quiz_chars:
+        for ch in quiz_chars:
+            ejercicios.append({"tipo": "listen_only", "jp": ch, "furigana": ch, "es": f"Kana {ch} — escucha y elige", "mostrar_texto_antes": False, "rate": 0.9, "prompt": "♪ Escucha (texto oculto) y elige la kana.", "respuesta": ch})
+        if quiz_chars:
+            ejercicios.append({"tipo": "shadowing", "jp": quiz_chars[0], "furigana": quiz_chars[0], "es": f"Kana {quiz_chars[0]}", "pausa_ms": 3000, "rate": 0.85, "prompt": "Escucha, pausa 3s, repite en voz alta (shadowing)."})
+        if len(quiz_chars) > 1:
+            ejercicios.append({"tipo": "produccion", "prompt": f"Produce en japonés: 'Kana {quiz_chars[-1]}'", "respuesta": quiz_chars[-1], "jp": quiz_chars[-1], "mostrar_texto_antes": False, "rate": 0.8})
+    else:
+        for ex in examples[:2]:
+            ejercicios.append({"tipo": "listen_only", "jp": ex.get("jp",""), "furigana": ex.get("kana",""), "es": ex.get("es",""), "mostrar_texto_antes": False, "rate": 0.9, "prompt": "♪ Escucha (texto oculto) y elige.", "respuesta": ex.get("jp","")+" — "+ex.get("es","")})
+        if examples:
+            ex = examples[0]
+            ejercicios.append({"tipo": "shadowing", "jp": ex.get("jp",""), "furigana": ex.get("kana",""), "es": ex.get("es",""), "pausa_ms": 3000, "rate": 0.85, "prompt": "Escucha, pausa 3s, repite en voz alta (shadowing)."})
+            ex2 = examples[-1]
+            ejercicios.append({"tipo": "produccion", "prompt": f"Produce en japonés: '{ex2.get('es','')}'", "respuesta": ex2.get("jp",""), "jp": ex2.get("jp",""), "mostrar_texto_antes": False, "rate": 0.8})
+        else:
+            if quiz_chars:
+                for ch in quiz_chars[:3]:
+                    ejercicios.append({"tipo": "listen_only", "jp": ch, "furigana": ch, "es": f"Kana {ch}", "mostrar_texto_antes": False, "rate": 0.9, "prompt": "Escucha y elige."})
+            else:
+                ejercicios.append({"tipo": "listen_only", "jp": title[:10], "es": first_sentence(orig_text, 150), "mostrar_texto_antes": False, "rate": 0.9, "prompt": "Escucha y elige."})
     errores = "Error típico: confundir con forma parecida. Mira la tabla arriba y pregunta '¿qué papel marca?'. Solo 2 correcciones por sesión — resto al SRS."
-    cierre = f"Hoy: {orig_text.split('。')[0][:70] if '。' in orig_text else orig_text[:70]}. Próxima: {stage.lower()}. Antes de salir, di en voz alta 3 veces: {examples[0].get('jp','がんばります') if examples else 'がんばります'}"
+    cierre = f"Hoy: {first_sentence(orig_text, 180)} Próxima: {stage.lower()}. Antes de salir, di en voz alta 3 veces: {examples[0].get('jp','がんばります') if examples else 'がんばります'}"
     secciones = [
         {"tipo": "gancho", "texto": gancho},
         {"tipo": "explicacion", "texto": explicacion, "palabras": words(explicacion)},
-        {"tipo": "ejemplos", "items": ej_items or [{"jp": title, "furigana": "", "es": orig_text[:40]}]},
+        {"tipo": "ejemplos", "items": ej_items or [{"jp": title, "furigana": "", "es": first_sentence(orig_text, 150)}]},
         {"tipo": "practica", "ejercicios": ejercicios},
         {"tipo": "errores_comunes", "texto": errores},
         {"tipo": "cierre", "texto": cierre},
