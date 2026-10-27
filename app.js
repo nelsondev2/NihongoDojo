@@ -3246,10 +3246,79 @@
                     var heading = titleMap[tipo] || sec.heading || sec.titulo || '';
                     if (heading) section.appendChild(el('h3', null, heading));
                     if (sec.texto || sec.text) {
-                        // Texto largo: respeta saltos de línea como párrafos
                         var raw = sec.texto || sec.text;
+                        // WexDC Clarity 3.0 — render rico: tablas, fórmulas, pasos, checklist
                         raw.split('\n\n').forEach(function (para) {
-                            if (para.trim()) section.appendChild(el('p', null, para.trim()));
+                            var trimmed = para.trim();
+                            if (!trimmed) return;
+                            if (trimmed.indexOf('|') !== -1 && trimmed.indexOf('---') !== -1) {
+                                var table = document.createElement('table');
+                                table.className = 'teach-table';
+                                var rows = trimmed.split('\n').filter(function(r){return r.trim();});
+                                rows.forEach(function(row, idx){
+                                    if (row.indexOf('---') !== -1) return;
+                                    var tr = document.createElement('tr');
+                                    var cells = row.split('|').filter(function(c){return c.trim();});
+                                    cells.forEach(function(cell){
+                                        var tag = idx===0 ? 'th' : 'td';
+                                        var elCell = document.createElement(tag);
+                                        elCell.textContent = cell.trim();
+                                        if (idx===0) elCell.setAttribute('scope','col');
+                                        tr.appendChild(elCell);
+                                    });
+                                    table.appendChild(tr);
+                                });
+                                section.appendChild(table);
+                                return;
+                            }
+                            if (trimmed.startsWith('🎯') || trimmed.startsWith('🧩') || trimmed.startsWith('👣') || trimmed.startsWith('⚖️') || trimmed.startsWith('💡') || trimmed.startsWith('🔑') || trimmed.startsWith('❌') || trimmed.startsWith('💬') || trimmed.startsWith('✅') || trimmed.startsWith('Fórmula') || trimmed.startsWith('Tabla') || trimmed.startsWith('Objetivo')) {
+                                var lines = trimmed.split('\n');
+                                var first = lines[0];
+                                if (first.length < 90) {
+                                    var h = el('h4', 'teach-subhead', first);
+                                    section.appendChild(h);
+                                    var rest = lines.slice(1).join('\n').trim();
+                                    if (rest) {
+                                        if (rest.indexOf('□') !== -1) {
+                                            var ul = el('ul', 'teach-checklist');
+                                            rest.split('\n').forEach(function(l){
+                                                if (!l.trim()) return;
+                                                var li = el('li', null, l.trim());
+                                                if (l.indexOf('□')===0) li.className='check-item';
+                                                ul.appendChild(li);
+                                            });
+                                            section.appendChild(ul);
+                                        } else {
+                                            var div = el('div', 'teach-rich');
+                                            rest.split('\n').forEach(function(line, i){
+                                                if (i>0) div.appendChild(document.createElement('br'));
+                                                div.appendChild(document.createTextNode(line));
+                                            });
+                                            section.appendChild(div);
+                                        }
+                                    }
+                                    return;
+                                }
+                            }
+                            if (trimmed.startsWith('Fórmula') || trimmed.startsWith('🧩')) {
+                                var box = el('div', 'teach-formula', trimmed);
+                                section.appendChild(box);
+                                return;
+                            }
+                            if (trimmed.indexOf('□') !== -1 && trimmed.split('\n').length>1) {
+                                var ul2 = el('ul', 'teach-checklist');
+                                trimmed.split('\n').forEach(function(l){
+                                    if (l.trim()) ul2.appendChild(el('li', 'check-item', l.trim()));
+                                });
+                                section.appendChild(ul2);
+                                return;
+                            }
+                            var p = el('p', null, '');
+                            if (trimmed.indexOf('Desglose:')===0 || trimmed.indexOf('Por qué así:')===0) {
+                                p.className = 'teach-desglose';
+                            }
+                            p.textContent = trimmed;
+                            section.appendChild(p);
                         });
                     }
                     // Palabras contadas (debug WexDC)
