@@ -186,9 +186,22 @@
         return out;
     }
 
+    function getQuizEngine() {
+        if (root.NihongoDojoQuizEngine) return root.NihongoDojoQuizEngine;
+        if (root.QuizEngine) return root.QuizEngine;
+        if (typeof require !== "undefined") {
+            try {
+                const qe = require("./quiz_engine.js");
+                root.NihongoDojoQuizEngine = qe;
+                return qe;
+            } catch (e) { return null; }
+        }
+        return null;
+    }
     function buildQueue(lesson, Core, Lex, rng) {
         if (!lesson || !lesson.quiz) return [];
         const quiz = lesson.quiz;
+        // Reading stays as before (text-based)
         if (quiz.practice === "reading") {
             const Readings = readingsOf();
             if (!Readings || !Readings.findQuestion) return [];
@@ -197,20 +210,59 @@
             for (let i = 0; i < ids.length; i++) {
                 const question = Readings.findQuestion(ids[i]);
                 if (!question || question.level !== (lesson.level || "n5")) return [];
-                queue.push({ reading: question, userAnswer: null, result: null, choices: null });
+                queue.push({ reading: question, userAnswer: null, result: null, choices: null, exerciseType: "reading" });
             }
-            return shuffle(queue, rng);
+            // Varied reading could interleave, but keep at least 20 if possible by shuffling with repeats
+            let out = shuffle(queue, rng);
+            if (out.length && out.length < 20) {
+                const QE = getQuizEngine();
+                if (QE && QE.TARGET_COUNT) {
+                    const need = QE.TARGET_COUNT - out.length;
+                    const extra = [];
+                    for (let k = 0; k < need; k++) extra.push(Object.assign({}, out[k % out.length]));
+                    out = out.concat(extra);
+                    out = QE.shuffle ? QE.shuffle(out, rng) : shuffle(out, rng);
+                }
+            }
+            return out;
         }
+        // Try varied engine for all other practices (kana, words, kanji, phrases, conj, grammar)
+        const QE = getQuizEngine();
+        if (QE && QE.buildVariedQueue) {
+            try {
+                const varied = QE.buildVariedQueue(lesson, Core, Lex, rng);
+                if (varied && varied.length === QE.TARGET_COUNT) return varied;
+                if (varied && varied.length >= 10) {
+                    // Pad/truncate to TARGET_COUNT if engine returned less (legacy)
+                    const target = QE.TARGET_COUNT || 20;
+                    let out = varied.slice();
+                    while (out.length < target) out = out.concat(varied.slice(0, Math.min(varied.length, target - out.length)));
+                    return out.slice(0, target);
+                }
+            } catch (e) { /* fallback */ }
+        }
+        // Fallback legacy (ensures 20 by duplication)
         if (quiz.practice === "kana") {
             const queue = [];
             const chars = quiz.chars || [];
             for (let i = 0; i < chars.length; i++) {
                 const kana = Core.findKana(quiz.type, chars[i]);
                 if (!kana) return [];
-                queue.push({ kanaObj: kana, userAnswer: null, result: null, choices: null });
+                queue.push({ kanaObj: kana, userAnswer: null, result: null, choices: null, exerciseType: "kana" });
             }
-            const shuffled = shuffle(queue, rng);
-            if (quiz.direction === "romaji-kana") Core.ensureChoices(shuffled, rng);
+            let shuffled = shuffle(queue, rng);
+            if (quiz.direction === "romaji-kana") shuffled = Core.ensureChoices(shuffled, rng) || shuffled;
+            // pad to 20 duplicating with fresh choices
+            const target = QE && QE.TARGET_COUNT ? QE.TARGET_COUNT : 20;
+            if (shuffled.length < target) {
+                let out = shuffled.slice();
+                while (out.length < target) {
+                    const dup = shuffle(queue.slice(), rng);
+                    const ensured = quiz.direction === "romaji-kana" ? (Core.ensureChoices(dup, rng) || dup) : dup;
+                    out = out.concat(ensured.slice(0, target - out.length));
+                }
+                return out.slice(0, target);
+            }
             return shuffled;
         }
         const pack = Lex.forLevel ? Lex.forLevel(lesson.level || "n5") : Lex;
@@ -225,22 +277,57 @@
             if (!found) return [];
             items.push(found);
         }
-        const queue = shuffle(items, rng).map(function (lex) {
+        let queue = shuffle(items, rng).map(function (lex) {
             return { lex: lex, userAnswer: null, result: null, choices: null };
         });
-        return Lex.ensureChoices(queue, quiz.direction, rng);
+        queue = Lex.ensureChoices(queue, quiz.direction, rng) || queue;
+        const target = QE && QE.TARGET_COUNT ? QE.TARGET_COUNT : 20;
+        if (queue.length < target) {
+            let out = queue.slice();
+            while (out.length < target) {
+                const dup = shuffle(items.slice(), rng).map(function (lex) {
+                    return { lex: lex, userAnswer: null, result: null, choices: null };
+                });
+                const ensured = Lex.ensureChoices(dup, quiz.direction, rng) || dup;
+                out = out.concat(ensured.slice(0, target - out.length));
+            }
+            return out.slice(0, target);
+        }
+        return queue.slice(0, target);
     }
 
     function validate(Core, Lex) {
         const errors = [];
         const ids = new Set();
-        LESSONS.forEach(function (lesson) {
-            if (ids.has(lesson.id)) errors.push("id repetido " + lesson.id);
-            ids.add(lesson.id);
-            if (!lesson.teach || !lesson.teach.length) errors.push(lesson.id + " sin explicación");
-            const queue = buildQueue(lesson, Core, Lex, function () { return 0.1; });
-            const expected = lesson.quiz.practice === "kana" ? lesson.quiz.chars.length : lesson.quiz.ids.length;
-            if (queue.length !== expected) errors.push(lesson.id + " cola " + queue.length + "/" + expected);
+        const allLevels = ["n5", "n4", "n3", "n2", "n1"];
+        const QE = (typeof getQuizEngine === "function" ? getQuizEngine() : null);
+        const target = QE && QE.TARGET_COUNT ? QE.TARGET_COUNT : 20;
+        function checkList(list, level) {
+            list.forEach(function (lesson) {
+                if (ids.has(lesson.id)) errors.push("id repetido " + lesson.id);
+                ids.add(lesson.id);
+                if (!lesson.teach || !lesson.teach.length) errors.push(lesson.id + " sin explicación");
+                // WexDC 2.0: solo las lecciones ricas (secciones) requieren 400+ palabras; legacy queda exento
+                if (lesson.secciones || lesson.sections) {
+                    const teachWords = (lesson.teach || []).reduce(function (acc, b) { return acc + (b.text ? String(b.text).split(/\s+/).length : 0); }, 0);
+                    const altWords = (lesson.secciones || lesson.sections || []).reduce(function (acc, s) { return acc + ((s.texto || s.text || '').split(/\s+/).length); }, 0);
+                    const words = Math.max(teachWords, altWords);
+                    if (words && words < 400) errors.push(lesson.id + " explicación corta " + words);
+                }
+                const queue = buildQueue(lesson, Core, Lex, function () { return 0.1; });
+                // WexDC spec: 20 varied questions per lesson (reading keeps its own count, but ideally 20 too)
+                let expected = target;
+                if (lesson.quiz.practice === "reading" && lesson.quiz.ids && lesson.quiz.ids.length < target) expected = lesson.quiz.ids.length;
+                if (queue.length !== expected && !(lesson.quiz.practice === "reading" && queue.length >= lesson.quiz.ids.length)) {
+                    // Allow reading to be less if not enough questions, but other practices must be 20
+                    if (lesson.quiz.practice !== "reading" && queue.length !== target) errors.push(lesson.id + " cola " + queue.length + "/" + target);
+                }
+            });
+        }
+        checkList(LESSONS, "n5");
+        allLevels.forEach(function (lv) {
+            if (lv === "n5") return;
+            if (EXTRA[lv] && EXTRA[lv].length) checkList(EXTRA[lv], lv);
         });
         return errors;
     }

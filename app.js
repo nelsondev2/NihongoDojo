@@ -283,6 +283,25 @@
 
     var quizEls = emptyQuizEls();
 
+    // ---- QuizEngine variado helpers (WexDC 2.1) ----
+    function isVaried(item) { return !!(item && item.exerciseType); }
+    function variedView(item) {
+        if (!item) return null;
+        if (item._view) return item._view;
+        var QE = window.NihongoDojoQuizEngine || window.QuizEngine;
+        if (QE && QE.viewFor) {
+            try { return QE.viewFor(item); } catch(e) {}
+        }
+        return null;
+    }
+    function variedChoices(item) {
+        if (!item || !item.choices) return null;
+        // Varied choices are strings; convert to objects for paint
+        return item.choices.map(function (c, i) {
+            return { id: String(c), char: String(c), text: String(c), _isVariedString: true };
+        });
+    }
+
     function emptyQuizEls() {
         return {
             kanaChar: null, hint: null, input: null, inputArea: null, passage: null,
@@ -392,6 +411,10 @@
     }
     function usesChoices(item) {
         if (!item && exam.queue) item = exam.queue[exam.index];
+        if (isVaried(item)) {
+            // Varied always offers choices except write-type (not used now)
+            return !!(item.choices && item.choices.length);
+        }
         if (item && item.reading) return true;
         if (item && item.lex) return exam.practice === 'review' || !isWrite();
         if (item && item.kanaObj) {
@@ -450,6 +473,10 @@
         return type === 'katakana' ? 'katakana' : 'hiragana';
     }
     function lexView(item) {
+        if (isVaried(item)) {
+            var vv = variedView(item);
+            if (vv) return vv;
+        }
         return Lex.view(item.lex, itemDirection(item));
     }
     function lexiconHint(view, settled) {
@@ -469,6 +496,12 @@
     }
     function spokenText(item, settled) {
         if (!item) return '';
+        if (isVaried(item)) {
+            var vv = variedView(item);
+            if (!vv) return item.speak || '';
+            if (!settled && !vv.speakOnShow && !(item.exerciseType && item.exerciseType.indexOf('listening')>=0)) return '';
+            return vv.speak || item.speak || '';
+        }
         if (item.kanaObj && !item.lex && !item.reading) {
             if (!settled && soundRevealsKana(item)) return '';
             return item.kanaObj.char;
@@ -480,6 +513,21 @@
         return view.speak || '';
     }
     function speakItem(item, settled) {
+        if (isVaried(item)) {
+            var vv = variedView(item);
+            var listen = item.exerciseType === 'listening_jp_es';
+            if (vv && !vv.speakOnShow && !settled && !listen) {
+                noteAudio('El sonido se oye al corregir, para no revelar la respuesta.');
+                return;
+            }
+            var text = vv ? vv.speak : (item.speak || '');
+            if (!text) return;
+            var rate = vv ? vv.speakRate : (item.speakRate || 0.85);
+            if (!speakJapanese(text, {rate: rate}) && listen && systemSpeech()) {
+                noteAudio('Pulsa Oír. Hace falta la síntesis de voz del sistema.');
+            }
+            return;
+        }
         if (soundRevealsKana(item) && !settled) {
             noteAudio('El sonido se oye al corregir, para no revelar la lectura.');
             return;
@@ -511,6 +559,16 @@
     }
     function maybeSpeakItem(item, settled) {
         if (!item) return;
+        if (isVaried(item)) {
+            var vv = variedView(item);
+            if (!vv) return;
+            var listen = item.exerciseType === 'listening_jp_es' || exam.direction === 'listen-es';
+            if (!state.audioOn && !listen) return;
+            var rate = vv.speakRate || 0.85;
+            if ((vv.speakOnShow || listen) && !settled) speakJapanese(vv.speak, {rate: rate});
+            else if (!vv.speakOnShow && settled) speakJapanese(vv.speak, {rate: rate});
+            return;
+        }
         var listen = exam.direction === 'listen-es';
         if (item.reading) {
             if (!state.audioOn || settled) return;
@@ -542,6 +600,15 @@
     function feedbackFor(item) {
         var r = item.result;
         var tail = ' Pulsa Siguiente o Enter.';
+        if (isVaried(item)) {
+            var view = lexView(item);
+            var shown = view.reveal && r ? view.reveal : view.prompt;
+            if (!r) return 'Elige la respuesta.';
+            if (r.skipped) return 'Saltada. ' + (view.reveal || view.prompt) + ' → ' + view.answer + '.' + tail;
+            if (r.correct) return 'Correcto: ' + view.answer + '.' + tail;
+            var yours = r.user || '—';
+            return 'Fallo. ' + shown + ' → ' + view.answer + '. Tú: ' + yours + '.' + tail;
+        }
         if (item.lex) {
             var view = lexView(item);
             var shown = view.reveal && r ? view.reveal : view.prompt;
@@ -1566,7 +1633,8 @@
     }
 
     function markChoicesSettled(item) {
-        if (item.reading) paintReading(item);
+        if (isVaried(item)) paintVariedChoices(item, true);
+        else if (item.reading) paintReading(item);
         else if (item.lex) paintLexChoices(item, true);
         else paintChoices(item, true);
     }
@@ -1666,6 +1734,35 @@
         return applyNote('');
     }
     function paintLexiconPrompt(item) {
+        // Varied engine: prompt/choices already prepared
+        if (isVaried(item)) {
+            var view = lexView(item);
+            hidePassage();
+            clearPromptClasses();
+            if (quizEls.kanaChar) {
+                var reveal = item.result && view.reveal ? view.reveal : view.prompt;
+                quizEls.kanaChar.textContent = reveal;
+                quizEls.kanaChar.lang = view.promptLang || 'ja';
+                if (!item.result && item.exerciseType === 'listening_jp_es') quizEls.kanaChar.classList.add('prompt-listen');
+                else if (view.promptLang !== 'es') {
+                    var len = Array.from(reveal).length;
+                    if (len > 10) quizEls.kanaChar.classList.add('prompt-sentence');
+                    else if (len > 6) quizEls.kanaChar.classList.add('prompt-xlong');
+                    else if (len > 3) quizEls.kanaChar.classList.add('prompt-long');
+                } else {
+                    quizEls.kanaChar.classList.add('prompt-es');
+                }
+            }
+            setHidden(quizEls.inputArea, true);
+            setHidden(quizEls.choiceArea, false);
+            if (quizEls.audioStatus) {
+                quizEls.audioStatus.textContent = '';
+                setHidden(quizEls.audioStatus, true);
+            }
+            paintVariedChoices(item, !!item.result);
+            var note = view.note || lexiconHint(view, !!item.result);
+            return applyNote(note);
+        }
         var view = lexView(item);
         var write = isWrite();
         hidePassage();
@@ -1704,8 +1801,83 @@
         }
         return applyNote(note);
     }
+    function paintVariedChoices(item, locked) {
+        clearChoices();
+        if (!quizEls.choiceArea || !item.choices) return;
+        var view = variedView(item) || lexView(item);
+        var stack = item.choices.some(function (c) { return Array.from(String(c)).length > 6; });
+        quizEls.choiceArea.classList.toggle('choice-stack', stack);
+        item.choices.forEach(function (choice, i) {
+            var choiceText = String(choice);
+            var btn = document.createElement('button');
+            btn.type = 'button';
+            btn.className = 'choice-btn choice-lex';
+            var choiceLen = Array.from(choiceText).length;
+            if (choiceLen > 12) btn.classList.add('choice-sentence');
+            else if (choiceLen > 8) btn.classList.add('choice-compact');
+            btn.lang = view.choiceLang || 'ja';
+            btn.textContent = choiceText;
+            var key = el('span', 'choice-key', String(i + 1));
+            key.setAttribute('aria-hidden', 'true');
+            btn.appendChild(key);
+            btn.setAttribute('data-id', choiceText);
+            btn.setAttribute('aria-label', 'Opción ' + (i + 1) + ', ' + choiceText);
+            if (locked && item.result) {
+                btn.disabled = true;
+                if (choiceText === item.answer) btn.classList.add('choice-ok');
+                else if (!item.result.skipped && item.result.user === choiceText && !item.result.correct) {
+                    btn.classList.add('choice-bad');
+                }
+            } else {
+                (function (c) { btn.addEventListener('click', function () { chooseVaried(c); }); })(choiceText);
+            }
+            quizEls.choiceArea.appendChild(btn);
+        });
+    }
+    function chooseVaried(choiceText) {
+        if (!exam.active || exam.waitingNext || dialogOpen()) return;
+        if (exam.index >= exam.queue.length) return;
+        var item = exam.queue[exam.index];
+        if (!isVaried(item)) { chooseOption(choiceText); return; }
+        var correct = String(choiceText) === String(item.answer);
+        // For blank, answer is single token but prompt blank; compare token
+        item.userAnswer = String(choiceText);
+        item.result = { user: String(choiceText), expected: String(item.answer), correct: correct, empty: false, skipped: false };
+        if (correct) exam.correct++; else exam.wrong++;
+        noteOutcome(item);
+        markChoicesSettled(item);
+        lockAnswerUI();
+        setFeedback(feedbackFor(item), resultKind(item));
+        updateStatsUI();
+        saveExam();
+        if (item.lex || isVaried(item)) maybeSpeakItem(item, true);
+        maybeScheduleAutoAdvance();
+    }
 
     function paintPrompt(item) {
+        if (isVaried(item)) {
+            if (item.kanaObj) {
+                // Varied kana: similar to kana but using varied prompt/answer
+                var view = variedView(item);
+                hidePassage();
+                clearPromptClasses();
+                var isRomajiToKana = item.direction === 'romaji-kana' || (view && view.choiceLang === 'ja' && view.promptLang === 'en');
+                // For kana varied we use prompt as shown
+                if (quizEls.kanaChar) {
+                    var reveal = item.result && view && view.reveal ? view.reveal : item.prompt;
+                    quizEls.kanaChar.textContent = reveal;
+                    quizEls.kanaChar.lang = isRomajiToKana ? 'en' : 'ja';
+                    quizEls.kanaChar.classList.toggle('prompt-romaji', isRomajiToKana);
+                }
+                setHidden(quizEls.inputArea, true);
+                setHidden(quizEls.choiceArea, false);
+                if (quizEls.audioStatus) { quizEls.audioStatus.textContent=''; setHidden(quizEls.audioStatus, true); }
+                paintVariedChoices(item, !!item.result);
+                var note = view ? view.note : '';
+                return applyNote(note);
+            }
+            return paintLexiconPrompt(item);
+        }
         if (item.reading) return paintReading(item);
         if (item.lex) return paintLexiconPrompt(item);
         hidePassage();
@@ -1801,7 +1973,14 @@
     }
     function noteOutcome(item) {
         if (!item || !item.result || item.result.skipped || !Lex) return;
-        var id = item.lex ? item.lex.id : item.reading ? item.reading.id : (item.kanaObj ? item.kanaObj.type + ':' + item.kanaObj.char : '');
+        var id = '';
+        if (isVaried(item)) {
+            if (item.lex && item.lex.id) id = item.lex.id;
+            else if (item.kanaObj) id = item.kanaObj.type + ':' + item.kanaObj.char;
+            else if (item.sourceId) id = item.sourceId;
+        } else {
+            id = item.lex ? item.lex.id : item.reading ? item.reading.id : (item.kanaObj ? item.kanaObj.type + ':' + item.kanaObj.char : '');
+        }
         if (!id) return;
         var practice = itemPractice(item);
         if (!practice || practice === 'review') return;
@@ -2261,6 +2440,23 @@
         if (exam.index >= exam.queue.length || usesChoices()) return;
 
         var item = exam.queue[exam.index];
+        if (isVaried(item)) {
+            var val = quizEls.input ? quizEls.input.value.trim() : '';
+            if (!val) { setFeedback('Escribe una respuesta o pulsa Saltar.'); return; }
+            var correct = val.toLowerCase() === String(item.answer).toLowerCase();
+            var result = { user: val, expected: String(item.answer), correct: correct, empty: false, skipped: false, written: true };
+            item.userAnswer = result.user;
+            item.result = result;
+            if (result.correct) exam.correct++; else exam.wrong++;
+            lockAnswerUI();
+            setFeedback(feedbackFor(item), resultKind(item));
+            updateStatsUI();
+            noteOutcome(item);
+            maybeSpeakItem(item, true);
+            saveExam();
+            maybeScheduleAutoAdvance();
+            return;
+        }
         var result = item.lex
             ? Lex.checkWritten(item.lex, exam.direction, quizEls.input.value)
             : Core.checkAnswer(item.kanaObj, quizEls.input.value, state.romajiMode);
@@ -2288,18 +2484,22 @@
         if (exam.index >= exam.queue.length) return;
         var item = exam.queue[exam.index];
         item.userAnswer = null;
-        item.result = item.reading
-            ? { user: '', expected: String(item.reading.answer), correct: false, empty: false, skipped: true }
-            : item.lex
-            ? { user: '', expected: item.lex.id, correct: false, empty: false, skipped: true }
-            : Core.markSkipped(item.kanaObj);
+        if (isVaried(item)) {
+            item.result = { user: '', expected: String(item.answer), correct: false, empty: false, skipped: true };
+        } else {
+            item.result = item.reading
+                ? { user: '', expected: String(item.reading.answer), correct: false, empty: false, skipped: true }
+                : item.lex
+                ? { user: '', expected: item.lex.id, correct: false, empty: false, skipped: true }
+                : Core.markSkipped(item.kanaObj);
+        }
         exam.skipped++;
         if (usesChoices()) markChoicesSettled(item);
         lockAnswerUI();
         setFeedback(feedbackFor(item), 'skip');
         updateStatsUI();
         saveExam();
-        if (item.lex) maybeSpeakItem(item, true);
+        if (isVaried(item) || item.lex) maybeSpeakItem(item, true);
         else maybeSpeakKana(item, true);
         maybeScheduleAutoAdvance();
         if (!usesChoices() && quizEls.input) quizEls.input.focus();
@@ -2309,6 +2509,7 @@
         if (!exam.active || exam.waitingNext || dialogOpen() || !usesChoices()) return;
         if (exam.index >= exam.queue.length) return;
         var item = exam.queue[exam.index];
+        if (isVaried(item)) { chooseVaried(id); return; }
         var result = item.reading ? Readings.check(item.reading, id)
             : item.lex ? Lex.checkChoice(item.lex, id)
             : Core.checkChoice(item.kanaObj, id);
@@ -2576,6 +2777,14 @@
         var list = el('ol', 'results-list');
         exam.queue.forEach(function (item) {
             var li = el('li');
+            if (isVaried(item)) {
+                var view = lexView(item);
+                var yours = item.result && item.result.skipped ? '—' : (item.result && item.result.user) || '—';
+                var prompt = item.result && view.reveal ? view.reveal : view.prompt;
+                li.appendChild(document.createTextNode(resultStatus(item) + '. ' + prompt + ' → ' + view.answer + '. Tú: ' + yours));
+                list.appendChild(li);
+                return;
+            }
             if (item.reading) {
                 var question = item.reading;
                 var picked = item.result && !item.result.skipped ? question.choices[Number(item.result.user)] : '—';
