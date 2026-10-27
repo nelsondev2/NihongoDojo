@@ -1,5 +1,5 @@
 /* ============================================================
- * Kana Dojo — core.js
+ * NihongoDojo — core.js
  * Lógica pura (sin DOM): base de datos de kana (básicos, rendaku
  * 濁音/半濁音 y yōon 拗音), filtros por fila, cola aleatoria y
  * corrección de respuestas en romaji.
@@ -125,13 +125,13 @@
         "ふ": ["hu"], "フ": ["hu"],
         "じ": ["zi"], "ジ": ["zi"],
         "ぢ": ["di", "zi"], "ヂ": ["di", "zi"], // CORRECCIÓN: 'di' ahora aceptado
-        "づ": ["du"], "ヅ": ["du"],
+        "づ": ["du", "dzu"], "ヅ": ["du", "dzu"], // du Kunrei; dzu Hepburn tradicional
         "を": ["o"], "ヲ": ["o"],               // CORRECCIÓN: 'o' ahora aceptado
         "ん": ["nn"], "ン": ["nn"],             // CORRECCIÓN: 'nn' ahora aceptado
-        // Yōon: alternativas Kunrei (sya/tya/zya…) e IME (cya…).
-        "しゃ": ["sya"], "シャ": ["sya"],
-        "しゅ": ["syu"], "シュ": ["syu"],
-        "しょ": ["syo"], "ショ": ["syo"],
+        // Yōon: alternativas Kunrei (sya/tya/zya…), IME (cya…) y shya/shyu/shyo.
+        "しゃ": ["sya", "shya"], "シャ": ["sya", "shya"],
+        "しゅ": ["syu", "shyu"], "シュ": ["syu", "shyu"],
+        "しょ": ["syo", "shyo"], "ショ": ["syo", "shyo"],
         "ちゃ": ["tya", "cya"], "チャ": ["tya", "cya"],
         "ちゅ": ["tyu", "cyu"], "チュ": ["tyu", "cyu"],
         "ちょ": ["tyo", "cyo"], "チョ": ["tyo", "cyo"],
@@ -144,6 +144,8 @@
     // Por defecto, flexible: es el comportamiento más cercano al original
     // (que ya aceptaba si/ti/tu/hu/zi/du) pero ahora consistente.
     const DEFAULT_MODE = MODES.FLEXIBLE;
+    const DIRECTIONS = { KANA_ROMAJI: "kana-romaji", ROMAJI_KANA: "romaji-kana" };
+    const DEFAULT_DIRECTION = DIRECTIONS.KANA_ROMAJI;
 
     function buildDatabase() {
         const db = [];
@@ -299,14 +301,517 @@
         return shuffle(available, rng).map((k) => ({
             kanaObj: k,
             userAnswer: null,
-            result: null
+            result: null,
+            choices: null
         }));
+    }
+
+    function readingCollision(target, pool) {
+        if (!target || !pool) return false;
+        for (let i = 0; i < pool.length; i++) {
+            const k = pool[i];
+            if (k && k.char !== target.char && k.type === target.type && k.romaji === target.romaji) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    // Opciones del modo inverso: el kana correcto y hasta 3 distractores
+    // de otra lectura. Un homófono (じ/ぢ) no puede ser la respuesta falsa.
+    function buildChoices(target, pool, rng, count) {
+        const wanted = count === undefined ? 4 : count;
+        const others = [];
+        const seen = new Set([target.char]);
+        const source = pool || [];
+        for (let i = 0; i < source.length; i++) {
+            const k = source[i] && source[i].kanaObj ? source[i].kanaObj : source[i];
+            if (!k || k.type !== target.type || seen.has(k.char)) continue;
+            if (k.romaji === target.romaji) continue;
+            seen.add(k.char);
+            others.push(k);
+        }
+        function rank(k) {
+            if (k.fila === target.fila) return 0;
+            if (k.category === target.category) return 1;
+            return 2;
+        }
+        const groups = [[], [], []];
+        others.forEach((k) => groups[rank(k)].push(k));
+        const ranked = groups.reduce((acc, group) => acc.concat(shuffle(group, rng)), []);
+        const picked = ranked.slice(0, Math.max(0, wanted - 1));
+        return shuffle([target].concat(picked), rng);
+    }
+
+    function ensureChoices(queue, rng) {
+        const pool = queue.map((item) => item.kanaObj);
+        queue.forEach((item) => {
+            const hasTarget = item.choices && item.choices.some((k) => k.char === item.kanaObj.char);
+            if (!hasTarget) item.choices = buildChoices(item.kanaObj, pool, rng);
+        });
+        return queue;
+    }
+
+    function checkChoice(target, chosenChar) {
+        const chosen = findKana(target.type, chosenChar);
+        if (!chosen) {
+            return { user: "", expected: target.char, correct: false, empty: true, skipped: false };
+        }
+        // El acierto es el carácter pedido, no otro con la misma lectura.
+        // じ y ぢ se distinguen en la pregunta; no se dan por buenos entre sí.
+        return {
+            user: chosen.char,
+            expected: target.char,
+            correct: chosen.char === target.char,
+            empty: false,
+            skipped: false
+        };
+    }
+
+    function findKana(type, ch) {
+        for (let i = 0; i < KANA_DB.length; i++) {
+            if (KANA_DB[i].type === type && KANA_DB[i].char === ch) return KANA_DB[i];
+        }
+        return null;
+    }
+
+    // Recorte por puntos de código (no parte un emoji sustituto).
+    function clipCodePoints(text, max) {
+        const chars = Array.from(text == null ? "" : String(text));
+        if (chars.length <= max) return chars.join("");
+        if (max <= 1) return chars.slice(0, max).join("");
+        return chars.slice(0, max - 1).join("") + "…";
+    }
+
+    function oneLine(text) {
+        return String(text == null ? "" : text).replace(/[\r\n]+/g, " ").replace(/\s+/g, " ").trim();
+    }
+
+    // Textos de sendUpdate dentro de los límites de la spec webxdc:
+    // info ≈ 50 caracteres, summary ≈ 20. Sin saltos de línea.
+    function buildShareText(correct, total, scope, direction) {
+        const safeTotal = Number.isFinite(total) && total > 0 ? Math.floor(total) : 0;
+        let safeCorrect = Number.isFinite(correct) && correct > 0 ? Math.floor(correct) : 0;
+        if (safeCorrect > safeTotal) safeCorrect = safeTotal;
+        const pct = safeTotal === 0 ? 0 : Math.round((safeCorrect / safeTotal) * 100);
+        const score = pct + "% (" + safeCorrect + "/" + safeTotal + ")";
+        const syll = scope === "katakana" ? "katakana"
+            : scope === "palabras" ? "palabras"
+            : scope === "kanji" ? "kanji"
+            : scope === "frases" ? "frases"
+            : scope === "conjugación" ? "conjugación"
+            : scope === "gramática" ? "gramática"
+            : scope === "escucha" ? "escucha"
+            : scope === "lectura" ? "lectura"
+            : scope === "repaso" ? "repaso"
+            : "hiragana";
+        const suffix = direction === DIRECTIONS.ROMAJI_KANA ? " · inv" : "";
+        return {
+            summary: clipCodePoints(oneLine(score), 20),
+            info: clipCodePoints(oneLine(score + " en " + syll + suffix), 50)
+        };
+    }
+
+    // Ordena un repaso ya estudiado. No inventa ítems: solo fallos y vistos.
+    function planReview(misses, seen, now, options) {
+        const limit = options && options.limit > 0 ? Math.floor(options.limit) : 20;
+        const dueMs = options && options.dueMs > 0 ? options.dueMs : 3 * 86400000;
+        const picked = [];
+        const used = new Set();
+        function add(row, reason) {
+            if (!row || typeof row.id !== "string" || !row.id || typeof row.practice !== "string" || !row.practice) return;
+            const key = row.practice + "\n" + row.id;
+            if (used.has(key) || picked.length >= limit) return;
+            used.add(key);
+            picked.push({ id: row.id, practice: row.practice, reason: reason });
+        }
+        (Array.isArray(misses) ? misses : []).forEach(function (row) { add(row, "miss"); });
+        const due = (Array.isArray(seen) ? seen : []).filter(function (row) {
+            return row && typeof row.t === "number" && now - row.t >= dueMs;
+        }).slice().sort(function (a, b) { return a.t - b.t; });
+        due.forEach(function (row) { add(row, "due"); });
+        return picked;
+    }
+
+    // Aviso de una lección. info ≤ 50 y summary ≤ 20, sin saltos de línea.
+    // No usa el alcance del examen: un nivel no debe colarse como silabario.
+    function buildLessonShareText(correct, total, lesson) {
+        const safeTotal = Number.isFinite(total) && total > 0 ? Math.floor(total) : 0;
+        let safeCorrect = Number.isFinite(correct) && correct > 0 ? Math.floor(correct) : 0;
+        if (safeCorrect > safeTotal) safeCorrect = safeTotal;
+        const pct = safeTotal === 0 ? 0 : Math.round((safeCorrect / safeTotal) * 100);
+        const number = lesson && Number.isFinite(lesson.number) && lesson.number > 0
+            ? Math.floor(lesson.number) : 1;
+        const pass = lesson && Number.isFinite(lesson.pass) ? lesson.pass : 70;
+        const title = oneLine(lesson && lesson.title ? lesson.title : "");
+        const head = "Lección " + number + ". ";
+        const tail = pct >= pass ? " superada al " + pct + "%" : " al " + pct + "%";
+        const room = 50 - Array.from(head).length - Array.from(tail).length;
+        const shown = room > 1 ? clipCodePoints(title, room) : "";
+        return {
+            summary: clipCodePoints(oneLine("L" + number + " " + pct + "%"), 20),
+            info: clipCodePoints(oneLine(head + shown + tail), 50)
+        };
+    }
+
+    // Reconstruye un examen guardado. Descarta instantáneas corruptas
+    // o de otra versión en lugar de reanudar a medias.
+    function parseExamSnapshot(data) {
+        if (!data || (data.v !== 1 && data.v !== 2)) return null;
+        if (data.type !== "hiragana" && data.type !== "katakana") return null;
+        if (data.mode !== MODES.STRICT && data.mode !== MODES.FLEXIBLE) return null;
+        const direction = data.direction === DIRECTIONS.ROMAJI_KANA
+            ? DIRECTIONS.ROMAJI_KANA
+            : DIRECTIONS.KANA_ROMAJI;
+        const reverse = direction === DIRECTIONS.ROMAJI_KANA;
+        if (!Array.isArray(data.items) || data.items.length === 0 || data.items.length > 300) return null;
+        if (typeof data.index !== "number" || data.index !== Math.floor(data.index)) return null;
+        if (data.index < 0 || data.index >= data.items.length) return null;
+
+        const queue = [];
+        for (let i = 0; i < data.items.length; i++) {
+            const it = data.items[i];
+            if (!it || typeof it.char !== "string" || it.char.length > 8) return null;
+            const kana = findKana(typeof it.type === "string" ? it.type : data.type, it.char);
+            if (!kana || kana.type !== data.type) return null;
+            const item = { kanaObj: kana, userAnswer: null, result: null, choices: null };
+            const skipped = it.skipped === true;
+            const markedCorrect = it.correct === true && !skipped;
+            const hasUser = typeof it.user === "string";
+            if (skipped || markedCorrect || hasUser) {
+                let user = "";
+                if (hasUser) {
+                    user = reverse ? String(it.user).slice(0, 8) : sanitizeRomaji(it.user);
+                    if (!reverse && user.length > 80) user = user.slice(0, 80);
+                }
+                item.result = {
+                    user: user,
+                    expected: reverse ? kana.char : String(kana.romaji).toLowerCase(),
+                    correct: markedCorrect,
+                    empty: false,
+                    skipped: skipped
+                };
+                item.userAnswer = skipped ? null : user;
+            }
+            if (reverse && Array.isArray(it.choices)) {
+                const seen = new Set();
+                const resolved = [];
+                for (let c = 0; c < it.choices.length && resolved.length < 6; c++) {
+                    const choiceChar = it.choices[c];
+                    if (typeof choiceChar !== "string" || seen.has(choiceChar)) continue;
+                    const choice = findKana(data.type, choiceChar);
+                    if (!choice || choice.type !== data.type) continue;
+                    if (choice.romaji === kana.romaji && choice.char !== kana.char) continue;
+                    seen.add(choiceChar);
+                    resolved.push(choice);
+                }
+                if (!seen.has(kana.char)) resolved.unshift(kana);
+                if (resolved.length) item.choices = resolved;
+            }
+            queue.push(item);
+        }
+
+        // No repreguntar un ítem ya respondido, ni contar respuestas
+        // que un almacén manipulado hubiera puesto por delante del índice.
+        for (let i = data.index + 1; i < queue.length; i++) {
+            queue[i].result = null;
+            queue[i].userAnswer = null;
+        }
+        const waitingNext = !!queue[data.index].result;
+        if (reverse) ensureChoices(queue);
+        let correct = 0;
+        let wrong = 0;
+        let skipped = 0;
+        const last = waitingNext ? data.index : data.index - 1;
+        for (let i = 0; i <= last; i++) {
+            const result = queue[i].result;
+            if (!result) continue;
+            if (result.skipped) skipped++;
+            else if (result.correct) correct++;
+            else wrong++;
+        }
+        return {
+            type: data.type,
+            mode: data.mode,
+            queue: queue,
+            index: data.index,
+            waitingNext: waitingNext,
+            direction: direction,
+            lessonId: lessonIdOf(data),
+            correct: correct,
+            wrong: wrong,
+            skipped: skipped
+        };
+    }
+
+    function lessonIdOf(data) {
+        if (!data || typeof data.lessonId !== "string") return "";
+        return /^[a-z0-9-]{1,80}$/.test(data.lessonId) ? data.lessonId : "";
+    }
+
+    // Copia del progreso. No es un aviso de puntuación: es un archivo para otra versión.
+    const BACKUP_KEY = /^(?:lessons(?:\.n[1-5])?|seen\.n[1-5]|miss\.kana|miss\.n[1-5]\.(?:words|kanji|phrases|conj|grammar|reading)|exam|mode|type|direction|audio|practice|answerMode|level|home|(?:word|kanji|phrase|conj|grammar)Direction|sel\.(?:hiragana|katakana)\.(?:basic|rendaku|yoon)|sel\.(?:words|kanji|phrases|conj|grammar)|sel\.n[1-5]\.(?:words|kanji|phrases|conj|grammar))$/;
+    const BACKUP_VALUE_MAX = 2000000;
+    const BACKUP_TOTAL_MAX = 4000000;
+    const BACKUP_KEYS_MAX = 200;
+
+    function isBackupKey(name) {
+        return typeof name === "string" && BACKUP_KEY.test(name);
+    }
+
+    function takeBackupKeys(source) {
+        if (!source || typeof source !== "object" || Array.isArray(source)) return null;
+        const names = Object.keys(source);
+        if (names.length > BACKUP_KEYS_MAX) return null;
+        const keys = {};
+        let total = 0;
+        for (let i = 0; i < names.length; i++) {
+            const name = names[i];
+            if (!isBackupKey(name)) continue;
+            const value = source[name];
+            if (typeof value !== "string" || value.length > BACKUP_VALUE_MAX) return null;
+            total += value.length;
+            if (total > BACKUP_TOTAL_MAX) return null;
+            keys[name] = value;
+        }
+        return keys;
+    }
+
+    function buildBackup(entries, meta) {
+        const keys = takeBackupKeys(entries || {});
+        if (!keys || !Object.keys(keys).length) return null;
+        const app = meta && typeof meta.app === "string" ? oneLine(meta.app).slice(0, 20) : "";
+        const exportedAt = meta && typeof meta.exportedAt === "string" ? oneLine(meta.exportedAt).slice(0, 40) : "";
+        return { kind: "nihongodojo-backup", v: 1, app: app, exportedAt: exportedAt, keys: keys };
+    }
+
+    function parseBackup(data) {
+        if (!data || data.kind !== "nihongodojo-backup" || data.v !== 1) return null;
+        const keys = takeBackupKeys(data.keys);
+        if (!keys || !Object.keys(keys).length) return null;
+        return {
+            v: 1,
+            app: typeof data.app === "string" ? oneLine(data.app).slice(0, 20) : "",
+            keys: keys
+        };
+    }
+
+    function backupSummary(keys) {
+        const passed = { n5: 0, n4: 0, n3: 0, n2: 0, n1: 0 };
+        function count(raw, level) {
+            if (typeof raw !== "string") return;
+            let data;
+            try { data = JSON.parse(raw); } catch (e) { return; }
+            if (!data || typeof data !== "object" || Array.isArray(data)) return;
+            Object.keys(data).forEach(function (id) {
+                if (data[id] && data[id].passed === true) passed[level] += 1;
+            });
+        }
+        count(keys && keys.lessons, "n5");
+        ["n4", "n3", "n2", "n1"].forEach(function (level) {
+            count(keys && keys["lessons." + level], level);
+        });
+        let misses = 0;
+        Object.keys(keys || {}).forEach(function (name) {
+            if (name.indexOf("miss.") !== 0) return;
+            try {
+                const arr = JSON.parse(keys[name]);
+                if (Array.isArray(arr)) misses += arr.length;
+            } catch (e) { /* un fallo ilegible no infla el resumen */ }
+        });
+        return { passed: passed, misses: misses };
+    }
+
+    function backupLine(summary) {
+        const parts = [];
+        let total = 0;
+        ["n5", "n4", "n3", "n2", "n1"].forEach(function (level) {
+            const n = summary && summary.passed ? summary.passed[level] : 0;
+            if (!n) return;
+            total += n;
+            parts.push(level.toUpperCase() + " " + n);
+        });
+        const lessons = parts.length
+            ? parts.join(", ") + (total === 1 ? " superada" : " superadas")
+            : "sin lecciones superadas";
+        const n = summary && summary.misses ? summary.misses : 0;
+        const misses = n ? n + (n === 1 ? " fallo" : " fallos") : "sin fallos";
+        return oneLine(lessons + ". " + misses + ".");
+    }
+
+    function soundRevealsAnswer(item, direction) {
+        if (!item) return false;
+        if (item.kanaObj && !item.lex && !item.reading) return true;
+        if (!item.lex) return false;
+        const dir = direction || "";
+        if (item.lex.kind === "word") return dir === "es-word";
+        if (item.lex.kind === "kanji") return dir === "es-kanji";
+        if (item.lex.kind === "phrase") return dir === "es-phrase";
+        if (item.lex.kind === "conj") return dir === "es-conj";
+        if (item.lex.kind === "grammar") return dir === "es-grammar";
+        return false;
+    }
+
+    function parseJsonObject(raw) {
+        if (typeof raw !== "string" || !raw) return {};
+        try {
+            const data = JSON.parse(raw);
+            if (!data || typeof data !== "object" || Array.isArray(data)) return {};
+            return data;
+        } catch (e) { return {}; }
+    }
+
+    function parseJsonArray(raw) {
+        if (typeof raw !== "string" || !raw) return [];
+        try {
+            const data = JSON.parse(raw);
+            return Array.isArray(data) ? data : [];
+        } catch (e) { return []; }
+    }
+
+    function lessonScore(row) {
+        if (!row || typeof row !== "object" || Array.isArray(row)) return null;
+        const best = Number(row.best);
+        const last = Number(row.last);
+        const passed = row.passed === true;
+        if (!passed && !(best > 0) && !(last > 0)) return null;
+        return {
+            passed: passed,
+            best: Number.isFinite(best) && best > 0 ? Math.min(100, Math.floor(best)) : 0,
+            last: Number.isFinite(last) && last > 0 ? Math.min(100, Math.floor(last)) : 0
+        };
+    }
+
+    function mergeLessonMaps(localRaw, backupRaw) {
+        const local = parseJsonObject(localRaw);
+        const backup = parseJsonObject(backupRaw);
+        const ids = Object.keys(local);
+        Object.keys(backup).forEach(function (id) {
+            if (ids.indexOf(id) === -1) ids.push(id);
+        });
+        const out = {};
+        ids.forEach(function (id) {
+            if (!/^[a-z0-9-]{1,80}$/.test(id)) return;
+            const here = lessonScore(local[id]);
+            const there = lessonScore(backup[id]);
+            if (!here && !there) return;
+            if (here && !there) { out[id] = here; return; }
+            if (there && !here) { out[id] = there; return; }
+            out[id] = {
+                passed: here.passed || there.passed,
+                best: Math.max(here.best, there.best),
+                last: here.last || there.last
+            };
+        });
+        return JSON.stringify(out);
+    }
+
+    function mergeSeenMaps(localRaw, backupRaw) {
+        const local = parseJsonObject(localRaw);
+        const backup = parseJsonObject(backupRaw);
+        const keys = Object.keys(local);
+        Object.keys(backup).forEach(function (key) {
+            if (keys.indexOf(key) === -1) keys.push(key);
+        });
+        const out = {};
+        keys.forEach(function (key) {
+            const here = Array.isArray(local[key]) ? local[key] : null;
+            const there = Array.isArray(backup[key]) ? backup[key] : null;
+            if (!here && !there) return;
+            const pick = !here ? there : !there ? here : ((Number(there[0]) || 0) > (Number(here[0]) || 0) ? there : here);
+            out[key] = [Number(pick[0]) || 0, pick[1] ? 1 : 0];
+        });
+        return JSON.stringify(out);
+    }
+
+    function mergeMissLists(localRaw, backupRaw) {
+        const out = [];
+        const seen = new Set();
+        parseJsonArray(localRaw).concat(parseJsonArray(backupRaw)).forEach(function (id) {
+            if (typeof id !== "string" || !id || id.length > 160 || seen.has(id) || out.length >= 80) return;
+            seen.add(id);
+            out.push(id);
+        });
+        return JSON.stringify(out);
+    }
+
+    // Combina una copia con lo de este dispositivo. Una lección superada no se borra.
+    function mergeBackup(localKeys, backupKeys) {
+        const local = takeBackupKeys(localKeys || {}) || {};
+        const incoming = takeBackupKeys(backupKeys || {});
+        if (!incoming || !Object.keys(incoming).length) return null;
+        const out = Object.assign({}, local);
+        Object.keys(incoming).forEach(function (name) {
+            if (name === "lessons" || name.indexOf("lessons.") === 0) {
+                out[name] = mergeLessonMaps(local[name], incoming[name]);
+            } else if (name.indexOf("seen.") === 0) {
+                out[name] = mergeSeenMaps(local[name], incoming[name]);
+            } else if (name.indexOf("miss.") === 0) {
+                out[name] = mergeMissLists(local[name], incoming[name]);
+            } else if (!local[name]) {
+                out[name] = incoming[name];
+            }
+        });
+        return out;
+    }
+
+    function backupChatText(summary) {
+        return clipCodePoints(oneLine("Copia de NihongoDojo. " + backupLine(summary) + " Ábrela en la versión nueva con Restaurar copia."), 500);
+    }
+
+    function backupFileName(iso) {
+        const day = String(iso || "").slice(0, 10);
+        return /^\d{4}-\d{2}-\d{2}$/.test(day) ? "nihongodojo-copia-" + day + ".json" : "nihongodojo-copia.json";
+    }
+
+    // --- SRS v2 determinista (WexDC) — ver docs/ALGORITMO_SRS.md ---
+    // Re-exportado aquí para no romper imports existentes; la lógica vive en srs.js si está cargado.
+    let SRS = null;
+    if (root.NihongoDojoSRS) SRS = root.NihongoDojoSRS;
+    else if (typeof require !== 'undefined') {
+        try { SRS = require('./srs.js'); root.NihongoDojoSRS = SRS; } catch (e) { SRS = null; }
+    }
+    function srsNext(state, quality, nowMs) {
+        if (SRS && SRS.srsNext) return SRS.srsNext(state, quality, nowMs);
+        // Fallback mínimo si srs.js no está: delega a lógica inline
+        const now = typeof nowMs === 'number' ? nowMs : Date.now();
+        let ease = typeof state.ease === 'number' ? state.ease : 2.5;
+        let interval = typeof state.interval === 'number' ? state.interval : 0;
+        let reps = typeof state.reps === 'number' ? state.reps : 0;
+        if (quality === 1) return { ease: Math.max(1.3, ease-0.2), interval: 0, reps: 0, due: now, lastSeen: now };
+        if (reps===0) interval=1; else if (reps===1) interval=3; else {
+            const f = quality===3?1.2:quality===4?ease:ease*1.3;
+            interval = Math.round(interval*f);
+        }
+        reps+=1;
+        ease = Math.max(1.3, Math.min(2.8, ease + (0.1 - (5-quality)*(0.08+(5-quality)*0.02))));
+        if (quality===3) interval=Math.max(1,interval);
+        if (quality===4) interval=Math.max(3,interval);
+        if (quality===5) interval=Math.max(4,interval);
+        if (interval>180) interval=180;
+        return { ease:ease, interval:interval, reps:reps, due: now+interval*86400000, lastSeen: now };
+    }
+    function srsInit(){ return SRS && SRS.srsInit ? SRS.srsInit() : {ease:2.5, interval:0, reps:0, due:0, lastSeen:0}; }
+    function fromLegacySeen(t, ok){ return SRS && SRS.fromLegacySeen ? SRS.fromLegacySeen(t, ok) : (ok ? {ease:2.5, interval:3, reps:1, due:t+3*86400000, lastSeen:t} : {ease:2.5, interval:0, reps:0, due:t, lastSeen:t}); }
+    function planReviewV2(allItems, now, opts){
+        if (SRS && SRS.planReviewV2) return SRS.planReviewV2(allItems, now, opts);
+        // Fallback interleaved simple
+        const limit = opts&&opts.limit>0?Math.floor(opts.limit):20;
+        const n = typeof now==='number'?now:Date.now();
+        const cand = (Array.isArray(allItems)?allItems:[]).filter(function(it){return it && typeof it.due==='number' && it.due<=n;}).sort(function(a,b){return a.due-b.due;});
+        const byPr={}; cand.forEach(function(it){(byPr[it.practice]=byPr[it.practice]||[]).push(it);});
+        const prs=Object.keys(byPr), out=[], used=new Set(); let more=true;
+        while(more && out.length<limit){ more=false; prs.forEach(function(p){ const lst=byPr[p]; if(!lst.length||out.length>=limit) return; const c=lst.shift(); const k=p+'\n'+c.id; if(used.has(k)) return; used.add(k); out.push({id:c.id, practice:p, reason:c.interval===0?'miss':'due', due:c.due}); more=true;});}
+        if(out.length<limit) cand.forEach(function(it){ if(out.length>=limit) return; const k=it.practice+'\n'+it.id; if(used.has(k)) return; used.add(k); out.push({id:it.id, practice:it.practice, reason:it.interval===0?'miss':'due', due:it.due});});
+        return out.slice(0,limit);
     }
 
     // API pública
     const api = {
         MODES,
         DEFAULT_MODE,
+        DIRECTIONS,
+        DEFAULT_DIRECTION,
         KANA_DB,
         HIRAGANA_BASIC_ROWS,
         KATAKANA_BASIC_ROWS,
@@ -321,10 +826,33 @@
         getYoonRowsByType,
         getFilteredKana,
         shuffle,
-        buildQueue
+        buildQueue,
+        buildChoices,
+        ensureChoices,
+        checkChoice,
+        readingCollision,
+        findKana,
+        clipCodePoints,
+        buildShareText,
+        buildLessonShareText,
+        planReview,
+        parseExamSnapshot,
+        soundRevealsAnswer,
+        buildBackup,
+        parseBackup,
+        mergeBackup,
+        backupSummary,
+        backupLine,
+        backupChatText,
+        backupFileName,
+        // WexDC SRS v2
+        srsNext,
+        srsInit,
+        fromLegacySeen,
+        planReviewV2
     };
 
-    root.KanaDojoCore = api;
+    root.NihongoDojoCore = api;
     if (typeof module !== "undefined" && module.exports) {
         module.exports = api;
     }

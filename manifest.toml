@@ -1,9 +1,8 @@
-# Manifest webxdc (Delta Chat / ArcaneChat)
-# CORRECCIÓN (BAJO-2): el original solo tenía `name` (sin versión ni
-# descripción). Campos admitidos por la especificación webxdc.
-# v1.2.1: auditoría #2 — verificación con evidencia de los fixes v1.2.0
-# y 11 correcciones nuevas (2 MEDIO de accesibilidad/IME, 5 contraste
-# WCAG AA y 4 BAJO de robustez). Ver informe de auditoría adjunto.
-name = "Kana Dojo"
-version = "1.2.1"
-description = "Quiz sin conexión para practicar hiragana, katakana, rendaku (濁音・半濁音) y yōon (拗音), con modo de romanización estricto o flexible y opción de compartir la calificación en el chat."
+# Manifest webxdc (Delta Chat / ArcaneChat).
+# La especificación lee `name` y, si está, `source_code_url`.
+# `version` y `description` son metadatos de este repositorio:
+# un cliente puede ignorarlos.
+name = "NihongoDojo"
+source_code_url = "https://github.com/nelsondev2/NihongoDojo"
+version = "1.14.0-wexdc"
+description = "WexDC 2.0 · SRS determinista + lecciones 400+ palabras + audio neural · Camino comunitario N5 a N1, con frases, escucha, lectura y copia de progreso."

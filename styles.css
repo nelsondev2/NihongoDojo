@@ -1,5 +1,5 @@
 /* ============================================================
- * Kana Dojo — styles.css
+ * NihongoDojo — styles.css
  * Estilos extraídos del index.html original con correcciones:
  *  - MEDIO-6: min-height con fallback 100dvh (iOS/Safari móvil).
  *  - ALTO-4: contraste AA en .small-note, tamaño mínimo de letra,
@@ -26,6 +26,10 @@ body {
     font-family: 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
     margin: 0;
     padding: 16px;
+    padding-top: max(16px, env(safe-area-inset-top));
+    padding-right: max(16px, env(safe-area-inset-right));
+    padding-bottom: max(16px, env(safe-area-inset-bottom));
+    padding-left: max(16px, env(safe-area-inset-left));
     min-height: 100vh;
     min-height: 100dvh; /* MEDIO-6: corrige recorte con barra de direcciones móvil */
     display: flex;
@@ -81,7 +85,112 @@ body {
 }
 
 .selector-group {
-    margin-bottom: 20px;
+    margin-bottom: 12px;
+}
+
+.home-bar {
+    margin-bottom: 14px;
+}
+
+.level-row,
+.home-switch,
+.practice-grid {
+    display: grid;
+    gap: 8px;
+}
+
+.level-row {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
+.home-switch,
+.practice-grid {
+    grid-template-columns: 1fr 1fr;
+}
+
+.level-row .type-btn,
+.home-switch .type-btn,
+.practice-grid .type-btn,
+.choice-list .type-btn {
+    border-radius: 14px;
+    background: #f4f6f8;
+    border: 1px solid transparent;
+}
+
+.home-switch {
+    margin-top: 12px;
+}
+
+.home-switch .type-btn {
+    min-height: 48px;
+}
+
+.home-switch .type-btn.active {
+    background: #d32f2f;
+    color: white;
+    border-color: #b71c1c;
+    box-shadow: none;
+}
+
+.choice-list {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.choice-list .type-btn {
+    flex: none;
+    width: 100%;
+    text-align: left;
+    padding-left: 14px;
+}
+
+#pathContinueBtn,
+#pathListToggle,
+#reviewDueBtn,
+#startExamBtn {
+    white-space: normal;
+    line-height: 1.3;
+}
+
+.exam-dock {
+    position: sticky;
+    bottom: 0;
+    z-index: 2;
+    margin: 8px -20px -14px;
+    padding: 10px 20px calc(12px + env(safe-area-inset-bottom));
+    background: #ffffff;
+    border-top: 1px solid #f0e4e4;
+}
+
+#kanaBulkActions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.backup-fold {
+    margin-top: 16px;
+}
+
+.fold {
+    margin: 4px 0 12px;
+    border: 1px solid #e7ecef;
+    border-radius: 16px;
+    background: #fafbfc;
+    padding: 0 12px 4px;
+}
+
+.fold summary {
+    cursor: pointer;
+    font-weight: 700;
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+    color: #2c3e44;
+}
+
+.fold[open] summary {
+    margin-bottom: 8px;
 }
 
 .selector-label {
@@ -103,9 +212,163 @@ body {
     flex-wrap: wrap;
 }
 
+#wordPanel .kana-type .type-btn,
+#kanjiPanel .kana-type .type-btn,
+#phrasePanel .kana-type .type-btn,
+#conjPanel .kana-type .type-btn,
+#grammarPanel .kana-type .type-btn {
+    flex: 1 1 132px;
+}
+
+.options-panel.studying > :not(#resumePanel):not(#lessonView) {
+    display: none;
+}
+
+.path-list {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-top: 12px;
+    max-height: 60vh;
+    overflow: auto;
+}
+
+.path-stage-head {
+    margin: 8px 0 0;
+    font-size: 0.85rem;
+    color: #5c6b73;
+}
+
+.path-card {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: white;
+    border: 1px solid #ffe0e0;
+    border-radius: 16px;
+    padding: 8px 12px;
+    min-height: 48px;
+    font-family: inherit;
+    text-align: left;
+    cursor: pointer;
+    color: inherit;
+}
+
+.path-card.path-passed {
+    border-color: #a5d6a7;
+    background: #f1f8e9;
+}
+
+.path-card-head {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    min-width: 0;
+    flex: 1;
+}
+
+.path-index {
+    flex: 0 0 auto;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: #d32f2f;
+    color: white;
+    font-weight: 700;
+    font-size: 0.85rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.path-passed .path-index {
+    background: #2e7d32;
+}
+
+.path-stage {
+    margin: 0;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #7a8a93;
+}
+
+.path-title {
+    margin: 0;
+    font-size: 0.98rem;
+    color: #2c3e44;
+    font-weight: 700;
+}
+
+.path-status {
+    margin: 0;
+    color: #2e7d32;
+    font-size: 0.85rem;
+    font-weight: 700;
+    flex: 0 0 auto;
+}
+
+.path-status-last {
+    color: #8c3d00;
+}
+
+.lesson-view {
+    background: #fefcf5;
+    border-radius: 24px;
+    padding: 4px 2px 8px;
+}
+
+.lesson-title {
+    margin: 8px 0 12px;
+    color: #d32f2f;
+    font-size: 1.45rem;
+}
+
+.teach-block {
+    background: white;
+    border-radius: 18px;
+    padding: 12px 14px;
+    margin-bottom: 10px;
+    border: 1px solid #f3e6d8;
+}
+
+.teach-block h3 {
+    margin: 0 0 6px;
+    font-size: 1rem;
+    color: #2c3e44;
+}
+
+.teach-block p {
+    margin: 0 0 8px;
+    color: #2c3e44;
+}
+
+.teach-examples {
+    margin: 0;
+    padding-left: 1.1rem;
+}
+
+.teach-examples li {
+    margin: 4px 0;
+}
+
+.teach-jp {
+    font-weight: 700;
+}
+
+.teach-kana,
+.teach-es {
+    color: #4a5b66;
+}
+
 .type-btn {
     flex: 1;
     text-align: center;
+    min-height: 44px;
     padding: 10px 6px;
     border-radius: 40px;
     background: transparent;
@@ -214,6 +477,22 @@ body {
     flex-wrap: wrap;
 }
 
+.backup-bar {
+    margin-top: 14px;
+    padding-top: 10px;
+    border-top: 1px solid #f0e4e4;
+}
+
+.backup-bar .action-buttons {
+    margin: 8px 0 4px;
+}
+
+.backup-bar .btn {
+    flex: 1 1 140px;
+    white-space: normal;
+    line-height: 1.3;
+}
+
 .btn {
     background: #2c3e44;
     border: none;
@@ -251,6 +530,41 @@ body {
     margin-top: 8px;
 }
 
+.btn:disabled {
+    opacity: 0.55;
+    cursor: default;
+    transform: none;
+    box-shadow: none;
+}
+
+/* Texto que solo deben oír los lectores de pantalla. No usar
+   display:none: si no, aria-live no se anuncia. */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+.resume-panel {
+    background: #e8f5e9;
+    border: 1px solid #2e7d32;
+    border-radius: 24px;
+    padding: 12px 14px;
+    margin-bottom: 16px;
+}
+
+.resume-panel p {
+    margin: 0 0 8px;
+    font-weight: 600;
+    color: #1b5e20;
+}
+
 .quiz-card {
     padding: 20px 24px 28px;
     background: #fefcf5;
@@ -265,11 +579,187 @@ body {
     font-weight: 700;
     font-family: "Noto Sans CJK JP", "Hiragino Kaku Gothic Pro", "Meiryo", "Noto Sans SC", sans-serif;
     box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.06), 0 10px 20px -5px rgba(0, 0, 0, 0.1);
-    margin-bottom: 24px;
     color: #1f2a2e;
     border: 1px solid #ffefcf;
     min-height: 96px;
     line-height: 1.2;
+    margin-bottom: 12px;
+}
+
+.kana-display.prompt-romaji {
+    font-family: ui-monospace, "SFMono-Regular", Consolas, monospace;
+    font-size: 3.4rem;
+    letter-spacing: 0.04em;
+}
+
+.kana-display.prompt-es {
+    font-family: inherit;
+    font-size: 1.85rem;
+    letter-spacing: 0;
+    line-height: 1.35;
+}
+
+.kana-display.prompt-long {
+    font-size: 2.6rem;
+}
+
+.kana-display.prompt-xlong {
+    font-size: 1.55rem;
+    letter-spacing: 0;
+}
+
+.kana-display.prompt-listen {
+    font-size: 3rem;
+}
+
+.passage-box {
+    background: white;
+    border: 1px solid #ffefcf;
+    border-radius: 24px;
+    padding: 14px 16px;
+    margin-bottom: 12px;
+}
+
+.passage-title {
+    font-weight: 700;
+    margin: 0 0 6px;
+}
+
+.passage-jp {
+    font-family: "Noto Sans CJK JP", "Hiragino Kaku Gothic Pro", "Meiryo", "Noto Sans SC", sans-serif;
+    font-size: 1.15rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.passage-kana {
+    color: #4a5b66;
+    font-size: 0.85rem;
+    line-height: 1.45;
+    margin: 6px 0 0;
+}
+
+.kana-display.prompt-sentence {
+    font-family: "Noto Sans CJK JP", "Hiragino Kaku Gothic Pro", "Meiryo", "Noto Sans SC", sans-serif;
+    font-size: 1.45rem;
+    line-height: 1.45;
+    letter-spacing: 0;
+}
+
+.listen-row {
+    text-align: center;
+    margin: 0 0 8px;
+}
+
+.listen-btn {
+    flex: none;
+    min-width: 148px;
+    width: auto;
+}
+
+.choice-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin: 0 0 16px;
+}
+
+.choice-grid.choice-stack {
+    grid-template-columns: 1fr;
+}
+
+.choice-btn {
+    position: relative;
+    appearance: none;
+    -webkit-appearance: none;
+    min-height: 76px;
+    border-radius: 28px;
+    border: 2px solid #c5d0d6;
+    background: #ffffff;
+    color: #1f2a2e;
+    font-size: 2.4rem;
+    font-weight: 700;
+    font-family: "Noto Sans CJK JP", "Hiragino Kaku Gothic Pro", "Meiryo", "Noto Sans SC", sans-serif;
+    cursor: pointer;
+    line-height: 1.1;
+}
+
+.choice-key {
+    position: absolute;
+    top: 8px;
+    left: 12px;
+    font-family: system-ui, sans-serif;
+    font-size: 0.72rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #3e4c54;
+}
+
+.choice-btn.choice-ok {
+    background: #e8f5e9;
+    border-color: #2e7d32;
+    color: #1b5e20;
+}
+
+.choice-btn.choice-bad {
+    background: #fdecea;
+    border-color: #9b1b1b;
+    color: #9b1b1b;
+}
+
+.choice-btn.choice-lex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    font-family: inherit;
+    font-size: 1.05rem;
+    line-height: 1.25;
+    white-space: normal;
+    padding: 10px 12px;
+}
+
+.choice-btn.choice-lex[lang="ja"] {
+    font-family: "Noto Sans CJK JP", "Hiragino Kaku Gothic Pro", "Meiryo", "Noto Sans SC", sans-serif;
+    font-size: 1.7rem;
+}
+
+.choice-btn.choice-compact {
+    font-size: 1rem;
+}
+
+.choice-btn.choice-lex.choice-compact[lang="ja"] {
+    font-size: 1.15rem;
+}
+
+.choice-btn.choice-lex.choice-sentence,
+.choice-btn.choice-lex.choice-sentence[lang="ja"] {
+    font-size: 1.05rem;
+    line-height: 1.35;
+}
+
+.choice-grid.choice-stack .choice-btn.choice-lex {
+    align-items: flex-start;
+    text-align: left;
+    padding: 12px 14px 12px 36px;
+    min-height: 64px;
+}
+
+.choice-sub {
+    font-family: "Noto Sans CJK JP", "Hiragino Kaku Gothic Pro", "Meiryo", "Noto Sans SC", sans-serif;
+    font-size: 0.85rem;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #3e4c54;
+}
+
+.kana-hint {
+    text-align: center;
+    color: #3e4c54;
+    font-size: 0.85rem;
+    line-height: 1.45;
+    margin: 0 0 16px;
 }
 
 .answer-input {
@@ -290,9 +780,12 @@ body {
     box-shadow: 0 0 0 3px rgba(211, 47, 47, 0.2);
 }
 
-.answer-input:disabled {
+.answer-input:disabled,
+.answer-input[readonly] {
     background: #f6f7f8;
-    color: #9aa7ad;
+    /* El texto tiene que seguir leyéndose: es la respuesta que se compara
+       con la corrección. #1f2a2e sobre #f6f7f8 queda muy por encima de 4.5:1. */
+    color: #1f2a2e;
 }
 
 .feedback {
@@ -301,12 +794,18 @@ body {
     font-weight: bold;
     font-size: 1rem;
     min-height: 48px;
+    color: #1f2a2e;
 }
+
+.feedback-ok { color: #1b5e20; }
+.feedback-bad { color: #9b1b1b; }
+.feedback-skip { color: #7a4f00; }
 
 .quiz-actions {
     display: flex;
     gap: 10px;
     margin-bottom: 10px;
+    flex-wrap: wrap;
 }
 
 .progress-info {
@@ -371,11 +870,38 @@ body {
 }
 
 .results-list {
-    max-height: 240px;
+    max-height: 50vh;
     overflow-y: auto;
     text-align: left;
     font-size: 0.8rem;
     margin: 15px 0;
+    list-style: none;
+    padding-left: 0;
+}
+
+.results-list li {
+    padding: 4px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.exit-dialog {
+    margin-top: 14px;
+    background: #ffffff;
+    border: 1px solid #ffcc80;
+    border-radius: 24px;
+    padding: 16px;
+    text-align: center;
+}
+
+.exit-dialog-title {
+    font-weight: 700;
+    margin: 0 0 8px;
+    color: #2c3e44;
+}
+
+.exit-dialog p {
+    margin: 0 0 12px;
+    color: #2c3e44;
 }
 
 /* ALTO-4: indicador de foco visible y consistente para teclado */
@@ -398,7 +924,25 @@ body {
 
 @media (max-width: 500px) {
     .kana-display { font-size: 3.8rem; padding: 24px 12px; }
+    .kana-display.prompt-romaji { font-size: 2.6rem; }
+    .kana-display.prompt-es { font-size: 1.45rem; }
+    .kana-display.prompt-xlong { font-size: 1.25rem; }
+    .kana-display.prompt-sentence { font-size: 1.15rem; }
+    .choice-btn { font-size: 2rem; min-height: 64px; }
     .fila-chip { padding: 5px 12px; font-size: 0.75rem; }
     .type-btn { font-size: 0.75rem; }
     .quiz-card { padding: 16px 14px 22px; }
 }
+
+/* WexDC 2.0 — Lecciones ricas (6 secciones, active recall, listening puro) */
+.teach-gancho { border-left: 4px solid #d32f2f; background: #fff5f5; }
+.teach-explicacion { border-left: 4px solid #1565c0; background: #f0f6ff; }
+.teach-ejemplos { border-left: 4px solid #2e7d32; }
+.teach-practica { border-left: 4px solid #6a1b9a; background: #faf4ff; }
+.teach-errores_comunes { border-left: 4px solid #ef6c00; background: #fff8e1; }
+.teach-cierre { border-left: 4px solid #00796b; background: #e0f2f1; }
+.teach-romaji { color: #6a7a86; font-size: 0.85rem; font-style: italic; }
+.teach-speak { font-size: 0.7rem; padding: 4px 8px; min-height: auto; }
+.practice-badge { display: inline-block; background: #ede7f6; color: #4a148c; font-size: 0.7rem; font-weight: 700; padding: 2px 6px; border-radius: 8px; }
+.teach-practice li { margin: 8px 0; line-height: 1.5; }
+.lesson-view.wexdc-rich .lesson-title { font-size: 1.25rem; }
