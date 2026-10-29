@@ -2,6167 +2,11 @@
 "use strict";
 var LESSONS = [
   {
-    "id": "l-imabi-009",
-    "title": "IMABI 9: Sustantivos y pronombres",
-    "stage": "IMABI · Beginners I",
-    "minutes": 7,
-    "level": "imabi",
-    "teach": [
-      {
-        "heading": "IMABI 9: Sustantivos y pronombres",
-        "text": "Los sustantivos no cambian por género ni número. 私 (yo), あなた (tú), 本 (libro). El plural se sugiere con contexto o con たち.",
-        "examples": [
-          {
-            "jp": "私は学生です。",
-            "kana": "わたしはがくせいです。",
-            "es": "Soy estudiante."
-          },
-          {
-            "jp": "あれは本です。",
-            "kana": "あれはほんです。",
-            "es": "Aquello es un libro."
-          },
-          {
-            "jp": "私たちは友達です。",
-            "kana": "わたしたちはともだちです。",
-            "es": "Nosotros somos amigos."
-          }
-        ]
-      }
-    ],
-    "quiz": {
-      "practice": "grammar",
-      "direction": "grammar-es",
-      "ids": [
-        "g-desu",
-        "g-desu-1",
-        "g-desu-2"
-      ]
-    },
-    "secciones": [
-      {
-        "tipo": "gancho",
-        "texto": "Estás en una izakaya y el camarero te dice 「何名様ですか」 (¿cuántas personas?). No sabes si te pregunta a ti, a tu grupo o a todos. Necesitas pronombres y sustantivos claros."
-      },
-      {
-        "tipo": "explicacion",
-        "texto": "Los sustantivos en japonés son simples: no tienen género (no hay el/la) y casi nunca cambian por número. 本 es libro o libros según contexto. Si necesitas pluralizar persona, existe ～たち: 私たち (nosotros), 学生たち (los estudiantes), pero no lo uses para cosas: 本たち es raro.\n\nObjetivo: presentar personas y cosas con 私/あなた/あれ/これ sin confundir singular/plural.\n\n🧩 Fórmula: 【Sustantivo + は + Descripción + です】 → 私は学生です / あれは本です\n\nPiensa en bloques: tema + は + qué decimos de él + です cortés. El sustantivo nunca cambia, solo el contexto dice si es uno o muchos.\n\n👣 Cómo construirlo (3 pasos):\n1) Elige el sustantivo: 私 (yo), あなた (tú), 彼 (él), これ (esto), あれ (aquello)\n2) Márcalo con は si es tema: 私は\n3) Cierra con です para cortesía, o だ para plano\n\n⚖️ Tabla para no confundirte:\n| Forma | Para qué | Ejemplo |\n|---|---|---|\n| 私 | yo | 私は学生です |\n| 私たち | nosotros (plural humano) | 私たちは友達です |\n| あれ/これ | aquello/esto | あれは本です |\n| 学生たち | los estudiantes (plural) | 学生たちは教室にいます |\n\nRecuerda: 私たち vs 私達 (ambos válidos, たち en hiragana es más común).\n\n💡 Ejemplos desglosados (palabra por palabra):\n1) 私は学生です。 (わたしはがくせいです。) — “Soy estudiante.” → 私(tema) + は + 学生です。\n   Por qué así: sustantivo como tema con は, cierre cortés です\n2) あれは本です。 (あれはほんです。) — “Aquello es un libro.” → あれ(tema) + は + 本です。\n   Por qué así: demostrativo + は + descripción\n3) 私たちは友達です。 (わたしたちはともだちです。) — “Nosotros somos amigos.” → 私たち(tema plural) + は + 友達です。\n\n🔑 Mini-resumen:\n✅ Si solo recuerdas 3 cosas hoy:\n□ Sustantivo no cambia por número (本 = libro/libros)\n□ Persona en plural usa ～たち (私たち), cosa no\n□ Tema siempre con は, cierre con です cortés\n\n❌ Errores del 90%: decir 本たち para libros (suena a personificar). Di 本 o 本がたくさん. No uses 私達 con kanji en examen básico: usa hiragana たち.\n\n💬 Truco offline: tapa el japonés, lee “Soy estudiante”, produce 私は学生です en voz alta. Active recall > releer.\n\n¿Por qué 5 ítems nuevos máx? Memoria 7±2. Domina 2 hoy, resto al SRS. Mezcla sustantivos + escucha + lectura.",
-        "palabras": 355
-      },
-      {
-        "tipo": "ejemplos",
-        "items": [
-          {
-            "jp": "私は学生です。",
-            "furigana": "わたしはがくせいです。",
-            "romaji": "watashi wa gakusei desu.",
-            "es": "Soy estudiante.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "あれは本です。",
-            "furigana": "あれはほんです。",
-            "romaji": "are wa hon desu.",
-            "es": "Aquello es un libro.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "私たちは友達です。",
-            "furigana": "わたしたちはともだちです。",
-            "romaji": "watashitachi wa tomodachi desu.",
-            "es": "Nosotros somos amigos.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          }
-        ]
-      },
-      {
-        "tipo": "practica",
-        "ejercicios": [
-          {
-            "tipo": "listen_only",
-            "jp": "私は学生です。",
-            "furigana": "わたしはがくせいです。",
-            "es": "Soy estudiante.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha (texto oculto) y elige.",
-            "respuesta": "私は学生です。 — Soy estudiante."
-          },
-          {
-            "tipo": "listen_only",
-            "jp": "あれは本です。",
-            "furigana": "あれはほんです。",
-            "es": "Aquello es un libro.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha y elige.",
-            "respuesta": "あれは本です。 — Aquello es un libro."
-          },
-          {
-            "tipo": "shadowing",
-            "jp": "私は学生です。",
-            "furigana": "わたしはがくせいです。",
-            "es": "Soy estudiante.",
-            "pausa_ms": 3000,
-            "rate": 0.85,
-            "prompt": "Escucha, pausa 3s, repite."
-          },
-          {
-            "tipo": "produccion",
-            "prompt": "Produce en japonés: 'Nosotros somos amigos.'",
-            "respuesta": "私たちは友達です。",
-            "jp": "私たちは友達です。",
-            "mostrar_texto_antes": false,
-            "rate": 0.8
-          }
-        ]
-      },
-      {
-        "tipo": "errores_comunes",
-        "texto": "Error típico: confundir 私たち (nosotros) con 私達 en kanji raro. En N5 usa hiragana. Y no pluralices cosas con たち: 本たち suena a que los libros son personas."
-      },
-      {
-        "tipo": "cierre",
-        "texto": "Hoy: 本 no cambia por número, persona plural con たち. Próxima: Copula plain/plite. Di 3 veces: 私たちは友達です。"
-      }
-    ],
-    "sections": [
-      {
-        "tipo": "gancho",
-        "texto": "Estás en una izakaya y el camarero te dice 「何名様ですか」 (¿cuántas personas?). No sabes si te pregunta a ti, a tu grupo o a todos. Necesitas pronombres y sustantivos claros."
-      },
-      {
-        "tipo": "explicacion",
-        "texto": "Los sustantivos en japonés son simples: no tienen género (no hay el/la) y casi nunca cambian por número. 本 es libro o libros según contexto. Si necesitas pluralizar persona, existe ～たち: 私たち (nosotros), 学生たち (los estudiantes), pero no lo uses para cosas: 本たち es raro.\n\nObjetivo: presentar personas y cosas con 私/あなた/あれ/これ sin confundir singular/plural.\n\n🧩 Fórmula: 【Sustantivo + は + Descripción + です】 → 私は学生です / あれは本です\n\nPiensa en bloques: tema + は + qué decimos de él + です cortés. El sustantivo nunca cambia, solo el contexto dice si es uno o muchos.\n\n👣 Cómo construirlo (3 pasos):\n1) Elige el sustantivo: 私 (yo), あなた (tú), 彼 (él), これ (esto), あれ (aquello)\n2) Márcalo con は si es tema: 私は\n3) Cierra con です para cortesía, o だ para plano\n\n⚖️ Tabla para no confundirte:\n| Forma | Para qué | Ejemplo |\n|---|---|---|\n| 私 | yo | 私は学生です |\n| 私たち | nosotros (plural humano) | 私たちは友達です |\n| あれ/これ | aquello/esto | あれは本です |\n| 学生たち | los estudiantes (plural) | 学生たちは教室にいます |\n\nRecuerda: 私たち vs 私達 (ambos válidos, たち en hiragana es más común).\n\n💡 Ejemplos desglosados (palabra por palabra):\n1) 私は学生です。 (わたしはがくせいです。) — “Soy estudiante.” → 私(tema) + は + 学生です。\n   Por qué así: sustantivo como tema con は, cierre cortés です\n2) あれは本です。 (あれはほんです。) — “Aquello es un libro.” → あれ(tema) + は + 本です。\n   Por qué así: demostrativo + は + descripción\n3) 私たちは友達です。 (わたしたちはともだちです。) — “Nosotros somos amigos.” → 私たち(tema plural) + は + 友達です。\n\n🔑 Mini-resumen:\n✅ Si solo recuerdas 3 cosas hoy:\n□ Sustantivo no cambia por número (本 = libro/libros)\n□ Persona en plural usa ～たち (私たち), cosa no\n□ Tema siempre con は, cierre con です cortés\n\n❌ Errores del 90%: decir 本たち para libros (suena a personificar). Di 本 o 本がたくさん. No uses 私達 con kanji en examen básico: usa hiragana たち.\n\n💬 Truco offline: tapa el japonés, lee “Soy estudiante”, produce 私は学生です en voz alta. Active recall > releer.\n\n¿Por qué 5 ítems nuevos máx? Memoria 7±2. Domina 2 hoy, resto al SRS. Mezcla sustantivos + escucha + lectura.",
-        "palabras": 355
-      },
-      {
-        "tipo": "ejemplos",
-        "items": [
-          {
-            "jp": "私は学生です。",
-            "furigana": "わたしはがくせいです。",
-            "romaji": "watashi wa gakusei desu.",
-            "es": "Soy estudiante.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "あれは本です。",
-            "furigana": "あれはほんです。",
-            "romaji": "are wa hon desu.",
-            "es": "Aquello es un libro.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "私たちは友達です。",
-            "furigana": "わたしたちはともだちです。",
-            "romaji": "watashitachi wa tomodachi desu.",
-            "es": "Nosotros somos amigos.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          }
-        ]
-      },
-      {
-        "tipo": "practica",
-        "ejercicios": [
-          {
-            "tipo": "listen_only",
-            "jp": "私は学生です。",
-            "furigana": "わたしはがくせいです。",
-            "es": "Soy estudiante.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha (texto oculto) y elige.",
-            "respuesta": "私は学生です。 — Soy estudiante."
-          },
-          {
-            "tipo": "listen_only",
-            "jp": "あれは本です。",
-            "furigana": "あれはほんです。",
-            "es": "Aquello es un libro.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha y elige.",
-            "respuesta": "あれは本です。 — Aquello es un libro."
-          },
-          {
-            "tipo": "shadowing",
-            "jp": "私は学生です。",
-            "furigana": "わたしはがくせいです。",
-            "es": "Soy estudiante.",
-            "pausa_ms": 3000,
-            "rate": 0.85,
-            "prompt": "Escucha, pausa 3s, repite."
-          },
-          {
-            "tipo": "produccion",
-            "prompt": "Produce en japonés: 'Nosotros somos amigos.'",
-            "respuesta": "私たちは友達です。",
-            "jp": "私たちは友達です。",
-            "mostrar_texto_antes": false,
-            "rate": 0.8
-          }
-        ]
-      },
-      {
-        "tipo": "errores_comunes",
-        "texto": "Error típico: confundir 私たち (nosotros) con 私達 en kanji raro. En N5 usa hiragana. Y no pluralices cosas con たち: 本たち suena a que los libros son personas."
-      },
-      {
-        "tipo": "cierre",
-        "texto": "Hoy: 本 no cambia por número, persona plural con たち. Próxima: Copula plain/plite. Di 3 veces: 私たちは友達です。"
-      }
-    ],
-    "wexdc": true,
-    "clarity": 3,
-    "autoevaluacion": {
-      "explica_no_informa": true,
-      "palabras_explicacion": 355,
-      "listening_puro_incluido": true,
-      "listening_puro_cantidad": 2,
-      "confianza": 9
-    }
-  },
-  {
-    "id": "l-imabi-014",
-    "title": "IMABI 14: Adjetivos i — 高い, 安い",
-    "stage": "IMABI · Beginners I",
-    "minutes": 8,
-    "level": "imabi",
-    "teach": [
-      {
-        "heading": "IMABI 14: Adjetivos i — 高い, 安い",
-        "text": "Los adjetivos-i terminan en い y se conjugan como verbos: 高い (caro/alto), 安い (barato), 暑い (caluroso). No necesitan です para cerrar, pero lo añaden para cortesía.",
-        "examples": [
-          {
-            "jp": "今日は暑いです。",
-            "kana": "きょうはあついです。",
-            "es": "Hoy hace calor."
-          },
-          {
-            "jp": "この本は安いです。",
-            "kana": "このほんはやすいです。",
-            "es": "Este libro es barato."
-          },
-          {
-            "jp": "富士山は高いです。",
-            "kana": "ふじさんはたかいです。",
-            "es": "El Fuji es alto."
-          }
-        ]
-      }
-    ],
-    "quiz": {
-      "practice": "grammar",
-      "direction": "grammar-es",
-      "ids": [
-        "g-desu",
-        "g-desu-1",
-        "g-desu-2"
-      ]
-    },
-    "secciones": [
-      {
-        "tipo": "gancho",
-        "texto": "Ves dos carteles: 高い (takai) y 安い (yasui). Uno dice 10.000¥, otro 500¥. ¿Cuál es caro? Sin adjetivos no comparas."
-      },
-      {
-        "tipo": "explicacion",
-        "texto": "Los adjetivos-i son palabras que terminan en い y describen por sí solas: 高い (caro/alto), 安い (barato), 暑い (caluroso), 大きい (grande), 小さい (pequeño). Ya traen la idea de “es”, no necesitas です, pero en cortés lo añades: 高いです (es caro, cortés).\n\nObjetivo: describir con i-adj y negar en くない.\n\n🧩 Fórmula: 【Tema は Adjetivo-i (+です cortés)】\nEj: 今日は暑いです / この本は安いです\nNegativo: 暑い → 暑くないです (quitas い, pones くないです)\nPasado: 暑かったです (quitas い, pones かったです)\n\n👣 Cómo construirlo (3 pasos):\n1) Tema + は: 今日は / この本は\n2) Adjetivo-i tal cual para presente: 暑い, 安い\n3) Para cortesía añade です: 暑いです / Para negar: 暑くないです\n\n⚖️ Tabla i-adj:\n| Forma | Regla | Ejemplo |\n|---|---|---|\n| Presente cortés | adj-i + です | 高いです |\n| Negativo cortés | quita い + くないです | 高くないです |\n| Pasado cortés | quita い + かったです | 高かったです |\n| Pasado negativo | quita い + くなかったです | 高くなかったです |\n\n💡 Ejemplos desglosados:\n1) 今日は暑いです。 (きょうはあついです。) — “Hoy hace calor.” → 今日(tema) + は + 暑いです.\n2) この本は安いです。 (このほんはやすいです。) — “Este libro es barato.” → この本(tema) + は + 安いです.\n3) 富士山は高いです。 (ふじさんはたかいです。) — “El Fuji es alto.” → 富士山(tema) + は + 高いです.\n\n🔑 Mini-resumen:\n□ i-adj termina en い, no necesita です pero lo usa en cortés\n□ Negar: quita い + くないです\n□ Pasado: quita い + かったです\n\n❌ Error 90%: confundir きれい (bonito) como i-adj. Parece que termina en い, pero es na-adj: きれいな本, no きれい本. IMABI 15 te lo explica.\n\n💬 Truco: di 暑い→暑くない→暑かった en voz alta 3×. Active recall.\n\n¿Por qué 5 ítems? Domina 2 hoy, resto SRS. Mezcla adjetivos + escucha.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Si dudas entre i-adj y na-adj, abre el diccionario y busca el tag: [adj-i] no lleva な, [adj-na] lleva な antes de nombre y だ/です como predicado. Repite en voz alta marcando la partícula para anclar ritmo. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase.",
-        "palabras": 407
-      },
-      {
-        "tipo": "ejemplos",
-        "items": [
-          {
-            "jp": "今日は暑いです。",
-            "furigana": "きょうはあついです。",
-            "romaji": "kyou wa atsui desu.",
-            "es": "Hoy hace calor.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "この本は安いです。",
-            "furigana": "このほんはやすいです。",
-            "romaji": "kono hon wa yasui desu.",
-            "es": "Este libro es barato.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "富士山は高いです。",
-            "furigana": "ふじさんはたかいです。",
-            "romaji": "fujisan wa takai desu.",
-            "es": "El Fuji es alto.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          }
-        ]
-      },
-      {
-        "tipo": "practica",
-        "ejercicios": [
-          {
-            "tipo": "listen_only",
-            "jp": "今日は暑いです。",
-            "furigana": "きょうはあついです。",
-            "es": "Hoy hace calor.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha y elige.",
-            "respuesta": "今日は暑いです。 — Hoy hace calor."
-          },
-          {
-            "tipo": "listen_only",
-            "jp": "この本は安いです。",
-            "furigana": "このほんはやすいです。",
-            "es": "Este libro es barato.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha y elige.",
-            "respuesta": "この本は安いです。 — Este libro es barato."
-          },
-          {
-            "tipo": "shadowing",
-            "jp": "今日は暑いです。",
-            "furigana": "きょうはあついです。",
-            "es": "Hoy hace calor.",
-            "pausa_ms": 3000,
-            "rate": 0.85,
-            "prompt": "Escucha, pausa 3s, repite."
-          },
-          {
-            "tipo": "produccion",
-            "prompt": "Produce en japonés: 'Este libro es barato.'",
-            "respuesta": "この本は安いです。",
-            "jp": "この本は安いです。",
-            "mostrar_texto_antes": false,
-            "rate": 0.8
-          }
-        ]
-      },
-      {
-        "tipo": "errores_comunes",
-        "texto": "Error típico: tratar きれい como i-adj. Es na-adj: きれいな本. Si ves い al final y dudas, revisa diccionario: ¿dice [adj-i] o [adj-na]?"
-      },
-      {
-        "tipo": "cierre",
-        "texto": "Hoy: i-adj con ない/かった. Próxima: na-adj con な/じゃない. Di 3 veces: 高くないです。"
-      }
-    ],
-    "sections": [
-      {
-        "tipo": "gancho",
-        "texto": "Ves dos carteles: 高い (takai) y 安い (yasui). Uno dice 10.000¥, otro 500¥. ¿Cuál es caro? Sin adjetivos no comparas."
-      },
-      {
-        "tipo": "explicacion",
-        "texto": "Los adjetivos-i son palabras que terminan en い y describen por sí solas: 高い (caro/alto), 安い (barato), 暑い (caluroso), 大きい (grande), 小さい (pequeño). Ya traen la idea de “es”, no necesitas です, pero en cortés lo añades: 高いです (es caro, cortés).\n\nObjetivo: describir con i-adj y negar en くない.\n\n🧩 Fórmula: 【Tema は Adjetivo-i (+です cortés)】\nEj: 今日は暑いです / この本は安いです\nNegativo: 暑い → 暑くないです (quitas い, pones くないです)\nPasado: 暑かったです (quitas い, pones かったです)\n\n👣 Cómo construirlo (3 pasos):\n1) Tema + は: 今日は / この本は\n2) Adjetivo-i tal cual para presente: 暑い, 安い\n3) Para cortesía añade です: 暑いです / Para negar: 暑くないです\n\n⚖️ Tabla i-adj:\n| Forma | Regla | Ejemplo |\n|---|---|---|\n| Presente cortés | adj-i + です | 高いです |\n| Negativo cortés | quita い + くないです | 高くないです |\n| Pasado cortés | quita い + かったです | 高かったです |\n| Pasado negativo | quita い + くなかったです | 高くなかったです |\n\n💡 Ejemplos desglosados:\n1) 今日は暑いです。 (きょうはあついです。) — “Hoy hace calor.” → 今日(tema) + は + 暑いです.\n2) この本は安いです。 (このほんはやすいです。) — “Este libro es barato.” → この本(tema) + は + 安いです.\n3) 富士山は高いです。 (ふじさんはたかいです。) — “El Fuji es alto.” → 富士山(tema) + は + 高いです.\n\n🔑 Mini-resumen:\n□ i-adj termina en い, no necesita です pero lo usa en cortés\n□ Negar: quita い + くないです\n□ Pasado: quita い + かったです\n\n❌ Error 90%: confundir きれい (bonito) como i-adj. Parece que termina en い, pero es na-adj: きれいな本, no きれい本. IMABI 15 te lo explica.\n\n💬 Truco: di 暑い→暑くない→暑かった en voz alta 3×. Active recall.\n\n¿Por qué 5 ítems? Domina 2 hoy, resto SRS. Mezcla adjetivos + escucha.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Si dudas entre i-adj y na-adj, abre el diccionario y busca el tag: [adj-i] no lleva な, [adj-na] lleva な antes de nombre y だ/です como predicado. Repite en voz alta marcando la partícula para anclar ritmo. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase.",
-        "palabras": 407
-      },
-      {
-        "tipo": "ejemplos",
-        "items": [
-          {
-            "jp": "今日は暑いです。",
-            "furigana": "きょうはあついです。",
-            "romaji": "kyou wa atsui desu.",
-            "es": "Hoy hace calor.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "この本は安いです。",
-            "furigana": "このほんはやすいです。",
-            "romaji": "kono hon wa yasui desu.",
-            "es": "Este libro es barato.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "富士山は高いです。",
-            "furigana": "ふじさんはたかいです。",
-            "romaji": "fujisan wa takai desu.",
-            "es": "El Fuji es alto.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          }
-        ]
-      },
-      {
-        "tipo": "practica",
-        "ejercicios": [
-          {
-            "tipo": "listen_only",
-            "jp": "今日は暑いです。",
-            "furigana": "きょうはあついです。",
-            "es": "Hoy hace calor.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha y elige.",
-            "respuesta": "今日は暑いです。 — Hoy hace calor."
-          },
-          {
-            "tipo": "listen_only",
-            "jp": "この本は安いです。",
-            "furigana": "このほんはやすいです。",
-            "es": "Este libro es barato.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha y elige.",
-            "respuesta": "この本は安いです。 — Este libro es barato."
-          },
-          {
-            "tipo": "shadowing",
-            "jp": "今日は暑いです。",
-            "furigana": "きょうはあついです。",
-            "es": "Hoy hace calor.",
-            "pausa_ms": 3000,
-            "rate": 0.85,
-            "prompt": "Escucha, pausa 3s, repite."
-          },
-          {
-            "tipo": "produccion",
-            "prompt": "Produce en japonés: 'Este libro es barato.'",
-            "respuesta": "この本は安いです。",
-            "jp": "この本は安いです。",
-            "mostrar_texto_antes": false,
-            "rate": 0.8
-          }
-        ]
-      },
-      {
-        "tipo": "errores_comunes",
-        "texto": "Error típico: tratar きれい como i-adj. Es na-adj: きれいな本. Si ves い al final y dudas, revisa diccionario: ¿dice [adj-i] o [adj-na]?"
-      },
-      {
-        "tipo": "cierre",
-        "texto": "Hoy: i-adj con ない/かった. Próxima: na-adj con な/じゃない. Di 3 veces: 高くないです。"
-      }
-    ],
-    "wexdc": true,
-    "clarity": 3,
-    "autoevaluacion": {
-      "explica_no_informa": true,
-      "palabras_explicacion": 276,
-      "listening_puro_incluido": true,
-      "listening_puro_cantidad": 2,
-      "confianza": 9
-    }
-  },
-  {
-    "id": "l-imabi-015",
-    "title": "IMABI 15: Adjetivos-na — 静か, 元気",
-    "stage": "IMABI · Beginners I",
-    "minutes": 8,
-    "level": "imabi",
-    "teach": [
-      {
-        "heading": "IMABI 15: Adjetivos-na — 静か, 元気",
-        "text": "Los na-adj necesitan な para describir nombre: 静かな部屋 (habitación tranquila), 元気な学生 (estudiante enérgico). Como predicado usan です/だ.",
-        "examples": [
-          {
-            "jp": "この部屋は静かです。",
-            "kana": "このへやはしずかです。",
-            "es": "Esta habitación es tranquila."
-          },
-          {
-            "jp": "彼は元気です。",
-            "kana": "かれはげんきです。",
-            "es": "Él está enérgico/bien."
-          },
-          {
-            "jp": "静かな夜です。",
-            "kana": "しずかなよるです。",
-            "es": "Es una noche tranquila."
-          }
-        ]
-      }
-    ],
-    "quiz": {
-      "practice": "grammar",
-      "direction": "grammar-es",
-      "ids": [
-        "g-desu",
-        "g-desu-1",
-        "g-desu-2"
-      ]
-    },
-    "secciones": [
-      {
-        "tipo": "gancho",
-        "texto": "Lees 静かな夜 y crees que 静か es i-adj por la か. Te equivocas y dices 静かい部屋 — un nativo no te entiende. Ahí entra na-adj."
-      },
-      {
-        "tipo": "explicacion",
-        "texto": "Los na-adj (adjetivos nominales) parecen sustantivos pero describen: 静か (silencioso/tranquilo), 元気 (enérgico), きれい (bonito/limpio), 便利 (conveniente). Necesitan pegamento な cuando van antes de un nombre, y です/だ cuando son predicado.\n\nObjetivo: usar 静かなN vs 静かです sin confundir con i-adj.\n\n🧩 Fórmula:\n- Antes de nombre: 【na-adj + な + Nombre】 → 静かな部屋 / 元気な学生 / きれいな本\n- Como predicado: 【Tema は na-adj + です】 → この部屋は静かです / 彼は元気です\n- Negativo: 静かじゃないです / 静かではありません\n\n👣 Cómo construirlo (3 pasos):\n1) ¿Vas a describir un nombre justo después? Usa な: 静かな夜\n2) ¿Vas a cerrar frase? Usa です: 静かです / 元気です\n3) ¿Negar? Cambia です → じゃないです: 静かじゃないです\n\n⚖️ Tabla i vs na:\n| Tipo | Antes de nombre | Predicado cortés | Negativo |\n|---|---|---|---|\n| i-adj (高い) | 高い本 (sin な) | 高いです | 高くないです |\n| na-adj (静か) | 静かな本 | 静かです | 静かじゃないです |\n\n💡 Ejemplos desglosados:\n1) この部屋は静かです。 (このへやはしずかです。) — “Esta habitación es tranquila.” → この部屋(tema) + は + 静かです.\n2) 彼は元気です。 (かれはげんきです。) — “Él está enérgico.” → 彼(tema) + は + 元気です.\n3) 静かな夜です。 (しずかなよるです。) — “Es una noche tranquila.” → 静かな(na-adj+な) + 夜です.\n\n🔑 Mini-resumen:\n□ na-adj + な + Nombre / na-adj + です como predicado\n□ Negativo: じゃないです / ではありません (no くない)\n□ きれい parece i-adj pero es na: きれいな本\n\n❌ Error 90%: 高いな本 (i-adj no lleva な) y 静かい部屋 (na-adj no lleva い extra). Mira terminación en diccionario.\n\n💬 Truco: haz pares: 高い本 ↔ 静かな本. Di ambos 3×.\n\n¿Por qué 5 ítems? Domina 2 hoy, resto SRS. Mezcla na-adj + escucha.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Si dudas entre i-adj y na-adj, abre el diccionario y busca el tag: [adj-i] no lleva な, [adj-na] lleva な antes de nombre y だ/です como predicado. Repite en voz alta marcando la partícula para anclar ritmo. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase.",
-        "palabras": 412
-      },
-      {
-        "tipo": "ejemplos",
-        "items": [
-          {
-            "jp": "この部屋は静かです。",
-            "furigana": "このへやはしずかです。",
-            "romaji": "kono heya wa shizuka desu.",
-            "es": "Esta habitación es tranquila.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "彼は元気です。",
-            "furigana": "かれはげんきです。",
-            "romaji": "kare wa genki desu.",
-            "es": "Él está enérgico.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "静かな夜です。",
-            "furigana": "しずかなよるです。",
-            "romaji": "shizuka na yoru desu.",
-            "es": "Es una noche tranquila.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          }
-        ]
-      },
-      {
-        "tipo": "practica",
-        "ejercicios": [
-          {
-            "tipo": "listen_only",
-            "jp": "この部屋は静かです。",
-            "furigana": "このへやはしずかです。",
-            "es": "Esta habitación es tranquila.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha y elige.",
-            "respuesta": "この部屋は静かです。 — Esta habitación es tranquila."
-          },
-          {
-            "tipo": "listen_only",
-            "jp": "彼は元気です。",
-            "furigana": "かれはげんきです。",
-            "es": "Él está enérgico.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha y elige.",
-            "respuesta": "彼は元気です。 — Él está enérgico."
-          },
-          {
-            "tipo": "shadowing",
-            "jp": "この部屋は静かです。",
-            "furigana": "このへやはしずかです。",
-            "es": "Esta habitación es tranquila.",
-            "pausa_ms": 3000,
-            "rate": 0.85,
-            "prompt": "Escucha, pausa 3s, repite."
-          },
-          {
-            "tipo": "produccion",
-            "prompt": "Produce en japonés: 'Es una noche tranquila.'",
-            "respuesta": "静かな夜です。",
-            "jp": "静かな夜です。",
-            "mostrar_texto_antes": false,
-            "rate": 0.8
-          }
-        ]
-      },
-      {
-        "tipo": "errores_comunes",
-        "texto": "Error típico: decir 静かい部屋 o 高いな本. Regla: ¿el adjetivo termina en い y es i-adj en diccionario? No lleva な. ¿Es na-adj como 静か/きれい? Lleva な antes de nombre."
-      },
-      {
-        "tipo": "cierre",
-        "texto": "Hoy: na-adj con な/です. Próxima: を marca objeto. Di 3 veces: 静かな部屋。"
-      }
-    ],
-    "sections": [
-      {
-        "tipo": "gancho",
-        "texto": "Lees 静かな夜 y crees que 静か es i-adj por la か. Te equivocas y dices 静かい部屋 — un nativo no te entiende. Ahí entra na-adj."
-      },
-      {
-        "tipo": "explicacion",
-        "texto": "Los na-adj (adjetivos nominales) parecen sustantivos pero describen: 静か (silencioso/tranquilo), 元気 (enérgico), きれい (bonito/limpio), 便利 (conveniente). Necesitan pegamento な cuando van antes de un nombre, y です/だ cuando son predicado.\n\nObjetivo: usar 静かなN vs 静かです sin confundir con i-adj.\n\n🧩 Fórmula:\n- Antes de nombre: 【na-adj + な + Nombre】 → 静かな部屋 / 元気な学生 / きれいな本\n- Como predicado: 【Tema は na-adj + です】 → この部屋は静かです / 彼は元気です\n- Negativo: 静かじゃないです / 静かではありません\n\n👣 Cómo construirlo (3 pasos):\n1) ¿Vas a describir un nombre justo después? Usa な: 静かな夜\n2) ¿Vas a cerrar frase? Usa です: 静かです / 元気です\n3) ¿Negar? Cambia です → じゃないです: 静かじゃないです\n\n⚖️ Tabla i vs na:\n| Tipo | Antes de nombre | Predicado cortés | Negativo |\n|---|---|---|---|\n| i-adj (高い) | 高い本 (sin な) | 高いです | 高くないです |\n| na-adj (静か) | 静かな本 | 静かです | 静かじゃないです |\n\n💡 Ejemplos desglosados:\n1) この部屋は静かです。 (このへやはしずかです。) — “Esta habitación es tranquila.” → この部屋(tema) + は + 静かです.\n2) 彼は元気です。 (かれはげんきです。) — “Él está enérgico.” → 彼(tema) + は + 元気です.\n3) 静かな夜です。 (しずかなよるです。) — “Es una noche tranquila.” → 静かな(na-adj+な) + 夜です.\n\n🔑 Mini-resumen:\n□ na-adj + な + Nombre / na-adj + です como predicado\n□ Negativo: じゃないです / ではありません (no くない)\n□ きれい parece i-adj pero es na: きれいな本\n\n❌ Error 90%: 高いな本 (i-adj no lleva な) y 静かい部屋 (na-adj no lleva い extra). Mira terminación en diccionario.\n\n💬 Truco: haz pares: 高い本 ↔ 静かな本. Di ambos 3×.\n\n¿Por qué 5 ítems? Domina 2 hoy, resto SRS. Mezcla na-adj + escucha.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Si dudas entre i-adj y na-adj, abre el diccionario y busca el tag: [adj-i] no lleva な, [adj-na] lleva な antes de nombre y だ/です como predicado. Repite en voz alta marcando la partícula para anclar ritmo. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase.",
-        "palabras": 412
-      },
-      {
-        "tipo": "ejemplos",
-        "items": [
-          {
-            "jp": "この部屋は静かです。",
-            "furigana": "このへやはしずかです。",
-            "romaji": "kono heya wa shizuka desu.",
-            "es": "Esta habitación es tranquila.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "彼は元気です。",
-            "furigana": "かれはげんきです。",
-            "romaji": "kare wa genki desu.",
-            "es": "Él está enérgico.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "静かな夜です。",
-            "furigana": "しずかなよるです。",
-            "romaji": "shizuka na yoru desu.",
-            "es": "Es una noche tranquila.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          }
-        ]
-      },
-      {
-        "tipo": "practica",
-        "ejercicios": [
-          {
-            "tipo": "listen_only",
-            "jp": "この部屋は静かです。",
-            "furigana": "このへやはしずかです。",
-            "es": "Esta habitación es tranquila.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha y elige.",
-            "respuesta": "この部屋は静かです。 — Esta habitación es tranquila."
-          },
-          {
-            "tipo": "listen_only",
-            "jp": "彼は元気です。",
-            "furigana": "かれはげんきです。",
-            "es": "Él está enérgico.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha y elige.",
-            "respuesta": "彼は元気です。 — Él está enérgico."
-          },
-          {
-            "tipo": "shadowing",
-            "jp": "この部屋は静かです。",
-            "furigana": "このへやはしずかです。",
-            "es": "Esta habitación es tranquila.",
-            "pausa_ms": 3000,
-            "rate": 0.85,
-            "prompt": "Escucha, pausa 3s, repite."
-          },
-          {
-            "tipo": "produccion",
-            "prompt": "Produce en japonés: 'Es una noche tranquila.'",
-            "respuesta": "静かな夜です。",
-            "jp": "静かな夜です。",
-            "mostrar_texto_antes": false,
-            "rate": 0.8
-          }
-        ]
-      },
-      {
-        "tipo": "errores_comunes",
-        "texto": "Error típico: decir 静かい部屋 o 高いな本. Regla: ¿el adjetivo termina en い y es i-adj en diccionario? No lleva な. ¿Es na-adj como 静か/きれい? Lleva な antes de nombre."
-      },
-      {
-        "tipo": "cierre",
-        "texto": "Hoy: na-adj con な/です. Próxima: を marca objeto. Di 3 veces: 静かな部屋。"
-      }
-    ],
-    "wexdc": true,
-    "clarity": 3,
-    "autoevaluacion": {
-      "explica_no_informa": true,
-      "palabras_explicacion": 259,
-      "listening_puro_incluido": true,
-      "listening_puro_cantidad": 2,
-      "confianza": 9
-    }
-  },
-  {
-    "id": "l-imabi-017",
-    "title": "IMABI 17: Verbo一段 — 食べる, 見る",
-    "stage": "IMABI · Beginners I",
-    "minutes": 8,
-    "level": "imabi",
-    "teach": [
-      {
-        "heading": "IMABI 17: Verbo一段 — 食べる, 見る",
-        "text": "Ichidan: todos terminan en る y suena i/e + る. 食べる (taberu), 見る (miru). Su base es estable.",
-        "examples": [
-          {
-            "jp": "朝ごはんを食べます。",
-            "kana": "あさごはんをたべます。",
-            "es": "Desayuno."
-          },
-          {
-            "jp": "映画を見ます。",
-            "kana": "えいがをみます。",
-            "es": "Veo una peli."
-          },
-          {
-            "jp": "早く寝ます。",
-            "kana": "はやくねます。",
-            "es": "Me acuesto pronto."
-          }
-        ]
-      }
-    ],
-    "quiz": {
-      "practice": "grammar",
-      "direction": "grammar-es",
-      "ids": [
-        "g-desu",
-        "g-desu-1",
-        "g-desu-2"
-      ]
-    },
-    "secciones": [
-      {
-        "tipo": "gancho",
-        "texto": "En el conbini ves 食べます y 飲みます. Uno termina en べる, otro en む. ¿Por qué uno cambia a 食べない y otro a 飲まない? Ahí está ichidan vs godan."
-      },
-      {
-        "tipo": "explicacion",
-        "texto": "Los verbos一段 (ichidan, “una columna”) son los fáciles: siempre terminan en る y la vocal anterior es i o e: 食(た)べる (e+る), 見(み)る (i+る), 寝(ね)る, 起(お)きる. Su truco es que la raíz no cambia.\n\nObjetivo: conjugar ichidan sin dudar: 食べる → 食べない/食べます/食べた.\n\n🧩 Fórmula: 【raíz + る → quita る + terminación】\nEj: たべる → たべ + ない / ます / た\n\nPiensa en bloques: quitas る y añades lo que necesitas. No hay sorpresas de consonantes.\n\n👣 Cómo construirlo (3 pasos):\n1) Confirma que es ichidan: ¿termina en い/え + る? 食べる sí (べ = be), 切る no (き = ki pero es godan)\n2) Quita る: 食べ → raíz\n3) Añade: ない (neg), ます (cortés), た (pasado): 食べない, 食べます, 食べた\n\n⚖️ Tabla ichidan:\n| Forma | Regla | Ejemplo |\n|---|---|---|\n| Diccionario | る | 食べる |\n| Negativo | る→ない | 食べない |\n| Cortés | る→ます | 食べます |\n| Pasado | る→た | 食べた |\n| て-form | る→て | 食べて |\n\n💡 Ejemplos desglosados:\n1) 朝ごはんを食べます。 (あさごはんをたべます。) — “Desayuno.” → 朝ごはん(tema) + を + 食べます.\n2) 映画を見ます。 (えいがをみます。) — “Veo peli.” → 映画を + 見ます.\n3) 早く寝ます。 (はやくねます。) — “Duermo pronto.” → 早く + 寝ます.\n\n🔑 Mini-resumen:\n□ ichidan = i/e + る, raíz estable\n□ Quita る → ない/ます/た/て\n□ Excepción: algunos i/e+る son godan (要る, 走る) — se aprenden aparte\n\n❌ Error 90%: tratar 帰る (kaeru) como ichidan. Parece e+る pero es godan: 帰らない, no 帰ない. IMABI 18 te entrena el ojo.\n\n💬 Truco offline: di 食べる→食べない→食べます→食べた en voz alta 3×. Active recall.\n\n¿Por qué 5 ítems? Domina 2 hoy, resto SRS. Mezcla verbos + escucha.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Si dudas entre ichidan y godan, abre el diccionario y busca el tag: [ichidan] termina en る con vocal previa, [godan] cambia la consonante. Repite en voz alta marcando la partícula para anclar ritmo. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase.",
-        "palabras": 414
-      },
-      {
-        "tipo": "ejemplos",
-        "items": [
-          {
-            "jp": "朝ごはんを食べます。",
-            "furigana": "あさごはんをたべます。",
-            "romaji": "asagohan wo tabemasu.",
-            "es": "Desayuno.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "映画を見ます。",
-            "furigana": "えいがをみます。",
-            "romaji": "eiga wo mimasu.",
-            "es": "Veo una peli.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "早く寝ます。",
-            "furigana": "はやくねます。",
-            "romaji": "hayaku nemasu.",
-            "es": "Me acuesto pronto.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          }
-        ]
-      },
-      {
-        "tipo": "practica",
-        "ejercicios": [
-          {
-            "tipo": "listen_only",
-            "jp": "朝ごはんを食べます。",
-            "furigana": "あさごはんをたべます。",
-            "es": "Desayuno.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha (texto oculto) y elige.",
-            "respuesta": "朝ごはんを食べます。 — Desayuno."
-          },
-          {
-            "tipo": "listen_only",
-            "jp": "映画を見ます。",
-            "furigana": "えいがをみます。",
-            "es": "Veo una peli.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha y elige.",
-            "respuesta": "映画を見ます。 — Veo una peli."
-          },
-          {
-            "tipo": "shadowing",
-            "jp": "朝ごはんを食べます。",
-            "furigana": "あさごはんをたべます。",
-            "es": "Desayuno.",
-            "pausa_ms": 3000,
-            "rate": 0.85,
-            "prompt": "Escucha, pausa 3s, repite."
-          },
-          {
-            "tipo": "produccion",
-            "prompt": "Produce en japonés: 'Veo una peli.'",
-            "respuesta": "映画を見ます。",
-            "jp": "映画を見ます。",
-            "mostrar_texto_antes": false,
-            "rate": 0.8
-          }
-        ]
-      },
-      {
-        "tipo": "errores_comunes",
-        "texto": "Error típico: 帰る, 切る, 入る parecen ichidan pero son godan. Si dudas, consulta diccionario: ¿dice [ichidan] o [godan]? No te fíes solo de la terminación."
-      },
-      {
-        "tipo": "cierre",
-        "texto": "Hoy: ichidan quita る. Próxima: godan cambia consonante. Di 3 veces: 食べない, 食べます。"
-      }
-    ],
-    "sections": [
-      {
-        "tipo": "gancho",
-        "texto": "En el conbini ves 食べます y 飲みます. Uno termina en べる, otro en む. ¿Por qué uno cambia a 食べない y otro a 飲まない? Ahí está ichidan vs godan."
-      },
-      {
-        "tipo": "explicacion",
-        "texto": "Los verbos一段 (ichidan, “una columna”) son los fáciles: siempre terminan en る y la vocal anterior es i o e: 食(た)べる (e+る), 見(み)る (i+る), 寝(ね)る, 起(お)きる. Su truco es que la raíz no cambia.\n\nObjetivo: conjugar ichidan sin dudar: 食べる → 食べない/食べます/食べた.\n\n🧩 Fórmula: 【raíz + る → quita る + terminación】\nEj: たべる → たべ + ない / ます / た\n\nPiensa en bloques: quitas る y añades lo que necesitas. No hay sorpresas de consonantes.\n\n👣 Cómo construirlo (3 pasos):\n1) Confirma que es ichidan: ¿termina en い/え + る? 食べる sí (べ = be), 切る no (き = ki pero es godan)\n2) Quita る: 食べ → raíz\n3) Añade: ない (neg), ます (cortés), た (pasado): 食べない, 食べます, 食べた\n\n⚖️ Tabla ichidan:\n| Forma | Regla | Ejemplo |\n|---|---|---|\n| Diccionario | る | 食べる |\n| Negativo | る→ない | 食べない |\n| Cortés | る→ます | 食べます |\n| Pasado | る→た | 食べた |\n| て-form | る→て | 食べて |\n\n💡 Ejemplos desglosados:\n1) 朝ごはんを食べます。 (あさごはんをたべます。) — “Desayuno.” → 朝ごはん(tema) + を + 食べます.\n2) 映画を見ます。 (えいがをみます。) — “Veo peli.” → 映画を + 見ます.\n3) 早く寝ます。 (はやくねます。) — “Duermo pronto.” → 早く + 寝ます.\n\n🔑 Mini-resumen:\n□ ichidan = i/e + る, raíz estable\n□ Quita る → ない/ます/た/て\n□ Excepción: algunos i/e+る son godan (要る, 走る) — se aprenden aparte\n\n❌ Error 90%: tratar 帰る (kaeru) como ichidan. Parece e+る pero es godan: 帰らない, no 帰ない. IMABI 18 te entrena el ojo.\n\n💬 Truco offline: di 食べる→食べない→食べます→食べた en voz alta 3×. Active recall.\n\n¿Por qué 5 ítems? Domina 2 hoy, resto SRS. Mezcla verbos + escucha.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Si dudas entre ichidan y godan, abre el diccionario y busca el tag: [ichidan] termina en る con vocal previa, [godan] cambia la consonante. Repite en voz alta marcando la partícula para anclar ritmo. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase.",
-        "palabras": 414
-      },
-      {
-        "tipo": "ejemplos",
-        "items": [
-          {
-            "jp": "朝ごはんを食べます。",
-            "furigana": "あさごはんをたべます。",
-            "romaji": "asagohan wo tabemasu.",
-            "es": "Desayuno.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "映画を見ます。",
-            "furigana": "えいがをみます。",
-            "romaji": "eiga wo mimasu.",
-            "es": "Veo una peli.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "早く寝ます。",
-            "furigana": "はやくねます。",
-            "romaji": "hayaku nemasu.",
-            "es": "Me acuesto pronto.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          }
-        ]
-      },
-      {
-        "tipo": "practica",
-        "ejercicios": [
-          {
-            "tipo": "listen_only",
-            "jp": "朝ごはんを食べます。",
-            "furigana": "あさごはんをたべます。",
-            "es": "Desayuno.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha (texto oculto) y elige.",
-            "respuesta": "朝ごはんを食べます。 — Desayuno."
-          },
-          {
-            "tipo": "listen_only",
-            "jp": "映画を見ます。",
-            "furigana": "えいがをみます。",
-            "es": "Veo una peli.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha y elige.",
-            "respuesta": "映画を見ます。 — Veo una peli."
-          },
-          {
-            "tipo": "shadowing",
-            "jp": "朝ごはんを食べます。",
-            "furigana": "あさごはんをたべます。",
-            "es": "Desayuno.",
-            "pausa_ms": 3000,
-            "rate": 0.85,
-            "prompt": "Escucha, pausa 3s, repite."
-          },
-          {
-            "tipo": "produccion",
-            "prompt": "Produce en japonés: 'Veo una peli.'",
-            "respuesta": "映画を見ます。",
-            "jp": "映画を見ます。",
-            "mostrar_texto_antes": false,
-            "rate": 0.8
-          }
-        ]
-      },
-      {
-        "tipo": "errores_comunes",
-        "texto": "Error típico: 帰る, 切る, 入る parecen ichidan pero son godan. Si dudas, consulta diccionario: ¿dice [ichidan] o [godan]? No te fíes solo de la terminación."
-      },
-      {
-        "tipo": "cierre",
-        "texto": "Hoy: ichidan quita る. Próxima: godan cambia consonante. Di 3 veces: 食べない, 食べます。"
-      }
-    ],
-    "wexdc": true,
-    "clarity": 3,
-    "autoevaluacion": {
-      "explica_no_informa": true,
-      "palabras_explicacion": 414,
-      "listening_puro_incluido": true,
-      "listening_puro_cantidad": 2,
-      "confianza": 9
-    }
-  },
-  {
-    "id": "l-imabi-018",
-    "title": "IMABI 18: Verbo五段 — 書く, 読む, 行く",
-    "stage": "IMABI · Beginners I",
-    "minutes": 9,
-    "level": "imabi",
-    "teach": [
-      {
-        "heading": "IMABI 18: Verbo五段 — 書く, 読む, 行く",
-        "text": "Godan: la raíz cambia la última consonante. 書く (kaku) → 書かない, 行く → 行かない. Hay que memorizar la tabla de 9 terminaciones.",
-        "examples": [
-          {
-            "jp": "手紙を書きます。",
-            "kana": "てがみをかきます。",
-            "es": "Escribo una carta."
-          },
-          {
-            "jp": "本を読みます。",
-            "kana": "ほんをよみます。",
-            "es": "Leo un libro."
-          },
-          {
-            "jp": "学校に行きます。",
-            "kana": "がっこうにいきます。",
-            "es": "Voy a la escuela."
-          }
-        ]
-      }
-    ],
-    "quiz": {
-      "practice": "grammar",
-      "direction": "grammar-es",
-      "ids": [
-        "g-desu",
-        "g-desu-1",
-        "g-desu-2"
-      ]
-    },
-    "secciones": [
-      {
-        "tipo": "gancho",
-        "texto": "Ves 書きます, 読みます, 行きます. Todos terminan en ます, pero sus diccionarios son 書く, 読む, 行く — tres finales distintos. ¿Cómo predecir 書かない vs 読まない?"
-      },
-      {
-        "tipo": "explicacion",
-        "texto": "Los五段 (godan, “cinco columnas”) cambian la última sílaba por 5 vocales: か-き-く-け-こ. Es el grupo grande (80% de verbos). Terminaciones: う, く, す, つ, ぬ, ぶ, む, ぐ, る (pero no todo る es godan).\n\nObjetivo: conjugar godan sin dudar: 書く → 書かない/書きます/書いた.\n\n🧩 Fórmula: 【raíz + terminación → cambia a a/i/u/e/o + sufijo】\nEj: かく → かか(ない), かき(ます), かく(presente), かけ(ば), かこ(う)\n\nPiensa en bloques: la última kana baila entre vocales.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica la terminación: 書く (く), 読む (む), 行く (く pero irregular en て)\n2) Cambia la vocal: く→か para ない, く→き para ます\n3) Añade: ない, ます, た (con cambios: く→いた, む→んだ)\n\n⚖️ Tabla godan clave:\n| Dicc. | ない | ます | て | Ejemplo |\n|---|---|---|---|---|\n| 書く | 書かない | 書きます | 書いて | k→ka/ki/ite |\n| 読む | 読まない | 読みます | 読んで | m→ma/mi/nde |\n| 行く | 行かない | 行きます | 行って | irregular: ite→tte |\n\n💡 Ejemplos desglosados:\n1) 手紙を書きます。 (てがみをかきます。) — “Escribo carta.” → 手紙を + 書きます.\n2) 本を読みます。 (ほんをよみます。) — “Leo libro.” → 本を + 読みます.\n3) 学校に行きます。 (がっこうにいきます。) — “Voy a escuela.” → 学校に + 行きます.\n\n🔑 Mini-resumen:\n□ godan cambia la consonante final entre a/i/u/e/o\n□ ない usa a (書かない), ます usa i (書きます)\n□ く/ぐ/む tienen cambios especiales en た/て\n\n❌ Error 90%: aplicar regla ichidan a godan: 書る→書ない (mal). Siempre verifica grupo en diccionario.\n\n💬 Truco offline: di 書く→書かない→書きます→書いた 3×. Active recall.\n\n¿Por qué 5 ítems? Domina 2 hoy, resto SRS. Mezcla godan + escucha.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Si dudas entre ichidan y godan, abre el diccionario y busca el tag: [ichidan] termina en る con vocal previa, [godan] cambia la consonante. Repite en voz alta marcando la partícula para anclar ritmo. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase.",
-        "palabras": 405
-      },
-      {
-        "tipo": "ejemplos",
-        "items": [
-          {
-            "jp": "手紙を書きます。",
-            "furigana": "てがみをかきます。",
-            "romaji": "tegami wo kakimasu.",
-            "es": "Escribo una carta.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "本を読みます。",
-            "furigana": "ほんをよみます。",
-            "romaji": "hon wo yomimasu.",
-            "es": "Leo un libro.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "学校に行きます。",
-            "furigana": "がっこうにいきます。",
-            "romaji": "gakkou ni ikimasu.",
-            "es": "Voy a la escuela.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          }
-        ]
-      },
-      {
-        "tipo": "practica",
-        "ejercicios": [
-          {
-            "tipo": "listen_only",
-            "jp": "手紙を書きます。",
-            "furigana": "てがみをかきます。",
-            "es": "Escribo una carta.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha (texto oculto) y elige.",
-            "respuesta": "手紙を書きます。 — Escribo una carta."
-          },
-          {
-            "tipo": "listen_only",
-            "jp": "本を読みます。",
-            "furigana": "ほんをよみます。",
-            "es": "Leo un libro.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha y elige.",
-            "respuesta": "本を読みます。 — Leo un libro."
-          },
-          {
-            "tipo": "shadowing",
-            "jp": "手紙を書きます。",
-            "furigana": "てがみをかきます。",
-            "es": "Escribo una carta.",
-            "pausa_ms": 3000,
-            "rate": 0.85,
-            "prompt": "Escucha, pausa 3s, repite."
-          },
-          {
-            "tipo": "produccion",
-            "prompt": "Produce en japonés: 'Voy a la escuela.'",
-            "respuesta": "学校に行きます。",
-            "jp": "学校に行きます。",
-            "mostrar_texto_antes": false,
-            "rate": 0.8
-          }
-        ]
-      },
-      {
-        "tipo": "errores_comunes",
-        "texto": "Error típico: confundir 行く (iku) con irregular: 行って no 行いて. Memoriza: 行く→行って, いく→いって. Y 帰る es godan aunque parezca ichidan."
-      },
-      {
-        "tipo": "cierre",
-        "texto": "Hoy: godan cambia vocal final. Próxima: する/来る irregulares. Di 3 veces: 書かない, 読みます。"
-      }
-    ],
-    "sections": [
-      {
-        "tipo": "gancho",
-        "texto": "Ves 書きます, 読みます, 行きます. Todos terminan en ます, pero sus diccionarios son 書く, 読む, 行く — tres finales distintos. ¿Cómo predecir 書かない vs 読まない?"
-      },
-      {
-        "tipo": "explicacion",
-        "texto": "Los五段 (godan, “cinco columnas”) cambian la última sílaba por 5 vocales: か-き-く-け-こ. Es el grupo grande (80% de verbos). Terminaciones: う, く, す, つ, ぬ, ぶ, む, ぐ, る (pero no todo る es godan).\n\nObjetivo: conjugar godan sin dudar: 書く → 書かない/書きます/書いた.\n\n🧩 Fórmula: 【raíz + terminación → cambia a a/i/u/e/o + sufijo】\nEj: かく → かか(ない), かき(ます), かく(presente), かけ(ば), かこ(う)\n\nPiensa en bloques: la última kana baila entre vocales.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica la terminación: 書く (く), 読む (む), 行く (く pero irregular en て)\n2) Cambia la vocal: く→か para ない, く→き para ます\n3) Añade: ない, ます, た (con cambios: く→いた, む→んだ)\n\n⚖️ Tabla godan clave:\n| Dicc. | ない | ます | て | Ejemplo |\n|---|---|---|---|---|\n| 書く | 書かない | 書きます | 書いて | k→ka/ki/ite |\n| 読む | 読まない | 読みます | 読んで | m→ma/mi/nde |\n| 行く | 行かない | 行きます | 行って | irregular: ite→tte |\n\n💡 Ejemplos desglosados:\n1) 手紙を書きます。 (てがみをかきます。) — “Escribo carta.” → 手紙を + 書きます.\n2) 本を読みます。 (ほんをよみます。) — “Leo libro.” → 本を + 読みます.\n3) 学校に行きます。 (がっこうにいきます。) — “Voy a escuela.” → 学校に + 行きます.\n\n🔑 Mini-resumen:\n□ godan cambia la consonante final entre a/i/u/e/o\n□ ない usa a (書かない), ます usa i (書きます)\n□ く/ぐ/む tienen cambios especiales en た/て\n\n❌ Error 90%: aplicar regla ichidan a godan: 書る→書ない (mal). Siempre verifica grupo en diccionario.\n\n💬 Truco offline: di 書く→書かない→書きます→書いた 3×. Active recall.\n\n¿Por qué 5 ítems? Domina 2 hoy, resto SRS. Mezcla godan + escucha.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Si dudas entre ichidan y godan, abre el diccionario y busca el tag: [ichidan] termina en る con vocal previa, [godan] cambia la consonante. Repite en voz alta marcando la partícula para anclar ritmo. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase.",
-        "palabras": 405
-      },
-      {
-        "tipo": "ejemplos",
-        "items": [
-          {
-            "jp": "手紙を書きます。",
-            "furigana": "てがみをかきます。",
-            "romaji": "tegami wo kakimasu.",
-            "es": "Escribo una carta.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "本を読みます。",
-            "furigana": "ほんをよみます。",
-            "romaji": "hon wo yomimasu.",
-            "es": "Leo un libro.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "学校に行きます。",
-            "furigana": "がっこうにいきます。",
-            "romaji": "gakkou ni ikimasu.",
-            "es": "Voy a la escuela.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          }
-        ]
-      },
-      {
-        "tipo": "practica",
-        "ejercicios": [
-          {
-            "tipo": "listen_only",
-            "jp": "手紙を書きます。",
-            "furigana": "てがみをかきます。",
-            "es": "Escribo una carta.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha (texto oculto) y elige.",
-            "respuesta": "手紙を書きます。 — Escribo una carta."
-          },
-          {
-            "tipo": "listen_only",
-            "jp": "本を読みます。",
-            "furigana": "ほんをよみます。",
-            "es": "Leo un libro.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha y elige.",
-            "respuesta": "本を読みます。 — Leo un libro."
-          },
-          {
-            "tipo": "shadowing",
-            "jp": "手紙を書きます。",
-            "furigana": "てがみをかきます。",
-            "es": "Escribo una carta.",
-            "pausa_ms": 3000,
-            "rate": 0.85,
-            "prompt": "Escucha, pausa 3s, repite."
-          },
-          {
-            "tipo": "produccion",
-            "prompt": "Produce en japonés: 'Voy a la escuela.'",
-            "respuesta": "学校に行きます。",
-            "jp": "学校に行きます。",
-            "mostrar_texto_antes": false,
-            "rate": 0.8
-          }
-        ]
-      },
-      {
-        "tipo": "errores_comunes",
-        "texto": "Error típico: confundir 行く (iku) con irregular: 行って no 行いて. Memoriza: 行く→行って, いく→いって. Y 帰る es godan aunque parezca ichidan."
-      },
-      {
-        "tipo": "cierre",
-        "texto": "Hoy: godan cambia vocal final. Próxima: する/来る irregulares. Di 3 veces: 書かない, 読みます。"
-      }
-    ],
-    "wexdc": true,
-    "clarity": 3,
-    "autoevaluacion": {
-      "explica_no_informa": true,
-      "palabras_explicacion": 405,
-      "listening_puro_incluido": true,
-      "listening_puro_cantidad": 2,
-      "confianza": 9
-    }
-  },
-  {
-    "id": "l-imabi-021",
-    "title": "IMABI 21: か con negación — じゃないか",
-    "stage": "IMABI · Beginners I",
-    "minutes": 7,
-    "level": "imabi",
-    "teach": [
-      {
-        "heading": "IMABI 21: か con negación — じゃないか",
-        "text": "か no solo pregunta, también confirma con negación: じゃないか (¿verdad que no es?). 学生じゃないですか — ¿No es estudiante? (esperas sí).",
-        "examples": [
-          {
-            "jp": "学生じゃないですか。",
-            "kana": "がくせいじゃないですか。",
-            "es": "¿No es estudiante?"
-          },
-          {
-            "jp": "行かないか。",
-            "kana": "いかないか。",
-            "es": "¿No vas? (invitación)"
-          },
-          {
-            "jp": "寒くないか。",
-            "kana": "さむくないか。",
-            "es": "¿No hace frío?"
-          }
-        ]
-      }
-    ],
-    "quiz": {
-      "practice": "grammar",
-      "direction": "grammar-es",
-      "ids": [
-        "g-desu",
-        "g-desu-1",
-        "g-desu-2"
-      ]
-    },
-    "secciones": [
-      {
-        "tipo": "gancho",
-        "texto": "Te dicen 「学生じゃないか」 y dudas: ¿es pregunta? ¿es negación? ¿invitación? Sin か negativo no entiendes el matiz de confirmación."
-      },
-      {
-        "tipo": "explicacion",
-        "texto": "か con negación crea dos usos: pregunta negativa (¿no es...?) y confirmación/retórica (¿verdad?).\n\nObjetivo: usar じゃないか / じゃないですか para preguntar esperando confirmación.\n\n🧩 Fórmula: 【Frase negativa + か】 → 学生じゃないですか / 行かないか / 寒くないか\nVariante cortés: じゃないですか / じゃないでしょうか (más suave)\n\nPiensa en bloques: niegas y luego preguntas para invitar a decir “sí, es”.\n\n👣 Cómo construirlo (3 pasos):\n1) Forma negativa: 学生 → 学生じゃない, 行く → 行かない, 寒い → 寒くない\n2) Añade か (plano) o か con です (cortés): じゃないか / じゃないですか\n3) Entona como pregunta: ¿verdadero?\n\n⚖️ Tabla か negativo:\n| Base | +か plano | +か cortés | Matiz |\n|---|---|---|---|\n| 学生だ | 学生じゃないか | 学生じゃないですか | ¿No es estudiante? |\n| 行く | 行かないか | 行きませんか | ¿No vas? (invitación) |\n| 寒い | 寒くないか | 寒くないですか | ¿No hace frío? |\n\n💡 Ejemplos desglosados:\n1) 学生じゃないですか。 (がくせいじゃないですか。) — “¿No es estudiante?” → 学生じゃない + ですか.\n2) 行かないか。 (いかないか。) — “¿No vas?” → 行かない + か (invitación).\n3) 寒くないか。 (さむくないか。) — “¿No hace frío?” → 寒くない + か.\n\n🔑 Mini-resumen:\n□ Negativo + か = pregunta esperando sí / invitación\n□ Cortés: じゃないですか / 行きませんか\n□ Plano retórico: じゃないか (¿verdad?)\n\n❌ Error 90%: usar じゃないか en formal. En trabajo usa じゃないですか o じゃありませんか. Plano suena brusco.\n\n💬 Truco offline: di 学生じゃないですか → 学生じゃないか (cambia formalidad) 3×.\n\n¿Por qué 5 ítems? Domina 2 hoy, resto SRS. Mezcla か negativo + escucha.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Si dudas entre ichidan y godan, abre el diccionario y busca el tag: [ichidan] termina en る con vocal previa, [godan] cambia la consonante. Repite en voz alta marcando la partícula para anclar ritmo. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase.",
-        "palabras": 407
-      },
-      {
-        "tipo": "ejemplos",
-        "items": [
-          {
-            "jp": "学生じゃないですか。",
-            "furigana": "がくせいじゃないですか。",
-            "romaji": "gakusei ja nai desu ka.",
-            "es": "¿No es estudiante?",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "行かないか。",
-            "furigana": "いかないか。",
-            "romaji": "ikanai ka.",
-            "es": "¿No vas?",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "寒くないか。",
-            "furigana": "さむくないか。",
-            "romaji": "samukunai ka.",
-            "es": "¿No hace frío?",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          }
-        ]
-      },
-      {
-        "tipo": "practica",
-        "ejercicios": [
-          {
-            "tipo": "listen_only",
-            "jp": "学生じゃないですか。",
-            "furigana": "がくせいじゃないですか。",
-            "es": "¿No es estudiante?",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha (texto oculto) y elige.",
-            "respuesta": "学生じゃないですか。 — ¿No es estudiante?"
-          },
-          {
-            "tipo": "listen_only",
-            "jp": "行かないか。",
-            "furigana": "いかないか。",
-            "es": "¿No vas?",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha y elige.",
-            "respuesta": "行かないか。 — ¿No vas?"
-          },
-          {
-            "tipo": "shadowing",
-            "jp": "学生じゃないですか。",
-            "furigana": "がくせいじゃないですか。",
-            "es": "¿No es estudiante?",
-            "pausa_ms": 3000,
-            "rate": 0.85,
-            "prompt": "Escucha, pausa 3s, repite."
-          },
-          {
-            "tipo": "produccion",
-            "prompt": "Produce en japonés: '¿No hace frío?'",
-            "respuesta": "寒くないか。",
-            "jp": "寒くないか。",
-            "mostrar_texto_antes": false,
-            "rate": 0.8
-          }
-        ]
-      },
-      {
-        "tipo": "errores_comunes",
-        "texto": "Error típico: confundir じゃないか (plano, confirmación) con じゃないですか (cortés). No uses plano con tu jefe. Y no añadas か a じゃないです ya cortés sin か: es じゃないですか, no じゃないですかか."
-      },
-      {
-        "tipo": "cierre",
-        "texto": "Hoy: negativo + か para invitar. Próxima: こそあど This/That. Di 3 veces: じゃないですか。"
-      }
-    ],
-    "sections": [
-      {
-        "tipo": "gancho",
-        "texto": "Te dicen 「学生じゃないか」 y dudas: ¿es pregunta? ¿es negación? ¿invitación? Sin か negativo no entiendes el matiz de confirmación."
-      },
-      {
-        "tipo": "explicacion",
-        "texto": "か con negación crea dos usos: pregunta negativa (¿no es...?) y confirmación/retórica (¿verdad?).\n\nObjetivo: usar じゃないか / じゃないですか para preguntar esperando confirmación.\n\n🧩 Fórmula: 【Frase negativa + か】 → 学生じゃないですか / 行かないか / 寒くないか\nVariante cortés: じゃないですか / じゃないでしょうか (más suave)\n\nPiensa en bloques: niegas y luego preguntas para invitar a decir “sí, es”.\n\n👣 Cómo construirlo (3 pasos):\n1) Forma negativa: 学生 → 学生じゃない, 行く → 行かない, 寒い → 寒くない\n2) Añade か (plano) o か con です (cortés): じゃないか / じゃないですか\n3) Entona como pregunta: ¿verdadero?\n\n⚖️ Tabla か negativo:\n| Base | +か plano | +か cortés | Matiz |\n|---|---|---|---|\n| 学生だ | 学生じゃないか | 学生じゃないですか | ¿No es estudiante? |\n| 行く | 行かないか | 行きませんか | ¿No vas? (invitación) |\n| 寒い | 寒くないか | 寒くないですか | ¿No hace frío? |\n\n💡 Ejemplos desglosados:\n1) 学生じゃないですか。 (がくせいじゃないですか。) — “¿No es estudiante?” → 学生じゃない + ですか.\n2) 行かないか。 (いかないか。) — “¿No vas?” → 行かない + か (invitación).\n3) 寒くないか。 (さむくないか。) — “¿No hace frío?” → 寒くない + か.\n\n🔑 Mini-resumen:\n□ Negativo + か = pregunta esperando sí / invitación\n□ Cortés: じゃないですか / 行きませんか\n□ Plano retórico: じゃないか (¿verdad?)\n\n❌ Error 90%: usar じゃないか en formal. En trabajo usa じゃないですか o じゃありませんか. Plano suena brusco.\n\n💬 Truco offline: di 学生じゃないですか → 学生じゃないか (cambia formalidad) 3×.\n\n¿Por qué 5 ítems? Domina 2 hoy, resto SRS. Mezcla か negativo + escucha.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Si dudas entre ichidan y godan, abre el diccionario y busca el tag: [ichidan] termina en る con vocal previa, [godan] cambia la consonante. Repite en voz alta marcando la partícula para anclar ritmo. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase.",
-        "palabras": 407
-      },
-      {
-        "tipo": "ejemplos",
-        "items": [
-          {
-            "jp": "学生じゃないですか。",
-            "furigana": "がくせいじゃないですか。",
-            "romaji": "gakusei ja nai desu ka.",
-            "es": "¿No es estudiante?",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "行かないか。",
-            "furigana": "いかないか。",
-            "romaji": "ikanai ka.",
-            "es": "¿No vas?",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "寒くないか。",
-            "furigana": "さむくないか。",
-            "romaji": "samukunai ka.",
-            "es": "¿No hace frío?",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          }
-        ]
-      },
-      {
-        "tipo": "practica",
-        "ejercicios": [
-          {
-            "tipo": "listen_only",
-            "jp": "学生じゃないですか。",
-            "furigana": "がくせいじゃないですか。",
-            "es": "¿No es estudiante?",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha (texto oculto) y elige.",
-            "respuesta": "学生じゃないですか。 — ¿No es estudiante?"
-          },
-          {
-            "tipo": "listen_only",
-            "jp": "行かないか。",
-            "furigana": "いかないか。",
-            "es": "¿No vas?",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha y elige.",
-            "respuesta": "行かないか。 — ¿No vas?"
-          },
-          {
-            "tipo": "shadowing",
-            "jp": "学生じゃないですか。",
-            "furigana": "がくせいじゃないですか。",
-            "es": "¿No es estudiante?",
-            "pausa_ms": 3000,
-            "rate": 0.85,
-            "prompt": "Escucha, pausa 3s, repite."
-          },
-          {
-            "tipo": "produccion",
-            "prompt": "Produce en japonés: '¿No hace frío?'",
-            "respuesta": "寒くないか。",
-            "jp": "寒くないか。",
-            "mostrar_texto_antes": false,
-            "rate": 0.8
-          }
-        ]
-      },
-      {
-        "tipo": "errores_comunes",
-        "texto": "Error típico: confundir じゃないか (plano, confirmación) con じゃないですか (cortés). No uses plano con tu jefe. Y no añadas か a じゃないです ya cortés sin か: es じゃないですか, no じゃないですかか."
-      },
-      {
-        "tipo": "cierre",
-        "texto": "Hoy: negativo + か para invitar. Próxima: こそあど This/That. Di 3 veces: じゃないですか。"
-      }
-    ],
-    "wexdc": true,
-    "clarity": 3,
-    "autoevaluacion": {
-      "explica_no_informa": true,
-      "palabras_explicacion": 407,
-      "listening_puro_incluido": true,
-      "listening_puro_cantidad": 2,
-      "confianza": 9
-    }
-  },
-  {
-    "id": "l-imabi-024",
-    "title": "IMABI 24: こそあど I — これ/それ/あれ",
-    "stage": "IMABI · Beginners I",
-    "minutes": 7,
-    "level": "imabi",
-    "teach": [
-      {
-        "heading": "IMABI 24: こそあど I — これ/それ/あれ",
-        "text": "Deícticos: これ (esto cerca de mí), それ (eso cerca de ti), あれ (aquello lejos de ambos). No es solo vocab, es distancia psicológica.",
-        "examples": [
-          {
-            "jp": "これは本です。",
-            "kana": "これはほんです。",
-            "es": "Esto es un libro."
-          },
-          {
-            "jp": "それは私の傘です。",
-            "kana": "それはわたしのかさです。",
-            "es": "Eso es mi paraguas."
-          },
-          {
-            "jp": "あれは富士山です。",
-            "kana": "あれはふじさんです。",
-            "es": "Aquello es el Fuji."
-          }
-        ]
-      }
-    ],
-    "quiz": {
-      "practice": "grammar",
-      "direction": "grammar-es",
-      "ids": [
-        "g-desu",
-        "g-desu-1",
-        "g-desu-2"
-      ]
-    },
-    "secciones": [
-      {
-        "tipo": "gancho",
-        "texto": "Señalas y dices “esto” pero tu amigo mira a otro lado. ¿Era これ, それ o あれ? Sin distancia no te entienden."
-      },
-      {
-        "tipo": "explicacion",
-        "texto": "こそあど organiza el espacio en 3 zonas: こ (cerca de mí), そ (cerca de ti), あ (lejos de ambos). No es solo físico, también mental.\n\nObjetivo: elegir これ/それ/あれ sin dudar según distancia al hablante y oyente.\n\n🧩 Fórmula: 【これ/それ/あれ は + Descripción】\n- これ: esto (mío, aquí) → これは本です (esto cerca de mí)\n- それ: eso (tuyo, allí) → それは傘です (eso cerca de ti)\n- あれ: aquello (lejos de ambos) → あれは富士山です (allá lejos)\n\nPiensa en bloques: imagina triángulo tú-yo-objeto.\n\n👣 Cómo construirlo (3 pasos):\n1) ¿Dónde está? ¿Cerca de mí? → これ / ¿Cerca de ti? → それ / ¿Lejos? → あれ\n2) Añade は + descripción: これは本です\n3) Pregunta: これ/それ/あれ + は + 何ですか (¿qué es?)\n\n⚖️ Tabla こそあど I:\n| Forma | Distancia | Ejemplo |\n|---|---|---|\n| これ | cerca de mí | これは私の本です |\n| それ | cerca de ti | それはあなたの傘ですか |\n| あれ | lejos de ambos | あれは富士山です |\n\n💡 Ejemplos desglosados:\n1) これは本です。 (これはほんです。) — “Esto es libro.” → これ(esto aquí) + は + 本です.\n2) それは私の傘です。 (それはわたしのかさです。) — “Eso es mi paraguas.” → それ(eso allí cerca de ti) + は + 傘です.\n3) あれは富士山です。 (あれはふじさんです。) — “Aquello es Fuji.” → あれ(allá lejos) + は + 富士山です.\n\n🔑 Mini-resumen:\n□ こ = mío/aquí, そ = tuyo/allí, あ = lejos\n□ これ/それ/あれ solos, sin nombre detrás\n□ Con nombre usa この/その/あの (IMABI 25)\n\n❌ Error 90%: usar これ con nombre: これ本 (mal) → この本 (bien). こ solo para pronombre.\n\n💬 Truco offline: señala 3 objetos: これ (tu mesa), それ (su mesa), あれ (montaña). Di cada uno.\n\n¿Por qué 5 ítems? Domina 2 hoy, resto SRS. Mezcla こそあど + escucha.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Si dudas entre ichidan y godan, abre el diccionario y busca el tag: [ichidan] termina en る con vocal previa, [godan] cambia la consonante. Repite en voz alta marcando la partícula para anclar ritmo. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase.",
-        "palabras": 405
-      },
-      {
-        "tipo": "ejemplos",
-        "items": [
-          {
-            "jp": "これは本です。",
-            "furigana": "これはほんです。",
-            "romaji": "kore wa hon desu.",
-            "es": "Esto es un libro.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "それは私の傘です。",
-            "furigana": "それはわたしのかさです。",
-            "romaji": "sore wa watashi no kasa desu.",
-            "es": "Eso es mi paraguas.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "あれは富士山です。",
-            "furigana": "あれはふじさんです。",
-            "romaji": "are wa fujisan desu.",
-            "es": "Aquello es el Fuji.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          }
-        ]
-      },
-      {
-        "tipo": "practica",
-        "ejercicios": [
-          {
-            "tipo": "listen_only",
-            "jp": "これは本です。",
-            "furigana": "これはほんです。",
-            "es": "Esto es un libro.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha (texto oculto) y elige.",
-            "respuesta": "これは本です。 — Esto es un libro."
-          },
-          {
-            "tipo": "listen_only",
-            "jp": "それは私の傘です。",
-            "furigana": "それはわたしのかさです。",
-            "es": "Eso es mi paraguas.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha y elige.",
-            "respuesta": "それは私の傘です。 — Eso es mi paraguas."
-          },
-          {
-            "tipo": "shadowing",
-            "jp": "これは本です。",
-            "furigana": "これはほんです。",
-            "es": "Esto es un libro.",
-            "pausa_ms": 3000,
-            "rate": 0.85,
-            "prompt": "Escucha, pausa 3s, repite."
-          },
-          {
-            "tipo": "produccion",
-            "prompt": "Produce en japonés: 'Aquello es el Fuji.'",
-            "respuesta": "あれは富士山です。",
-            "jp": "あれは富士山です。",
-            "mostrar_texto_antes": false,
-            "rate": 0.8
-          }
-        ]
-      },
-      {
-        "tipo": "errores_comunes",
-        "texto": "Error típico: これ本 / それ傘 sin の. Para pronombre solo: これ. Para adjetivo: この本. Mezclarlos es el fallo #1 de N5."
-      },
-      {
-        "tipo": "cierre",
-        "texto": "Hoy: これ/それ/あれ distancia. Próxima: この/その/あの + nombre. Di 3 veces: これは本です。"
-      }
-    ],
-    "sections": [
-      {
-        "tipo": "gancho",
-        "texto": "Señalas y dices “esto” pero tu amigo mira a otro lado. ¿Era これ, それ o あれ? Sin distancia no te entienden."
-      },
-      {
-        "tipo": "explicacion",
-        "texto": "こそあど organiza el espacio en 3 zonas: こ (cerca de mí), そ (cerca de ti), あ (lejos de ambos). No es solo físico, también mental.\n\nObjetivo: elegir これ/それ/あれ sin dudar según distancia al hablante y oyente.\n\n🧩 Fórmula: 【これ/それ/あれ は + Descripción】\n- これ: esto (mío, aquí) → これは本です (esto cerca de mí)\n- それ: eso (tuyo, allí) → それは傘です (eso cerca de ti)\n- あれ: aquello (lejos de ambos) → あれは富士山です (allá lejos)\n\nPiensa en bloques: imagina triángulo tú-yo-objeto.\n\n👣 Cómo construirlo (3 pasos):\n1) ¿Dónde está? ¿Cerca de mí? → これ / ¿Cerca de ti? → それ / ¿Lejos? → あれ\n2) Añade は + descripción: これは本です\n3) Pregunta: これ/それ/あれ + は + 何ですか (¿qué es?)\n\n⚖️ Tabla こそあど I:\n| Forma | Distancia | Ejemplo |\n|---|---|---|\n| これ | cerca de mí | これは私の本です |\n| それ | cerca de ti | それはあなたの傘ですか |\n| あれ | lejos de ambos | あれは富士山です |\n\n💡 Ejemplos desglosados:\n1) これは本です。 (これはほんです。) — “Esto es libro.” → これ(esto aquí) + は + 本です.\n2) それは私の傘です。 (それはわたしのかさです。) — “Eso es mi paraguas.” → それ(eso allí cerca de ti) + は + 傘です.\n3) あれは富士山です。 (あれはふじさんです。) — “Aquello es Fuji.” → あれ(allá lejos) + は + 富士山です.\n\n🔑 Mini-resumen:\n□ こ = mío/aquí, そ = tuyo/allí, あ = lejos\n□ これ/それ/あれ solos, sin nombre detrás\n□ Con nombre usa この/その/あの (IMABI 25)\n\n❌ Error 90%: usar これ con nombre: これ本 (mal) → この本 (bien). こ solo para pronombre.\n\n💬 Truco offline: señala 3 objetos: これ (tu mesa), それ (su mesa), あれ (montaña). Di cada uno.\n\n¿Por qué 5 ítems? Domina 2 hoy, resto SRS. Mezcla こそあど + escucha.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Si dudas entre ichidan y godan, abre el diccionario y busca el tag: [ichidan] termina en る con vocal previa, [godan] cambia la consonante. Repite en voz alta marcando la partícula para anclar ritmo. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase.",
-        "palabras": 405
-      },
-      {
-        "tipo": "ejemplos",
-        "items": [
-          {
-            "jp": "これは本です。",
-            "furigana": "これはほんです。",
-            "romaji": "kore wa hon desu.",
-            "es": "Esto es un libro.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "それは私の傘です。",
-            "furigana": "それはわたしのかさです。",
-            "romaji": "sore wa watashi no kasa desu.",
-            "es": "Eso es mi paraguas.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "あれは富士山です。",
-            "furigana": "あれはふじさんです。",
-            "romaji": "are wa fujisan desu.",
-            "es": "Aquello es el Fuji.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          }
-        ]
-      },
-      {
-        "tipo": "practica",
-        "ejercicios": [
-          {
-            "tipo": "listen_only",
-            "jp": "これは本です。",
-            "furigana": "これはほんです。",
-            "es": "Esto es un libro.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha (texto oculto) y elige.",
-            "respuesta": "これは本です。 — Esto es un libro."
-          },
-          {
-            "tipo": "listen_only",
-            "jp": "それは私の傘です。",
-            "furigana": "それはわたしのかさです。",
-            "es": "Eso es mi paraguas.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha y elige.",
-            "respuesta": "それは私の傘です。 — Eso es mi paraguas."
-          },
-          {
-            "tipo": "shadowing",
-            "jp": "これは本です。",
-            "furigana": "これはほんです。",
-            "es": "Esto es un libro.",
-            "pausa_ms": 3000,
-            "rate": 0.85,
-            "prompt": "Escucha, pausa 3s, repite."
-          },
-          {
-            "tipo": "produccion",
-            "prompt": "Produce en japonés: 'Aquello es el Fuji.'",
-            "respuesta": "あれは富士山です。",
-            "jp": "あれは富士山です。",
-            "mostrar_texto_antes": false,
-            "rate": 0.8
-          }
-        ]
-      },
-      {
-        "tipo": "errores_comunes",
-        "texto": "Error típico: これ本 / それ傘 sin の. Para pronombre solo: これ. Para adjetivo: この本. Mezclarlos es el fallo #1 de N5."
-      },
-      {
-        "tipo": "cierre",
-        "texto": "Hoy: これ/それ/あれ distancia. Próxima: この/その/あの + nombre. Di 3 veces: これは本です。"
-      }
-    ],
-    "wexdc": true,
-    "clarity": 3,
-    "autoevaluacion": {
-      "explica_no_informa": true,
-      "palabras_explicacion": 405,
-      "listening_puro_incluido": true,
-      "listening_puro_cantidad": 2,
-      "confianza": 9
-    }
-  },
-  {
-    "id": "l-imabi-025",
-    "title": "IMABI 25: こそあど II — この/その/あの",
-    "stage": "IMABI · Beginners I",
-    "minutes": 7,
-    "level": "imabi",
-    "teach": [
-      {
-        "heading": "IMABI 25: こそあど II — この/その/あの",
-        "text": "この/その/あの + nombre: この本 (este libro mío), その本 (ese libro tuyo), あの本 (aquel libro lejano). Nunca van solos.",
-        "examples": [
-          {
-            "jp": "この本は面白いです。",
-            "kana": "このほんはおもしろいです。",
-            "es": "Este libro es interesante."
-          },
-          {
-            "jp": "そのかばんは大きいです。",
-            "kana": "そのかばんはおおきいです。",
-            "es": "Ese bolso es grande."
-          },
-          {
-            "jp": "あの人は田中さんです。",
-            "kana": "あのひとはたなかさんです。",
-            "es": "Aquella persona es Tanaka."
-          }
-        ]
-      }
-    ],
-    "quiz": {
-      "practice": "grammar",
-      "direction": "grammar-es",
-      "ids": [
-        "g-desu",
-        "g-desu-1",
-        "g-desu-2"
-      ]
-    },
-    "secciones": [
-      {
-        "tipo": "gancho",
-        "texto": "Dices これ本 y un japonés no te entiende. Necesitas この本. ¿Cuál es la diferencia entre これ y この? Uno es pronombre, otro adjetivo."
-      },
-      {
-        "tipo": "explicacion",
-        "texto": "この/その/あの son la versión “con nombre” de これ/それ/あれ. Siempre llevan un sustantivo detrás: この本, そのかばん, あの人.\n\nObjetivo: usar この/その/あの + nombre sin confundir con これ/それ/あれ solos.\n\n🧩 Fórmula: 【この/その/あの + Nombre + は + Descripción】\n- この本は面白いです (este libro aquí)\n- そのかばんは大きいです (ese bolso allí cerca de ti)\n- あの人は田中さんです (aquella persona allá lejos)\n\nPiensa en bloques: この necesita compañero (nombre), これ no.\n\n👣 Cómo construirlo (3 pasos):\n1) ¿Pronombre solo? → これ/それ/あれ (IMABI 24)\n2) ¿Con nombre? → この/その/あの + nombre: この本\n3) Añade は + descripción: この本は面白いです\n\n⚖️ Tabla こ vs この:\n| Forma | Tipo | Va con | Ejemplo |\n|---|---|---|---|\n| これ | pronombre | solo | これは本です |\n| この | adjetivo | + nombre | この本は面白いです |\n| それ | pronombre | solo | それは傘です |\n| その | adjetivo | + nombre | そのかばんは大きいです |\n\n💡 Ejemplos desglosados:\n1) この本は面白いです。 (このほんはおもしろいです。) — “Este libro es interesante.” → この本(este libro) + は + 面白いです.\n2) そのかばんは大きいです。 (そのかばんはおおきいです。) — “Ese bolso es grande.” → そのかばん(ese bolso) + は + 大きいです.\n3) あの人は田中さんです。 (あのひとはたなかさんです。) — “Aquella persona es Tanaka.” → あの人(aquella persona) + は + 田中さんです.\n\n🔑 Mini-resumen:\n□ これ/それ/あれ = pronombre solo\n□ この/その/あの = + nombre obligatorio\n□ Misma lógica de distancia: こ cerca mí, そ cerca ti, あ lejos\n\n❌ Error 90%: このは本です (doble partícula). Es この本は, no このは. この ya es adjetivo, no lleva は solo.\n\n💬 Truco offline: di pares: これ→この本, それ→そのかばん, あれ→あの人 3×.\n\n¿Por qué 5 ítems? Domina 2 hoy, resto SRS. Mezcla この/その/あの + escucha.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Si dudas entre ichidan y godan, abre el diccionario y busca el tag: [ichidan] termina en る con vocal previa, [godan] cambia la consonante. Repite en voz alta marcando la partícula para anclar ritmo. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase.",
-        "palabras": 407
-      },
-      {
-        "tipo": "ejemplos",
-        "items": [
-          {
-            "jp": "この本は面白いです。",
-            "furigana": "このほんはおもしろいです。",
-            "romaji": "kono hon wa omoshiroi desu.",
-            "es": "Este libro es interesante.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "そのかばんは大きいです。",
-            "furigana": "そのかばんはおおきいです。",
-            "romaji": "sono kaban wa ookii desu.",
-            "es": "Ese bolso es grande.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "あの人は田中さんです。",
-            "furigana": "あのひとはたなかさんです。",
-            "romaji": "ano hito wa tanaka san desu.",
-            "es": "Aquella persona es Tanaka.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          }
-        ]
-      },
-      {
-        "tipo": "practica",
-        "ejercicios": [
-          {
-            "tipo": "listen_only",
-            "jp": "この本は面白いです。",
-            "furigana": "このほんはおもしろいです。",
-            "es": "Este libro es interesante.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha (texto oculto) y elige.",
-            "respuesta": "この本は面白いです。 — Este libro es interesante."
-          },
-          {
-            "tipo": "listen_only",
-            "jp": "そのかばんは大きいです。",
-            "furigana": "そのかばんはおおきいです。",
-            "es": "Ese bolso es grande.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha y elige.",
-            "respuesta": "そのかばんは大きいです。 — Ese bolso es grande."
-          },
-          {
-            "tipo": "shadowing",
-            "jp": "この本は面白いです。",
-            "furigana": "このほんはおもしろいです。",
-            "es": "Este libro es interesante.",
-            "pausa_ms": 3000,
-            "rate": 0.85,
-            "prompt": "Escucha, pausa 3s, repite."
-          },
-          {
-            "tipo": "produccion",
-            "prompt": "Produce en japonés: 'Aquella persona es Tanaka.'",
-            "respuesta": "あの人は田中さんです。",
-            "jp": "あの人は田中さんです。",
-            "mostrar_texto_antes": false,
-            "rate": 0.8
-          }
-        ]
-      },
-      {
-        "tipo": "errores_comunes",
-        "texto": "Error típico: これ本 / それかばん sin の/この. Recuerda: これ + 名前 es siempre この + 名前. No mezcles."
-      },
-      {
-        "tipo": "cierre",
-        "texto": "Hoy: この/その/あの + nombre. Próxima: ここ/そこ/あそこ lugar. Di 3 veces: この本は面白いです。"
-      }
-    ],
-    "sections": [
-      {
-        "tipo": "gancho",
-        "texto": "Dices これ本 y un japonés no te entiende. Necesitas この本. ¿Cuál es la diferencia entre これ y この? Uno es pronombre, otro adjetivo."
-      },
-      {
-        "tipo": "explicacion",
-        "texto": "この/その/あの son la versión “con nombre” de これ/それ/あれ. Siempre llevan un sustantivo detrás: この本, そのかばん, あの人.\n\nObjetivo: usar この/その/あの + nombre sin confundir con これ/それ/あれ solos.\n\n🧩 Fórmula: 【この/その/あの + Nombre + は + Descripción】\n- この本は面白いです (este libro aquí)\n- そのかばんは大きいです (ese bolso allí cerca de ti)\n- あの人は田中さんです (aquella persona allá lejos)\n\nPiensa en bloques: この necesita compañero (nombre), これ no.\n\n👣 Cómo construirlo (3 pasos):\n1) ¿Pronombre solo? → これ/それ/あれ (IMABI 24)\n2) ¿Con nombre? → この/その/あの + nombre: この本\n3) Añade は + descripción: この本は面白いです\n\n⚖️ Tabla こ vs この:\n| Forma | Tipo | Va con | Ejemplo |\n|---|---|---|---|\n| これ | pronombre | solo | これは本です |\n| この | adjetivo | + nombre | この本は面白いです |\n| それ | pronombre | solo | それは傘です |\n| その | adjetivo | + nombre | そのかばんは大きいです |\n\n💡 Ejemplos desglosados:\n1) この本は面白いです。 (このほんはおもしろいです。) — “Este libro es interesante.” → この本(este libro) + は + 面白いです.\n2) そのかばんは大きいです。 (そのかばんはおおきいです。) — “Ese bolso es grande.” → そのかばん(ese bolso) + は + 大きいです.\n3) あの人は田中さんです。 (あのひとはたなかさんです。) — “Aquella persona es Tanaka.” → あの人(aquella persona) + は + 田中さんです.\n\n🔑 Mini-resumen:\n□ これ/それ/あれ = pronombre solo\n□ この/その/あの = + nombre obligatorio\n□ Misma lógica de distancia: こ cerca mí, そ cerca ti, あ lejos\n\n❌ Error 90%: このは本です (doble partícula). Es この本は, no このは. この ya es adjetivo, no lleva は solo.\n\n💬 Truco offline: di pares: これ→この本, それ→そのかばん, あれ→あの人 3×.\n\n¿Por qué 5 ítems? Domina 2 hoy, resto SRS. Mezcla この/その/あの + escucha.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Si dudas entre ichidan y godan, abre el diccionario y busca el tag: [ichidan] termina en る con vocal previa, [godan] cambia la consonante. Repite en voz alta marcando la partícula para anclar ritmo. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase.",
-        "palabras": 407
-      },
-      {
-        "tipo": "ejemplos",
-        "items": [
-          {
-            "jp": "この本は面白いです。",
-            "furigana": "このほんはおもしろいです。",
-            "romaji": "kono hon wa omoshiroi desu.",
-            "es": "Este libro es interesante.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "そのかばんは大きいです。",
-            "furigana": "そのかばんはおおきいです。",
-            "romaji": "sono kaban wa ookii desu.",
-            "es": "Ese bolso es grande.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "あの人は田中さんです。",
-            "furigana": "あのひとはたなかさんです。",
-            "romaji": "ano hito wa tanaka san desu.",
-            "es": "Aquella persona es Tanaka.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          }
-        ]
-      },
-      {
-        "tipo": "practica",
-        "ejercicios": [
-          {
-            "tipo": "listen_only",
-            "jp": "この本は面白いです。",
-            "furigana": "このほんはおもしろいです。",
-            "es": "Este libro es interesante.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha (texto oculto) y elige.",
-            "respuesta": "この本は面白いです。 — Este libro es interesante."
-          },
-          {
-            "tipo": "listen_only",
-            "jp": "そのかばんは大きいです。",
-            "furigana": "そのかばんはおおきいです。",
-            "es": "Ese bolso es grande.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha y elige.",
-            "respuesta": "そのかばんは大きいです。 — Ese bolso es grande."
-          },
-          {
-            "tipo": "shadowing",
-            "jp": "この本は面白いです。",
-            "furigana": "このほんはおもしろいです。",
-            "es": "Este libro es interesante.",
-            "pausa_ms": 3000,
-            "rate": 0.85,
-            "prompt": "Escucha, pausa 3s, repite."
-          },
-          {
-            "tipo": "produccion",
-            "prompt": "Produce en japonés: 'Aquella persona es Tanaka.'",
-            "respuesta": "あの人は田中さんです。",
-            "jp": "あの人は田中さんです。",
-            "mostrar_texto_antes": false,
-            "rate": 0.8
-          }
-        ]
-      },
-      {
-        "tipo": "errores_comunes",
-        "texto": "Error típico: これ本 / それかばん sin の/この. Recuerda: これ + 名前 es siempre この + 名前. No mezcles."
-      },
-      {
-        "tipo": "cierre",
-        "texto": "Hoy: この/その/あの + nombre. Próxima: ここ/そこ/あそこ lugar. Di 3 veces: この本は面白いです。"
-      }
-    ],
-    "wexdc": true,
-    "clarity": 3,
-    "autoevaluacion": {
-      "explica_no_informa": true,
-      "palabras_explicacion": 407,
-      "listening_puro_incluido": true,
-      "listening_puro_cantidad": 2,
-      "confianza": 9
-    }
-  },
-  {
-    "id": "l-imabi-026",
-    "title": "IMABI 26: こそあど III — ここ/そこ/あそこ",
-    "stage": "IMABI · Beginners I",
-    "minutes": 7,
-    "level": "imabi",
-    "teach": [
-      {
-        "heading": "IMABI 26: こそあど III — ここ/そこ/あそこ",
-        "text": "Lugar: ここ (aquí), そこ (ahí), あそこ (allá). Pregunta どこ (¿dónde?). Con に/で: ここにいます (estoy aquí).",
-        "examples": [
-          {
-            "jp": "ここは教室です。",
-            "kana": "ここはきょうしつです。",
-            "es": "Aquí es un aula."
-          },
-          {
-            "jp": "そこに本があります。",
-            "kana": "そこにほんがあります。",
-            "es": "Ahí hay un libro."
-          },
-          {
-            "jp": "あそこは駅です。",
-            "kana": "あそこはえきです。",
-            "es": "Allá es la estación."
-          }
-        ]
-      }
-    ],
-    "quiz": {
-      "practice": "grammar",
-      "direction": "grammar-es",
-      "ids": [
-        "g-desu",
-        "g-desu-1",
-        "g-desu-2"
-      ]
-    },
-    "secciones": [
-      {
-        "tipo": "gancho",
-        "texto": "Preguntas ¿dónde está? y respondes ここ. Pero usas ここにいます vs ここで食べます y dudas: ¿に o で?"
-      },
-      {
-        "tipo": "explicacion",
-        "texto": "ここ/そこ/あそこ marcan lugar, como これ/それ/あれ pero para sitio. どこ es la pregunta.\n\nObjetivo: usar ここ/そこ/あそこ con に (existencia) vs で (acción) correctamente.\n\n🧩 Fórmula:\n- 【ここ/そこ/あそこ は + Lugar】 → ここは教室です\n- 【ここに + ある/いる】 (existencia) → そこに本があります\n- 【ここで + verbo acción】 → ここで勉強します\n- Pregunta: どこですか / どこにありますか\n\nPiensa en bloques: lugar + に/で según si el verbo es estar o hacer.\n\n👣 Cómo construirlo (3 pasos):\n1) Elige lugar: ここ (aquí), そこ (ahí), あそこ (allá), どこ (dónde)\n2) ¿Existencia (ある/いる)? Usa に: ここに猫がいます\n3) ¿Acción (食べる/勉強)? Usa で: ここで食べます\n\n⚖️ Tabla lugar:\n| Forma | Significado | Ejemplo |\n|---|---|---|\n| ここ | aquí | ここは教室です |\n| そこ | ahí | そこに本があります |\n| あそこ | allá | あそこは駅です |\n| どこ | dónde | どこですか |\n\n💡 Ejemplos desglosados:\n1) ここは教室です。 (ここはきょうしつです。) — “Aquí es aula.” → ここ(aquí) + は + 教室です.\n2) そこに本があります。 (そこにほんがあります。) — “Ahí hay libro.” → そこに(ahí + に) + 本があります.\n3) あそこは駅です。 (あそこはえきです。) — “Allá es estación.” → あそこ(allá) + は + 駅です.\n\n🔑 Mini-resumen:\n□ ここ/そこ/あそこ = lugar; どこ = pregunta\n□ に para existencia (ある/いる), で para acción\n□ ここは... vs ここに... vs ここで... mira el verbo\n\n❌ Error 90%: ここに勉強します (mal, acción lleva で). Di ここで勉強します. Y どこは (mal) → どこですか (pregunta).\n\n💬 Truco offline: señala 3 lugares: ここ (tu sitio), そこ (su sitio), あそこ (puerta). Di cada uno con に/で.\n\n¿Por qué 5 ítems? Domina 2 hoy, resto SRS. Mezcla ここ/そこ/あそこ + escucha.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Si dudas entre ichidan y godan, abre el diccionario y busca el tag: [ichidan] termina en る con vocal previa, [godan] cambia la consonante. Repite en voz alta marcando la partícula para anclar ritmo. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase.",
-        "palabras": 408
-      },
-      {
-        "tipo": "ejemplos",
-        "items": [
-          {
-            "jp": "ここは教室です。",
-            "furigana": "ここはきょうしつです。",
-            "romaji": "koko wa kyoushitsu desu.",
-            "es": "Aquí es un aula.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "そこに本があります。",
-            "furigana": "そこにほんがあります。",
-            "romaji": "soko ni hon ga arimasu.",
-            "es": "Ahí hay un libro.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "あそこは駅です。",
-            "furigana": "あそこはえきです。",
-            "romaji": "asoko wa eki desu.",
-            "es": "Allá es la estación.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          }
-        ]
-      },
-      {
-        "tipo": "practica",
-        "ejercicios": [
-          {
-            "tipo": "listen_only",
-            "jp": "ここは教室です。",
-            "furigana": "ここはきょうしつです。",
-            "es": "Aquí es un aula.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha (texto oculto) y elige.",
-            "respuesta": "ここは教室です。 — Aquí es un aula."
-          },
-          {
-            "tipo": "listen_only",
-            "jp": "そこに本があります。",
-            "furigana": "そこにほんがあります。",
-            "es": "Ahí hay un libro.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha y elige.",
-            "respuesta": "そこに本があります。 — Ahí hay un libro."
-          },
-          {
-            "tipo": "shadowing",
-            "jp": "ここは教室です。",
-            "furigana": "ここはきょうしつです。",
-            "es": "Aquí es un aula.",
-            "pausa_ms": 3000,
-            "rate": 0.85,
-            "prompt": "Escucha, pausa 3s, repite."
-          },
-          {
-            "tipo": "produccion",
-            "prompt": "Produce en japonés: 'Allá es la estación.'",
-            "respuesta": "あそこは駅です。",
-            "jp": "あそこは駅です。",
-            "mostrar_texto_antes": false,
-            "rate": 0.8
-          }
-        ]
-      },
-      {
-        "tipo": "errores_comunes",
-        "texto": "Error típico: confundir に/で con lugar. Recuerda: に = existe ahí (ある/いる), で = haces ahí (食べる/勉強). No digas ここに食べます."
-      },
-      {
-        "tipo": "cierre",
-        "texto": "Hoy: ここ/そこ/あそこ lugar + に/で. Próxima: と para 'y' cerrado. Di 3 veces: ここに本があります。"
-      }
-    ],
-    "sections": [
-      {
-        "tipo": "gancho",
-        "texto": "Preguntas ¿dónde está? y respondes ここ. Pero usas ここにいます vs ここで食べます y dudas: ¿に o で?"
-      },
-      {
-        "tipo": "explicacion",
-        "texto": "ここ/そこ/あそこ marcan lugar, como これ/それ/あれ pero para sitio. どこ es la pregunta.\n\nObjetivo: usar ここ/そこ/あそこ con に (existencia) vs で (acción) correctamente.\n\n🧩 Fórmula:\n- 【ここ/そこ/あそこ は + Lugar】 → ここは教室です\n- 【ここに + ある/いる】 (existencia) → そこに本があります\n- 【ここで + verbo acción】 → ここで勉強します\n- Pregunta: どこですか / どこにありますか\n\nPiensa en bloques: lugar + に/で según si el verbo es estar o hacer.\n\n👣 Cómo construirlo (3 pasos):\n1) Elige lugar: ここ (aquí), そこ (ahí), あそこ (allá), どこ (dónde)\n2) ¿Existencia (ある/いる)? Usa に: ここに猫がいます\n3) ¿Acción (食べる/勉強)? Usa で: ここで食べます\n\n⚖️ Tabla lugar:\n| Forma | Significado | Ejemplo |\n|---|---|---|\n| ここ | aquí | ここは教室です |\n| そこ | ahí | そこに本があります |\n| あそこ | allá | あそこは駅です |\n| どこ | dónde | どこですか |\n\n💡 Ejemplos desglosados:\n1) ここは教室です。 (ここはきょうしつです。) — “Aquí es aula.” → ここ(aquí) + は + 教室です.\n2) そこに本があります。 (そこにほんがあります。) — “Ahí hay libro.” → そこに(ahí + に) + 本があります.\n3) あそこは駅です。 (あそこはえきです。) — “Allá es estación.” → あそこ(allá) + は + 駅です.\n\n🔑 Mini-resumen:\n□ ここ/そこ/あそこ = lugar; どこ = pregunta\n□ に para existencia (ある/いる), で para acción\n□ ここは... vs ここに... vs ここで... mira el verbo\n\n❌ Error 90%: ここに勉強します (mal, acción lleva で). Di ここで勉強します. Y どこは (mal) → どこですか (pregunta).\n\n💬 Truco offline: señala 3 lugares: ここ (tu sitio), そこ (su sitio), あそこ (puerta). Di cada uno con に/で.\n\n¿Por qué 5 ítems? Domina 2 hoy, resto SRS. Mezcla ここ/そこ/あそこ + escucha.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Si dudas entre ichidan y godan, abre el diccionario y busca el tag: [ichidan] termina en る con vocal previa, [godan] cambia la consonante. Repite en voz alta marcando la partícula para anclar ritmo. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase.",
-        "palabras": 408
-      },
-      {
-        "tipo": "ejemplos",
-        "items": [
-          {
-            "jp": "ここは教室です。",
-            "furigana": "ここはきょうしつです。",
-            "romaji": "koko wa kyoushitsu desu.",
-            "es": "Aquí es un aula.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "そこに本があります。",
-            "furigana": "そこにほんがあります。",
-            "romaji": "soko ni hon ga arimasu.",
-            "es": "Ahí hay un libro.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "あそこは駅です。",
-            "furigana": "あそこはえきです。",
-            "romaji": "asoko wa eki desu.",
-            "es": "Allá es la estación.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          }
-        ]
-      },
-      {
-        "tipo": "practica",
-        "ejercicios": [
-          {
-            "tipo": "listen_only",
-            "jp": "ここは教室です。",
-            "furigana": "ここはきょうしつです。",
-            "es": "Aquí es un aula.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha (texto oculto) y elige.",
-            "respuesta": "ここは教室です。 — Aquí es un aula."
-          },
-          {
-            "tipo": "listen_only",
-            "jp": "そこに本があります。",
-            "furigana": "そこにほんがあります。",
-            "es": "Ahí hay un libro.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha y elige.",
-            "respuesta": "そこに本があります。 — Ahí hay un libro."
-          },
-          {
-            "tipo": "shadowing",
-            "jp": "ここは教室です。",
-            "furigana": "ここはきょうしつです。",
-            "es": "Aquí es un aula.",
-            "pausa_ms": 3000,
-            "rate": 0.85,
-            "prompt": "Escucha, pausa 3s, repite."
-          },
-          {
-            "tipo": "produccion",
-            "prompt": "Produce en japonés: 'Allá es la estación.'",
-            "respuesta": "あそこは駅です。",
-            "jp": "あそこは駅です。",
-            "mostrar_texto_antes": false,
-            "rate": 0.8
-          }
-        ]
-      },
-      {
-        "tipo": "errores_comunes",
-        "texto": "Error típico: confundir に/で con lugar. Recuerda: に = existe ahí (ある/いる), で = haces ahí (食べる/勉強). No digas ここに食べます."
-      },
-      {
-        "tipo": "cierre",
-        "texto": "Hoy: ここ/そこ/あそこ lugar + に/で. Próxima: と para 'y' cerrado. Di 3 veces: ここに本があります。"
-      }
-    ],
-    "wexdc": true,
-    "clarity": 3,
-    "autoevaluacion": {
-      "explica_no_informa": true,
-      "palabras_explicacion": 408,
-      "listening_puro_incluido": true,
-      "listening_puro_cantidad": 2,
-      "confianza": 9
-    }
-  },
-  {
-    "id": "l-imabi-028",
-    "title": "IMABI 28: の I — posesión y descripción 私の本",
-    "stage": "IMABI · Beginners I",
-    "minutes": 8,
-    "level": "imabi",
-    "teach": [
-      {
-        "heading": "IMABI 28: の I — posesión y descripción 私の本",
-        "text": "の une dos nombres: AのB = B de A. 私の本 (mi libro), 日本の車 (coche japonés), 緑のカバン (bolso verde).",
-        "examples": [
-          {
-            "jp": "これは私の本です。",
-            "kana": "これはわたしのほんです。",
-            "es": "Este es mi libro."
-          },
-          {
-            "jp": "あれは日本の車です。",
-            "kana": "あれはにほんのくるまです。",
-            "es": "Aquello es un coche japonés."
-          },
-          {
-            "jp": "緑のカバンが好きです。",
-            "kana": "みどりのかばんがすきです。",
-            "es": "Me gusta el bolso verde."
-          }
-        ]
-      }
-    ],
-    "quiz": {
-      "practice": "grammar",
-      "direction": "grammar-es",
-      "ids": [
-        "g-desu",
-        "g-desu-1",
-        "g-desu-2"
-      ]
-    },
-    "secciones": [
-      {
-        "tipo": "gancho",
-        "texto": "Te dicen 私本 y no suena japonés. ¿Dónde va の? Sin の no marcas posesión ni tipo."
-      },
-      {
-        "tipo": "explicacion",
-        "texto": "の es el pegamento entre nombres: AのB conecta B a A. Es posesión (私の本 = mi libro), origen/tipo (日本の車 = coche de Japón), descripción adjetival (緑のカバン = bolso verde).\n\nObjetivo: usar AのB sin invertir el orden español (al revés que español).\n\n🧩 Fórmula: 【A の B】 → modifica B con A\n- 私 (yo) の 本 (libro) = mi libro (no 私本)\n- 日本 (Japón) の 車 (coche) = coche japonés\n- 緑 (verde) の カバン (bolso) = bolso verde\n\nPiensa en bloques: el que está ANTES de の describe al que está DESPUÉS. Al revés que español.\n\n👣 Cómo construirlo (3 pasos):\n1) ¿Qué poseedor/descriptor? → A (私, 日本, 緑)\n2) Añade の entre ambos: AのB\n3) Cierra con は/が/を: 私の本は新しいです, 日本の車が好きです\n\n⚖️ Tabla の I:\n| Tipo | Patrón | Ejemplo | Traducción |\n|---|---|---|---|\n| Posesión | Personaの物 | 私の本 | mi libro |\n| Origen | Lugarの物 | 日本の車 | coche japonés |\n| Atributo | Sustの物 | 緑のカバン | bolso verde |\n| Cadena | AのBのC | 私の友達の車 | coche de mi amigo |\n\n💡 Ejemplos desglosados:\n1) これは私の本です。 (これはわたしのほんです。) — “Este es mi libro.” → これ(esto) + は + 私の本(→ 私の + 本).\n2) あれは日本の車です。 (あれはにほんのくるまです。) — “Aquello es coche japonés.” → あれ + は + 日本の車(→ 日本の + 車).\n3) 緑のカバンが好きです。 (みどりのかばんがすきです。) — “Me gusta el bolso verde.” → 緑のカバン(→ 緑の + カバン) + が + 好きです.\n\n🔑 Mini-resumen:\n□ AのB: A describe a B, orden inverso al español\n□ Nunca 私本, siempre 私の本\n□ Se puede encadenar: 私の友達の車\n\n❌ Error 90%: decir 私は本です para “mi libro” (significa “yo soy un libro”). Para posesión siempre 私の本です. Confundir の (posesión) con は/が (tema/sujeto).\n\n💬 Truco offline: señala 3 cosas y di 私の○○, あなたの○○, あの人の○○ 3×. Active recall. ¿Por qué 5 ítems? Domina 2 hoy, resto SRS.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Repite en voz alta marcando la partícula para anclar ritmo. En Cuba practica señalando objetos reales: mi libro, tu libro, su libro. Repasa el ejemplo en voz alta y crea tu propia frase.",
-        "palabras": 407
-      },
-      {
-        "tipo": "ejemplos",
-        "items": [
-          {
-            "jp": "これは私の本です。",
-            "furigana": "これはわたしのほんです。",
-            "romaji": "kore wa watashi no hon desu.",
-            "es": "Este es mi libro.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "あれは日本の車です。",
-            "furigana": "あれはにほんのくるまです。",
-            "romaji": "are wa nihon no kuruma desu.",
-            "es": "Aquello es un coche japonés.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "緑のカバンが好きです。",
-            "furigana": "みどりのかばんがすきです。",
-            "romaji": "midori no kaban ga suki desu.",
-            "es": "Me gusta el bolso verde.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          }
-        ]
-      },
-      {
-        "tipo": "practica",
-        "ejercicios": [
-          {
-            "tipo": "listen_only",
-            "jp": "これは私の本です。",
-            "furigana": "これはわたしのほんです。",
-            "es": "Este es mi libro.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha (texto oculto) y elige.",
-            "respuesta": "これは私の本です。 — Este es mi libro."
-          },
-          {
-            "tipo": "listen_only",
-            "jp": "あれは日本の車です。",
-            "furigana": "あれはにほんのくるまです。",
-            "es": "Aquello es un coche japonés.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha y elige.",
-            "respuesta": "あれは日本の車です。 — Aquello es un coche japonés."
-          },
-          {
-            "tipo": "shadowing",
-            "jp": "これは私の本です。",
-            "furigana": "これはわたしのほんです。",
-            "es": "Este es mi libro.",
-            "pausa_ms": 3000,
-            "rate": 0.85,
-            "prompt": "Escucha, pausa 3s, repite."
-          },
-          {
-            "tipo": "produccion",
-            "prompt": "Produce en japonés: 'Me gusta el bolso verde.'",
-            "respuesta": "緑のカバンが好きです。",
-            "jp": "緑のカバンが好きです。",
-            "mostrar_texto_antes": false,
-            "rate": 0.8
-          }
-        ]
-      },
-      {
-        "tipo": "errores_comunes",
-        "texto": "Error típico: omitir の → 私本, 日本車 sin の (solo compuestos lexicalizados llevan a veces). Para aprendiz, siempre の. Otro: 私は本 para 'mi libro' — es 'yo soy libro'."
-      },
-      {
-        "tipo": "cierre",
-        "texto": "Hoy: AのB posesión/tipo. Próxima: て afirmativo para unir frases. Di 3 veces: これは私の本です。"
-      }
-    ],
-    "sections": [
-      {
-        "tipo": "gancho",
-        "texto": "Te dicen 私本 y no suena japonés. ¿Dónde va の? Sin の no marcas posesión ni tipo."
-      },
-      {
-        "tipo": "explicacion",
-        "texto": "の es el pegamento entre nombres: AのB conecta B a A. Es posesión (私の本 = mi libro), origen/tipo (日本の車 = coche de Japón), descripción adjetival (緑のカバン = bolso verde).\n\nObjetivo: usar AのB sin invertir el orden español (al revés que español).\n\n🧩 Fórmula: 【A の B】 → modifica B con A\n- 私 (yo) の 本 (libro) = mi libro (no 私本)\n- 日本 (Japón) の 車 (coche) = coche japonés\n- 緑 (verde) の カバン (bolso) = bolso verde\n\nPiensa en bloques: el que está ANTES de の describe al que está DESPUÉS. Al revés que español.\n\n👣 Cómo construirlo (3 pasos):\n1) ¿Qué poseedor/descriptor? → A (私, 日本, 緑)\n2) Añade の entre ambos: AのB\n3) Cierra con は/が/を: 私の本は新しいです, 日本の車が好きです\n\n⚖️ Tabla の I:\n| Tipo | Patrón | Ejemplo | Traducción |\n|---|---|---|---|\n| Posesión | Personaの物 | 私の本 | mi libro |\n| Origen | Lugarの物 | 日本の車 | coche japonés |\n| Atributo | Sustの物 | 緑のカバン | bolso verde |\n| Cadena | AのBのC | 私の友達の車 | coche de mi amigo |\n\n💡 Ejemplos desglosados:\n1) これは私の本です。 (これはわたしのほんです。) — “Este es mi libro.” → これ(esto) + は + 私の本(→ 私の + 本).\n2) あれは日本の車です。 (あれはにほんのくるまです。) — “Aquello es coche japonés.” → あれ + は + 日本の車(→ 日本の + 車).\n3) 緑のカバンが好きです。 (みどりのかばんがすきです。) — “Me gusta el bolso verde.” → 緑のカバン(→ 緑の + カバン) + が + 好きです.\n\n🔑 Mini-resumen:\n□ AのB: A describe a B, orden inverso al español\n□ Nunca 私本, siempre 私の本\n□ Se puede encadenar: 私の友達の車\n\n❌ Error 90%: decir 私は本です para “mi libro” (significa “yo soy un libro”). Para posesión siempre 私の本です. Confundir の (posesión) con は/が (tema/sujeto).\n\n💬 Truco offline: señala 3 cosas y di 私の○○, あなたの○○, あの人の○○ 3×. Active recall. ¿Por qué 5 ítems? Domina 2 hoy, resto SRS.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Repite en voz alta marcando la partícula para anclar ritmo. En Cuba practica señalando objetos reales: mi libro, tu libro, su libro. Repasa el ejemplo en voz alta y crea tu propia frase.",
-        "palabras": 407
-      },
-      {
-        "tipo": "ejemplos",
-        "items": [
-          {
-            "jp": "これは私の本です。",
-            "furigana": "これはわたしのほんです。",
-            "romaji": "kore wa watashi no hon desu.",
-            "es": "Este es mi libro.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "あれは日本の車です。",
-            "furigana": "あれはにほんのくるまです。",
-            "romaji": "are wa nihon no kuruma desu.",
-            "es": "Aquello es un coche japonés.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "緑のカバンが好きです。",
-            "furigana": "みどりのかばんがすきです。",
-            "romaji": "midori no kaban ga suki desu.",
-            "es": "Me gusta el bolso verde.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          }
-        ]
-      },
-      {
-        "tipo": "practica",
-        "ejercicios": [
-          {
-            "tipo": "listen_only",
-            "jp": "これは私の本です。",
-            "furigana": "これはわたしのほんです。",
-            "es": "Este es mi libro.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha (texto oculto) y elige.",
-            "respuesta": "これは私の本です。 — Este es mi libro."
-          },
-          {
-            "tipo": "listen_only",
-            "jp": "あれは日本の車です。",
-            "furigana": "あれはにほんのくるまです。",
-            "es": "Aquello es un coche japonés.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha y elige.",
-            "respuesta": "あれは日本の車です。 — Aquello es un coche japonés."
-          },
-          {
-            "tipo": "shadowing",
-            "jp": "これは私の本です。",
-            "furigana": "これはわたしのほんです。",
-            "es": "Este es mi libro.",
-            "pausa_ms": 3000,
-            "rate": 0.85,
-            "prompt": "Escucha, pausa 3s, repite."
-          },
-          {
-            "tipo": "produccion",
-            "prompt": "Produce en japonés: 'Me gusta el bolso verde.'",
-            "respuesta": "緑のカバンが好きです。",
-            "jp": "緑のカバンが好きです。",
-            "mostrar_texto_antes": false,
-            "rate": 0.8
-          }
-        ]
-      },
-      {
-        "tipo": "errores_comunes",
-        "texto": "Error típico: omitir の → 私本, 日本車 sin の (solo compuestos lexicalizados llevan a veces). Para aprendiz, siempre の. Otro: 私は本 para 'mi libro' — es 'yo soy libro'."
-      },
-      {
-        "tipo": "cierre",
-        "texto": "Hoy: AのB posesión/tipo. Próxima: て afirmativo para unir frases. Di 3 veces: これは私の本です。"
-      }
-    ],
-    "wexdc": true,
-    "clarity": 3,
-    "autoevaluacion": {
-      "explica_no_informa": true,
-      "palabras_explicacion": 407,
-      "listening_puro_incluido": true,
-      "listening_puro_cantidad": 2,
-      "confianza": 9
-    }
-  },
-  {
-    "id": "l-imabi-034",
-    "title": "IMABI 34: Partícula final て — おい,ね,よ con て",
-    "stage": "IMABI · Beginners I",
-    "minutes": 7,
-    "level": "imabi",
-    "teach": [
-      {
-        "heading": "IMABI 34: Partícula final て — おい,ね,よ con て",
-        "text": "て final suaviza órdenes/peticiones: 見て (mira, venga), 待って (espera), ちょっと見て (míralo un momento). No es conjunción, es tono.",
-        "examples": [
-          {
-            "jp": "ちょっと待って。",
-            "kana": "ちょっとまって。",
-            "es": "Espera un momento."
-          },
-          {
-            "jp": "見て、この写真。",
-            "kana": "みて、このしゃしん。",
-            "es": "Mira esta foto."
-          },
-          {
-            "jp": "頑張って。",
-            "kana": "がんばって。",
-            "es": "¡Ánimo! (Esfuérzate)."
-          }
-        ]
-      }
-    ],
-    "quiz": {
-      "practice": "grammar",
-      "direction": "grammar-es",
-      "ids": [
-        "g-desu",
-        "g-desu-1",
-        "g-desu-2"
-      ]
-    },
-    "secciones": [
-      {
-        "tipo": "gancho",
-        "texto": "Oyes 見て y 待って y parecen て-form a medias. ¿Es orden? ¿Es petición amable? Sin て final no pillas el tono."
-      },
-      {
-        "tipo": "explicacion",
-        "texto": "て como partícula final convierte el verbo en una interjección blanda: invita, llama atención, anima. No une frases (eso es て conjuntivo IMABI 33), solo cierra con feeling.\n\nObjetivo: usar Verbo-て solo para llamar o pedir suavemente.\n\n🧩 Fórmula: 【Verbo て-form solo】 → 見て, 待って, 頑張って, 聞いて\nVariantes: てね (confirmación dulce), てよ (énfasis), てさ (casual)\n- 見て (mira, oye)\n- ちょっと待って (espera un poco — petición)\n- 見てよ (¡mira pues!)\n\nPiensa en bloques: て deja la frase abierta, esperando reacción.\n\n👣 Cómo construirlo (3 pasos):\n1) Pon verbo en て-form: 見る→見て, 待つ→待って, 頑張る→頑張って\n2) Úsalo solo, sin nada después: 見て。\n3) Añade tono: ね/よ/さ si quieres matizar: 見てね, 待ってよ\n\n⚖️ Tabla て final:\n| Base | て-form | Como final | Matiz |\n|---|---|---|---|\n| 見る | 見て | 見て、この写真 | “Mira” (llamada) |\n| 待つ | 待って | ちょっと待って | “Espera” (suave) |\n| 頑張る | 頑張って | 頑張ってね | “Ánimo” |\n| 聞く | 聞いて | 聞いてよ | “Escucha” (insiste) |\n\n💡 Ejemplos desglosados:\n1) ちょっと待って。 (ちょっとまって。) — “Espera un momento.” → ちょっと(un poco) + 待って(espera, て-form).\n2) 見て、この写真。 (みて、このしゃしん。) — “Mira esta foto.” → 見て(mira) + この写真.\n3) 頑張って。 (がんばって。) — “¡Ánimo!” → 頑張って(esfuérzate, forma fija).\n\n🔑 Mini-resumen:\n□ て solo = petición/llamada blanda, no orden militar (eso es ～なさい/～ろ)\n□ No confunda con て que une: 食べて寝る vs 食べて。(uno une, otro cierra)\n□ Con ね/よ/ねぇ suaviza más: 待ってね\n\n❌ Error 90%: usar て final en keigo con jefe (muy casual). Usa 少々お待ちください. て final es entre pares/amigos/familia.\n\n💬 Truco offline: di 見て→見てね→見てよ cambiando tono 3×. Active recall. ¿Por qué 5 ítems? Domina 2 hoy, resto SRS.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Repite en voz alta marcando la partícula para anclar ritmo. En Cuba practica señalando objetos reales: mi libro, tu libro, su libro. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase.",
-        "palabras": 408
-      },
-      {
-        "tipo": "ejemplos",
-        "items": [
-          {
-            "jp": "ちょっと待って。",
-            "furigana": "ちょっとまって。",
-            "romaji": "chotto matte.",
-            "es": "Espera un momento.",
-            "pitch_accent": "Atamadaka",
-            "rate": 0.9
-          },
-          {
-            "jp": "見て、この写真。",
-            "furigana": "みて、このしゃしん。",
-            "romaji": "mite, kono shashin.",
-            "es": "Mira esta foto.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "頑張って。",
-            "furigana": "がんばって。",
-            "romaji": "ganbatte.",
-            "es": "¡Ánimo!",
-            "pitch_accent": "Heiban",
-            "rate": 0.9
-          }
-        ]
-      },
-      {
-        "tipo": "practica",
-        "ejercicios": [
-          {
-            "tipo": "listen_only",
-            "jp": "ちょっと待って。",
-            "furigana": "ちょっとまって。",
-            "es": "Espera un momento.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha (texto oculto) y elige.",
-            "respuesta": "ちょっと待って。 — Espera un momento."
-          },
-          {
-            "tipo": "listen_only",
-            "jp": "見て、この写真。",
-            "furigana": "みて、このしゃしん。",
-            "es": "Mira esta foto.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha y elige.",
-            "respuesta": "見て、この写真。 — Mira esta foto."
-          },
-          {
-            "tipo": "shadowing",
-            "jp": "ちょっと待って。",
-            "furigana": "ちょっとまって。",
-            "es": "Espera un momento.",
-            "pausa_ms": 3000,
-            "rate": 0.85,
-            "prompt": "Escucha, pausa 3s, repite."
-          },
-          {
-            "tipo": "produccion",
-            "prompt": "Produce en japonés: '¡Mira esta foto!'",
-            "respuesta": "見て、この写真。",
-            "jp": "見て、この写真。",
-            "mostrar_texto_antes": false,
-            "rate": 0.8
-          }
-        ]
-      },
-      {
-        "tipo": "errores_comunes",
-        "texto": "Error típico: confundir て final (petición) con て conjuntivo (y luego). Si hay verbo después, es conjunción: 食べて飲む. Si termina ahí, es final: 食べて。"
-      },
-      {
-        "tipo": "cierre",
-        "texto": "Hoy: て final para llamar suavemente. Próxima: なくて/ないで negativo con て. Di 3 veces: ちょっと待って。"
-      }
-    ],
-    "sections": [
-      {
-        "tipo": "gancho",
-        "texto": "Oyes 見て y 待って y parecen て-form a medias. ¿Es orden? ¿Es petición amable? Sin て final no pillas el tono."
-      },
-      {
-        "tipo": "explicacion",
-        "texto": "て como partícula final convierte el verbo en una interjección blanda: invita, llama atención, anima. No une frases (eso es て conjuntivo IMABI 33), solo cierra con feeling.\n\nObjetivo: usar Verbo-て solo para llamar o pedir suavemente.\n\n🧩 Fórmula: 【Verbo て-form solo】 → 見て, 待って, 頑張って, 聞いて\nVariantes: てね (confirmación dulce), てよ (énfasis), てさ (casual)\n- 見て (mira, oye)\n- ちょっと待って (espera un poco — petición)\n- 見てよ (¡mira pues!)\n\nPiensa en bloques: て deja la frase abierta, esperando reacción.\n\n👣 Cómo construirlo (3 pasos):\n1) Pon verbo en て-form: 見る→見て, 待つ→待って, 頑張る→頑張って\n2) Úsalo solo, sin nada después: 見て。\n3) Añade tono: ね/よ/さ si quieres matizar: 見てね, 待ってよ\n\n⚖️ Tabla て final:\n| Base | て-form | Como final | Matiz |\n|---|---|---|---|\n| 見る | 見て | 見て、この写真 | “Mira” (llamada) |\n| 待つ | 待って | ちょっと待って | “Espera” (suave) |\n| 頑張る | 頑張って | 頑張ってね | “Ánimo” |\n| 聞く | 聞いて | 聞いてよ | “Escucha” (insiste) |\n\n💡 Ejemplos desglosados:\n1) ちょっと待って。 (ちょっとまって。) — “Espera un momento.” → ちょっと(un poco) + 待って(espera, て-form).\n2) 見て、この写真。 (みて、このしゃしん。) — “Mira esta foto.” → 見て(mira) + この写真.\n3) 頑張って。 (がんばって。) — “¡Ánimo!” → 頑張って(esfuérzate, forma fija).\n\n🔑 Mini-resumen:\n□ て solo = petición/llamada blanda, no orden militar (eso es ～なさい/～ろ)\n□ No confunda con て que une: 食べて寝る vs 食べて。(uno une, otro cierra)\n□ Con ね/よ/ねぇ suaviza más: 待ってね\n\n❌ Error 90%: usar て final en keigo con jefe (muy casual). Usa 少々お待ちください. て final es entre pares/amigos/familia.\n\n💬 Truco offline: di 見て→見てね→見てよ cambiando tono 3×. Active recall. ¿Por qué 5 ítems? Domina 2 hoy, resto SRS.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Repite en voz alta marcando la partícula para anclar ritmo. En Cuba practica señalando objetos reales: mi libro, tu libro, su libro. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase.",
-        "palabras": 408
-      },
-      {
-        "tipo": "ejemplos",
-        "items": [
-          {
-            "jp": "ちょっと待って。",
-            "furigana": "ちょっとまって。",
-            "romaji": "chotto matte.",
-            "es": "Espera un momento.",
-            "pitch_accent": "Atamadaka",
-            "rate": 0.9
-          },
-          {
-            "jp": "見て、この写真。",
-            "furigana": "みて、このしゃしん。",
-            "romaji": "mite, kono shashin.",
-            "es": "Mira esta foto.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "頑張って。",
-            "furigana": "がんばって。",
-            "romaji": "ganbatte.",
-            "es": "¡Ánimo!",
-            "pitch_accent": "Heiban",
-            "rate": 0.9
-          }
-        ]
-      },
-      {
-        "tipo": "practica",
-        "ejercicios": [
-          {
-            "tipo": "listen_only",
-            "jp": "ちょっと待って。",
-            "furigana": "ちょっとまって。",
-            "es": "Espera un momento.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha (texto oculto) y elige.",
-            "respuesta": "ちょっと待って。 — Espera un momento."
-          },
-          {
-            "tipo": "listen_only",
-            "jp": "見て、この写真。",
-            "furigana": "みて、このしゃしん。",
-            "es": "Mira esta foto.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha y elige.",
-            "respuesta": "見て、この写真。 — Mira esta foto."
-          },
-          {
-            "tipo": "shadowing",
-            "jp": "ちょっと待って。",
-            "furigana": "ちょっとまって。",
-            "es": "Espera un momento.",
-            "pausa_ms": 3000,
-            "rate": 0.85,
-            "prompt": "Escucha, pausa 3s, repite."
-          },
-          {
-            "tipo": "produccion",
-            "prompt": "Produce en japonés: '¡Mira esta foto!'",
-            "respuesta": "見て、この写真。",
-            "jp": "見て、この写真。",
-            "mostrar_texto_antes": false,
-            "rate": 0.8
-          }
-        ]
-      },
-      {
-        "tipo": "errores_comunes",
-        "texto": "Error típico: confundir て final (petición) con て conjuntivo (y luego). Si hay verbo después, es conjunción: 食べて飲む. Si termina ahí, es final: 食べて。"
-      },
-      {
-        "tipo": "cierre",
-        "texto": "Hoy: て final para llamar suavemente. Próxima: なくて/ないで negativo con て. Di 3 veces: ちょっと待って。"
-      }
-    ],
-    "wexdc": true,
-    "clarity": 3,
-    "autoevaluacion": {
-      "explica_no_informa": true,
-      "palabras_explicacion": 408,
-      "listening_puro_incluido": true,
-      "listening_puro_cantidad": 2,
-      "confianza": 9
-    }
-  },
-  {
-    "id": "l-imabi-035",
-    "title": "IMABI 35: て negativo — なくて/ないで",
-    "stage": "IMABI · Beginners I",
-    "minutes": 9,
-    "level": "imabi",
-    "teach": [
-      {
-        "heading": "IMABI 35: て negativo — なくて/ないで",
-        "text": "Negativo con て: 食べなくて (no comer y...), 食べないで (sin comer / no comas). なくて une razón, ないで es 'sin' o petición negativa.",
-        "examples": [
-          {
-            "jp": "宿題をしなくて、遊びました。",
-            "kana": "しゅくだいをしなくて、あそびました。",
-            "es": "No hice deberes y jugué."
-          },
-          {
-            "jp": "朝ごはんを食べないで行った。",
-            "kana": "あさごはんをたべないでいった。",
-            "es": "Fui sin desayunar."
-          },
-          {
-            "jp": "食べないでください。",
-            "kana": "たべないでください。",
-            "es": "Por favor no comas."
-          }
-        ]
-      }
-    ],
-    "quiz": {
-      "practice": "grammar",
-      "direction": "grammar-es",
-      "ids": [
-        "g-desu",
-        "g-desu-1",
-        "g-desu-2"
-      ]
-    },
-    "secciones": [
-      {
-        "tipo": "gancho",
-        "texto": "Quieres decir “sin hacer” o “no hagas” y dudas: ¿なくて o ないで? No es intercambiable; uno une excusas, otro marca ausencia."
-      },
-      {
-        "tipo": "explicacion",
-        "texto": "～なくて y ～ないで son las dos て negativas. Parecen iguales pero IMABI 35 distingue: なくて es causa/conexión (no hice y...), ないで es medio/ausencia (sin hacer) y petición.\n\nObjetivo: elegir なくて vs ないで según si expresas causa o “sin”.\n\n🧩 Fórmula:\n- 【ない → なくて】 causa: 安くなくて買わなかった (no era barato y no compré)\n- 【ない → ないで】 sin: 食べないで寝た (dormí sin comer)\n- 【ないでください】 petición negativa: 触らないでください (no toque)\n\nPiensa en bloques: なくて = no y entonces; ないで = sin / no hagas.\n\n👣 Cómo construirlo (3 pasos):\n1) Haz negativo en ない: する→しない, 食べる→食べない\n2) ¿Unes causa? → なくて: しなくて (no hacer y)\n3) ¿“Sin” o orden negativa? → ないで: 食べないで (sin comer), 食べないでください (no comas por favor)\n\n⚖️ Tabla て negativo:\n| Positivo て | なくて (causa) | ないで (sin/petición) |\n|---|---|---|\n| 食べて | 食べなくて | 食べないで |\n| して | しなくて | しないで |\n| 行って | 行かなくて | 行かないで |\n\n💡 Ejemplos desglosados:\n1) 宿題をしなくて、遊びました。 (しゅくだいをしなくて、あそびました。) — “No hice deberes y jugué.” → しなくて(→ しない + くて) + 遊びました.\n2) 朝ごはんを食べないで行った。 (あさごはんをたべないでいった。) — “Fui sin desayunar.” → 食べないで(→ 食べない + で) + 行った.\n3) 食べないでください。 (たべないでください。) — “No comas por favor.” → 食べないで + ください (petición negativa).\n\n🔑 Mini-resumen:\n□ なくて = no ～ y (causa/conexión neutra)\n□ ないで = sin ～ / no ～ por favor (ausencia/petición)\n□ Petición fija: ～ないでください (la más usada)\n\n❌ Error 90%: usar なくてください (no existe). Es siempre ないでください. Y no uses なくて para “sin”: 食べなくて寝た suena causa rara; di 食べないで寝た.\n\n💬 Truco offline: di pares: しなくて→次に○○した (causa), しないで→行った (sin). Active recall. ¿Por qué 5 ítems? Domina 2 hoy, resto SRS.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Repite en voz alta marcando la partícula para anclar ritmo. En Cuba practica señalando objetos reales: mi libro, tu libro, su libro. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase.",
-        "palabras": 409
-      },
-      {
-        "tipo": "ejemplos",
-        "items": [
-          {
-            "jp": "宿題をしなくて、遊びました。",
-            "furigana": "しゅくだいをしなくて、あそびました。",
-            "romaji": "shukudai wo shinakute, asobimashita.",
-            "es": "No hice deberes y jugué.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "朝ごはんを食べないで行った。",
-            "furigana": "あさごはんをたべないでいった。",
-            "romaji": "asagohan wo tabenaide itta.",
-            "es": "Fui sin desayunar.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "食べないでください。",
-            "furigana": "たべないでください。",
-            "romaji": "tabenaide kudasai.",
-            "es": "Por favor no comas.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          }
-        ]
-      },
-      {
-        "tipo": "practica",
-        "ejercicios": [
-          {
-            "tipo": "listen_only",
-            "jp": "宿題をしなくて、遊びました。",
-            "furigana": "しゅくだいをしなくて、あそびました。",
-            "es": "No hice deberes y jugué.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha (texto oculto) y elige.",
-            "respuesta": "宿題をしなくて、遊びました。 — No hice deberes y jugué."
-          },
-          {
-            "tipo": "listen_only",
-            "jp": "朝ごはんを食べないで行った。",
-            "furigana": "あさごはんをたべないでいった。",
-            "es": "Fui sin desayunar.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha y elige.",
-            "respuesta": "朝ごはんを食べないで行った。 — Fui sin desayunar."
-          },
-          {
-            "tipo": "shadowing",
-            "jp": "宿題をしなくて、遊びました。",
-            "furigana": "しゅくだいをしなくて、あそびました。",
-            "es": "No hice deberes y jugué.",
-            "pausa_ms": 3000,
-            "rate": 0.85,
-            "prompt": "Escucha, pausa 3s, repite."
-          },
-          {
-            "tipo": "produccion",
-            "prompt": "Produce en japonés: 'Por favor no comas.'",
-            "respuesta": "食べないでください。",
-            "jp": "食べないでください。",
-            "mostrar_texto_antes": false,
-            "rate": 0.8
-          }
-        ]
-      },
-      {
-        "tipo": "errores_comunes",
-        "texto": "Error típico: なくて vs ないで intercambiables — no lo son. なくて suena causa; para 'sin' siempre ないで. Y la petición es siempre ないでください, nunca なくてください."
-      },
-      {
-        "tipo": "cierre",
-        "texto": "Hoy: なくて causa vs ないで sin/petición. Próxima: ている progresivo. Di 3 veces: 食べないでください。"
-      }
-    ],
-    "sections": [
-      {
-        "tipo": "gancho",
-        "texto": "Quieres decir “sin hacer” o “no hagas” y dudas: ¿なくて o ないで? No es intercambiable; uno une excusas, otro marca ausencia."
-      },
-      {
-        "tipo": "explicacion",
-        "texto": "～なくて y ～ないで son las dos て negativas. Parecen iguales pero IMABI 35 distingue: なくて es causa/conexión (no hice y...), ないで es medio/ausencia (sin hacer) y petición.\n\nObjetivo: elegir なくて vs ないで según si expresas causa o “sin”.\n\n🧩 Fórmula:\n- 【ない → なくて】 causa: 安くなくて買わなかった (no era barato y no compré)\n- 【ない → ないで】 sin: 食べないで寝た (dormí sin comer)\n- 【ないでください】 petición negativa: 触らないでください (no toque)\n\nPiensa en bloques: なくて = no y entonces; ないで = sin / no hagas.\n\n👣 Cómo construirlo (3 pasos):\n1) Haz negativo en ない: する→しない, 食べる→食べない\n2) ¿Unes causa? → なくて: しなくて (no hacer y)\n3) ¿“Sin” o orden negativa? → ないで: 食べないで (sin comer), 食べないでください (no comas por favor)\n\n⚖️ Tabla て negativo:\n| Positivo て | なくて (causa) | ないで (sin/petición) |\n|---|---|---|\n| 食べて | 食べなくて | 食べないで |\n| して | しなくて | しないで |\n| 行って | 行かなくて | 行かないで |\n\n💡 Ejemplos desglosados:\n1) 宿題をしなくて、遊びました。 (しゅくだいをしなくて、あそびました。) — “No hice deberes y jugué.” → しなくて(→ しない + くて) + 遊びました.\n2) 朝ごはんを食べないで行った。 (あさごはんをたべないでいった。) — “Fui sin desayunar.” → 食べないで(→ 食べない + で) + 行った.\n3) 食べないでください。 (たべないでください。) — “No comas por favor.” → 食べないで + ください (petición negativa).\n\n🔑 Mini-resumen:\n□ なくて = no ～ y (causa/conexión neutra)\n□ ないで = sin ～ / no ～ por favor (ausencia/petición)\n□ Petición fija: ～ないでください (la más usada)\n\n❌ Error 90%: usar なくてください (no existe). Es siempre ないでください. Y no uses なくて para “sin”: 食べなくて寝た suena causa rara; di 食べないで寝た.\n\n💬 Truco offline: di pares: しなくて→次に○○した (causa), しないで→行った (sin). Active recall. ¿Por qué 5 ítems? Domina 2 hoy, resto SRS.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Repite en voz alta marcando la partícula para anclar ritmo. En Cuba practica señalando objetos reales: mi libro, tu libro, su libro. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase.",
-        "palabras": 409
-      },
-      {
-        "tipo": "ejemplos",
-        "items": [
-          {
-            "jp": "宿題をしなくて、遊びました。",
-            "furigana": "しゅくだいをしなくて、あそびました。",
-            "romaji": "shukudai wo shinakute, asobimashita.",
-            "es": "No hice deberes y jugué.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "朝ごはんを食べないで行った。",
-            "furigana": "あさごはんをたべないでいった。",
-            "romaji": "asagohan wo tabenaide itta.",
-            "es": "Fui sin desayunar.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "食べないでください。",
-            "furigana": "たべないでください。",
-            "romaji": "tabenaide kudasai.",
-            "es": "Por favor no comas.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          }
-        ]
-      },
-      {
-        "tipo": "practica",
-        "ejercicios": [
-          {
-            "tipo": "listen_only",
-            "jp": "宿題をしなくて、遊びました。",
-            "furigana": "しゅくだいをしなくて、あそびました。",
-            "es": "No hice deberes y jugué.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha (texto oculto) y elige.",
-            "respuesta": "宿題をしなくて、遊びました。 — No hice deberes y jugué."
-          },
-          {
-            "tipo": "listen_only",
-            "jp": "朝ごはんを食べないで行った。",
-            "furigana": "あさごはんをたべないでいった。",
-            "es": "Fui sin desayunar.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha y elige.",
-            "respuesta": "朝ごはんを食べないで行った。 — Fui sin desayunar."
-          },
-          {
-            "tipo": "shadowing",
-            "jp": "宿題をしなくて、遊びました。",
-            "furigana": "しゅくだいをしなくて、あそびました。",
-            "es": "No hice deberes y jugué.",
-            "pausa_ms": 3000,
-            "rate": 0.85,
-            "prompt": "Escucha, pausa 3s, repite."
-          },
-          {
-            "tipo": "produccion",
-            "prompt": "Produce en japonés: 'Por favor no comas.'",
-            "respuesta": "食べないでください。",
-            "jp": "食べないでください。",
-            "mostrar_texto_antes": false,
-            "rate": 0.8
-          }
-        ]
-      },
-      {
-        "tipo": "errores_comunes",
-        "texto": "Error típico: なくて vs ないで intercambiables — no lo son. なくて suena causa; para 'sin' siempre ないで. Y la petición es siempre ないでください, nunca なくてください."
-      },
-      {
-        "tipo": "cierre",
-        "texto": "Hoy: なくて causa vs ないで sin/petición. Próxima: ている progresivo. Di 3 veces: 食べないでください。"
-      }
-    ],
-    "wexdc": true,
-    "clarity": 3,
-    "autoevaluacion": {
-      "explica_no_informa": true,
-      "palabras_explicacion": 409,
-      "listening_puro_incluido": true,
-      "listening_puro_cantidad": 2,
-      "confianza": 9
-    }
-  },
-  {
-    "id": "l-imabi-036",
-    "title": "IMABI 36: ～ている — progresivo y resultado 雨が降っている",
-    "stage": "IMABI · Beginners I",
-    "minutes": 9,
-    "level": "imabi",
-    "teach": [
-      {
-        "heading": "IMABI 36: ～ている — progresivo y resultado 雨が降っている",
-        "text": "～ている: acción en curso (食べている = está comiendo) o estado resultante (知っている = sé, resultado de haber conocido).",
-        "examples": [
-          {
-            "jp": "今、ご飯を食べています。",
-            "kana": "いま、ごはんをたべています。",
-            "es": "Ahora estoy comiendo."
-          },
-          {
-            "jp": "雨が降っています。",
-            "kana": "あめがふっています。",
-            "es": "Está lloviendo."
-          },
-          {
-            "jp": "田中さんを知っていますか。",
-            "kana": "たなかさんをしっていますか。",
-            "es": "¿Conoces a Tanaka?"
-          }
-        ]
-      }
-    ],
-    "quiz": {
-      "practice": "grammar",
-      "direction": "grammar-es",
-      "ids": [
-        "g-desu",
-        "g-desu-1",
-        "g-desu-2"
-      ]
-    },
-    "secciones": [
-      {
-        "tipo": "gancho",
-        "texto": "Dices 知っています y te traducen “estoy sabiendo” literal y no cuadra. ¿Por qué ている a veces es “estoy -ando” y a veces es “ya sé”?"
-      },
-      {
-        "tipo": "explicacion",
-        "texto": "～ている es el comodín N5: marca o acción en progreso o estado que queda tras la acción. Depende del verbo.\n\nObjetivo: formar て+いる y distinguir progresivo vs resultado.\n\n🧩 Fórmula: 【Verbo て-form + いる】 → 食べている, 降っている, 知っている\nCortés: ています (habla), Plano: てる (casual) → 食べてる\n- 食べている (progresivo: ahora mismo come)\n- 知っている (resultado: ya conozco y sigo conociendo)\n\nPiensa en bloques: て conecta la acción a “estar/haber quedado”.\n\n👣 Cómo construirlo (3 pasos):\n1) A て-form: 食べる→食べて, 降る→降って, 知る→知って\n2) Añade いる/います: 食べて + いる → 食べている\n3) ¿Verbo de acción puntual (知る, 結婚する) o duración (食べる, 降る)? → puntual = estado, duración = progreso\n\n⚖️ Tabla ～ている:\n| Verbo | て | +いる | Significado |\n|---|---|---|---|\n| 食べる | 食べて | 食べている | está comiendo (progreso) |\n| 降る | 降って | 降っている | está lloviendo (progreso) |\n| 知る | 知って | 知っている | sé (resultado de conocer) |\n| 開ける | 開けて | 開けている | está abierto (estado) |\n\n💡 Ejemplos desglosados:\n1) 今、ご飯を食べています。 (いま、ごはんをたべています。) — “Ahora estoy comiendo.” → 今 + ご飯を + 食べて(て-form de 食べる) + います.\n2) 雨が降っています。 (あめがふっています。) — “Está lloviendo.” → 雨が + 降って(て-form de 降る) + います.\n3) 田中さんを知っていますか。 (たなかさんをしっていますか。) — “¿Conoces a Tanaka?” → 田中さんを + 知って(て-form de 知る) + いますか.\n\n🔑 Mini-resumen:\n□ て+いる = en curso si el verbo dura (食べている), = estado si es puntual (知っている)\n□ Casual hablado: てる → 食べてる, 降ってる\n□ No confundas con てある (intencional) IMABI 37\n\n❌ Error 90%: traducir 知っている = “estoy conociendo” (suena proceso). Es “sé”. Y usar ている para hábito puro: mejor 習慣は présent, no siempre ている. En Cuba, piensa: ¿sigue pasando ahora? → ている.\n\n💬 Truco offline: di 今○○しています mirando lo que haces: 今本を読んでいます 3×. Active recall. ¿Por qué 5 ítems? Domina 2 hoy, resto SRS.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Repite en voz alta marcando la partícula para anclar ritmo. En Cuba practica señalando objetos reales: mi libro, tu libro, su libro. Repasa el ejemplo en voz alta y crea tu propia frase.",
-        "palabras": 406
-      },
-      {
-        "tipo": "ejemplos",
-        "items": [
-          {
-            "jp": "今、ご飯を食べています。",
-            "furigana": "いま、ごはんをたべています。",
-            "romaji": "ima, gohan wo tabete imasu.",
-            "es": "Ahora estoy comiendo.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "雨が降っています。",
-            "furigana": "あめがふっています。",
-            "romaji": "ame ga futte imasu.",
-            "es": "Está lloviendo.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "田中さんを知っていますか。",
-            "furigana": "たなかさんをしっていますか。",
-            "romaji": "tanaka san wo shitte imasu ka.",
-            "es": "¿Conoces a Tanaka?",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          }
-        ]
-      },
-      {
-        "tipo": "practica",
-        "ejercicios": [
-          {
-            "tipo": "listen_only",
-            "jp": "今、ご飯を食べています。",
-            "furigana": "いま、ごはんをたべています。",
-            "es": "Ahora estoy comiendo.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha (texto oculto) y elige.",
-            "respuesta": "今、ご飯を食べています。 — Ahora estoy comiendo."
-          },
-          {
-            "tipo": "listen_only",
-            "jp": "雨が降っています。",
-            "furigana": "あめがふっています。",
-            "es": "Está lloviendo.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha y elige.",
-            "respuesta": "雨が降っています。 — Está lloviendo."
-          },
-          {
-            "tipo": "shadowing",
-            "jp": "今、ご飯を食べています。",
-            "furigana": "いま、ごはんをたべています。",
-            "es": "Ahora estoy comiendo.",
-            "pausa_ms": 3000,
-            "rate": 0.85,
-            "prompt": "Escucha, pausa 3s, repite."
-          },
-          {
-            "tipo": "produccion",
-            "prompt": "Produce en japonés: '¿Conoces a Tanaka?'",
-            "respuesta": "田中さんを知っていますか。",
-            "jp": "田中さんを知っていますか。",
-            "mostrar_texto_antes": false,
-            "rate": 0.8
-          }
-        ]
-      },
-      {
-        "tipo": "errores_comunes",
-        "texto": "Error típico: usar ている para todo hábito: 毎日走っている vs 毎日走る. Habitual simple usa diccionario/ます, no siempre ている. ている es ahora/resultado."
-      },
-      {
-        "tipo": "cierre",
-        "texto": "Hoy: て+いる progresivo/estado. Próxima: てある estado intencional. Di 3 veces: 雨が降っています。"
-      }
-    ],
-    "sections": [
-      {
-        "tipo": "gancho",
-        "texto": "Dices 知っています y te traducen “estoy sabiendo” literal y no cuadra. ¿Por qué ている a veces es “estoy -ando” y a veces es “ya sé”?"
-      },
-      {
-        "tipo": "explicacion",
-        "texto": "～ている es el comodín N5: marca o acción en progreso o estado que queda tras la acción. Depende del verbo.\n\nObjetivo: formar て+いる y distinguir progresivo vs resultado.\n\n🧩 Fórmula: 【Verbo て-form + いる】 → 食べている, 降っている, 知っている\nCortés: ています (habla), Plano: てる (casual) → 食べてる\n- 食べている (progresivo: ahora mismo come)\n- 知っている (resultado: ya conozco y sigo conociendo)\n\nPiensa en bloques: て conecta la acción a “estar/haber quedado”.\n\n👣 Cómo construirlo (3 pasos):\n1) A て-form: 食べる→食べて, 降る→降って, 知る→知って\n2) Añade いる/います: 食べて + いる → 食べている\n3) ¿Verbo de acción puntual (知る, 結婚する) o duración (食べる, 降る)? → puntual = estado, duración = progreso\n\n⚖️ Tabla ～ている:\n| Verbo | て | +いる | Significado |\n|---|---|---|---|\n| 食べる | 食べて | 食べている | está comiendo (progreso) |\n| 降る | 降って | 降っている | está lloviendo (progreso) |\n| 知る | 知って | 知っている | sé (resultado de conocer) |\n| 開ける | 開けて | 開けている | está abierto (estado) |\n\n💡 Ejemplos desglosados:\n1) 今、ご飯を食べています。 (いま、ごはんをたべています。) — “Ahora estoy comiendo.” → 今 + ご飯を + 食べて(て-form de 食べる) + います.\n2) 雨が降っています。 (あめがふっています。) — “Está lloviendo.” → 雨が + 降って(て-form de 降る) + います.\n3) 田中さんを知っていますか。 (たなかさんをしっていますか。) — “¿Conoces a Tanaka?” → 田中さんを + 知って(て-form de 知る) + いますか.\n\n🔑 Mini-resumen:\n□ て+いる = en curso si el verbo dura (食べている), = estado si es puntual (知っている)\n□ Casual hablado: てる → 食べてる, 降ってる\n□ No confundas con てある (intencional) IMABI 37\n\n❌ Error 90%: traducir 知っている = “estoy conociendo” (suena proceso). Es “sé”. Y usar ている para hábito puro: mejor 習慣は présent, no siempre ている. En Cuba, piensa: ¿sigue pasando ahora? → ている.\n\n💬 Truco offline: di 今○○しています mirando lo que haces: 今本を読んでいます 3×. Active recall. ¿Por qué 5 ítems? Domina 2 hoy, resto SRS.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Repite en voz alta marcando la partícula para anclar ritmo. En Cuba practica señalando objetos reales: mi libro, tu libro, su libro. Repasa el ejemplo en voz alta y crea tu propia frase.",
-        "palabras": 406
-      },
-      {
-        "tipo": "ejemplos",
-        "items": [
-          {
-            "jp": "今、ご飯を食べています。",
-            "furigana": "いま、ごはんをたべています。",
-            "romaji": "ima, gohan wo tabete imasu.",
-            "es": "Ahora estoy comiendo.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "雨が降っています。",
-            "furigana": "あめがふっています。",
-            "romaji": "ame ga futte imasu.",
-            "es": "Está lloviendo.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "田中さんを知っていますか。",
-            "furigana": "たなかさんをしっていますか。",
-            "romaji": "tanaka san wo shitte imasu ka.",
-            "es": "¿Conoces a Tanaka?",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          }
-        ]
-      },
-      {
-        "tipo": "practica",
-        "ejercicios": [
-          {
-            "tipo": "listen_only",
-            "jp": "今、ご飯を食べています。",
-            "furigana": "いま、ごはんをたべています。",
-            "es": "Ahora estoy comiendo.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha (texto oculto) y elige.",
-            "respuesta": "今、ご飯を食べています。 — Ahora estoy comiendo."
-          },
-          {
-            "tipo": "listen_only",
-            "jp": "雨が降っています。",
-            "furigana": "あめがふっています。",
-            "es": "Está lloviendo.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha y elige.",
-            "respuesta": "雨が降っています。 — Está lloviendo."
-          },
-          {
-            "tipo": "shadowing",
-            "jp": "今、ご飯を食べています。",
-            "furigana": "いま、ごはんをたべています。",
-            "es": "Ahora estoy comiendo.",
-            "pausa_ms": 3000,
-            "rate": 0.85,
-            "prompt": "Escucha, pausa 3s, repite."
-          },
-          {
-            "tipo": "produccion",
-            "prompt": "Produce en japonés: '¿Conoces a Tanaka?'",
-            "respuesta": "田中さんを知っていますか。",
-            "jp": "田中さんを知っていますか。",
-            "mostrar_texto_antes": false,
-            "rate": 0.8
-          }
-        ]
-      },
-      {
-        "tipo": "errores_comunes",
-        "texto": "Error típico: usar ている para todo hábito: 毎日走っている vs 毎日走る. Habitual simple usa diccionario/ます, no siempre ている. ている es ahora/resultado."
-      },
-      {
-        "tipo": "cierre",
-        "texto": "Hoy: て+いる progresivo/estado. Próxima: てある estado intencional. Di 3 veces: 雨が降っています。"
-      }
-    ],
-    "wexdc": true,
-    "clarity": 3,
-    "autoevaluacion": {
-      "explica_no_informa": true,
-      "palabras_explicacion": 406,
-      "listening_puro_incluido": true,
-      "listening_puro_cantidad": 2,
-      "confianza": 9
-    }
-  },
-  {
-    "id": "l-imabi-037",
-    "title": "IMABI 37: ～てある — estado con intención 窓が開けてある",
-    "stage": "IMABI · Beginners I",
-    "minutes": 9,
-    "level": "imabi",
-    "teach": [
-      {
-        "heading": "IMABI 37: ～てある — estado con intención 窓が開けてある",
-        "text": "～てある: alguien hizo algo a propósito y quedó así. 窓が開けてある (la ventana está abierta (alguien la abrió a propósito)). Vs 開いている (está abierta, no importa quién).",
-        "examples": [
-          {
-            "jp": "窓が開けてあります。",
-            "kana": "まどがあけてあります。",
-            "es": "La ventana está abierta (a propósito)."
-          },
-          {
-            "jp": "本が並べてあります。",
-            "kana": "ほんがならべてあります。",
-            "es": "Los libros están ordenados (alguien los ordenó)."
-          },
-          {
-            "jp": "電気がつけてあります。",
-            "kana": "でんきがつけてあります。",
-            "es": "La luz está encendida (a propósito)."
-          }
-        ]
-      }
-    ],
-    "quiz": {
-      "practice": "grammar",
-      "direction": "grammar-es",
-      "ids": [
-        "g-desu",
-        "g-desu-1",
-        "g-desu-2"
-      ]
-    },
-    "secciones": [
-      {
-        "tipo": "gancho",
-        "texto": "Ves 窓が開いている y 窓が開けてある y parecen “abierto” igual. ¿Por qué dos formas? Una borra al agente, la otra lo presume."
-      },
-      {
-        "tipo": "explicacion",
-        "texto": "～てある marca estado resultante de una acción intencional transitiva. Alguien abrió la ventana a propósito y sigue abierta. Con ～ている solo constatas estado; con ～てある enfatizas intención/preparación.\n\nObjetivo: formar Verbo transitivo て + ある y contrastarlo con ている.\n\n🧩 Fórmula: 【Verbo transitivo て-form + ある】 → 開ける→開けてある, 並べる→並べてある, つける→つけてある\nCortés: てあります, Plano: てある\n- 窓が開けてある (ventana abierta a propósito)\n- 本が並べてある (libros alineados a propósito)\n\nPiensa en bloques: て conecta la acción preparada a ある (existir).\n\n👣 Cómo construirlo (3 pasos):\n1) Solo con transitivos (abrir, poner, ordenar): 開ける, 並べる\n2) A て-form + ある: 開けて + ある → 開けてある\n3) Partícula が marca el objeto preparado: 窓が開けてある (no を, porque es estado)\n\n⚖️ Tabla ～ている vs ～てある:\n| Forma | Verbo | Ejemplo | Matiz |\n|---|---|---|---|\n| 開いている | 開く(vi) | 窓が開いている | está abierta (constatas) |\n| 開けてある | 開ける(vt) | 窓が開けてある | está abierta (alguien la abrió) |\n| ついている | つく | 電気がついている | luz encendida |\n| つけてある | つける | 電気がつけてある | luz encendida (preparado) |\n\n💡 Ejemplos desglosados:\n1) 窓が開けてあります。 (まどがあけてあります。) — “Ventana abierta (a propósito).” → 窓が + 開けて(て-form de 開ける) + あります.\n2) 本が並べてあります。 (ほんがならべてあります。) — “Libros están ordenados.” → 本が + 並べて(て-form) + あります.\n3) 電気がつけてあります。 (でんきがつけてあります。) — “Luz encendida (a propósito).” → 電気が + つけて + あります.\n\n🔑 Mini-resumen:\n□ てある solo transitivos + intención visible\n□ Partícula が para el estado: 窓が開けてある (no 窓を開けてある en estado; eso es acción)\n□ ている neutral, てある intencional/preparado\n\n❌ Error 90%: usar てある con intransitivos → 降ってある (mal, 降る es intransitivo). Di 降っている. Y usar を con estado: 窓を開けてある (acción: abrir ventana y dejarla), vs 窓が開けてある (estado).\n\n💬 Truco offline: mira tu cuarto y di 3 estados intencionales: 本が並べてある, 電気がつけてある, 窓が開けてある. Active recall. ¿Por qué 5 ítems? Domina 2 hoy, resto SRS.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Repite en voz alta marcando la partícula para anclar ritmo. En Cuba practica señalando objetos reales: mi libro, tu libro, su libro. Repasa el ejemplo en voz alta y crea tu propia frase.",
-        "palabras": 406
-      },
-      {
-        "tipo": "ejemplos",
-        "items": [
-          {
-            "jp": "窓が開けてあります。",
-            "furigana": "まどがあけてあります。",
-            "romaji": "mado ga akete arimasu.",
-            "es": "La ventana está abierta (a propósito).",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "本が並べてあります。",
-            "furigana": "ほんがならべてあります。",
-            "romaji": "hon ga narabete arimasu.",
-            "es": "Los libros están ordenados.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "電気がつけてあります。",
-            "furigana": "でんきがつけてあります。",
-            "romaji": "denki ga tsukete arimasu.",
-            "es": "La luz está encendida.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          }
-        ]
-      },
-      {
-        "tipo": "practica",
-        "ejercicios": [
-          {
-            "tipo": "listen_only",
-            "jp": "窓が開けてあります。",
-            "furigana": "まどがあけてあります。",
-            "es": "La ventana está abierta (a propósito).",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha (texto oculto) y elige.",
-            "respuesta": "窓が開けてあります。 — La ventana está abierta."
-          },
-          {
-            "tipo": "listen_only",
-            "jp": "本が並べてあります。",
-            "furigana": "ほんがならべてあります。",
-            "es": "Los libros están ordenados.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha y elige.",
-            "respuesta": "本が並べてあります。 — Los libros están ordenados."
-          },
-          {
-            "tipo": "shadowing",
-            "jp": "窓が開けてあります。",
-            "furigana": "まどがあけてあります。",
-            "es": "La ventana está abierta.",
-            "pausa_ms": 3000,
-            "rate": 0.85,
-            "prompt": "Escucha, pausa 3s, repite."
-          },
-          {
-            "tipo": "produccion",
-            "prompt": "Produce en japonés: 'Los libros están ordenados.'",
-            "respuesta": "本が並べてあります。",
-            "jp": "本が並べてあります。",
-            "mostrar_texto_antes": false,
-            "rate": 0.8
-          }
-        ]
-      },
-      {
-        "tipo": "errores_comunes",
-        "texto": "Error típico: てある con intransitivo (降ってある) — imposible. Solo transitivos. Y confundir が/を: estado es が (窓が開けてある), acción es を (窓を開けておく)."
-      },
-      {
-        "tipo": "cierre",
-        "texto": "Hoy: てある estado intencional. Próxima: números sino-japoneses. Di 3 veces: 窓が開けてあります。"
-      }
-    ],
-    "sections": [
-      {
-        "tipo": "gancho",
-        "texto": "Ves 窓が開いている y 窓が開けてある y parecen “abierto” igual. ¿Por qué dos formas? Una borra al agente, la otra lo presume."
-      },
-      {
-        "tipo": "explicacion",
-        "texto": "～てある marca estado resultante de una acción intencional transitiva. Alguien abrió la ventana a propósito y sigue abierta. Con ～ている solo constatas estado; con ～てある enfatizas intención/preparación.\n\nObjetivo: formar Verbo transitivo て + ある y contrastarlo con ている.\n\n🧩 Fórmula: 【Verbo transitivo て-form + ある】 → 開ける→開けてある, 並べる→並べてある, つける→つけてある\nCortés: てあります, Plano: てある\n- 窓が開けてある (ventana abierta a propósito)\n- 本が並べてある (libros alineados a propósito)\n\nPiensa en bloques: て conecta la acción preparada a ある (existir).\n\n👣 Cómo construirlo (3 pasos):\n1) Solo con transitivos (abrir, poner, ordenar): 開ける, 並べる\n2) A て-form + ある: 開けて + ある → 開けてある\n3) Partícula が marca el objeto preparado: 窓が開けてある (no を, porque es estado)\n\n⚖️ Tabla ～ている vs ～てある:\n| Forma | Verbo | Ejemplo | Matiz |\n|---|---|---|---|\n| 開いている | 開く(vi) | 窓が開いている | está abierta (constatas) |\n| 開けてある | 開ける(vt) | 窓が開けてある | está abierta (alguien la abrió) |\n| ついている | つく | 電気がついている | luz encendida |\n| つけてある | つける | 電気がつけてある | luz encendida (preparado) |\n\n💡 Ejemplos desglosados:\n1) 窓が開けてあります。 (まどがあけてあります。) — “Ventana abierta (a propósito).” → 窓が + 開けて(て-form de 開ける) + あります.\n2) 本が並べてあります。 (ほんがならべてあります。) — “Libros están ordenados.” → 本が + 並べて(て-form) + あります.\n3) 電気がつけてあります。 (でんきがつけてあります。) — “Luz encendida (a propósito).” → 電気が + つけて + あります.\n\n🔑 Mini-resumen:\n□ てある solo transitivos + intención visible\n□ Partícula が para el estado: 窓が開けてある (no 窓を開けてある en estado; eso es acción)\n□ ている neutral, てある intencional/preparado\n\n❌ Error 90%: usar てある con intransitivos → 降ってある (mal, 降る es intransitivo). Di 降っている. Y usar を con estado: 窓を開けてある (acción: abrir ventana y dejarla), vs 窓が開けてある (estado).\n\n💬 Truco offline: mira tu cuarto y di 3 estados intencionales: 本が並べてある, 電気がつけてある, 窓が開けてある. Active recall. ¿Por qué 5 ítems? Domina 2 hoy, resto SRS.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Repite en voz alta marcando la partícula para anclar ritmo. En Cuba practica señalando objetos reales: mi libro, tu libro, su libro. Repasa el ejemplo en voz alta y crea tu propia frase.",
-        "palabras": 406
-      },
-      {
-        "tipo": "ejemplos",
-        "items": [
-          {
-            "jp": "窓が開けてあります。",
-            "furigana": "まどがあけてあります。",
-            "romaji": "mado ga akete arimasu.",
-            "es": "La ventana está abierta (a propósito).",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "本が並べてあります。",
-            "furigana": "ほんがならべてあります。",
-            "romaji": "hon ga narabete arimasu.",
-            "es": "Los libros están ordenados.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "電気がつけてあります。",
-            "furigana": "でんきがつけてあります。",
-            "romaji": "denki ga tsukete arimasu.",
-            "es": "La luz está encendida.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          }
-        ]
-      },
-      {
-        "tipo": "practica",
-        "ejercicios": [
-          {
-            "tipo": "listen_only",
-            "jp": "窓が開けてあります。",
-            "furigana": "まどがあけてあります。",
-            "es": "La ventana está abierta (a propósito).",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha (texto oculto) y elige.",
-            "respuesta": "窓が開けてあります。 — La ventana está abierta."
-          },
-          {
-            "tipo": "listen_only",
-            "jp": "本が並べてあります。",
-            "furigana": "ほんがならべてあります。",
-            "es": "Los libros están ordenados.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha y elige.",
-            "respuesta": "本が並べてあります。 — Los libros están ordenados."
-          },
-          {
-            "tipo": "shadowing",
-            "jp": "窓が開けてあります。",
-            "furigana": "まどがあけてあります。",
-            "es": "La ventana está abierta.",
-            "pausa_ms": 3000,
-            "rate": 0.85,
-            "prompt": "Escucha, pausa 3s, repite."
-          },
-          {
-            "tipo": "produccion",
-            "prompt": "Produce en japonés: 'Los libros están ordenados.'",
-            "respuesta": "本が並べてあります。",
-            "jp": "本が並べてあります。",
-            "mostrar_texto_antes": false,
-            "rate": 0.8
-          }
-        ]
-      },
-      {
-        "tipo": "errores_comunes",
-        "texto": "Error típico: てある con intransitivo (降ってある) — imposible. Solo transitivos. Y confundir が/を: estado es が (窓が開けてある), acción es を (窓を開けておく)."
-      },
-      {
-        "tipo": "cierre",
-        "texto": "Hoy: てある estado intencional. Próxima: números sino-japoneses. Di 3 veces: 窓が開けてあります。"
-      }
-    ],
-    "wexdc": true,
-    "clarity": 3,
-    "autoevaluacion": {
-      "explica_no_informa": true,
-      "palabras_explicacion": 406,
-      "listening_puro_incluido": true,
-      "listening_puro_cantidad": 2,
-      "confianza": 9
-    }
-  },
-  {
-    "id": "l-imabi-038",
-    "title": "IMABI 38: Números sino-japoneses 0-10,000 一二三",
-    "stage": "IMABI · Beginners I",
-    "minutes": 9,
-    "level": "imabi",
-    "teach": [
-      {
-        "heading": "IMABI 38: Números sino-japoneses 0-10,000 一二三",
-        "text": "Serie on: 0零/れい,1一いち,2二に,3三さん,4四し/よん,5五ご,6六ろく,7七しち/なな,8八はち,9九きゅう/く,10十じゅう,100百ひゃく,1000千せん,10000万まん.",
-        "examples": [
-          {
-            "jp": "リンゴが三つあります。",
-            "kana": "りんごがみっつあります。",
-            "es": "Hay 3 manzanas (nativa, ver 39)."
-          },
-          {
-            "jp": "十時です。",
-            "kana": "じゅうじです。",
-            "es": "Son las 10."
-          },
-          {
-            "jp": "千円です。",
-            "kana": "せんえんです。",
-            "es": "Son 1000 yenes."
-          }
-        ]
-      }
-    ],
-    "quiz": {
-      "practice": "grammar",
-      "direction": "grammar-es",
-      "ids": [
-        "g-desu",
-        "g-desu-1",
-        "g-desu-2"
-      ]
-    },
-    "secciones": [
-      {
-        "tipo": "gancho",
-        "texto": "Ves 三千 y dices さんせん bien, pero 三百 es さんびゃく no さんひゃく. ¿Por qué cambia h→b/p? Sin on + rendaku numérico te equivocas siempre."
-      },
-      {
-        "tipo": "explicacion",
-        "texto": "Los números sino-japoneses (onyomi) son la serie china que usas para casi todo: hora, dinero, fechas, contadores sino. Base 1-10 + potencias 10,100,1000,10000.\n\nObjetivo: leer 0-10,000 sin dudar y saber cuándo suenan し/しち vs よん/なな.\n\n🧩 Fórmula:【千 百 十 一】→ 2025=二千二十五 (にせんにじゅうご). Se lee por potencias: 千(10³)百(10²)十(10¹).\nRegla de sonido: 1,6,8,10 ante 百/千/万 a veces son sordas o geminadas: 三百さんびゃく (h→by), 六百ろっぴゃく (p), 八百はっぴゃく.\n\nPiensa en bloques: número = capas de mil→cien→diez→uno.\n\n👣 Cómo construirlo (3 pasos):\n1) 1-10 sólidos: いち,に,さん,し/よん,ご,ろく,しち/なな,はち,きゅう/く,じゅう. Para 4/7/9 memoriza alternativa: よん(4),なな(7),きゅう(9) más usada moderna.\n2) 11-99: 十 + resto → 十一じゅういち(11), 二十にじゅう(20), 三十五さんじゅうご(35)\n3) 100+: 百ひゃく, 千せん, 万まん + eufonía: 三百さんびゃく, 六百ろっぴゃく, 八百はっぴゃく, 三千さんぜん, 八千はっせん, 一万いちまん\n\n⚖️ Tabla base:\n| Num | On | Nota |\n|---|---|---|\n|0|れい/ゼロ|れい formal, ゼロ cotidiano|\n|4|し/よん|よん para contar sin confusión|\n|7|しち/なな|なな más común|\n|300|さんびゃく|rendaku h→b|\n|600|ろっぴゃく|geminada p|\n|800|はっぴゃく|geminada p|\n|3000|さんぜん|h→z en 千|\n\n💡 Ejemplos desglosados:\n1) 十時です。(じゅうじです。)— “Son las 10.” → 十(じゅう10)+時(じ hora)=10 en punto.\n2) 千円です。(せんえんです。)— “Son 1000 yenes.” → 千(せん1000)+円(えん yen).\n3) 三百円です。(さんびゃくえんです。)— “300 yenes.” → 三+百 con cambio ひゃく→びゃく.\n\n🔑 Mini-resumen:\n□ Serie on para hora/dinero/fechas/contadores.\n□ 4→よん,7→なな,9→きゅう evita homofonía.\n□ 300/600/800 y 3000/8000 tienen sonido especial: memoriza さんびゃく・ろっぴゃく・はっぴゃく・さんぜん・はっせん\n\n❌ Error 90%: decir さんひゃく (300) → es さんびゃく. Pronunciar し para 4 en conteo y confundir con muerte → usa よん. Y olvidar 万: 10000 no es 十千.\n\n💬 Truco offline: cuenta del 1 al 20 en voz alta 3×, luego 300/600/800/3000/8000. Active recall. Di tu precio: 私は二千円持っています.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Interleaving: mezcla este tema + vocab + escucha, nunca 10 números seguidos sin contexto. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
-        "palabras": 411
-      },
-      {
-        "tipo": "ejemplos",
-        "items": [
-          {
-            "jp": "十時です。",
-            "furigana": "じゅうじです。",
-            "romaji": "juuji desu.",
-            "es": "Son las 10.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "千円です。",
-            "furigana": "せんえんです。",
-            "romaji": "sen en desu.",
-            "es": "Son 1000 yenes.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "三百円です。",
-            "furigana": "さんびゃくえんです。",
-            "romaji": "sanbyaku en desu.",
-            "es": "Son 300 yenes.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          }
-        ]
-      },
-      {
-        "tipo": "practica",
-        "ejercicios": [
-          {
-            "tipo": "listen_only",
-            "jp": "十時です。",
-            "furigana": "じゅうじです。",
-            "es": "Son las 10.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha (texto oculto) y elige.",
-            "respuesta": "十時です。 — Son las 10."
-          },
-          {
-            "tipo": "listen_only",
-            "jp": "千円です。",
-            "furigana": "せんえんです。",
-            "es": "Son 1000 yenes.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha y elige.",
-            "respuesta": "千円です。 — Son 1000 yenes."
-          },
-          {
-            "tipo": "shadowing",
-            "jp": "三百円です。",
-            "furigana": "さんびゃくえんです。",
-            "es": "Son 300 yenes.",
-            "pausa_ms": 3000,
-            "rate": 0.85,
-            "prompt": "Escucha, pausa 3s, repite."
-          },
-          {
-            "tipo": "produccion",
-            "prompt": "Produce en japonés: 'Son las 10.'",
-            "respuesta": "十時です。",
-            "jp": "十時です。",
-            "mostrar_texto_antes": false,
-            "rate": 0.8
-          }
-        ]
-      },
-      {
-        "tipo": "errores_comunes",
-        "texto": "Error típico: さんひゃく vs さんびゃく, ろくひゃく vs ろっぴゃく, はちひゃく vs はっぴゃく. Haz flashcards solo para 300/600/800/3000/8000. Y confundir ゼロ/れい: cero telefónico es ゼロ, matemática れい."
-      },
-      {
-        "tipo": "cierre",
-        "texto": "Hoy: 0-10,000 sino con eufonía. Próxima: nativa ひとつ〜とお. Di 3 veces: さんびゃく、ろっぴゃく、さんぜん。"
-      }
-    ],
-    "sections": [
-      {
-        "tipo": "gancho",
-        "texto": "Ves 三千 y dices さんせん bien, pero 三百 es さんびゃく no さんひゃく. ¿Por qué cambia h→b/p? Sin on + rendaku numérico te equivocas siempre."
-      },
-      {
-        "tipo": "explicacion",
-        "texto": "Los números sino-japoneses (onyomi) son la serie china que usas para casi todo: hora, dinero, fechas, contadores sino. Base 1-10 + potencias 10,100,1000,10000.\n\nObjetivo: leer 0-10,000 sin dudar y saber cuándo suenan し/しち vs よん/なな.\n\n🧩 Fórmula:【千 百 十 一】→ 2025=二千二十五 (にせんにじゅうご). Se lee por potencias: 千(10³)百(10²)十(10¹).\nRegla de sonido: 1,6,8,10 ante 百/千/万 a veces son sordas o geminadas: 三百さんびゃく (h→by), 六百ろっぴゃく (p), 八百はっぴゃく.\n\nPiensa en bloques: número = capas de mil→cien→diez→uno.\n\n👣 Cómo construirlo (3 pasos):\n1) 1-10 sólidos: いち,に,さん,し/よん,ご,ろく,しち/なな,はち,きゅう/く,じゅう. Para 4/7/9 memoriza alternativa: よん(4),なな(7),きゅう(9) más usada moderna.\n2) 11-99: 十 + resto → 十一じゅういち(11), 二十にじゅう(20), 三十五さんじゅうご(35)\n3) 100+: 百ひゃく, 千せん, 万まん + eufonía: 三百さんびゃく, 六百ろっぴゃく, 八百はっぴゃく, 三千さんぜん, 八千はっせん, 一万いちまん\n\n⚖️ Tabla base:\n| Num | On | Nota |\n|---|---|---|\n|0|れい/ゼロ|れい formal, ゼロ cotidiano|\n|4|し/よん|よん para contar sin confusión|\n|7|しち/なな|なな más común|\n|300|さんびゃく|rendaku h→b|\n|600|ろっぴゃく|geminada p|\n|800|はっぴゃく|geminada p|\n|3000|さんぜん|h→z en 千|\n\n💡 Ejemplos desglosados:\n1) 十時です。(じゅうじです。)— “Son las 10.” → 十(じゅう10)+時(じ hora)=10 en punto.\n2) 千円です。(せんえんです。)— “Son 1000 yenes.” → 千(せん1000)+円(えん yen).\n3) 三百円です。(さんびゃくえんです。)— “300 yenes.” → 三+百 con cambio ひゃく→びゃく.\n\n🔑 Mini-resumen:\n□ Serie on para hora/dinero/fechas/contadores.\n□ 4→よん,7→なな,9→きゅう evita homofonía.\n□ 300/600/800 y 3000/8000 tienen sonido especial: memoriza さんびゃく・ろっぴゃく・はっぴゃく・さんぜん・はっせん\n\n❌ Error 90%: decir さんひゃく (300) → es さんびゃく. Pronunciar し para 4 en conteo y confundir con muerte → usa よん. Y olvidar 万: 10000 no es 十千.\n\n💬 Truco offline: cuenta del 1 al 20 en voz alta 3×, luego 300/600/800/3000/8000. Active recall. Di tu precio: 私は二千円持っています.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Interleaving: mezcla este tema + vocab + escucha, nunca 10 números seguidos sin contexto. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
-        "palabras": 411
-      },
-      {
-        "tipo": "ejemplos",
-        "items": [
-          {
-            "jp": "十時です。",
-            "furigana": "じゅうじです。",
-            "romaji": "juuji desu.",
-            "es": "Son las 10.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "千円です。",
-            "furigana": "せんえんです。",
-            "romaji": "sen en desu.",
-            "es": "Son 1000 yenes.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "三百円です。",
-            "furigana": "さんびゃくえんです。",
-            "romaji": "sanbyaku en desu.",
-            "es": "Son 300 yenes.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          }
-        ]
-      },
-      {
-        "tipo": "practica",
-        "ejercicios": [
-          {
-            "tipo": "listen_only",
-            "jp": "十時です。",
-            "furigana": "じゅうじです。",
-            "es": "Son las 10.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha (texto oculto) y elige.",
-            "respuesta": "十時です。 — Son las 10."
-          },
-          {
-            "tipo": "listen_only",
-            "jp": "千円です。",
-            "furigana": "せんえんです。",
-            "es": "Son 1000 yenes.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha y elige.",
-            "respuesta": "千円です。 — Son 1000 yenes."
-          },
-          {
-            "tipo": "shadowing",
-            "jp": "三百円です。",
-            "furigana": "さんびゃくえんです。",
-            "es": "Son 300 yenes.",
-            "pausa_ms": 3000,
-            "rate": 0.85,
-            "prompt": "Escucha, pausa 3s, repite."
-          },
-          {
-            "tipo": "produccion",
-            "prompt": "Produce en japonés: 'Son las 10.'",
-            "respuesta": "十時です。",
-            "jp": "十時です。",
-            "mostrar_texto_antes": false,
-            "rate": 0.8
-          }
-        ]
-      },
-      {
-        "tipo": "errores_comunes",
-        "texto": "Error típico: さんひゃく vs さんびゃく, ろくひゃく vs ろっぴゃく, はちひゃく vs はっぴゃく. Haz flashcards solo para 300/600/800/3000/8000. Y confundir ゼロ/れい: cero telefónico es ゼロ, matemática れい."
-      },
-      {
-        "tipo": "cierre",
-        "texto": "Hoy: 0-10,000 sino con eufonía. Próxima: nativa ひとつ〜とお. Di 3 veces: さんびゃく、ろっぴゃく、さんぜん。"
-      }
-    ],
-    "wexdc": true,
-    "clarity": 3,
-    "autoevaluacion": {
-      "explica_no_informa": true,
-      "palabras_explicacion": 411,
-      "listening_puro_incluido": true,
-      "listening_puro_cantidad": 2,
-      "confianza": 9
-    }
-  },
-  {
-    "id": "l-imabi-039",
-    "title": "IMABI 39: Nativa ひとつ〜とお + ～つ",
-    "stage": "IMABI · Beginners I",
-    "minutes": 8,
-    "level": "imabi",
-    "teach": [
-      {
-        "heading": "IMABI 39: Nativa ひとつ〜とお + ～つ",
-        "text": "Serie kun nativa: 1ひとつ,2ふたつ,3みっつ,4よっつ,5いつつ,6むっつ,7ななつ,8やっつ,9ここのつ,10とお. Se usa con ～つ contador general hasta 10.",
-        "examples": [
-          {
-            "jp": "リンゴを二つください。",
-            "kana": "りんごをふたつください。",
-            "es": "Dos manzanas, por favor."
-          },
-          {
-            "jp": "みっつあります。",
-            "kana": "みっつあります。",
-            "es": "Hay tres (cosas)."
-          },
-          {
-            "jp": "一つずつ取ってください。",
-            "kana": "ひとつずつとってください。",
-            "es": "Tomen uno cada uno."
-          }
-        ]
-      }
-    ],
-    "quiz": {
-      "practice": "grammar",
-      "direction": "grammar-es",
-      "ids": [
-        "g-desu",
-        "g-desu-1",
-        "g-desu-2"
-      ]
-    },
-    "secciones": [
-      {
-        "tipo": "gancho",
-        "texto": "Pides 2 manzanas y dudas: にこ? ふたつ? みっつ? Con serie nativa + ～つ no puedes usar la sino sola para cosas sueltas."
-      },
-      {
-        "tipo": "explicacion",
-        "texto": "La serie nativa (wago) cuenta objetos abstractos y pequeños sin clasificar hasta 10 con ～つ: ひとつ,ふたつ,みっつ...\n\nObjetivo: contar 1-10 con ～つ sin mezclar con serie sino.\n\n🧩 Fórmula:【número nativo + つ】→ ひとつ(1),ふたつ(2),みっつ(3),よっつ(4),いつつ(5),むっつ(6),ななつ(7),やっつ(8),ここのつ(9),とお(10). Desde 11 pasas a sino + つ no nativo: じゅういちこ sería raro, se cambia a sino.\n\nPiensa en bloques: nativo solo hasta 10, luego sino.\n\n👣 Cómo construirlo (3 pasos):\n1) Memoriza 1-10 nativo con ritmo: ひ・ふ・み・よ・い・む・な・や・こ・と (mnemotecnia)\n2) Añade a sustantivo con を/が: りんごをふたつ (dos manzanas)\n3) Para “cada uno” repite: ひとつずつ (uno cada uno)\n\n⚖️ Tabla nativa:\n|1|ひとつ|hi-to-tsu|\n|2|ふたつ|fu-ta-tsu|\n|3|みっつ|mittsu geminada|\n|4|よっつ|yottsu geminada|\n|8|やっつ|yattsu geminada|\n|10|とお|too 2 moras|\n\n💡 Ejemplos desglosados:\n1) リンゴを二つください。(りんごをふたつください。)— “Dos manzanas por favor.” → リンゴを + 二つ(ふたつ)+ください.\n2) みっつあります。(みっつあります。)— “Hay tres.” → みっつ(3) + あります.\n3) 一つずつ取ってください。(ひとつずつとってください。)— “Coja uno cada uno.” → 一つ(ひとつ)+ずつ(cada uno).\n\n🔑 Mini-resumen:\n□ ～つ general nativo 1-10, después usa contadores sino (個,枚...).\n□ Sonido geminado en 3,4,6,8: みっつ・よっつ・むっつ・やっつ.\n□ とお(10) no es じゅう, es nativo.\n\n❌ Error 90%: decir いちつ para 1 → es ひとつ. Usar nativo más allá de 10 → じゅうひとつ no existe, di じゅういちこ. Confundir ～つ con plural inglés: no añades s.\n\n💬 Truco offline: cuenta objetos en tu mesa: ひとつ、ふたつ...とお 3×. Active recall. En Cuba: cuenta mangos: ひとつ、ふたつ.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Interleaving: mezcla este tema + vocab + escucha, nunca 10 números seguidos sin contexto. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
-        "palabras": 409
-      },
-      {
-        "tipo": "ejemplos",
-        "items": [
-          {
-            "jp": "リンゴを二つください。",
-            "furigana": "りんごをふたつください。",
-            "romaji": "ringo wo futatsu kudasai.",
-            "es": "Dos manzanas, por favor.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "みっつあります。",
-            "furigana": "みっつあります。",
-            "romaji": "mittsu arimasu.",
-            "es": "Hay tres.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "一つずつ取ってください。",
-            "furigana": "ひとつずつとってください。",
-            "romaji": "hitotsu zutsu totte kudasai.",
-            "es": "Tomen uno cada uno.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          }
-        ]
-      },
-      {
-        "tipo": "practica",
-        "ejercicios": [
-          {
-            "tipo": "listen_only",
-            "jp": "リンゴを二つください。",
-            "furigana": "りんごをふたつください。",
-            "es": "Dos manzanas, por favor.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha (texto oculto) y elige.",
-            "respuesta": "リンゴを二つください。 — Dos manzanas, por favor."
-          },
-          {
-            "tipo": "listen_only",
-            "jp": "みっつあります。",
-            "furigana": "みっつあります。",
-            "es": "Hay tres.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha y elige.",
-            "respuesta": "みっつあります。 — Hay tres."
-          },
-          {
-            "tipo": "shadowing",
-            "jp": "リンゴを二つください。",
-            "furigana": "りんごをふたつください。",
-            "es": "Dos manzanas, por favor.",
-            "pausa_ms": 3000,
-            "rate": 0.85,
-            "prompt": "Escucha, pausa 3s, repite."
-          },
-          {
-            "tipo": "produccion",
-            "prompt": "Produce: 'Dos manzanas por favor.'",
-            "respuesta": "リンゴを二つください。",
-            "jp": "リンゴを二つください。",
-            "mostrar_texto_antes": false,
-            "rate": 0.8
-          }
-        ]
-      },
-      {
-        "tipo": "errores_comunes",
-        "texto": "Error típico: いちつ・にちつ inexistentes. Son ひとつ・ふたつ. Y usar sino con ～つ: さんつ no, es みっつ. Solo nativo con つ."
-      },
-      {
-        "tipo": "cierre",
-        "texto": "Hoy: 1-10 nativo con ～つ. Próxima: contadores sino I 枚・本・個. Di 3 veces: ひとつ、ふたつ、みっつ。"
-      }
-    ],
-    "sections": [
-      {
-        "tipo": "gancho",
-        "texto": "Pides 2 manzanas y dudas: にこ? ふたつ? みっつ? Con serie nativa + ～つ no puedes usar la sino sola para cosas sueltas."
-      },
-      {
-        "tipo": "explicacion",
-        "texto": "La serie nativa (wago) cuenta objetos abstractos y pequeños sin clasificar hasta 10 con ～つ: ひとつ,ふたつ,みっつ...\n\nObjetivo: contar 1-10 con ～つ sin mezclar con serie sino.\n\n🧩 Fórmula:【número nativo + つ】→ ひとつ(1),ふたつ(2),みっつ(3),よっつ(4),いつつ(5),むっつ(6),ななつ(7),やっつ(8),ここのつ(9),とお(10). Desde 11 pasas a sino + つ no nativo: じゅういちこ sería raro, se cambia a sino.\n\nPiensa en bloques: nativo solo hasta 10, luego sino.\n\n👣 Cómo construirlo (3 pasos):\n1) Memoriza 1-10 nativo con ritmo: ひ・ふ・み・よ・い・む・な・や・こ・と (mnemotecnia)\n2) Añade a sustantivo con を/が: りんごをふたつ (dos manzanas)\n3) Para “cada uno” repite: ひとつずつ (uno cada uno)\n\n⚖️ Tabla nativa:\n|1|ひとつ|hi-to-tsu|\n|2|ふたつ|fu-ta-tsu|\n|3|みっつ|mittsu geminada|\n|4|よっつ|yottsu geminada|\n|8|やっつ|yattsu geminada|\n|10|とお|too 2 moras|\n\n💡 Ejemplos desglosados:\n1) リンゴを二つください。(りんごをふたつください。)— “Dos manzanas por favor.” → リンゴを + 二つ(ふたつ)+ください.\n2) みっつあります。(みっつあります。)— “Hay tres.” → みっつ(3) + あります.\n3) 一つずつ取ってください。(ひとつずつとってください。)— “Coja uno cada uno.” → 一つ(ひとつ)+ずつ(cada uno).\n\n🔑 Mini-resumen:\n□ ～つ general nativo 1-10, después usa contadores sino (個,枚...).\n□ Sonido geminado en 3,4,6,8: みっつ・よっつ・むっつ・やっつ.\n□ とお(10) no es じゅう, es nativo.\n\n❌ Error 90%: decir いちつ para 1 → es ひとつ. Usar nativo más allá de 10 → じゅうひとつ no existe, di じゅういちこ. Confundir ～つ con plural inglés: no añades s.\n\n💬 Truco offline: cuenta objetos en tu mesa: ひとつ、ふたつ...とお 3×. Active recall. En Cuba: cuenta mangos: ひとつ、ふたつ.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Interleaving: mezcla este tema + vocab + escucha, nunca 10 números seguidos sin contexto. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
-        "palabras": 409
-      },
-      {
-        "tipo": "ejemplos",
-        "items": [
-          {
-            "jp": "リンゴを二つください。",
-            "furigana": "りんごをふたつください。",
-            "romaji": "ringo wo futatsu kudasai.",
-            "es": "Dos manzanas, por favor.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "みっつあります。",
-            "furigana": "みっつあります。",
-            "romaji": "mittsu arimasu.",
-            "es": "Hay tres.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "一つずつ取ってください。",
-            "furigana": "ひとつずつとってください。",
-            "romaji": "hitotsu zutsu totte kudasai.",
-            "es": "Tomen uno cada uno.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          }
-        ]
-      },
-      {
-        "tipo": "practica",
-        "ejercicios": [
-          {
-            "tipo": "listen_only",
-            "jp": "リンゴを二つください。",
-            "furigana": "りんごをふたつください。",
-            "es": "Dos manzanas, por favor.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha (texto oculto) y elige.",
-            "respuesta": "リンゴを二つください。 — Dos manzanas, por favor."
-          },
-          {
-            "tipo": "listen_only",
-            "jp": "みっつあります。",
-            "furigana": "みっつあります。",
-            "es": "Hay tres.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha y elige.",
-            "respuesta": "みっつあります。 — Hay tres."
-          },
-          {
-            "tipo": "shadowing",
-            "jp": "リンゴを二つください。",
-            "furigana": "りんごをふたつください。",
-            "es": "Dos manzanas, por favor.",
-            "pausa_ms": 3000,
-            "rate": 0.85,
-            "prompt": "Escucha, pausa 3s, repite."
-          },
-          {
-            "tipo": "produccion",
-            "prompt": "Produce: 'Dos manzanas por favor.'",
-            "respuesta": "リンゴを二つください。",
-            "jp": "リンゴを二つください。",
-            "mostrar_texto_antes": false,
-            "rate": 0.8
-          }
-        ]
-      },
-      {
-        "tipo": "errores_comunes",
-        "texto": "Error típico: いちつ・にちつ inexistentes. Son ひとつ・ふたつ. Y usar sino con ～つ: さんつ no, es みっつ. Solo nativo con つ."
-      },
-      {
-        "tipo": "cierre",
-        "texto": "Hoy: 1-10 nativo con ～つ. Próxima: contadores sino I 枚・本・個. Di 3 veces: ひとつ、ふたつ、みっつ。"
-      }
-    ],
-    "wexdc": true,
-    "clarity": 3,
-    "autoevaluacion": {
-      "explica_no_informa": true,
-      "palabras_explicacion": 409,
-      "listening_puro_incluido": true,
-      "listening_puro_cantidad": 2,
-      "confianza": 9
-    }
-  },
-  {
-    "id": "l-imabi-040",
-    "title": "IMABI 40: Contadores sino I — 枚・本・個",
-    "stage": "IMABI · Beginners I",
-    "minutes": 9,
-    "level": "imabi",
-    "teach": [
-      {
-        "heading": "IMABI 40: Contadores sino I — 枚・本・個",
-        "text": "3 contadores base sino: 枚まい (planos: papel, fotos), 本ほん (largos: botellas, lápices), 個こ (pequeños abstractos: manzanas, huevos).",
-        "examples": [
-          {
-            "jp": "紙が三枚あります。",
-            "kana": "かみがさんまいあります。",
-            "es": "Hay 3 hojas."
-          },
-          {
-            "jp": "ペンが二本あります。",
-            "kana": "ぺんがにほんあります。",
-            "es": "Hay 2 bolis (largos)."
-          },
-          {
-            "jp": "卵を三個買いました。",
-            "kana": "たまごをさんこかいました。",
-            "es": "Compré 3 huevos."
-          }
-        ]
-      }
-    ],
-    "quiz": {
-      "practice": "grammar",
-      "direction": "grammar-es",
-      "ids": [
-        "g-desu",
-        "g-desu-1",
-        "g-desu-2"
-      ]
-    },
-    "secciones": [
-      {
-        "tipo": "gancho",
-        "texto": "Dices 3 papeles como さんまい? さんほん? さんこ? Cada forma tiene contador distinto; sin 枚・本・個 suenas extranjero."
-      },
-      {
-        "tipo": "explicacion",
-        "texto": "Contadores sino combinan número sino + clasificador. Los 3 más frecuentes: 枚 (planos), 本 (cilíndricos largos), 個 (piezas pequeñas).\n\nObjetivo: elegir 枚/本/個 según forma y contar con eufonía correcta.\n\n🧩 Fórmula:【número sino + contador】→ 三枚さんまい, 二本にほん, 三個さんこ. Irregulares por asimilación: 一本いっぽん, 六本ろっぽん, 八本はっぽん, 三本さんぼん, 一枚いちまい (regular).\n\nPiensa en bloques: mira forma → elige contador → aplica sonido.\n\n👣 Cómo construirlo (3 pasos):\n1) ¿Plano (papel/foto/camiseta)? → 枚まい\n2) ¿Largo (botella/lápiz/árbol)? → 本ほん (con p/b: いっぽん、さんぼん、ろっぽん)\n3) ¿Pequeño abstracto (huevo/manzana/caja)? → 個こ (regular: いっこ、さんこ)\n\n⚖️ Tabla contadores I:\n|Contador|Uso|Sino + sonido|Ejemplo|\n|枚まい|planos|1いちまい3さんまい|紙三枚|\n|本ほん|largos|1いっぽん3さんぼん6ろっぽん8はっぽん|ペン二本にほん→にほん regular? 本 es にほん 2, さんぼん 3|\n|個こ|piezas|1いっこ3さんこ|卵三個|\n\n💡 Ejemplos desglosados:\n1) 紙が三枚あります。(かみがさんまいあります。)— “Hay 3 hojas.” → 紙が + 三枚(さんまい).\n2) ペンが二本あります。(ぺんがにほんあります。)— “Hay 2 bolis.” → ペンが + 二本(にほん).\n3) 卵を三個買いました。(たまごをさんこかいました。)— “Compré 3 huevos.” → 卵を + 三個(さんこ)+買いました.\n\n🔑 Mini-resumen:\n□ 枚 planos, 本 largos, 個 piezas.\n□ 本 tiene 4 formas: いっぽん・さんぼん・ろっぽん・はっぽん・じゅっぽん.\n□ 枚/個 más regulares, 本 memoriza irregulares.\n\n❌ Error 90%: usar 枚 para botellas (es 本), 本 para papel (es 枚), olvidar eufonía de 本: いちほん→いっぽん. Y decir 三つ para papel formal → mejor 三枚.\n\n💬 Truco offline: mira tu mesa: 本2本, 紙3枚, 卵3個 → di en voz alta 3×. Active recall.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Interleaving: mezcla este tema + vocab + escucha, nunca 10 números seguidos sin contexto. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
-        "palabras": 411
-      },
-      {
-        "tipo": "ejemplos",
-        "items": [
-          {
-            "jp": "紙が三枚あります。",
-            "furigana": "かみがさんまいあります。",
-            "romaji": "kami ga sanmai arimasu.",
-            "es": "Hay 3 hojas.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "ペンが二本あります。",
-            "furigana": "ぺんがにほんあります。",
-            "romaji": "pen ga nihon arimasu.",
-            "es": "Hay 2 bolis.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "卵を三個買いました。",
-            "furigana": "たまごをさんこかいました。",
-            "romaji": "tamago wo sanko kaimashita.",
-            "es": "Compré 3 huevos.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          }
-        ]
-      },
-      {
-        "tipo": "practica",
-        "ejercicios": [
-          {
-            "tipo": "listen_only",
-            "jp": "紙が三枚あります。",
-            "furigana": "かみがさんまいあります。",
-            "es": "Hay 3 hojas.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha (texto oculto) y elige.",
-            "respuesta": "紙が三枚あります。 — Hay 3 hojas."
-          },
-          {
-            "tipo": "listen_only",
-            "jp": "ペンが二本あります。",
-            "furigana": "ぺんがにほんあります。",
-            "es": "Hay 2 bolis.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha y elige.",
-            "respuesta": "ペンが二本あります。 — Hay 2 bolis."
-          },
-          {
-            "tipo": "shadowing",
-            "jp": "紙が三枚あります。",
-            "furigana": "かみがさんまいあります。",
-            "es": "Hay 3 hojas.",
-            "pausa_ms": 3000,
-            "rate": 0.85,
-            "prompt": "Escucha, pausa 3s, repite."
-          },
-          {
-            "tipo": "produccion",
-            "prompt": "Produce: 'Compré 3 huevos.'",
-            "respuesta": "卵を三個買いました。",
-            "jp": "卵を三個買いました。",
-            "mostrar_texto_antes": false,
-            "rate": 0.8
-          }
-        ]
-      },
-      {
-        "tipo": "errores_comunes",
-        "texto": "Error típico: 本 con h siempre → es p/b: いっぽん、さんぼん. Confundir 枚/本/個 por forma. Prueba: ¿se enrolla? 本. ¿se apila plano? 枚. ¿pequeño? 個."
-      },
-      {
-        "tipo": "cierre",
-        "texto": "Hoy: 枚・本・個 base. Próxima: 冊・台・匹. Di 3 veces: いっぽん、さんぼん、ろっぽん。"
-      }
-    ],
-    "sections": [
-      {
-        "tipo": "gancho",
-        "texto": "Dices 3 papeles como さんまい? さんほん? さんこ? Cada forma tiene contador distinto; sin 枚・本・個 suenas extranjero."
-      },
-      {
-        "tipo": "explicacion",
-        "texto": "Contadores sino combinan número sino + clasificador. Los 3 más frecuentes: 枚 (planos), 本 (cilíndricos largos), 個 (piezas pequeñas).\n\nObjetivo: elegir 枚/本/個 según forma y contar con eufonía correcta.\n\n🧩 Fórmula:【número sino + contador】→ 三枚さんまい, 二本にほん, 三個さんこ. Irregulares por asimilación: 一本いっぽん, 六本ろっぽん, 八本はっぽん, 三本さんぼん, 一枚いちまい (regular).\n\nPiensa en bloques: mira forma → elige contador → aplica sonido.\n\n👣 Cómo construirlo (3 pasos):\n1) ¿Plano (papel/foto/camiseta)? → 枚まい\n2) ¿Largo (botella/lápiz/árbol)? → 本ほん (con p/b: いっぽん、さんぼん、ろっぽん)\n3) ¿Pequeño abstracto (huevo/manzana/caja)? → 個こ (regular: いっこ、さんこ)\n\n⚖️ Tabla contadores I:\n|Contador|Uso|Sino + sonido|Ejemplo|\n|枚まい|planos|1いちまい3さんまい|紙三枚|\n|本ほん|largos|1いっぽん3さんぼん6ろっぽん8はっぽん|ペン二本にほん→にほん regular? 本 es にほん 2, さんぼん 3|\n|個こ|piezas|1いっこ3さんこ|卵三個|\n\n💡 Ejemplos desglosados:\n1) 紙が三枚あります。(かみがさんまいあります。)— “Hay 3 hojas.” → 紙が + 三枚(さんまい).\n2) ペンが二本あります。(ぺんがにほんあります。)— “Hay 2 bolis.” → ペンが + 二本(にほん).\n3) 卵を三個買いました。(たまごをさんこかいました。)— “Compré 3 huevos.” → 卵を + 三個(さんこ)+買いました.\n\n🔑 Mini-resumen:\n□ 枚 planos, 本 largos, 個 piezas.\n□ 本 tiene 4 formas: いっぽん・さんぼん・ろっぽん・はっぽん・じゅっぽん.\n□ 枚/個 más regulares, 本 memoriza irregulares.\n\n❌ Error 90%: usar 枚 para botellas (es 本), 本 para papel (es 枚), olvidar eufonía de 本: いちほん→いっぽん. Y decir 三つ para papel formal → mejor 三枚.\n\n💬 Truco offline: mira tu mesa: 本2本, 紙3枚, 卵3個 → di en voz alta 3×. Active recall.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Interleaving: mezcla este tema + vocab + escucha, nunca 10 números seguidos sin contexto. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
-        "palabras": 411
-      },
-      {
-        "tipo": "ejemplos",
-        "items": [
-          {
-            "jp": "紙が三枚あります。",
-            "furigana": "かみがさんまいあります。",
-            "romaji": "kami ga sanmai arimasu.",
-            "es": "Hay 3 hojas.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "ペンが二本あります。",
-            "furigana": "ぺんがにほんあります。",
-            "romaji": "pen ga nihon arimasu.",
-            "es": "Hay 2 bolis.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "卵を三個買いました。",
-            "furigana": "たまごをさんこかいました。",
-            "romaji": "tamago wo sanko kaimashita.",
-            "es": "Compré 3 huevos.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          }
-        ]
-      },
-      {
-        "tipo": "practica",
-        "ejercicios": [
-          {
-            "tipo": "listen_only",
-            "jp": "紙が三枚あります。",
-            "furigana": "かみがさんまいあります。",
-            "es": "Hay 3 hojas.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha (texto oculto) y elige.",
-            "respuesta": "紙が三枚あります。 — Hay 3 hojas."
-          },
-          {
-            "tipo": "listen_only",
-            "jp": "ペンが二本あります。",
-            "furigana": "ぺんがにほんあります。",
-            "es": "Hay 2 bolis.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha y elige.",
-            "respuesta": "ペンが二本あります。 — Hay 2 bolis."
-          },
-          {
-            "tipo": "shadowing",
-            "jp": "紙が三枚あります。",
-            "furigana": "かみがさんまいあります。",
-            "es": "Hay 3 hojas.",
-            "pausa_ms": 3000,
-            "rate": 0.85,
-            "prompt": "Escucha, pausa 3s, repite."
-          },
-          {
-            "tipo": "produccion",
-            "prompt": "Produce: 'Compré 3 huevos.'",
-            "respuesta": "卵を三個買いました。",
-            "jp": "卵を三個買いました。",
-            "mostrar_texto_antes": false,
-            "rate": 0.8
-          }
-        ]
-      },
-      {
-        "tipo": "errores_comunes",
-        "texto": "Error típico: 本 con h siempre → es p/b: いっぽん、さんぼん. Confundir 枚/本/個 por forma. Prueba: ¿se enrolla? 本. ¿se apila plano? 枚. ¿pequeño? 個."
-      },
-      {
-        "tipo": "cierre",
-        "texto": "Hoy: 枚・本・個 base. Próxima: 冊・台・匹. Di 3 veces: いっぽん、さんぼん、ろっぽん。"
-      }
-    ],
-    "wexdc": true,
-    "clarity": 3,
-    "autoevaluacion": {
-      "explica_no_informa": true,
-      "palabras_explicacion": 411,
-      "listening_puro_incluido": true,
-      "listening_puro_cantidad": 2,
-      "confianza": 9
-    }
-  },
-  {
-    "id": "l-imabi-041",
-    "title": "IMABI 41: Contadores sino II — 冊・台・匹",
-    "stage": "IMABI · Beginners I",
-    "minutes": 8,
-    "level": "imabi",
-    "teach": [
-      {
-        "heading": "IMABI 41: Contadores sino II — 冊・台・匹",
-        "text": "Contadores medios: 冊さつ (libros encuadernados), 台だい (máquinas/vehículos), 匹ひき/ぴき (animales pequeños/medianos).",
-        "examples": [
-          {
-            "jp": "本を二冊買いました。",
-            "kana": "ほんをにさつかいました。",
-            "es": "Compré 2 libros."
-          },
-          {
-            "jp": "車が一台あります。",
-            "kana": "くるまがいちだいあります。",
-            "es": "Hay 1 coche."
-          },
-          {
-            "jp": "猫が二匹います。",
-            "kana": "ねこがにひきいます。",
-            "es": "Hay 2 gatos."
-          }
-        ]
-      }
-    ],
-    "quiz": {
-      "practice": "grammar",
-      "direction": "grammar-es",
-      "ids": [
-        "g-desu",
-        "g-desu-1",
-        "g-desu-2"
-      ]
-    },
-    "secciones": [
-      {
-        "tipo": "gancho",
-        "texto": "Cuentas 2 libros como にほん? 2 coches? 2 gatos? Cada dominio tiene contador: libros 冊, máquinas 台, animales 匹."
-      },
-      {
-        "tipo": "explicacion",
-        "texto": "Sino-JP II amplía dominios: libros (冊), máquinas (台), animales (匹). Todos con serie sino + eufonía en 匹.\n\nObjetivo: contar libros/máquinas/animales sin usar 枚・本 genéricos.\n\n🧩 Fórmula:【número sino + 冊/台/匹】→ 二冊にさつ, 一台いちだい, 二匹にひき→三匹さんびき(ひ→び),六匹ろっぴき(ひ→ぴ).\n- 冊: いっさつ(1),にさつ(2),さんさつ(3) regular menos geminada en 1/6/8/10\n- 台: いちだい,にだい,さんだい regular (sin cambio)\n- 匹: いっぴき(1),にひき(2),さんびき(3),ろっぴき(6),はっぴき(8)\n\nPiensa en bloques: ¿libro? 冊. ¿máquina/coche? 台. ¿animal pequeño? 匹.\n\n👣 Cómo construirlo (3 pasos):\n1) Libro encuadernado → 冊さつ\n2) Electrodoméstico/vehículo → 台だい\n3) Gato/perro/pez pequeño → 匹ひき (grande 頭とう para vacas/caballos)\n\n⚖️ Tabla contadores II:\n|Contador|Uso|1|3|6|8|\n|冊さつ|libros|いっさつ|さんさつ|ろくさつ→ろっさつ? 実際ろくさつだが口語ろっさつも|はっさつ|\n|台だい|máquinas|いちだい|さんだい|ろくだい|はちだい|\n|匹ひき|animales pe|いっぴき|さんびき|ろっぴき|はっぴき|\n\n💡 Ejemplos desglosados:\n1) 本を二冊買いました。(ほんをにさつかいました。)— “Compré 2 libros.” → 本を + 二冊(にさつ).\n2) 車が一台あります。(くるまがいちだいあります。)— “Hay 1 coche.” → 車が + 一台(いちだい).\n3) 猫が二匹います。(ねこがにひきいます。)— “Hay 2 gatos.” → 猫が + 二匹(にひき).\n\n🔑 Mini-resumen:\n□ 冊 libros, 台 máquinas, 匹 animales pequeños.\n□ 匹 tiene ひ→び→ぴ (さんびき、ろっぴき、はっぴき、いっぴき).\n□ 冊/台 regulares salvo 1/6/8 geminadas.\n\n❌ Error 90%: usar 本 para coches (es 台), 冊 para gatos (es 匹), olvidar rendaku de 匹. Y confundir 匹 con 頭 (vacas/elefantes usan 頭).\n\n💬 Truco offline: cuenta: 本二冊、車一台、猫二匹 3×. Active recall.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Interleaving: mezcla este tema + vocab + escucha, nunca 10 números seguidos sin contexto. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
-        "palabras": 410
-      },
-      {
-        "tipo": "ejemplos",
-        "items": [
-          {
-            "jp": "本を二冊買いました。",
-            "furigana": "ほんをにさつかいました。",
-            "romaji": "hon wo nisatsu kaimashita.",
-            "es": "Compré 2 libros.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "車が一台あります。",
-            "furigana": "くるまがいちだいあります。",
-            "romaji": "kuruma ga ichidai arimasu.",
-            "es": "Hay 1 coche.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "猫が二匹います。",
-            "furigana": "ねこがにひきいます。",
-            "romaji": "neko ga nihiki imasu.",
-            "es": "Hay 2 gatos.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          }
-        ]
-      },
-      {
-        "tipo": "practica",
-        "ejercicios": [
-          {
-            "tipo": "listen_only",
-            "jp": "本を二冊買いました。",
-            "furigana": "ほんをにさつかいました。",
-            "es": "Compré 2 libros.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha (texto oculto) y elige.",
-            "respuesta": "本を二冊買いました。 — Compré 2 libros."
-          },
-          {
-            "tipo": "listen_only",
-            "jp": "車が一台あります。",
-            "furigana": "くるまがいちだいあります。",
-            "es": "Hay 1 coche.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha y elige.",
-            "respuesta": "車が一台あります。 — Hay 1 coche."
-          },
-          {
-            "tipo": "shadowing",
-            "jp": "本を二冊買いました。",
-            "furigana": "ほんをにさつかいました。",
-            "es": "Compré 2 libros.",
-            "pausa_ms": 3000,
-            "rate": 0.85,
-            "prompt": "Escucha, pausa 3s, repite."
-          },
-          {
-            "tipo": "produccion",
-            "prompt": "Produce: 'Hay 2 gatos.'",
-            "respuesta": "猫が二匹います。",
-            "jp": "猫が二匹います。",
-            "mostrar_texto_antes": false,
-            "rate": 0.8
-          }
-        ]
-      },
-      {
-        "tipo": "errores_comunes",
-        "texto": "Error típico: 匹 siempre hi → no: いっぴき/さんびき/ろっぴき. Confundir 冊(さつ) con 札(さつ dinero) pero contexto aclara."
-      },
-      {
-        "tipo": "cierre",
-        "texto": "Hoy: 冊・台・匹. Próxima: nativos 人・つ. Di 3 veces: にさつ、いちだい、にひき。"
-      }
-    ],
-    "sections": [
-      {
-        "tipo": "gancho",
-        "texto": "Cuentas 2 libros como にほん? 2 coches? 2 gatos? Cada dominio tiene contador: libros 冊, máquinas 台, animales 匹."
-      },
-      {
-        "tipo": "explicacion",
-        "texto": "Sino-JP II amplía dominios: libros (冊), máquinas (台), animales (匹). Todos con serie sino + eufonía en 匹.\n\nObjetivo: contar libros/máquinas/animales sin usar 枚・本 genéricos.\n\n🧩 Fórmula:【número sino + 冊/台/匹】→ 二冊にさつ, 一台いちだい, 二匹にひき→三匹さんびき(ひ→び),六匹ろっぴき(ひ→ぴ).\n- 冊: いっさつ(1),にさつ(2),さんさつ(3) regular menos geminada en 1/6/8/10\n- 台: いちだい,にだい,さんだい regular (sin cambio)\n- 匹: いっぴき(1),にひき(2),さんびき(3),ろっぴき(6),はっぴき(8)\n\nPiensa en bloques: ¿libro? 冊. ¿máquina/coche? 台. ¿animal pequeño? 匹.\n\n👣 Cómo construirlo (3 pasos):\n1) Libro encuadernado → 冊さつ\n2) Electrodoméstico/vehículo → 台だい\n3) Gato/perro/pez pequeño → 匹ひき (grande 頭とう para vacas/caballos)\n\n⚖️ Tabla contadores II:\n|Contador|Uso|1|3|6|8|\n|冊さつ|libros|いっさつ|さんさつ|ろくさつ→ろっさつ? 実際ろくさつだが口語ろっさつも|はっさつ|\n|台だい|máquinas|いちだい|さんだい|ろくだい|はちだい|\n|匹ひき|animales pe|いっぴき|さんびき|ろっぴき|はっぴき|\n\n💡 Ejemplos desglosados:\n1) 本を二冊買いました。(ほんをにさつかいました。)— “Compré 2 libros.” → 本を + 二冊(にさつ).\n2) 車が一台あります。(くるまがいちだいあります。)— “Hay 1 coche.” → 車が + 一台(いちだい).\n3) 猫が二匹います。(ねこがにひきいます。)— “Hay 2 gatos.” → 猫が + 二匹(にひき).\n\n🔑 Mini-resumen:\n□ 冊 libros, 台 máquinas, 匹 animales pequeños.\n□ 匹 tiene ひ→び→ぴ (さんびき、ろっぴき、はっぴき、いっぴき).\n□ 冊/台 regulares salvo 1/6/8 geminadas.\n\n❌ Error 90%: usar 本 para coches (es 台), 冊 para gatos (es 匹), olvidar rendaku de 匹. Y confundir 匹 con 頭 (vacas/elefantes usan 頭).\n\n💬 Truco offline: cuenta: 本二冊、車一台、猫二匹 3×. Active recall.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Interleaving: mezcla este tema + vocab + escucha, nunca 10 números seguidos sin contexto. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
-        "palabras": 410
-      },
-      {
-        "tipo": "ejemplos",
-        "items": [
-          {
-            "jp": "本を二冊買いました。",
-            "furigana": "ほんをにさつかいました。",
-            "romaji": "hon wo nisatsu kaimashita.",
-            "es": "Compré 2 libros.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "車が一台あります。",
-            "furigana": "くるまがいちだいあります。",
-            "romaji": "kuruma ga ichidai arimasu.",
-            "es": "Hay 1 coche.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "猫が二匹います。",
-            "furigana": "ねこがにひきいます。",
-            "romaji": "neko ga nihiki imasu.",
-            "es": "Hay 2 gatos.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          }
-        ]
-      },
-      {
-        "tipo": "practica",
-        "ejercicios": [
-          {
-            "tipo": "listen_only",
-            "jp": "本を二冊買いました。",
-            "furigana": "ほんをにさつかいました。",
-            "es": "Compré 2 libros.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha (texto oculto) y elige.",
-            "respuesta": "本を二冊買いました。 — Compré 2 libros."
-          },
-          {
-            "tipo": "listen_only",
-            "jp": "車が一台あります。",
-            "furigana": "くるまがいちだいあります。",
-            "es": "Hay 1 coche.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha y elige.",
-            "respuesta": "車が一台あります。 — Hay 1 coche."
-          },
-          {
-            "tipo": "shadowing",
-            "jp": "本を二冊買いました。",
-            "furigana": "ほんをにさつかいました。",
-            "es": "Compré 2 libros.",
-            "pausa_ms": 3000,
-            "rate": 0.85,
-            "prompt": "Escucha, pausa 3s, repite."
-          },
-          {
-            "tipo": "produccion",
-            "prompt": "Produce: 'Hay 2 gatos.'",
-            "respuesta": "猫が二匹います。",
-            "jp": "猫が二匹います。",
-            "mostrar_texto_antes": false,
-            "rate": 0.8
-          }
-        ]
-      },
-      {
-        "tipo": "errores_comunes",
-        "texto": "Error típico: 匹 siempre hi → no: いっぴき/さんびき/ろっぴき. Confundir 冊(さつ) con 札(さつ dinero) pero contexto aclara."
-      },
-      {
-        "tipo": "cierre",
-        "texto": "Hoy: 冊・台・匹. Próxima: nativos 人・つ. Di 3 veces: にさつ、いちだい、にひき。"
-      }
-    ],
-    "wexdc": true,
-    "clarity": 3,
-    "autoevaluacion": {
-      "explica_no_informa": true,
-      "palabras_explicacion": 410,
-      "listening_puro_incluido": true,
-      "listening_puro_cantidad": 2,
-      "confianza": 9
-    }
-  },
-  {
-    "id": "l-imabi-042",
-    "title": "IMABI 42: Contadores nativos — 人・つ・日",
-    "stage": "IMABI · Beginners I",
-    "minutes": 8,
-    "level": "imabi",
-    "teach": [
-      {
-        "heading": "IMABI 42: Contadores nativos — 人・つ・日",
-        "text": "Nativos 100% nativos: 人ひとり/ふたり (personas 1-2 nativo), ～つ 1-10 ya visto, 日 (días) mixto. El resto usa sino.",
-        "examples": [
-          {
-            "jp": "家族は四人です。",
-            "kana": "かぞくはよにんです。",
-            "es": "Familia 4 personas."
-          },
-          {
-            "jp": "一人で行きました。",
-            "kana": "ひとりでいきました。",
-            "es": "Fui solo."
-          },
-          {
-            "jp": "二日泊まりました。",
-            "kana": "ふつかとまりました。",
-            "es": "Me quedé 2 noches."
-          }
-        ]
-      }
-    ],
-    "quiz": {
-      "practice": "grammar",
-      "direction": "grammar-es",
-      "ids": [
-        "g-desu",
-        "g-desu-1",
-        "g-desu-2"
-      ]
-    },
-    "secciones": [
-      {
-        "tipo": "gancho",
-        "texto": "Cuentas 2 personas como ににん? 1 día como いちにち? Personas y días mezclan nativo/sino y te delatan."
-      },
-      {
-        "tipo": "explicacion",
-        "texto": "Nativos puros sobreviven en 1-2 personas (ひとり/ふたり) y en ～つ. Días también tienen nativo hasta 10: 一日ついたち(1),二日ふつか(2),三日みっか(3)...\n\nObjetivo: usar ひとり・ふたり y 1-10日 nativo sin sino.\n\n🧩 Fórmula:\n- Personas: 1ひとり,2ふたり,3さんにん(→sino),4よにん...\n- Días: 1ついたち,2ふつか,3みっか,4よっか,5いつか,6むいか,7なのか,8ようか,9ここのか,10とおか,11じゅういちにち→sino\n- つ ya visto IMABI 39: ひとつ〜とお\n\nPiensa en bloques: persona/día 1-10 nativo irregular, 11+ sino regular.\n\n👣 Cómo construirlo (3 pasos):\n1) 1-2 personas: ひとり,ふたり (nunca いちにん/ににん)\n2) Días 1-10 nativo irregular: ついたち,ふつか,みっか...\n3) Desde 11 días: じゅういちにち,にじゅうにち regular にち\n\n⚖️ Tabla nativa:\n|Contador|1|2|3|10|\n|人|ひとり|ふたり|さんにん|じゅうにん|\n|日|ついたち|ふつか|みっか|とおか|\n|つ|ひとつ|ふたつ|みっつ|とお|\n\n💡 Ejemplos desglosados:\n1) 家族は四人です。(かぞくはよにんです。)— “Familia 4 personas.” → 家族は + 四人(よにん).\n2) 一人で行きました。(ひとりでいきました。)— “Fui solo.” → 一人で(ひとりで)+行きました.\n3) 二日泊まりました。(ふつかとまりました。)— “Me quedé 2 noches.” → 二日(ふつか)+泊まりました.\n\n🔑 Mini-resumen:\n□ Personas 1-2 nativo ひとり/ふたり, resto sino +にん.\n□ Días 1-10 nativo irregular, 11+ にち.\n□ つ sigue nativo 1-10.\n\n❌ Error 90%: ににん(2 personas) → es ふたり. ふつにち(2 días) → es ふつか. じゅうひとり(11 personas) → es じゅういちにん.\n\n💬 Truco offline: di: ひとり、ふたり、さんにん... と ついたち、ふつか、みっか... 3×. Active recall.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Interleaving: mezcla este tema + vocab + escucha, nunca 10 números seguidos sin contexto. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
-        "palabras": 407
-      },
-      {
-        "tipo": "ejemplos",
-        "items": [
-          {
-            "jp": "家族は四人です。",
-            "furigana": "かぞくはよにんです。",
-            "romaji": "kazoku wa yonin desu.",
-            "es": "Familia 4 personas.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "一人で行きました。",
-            "furigana": "ひとりでいきました。",
-            "romaji": "hitori de ikimashita.",
-            "es": "Fui solo.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "二日泊まりました。",
-            "furigana": "ふつかとまりました。",
-            "romaji": "futsuka tomarimashita.",
-            "es": "Me quedé 2 noches.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          }
-        ]
-      },
-      {
-        "tipo": "practica",
-        "ejercicios": [
-          {
-            "tipo": "listen_only",
-            "jp": "家族は四人です。",
-            "furigana": "かぞくはよにんです。",
-            "es": "Familia 4 personas.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha (texto oculto) y elige.",
-            "respuesta": "家族は四人です。 — Familia 4 personas."
-          },
-          {
-            "tipo": "listen_only",
-            "jp": "一人で行きました。",
-            "furigana": "ひとりでいきました。",
-            "es": "Fui solo.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha y elige.",
-            "respuesta": "一人で行きました。 — Fui solo."
-          },
-          {
-            "tipo": "shadowing",
-            "jp": "家族は四人です。",
-            "furigana": "かぞくはよにんです。",
-            "es": "Familia 4 personas.",
-            "pausa_ms": 3000,
-            "rate": 0.85,
-            "prompt": "Escucha, pausa 3s, repite."
-          },
-          {
-            "tipo": "produccion",
-            "prompt": "Produce: 'Fui solo.'",
-            "respuesta": "一人で行きました。",
-            "jp": "一人で行きました。",
-            "mostrar_texto_antes": false,
-            "rate": 0.8
-          }
-        ]
-      },
-      {
-        "tipo": "errores_comunes",
-        "texto": "Error típico: いちにん/ににん no existen para personas. Son ひとり/ふたり. Día 1 ついたち no いちにち solo en calendario (1日)."
-      },
-      {
-        "tipo": "cierre",
-        "texto": "Hoy: nativos 人・つ・日. Próxima: tiempo deíctico 今日明日. Di 3 veces: ひとり、ふたり、ついたち。"
-      }
-    ],
-    "sections": [
-      {
-        "tipo": "gancho",
-        "texto": "Cuentas 2 personas como ににん? 1 día como いちにち? Personas y días mezclan nativo/sino y te delatan."
-      },
-      {
-        "tipo": "explicacion",
-        "texto": "Nativos puros sobreviven en 1-2 personas (ひとり/ふたり) y en ～つ. Días también tienen nativo hasta 10: 一日ついたち(1),二日ふつか(2),三日みっか(3)...\n\nObjetivo: usar ひとり・ふたり y 1-10日 nativo sin sino.\n\n🧩 Fórmula:\n- Personas: 1ひとり,2ふたり,3さんにん(→sino),4よにん...\n- Días: 1ついたち,2ふつか,3みっか,4よっか,5いつか,6むいか,7なのか,8ようか,9ここのか,10とおか,11じゅういちにち→sino\n- つ ya visto IMABI 39: ひとつ〜とお\n\nPiensa en bloques: persona/día 1-10 nativo irregular, 11+ sino regular.\n\n👣 Cómo construirlo (3 pasos):\n1) 1-2 personas: ひとり,ふたり (nunca いちにん/ににん)\n2) Días 1-10 nativo irregular: ついたち,ふつか,みっか...\n3) Desde 11 días: じゅういちにち,にじゅうにち regular にち\n\n⚖️ Tabla nativa:\n|Contador|1|2|3|10|\n|人|ひとり|ふたり|さんにん|じゅうにん|\n|日|ついたち|ふつか|みっか|とおか|\n|つ|ひとつ|ふたつ|みっつ|とお|\n\n💡 Ejemplos desglosados:\n1) 家族は四人です。(かぞくはよにんです。)— “Familia 4 personas.” → 家族は + 四人(よにん).\n2) 一人で行きました。(ひとりでいきました。)— “Fui solo.” → 一人で(ひとりで)+行きました.\n3) 二日泊まりました。(ふつかとまりました。)— “Me quedé 2 noches.” → 二日(ふつか)+泊まりました.\n\n🔑 Mini-resumen:\n□ Personas 1-2 nativo ひとり/ふたり, resto sino +にん.\n□ Días 1-10 nativo irregular, 11+ にち.\n□ つ sigue nativo 1-10.\n\n❌ Error 90%: ににん(2 personas) → es ふたり. ふつにち(2 días) → es ふつか. じゅうひとり(11 personas) → es じゅういちにん.\n\n💬 Truco offline: di: ひとり、ふたり、さんにん... と ついたち、ふつか、みっか... 3×. Active recall.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Interleaving: mezcla este tema + vocab + escucha, nunca 10 números seguidos sin contexto. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
-        "palabras": 407
-      },
-      {
-        "tipo": "ejemplos",
-        "items": [
-          {
-            "jp": "家族は四人です。",
-            "furigana": "かぞくはよにんです。",
-            "romaji": "kazoku wa yonin desu.",
-            "es": "Familia 4 personas.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "一人で行きました。",
-            "furigana": "ひとりでいきました。",
-            "romaji": "hitori de ikimashita.",
-            "es": "Fui solo.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "二日泊まりました。",
-            "furigana": "ふつかとまりました。",
-            "romaji": "futsuka tomarimashita.",
-            "es": "Me quedé 2 noches.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          }
-        ]
-      },
-      {
-        "tipo": "practica",
-        "ejercicios": [
-          {
-            "tipo": "listen_only",
-            "jp": "家族は四人です。",
-            "furigana": "かぞくはよにんです。",
-            "es": "Familia 4 personas.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha (texto oculto) y elige.",
-            "respuesta": "家族は四人です。 — Familia 4 personas."
-          },
-          {
-            "tipo": "listen_only",
-            "jp": "一人で行きました。",
-            "furigana": "ひとりでいきました。",
-            "es": "Fui solo.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha y elige.",
-            "respuesta": "一人で行きました。 — Fui solo."
-          },
-          {
-            "tipo": "shadowing",
-            "jp": "家族は四人です。",
-            "furigana": "かぞくはよにんです。",
-            "es": "Familia 4 personas.",
-            "pausa_ms": 3000,
-            "rate": 0.85,
-            "prompt": "Escucha, pausa 3s, repite."
-          },
-          {
-            "tipo": "produccion",
-            "prompt": "Produce: 'Fui solo.'",
-            "respuesta": "一人で行きました。",
-            "jp": "一人で行きました。",
-            "mostrar_texto_antes": false,
-            "rate": 0.8
-          }
-        ]
-      },
-      {
-        "tipo": "errores_comunes",
-        "texto": "Error típico: いちにん/ににん no existen para personas. Son ひとり/ふたり. Día 1 ついたち no いちにち solo en calendario (1日)."
-      },
-      {
-        "tipo": "cierre",
-        "texto": "Hoy: nativos 人・つ・日. Próxima: tiempo deíctico 今日明日. Di 3 veces: ひとり、ふたり、ついたち。"
-      }
-    ],
-    "wexdc": true,
-    "clarity": 3,
-    "autoevaluacion": {
-      "explica_no_informa": true,
-      "palabras_explicacion": 407,
-      "listening_puro_incluido": true,
-      "listening_puro_cantidad": 2,
-      "confianza": 9
-    }
-  },
-  {
-    "id": "l-imabi-043",
-    "title": "IMABI 43: Tiempo deíctico — 今日明日昨日 今朝",
-    "stage": "IMABI · Beginners I",
-    "minutes": 7,
-    "level": "imabi",
-    "teach": [
-      {
-        "heading": "IMABI 43: Tiempo deíctico — 今日明日昨日 今朝",
-        "text": "Deíctico = anclado al hoy del hablante: 今日きょう(hoy),明日あした(mañana),昨日きのう(ayer),今朝けさ(esta mañana),今晩こんばん(esta noche).",
-        "examples": [
-          {
-            "jp": "今日は月曜日です。",
-            "kana": "きょうはげつようびです。",
-            "es": "Hoy es lunes."
-          },
-          {
-            "jp": "明日は休みです。",
-            "kana": "あしたはやすみです。",
-            "es": "Mañana es libre."
-          },
-          {
-            "jp": "昨日、映画を見ました。",
-            "kana": "きのう、えいがをみました。",
-            "es": "Ayer vi una peli."
-          }
-        ]
-      }
-    ],
-    "quiz": {
-      "practice": "grammar",
-      "direction": "grammar-es",
-      "ids": [
-        "g-desu",
-        "g-desu-1",
-        "g-desu-2"
-      ]
-    },
-    "secciones": [
-      {
-        "tipo": "gancho",
-        "texto": "Dices 昨日 pero no sabes si es きのう o さくじつ. ¿Cuál usa la gente? Sin deíctico suenas libro."
-      },
-      {
-        "tipo": "explicacion",
-        "texto": "Deíctico te sitúa desde AHORA: hoy/mañana/ayer del hablante. En japonés esas palabras son fijas y muy frecuentes: 今日,明日,昨日,今朝,今晩...\n\nObjetivo: usar 今日/明日/昨日 + 今朝/今晩 en presente/pasado sin leer kanji complicado.\n\n🧩 Fórmula:【T.deíctico は/に + predicado】→ 今日は月曜日です, 明日は休みです, 昨日映画を見ました. Partícula は si tema, に si tiempo puntual: 昨日に no, 昨日、... mejor sin に o con は.\n\nPiensa en bloques: deíctico = brújula del “yo-ahora”.\n\n👣 Cómo construirlo (3 pasos):\n1) Elige eje: 今日(hoy),明日(mañana),昨日(ayer),一昨日おととい(anteayer),明後日あさって(pasado mañana)\n2) Mañana/tarde: 今朝けさ(esta mañana),今晩こんばん(esta noche),昨日→昨晩さくばん(anoche)\n3) Coloca al inicio + は o coma: 今日は..., 昨日、映画を...\n\n⚖️ Tabla deíctico:\n|Esp|JP|Lectura|\n|hoy|今日|きょう|\n|mañana|明日|あした (coloq) /あす formal|\n|ayer|昨日|きのう|\n|esta mañana|今朝|けさ|\n|esta noche|今晩|こんばん|\n\n💡 Ejemplos desglosados:\n1) 今日は月曜日です。(きょうはげつようびです。)— “Hoy es lunes.” → 今日は+月曜日です.\n2) 明日は休みです。(あしたはやすみです。)— “Mañana libre.” → 明日は+休みです.\n3) 昨日、映画を見ました。(きのう、えいがをみました。)— “Ayer vi peli.” → 昨日+映画を見ました.\n\n🔑 Mini-resumen:\n□ Deíctico = hoy del hablante (きょう・あした・きのう...)\n□ 今朝/今晩 familia 今+tiempo.\n□ Posición inicial, con は.\n\n❌ Error 90%: leer 明日 como めいにち? Es あした/あす. 昨日さくじつ formal vs きのう cotidiano: usa きのう. Añadir に siempre: 明日に行く suena raro, di 明日行く.\n\n💬 Truco offline: di tu agenda: 今日は○○,明日は○○,昨日は○○ 3×. Active recall.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Interleaving: mezcla este tema + vocab + escucha, nunca 10 números seguidos sin contexto. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
-        "palabras": 408
-      },
-      {
-        "tipo": "ejemplos",
-        "items": [
-          {
-            "jp": "今日は月曜日です。",
-            "furigana": "きょうはげつようびです。",
-            "romaji": "kyou wa getsuyoubi desu.",
-            "es": "Hoy es lunes.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "明日は休みです。",
-            "furigana": "あしたはやすみです。",
-            "romaji": "ashita wa yasumi desu.",
-            "es": "Mañana es libre.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "昨日、映画を見ました。",
-            "furigana": "きのう、えいがをみました。",
-            "romaji": "kinou, eiga wo mimashita.",
-            "es": "Ayer vi una peli.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          }
-        ]
-      },
-      {
-        "tipo": "practica",
-        "ejercicios": [
-          {
-            "tipo": "listen_only",
-            "jp": "今日は月曜日です。",
-            "furigana": "きょうはげつようびです。",
-            "es": "Hoy es lunes.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha (texto oculto) y elige.",
-            "respuesta": "今日は月曜日です。 — Hoy es lunes."
-          },
-          {
-            "tipo": "listen_only",
-            "jp": "明日は休みです。",
-            "furigana": "あしたはやすみです。",
-            "es": "Mañana es libre.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha y elige.",
-            "respuesta": "明日は休みです。 — Mañana es libre."
-          },
-          {
-            "tipo": "shadowing",
-            "jp": "今日は月曜日です。",
-            "furigana": "きょうはげつようびです。",
-            "es": "Hoy es lunes.",
-            "pausa_ms": 3000,
-            "rate": 0.85,
-            "prompt": "Escucha, pausa 3s, repite."
-          },
-          {
-            "tipo": "produccion",
-            "prompt": "Produce: 'Ayer vi una peli.'",
-            "respuesta": "昨日、映画を見ました。",
-            "jp": "昨日、映画を見ました。",
-            "mostrar_texto_antes": false,
-            "rate": 0.8
-          }
-        ]
-      },
-      {
-        "tipo": "errores_comunes",
-        "texto": "Error típico: 明日めいにち/昨日さくじつ solo lectura culta. En habla diaria di あした/きのう. Y olvidar 今朝/今晩: di けさ/こんばん no いまあさ."
-      },
-      {
-        "tipo": "cierre",
-        "texto": "Hoy: 今日明日昨日 + 今朝今晩. Próxima: relativo 前・後. Di 3 veces: きょう、あした、きのう。"
-      }
-    ],
-    "sections": [
-      {
-        "tipo": "gancho",
-        "texto": "Dices 昨日 pero no sabes si es きのう o さくじつ. ¿Cuál usa la gente? Sin deíctico suenas libro."
-      },
-      {
-        "tipo": "explicacion",
-        "texto": "Deíctico te sitúa desde AHORA: hoy/mañana/ayer del hablante. En japonés esas palabras son fijas y muy frecuentes: 今日,明日,昨日,今朝,今晩...\n\nObjetivo: usar 今日/明日/昨日 + 今朝/今晩 en presente/pasado sin leer kanji complicado.\n\n🧩 Fórmula:【T.deíctico は/に + predicado】→ 今日は月曜日です, 明日は休みです, 昨日映画を見ました. Partícula は si tema, に si tiempo puntual: 昨日に no, 昨日、... mejor sin に o con は.\n\nPiensa en bloques: deíctico = brújula del “yo-ahora”.\n\n👣 Cómo construirlo (3 pasos):\n1) Elige eje: 今日(hoy),明日(mañana),昨日(ayer),一昨日おととい(anteayer),明後日あさって(pasado mañana)\n2) Mañana/tarde: 今朝けさ(esta mañana),今晩こんばん(esta noche),昨日→昨晩さくばん(anoche)\n3) Coloca al inicio + は o coma: 今日は..., 昨日、映画を...\n\n⚖️ Tabla deíctico:\n|Esp|JP|Lectura|\n|hoy|今日|きょう|\n|mañana|明日|あした (coloq) /あす formal|\n|ayer|昨日|きのう|\n|esta mañana|今朝|けさ|\n|esta noche|今晩|こんばん|\n\n💡 Ejemplos desglosados:\n1) 今日は月曜日です。(きょうはげつようびです。)— “Hoy es lunes.” → 今日は+月曜日です.\n2) 明日は休みです。(あしたはやすみです。)— “Mañana libre.” → 明日は+休みです.\n3) 昨日、映画を見ました。(きのう、えいがをみました。)— “Ayer vi peli.” → 昨日+映画を見ました.\n\n🔑 Mini-resumen:\n□ Deíctico = hoy del hablante (きょう・あした・きのう...)\n□ 今朝/今晩 familia 今+tiempo.\n□ Posición inicial, con は.\n\n❌ Error 90%: leer 明日 como めいにち? Es あした/あす. 昨日さくじつ formal vs きのう cotidiano: usa きのう. Añadir に siempre: 明日に行く suena raro, di 明日行く.\n\n💬 Truco offline: di tu agenda: 今日は○○,明日は○○,昨日は○○ 3×. Active recall.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Interleaving: mezcla este tema + vocab + escucha, nunca 10 números seguidos sin contexto. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
-        "palabras": 408
-      },
-      {
-        "tipo": "ejemplos",
-        "items": [
-          {
-            "jp": "今日は月曜日です。",
-            "furigana": "きょうはげつようびです。",
-            "romaji": "kyou wa getsuyoubi desu.",
-            "es": "Hoy es lunes.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "明日は休みです。",
-            "furigana": "あしたはやすみです。",
-            "romaji": "ashita wa yasumi desu.",
-            "es": "Mañana es libre.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "昨日、映画を見ました。",
-            "furigana": "きのう、えいがをみました。",
-            "romaji": "kinou, eiga wo mimashita.",
-            "es": "Ayer vi una peli.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          }
-        ]
-      },
-      {
-        "tipo": "practica",
-        "ejercicios": [
-          {
-            "tipo": "listen_only",
-            "jp": "今日は月曜日です。",
-            "furigana": "きょうはげつようびです。",
-            "es": "Hoy es lunes.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha (texto oculto) y elige.",
-            "respuesta": "今日は月曜日です。 — Hoy es lunes."
-          },
-          {
-            "tipo": "listen_only",
-            "jp": "明日は休みです。",
-            "furigana": "あしたはやすみです。",
-            "es": "Mañana es libre.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha y elige.",
-            "respuesta": "明日は休みです。 — Mañana es libre."
-          },
-          {
-            "tipo": "shadowing",
-            "jp": "今日は月曜日です。",
-            "furigana": "きょうはげつようびです。",
-            "es": "Hoy es lunes.",
-            "pausa_ms": 3000,
-            "rate": 0.85,
-            "prompt": "Escucha, pausa 3s, repite."
-          },
-          {
-            "tipo": "produccion",
-            "prompt": "Produce: 'Ayer vi una peli.'",
-            "respuesta": "昨日、映画を見ました。",
-            "jp": "昨日、映画を見ました。",
-            "mostrar_texto_antes": false,
-            "rate": 0.8
-          }
-        ]
-      },
-      {
-        "tipo": "errores_comunes",
-        "texto": "Error típico: 明日めいにち/昨日さくじつ solo lectura culta. En habla diaria di あした/きのう. Y olvidar 今朝/今晩: di けさ/こんばん no いまあさ."
-      },
-      {
-        "tipo": "cierre",
-        "texto": "Hoy: 今日明日昨日 + 今朝今晩. Próxima: relativo 前・後. Di 3 veces: きょう、あした、きのう。"
-      }
-    ],
-    "wexdc": true,
-    "clarity": 3,
-    "autoevaluacion": {
-      "explica_no_informa": true,
-      "palabras_explicacion": 408,
-      "listening_puro_incluido": true,
-      "listening_puro_cantidad": 2,
-      "confianza": 9
-    }
-  },
-  {
-    "id": "l-imabi-044",
-    "title": "IMABI 44: Tiempo relativo I — 前・後・間",
-    "stage": "IMABI · Beginners I",
-    "minutes": 8,
-    "level": "imabi",
-    "teach": [
-      {
-        "heading": "IMABI 44: Tiempo relativo I — 前・後・間",
-        "text": "Relativo no depende de hoy: 前まえ(antes/de),後あと(after, noun),間あいだ(while, interval). 前/後 con の y 間 con に.",
-        "examples": [
-          {
-            "jp": "食事の前に手を洗います。",
-            "kana": "しょくじのまえにてをあらいます。",
-            "es": "Me lavo antes de comer."
-          },
-          {
-            "jp": "仕事の後に映画を見ます。",
-            "kana": "しごとのあとにえいがをみます。",
-            "es": "Veo peli después del trabajo."
-          },
-          {
-            "jp": "二時間待ちました。",
-            "kana": "にじかんまちました。",
-            "es": "Esperé 2 horas (duración)."
-          }
-        ]
-      }
-    ],
-    "quiz": {
-      "practice": "grammar",
-      "direction": "grammar-es",
-      "ids": [
-        "g-desu",
-        "g-desu-1",
-        "g-desu-2"
-      ]
-    },
-    "secciones": [
-      {
-        "tipo": "gancho",
-        "texto": "Quieres decir 'antes de comer' y dudas: 食事前? 前に? 後に? Relativo usa 前/後/間 no 今日."
-      },
-      {
-        "tipo": "explicacion",
-        "texto": "Tiempo relativo se ancla a otro evento, no al hoy: “antes de comer”, “después del trabajo”, “durante 2 horas”.\n\nObjetivo: construir Nの前/後に y duración + 間 opcional.\n\n🧩 Fórmula:\n- 【Nの前(に)】 antes de N: 食事の前に手を洗う\n- 【Nの後(で/に)】 después de N: 仕事の後に映画を見る\n- 【duración + 間】 durante: 二時間待ちました (間 opcional pero aclara intervalo), 二時間の間に1回\n\nPiensa en bloques: evento + の + 前/後/間.\n\n👣 Cómo construirlo (3 pasos):\n1) Nombra evento: 食事,仕事,授業\n2) Añade の前/の後: 食事の前(に), 仕事の後(に)\n3) Duración: 二時間(間)待ちました — 間 si quieres enfatizar “durante”\n\n⚖️ Tabla relativo I:\n|Patrón|Signif|Ejemplo|\n|Nの前に|antes de N|食事の前に|\n|Nの後に|después de N|仕事の後に|\n|Nの間(に)|mientras/durante N|授業の間は静かに|\n|duración|durante X tiempo|二時間(間)待つ|\n\n💡 Ejemplos desglosados:\n1) 食事の前に手を洗います。(しょくじのまえにてをあらいます。)— “Antes de comer me lavo.” → 食事の前(に)+手を洗います.\n2) 仕事の後に映画を見ます。(しごとのあとにえいがをみます。)— “Después del trabajo veo peli.” → 仕事の後(に)+映画を見ます.\n3) 二時間待ちました。(にじかんまちました。)— “Esperé 2 horas.” → 二時間(間)+待ちました.\n\n🔑 Mini-resumen:\n□ 前 antes, 後 después, 間 intervalo/durante.\n□ Con N: の前/の後/の間.\n□ Duración puede llevar 間 pero no obligatorio.\n\n❌ Error 90%: 前で vs 前に: tiempo puntual antes de evento es 前に, no 前で. Y olvidar の: 食事前→食事の前.\n\n💬 Truco offline: di: 食事の前に○○,仕事の後に○○,二時間○○ 3×. Active recall.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Interleaving: mezcla este tema + vocab + escucha, nunca 10 números seguidos sin contexto. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
-        "palabras": 408
-      },
-      {
-        "tipo": "ejemplos",
-        "items": [
-          {
-            "jp": "食事の前に手を洗います。",
-            "furigana": "しょくじのまえにてをあらいます。",
-            "romaji": "shokuji no mae ni te wo araimasu.",
-            "es": "Me lavo antes de comer.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "仕事の後に映画を見ます。",
-            "furigana": "しごとのあとにえいがをみます。",
-            "romaji": "shigoto no ato ni eiga wo mimasu.",
-            "es": "Veo peli después del trabajo.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "二時間待ちました。",
-            "furigana": "にじかんまちました。",
-            "romaji": "nijikan machimashita.",
-            "es": "Esperé 2 horas.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          }
-        ]
-      },
-      {
-        "tipo": "practica",
-        "ejercicios": [
-          {
-            "tipo": "listen_only",
-            "jp": "食事の前に手を洗います。",
-            "furigana": "しょくじのまえにてをあらいます。",
-            "es": "Me lavo antes de comer.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha (texto oculto) y elige.",
-            "respuesta": "食事の前に手を洗います。 — Me lavo antes de comer."
-          },
-          {
-            "tipo": "listen_only",
-            "jp": "仕事の後に映画を見ます。",
-            "furigana": "しごとのあとにえいがをみます。",
-            "es": "Veo peli después del trabajo.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha y elige.",
-            "respuesta": "仕事の後に映画を見ます。 — Veo peli después del trabajo."
-          },
-          {
-            "tipo": "shadowing",
-            "jp": "食事の前に手を洗います。",
-            "furigana": "しょくじのまえにてをあらいます。",
-            "es": "Me lavo antes de comer.",
-            "pausa_ms": 3000,
-            "rate": 0.85,
-            "prompt": "Escucha, pausa 3s, repite."
-          },
-          {
-            "tipo": "produccion",
-            "prompt": "Produce: 'Después del trabajo veo peli.'",
-            "respuesta": "仕事の後に映画を見ます。",
-            "jp": "仕事の後に映画を見ます。",
-            "mostrar_texto_antes": false,
-            "rate": 0.8
-          }
-        ]
-      },
-      {
-        "tipo": "errores_comunes",
-        "texto": "Error típico: 食事前/仕事後 sin の. Y confundir 間 con 前: 授業の間( durante clase) vs 授業の前(antes de clase)."
-      },
-      {
-        "tipo": "cierre",
-        "texto": "Hoy: の前/の後/の間 relativo. Próxima: determinantes この/その頃 毎・先・来. Di 3 veces: 食事の前に。"
-      }
-    ],
-    "sections": [
-      {
-        "tipo": "gancho",
-        "texto": "Quieres decir 'antes de comer' y dudas: 食事前? 前に? 後に? Relativo usa 前/後/間 no 今日."
-      },
-      {
-        "tipo": "explicacion",
-        "texto": "Tiempo relativo se ancla a otro evento, no al hoy: “antes de comer”, “después del trabajo”, “durante 2 horas”.\n\nObjetivo: construir Nの前/後に y duración + 間 opcional.\n\n🧩 Fórmula:\n- 【Nの前(に)】 antes de N: 食事の前に手を洗う\n- 【Nの後(で/に)】 después de N: 仕事の後に映画を見る\n- 【duración + 間】 durante: 二時間待ちました (間 opcional pero aclara intervalo), 二時間の間に1回\n\nPiensa en bloques: evento + の + 前/後/間.\n\n👣 Cómo construirlo (3 pasos):\n1) Nombra evento: 食事,仕事,授業\n2) Añade の前/の後: 食事の前(に), 仕事の後(に)\n3) Duración: 二時間(間)待ちました — 間 si quieres enfatizar “durante”\n\n⚖️ Tabla relativo I:\n|Patrón|Signif|Ejemplo|\n|Nの前に|antes de N|食事の前に|\n|Nの後に|después de N|仕事の後に|\n|Nの間(に)|mientras/durante N|授業の間は静かに|\n|duración|durante X tiempo|二時間(間)待つ|\n\n💡 Ejemplos desglosados:\n1) 食事の前に手を洗います。(しょくじのまえにてをあらいます。)— “Antes de comer me lavo.” → 食事の前(に)+手を洗います.\n2) 仕事の後に映画を見ます。(しごとのあとにえいがをみます。)— “Después del trabajo veo peli.” → 仕事の後(に)+映画を見ます.\n3) 二時間待ちました。(にじかんまちました。)— “Esperé 2 horas.” → 二時間(間)+待ちました.\n\n🔑 Mini-resumen:\n□ 前 antes, 後 después, 間 intervalo/durante.\n□ Con N: の前/の後/の間.\n□ Duración puede llevar 間 pero no obligatorio.\n\n❌ Error 90%: 前で vs 前に: tiempo puntual antes de evento es 前に, no 前で. Y olvidar の: 食事前→食事の前.\n\n💬 Truco offline: di: 食事の前に○○,仕事の後に○○,二時間○○ 3×. Active recall.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Interleaving: mezcla este tema + vocab + escucha, nunca 10 números seguidos sin contexto. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
-        "palabras": 408
-      },
-      {
-        "tipo": "ejemplos",
-        "items": [
-          {
-            "jp": "食事の前に手を洗います。",
-            "furigana": "しょくじのまえにてをあらいます。",
-            "romaji": "shokuji no mae ni te wo araimasu.",
-            "es": "Me lavo antes de comer.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "仕事の後に映画を見ます。",
-            "furigana": "しごとのあとにえいがをみます。",
-            "romaji": "shigoto no ato ni eiga wo mimasu.",
-            "es": "Veo peli después del trabajo.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "二時間待ちました。",
-            "furigana": "にじかんまちました。",
-            "romaji": "nijikan machimashita.",
-            "es": "Esperé 2 horas.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          }
-        ]
-      },
-      {
-        "tipo": "practica",
-        "ejercicios": [
-          {
-            "tipo": "listen_only",
-            "jp": "食事の前に手を洗います。",
-            "furigana": "しょくじのまえにてをあらいます。",
-            "es": "Me lavo antes de comer.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha (texto oculto) y elige.",
-            "respuesta": "食事の前に手を洗います。 — Me lavo antes de comer."
-          },
-          {
-            "tipo": "listen_only",
-            "jp": "仕事の後に映画を見ます。",
-            "furigana": "しごとのあとにえいがをみます。",
-            "es": "Veo peli después del trabajo.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha y elige.",
-            "respuesta": "仕事の後に映画を見ます。 — Veo peli después del trabajo."
-          },
-          {
-            "tipo": "shadowing",
-            "jp": "食事の前に手を洗います。",
-            "furigana": "しょくじのまえにてをあらいます。",
-            "es": "Me lavo antes de comer.",
-            "pausa_ms": 3000,
-            "rate": 0.85,
-            "prompt": "Escucha, pausa 3s, repite."
-          },
-          {
-            "tipo": "produccion",
-            "prompt": "Produce: 'Después del trabajo veo peli.'",
-            "respuesta": "仕事の後に映画を見ます。",
-            "jp": "仕事の後に映画を見ます。",
-            "mostrar_texto_antes": false,
-            "rate": 0.8
-          }
-        ]
-      },
-      {
-        "tipo": "errores_comunes",
-        "texto": "Error típico: 食事前/仕事後 sin の. Y confundir 間 con 前: 授業の間( durante clase) vs 授業の前(antes de clase)."
-      },
-      {
-        "tipo": "cierre",
-        "texto": "Hoy: の前/の後/の間 relativo. Próxima: determinantes この/その頃 毎・先・来. Di 3 veces: 食事の前に。"
-      }
-    ],
-    "wexdc": true,
-    "clarity": 3,
-    "autoevaluacion": {
-      "explica_no_informa": true,
-      "palabras_explicacion": 408,
-      "listening_puro_incluido": true,
-      "listening_puro_cantidad": 2,
-      "confianza": 9
-    }
-  },
-  {
-    "id": "l-imabi-045",
-    "title": "IMABI 45: Tiempo relativo II — 毎・先・来・再",
-    "stage": "IMABI · Beginners I",
-    "minutes": 7,
-    "level": "imabi",
-    "teach": [
-      {
-        "heading": "IMABI 45: Tiempo relativo II — 毎・先・来・再",
-        "text": "Determinantes relativos: 毎まい( cada ~),先せん( pasado ~),来らい( próximo ~),再さい( re~) + 週・月・年・回. 毎週( cada semana),来年( próximo año).",
-        "examples": [
-          {
-            "jp": "毎朝六時に起きます。",
-            "kana": "まいあさろくじにおきます。",
-            "es": "Cada mañana me levanto a las 6."
-          },
-          {
-            "jp": "先週、京都に行きました。",
-            "kana": "せんしゅう、きょうとにいきました。",
-            "es": "La semana pasada fui a Kyoto."
-          },
-          {
-            "jp": "来年、日本に行きます。",
-            "kana": "らいねん、にほんにいきます。",
-            "es": "El próximo año iré a Japón."
-          }
-        ]
-      }
-    ],
-    "quiz": {
-      "practice": "grammar",
-      "direction": "grammar-es",
-      "ids": [
-        "g-desu",
-        "g-desu-1",
-        "g-desu-2"
-      ]
-    },
-    "secciones": [
-      {
-        "tipo": "gancho",
-        "texto": "Quieres decir 'cada mañana', 'la semana pasada', 'el próximo año' sin usar 毎に? Sin 先/来/毎 no suenas japonés."
-      },
-      {
-        "tipo": "explicacion",
-        "texto": "Relativos determinantes se pegan delante: 毎( cada),先( anterior),来( próximo),再( re/otra vez).\n\nObjetivo: formar 毎朝・先週・来年 + 再来 con precisión.\n\n🧩 Fórmula:【毎/先/来 + unidad】→ 毎朝まいあさ(cada mañana),毎週まいしゅう(cada semana),先週せんしゅう(pasada),来週らいしゅう(próxima),来年らいねん(próx año),再来年さらいねん(año tras el próx).\n\nPiensa en bloques: prefijo + semana/mes/año.\n\n👣 Cómo construirlo (3 pasos):\n1) ¿Cada? → 毎 + 朝/週/月/年/回: 毎朝,毎週\n2) ¿Pasado? → 先 + 週/月/年: 先週,先月せんげつ,去年きょねん( año pasado irregular: 去年 no 先年)\n3) ¿Futuro? → 来 + 週/月/年: 来週,来月らいげつ,来年 + 再来 para “tras el próx”: 再来週さらいしゅう\n\n⚖️ Tabla prefijos tiempo:\n|Prefijo|Signif|Ejemplo|Nota|\n|毎まい|cada|毎朝・毎週|no lleva の|\n|先せん|pasado|先週・先月|去年 es excepción año pasado|\n|来らい|próximo|来週・来年|来年らいねん|\n|再来さらい|tras próx|再来週・再来年|doble distancia|\n\n💡 Ejemplos desglosados:\n1) 毎朝六時に起きます。(まいあさろくじにおきます。)— “Cada mañana 6h me levanto.” → 毎朝+六時に+起きます.\n2) 先週、京都に行きました。(せんしゅう、きょうとにいきました。)— “Semana pasada fui a Kyoto.” → 先週+京都に行きました.\n3) 来年、日本に行きます。(らいねん、にほんにいきます。)— “Próximo año iré a Japón.” → 来年+日本に行きます.\n\n🔑 Mini-resumen:\n□ 毎 cada, 先 pasado, 来 próximo, 再来 tras próximo.\n□ 去年きょねん no 先年; 一昨年おととし antepasado.\n□ Sin の: 毎朝 no 毎の朝.\n\n❌ Error 90%: 毎の週, 先の週 con の → mal. Es 毎週,先週 directo. Y 来月らいげつ con rendaku g→ no, es らいげつ con g suave.\n\n💬 Truco offline: di: 毎朝、毎週、先週、来週、来年 3×. Active recall.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Interleaving: mezcla este tema + vocab + escucha, nunca 10 números seguidos sin contexto. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
-        "palabras": 408
-      },
-      {
-        "tipo": "ejemplos",
-        "items": [
-          {
-            "jp": "毎朝六時に起きます。",
-            "furigana": "まいあさろくじにおきます。",
-            "romaji": "maiasa rokuji ni okimasu.",
-            "es": "Cada mañana me levanto a las 6.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "先週、京都に行きました。",
-            "furigana": "せんしゅう、きょうとにいきました。",
-            "romaji": "senshuu, kyouto ni ikimashita.",
-            "es": "La semana pasada fui a Kyoto.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "来年、日本に行きます。",
-            "furigana": "らいねん、にほんにいきます。",
-            "romaji": "rainen, nihon ni ikimasu.",
-            "es": "El próximo año iré a Japón.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          }
-        ]
-      },
-      {
-        "tipo": "practica",
-        "ejercicios": [
-          {
-            "tipo": "listen_only",
-            "jp": "毎朝六時に起きます。",
-            "furigana": "まいあさろくじにおきます。",
-            "es": "Cada mañana a las 6.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha (texto oculto) y elige.",
-            "respuesta": "毎朝六時に起きます。 — Cada mañana a las 6."
-          },
-          {
-            "tipo": "listen_only",
-            "jp": "先週、京都に行きました。",
-            "furigana": "せんしゅう、きょうとにいきました。",
-            "es": "La semana pasada fui a Kyoto.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha y elige.",
-            "respuesta": "先週、京都に行きました。 — Semana pasada a Kyoto."
-          },
-          {
-            "tipo": "shadowing",
-            "jp": "毎朝六時に起きます。",
-            "furigana": "まいあさろくじにおきます。",
-            "es": "Cada mañana a las 6.",
-            "pausa_ms": 3000,
-            "rate": 0.85,
-            "prompt": "Escucha, pausa 3s, repite."
-          },
-          {
-            "tipo": "produccion",
-            "prompt": "Produce: 'El próximo año iré a Japón.'",
-            "respuesta": "来年、日本に行きます。",
-            "jp": "来年、日本に行きます。",
-            "mostrar_texto_antes": false,
-            "rate": 0.8
-          }
-        ]
-      },
-      {
-        "tipo": "errores_comunes",
-        "texto": "Error típico: 毎の朝, 先の週 con の extra. Y 先年 no se dice, es 去年. 再来週さらいしゅう vs 来来週 inexistente."
-      },
-      {
-        "tipo": "cierre",
-        "texto": "Hoy: 毎・先・来・再来 determinantes. Próxima: この/その/あの + tiempo (あの頃). Di 3 veces: 毎朝、先週、来年。"
-      }
-    ],
-    "sections": [
-      {
-        "tipo": "gancho",
-        "texto": "Quieres decir 'cada mañana', 'la semana pasada', 'el próximo año' sin usar 毎に? Sin 先/来/毎 no suenas japonés."
-      },
-      {
-        "tipo": "explicacion",
-        "texto": "Relativos determinantes se pegan delante: 毎( cada),先( anterior),来( próximo),再( re/otra vez).\n\nObjetivo: formar 毎朝・先週・来年 + 再来 con precisión.\n\n🧩 Fórmula:【毎/先/来 + unidad】→ 毎朝まいあさ(cada mañana),毎週まいしゅう(cada semana),先週せんしゅう(pasada),来週らいしゅう(próxima),来年らいねん(próx año),再来年さらいねん(año tras el próx).\n\nPiensa en bloques: prefijo + semana/mes/año.\n\n👣 Cómo construirlo (3 pasos):\n1) ¿Cada? → 毎 + 朝/週/月/年/回: 毎朝,毎週\n2) ¿Pasado? → 先 + 週/月/年: 先週,先月せんげつ,去年きょねん( año pasado irregular: 去年 no 先年)\n3) ¿Futuro? → 来 + 週/月/年: 来週,来月らいげつ,来年 + 再来 para “tras el próx”: 再来週さらいしゅう\n\n⚖️ Tabla prefijos tiempo:\n|Prefijo|Signif|Ejemplo|Nota|\n|毎まい|cada|毎朝・毎週|no lleva の|\n|先せん|pasado|先週・先月|去年 es excepción año pasado|\n|来らい|próximo|来週・来年|来年らいねん|\n|再来さらい|tras próx|再来週・再来年|doble distancia|\n\n💡 Ejemplos desglosados:\n1) 毎朝六時に起きます。(まいあさろくじにおきます。)— “Cada mañana 6h me levanto.” → 毎朝+六時に+起きます.\n2) 先週、京都に行きました。(せんしゅう、きょうとにいきました。)— “Semana pasada fui a Kyoto.” → 先週+京都に行きました.\n3) 来年、日本に行きます。(らいねん、にほんにいきます。)— “Próximo año iré a Japón.” → 来年+日本に行きます.\n\n🔑 Mini-resumen:\n□ 毎 cada, 先 pasado, 来 próximo, 再来 tras próximo.\n□ 去年きょねん no 先年; 一昨年おととし antepasado.\n□ Sin の: 毎朝 no 毎の朝.\n\n❌ Error 90%: 毎の週, 先の週 con の → mal. Es 毎週,先週 directo. Y 来月らいげつ con rendaku g→ no, es らいげつ con g suave.\n\n💬 Truco offline: di: 毎朝、毎週、先週、来週、来年 3×. Active recall.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Interleaving: mezcla este tema + vocab + escucha, nunca 10 números seguidos sin contexto. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
-        "palabras": 408
-      },
-      {
-        "tipo": "ejemplos",
-        "items": [
-          {
-            "jp": "毎朝六時に起きます。",
-            "furigana": "まいあさろくじにおきます。",
-            "romaji": "maiasa rokuji ni okimasu.",
-            "es": "Cada mañana me levanto a las 6.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "先週、京都に行きました。",
-            "furigana": "せんしゅう、きょうとにいきました。",
-            "romaji": "senshuu, kyouto ni ikimashita.",
-            "es": "La semana pasada fui a Kyoto.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "来年、日本に行きます。",
-            "furigana": "らいねん、にほんにいきます。",
-            "romaji": "rainen, nihon ni ikimasu.",
-            "es": "El próximo año iré a Japón.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          }
-        ]
-      },
-      {
-        "tipo": "practica",
-        "ejercicios": [
-          {
-            "tipo": "listen_only",
-            "jp": "毎朝六時に起きます。",
-            "furigana": "まいあさろくじにおきます。",
-            "es": "Cada mañana a las 6.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha (texto oculto) y elige.",
-            "respuesta": "毎朝六時に起きます。 — Cada mañana a las 6."
-          },
-          {
-            "tipo": "listen_only",
-            "jp": "先週、京都に行きました。",
-            "furigana": "せんしゅう、きょうとにいきました。",
-            "es": "La semana pasada fui a Kyoto.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha y elige.",
-            "respuesta": "先週、京都に行きました。 — Semana pasada a Kyoto."
-          },
-          {
-            "tipo": "shadowing",
-            "jp": "毎朝六時に起きます。",
-            "furigana": "まいあさろくじにおきます。",
-            "es": "Cada mañana a las 6.",
-            "pausa_ms": 3000,
-            "rate": 0.85,
-            "prompt": "Escucha, pausa 3s, repite."
-          },
-          {
-            "tipo": "produccion",
-            "prompt": "Produce: 'El próximo año iré a Japón.'",
-            "respuesta": "来年、日本に行きます。",
-            "jp": "来年、日本に行きます。",
-            "mostrar_texto_antes": false,
-            "rate": 0.8
-          }
-        ]
-      },
-      {
-        "tipo": "errores_comunes",
-        "texto": "Error típico: 毎の朝, 先の週 con の extra. Y 先年 no se dice, es 去年. 再来週さらいしゅう vs 来来週 inexistente."
-      },
-      {
-        "tipo": "cierre",
-        "texto": "Hoy: 毎・先・来・再来 determinantes. Próxima: この/その/あの + tiempo (あの頃). Di 3 veces: 毎朝、先週、来年。"
-      }
-    ],
-    "wexdc": true,
-    "clarity": 3,
-    "autoevaluacion": {
-      "explica_no_informa": true,
-      "palabras_explicacion": 408,
-      "listening_puro_incluido": true,
-      "listening_puro_cantidad": 2,
-      "confianza": 9
-    }
-  },
-  {
-    "id": "l-imabi-046",
-    "title": "IMABI 46: Tiempo relativo III — あの頃・その時",
-    "stage": "IMABI · Beginners I",
-    "minutes": 7,
-    "level": "imabi",
-    "teach": [
-      {
-        "heading": "IMABI 46: Tiempo relativo III — あの頃・その時",
-        "text": "Referencia anafórica: この頃(últimamente/por estos días),その時( en ese momento),あの頃( en aquellos días). Con の + N tiempo.",
-        "examples": [
-          {
-            "jp": "あの頃は学生でした。",
-            "kana": "あのころはがくせいでした。",
-            "es": "En aquella época era estudiante."
-          },
-          {
-            "jp": "その時、雨が降っていました。",
-            "kana": "そのとき、あめがふっていました。",
-            "es": "En ese momento llovía."
-          },
-          {
-            "jp": "この頃、忙しいです。",
-            "kana": "このごろ、いそがしいです。",
-            "es": "Últimamente estoy ocupado."
-          }
-        ]
-      }
-    ],
-    "quiz": {
-      "practice": "grammar",
-      "direction": "grammar-es",
-      "ids": [
-        "g-desu",
-        "g-desu-1",
-        "g-desu-2"
-      ]
-    },
-    "secciones": [
-      {
-        "tipo": "gancho",
-        "texto": "Cuentas anécdota y dices その時 pero dudas si es あの時 o その時. Referencia anafórica elige こ・そ・あ según distancia discursiva."
-      },
-      {
-        "tipo": "explicacion",
-        "texto": "Anáfora temporal usa こそあど con tiempo: この頃( estos días),その時( ese momento justo mencionado),あの頃( aquellos días lejanos).\n\nObjetivo: usar この/その/あの + 頃・時・間 para situar historia.\n\n🧩 Fórmula:【この/その/あの + 頃・時・日】→ この頃(últimamente),その時(en ese momento),あの頃(aquella época),その日(ese día).\n- 頃ごろ: periodo aproximado/indeterminado (あの頃=por entonces)\n- 時とき: momento puntual (その時=en ese instante)\n- 間あいだ: intervalo (その間=mientras tanto)\n\nPiensa en bloques: ¿cerca narrativo (ahora)? この. ¿recién mencionado? その. ¿lejano pasado? あの.\n\n👣 Cómo construirlo (3 pasos):\n1) ¿Hablas de ahora/last days? → この頃、このところ( últimamente)\n2) ¿Retomas momento recién dicho? → その時、その日、その頃\n3) ¿Evocas infancia/años atrás? → あの頃、あの時、あの日\n\n⚖️ Tabla anáfora tiempo:\n|Forma|Matiz|Ejemplo|\n|この頃|últimamente|この頃忙しい|\n|その時|en ese momento|その時雨が...|\n|あの頃|aquella época|あの頃学生だった|\n|あの時|aquella vez puntual|あの時助けてくれた|\n\n💡 Ejemplos desglosados:\n1) あの頃は学生でした。(あのころはがくせいでした。)— “En aquella época era estudiante.” → あの頃は+学生でした.\n2) その時、雨が降っていました。(そのとき、あめがふっていました。)— “En ese momento llovía.” → その時+雨が降っていました(～ていた progresivo).\n3) この頃、忙しいです。(このごろ、いそがしいです。)— “Últimamente ocupado.” → この頃+忙しいです.\n\n🔑 Mini-resumen:\n□ 頃 periodo difuso, 時 momento, 間 intervalo.\n□ この ahora, その recién dicho, あの lejano/recuerdo.\n□ Muy usado en historias: その時、急に...\n\n❌ Error 90%: usar あの時 para algo de hace 5 min (es その時). Y leer 頃ころ como ころ no ごろ en compuestos: あの頃あのころ.\n\n💬 Truco offline: narra: あの頃私は...その時、...この頃は... 3×. Active recall.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Interleaving: mezcla este tema + vocab + escucha, nunca 10 números seguidos sin contexto. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
-        "palabras": 409
-      },
-      {
-        "tipo": "ejemplos",
-        "items": [
-          {
-            "jp": "あの頃は学生でした。",
-            "furigana": "あのころはがくせいでした。",
-            "romaji": "ano koro wa gakusei deshita.",
-            "es": "En aquella época era estudiante.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "その時、雨が降っていました。",
-            "furigana": "そのとき、あめがふっていました。",
-            "romaji": "sono toki, ame ga futte imashita.",
-            "es": "En ese momento llovía.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "この頃、忙しいです。",
-            "furigana": "このごろ、いそがしいです。",
-            "romaji": "kono goro, isogashii desu.",
-            "es": "Últimamente estoy ocupado.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          }
-        ]
-      },
-      {
-        "tipo": "practica",
-        "ejercicios": [
-          {
-            "tipo": "listen_only",
-            "jp": "あの頃は学生でした。",
-            "furigana": "あのころはがくせいでした。",
-            "es": "En aquella época era estudiante.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha (texto oculto) y elige.",
-            "respuesta": "あの頃は学生でした。 — En aquella época era estudiante."
-          },
-          {
-            "tipo": "listen_only",
-            "jp": "その時、雨が降っていました。",
-            "furigana": "そのとき、あめがふっていました。",
-            "es": "En ese momento llovía.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha y elige.",
-            "respuesta": "その時、雨が降っていました。 — En ese momento llovía."
-          },
-          {
-            "tipo": "shadowing",
-            "jp": "あの頃は学生でした。",
-            "furigana": "あのころはがくせいでした。",
-            "es": "En aquella época era estudiante.",
-            "pausa_ms": 3000,
-            "rate": 0.85,
-            "prompt": "Escucha, pausa 3s, repite."
-          },
-          {
-            "tipo": "produccion",
-            "prompt": "Produce: 'Últimamente estoy ocupado.'",
-            "respuesta": "この頃、忙しいです。",
-            "jp": "この頃、忙しいです。",
-            "mostrar_texto_antes": false,
-            "rate": 0.8
-          }
-        ]
-      },
-      {
-        "tipo": "errores_comunes",
-        "texto": "Error típico: その頃 vs その時: 頃 difuso (época), 時 puntual (instante). Y このごろ con ご no こ en 頃 tras N: このごろ pero あのころ."
-      },
-      {
-        "tipo": "cierre",
-        "texto": "Hoy: この・その・あの + 頃・時 anáfora. Próxima: contadores tiempo 日・年. Di 3 veces: あの頃、その時、この頃。"
-      }
-    ],
-    "sections": [
-      {
-        "tipo": "gancho",
-        "texto": "Cuentas anécdota y dices その時 pero dudas si es あの時 o その時. Referencia anafórica elige こ・そ・あ según distancia discursiva."
-      },
-      {
-        "tipo": "explicacion",
-        "texto": "Anáfora temporal usa こそあど con tiempo: この頃( estos días),その時( ese momento justo mencionado),あの頃( aquellos días lejanos).\n\nObjetivo: usar この/その/あの + 頃・時・間 para situar historia.\n\n🧩 Fórmula:【この/その/あの + 頃・時・日】→ この頃(últimamente),その時(en ese momento),あの頃(aquella época),その日(ese día).\n- 頃ごろ: periodo aproximado/indeterminado (あの頃=por entonces)\n- 時とき: momento puntual (その時=en ese instante)\n- 間あいだ: intervalo (その間=mientras tanto)\n\nPiensa en bloques: ¿cerca narrativo (ahora)? この. ¿recién mencionado? その. ¿lejano pasado? あの.\n\n👣 Cómo construirlo (3 pasos):\n1) ¿Hablas de ahora/last days? → この頃、このところ( últimamente)\n2) ¿Retomas momento recién dicho? → その時、その日、その頃\n3) ¿Evocas infancia/años atrás? → あの頃、あの時、あの日\n\n⚖️ Tabla anáfora tiempo:\n|Forma|Matiz|Ejemplo|\n|この頃|últimamente|この頃忙しい|\n|その時|en ese momento|その時雨が...|\n|あの頃|aquella época|あの頃学生だった|\n|あの時|aquella vez puntual|あの時助けてくれた|\n\n💡 Ejemplos desglosados:\n1) あの頃は学生でした。(あのころはがくせいでした。)— “En aquella época era estudiante.” → あの頃は+学生でした.\n2) その時、雨が降っていました。(そのとき、あめがふっていました。)— “En ese momento llovía.” → その時+雨が降っていました(～ていた progresivo).\n3) この頃、忙しいです。(このごろ、いそがしいです。)— “Últimamente ocupado.” → この頃+忙しいです.\n\n🔑 Mini-resumen:\n□ 頃 periodo difuso, 時 momento, 間 intervalo.\n□ この ahora, その recién dicho, あの lejano/recuerdo.\n□ Muy usado en historias: その時、急に...\n\n❌ Error 90%: usar あの時 para algo de hace 5 min (es その時). Y leer 頃ころ como ころ no ごろ en compuestos: あの頃あのころ.\n\n💬 Truco offline: narra: あの頃私は...その時、...この頃は... 3×. Active recall.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Interleaving: mezcla este tema + vocab + escucha, nunca 10 números seguidos sin contexto. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
-        "palabras": 409
-      },
-      {
-        "tipo": "ejemplos",
-        "items": [
-          {
-            "jp": "あの頃は学生でした。",
-            "furigana": "あのころはがくせいでした。",
-            "romaji": "ano koro wa gakusei deshita.",
-            "es": "En aquella época era estudiante.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "その時、雨が降っていました。",
-            "furigana": "そのとき、あめがふっていました。",
-            "romaji": "sono toki, ame ga futte imashita.",
-            "es": "En ese momento llovía.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "この頃、忙しいです。",
-            "furigana": "このごろ、いそがしいです。",
-            "romaji": "kono goro, isogashii desu.",
-            "es": "Últimamente estoy ocupado.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          }
-        ]
-      },
-      {
-        "tipo": "practica",
-        "ejercicios": [
-          {
-            "tipo": "listen_only",
-            "jp": "あの頃は学生でした。",
-            "furigana": "あのころはがくせいでした。",
-            "es": "En aquella época era estudiante.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha (texto oculto) y elige.",
-            "respuesta": "あの頃は学生でした。 — En aquella época era estudiante."
-          },
-          {
-            "tipo": "listen_only",
-            "jp": "その時、雨が降っていました。",
-            "furigana": "そのとき、あめがふっていました。",
-            "es": "En ese momento llovía.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha y elige.",
-            "respuesta": "その時、雨が降っていました。 — En ese momento llovía."
-          },
-          {
-            "tipo": "shadowing",
-            "jp": "あの頃は学生でした。",
-            "furigana": "あのころはがくせいでした。",
-            "es": "En aquella época era estudiante.",
-            "pausa_ms": 3000,
-            "rate": 0.85,
-            "prompt": "Escucha, pausa 3s, repite."
-          },
-          {
-            "tipo": "produccion",
-            "prompt": "Produce: 'Últimamente estoy ocupado.'",
-            "respuesta": "この頃、忙しいです。",
-            "jp": "この頃、忙しいです。",
-            "mostrar_texto_antes": false,
-            "rate": 0.8
-          }
-        ]
-      },
-      {
-        "tipo": "errores_comunes",
-        "texto": "Error típico: その頃 vs その時: 頃 difuso (época), 時 puntual (instante). Y このごろ con ご no こ en 頃 tras N: このごろ pero あのころ."
-      },
-      {
-        "tipo": "cierre",
-        "texto": "Hoy: この・その・あの + 頃・時 anáfora. Próxima: contadores tiempo 日・年. Di 3 veces: あの頃、その時、この頃。"
-      }
-    ],
-    "wexdc": true,
-    "clarity": 3,
-    "autoevaluacion": {
-      "explica_no_informa": true,
-      "palabras_explicacion": 409,
-      "listening_puro_incluido": true,
-      "listening_puro_cantidad": 2,
-      "confianza": 9
-    }
-  },
-  {
-    "id": "l-imabi-047",
-    "title": "IMABI 47: Tiempo I — 日・週間・ヶ月・年",
-    "stage": "IMABI · Beginners I",
-    "minutes": 8,
-    "level": "imabi",
-    "teach": [
-      {
-        "heading": "IMABI 47: Tiempo I — 日・週間・ヶ月・年",
-        "text": "Días contables: 一日いちにち→2日ふつか系, 一週間いっしゅうかん, 一ヶ月いっかげつ, 一年いちねん. Duración vs fecha.",
-        "examples": [
-          {
-            "jp": "二日間休みます。",
-            "kana": "ふつかかんやすみます。",
-            "es": "Descanso 2 días."
-          },
-          {
-            "jp": "一ヶ月日本にいました。",
-            "kana": "いっかげつにほんにいました。",
-            "es": "Estuve 1 mes en Japón."
-          },
-          {
-            "jp": "一年に三回帰ります。",
-            "kana": "いちねんにさんかいかえります。",
-            "es": "Vuelvo 3 veces al año."
-          }
-        ]
-      }
-    ],
-    "quiz": {
-      "practice": "grammar",
-      "direction": "grammar-es",
-      "ids": [
-        "g-desu",
-        "g-desu-1",
-        "g-desu-2"
-      ]
-    },
-    "secciones": [
-      {
-        "tipo": "gancho",
-        "texto": "Dices 1 mes como いちげつ y te corrigen いっかげつ. Duraciones 日/週/月/年 tienen geminadas y lecturas especiales."
-      },
-      {
-        "tipo": "explicacion",
-        "texto": "Tiempo I cuenta duraciones: días (日間), semanas (週間), meses (ヶ月), años (年). Fechas (1日ついたち) vs duración (1日いちにち) difieren.\n\nObjetivo: decir “X días/semanas/meses/años” con pronunciación correcta.\n\n🧩 Fórmula:【número + 日間/週間/ヶ月/年】→ 二日間ふつかかん(2 días),一週間いっしゅうかん, 一ヶ月いっかげつ, 一年いちねん. Regla: 1/6/8/10 geminada: いっしゅうかん・ろっかげつ? 実際 六ヶ月ろっかげつ.\n\nPiensa en bloques: cantidad + unidad de calendario + 間 opcional para énfasis duración.\n\n👣 Cómo construirlo (3 pasos):\n1) Días duración 1-10 nativo + かん?: 一日いちにち/いちにちかん? 1日1日→ふつか(2)、みっか(3)→二日間ふつかかん\n2) Semanas: 1週間いっしゅうかん,2週間にしゅうかん,3週間さんしゅうかん\n3) Meses: 1ヶ月いっかげつ,2ヶ月にかげつ,3ヶ月さんかげつ,6ヶ月ろっかげつ,8ヶ月はっかげつ + Años: 1年いちねん,2年 にねん\n\n⚖️ Tabla tiempo I:\n|Unidad|1|2|6|Lectura|\n|日間|いちにちかん|ふつかかん|むいかかん|かん opcional|\n|週間|いっしゅうかん|にしゅうかん|ろっしゅうかん|しゅうかん|\n|ヶ月|いっかげつ|にかげつ|ろっかげつ|かげつ|\n|年|いちねん|にねん|ろくねん|ねん|\n\n💡 Ejemplos desglosados:\n1) 二日間休みます。(ふつかかんやすみます。)— “Descanso 2 días.” → 二日間(ふつかかん)+休みます.\n2) 一ヶ月日本にいました。(いっかげつにほんにいました。)— “Estuve 1 mes en Japón.” → 一ヶ月(いっかげつ)+日本にいました.\n3) 一年に三回帰ります。(いちねんにさんかいかえります。)— “3 veces al año vuelvo.” → 一年に+三回+帰ります.\n\n🔑 Mini-resumen:\n□ Duración: 日間(かん opcional), 週間, ヶ月, 年.\n□ 1/6/8/10 geminada: いっしゅうかん・いっかげつ・ろっかげつ・はっかげつ.\n□ Fecha 1日ついたち vs duración 1日いちにち.\n\n❌ Error 90%: いちげつ(1 mes) → es いっかげつ. 日数 sin distinguir fecha/duración: 1日ついたち solo fecha, no “1 día de vacaciones” que es いちにち.\n\n💬 Truco offline: di: 一週間、二週間、一ヶ月、二ヶ月、一年 3×. Active recall.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Interleaving: mezcla este tema + vocab + escucha, nunca 10 números seguidos sin contexto. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
-        "palabras": 406
-      },
-      {
-        "tipo": "ejemplos",
-        "items": [
-          {
-            "jp": "二日間休みます。",
-            "furigana": "ふつかかんやすみます。",
-            "romaji": "futsukakan yasumimasu.",
-            "es": "Descanso 2 días.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "一ヶ月日本にいました。",
-            "furigana": "いっかげつにほんにいました。",
-            "romaji": "ikkagetsu nihon ni imashita.",
-            "es": "Estuve 1 mes en Japón.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "一年に三回帰ります。",
-            "furigana": "いちねんにさんかいかえります。",
-            "romaji": "ichinen ni sankai kaerimasu.",
-            "es": "Vuelvo 3 veces al año.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          }
-        ]
-      },
-      {
-        "tipo": "practica",
-        "ejercicios": [
-          {
-            "tipo": "listen_only",
-            "jp": "二日間休みます。",
-            "furigana": "ふつかかんやすみます。",
-            "es": "Descanso 2 días.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha (texto oculto) y elige.",
-            "respuesta": "二日間休みます。 — Descanso 2 días."
-          },
-          {
-            "tipo": "listen_only",
-            "jp": "一ヶ月日本にいました。",
-            "furigana": "いっかげつにほんにいました。",
-            "es": "Estuve 1 mes en Japón.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha y elige.",
-            "respuesta": "一ヶ月日本にいました。 — Estuve 1 mes en Japón."
-          },
-          {
-            "tipo": "shadowing",
-            "jp": "二日間休みます。",
-            "furigana": "ふつかかんやすみます。",
-            "es": "Descanso 2 días.",
-            "pausa_ms": 3000,
-            "rate": 0.85,
-            "prompt": "Escucha, pausa 3s, repite."
-          },
-          {
-            "tipo": "produccion",
-            "prompt": "Produce: 'Estuve 1 mes en Japón.'",
-            "respuesta": "一ヶ月日本にいました。",
-            "jp": "一ヶ月日本にいました。",
-            "mostrar_texto_antes": false,
-            "rate": 0.8
-          }
-        ]
-      },
-      {
-        "tipo": "errores_comunes",
-        "texto": "Error típico: 一ヶ月いちげつ → いっかげつ. 一週間いちしゅうかん → いっしゅうかん. Fecha vs duración: 1日( fecha) ついたち vs 1日( duración) いちにち."
-      },
-      {
-        "tipo": "cierre",
-        "texto": "Hoy: 日・週間・ヶ月・年 duraciones. Próxima: 時間・分・秒. Di 3 veces: いっしゅうかん、いっかげつ、いちねん。"
-      }
-    ],
-    "sections": [
-      {
-        "tipo": "gancho",
-        "texto": "Dices 1 mes como いちげつ y te corrigen いっかげつ. Duraciones 日/週/月/年 tienen geminadas y lecturas especiales."
-      },
-      {
-        "tipo": "explicacion",
-        "texto": "Tiempo I cuenta duraciones: días (日間), semanas (週間), meses (ヶ月), años (年). Fechas (1日ついたち) vs duración (1日いちにち) difieren.\n\nObjetivo: decir “X días/semanas/meses/años” con pronunciación correcta.\n\n🧩 Fórmula:【número + 日間/週間/ヶ月/年】→ 二日間ふつかかん(2 días),一週間いっしゅうかん, 一ヶ月いっかげつ, 一年いちねん. Regla: 1/6/8/10 geminada: いっしゅうかん・ろっかげつ? 実際 六ヶ月ろっかげつ.\n\nPiensa en bloques: cantidad + unidad de calendario + 間 opcional para énfasis duración.\n\n👣 Cómo construirlo (3 pasos):\n1) Días duración 1-10 nativo + かん?: 一日いちにち/いちにちかん? 1日1日→ふつか(2)、みっか(3)→二日間ふつかかん\n2) Semanas: 1週間いっしゅうかん,2週間にしゅうかん,3週間さんしゅうかん\n3) Meses: 1ヶ月いっかげつ,2ヶ月にかげつ,3ヶ月さんかげつ,6ヶ月ろっかげつ,8ヶ月はっかげつ + Años: 1年いちねん,2年 にねん\n\n⚖️ Tabla tiempo I:\n|Unidad|1|2|6|Lectura|\n|日間|いちにちかん|ふつかかん|むいかかん|かん opcional|\n|週間|いっしゅうかん|にしゅうかん|ろっしゅうかん|しゅうかん|\n|ヶ月|いっかげつ|にかげつ|ろっかげつ|かげつ|\n|年|いちねん|にねん|ろくねん|ねん|\n\n💡 Ejemplos desglosados:\n1) 二日間休みます。(ふつかかんやすみます。)— “Descanso 2 días.” → 二日間(ふつかかん)+休みます.\n2) 一ヶ月日本にいました。(いっかげつにほんにいました。)— “Estuve 1 mes en Japón.” → 一ヶ月(いっかげつ)+日本にいました.\n3) 一年に三回帰ります。(いちねんにさんかいかえります。)— “3 veces al año vuelvo.” → 一年に+三回+帰ります.\n\n🔑 Mini-resumen:\n□ Duración: 日間(かん opcional), 週間, ヶ月, 年.\n□ 1/6/8/10 geminada: いっしゅうかん・いっかげつ・ろっかげつ・はっかげつ.\n□ Fecha 1日ついたち vs duración 1日いちにち.\n\n❌ Error 90%: いちげつ(1 mes) → es いっかげつ. 日数 sin distinguir fecha/duración: 1日ついたち solo fecha, no “1 día de vacaciones” que es いちにち.\n\n💬 Truco offline: di: 一週間、二週間、一ヶ月、二ヶ月、一年 3×. Active recall.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Interleaving: mezcla este tema + vocab + escucha, nunca 10 números seguidos sin contexto. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
-        "palabras": 406
-      },
-      {
-        "tipo": "ejemplos",
-        "items": [
-          {
-            "jp": "二日間休みます。",
-            "furigana": "ふつかかんやすみます。",
-            "romaji": "futsukakan yasumimasu.",
-            "es": "Descanso 2 días.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "一ヶ月日本にいました。",
-            "furigana": "いっかげつにほんにいました。",
-            "romaji": "ikkagetsu nihon ni imashita.",
-            "es": "Estuve 1 mes en Japón.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "一年に三回帰ります。",
-            "furigana": "いちねんにさんかいかえります。",
-            "romaji": "ichinen ni sankai kaerimasu.",
-            "es": "Vuelvo 3 veces al año.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          }
-        ]
-      },
-      {
-        "tipo": "practica",
-        "ejercicios": [
-          {
-            "tipo": "listen_only",
-            "jp": "二日間休みます。",
-            "furigana": "ふつかかんやすみます。",
-            "es": "Descanso 2 días.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha (texto oculto) y elige.",
-            "respuesta": "二日間休みます。 — Descanso 2 días."
-          },
-          {
-            "tipo": "listen_only",
-            "jp": "一ヶ月日本にいました。",
-            "furigana": "いっかげつにほんにいました。",
-            "es": "Estuve 1 mes en Japón.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha y elige.",
-            "respuesta": "一ヶ月日本にいました。 — Estuve 1 mes en Japón."
-          },
-          {
-            "tipo": "shadowing",
-            "jp": "二日間休みます。",
-            "furigana": "ふつかかんやすみます。",
-            "es": "Descanso 2 días.",
-            "pausa_ms": 3000,
-            "rate": 0.85,
-            "prompt": "Escucha, pausa 3s, repite."
-          },
-          {
-            "tipo": "produccion",
-            "prompt": "Produce: 'Estuve 1 mes en Japón.'",
-            "respuesta": "一ヶ月日本にいました。",
-            "jp": "一ヶ月日本にいました。",
-            "mostrar_texto_antes": false,
-            "rate": 0.8
-          }
-        ]
-      },
-      {
-        "tipo": "errores_comunes",
-        "texto": "Error típico: 一ヶ月いちげつ → いっかげつ. 一週間いちしゅうかん → いっしゅうかん. Fecha vs duración: 1日( fecha) ついたち vs 1日( duración) いちにち."
-      },
-      {
-        "tipo": "cierre",
-        "texto": "Hoy: 日・週間・ヶ月・年 duraciones. Próxima: 時間・分・秒. Di 3 veces: いっしゅうかん、いっかげつ、いちねん。"
-      }
-    ],
-    "wexdc": true,
-    "clarity": 3,
-    "autoevaluacion": {
-      "explica_no_informa": true,
-      "palabras_explicacion": 406,
-      "listening_puro_incluido": true,
-      "listening_puro_cantidad": 2,
-      "confianza": 9
-    }
-  },
-  {
-    "id": "l-imabi-048",
-    "title": "IMABI 48: Tiempo II — 時間・分・秒・晩・夜",
-    "stage": "IMABI · Beginners I",
-    "minutes": 8,
-    "level": "imabi",
-    "teach": [
-      {
-        "heading": "IMABI 48: Tiempo II — 時間・分・秒・晩・夜",
-        "text": "Horas/minutos: 時間じかん, 分ふん/ぷん, 秒びょう, 晩ばん, 夜よる. 分 tiene 3 sonidos: ふん・ぷん・ぶん.",
-        "examples": [
-          {
-            "jp": "三時間勉強しました。",
-            "kana": "さんじかんべんきょうしました。",
-            "es": "Estudié 3 horas."
-          },
-          {
-            "jp": "八分待ちました。",
-            "kana": "はっぷんまちました。",
-            "es": "Esperé 8 min."
-          },
-          {
-            "jp": "一晩中降りました。",
-            "kana": "ひとばんじゅうふりました。",
-            "es": "Llovió toda la noche."
-          }
-        ]
-      }
-    ],
-    "quiz": {
-      "practice": "grammar",
-      "direction": "grammar-es",
-      "ids": [
-        "g-desu",
-        "g-desu-1",
-        "g-desu-2"
-      ]
-    },
-    "secciones": [
-      {
-        "tipo": "gancho",
-        "texto": "Dices 3 minutos さんふん y es さんぷん. 8 minutos はちふん y es はっぷん. 分 cambia f→p→b según número."
-      },
-      {
-        "tipo": "explicacion",
-        "texto": "Tiempo II detalla subdivisiones: 時間( horas), 分( minutos con rendaku), 秒( segundos), 晩晩中( noche entera).\n\nObjetivo: contar horas/min/seg con 分 eufonía y usar 晩/夜.\n\n🧩 Fórmula:【número + 時間/分/秒】→ 三時間さんじかん, 三分さんぷん(f→p), 四分よんぷん, 六分ろっぷん, 八分はっぷん, 一分いっぷん. 晩: 一晩ひとばん, 一晩中ひとばんじゅう(toda la noche).\n\nPiensa en bloques: número + unidad + rendaku de 分.\n\n👣 Cómo construirlo (3 pasos):\n1) Horas: 1時間いちじかん,2時間にじかん regular.\n2) Minutos: memoriza 4 grupos: 1/6/8/10 p→  いっぷん・ろっぷん・はっぷん・じっぷん(10ぷん) ; 3/4 p→ さんぷん・よんぷん ; 2/5/7/9 f→ にふん・ごふん・ななふん・きゅうふん\n3) Segundos: 秒びょう regular: 1秒いちびょう,3秒さんびょう + Noche: 一晩ひとばん, 一晩中ひとばんじゅう\n\n⚖️ Tabla tiempo II:\n|Unidad|Lect|1|3|4|6|8|\n|時間|じかん|いちじかん|さんじかん|よじかん|ろくじかん|はちじかん|\n|分|ふん/ぷん|いっぷん|さんぷん|よんぷん|ろっぷん|はっぷん|\n|秒|びょう|いちびょう|さんびょう|よんびょう|ろくびょう|はちびょう|\n|晩|ばん|ひとばん|—|—|—|—|\n\n💡 Ejemplos desglosados:\n1) 三時間勉強しました。(さんじかんべんきょうしました。)— “Estudié 3h.” → 三時間(さんじかん)+勉強しました.\n2) 八分待ちました。(はっぷんまちました。)— “Esperé 8 min.” → 八分(はっぷん 8→p geminado)+待ちました.\n3) 一晩中降りました。(ひとばんじゅうふりました。)— “Llovió toda la noche.” → 一晩中(ひとばんじゅう)+降りました.\n\n🔑 Mini-resumen:\n□ 時間 regular, 分 con ぷん/ふん, 秒 regular.\n□ 晩ひとばん(nativo 1), 夜よる(noche concepto).\n□ 一晩中 toda la noche, 一晩 una noche.\n\n❌ Error 90%: さんふん(3 min) → さんぷん, はちふん→はっぷん. Olvidar ひとばん nativo para 1 noche (いちばん es mal rank). Confundir 晩/夜: 夜 noche calendario, 晩 tarde-noche.\n\n💬 Truco offline: di minutos 1-10 en voz alta: いっぷん、にふん、さんぷん... 3×. Active recall.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Interleaving: mezcla este tema + vocab + escucha, nunca 10 números seguidos sin contexto. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
-        "palabras": 411
-      },
-      {
-        "tipo": "ejemplos",
-        "items": [
-          {
-            "jp": "三時間勉強しました。",
-            "furigana": "さんじかんべんきょうしました。",
-            "romaji": "sanjikan benkyou shimashita.",
-            "es": "Estudié 3 horas.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "八分待ちました。",
-            "furigana": "はっぷんまちました。",
-            "romaji": "happun machimashita.",
-            "es": "Esperé 8 min.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "一晩中降りました。",
-            "furigana": "ひとばんじゅうふりました。",
-            "romaji": "hitobanjuu furimashita.",
-            "es": "Llovió toda la noche.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          }
-        ]
-      },
-      {
-        "tipo": "practica",
-        "ejercicios": [
-          {
-            "tipo": "listen_only",
-            "jp": "三時間勉強しました。",
-            "furigana": "さんじかんべんきょうしました。",
-            "es": "Estudié 3 horas.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha (texto oculto) y elige.",
-            "respuesta": "三時間勉強しました。 — Estudié 3 horas."
-          },
-          {
-            "tipo": "listen_only",
-            "jp": "八分待ちました。",
-            "furigana": "はっぷんまちました。",
-            "es": "Esperé 8 min.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha y elige.",
-            "respuesta": "八分待ちました。 — Esperé 8 min."
-          },
-          {
-            "tipo": "shadowing",
-            "jp": "三時間勉強しました。",
-            "furigana": "さんじかんべんきょうしました。",
-            "es": "Estudié 3 horas.",
-            "pausa_ms": 3000,
-            "rate": 0.85,
-            "prompt": "Escucha, pausa 3s, repite."
-          },
-          {
-            "tipo": "produccion",
-            "prompt": "Produce: 'Esperé 8 min.'",
-            "respuesta": "八分待ちました。",
-            "jp": "八分待ちました。",
-            "mostrar_texto_antes": false,
-            "rate": 0.8
-          }
-        ]
-      },
-      {
-        "tipo": "errores_comunes",
-        "texto": "Error típico: 分 siempre ふん → no, 1/3/4/6/8/10 usan ぷん. Lectura ひとばん(1 noche) vs いちばん(la mejor). Y confundir 時間 duración vs 時 hora reloj: 三時 vs 三時間."
-      },
-      {
-        "tipo": "cierre",
-        "texto": "Hoy: 時間・分・秒・晩 noche. Próxima: frecuencia 度・回. Di 3 veces: いっぷん、さんぷん、はっぷん。"
-      }
-    ],
-    "sections": [
-      {
-        "tipo": "gancho",
-        "texto": "Dices 3 minutos さんふん y es さんぷん. 8 minutos はちふん y es はっぷん. 分 cambia f→p→b según número."
-      },
-      {
-        "tipo": "explicacion",
-        "texto": "Tiempo II detalla subdivisiones: 時間( horas), 分( minutos con rendaku), 秒( segundos), 晩晩中( noche entera).\n\nObjetivo: contar horas/min/seg con 分 eufonía y usar 晩/夜.\n\n🧩 Fórmula:【número + 時間/分/秒】→ 三時間さんじかん, 三分さんぷん(f→p), 四分よんぷん, 六分ろっぷん, 八分はっぷん, 一分いっぷん. 晩: 一晩ひとばん, 一晩中ひとばんじゅう(toda la noche).\n\nPiensa en bloques: número + unidad + rendaku de 分.\n\n👣 Cómo construirlo (3 pasos):\n1) Horas: 1時間いちじかん,2時間にじかん regular.\n2) Minutos: memoriza 4 grupos: 1/6/8/10 p→  いっぷん・ろっぷん・はっぷん・じっぷん(10ぷん) ; 3/4 p→ さんぷん・よんぷん ; 2/5/7/9 f→ にふん・ごふん・ななふん・きゅうふん\n3) Segundos: 秒びょう regular: 1秒いちびょう,3秒さんびょう + Noche: 一晩ひとばん, 一晩中ひとばんじゅう\n\n⚖️ Tabla tiempo II:\n|Unidad|Lect|1|3|4|6|8|\n|時間|じかん|いちじかん|さんじかん|よじかん|ろくじかん|はちじかん|\n|分|ふん/ぷん|いっぷん|さんぷん|よんぷん|ろっぷん|はっぷん|\n|秒|びょう|いちびょう|さんびょう|よんびょう|ろくびょう|はちびょう|\n|晩|ばん|ひとばん|—|—|—|—|\n\n💡 Ejemplos desglosados:\n1) 三時間勉強しました。(さんじかんべんきょうしました。)— “Estudié 3h.” → 三時間(さんじかん)+勉強しました.\n2) 八分待ちました。(はっぷんまちました。)— “Esperé 8 min.” → 八分(はっぷん 8→p geminado)+待ちました.\n3) 一晩中降りました。(ひとばんじゅうふりました。)— “Llovió toda la noche.” → 一晩中(ひとばんじゅう)+降りました.\n\n🔑 Mini-resumen:\n□ 時間 regular, 分 con ぷん/ふん, 秒 regular.\n□ 晩ひとばん(nativo 1), 夜よる(noche concepto).\n□ 一晩中 toda la noche, 一晩 una noche.\n\n❌ Error 90%: さんふん(3 min) → さんぷん, はちふん→はっぷん. Olvidar ひとばん nativo para 1 noche (いちばん es mal rank). Confundir 晩/夜: 夜 noche calendario, 晩 tarde-noche.\n\n💬 Truco offline: di minutos 1-10 en voz alta: いっぷん、にふん、さんぷん... 3×. Active recall.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Interleaving: mezcla este tema + vocab + escucha, nunca 10 números seguidos sin contexto. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
-        "palabras": 411
-      },
-      {
-        "tipo": "ejemplos",
-        "items": [
-          {
-            "jp": "三時間勉強しました。",
-            "furigana": "さんじかんべんきょうしました。",
-            "romaji": "sanjikan benkyou shimashita.",
-            "es": "Estudié 3 horas.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "八分待ちました。",
-            "furigana": "はっぷんまちました。",
-            "romaji": "happun machimashita.",
-            "es": "Esperé 8 min.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "一晩中降りました。",
-            "furigana": "ひとばんじゅうふりました。",
-            "romaji": "hitobanjuu furimashita.",
-            "es": "Llovió toda la noche.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          }
-        ]
-      },
-      {
-        "tipo": "practica",
-        "ejercicios": [
-          {
-            "tipo": "listen_only",
-            "jp": "三時間勉強しました。",
-            "furigana": "さんじかんべんきょうしました。",
-            "es": "Estudié 3 horas.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha (texto oculto) y elige.",
-            "respuesta": "三時間勉強しました。 — Estudié 3 horas."
-          },
-          {
-            "tipo": "listen_only",
-            "jp": "八分待ちました。",
-            "furigana": "はっぷんまちました。",
-            "es": "Esperé 8 min.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha y elige.",
-            "respuesta": "八分待ちました。 — Esperé 8 min."
-          },
-          {
-            "tipo": "shadowing",
-            "jp": "三時間勉強しました。",
-            "furigana": "さんじかんべんきょうしました。",
-            "es": "Estudié 3 horas.",
-            "pausa_ms": 3000,
-            "rate": 0.85,
-            "prompt": "Escucha, pausa 3s, repite."
-          },
-          {
-            "tipo": "produccion",
-            "prompt": "Produce: 'Esperé 8 min.'",
-            "respuesta": "八分待ちました。",
-            "jp": "八分待ちました。",
-            "mostrar_texto_antes": false,
-            "rate": 0.8
-          }
-        ]
-      },
-      {
-        "tipo": "errores_comunes",
-        "texto": "Error típico: 分 siempre ふん → no, 1/3/4/6/8/10 usan ぷん. Lectura ひとばん(1 noche) vs いちばん(la mejor). Y confundir 時間 duración vs 時 hora reloj: 三時 vs 三時間."
-      },
-      {
-        "tipo": "cierre",
-        "texto": "Hoy: 時間・分・秒・晩 noche. Próxima: frecuencia 度・回. Di 3 veces: いっぷん、さんぷん、はっぷん。"
-      }
-    ],
-    "wexdc": true,
-    "clarity": 3,
-    "autoevaluacion": {
-      "explica_no_informa": true,
-      "palabras_explicacion": 411,
-      "listening_puro_incluido": true,
-      "listening_puro_cantidad": 2,
-      "confianza": 9
-    }
-  },
-  {
-    "id": "l-imabi-049",
-    "title": "IMABI 49: Frecuencia — 度・回・遍・回",
-    "stage": "IMABI · Beginners I",
-    "minutes": 7,
-    "level": "imabi",
-    "teach": [
-      {
-        "heading": "IMABI 49: Frecuencia — 度・回・遍・回",
-        "text": "Frecuencia: 度ど(grado/veces abstractas), 回かい(veces contables), 遍へん(veces completas/largas). 一度いちど,二回にかい, 一遍いっぺん.",
-        "examples": [
-          {
-            "jp": "一年に三回日本に行きます。",
-            "kana": "いちねんにさんかいにほんにいきます。",
-            "es": "Voy a Japón 3 veces al año."
-          },
-          {
-            "jp": "もう一度お願いします。",
-            "kana": "もういちどおねがいします。",
-            "es": "Otra vez, por favor."
-          },
-          {
-            "jp": "この本を二度読みました。",
-            "kana": "このほんをにどよみました。",
-            "es": "Leí este libro 2 veces."
-          }
-        ]
-      }
-    ],
-    "quiz": {
-      "practice": "grammar",
-      "direction": "grammar-es",
-      "ids": [
-        "g-desu",
-        "g-desu-1",
-        "g-desu-2"
-      ]
-    },
-    "secciones": [
-      {
-        "tipo": "gancho",
-        "texto": "Quieres decir '3 veces al año' y dudas: さんど? さんかい? さんへん? Cada 'vez' tiene matiz distinto."
-      },
-      {
-        "tipo": "explicacion",
-        "texto": "Frecuencia cuenta repeticiones: 度( vez general/abstr), 回( vez contable evento), 遍( vez completa lectura/viaje).\n\nObjetivo: elegir 度/回/遍 según contexto y decir “n veces por periodo”.\n\n🧩 Fórmula:【número + 度/回/遍】+【期間に】→ 一年に三回行く, 一度だけ, 二度読む, 一遍読む(leer de cabo a rabo). もう一度(otra vez) fijo.\n- 度: general, a veces grados (温度) pero aquí veces: 一度いちど,二度にど,三度さんど\n- 回: eventos contables: 一回いっかい(1),三回さんかい,六回ろっかい geminada\n- 遍: ciclos completos (leer libro de principio a fin): 一遍いっぺん\n\nPiensa en bloques: ¿evento separable? 回. ¿vez abstracta? 度. ¿lectura completa? 遍.\n\n👣 Cómo construirlo (3 pasos):\n1) Frecuencia por periodo: 一年に三回○○します\n2) “Una vez más” fijo: もう一度/もう一回\n3) “Solo una vez”: 一度だけ/一回だけ + “a veces” 時々ときどき (adverbio)\n\n⚖️ Tabla frecuencia:\n|Contador|Uso|1|3|Lectura|\n|度ど|veces general|いちど|さんど|ど|\n|回かい|veces evento|いっかい|さんかい|かい geminada 1/6/8/10|\n|遍へん|veces completas|いっぺん|さんぺん|へん→ぺん 1/6/8/10|\n\n💡 Ejemplos desglosados:\n1) 一年に三回日本に行きます。(いちねんにさんかいにほんにいきます。)— “3 veces/año voy a Japón.” → 一年に+三回+行きます.\n2) もう一度お願いします。(もういちどおねがいします。)— “Otra vez por favor.” → もう+一度(いちど)+お願いします.\n3) この本を二度読みました。(このほんをにどよみました。)— “Leí este libro 2 veces.” → この本を+二度(にど)+読みました.\n\n🔑 Mini-resumen:\n□ 度 general/abstracta, 回 evento contable (más usado), 遍 lectura/viaje completo.\n□ もう一度 fijo “otra vez”.\n□ 一年に～回 patrón frecuencia por periodo.\n\n❌ Error 90%: usar 度 para eventos concretos donde mejor 回. Y olvidar geminada de 回: いちかい→いっかい, ろっかい, はっかい, じっかい.\n\n💬 Truco offline: di: 一度、二度、三度 / 一回、二回、三回 3×. Active recall. Di tu hábito: 一週間に二回走ります.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Interleaving: mezcla este tema + vocab + escucha, nunca 10 números seguidos sin contexto. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
-        "palabras": 411
-      },
-      {
-        "tipo": "ejemplos",
-        "items": [
-          {
-            "jp": "一年に三回日本に行きます。",
-            "furigana": "いちねんにさんかいにほんにいきます。",
-            "romaji": "ichinen ni sankai nihon ni ikimasu.",
-            "es": "Voy a Japón 3 veces al año.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "もう一度お願いします。",
-            "furigana": "もういちどおねがいします。",
-            "romaji": "mou ichido onegaishimasu.",
-            "es": "Otra vez, por favor.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "この本を二度読みました。",
-            "furigana": "このほんをにどよみました。",
-            "romaji": "kono hon wo nido yomimashita.",
-            "es": "Leí este libro 2 veces.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          }
-        ]
-      },
-      {
-        "tipo": "practica",
-        "ejercicios": [
-          {
-            "tipo": "listen_only",
-            "jp": "一年に三回日本に行きます。",
-            "furigana": "いちねんにさんかいにほんにいきます。",
-            "es": "Voy a Japón 3 veces al año.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha (texto oculto) y elige.",
-            "respuesta": "一年に三回日本に行きます。 — Voy a Japón 3 veces al año."
-          },
-          {
-            "tipo": "listen_only",
-            "jp": "もう一度お願いします。",
-            "furigana": "もういちどおねがいします。",
-            "es": "Otra vez, por favor.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha y elige.",
-            "respuesta": "もう一度お願いします。 — Otra vez, por favor."
-          },
-          {
-            "tipo": "shadowing",
-            "jp": "一年に三回日本に行きます。",
-            "furigana": "いちねんにさんかいにほんにいきます。",
-            "es": "Voy a Japón 3 veces al año.",
-            "pausa_ms": 3000,
-            "rate": 0.85,
-            "prompt": "Escucha, pausa 3s, repite."
-          },
-          {
-            "tipo": "produccion",
-            "prompt": "Produce: 'Otra vez, por favor.'",
-            "respuesta": "もう一度お願いします。",
-            "jp": "もう一度お願いします。",
-            "mostrar_texto_antes": false,
-            "rate": 0.8
-          }
-        ]
-      },
-      {
-        "tipo": "errores_comunes",
-        "texto": "Error típico: 度/回/遍 intercambiables — matiz: 回 más seguro para eventos. 度 más abstracto. 遍 solo lecturas/viajes completos, no para cualquier vez."
-      },
-      {
-        "tipo": "cierre",
-        "texto": "Hoy: 度・回・遍 frecuencia. Próxima: たものだ solía. Di 3 veces: いちど、にど、いっかい。"
-      }
-    ],
-    "sections": [
-      {
-        "tipo": "gancho",
-        "texto": "Quieres decir '3 veces al año' y dudas: さんど? さんかい? さんへん? Cada 'vez' tiene matiz distinto."
-      },
-      {
-        "tipo": "explicacion",
-        "texto": "Frecuencia cuenta repeticiones: 度( vez general/abstr), 回( vez contable evento), 遍( vez completa lectura/viaje).\n\nObjetivo: elegir 度/回/遍 según contexto y decir “n veces por periodo”.\n\n🧩 Fórmula:【número + 度/回/遍】+【期間に】→ 一年に三回行く, 一度だけ, 二度読む, 一遍読む(leer de cabo a rabo). もう一度(otra vez) fijo.\n- 度: general, a veces grados (温度) pero aquí veces: 一度いちど,二度にど,三度さんど\n- 回: eventos contables: 一回いっかい(1),三回さんかい,六回ろっかい geminada\n- 遍: ciclos completos (leer libro de principio a fin): 一遍いっぺん\n\nPiensa en bloques: ¿evento separable? 回. ¿vez abstracta? 度. ¿lectura completa? 遍.\n\n👣 Cómo construirlo (3 pasos):\n1) Frecuencia por periodo: 一年に三回○○します\n2) “Una vez más” fijo: もう一度/もう一回\n3) “Solo una vez”: 一度だけ/一回だけ + “a veces” 時々ときどき (adverbio)\n\n⚖️ Tabla frecuencia:\n|Contador|Uso|1|3|Lectura|\n|度ど|veces general|いちど|さんど|ど|\n|回かい|veces evento|いっかい|さんかい|かい geminada 1/6/8/10|\n|遍へん|veces completas|いっぺん|さんぺん|へん→ぺん 1/6/8/10|\n\n💡 Ejemplos desglosados:\n1) 一年に三回日本に行きます。(いちねんにさんかいにほんにいきます。)— “3 veces/año voy a Japón.” → 一年に+三回+行きます.\n2) もう一度お願いします。(もういちどおねがいします。)— “Otra vez por favor.” → もう+一度(いちど)+お願いします.\n3) この本を二度読みました。(このほんをにどよみました。)— “Leí este libro 2 veces.” → この本を+二度(にど)+読みました.\n\n🔑 Mini-resumen:\n□ 度 general/abstracta, 回 evento contable (más usado), 遍 lectura/viaje completo.\n□ もう一度 fijo “otra vez”.\n□ 一年に～回 patrón frecuencia por periodo.\n\n❌ Error 90%: usar 度 para eventos concretos donde mejor 回. Y olvidar geminada de 回: いちかい→いっかい, ろっかい, はっかい, じっかい.\n\n💬 Truco offline: di: 一度、二度、三度 / 一回、二回、三回 3×. Active recall. Di tu hábito: 一週間に二回走ります.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Interleaving: mezcla este tema + vocab + escucha, nunca 10 números seguidos sin contexto. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
-        "palabras": 411
-      },
-      {
-        "tipo": "ejemplos",
-        "items": [
-          {
-            "jp": "一年に三回日本に行きます。",
-            "furigana": "いちねんにさんかいにほんにいきます。",
-            "romaji": "ichinen ni sankai nihon ni ikimasu.",
-            "es": "Voy a Japón 3 veces al año.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "もう一度お願いします。",
-            "furigana": "もういちどおねがいします。",
-            "romaji": "mou ichido onegaishimasu.",
-            "es": "Otra vez, por favor.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "この本を二度読みました。",
-            "furigana": "このほんをにどよみました。",
-            "romaji": "kono hon wo nido yomimashita.",
-            "es": "Leí este libro 2 veces.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          }
-        ]
-      },
-      {
-        "tipo": "practica",
-        "ejercicios": [
-          {
-            "tipo": "listen_only",
-            "jp": "一年に三回日本に行きます。",
-            "furigana": "いちねんにさんかいにほんにいきます。",
-            "es": "Voy a Japón 3 veces al año.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha (texto oculto) y elige.",
-            "respuesta": "一年に三回日本に行きます。 — Voy a Japón 3 veces al año."
-          },
-          {
-            "tipo": "listen_only",
-            "jp": "もう一度お願いします。",
-            "furigana": "もういちどおねがいします。",
-            "es": "Otra vez, por favor.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha y elige.",
-            "respuesta": "もう一度お願いします。 — Otra vez, por favor."
-          },
-          {
-            "tipo": "shadowing",
-            "jp": "一年に三回日本に行きます。",
-            "furigana": "いちねんにさんかいにほんにいきます。",
-            "es": "Voy a Japón 3 veces al año.",
-            "pausa_ms": 3000,
-            "rate": 0.85,
-            "prompt": "Escucha, pausa 3s, repite."
-          },
-          {
-            "tipo": "produccion",
-            "prompt": "Produce: 'Otra vez, por favor.'",
-            "respuesta": "もう一度お願いします。",
-            "jp": "もう一度お願いします。",
-            "mostrar_texto_antes": false,
-            "rate": 0.8
-          }
-        ]
-      },
-      {
-        "tipo": "errores_comunes",
-        "texto": "Error típico: 度/回/遍 intercambiables — matiz: 回 más seguro para eventos. 度 más abstracto. 遍 solo lecturas/viajes completos, no para cualquier vez."
-      },
-      {
-        "tipo": "cierre",
-        "texto": "Hoy: 度・回・遍 frecuencia. Próxima: たものだ solía. Di 3 veces: いちど、にど、いっかい。"
-      }
-    ],
-    "wexdc": true,
-    "clarity": 3,
-    "autoevaluacion": {
-      "explica_no_informa": true,
-      "palabras_explicacion": 411,
-      "listening_puro_incluido": true,
-      "listening_puro_cantidad": 2,
-      "confianza": 9
-    }
-  },
-  {
-    "id": "l-imabi-050",
-    "title": "IMABI 50: Solía — たものだ & かつて",
-    "stage": "IMABI · Beginners I",
-    "minutes": 8,
-    "level": "imabi",
-    "teach": [
-      {
-        "heading": "IMABI 50: Solía — たものだ & かつて",
-        "text": "Nostalgia habitual: ～たものだ (solía, énfasis redescubrimiento), かつて( otrora formal). 子供の頃よく遊んだものだ (solía jugar de niño).",
-        "examples": [
-          {
-            "jp": "子供の頃、よく川で遊んだものだ。",
-            "kana": "こどものころ、よくかわであそんだものだ。",
-            "es": "De niño solía jugar en el río."
-          },
-          {
-            "jp": "かつてここに寺があった。",
-            "kana": "かつてここにてらがあった。",
-            "es": "Otrora hubo un templo aquí."
-          },
-          {
-            "jp": "学生の頃は毎日走ったものだ。",
-            "kana": "がくせいのころはまいにちはしったものだ。",
-            "es": "Cuando era estudiante solía correr cada día."
-          }
-        ]
-      }
-    ],
-    "quiz": {
-      "practice": "grammar",
-      "direction": "grammar-es",
-      "ids": [
-        "g-desu",
-        "g-desu-1",
-        "g-desu-2"
-      ]
-    },
-    "secciones": [
-      {
-        "tipo": "gancho",
-        "texto": "Quieres decir 'solía jugar' con nostalgia y dudas: たものだ? ていた? かつて? No todo pasado es 'solía'."
-      },
-      {
-        "tipo": "explicacion",
-        "texto": "～たものだ expresa hábito pasado con matiz emotivo/nostálgico: “solía… (y qué tiempos)”. No es simple pasado, es recuerdo afectivo. かつて es adverbio culto “otrora”.\n\nObjetivo: usar ～たものだ para hábito recordado y かつて para “en tiempos”.\n\n🧩 Fórmula:【Vた + ものだ】→ 遊んだものだ,走ったものだ,食べたものだ. Variante femenina coloquial もん: 遊んだもん. かつて + frase pasada: かつては栄えた (otrora prosperó).\n- ものだ con caída entonativa nostalgic\n- No confundas con もんだ “debería” (IMABI intermedia) sin た?\n\nPiensa en bloques: verbo pasado + ものだ = recuerdo con emoción.\n\n👣 Cómo construirlo (3 pasos):\n1) Pon hábito en た pasado: 遊ぶ→遊んだ,走る→走った\n2) Añade ものだ (plano) / ものだった (pasado) / もんだ coloquial\n3) Contexto temporal: 子供の頃/学生の頃/昔よく + Vたものだ. Para formal histórico: かつて + pasado.\n\n⚖️ Tabla solía:\n|Patrón|Matiz|Ejemplo|\n|Vたものだ|solía con nostalgia|よく遊んだものだ|\n|かつて+Past|otrora culto|かつて寺があった|\n|よく+たものだ|énfasis hábito|よく走ったものだ|\n\n💡 Ejemplos desglosados:\n1) 子供の頃、よく川で遊んだものだ。(こどものころ、よくかわであそんだものだ。)— “De niño solía jugar en el río.” → 子供の頃+よく+川で+遊んだ+ものだ.\n2) かつてここに寺があった。(かつてここにてらがあった。)— “Otrora hubo templo aquí.” → かつて+ここに+寺があった.\n3) 学生の頃は毎日走ったものだ。(がくせいのころはまいにちはしったものだ。)— “De estudiante solía correr cada día.” → 学生の頃は+毎日+走った+ものだ.\n\n🔑 Mini-resumen:\n□ たものだ = solía con sentimiento (no neutro 毎日走った)\n□ かつて = adverbio formal “en otros tiempos”\n□ Bien con よく・よく y 頃\n\n❌ Error 90%: usar たものだ para hábito neutro presente-pasado sin nostalgia → usa 毎日走っていた/よく走った sufi. Confundir もんだ excusa (行くもんだ) con たものだ recuerdo.\n\n💬 Truco offline: narra tu infancia: 子供の頃、よく○○したものだ 3 frases 3×. Active recall. Sentir diferencia con simple た.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Interleaving: mezcla este tema + vocab + escucha, nunca 10 números seguidos sin contexto. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
-        "palabras": 406
-      },
-      {
-        "tipo": "ejemplos",
-        "items": [
-          {
-            "jp": "子供の頃、よく川で遊んだものだ。",
-            "furigana": "こどものころ、よくかわであそんだものだ。",
-            "romaji": "kodomo no koro, yoku kawa de asonda mono da.",
-            "es": "De niño solía jugar en el río.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "かつてここに寺があった。",
-            "furigana": "かつてここにてらがあった。",
-            "romaji": "katsute koko ni tera ga atta.",
-            "es": "Otrora hubo un templo aquí.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "学生の頃は毎日走ったものだ。",
-            "furigana": "がくせいのころはまいにちはしったものだ。",
-            "romaji": "gakusei no koro wa mainichi hashitta mono da.",
-            "es": "Cuando era estudiante solía correr cada día.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          }
-        ]
-      },
-      {
-        "tipo": "practica",
-        "ejercicios": [
-          {
-            "tipo": "listen_only",
-            "jp": "子供の頃、よく川で遊んだものだ。",
-            "furigana": "こどものころ、よくかわであそんだものだ。",
-            "es": "De niño solía jugar en el río.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha (texto oculto) y elige.",
-            "respuesta": "子供の頃、よく川で遊んだものだ。 — De niño solía jugar en el río."
-          },
-          {
-            "tipo": "listen_only",
-            "jp": "かつてここに寺があった。",
-            "furigana": "かつてここにてらがあった。",
-            "es": "Otrora hubo un templo aquí.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha y elige.",
-            "respuesta": "かつてここに寺があった。 — Otrora hubo un templo aquí."
-          },
-          {
-            "tipo": "shadowing",
-            "jp": "子供の頃、よく川で遊んだものだ。",
-            "furigana": "こどものころ、よくかわであそんだものだ。",
-            "es": "De niño solía jugar en el río.",
-            "pausa_ms": 3000,
-            "rate": 0.85,
-            "prompt": "Escucha, pausa 3s, repite."
-          },
-          {
-            "tipo": "produccion",
-            "prompt": "Produce: 'De niño solía jugar en el río.'",
-            "respuesta": "子供の頃、よく川で遊んだものだ。",
-            "jp": "子供の頃、よく川で遊んだものだ。",
-            "mostrar_texto_antes": false,
-            "rate": 0.8
-          }
-        ]
-      },
-      {
-        "tipo": "errores_comunes",
-        "texto": "Error típico: たものだ sin た (ものだ solo es explicación). Y usar かつて en habla diaria casual → suena novela; en chat di 昔むかし."
-      },
-      {
-        "tipo": "cierre",
-        "texto": "Hoy: たものだ nostalgia + かつて otrora. Cierra Beginners I. ¡Felicidades! Di 3 veces: 遊んだものだ。"
-      }
-    ],
-    "sections": [
-      {
-        "tipo": "gancho",
-        "texto": "Quieres decir 'solía jugar' con nostalgia y dudas: たものだ? ていた? かつて? No todo pasado es 'solía'."
-      },
-      {
-        "tipo": "explicacion",
-        "texto": "～たものだ expresa hábito pasado con matiz emotivo/nostálgico: “solía… (y qué tiempos)”. No es simple pasado, es recuerdo afectivo. かつて es adverbio culto “otrora”.\n\nObjetivo: usar ～たものだ para hábito recordado y かつて para “en tiempos”.\n\n🧩 Fórmula:【Vた + ものだ】→ 遊んだものだ,走ったものだ,食べたものだ. Variante femenina coloquial もん: 遊んだもん. かつて + frase pasada: かつては栄えた (otrora prosperó).\n- ものだ con caída entonativa nostalgic\n- No confundas con もんだ “debería” (IMABI intermedia) sin た?\n\nPiensa en bloques: verbo pasado + ものだ = recuerdo con emoción.\n\n👣 Cómo construirlo (3 pasos):\n1) Pon hábito en た pasado: 遊ぶ→遊んだ,走る→走った\n2) Añade ものだ (plano) / ものだった (pasado) / もんだ coloquial\n3) Contexto temporal: 子供の頃/学生の頃/昔よく + Vたものだ. Para formal histórico: かつて + pasado.\n\n⚖️ Tabla solía:\n|Patrón|Matiz|Ejemplo|\n|Vたものだ|solía con nostalgia|よく遊んだものだ|\n|かつて+Past|otrora culto|かつて寺があった|\n|よく+たものだ|énfasis hábito|よく走ったものだ|\n\n💡 Ejemplos desglosados:\n1) 子供の頃、よく川で遊んだものだ。(こどものころ、よくかわであそんだものだ。)— “De niño solía jugar en el río.” → 子供の頃+よく+川で+遊んだ+ものだ.\n2) かつてここに寺があった。(かつてここにてらがあった。)— “Otrora hubo templo aquí.” → かつて+ここに+寺があった.\n3) 学生の頃は毎日走ったものだ。(がくせいのころはまいにちはしったものだ。)— “De estudiante solía correr cada día.” → 学生の頃は+毎日+走った+ものだ.\n\n🔑 Mini-resumen:\n□ たものだ = solía con sentimiento (no neutro 毎日走った)\n□ かつて = adverbio formal “en otros tiempos”\n□ Bien con よく・よく y 頃\n\n❌ Error 90%: usar たものだ para hábito neutro presente-pasado sin nostalgia → usa 毎日走っていた/よく走った sufi. Confundir もんだ excusa (行くもんだ) con たものだ recuerdo.\n\n💬 Truco offline: narra tu infancia: 子供の頃、よく○○したものだ 3 frases 3×. Active recall. Sentir diferencia con simple た.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Interleaving: mezcla este tema + vocab + escucha, nunca 10 números seguidos sin contexto. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
-        "palabras": 406
-      },
-      {
-        "tipo": "ejemplos",
-        "items": [
-          {
-            "jp": "子供の頃、よく川で遊んだものだ。",
-            "furigana": "こどものころ、よくかわであそんだものだ。",
-            "romaji": "kodomo no koro, yoku kawa de asonda mono da.",
-            "es": "De niño solía jugar en el río.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "かつてここに寺があった。",
-            "furigana": "かつてここにてらがあった。",
-            "romaji": "katsute koko ni tera ga atta.",
-            "es": "Otrora hubo un templo aquí.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          },
-          {
-            "jp": "学生の頃は毎日走ったものだ。",
-            "furigana": "がくせいのころはまいにちはしったものだ。",
-            "romaji": "gakusei no koro wa mainichi hashitta mono da.",
-            "es": "Cuando era estudiante solía correr cada día.",
-            "pitch_accent": "Heiban",
-            "rate": 0.85
-          }
-        ]
-      },
-      {
-        "tipo": "practica",
-        "ejercicios": [
-          {
-            "tipo": "listen_only",
-            "jp": "子供の頃、よく川で遊んだものだ。",
-            "furigana": "こどものころ、よくかわであそんだものだ。",
-            "es": "De niño solía jugar en el río.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha (texto oculto) y elige.",
-            "respuesta": "子供の頃、よく川で遊んだものだ。 — De niño solía jugar en el río."
-          },
-          {
-            "tipo": "listen_only",
-            "jp": "かつてここに寺があった。",
-            "furigana": "かつてここにてらがあった。",
-            "es": "Otrora hubo un templo aquí.",
-            "mostrar_texto_antes": false,
-            "rate": 0.9,
-            "prompt": "♪ Escucha y elige.",
-            "respuesta": "かつてここに寺があった。 — Otrora hubo un templo aquí."
-          },
-          {
-            "tipo": "shadowing",
-            "jp": "子供の頃、よく川で遊んだものだ。",
-            "furigana": "こどものころ、よくかわであそんだものだ。",
-            "es": "De niño solía jugar en el río.",
-            "pausa_ms": 3000,
-            "rate": 0.85,
-            "prompt": "Escucha, pausa 3s, repite."
-          },
-          {
-            "tipo": "produccion",
-            "prompt": "Produce: 'De niño solía jugar en el río.'",
-            "respuesta": "子供の頃、よく川で遊んだものだ。",
-            "jp": "子供の頃、よく川で遊んだものだ。",
-            "mostrar_texto_antes": false,
-            "rate": 0.8
-          }
-        ]
-      },
-      {
-        "tipo": "errores_comunes",
-        "texto": "Error típico: たものだ sin た (ものだ solo es explicación). Y usar かつて en habla diaria casual → suena novela; en chat di 昔むかし."
-      },
-      {
-        "tipo": "cierre",
-        "texto": "Hoy: たものだ nostalgia + かつて otrora. Cierra Beginners I. ¡Felicidades! Di 3 veces: 遊んだものだ。"
-      }
-    ],
-    "wexdc": true,
-    "clarity": 3,
-    "autoevaluacion": {
-      "explica_no_informa": true,
-      "palabras_explicacion": 406,
-      "listening_puro_incluido": true,
-      "listening_puro_cantidad": 2,
-      "confianza": 9
-    }
-  },
-  {
     "id": "l-imabi-000",
     "title": "IMABI 00: Introducción — qué es el japonés",
     "stage": "IMABI · Beginners I",
     "minutes": 7,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 00: Introducción — qué es el japonés",
@@ -6390,7 +234,7 @@ var LESSONS = [
     "title": "IMABI 02: Consonantes — かきくけこ〜わをん",
     "stage": "IMABI · Beginners I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 02: Consonantes — かきくけこ〜わをん",
@@ -6618,7 +462,7 @@ var LESSONS = [
     "title": "IMABI 03: Pitch y ensordecimiento — 雨 vs 飴, です des",
     "stage": "IMABI · Beginners I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 03: Pitch y ensordecimiento — 雨 vs 飴, です des",
@@ -6842,11 +686,6293 @@ var LESSONS = [
     }
   },
   {
+    "id": "l-imabi-009",
+    "title": "IMABI 9: Sustantivos y pronombres",
+    "stage": "IMABI · Beginners I",
+    "minutes": 7,
+    "level": "n5",
+    "teach": [
+      {
+        "heading": "IMABI 9: Sustantivos y pronombres",
+        "text": "Los sustantivos no cambian por género ni número. 私 (yo), あなた (tú), 本 (libro). El plural se sugiere con contexto o con たち.",
+        "examples": [
+          {
+            "jp": "私は学生です。",
+            "kana": "わたしはがくせいです。",
+            "es": "Soy estudiante."
+          },
+          {
+            "jp": "あれは本です。",
+            "kana": "あれはほんです。",
+            "es": "Aquello es un libro."
+          },
+          {
+            "jp": "私たちは友達です。",
+            "kana": "わたしたちはともだちです。",
+            "es": "Nosotros somos amigos."
+          }
+        ]
+      }
+    ],
+    "quiz": {
+      "practice": "grammar",
+      "direction": "grammar-es",
+      "ids": [
+        "g-desu",
+        "g-desu-1",
+        "g-desu-2"
+      ]
+    },
+    "secciones": [
+      {
+        "tipo": "gancho",
+        "texto": "Estás en una izakaya y el camarero te dice 「何名様ですか」 (¿cuántas personas?). No sabes si te pregunta a ti, a tu grupo o a todos. Necesitas pronombres y sustantivos claros."
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "Los sustantivos en japonés son simples: no tienen género (no hay el/la) y casi nunca cambian por número. 本 es libro o libros según contexto. Si necesitas pluralizar persona, existe ～たち: 私たち (nosotros), 学生たち (los estudiantes), pero no lo uses para cosas: 本たち es raro.\n\nObjetivo: presentar personas y cosas con 私/あなた/あれ/これ sin confundir singular/plural.\n\n🧩 Fórmula: 【Sustantivo + は + Descripción + です】 → 私は学生です / あれは本です\n\nPiensa en bloques: tema + は + qué decimos de él + です cortés. El sustantivo nunca cambia, solo el contexto dice si es uno o muchos.\n\n👣 Cómo construirlo (3 pasos):\n1) Elige el sustantivo: 私 (yo), あなた (tú), 彼 (él), これ (esto), あれ (aquello)\n2) Márcalo con は si es tema: 私は\n3) Cierra con です para cortesía, o だ para plano\n\n⚖️ Tabla para no confundirte:\n| Forma | Para qué | Ejemplo |\n|---|---|---|\n| 私 | yo | 私は学生です |\n| 私たち | nosotros (plural humano) | 私たちは友達です |\n| あれ/これ | aquello/esto | あれは本です |\n| 学生たち | los estudiantes (plural) | 学生たちは教室にいます |\n\nRecuerda: 私たち vs 私達 (ambos válidos, たち en hiragana es más común).\n\n💡 Ejemplos desglosados (palabra por palabra):\n1) 私は学生です。 (わたしはがくせいです。) — “Soy estudiante.” → 私(tema) + は + 学生です。\n   Por qué así: sustantivo como tema con は, cierre cortés です\n2) あれは本です。 (あれはほんです。) — “Aquello es un libro.” → あれ(tema) + は + 本です。\n   Por qué así: demostrativo + は + descripción\n3) 私たちは友達です。 (わたしたちはともだちです。) — “Nosotros somos amigos.” → 私たち(tema plural) + は + 友達です。\n\n🔑 Mini-resumen:\n✅ Si solo recuerdas 3 cosas hoy:\n□ Sustantivo no cambia por número (本 = libro/libros)\n□ Persona en plural usa ～たち (私たち), cosa no\n□ Tema siempre con は, cierre con です cortés\n\n❌ Errores del 90%: decir 本たち para libros (suena a personificar). Di 本 o 本がたくさん. No uses 私達 con kanji en examen básico: usa hiragana たち.\n\n💬 Truco offline: tapa el japonés, lee “Soy estudiante”, produce 私は学生です en voz alta. Active recall > releer.\n\n¿Por qué 5 ítems nuevos máx? Memoria 7±2. Domina 2 hoy, resto al SRS. Mezcla sustantivos + escucha + lectura.",
+        "palabras": 355
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "私は学生です。",
+            "furigana": "わたしはがくせいです。",
+            "romaji": "watashi wa gakusei desu.",
+            "es": "Soy estudiante.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "あれは本です。",
+            "furigana": "あれはほんです。",
+            "romaji": "are wa hon desu.",
+            "es": "Aquello es un libro.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "私たちは友達です。",
+            "furigana": "わたしたちはともだちです。",
+            "romaji": "watashitachi wa tomodachi desu.",
+            "es": "Nosotros somos amigos.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "私は学生です。",
+            "furigana": "わたしはがくせいです。",
+            "es": "Soy estudiante.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "私は学生です。 — Soy estudiante."
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "あれは本です。",
+            "furigana": "あれはほんです。",
+            "es": "Aquello es un libro.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "あれは本です。 — Aquello es un libro."
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "私は学生です。",
+            "furigana": "わたしはがくせいです。",
+            "es": "Soy estudiante.",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Escucha, pausa 3s, repite."
+          },
+          {
+            "tipo": "produccion",
+            "prompt": "Produce en japonés: 'Nosotros somos amigos.'",
+            "respuesta": "私たちは友達です。",
+            "jp": "私たちは友達です。",
+            "mostrar_texto_antes": false,
+            "rate": 0.8
+          }
+        ]
+      },
+      {
+        "tipo": "errores_comunes",
+        "texto": "Error típico: confundir 私たち (nosotros) con 私達 en kanji raro. En N5 usa hiragana. Y no pluralices cosas con たち: 本たち suena a que los libros son personas."
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Hoy: 本 no cambia por número, persona plural con たち. Próxima: Copula plain/plite. Di 3 veces: 私たちは友達です。"
+      }
+    ],
+    "sections": [
+      {
+        "tipo": "gancho",
+        "texto": "Estás en una izakaya y el camarero te dice 「何名様ですか」 (¿cuántas personas?). No sabes si te pregunta a ti, a tu grupo o a todos. Necesitas pronombres y sustantivos claros."
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "Los sustantivos en japonés son simples: no tienen género (no hay el/la) y casi nunca cambian por número. 本 es libro o libros según contexto. Si necesitas pluralizar persona, existe ～たち: 私たち (nosotros), 学生たち (los estudiantes), pero no lo uses para cosas: 本たち es raro.\n\nObjetivo: presentar personas y cosas con 私/あなた/あれ/これ sin confundir singular/plural.\n\n🧩 Fórmula: 【Sustantivo + は + Descripción + です】 → 私は学生です / あれは本です\n\nPiensa en bloques: tema + は + qué decimos de él + です cortés. El sustantivo nunca cambia, solo el contexto dice si es uno o muchos.\n\n👣 Cómo construirlo (3 pasos):\n1) Elige el sustantivo: 私 (yo), あなた (tú), 彼 (él), これ (esto), あれ (aquello)\n2) Márcalo con は si es tema: 私は\n3) Cierra con です para cortesía, o だ para plano\n\n⚖️ Tabla para no confundirte:\n| Forma | Para qué | Ejemplo |\n|---|---|---|\n| 私 | yo | 私は学生です |\n| 私たち | nosotros (plural humano) | 私たちは友達です |\n| あれ/これ | aquello/esto | あれは本です |\n| 学生たち | los estudiantes (plural) | 学生たちは教室にいます |\n\nRecuerda: 私たち vs 私達 (ambos válidos, たち en hiragana es más común).\n\n💡 Ejemplos desglosados (palabra por palabra):\n1) 私は学生です。 (わたしはがくせいです。) — “Soy estudiante.” → 私(tema) + は + 学生です。\n   Por qué así: sustantivo como tema con は, cierre cortés です\n2) あれは本です。 (あれはほんです。) — “Aquello es un libro.” → あれ(tema) + は + 本です。\n   Por qué así: demostrativo + は + descripción\n3) 私たちは友達です。 (わたしたちはともだちです。) — “Nosotros somos amigos.” → 私たち(tema plural) + は + 友達です。\n\n🔑 Mini-resumen:\n✅ Si solo recuerdas 3 cosas hoy:\n□ Sustantivo no cambia por número (本 = libro/libros)\n□ Persona en plural usa ～たち (私たち), cosa no\n□ Tema siempre con は, cierre con です cortés\n\n❌ Errores del 90%: decir 本たち para libros (suena a personificar). Di 本 o 本がたくさん. No uses 私達 con kanji en examen básico: usa hiragana たち.\n\n💬 Truco offline: tapa el japonés, lee “Soy estudiante”, produce 私は学生です en voz alta. Active recall > releer.\n\n¿Por qué 5 ítems nuevos máx? Memoria 7±2. Domina 2 hoy, resto al SRS. Mezcla sustantivos + escucha + lectura.",
+        "palabras": 355
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "私は学生です。",
+            "furigana": "わたしはがくせいです。",
+            "romaji": "watashi wa gakusei desu.",
+            "es": "Soy estudiante.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "あれは本です。",
+            "furigana": "あれはほんです。",
+            "romaji": "are wa hon desu.",
+            "es": "Aquello es un libro.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "私たちは友達です。",
+            "furigana": "わたしたちはともだちです。",
+            "romaji": "watashitachi wa tomodachi desu.",
+            "es": "Nosotros somos amigos.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "私は学生です。",
+            "furigana": "わたしはがくせいです。",
+            "es": "Soy estudiante.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "私は学生です。 — Soy estudiante."
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "あれは本です。",
+            "furigana": "あれはほんです。",
+            "es": "Aquello es un libro.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "あれは本です。 — Aquello es un libro."
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "私は学生です。",
+            "furigana": "わたしはがくせいです。",
+            "es": "Soy estudiante.",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Escucha, pausa 3s, repite."
+          },
+          {
+            "tipo": "produccion",
+            "prompt": "Produce en japonés: 'Nosotros somos amigos.'",
+            "respuesta": "私たちは友達です。",
+            "jp": "私たちは友達です。",
+            "mostrar_texto_antes": false,
+            "rate": 0.8
+          }
+        ]
+      },
+      {
+        "tipo": "errores_comunes",
+        "texto": "Error típico: confundir 私たち (nosotros) con 私達 en kanji raro. En N5 usa hiragana. Y no pluralices cosas con たち: 本たち suena a que los libros son personas."
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Hoy: 本 no cambia por número, persona plural con たち. Próxima: Copula plain/plite. Di 3 veces: 私たちは友達です。"
+      }
+    ],
+    "wexdc": true,
+    "clarity": 3,
+    "autoevaluacion": {
+      "explica_no_informa": true,
+      "palabras_explicacion": 355,
+      "listening_puro_incluido": true,
+      "listening_puro_cantidad": 2,
+      "confianza": 9
+    }
+  },
+  {
+    "id": "l-imabi-014",
+    "title": "IMABI 14: Adjetivos i — 高い, 安い",
+    "stage": "IMABI · Beginners I",
+    "minutes": 8,
+    "level": "n5",
+    "teach": [
+      {
+        "heading": "IMABI 14: Adjetivos i — 高い, 安い",
+        "text": "Los adjetivos-i terminan en い y se conjugan como verbos: 高い (caro/alto), 安い (barato), 暑い (caluroso). No necesitan です para cerrar, pero lo añaden para cortesía.",
+        "examples": [
+          {
+            "jp": "今日は暑いです。",
+            "kana": "きょうはあついです。",
+            "es": "Hoy hace calor."
+          },
+          {
+            "jp": "この本は安いです。",
+            "kana": "このほんはやすいです。",
+            "es": "Este libro es barato."
+          },
+          {
+            "jp": "富士山は高いです。",
+            "kana": "ふじさんはたかいです。",
+            "es": "El Fuji es alto."
+          }
+        ]
+      }
+    ],
+    "quiz": {
+      "practice": "grammar",
+      "direction": "grammar-es",
+      "ids": [
+        "g-desu",
+        "g-desu-1",
+        "g-desu-2"
+      ]
+    },
+    "secciones": [
+      {
+        "tipo": "gancho",
+        "texto": "Ves dos carteles: 高い (takai) y 安い (yasui). Uno dice 10.000¥, otro 500¥. ¿Cuál es caro? Sin adjetivos no comparas."
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "Los adjetivos-i son palabras que terminan en い y describen por sí solas: 高い (caro/alto), 安い (barato), 暑い (caluroso), 大きい (grande), 小さい (pequeño). Ya traen la idea de “es”, no necesitas です, pero en cortés lo añades: 高いです (es caro, cortés).\n\nObjetivo: describir con i-adj y negar en くない.\n\n🧩 Fórmula: 【Tema は Adjetivo-i (+です cortés)】\nEj: 今日は暑いです / この本は安いです\nNegativo: 暑い → 暑くないです (quitas い, pones くないです)\nPasado: 暑かったです (quitas い, pones かったです)\n\n👣 Cómo construirlo (3 pasos):\n1) Tema + は: 今日は / この本は\n2) Adjetivo-i tal cual para presente: 暑い, 安い\n3) Para cortesía añade です: 暑いです / Para negar: 暑くないです\n\n⚖️ Tabla i-adj:\n| Forma | Regla | Ejemplo |\n|---|---|---|\n| Presente cortés | adj-i + です | 高いです |\n| Negativo cortés | quita い + くないです | 高くないです |\n| Pasado cortés | quita い + かったです | 高かったです |\n| Pasado negativo | quita い + くなかったです | 高くなかったです |\n\n💡 Ejemplos desglosados:\n1) 今日は暑いです。 (きょうはあついです。) — “Hoy hace calor.” → 今日(tema) + は + 暑いです.\n2) この本は安いです。 (このほんはやすいです。) — “Este libro es barato.” → この本(tema) + は + 安いです.\n3) 富士山は高いです。 (ふじさんはたかいです。) — “El Fuji es alto.” → 富士山(tema) + は + 高いです.\n\n🔑 Mini-resumen:\n□ i-adj termina en い, no necesita です pero lo usa en cortés\n□ Negar: quita い + くないです\n□ Pasado: quita い + かったです\n\n❌ Error 90%: confundir きれい (bonito) como i-adj. Parece que termina en い, pero es na-adj: きれいな本, no きれい本. IMABI 15 te lo explica.\n\n💬 Truco: di 暑い→暑くない→暑かった en voz alta 3×. Active recall.\n\n¿Por qué 5 ítems? Domina 2 hoy, resto SRS. Mezcla adjetivos + escucha.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Si dudas entre i-adj y na-adj, abre el diccionario y busca el tag: [adj-i] no lleva な, [adj-na] lleva な antes de nombre y だ/です como predicado. Repite en voz alta marcando la partícula para anclar ritmo. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase.",
+        "palabras": 407
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "今日は暑いです。",
+            "furigana": "きょうはあついです。",
+            "romaji": "kyou wa atsui desu.",
+            "es": "Hoy hace calor.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "この本は安いです。",
+            "furigana": "このほんはやすいです。",
+            "romaji": "kono hon wa yasui desu.",
+            "es": "Este libro es barato.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "富士山は高いです。",
+            "furigana": "ふじさんはたかいです。",
+            "romaji": "fujisan wa takai desu.",
+            "es": "El Fuji es alto.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "今日は暑いです。",
+            "furigana": "きょうはあついです。",
+            "es": "Hoy hace calor.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "今日は暑いです。 — Hoy hace calor."
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "この本は安いです。",
+            "furigana": "このほんはやすいです。",
+            "es": "Este libro es barato.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "この本は安いです。 — Este libro es barato."
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "今日は暑いです。",
+            "furigana": "きょうはあついです。",
+            "es": "Hoy hace calor.",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Escucha, pausa 3s, repite."
+          },
+          {
+            "tipo": "produccion",
+            "prompt": "Produce en japonés: 'Este libro es barato.'",
+            "respuesta": "この本は安いです。",
+            "jp": "この本は安いです。",
+            "mostrar_texto_antes": false,
+            "rate": 0.8
+          }
+        ]
+      },
+      {
+        "tipo": "errores_comunes",
+        "texto": "Error típico: tratar きれい como i-adj. Es na-adj: きれいな本. Si ves い al final y dudas, revisa diccionario: ¿dice [adj-i] o [adj-na]?"
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Hoy: i-adj con ない/かった. Próxima: na-adj con な/じゃない. Di 3 veces: 高くないです。"
+      }
+    ],
+    "sections": [
+      {
+        "tipo": "gancho",
+        "texto": "Ves dos carteles: 高い (takai) y 安い (yasui). Uno dice 10.000¥, otro 500¥. ¿Cuál es caro? Sin adjetivos no comparas."
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "Los adjetivos-i son palabras que terminan en い y describen por sí solas: 高い (caro/alto), 安い (barato), 暑い (caluroso), 大きい (grande), 小さい (pequeño). Ya traen la idea de “es”, no necesitas です, pero en cortés lo añades: 高いです (es caro, cortés).\n\nObjetivo: describir con i-adj y negar en くない.\n\n🧩 Fórmula: 【Tema は Adjetivo-i (+です cortés)】\nEj: 今日は暑いです / この本は安いです\nNegativo: 暑い → 暑くないです (quitas い, pones くないです)\nPasado: 暑かったです (quitas い, pones かったです)\n\n👣 Cómo construirlo (3 pasos):\n1) Tema + は: 今日は / この本は\n2) Adjetivo-i tal cual para presente: 暑い, 安い\n3) Para cortesía añade です: 暑いです / Para negar: 暑くないです\n\n⚖️ Tabla i-adj:\n| Forma | Regla | Ejemplo |\n|---|---|---|\n| Presente cortés | adj-i + です | 高いです |\n| Negativo cortés | quita い + くないです | 高くないです |\n| Pasado cortés | quita い + かったです | 高かったです |\n| Pasado negativo | quita い + くなかったです | 高くなかったです |\n\n💡 Ejemplos desglosados:\n1) 今日は暑いです。 (きょうはあついです。) — “Hoy hace calor.” → 今日(tema) + は + 暑いです.\n2) この本は安いです。 (このほんはやすいです。) — “Este libro es barato.” → この本(tema) + は + 安いです.\n3) 富士山は高いです。 (ふじさんはたかいです。) — “El Fuji es alto.” → 富士山(tema) + は + 高いです.\n\n🔑 Mini-resumen:\n□ i-adj termina en い, no necesita です pero lo usa en cortés\n□ Negar: quita い + くないです\n□ Pasado: quita い + かったです\n\n❌ Error 90%: confundir きれい (bonito) como i-adj. Parece que termina en い, pero es na-adj: きれいな本, no きれい本. IMABI 15 te lo explica.\n\n💬 Truco: di 暑い→暑くない→暑かった en voz alta 3×. Active recall.\n\n¿Por qué 5 ítems? Domina 2 hoy, resto SRS. Mezcla adjetivos + escucha.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Si dudas entre i-adj y na-adj, abre el diccionario y busca el tag: [adj-i] no lleva な, [adj-na] lleva な antes de nombre y だ/です como predicado. Repite en voz alta marcando la partícula para anclar ritmo. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase.",
+        "palabras": 407
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "今日は暑いです。",
+            "furigana": "きょうはあついです。",
+            "romaji": "kyou wa atsui desu.",
+            "es": "Hoy hace calor.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "この本は安いです。",
+            "furigana": "このほんはやすいです。",
+            "romaji": "kono hon wa yasui desu.",
+            "es": "Este libro es barato.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "富士山は高いです。",
+            "furigana": "ふじさんはたかいです。",
+            "romaji": "fujisan wa takai desu.",
+            "es": "El Fuji es alto.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "今日は暑いです。",
+            "furigana": "きょうはあついです。",
+            "es": "Hoy hace calor.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "今日は暑いです。 — Hoy hace calor."
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "この本は安いです。",
+            "furigana": "このほんはやすいです。",
+            "es": "Este libro es barato.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "この本は安いです。 — Este libro es barato."
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "今日は暑いです。",
+            "furigana": "きょうはあついです。",
+            "es": "Hoy hace calor.",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Escucha, pausa 3s, repite."
+          },
+          {
+            "tipo": "produccion",
+            "prompt": "Produce en japonés: 'Este libro es barato.'",
+            "respuesta": "この本は安いです。",
+            "jp": "この本は安いです。",
+            "mostrar_texto_antes": false,
+            "rate": 0.8
+          }
+        ]
+      },
+      {
+        "tipo": "errores_comunes",
+        "texto": "Error típico: tratar きれい como i-adj. Es na-adj: きれいな本. Si ves い al final y dudas, revisa diccionario: ¿dice [adj-i] o [adj-na]?"
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Hoy: i-adj con ない/かった. Próxima: na-adj con な/じゃない. Di 3 veces: 高くないです。"
+      }
+    ],
+    "wexdc": true,
+    "clarity": 3,
+    "autoevaluacion": {
+      "explica_no_informa": true,
+      "palabras_explicacion": 276,
+      "listening_puro_incluido": true,
+      "listening_puro_cantidad": 2,
+      "confianza": 9
+    }
+  },
+  {
+    "id": "l-imabi-015",
+    "title": "IMABI 15: Adjetivos-na — 静か, 元気",
+    "stage": "IMABI · Beginners I",
+    "minutes": 8,
+    "level": "n5",
+    "teach": [
+      {
+        "heading": "IMABI 15: Adjetivos-na — 静か, 元気",
+        "text": "Los na-adj necesitan な para describir nombre: 静かな部屋 (habitación tranquila), 元気な学生 (estudiante enérgico). Como predicado usan です/だ.",
+        "examples": [
+          {
+            "jp": "この部屋は静かです。",
+            "kana": "このへやはしずかです。",
+            "es": "Esta habitación es tranquila."
+          },
+          {
+            "jp": "彼は元気です。",
+            "kana": "かれはげんきです。",
+            "es": "Él está enérgico/bien."
+          },
+          {
+            "jp": "静かな夜です。",
+            "kana": "しずかなよるです。",
+            "es": "Es una noche tranquila."
+          }
+        ]
+      }
+    ],
+    "quiz": {
+      "practice": "grammar",
+      "direction": "grammar-es",
+      "ids": [
+        "g-desu",
+        "g-desu-1",
+        "g-desu-2"
+      ]
+    },
+    "secciones": [
+      {
+        "tipo": "gancho",
+        "texto": "Lees 静かな夜 y crees que 静か es i-adj por la か. Te equivocas y dices 静かい部屋 — un nativo no te entiende. Ahí entra na-adj."
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "Los na-adj (adjetivos nominales) parecen sustantivos pero describen: 静か (silencioso/tranquilo), 元気 (enérgico), きれい (bonito/limpio), 便利 (conveniente). Necesitan pegamento な cuando van antes de un nombre, y です/だ cuando son predicado.\n\nObjetivo: usar 静かなN vs 静かです sin confundir con i-adj.\n\n🧩 Fórmula:\n- Antes de nombre: 【na-adj + な + Nombre】 → 静かな部屋 / 元気な学生 / きれいな本\n- Como predicado: 【Tema は na-adj + です】 → この部屋は静かです / 彼は元気です\n- Negativo: 静かじゃないです / 静かではありません\n\n👣 Cómo construirlo (3 pasos):\n1) ¿Vas a describir un nombre justo después? Usa な: 静かな夜\n2) ¿Vas a cerrar frase? Usa です: 静かです / 元気です\n3) ¿Negar? Cambia です → じゃないです: 静かじゃないです\n\n⚖️ Tabla i vs na:\n| Tipo | Antes de nombre | Predicado cortés | Negativo |\n|---|---|---|---|\n| i-adj (高い) | 高い本 (sin な) | 高いです | 高くないです |\n| na-adj (静か) | 静かな本 | 静かです | 静かじゃないです |\n\n💡 Ejemplos desglosados:\n1) この部屋は静かです。 (このへやはしずかです。) — “Esta habitación es tranquila.” → この部屋(tema) + は + 静かです.\n2) 彼は元気です。 (かれはげんきです。) — “Él está enérgico.” → 彼(tema) + は + 元気です.\n3) 静かな夜です。 (しずかなよるです。) — “Es una noche tranquila.” → 静かな(na-adj+な) + 夜です.\n\n🔑 Mini-resumen:\n□ na-adj + な + Nombre / na-adj + です como predicado\n□ Negativo: じゃないです / ではありません (no くない)\n□ きれい parece i-adj pero es na: きれいな本\n\n❌ Error 90%: 高いな本 (i-adj no lleva な) y 静かい部屋 (na-adj no lleva い extra). Mira terminación en diccionario.\n\n💬 Truco: haz pares: 高い本 ↔ 静かな本. Di ambos 3×.\n\n¿Por qué 5 ítems? Domina 2 hoy, resto SRS. Mezcla na-adj + escucha.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Si dudas entre i-adj y na-adj, abre el diccionario y busca el tag: [adj-i] no lleva な, [adj-na] lleva な antes de nombre y だ/です como predicado. Repite en voz alta marcando la partícula para anclar ritmo. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase.",
+        "palabras": 412
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "この部屋は静かです。",
+            "furigana": "このへやはしずかです。",
+            "romaji": "kono heya wa shizuka desu.",
+            "es": "Esta habitación es tranquila.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "彼は元気です。",
+            "furigana": "かれはげんきです。",
+            "romaji": "kare wa genki desu.",
+            "es": "Él está enérgico.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "静かな夜です。",
+            "furigana": "しずかなよるです。",
+            "romaji": "shizuka na yoru desu.",
+            "es": "Es una noche tranquila.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "この部屋は静かです。",
+            "furigana": "このへやはしずかです。",
+            "es": "Esta habitación es tranquila.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "この部屋は静かです。 — Esta habitación es tranquila."
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "彼は元気です。",
+            "furigana": "かれはげんきです。",
+            "es": "Él está enérgico.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "彼は元気です。 — Él está enérgico."
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "この部屋は静かです。",
+            "furigana": "このへやはしずかです。",
+            "es": "Esta habitación es tranquila.",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Escucha, pausa 3s, repite."
+          },
+          {
+            "tipo": "produccion",
+            "prompt": "Produce en japonés: 'Es una noche tranquila.'",
+            "respuesta": "静かな夜です。",
+            "jp": "静かな夜です。",
+            "mostrar_texto_antes": false,
+            "rate": 0.8
+          }
+        ]
+      },
+      {
+        "tipo": "errores_comunes",
+        "texto": "Error típico: decir 静かい部屋 o 高いな本. Regla: ¿el adjetivo termina en い y es i-adj en diccionario? No lleva な. ¿Es na-adj como 静か/きれい? Lleva な antes de nombre."
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Hoy: na-adj con な/です. Próxima: を marca objeto. Di 3 veces: 静かな部屋。"
+      }
+    ],
+    "sections": [
+      {
+        "tipo": "gancho",
+        "texto": "Lees 静かな夜 y crees que 静か es i-adj por la か. Te equivocas y dices 静かい部屋 — un nativo no te entiende. Ahí entra na-adj."
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "Los na-adj (adjetivos nominales) parecen sustantivos pero describen: 静か (silencioso/tranquilo), 元気 (enérgico), きれい (bonito/limpio), 便利 (conveniente). Necesitan pegamento な cuando van antes de un nombre, y です/だ cuando son predicado.\n\nObjetivo: usar 静かなN vs 静かです sin confundir con i-adj.\n\n🧩 Fórmula:\n- Antes de nombre: 【na-adj + な + Nombre】 → 静かな部屋 / 元気な学生 / きれいな本\n- Como predicado: 【Tema は na-adj + です】 → この部屋は静かです / 彼は元気です\n- Negativo: 静かじゃないです / 静かではありません\n\n👣 Cómo construirlo (3 pasos):\n1) ¿Vas a describir un nombre justo después? Usa な: 静かな夜\n2) ¿Vas a cerrar frase? Usa です: 静かです / 元気です\n3) ¿Negar? Cambia です → じゃないです: 静かじゃないです\n\n⚖️ Tabla i vs na:\n| Tipo | Antes de nombre | Predicado cortés | Negativo |\n|---|---|---|---|\n| i-adj (高い) | 高い本 (sin な) | 高いです | 高くないです |\n| na-adj (静か) | 静かな本 | 静かです | 静かじゃないです |\n\n💡 Ejemplos desglosados:\n1) この部屋は静かです。 (このへやはしずかです。) — “Esta habitación es tranquila.” → この部屋(tema) + は + 静かです.\n2) 彼は元気です。 (かれはげんきです。) — “Él está enérgico.” → 彼(tema) + は + 元気です.\n3) 静かな夜です。 (しずかなよるです。) — “Es una noche tranquila.” → 静かな(na-adj+な) + 夜です.\n\n🔑 Mini-resumen:\n□ na-adj + な + Nombre / na-adj + です como predicado\n□ Negativo: じゃないです / ではありません (no くない)\n□ きれい parece i-adj pero es na: きれいな本\n\n❌ Error 90%: 高いな本 (i-adj no lleva な) y 静かい部屋 (na-adj no lleva い extra). Mira terminación en diccionario.\n\n💬 Truco: haz pares: 高い本 ↔ 静かな本. Di ambos 3×.\n\n¿Por qué 5 ítems? Domina 2 hoy, resto SRS. Mezcla na-adj + escucha.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Si dudas entre i-adj y na-adj, abre el diccionario y busca el tag: [adj-i] no lleva な, [adj-na] lleva な antes de nombre y だ/です como predicado. Repite en voz alta marcando la partícula para anclar ritmo. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase.",
+        "palabras": 412
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "この部屋は静かです。",
+            "furigana": "このへやはしずかです。",
+            "romaji": "kono heya wa shizuka desu.",
+            "es": "Esta habitación es tranquila.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "彼は元気です。",
+            "furigana": "かれはげんきです。",
+            "romaji": "kare wa genki desu.",
+            "es": "Él está enérgico.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "静かな夜です。",
+            "furigana": "しずかなよるです。",
+            "romaji": "shizuka na yoru desu.",
+            "es": "Es una noche tranquila.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "この部屋は静かです。",
+            "furigana": "このへやはしずかです。",
+            "es": "Esta habitación es tranquila.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "この部屋は静かです。 — Esta habitación es tranquila."
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "彼は元気です。",
+            "furigana": "かれはげんきです。",
+            "es": "Él está enérgico.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "彼は元気です。 — Él está enérgico."
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "この部屋は静かです。",
+            "furigana": "このへやはしずかです。",
+            "es": "Esta habitación es tranquila.",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Escucha, pausa 3s, repite."
+          },
+          {
+            "tipo": "produccion",
+            "prompt": "Produce en japonés: 'Es una noche tranquila.'",
+            "respuesta": "静かな夜です。",
+            "jp": "静かな夜です。",
+            "mostrar_texto_antes": false,
+            "rate": 0.8
+          }
+        ]
+      },
+      {
+        "tipo": "errores_comunes",
+        "texto": "Error típico: decir 静かい部屋 o 高いな本. Regla: ¿el adjetivo termina en い y es i-adj en diccionario? No lleva な. ¿Es na-adj como 静か/きれい? Lleva な antes de nombre."
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Hoy: na-adj con な/です. Próxima: を marca objeto. Di 3 veces: 静かな部屋。"
+      }
+    ],
+    "wexdc": true,
+    "clarity": 3,
+    "autoevaluacion": {
+      "explica_no_informa": true,
+      "palabras_explicacion": 259,
+      "listening_puro_incluido": true,
+      "listening_puro_cantidad": 2,
+      "confianza": 9
+    }
+  },
+  {
+    "id": "l-imabi-017",
+    "title": "IMABI 17: Verbo一段 — 食べる, 見る",
+    "stage": "IMABI · Beginners I",
+    "minutes": 8,
+    "level": "n5",
+    "teach": [
+      {
+        "heading": "IMABI 17: Verbo一段 — 食べる, 見る",
+        "text": "Ichidan: todos terminan en る y suena i/e + る. 食べる (taberu), 見る (miru). Su base es estable.",
+        "examples": [
+          {
+            "jp": "朝ごはんを食べます。",
+            "kana": "あさごはんをたべます。",
+            "es": "Desayuno."
+          },
+          {
+            "jp": "映画を見ます。",
+            "kana": "えいがをみます。",
+            "es": "Veo una peli."
+          },
+          {
+            "jp": "早く寝ます。",
+            "kana": "はやくねます。",
+            "es": "Me acuesto pronto."
+          }
+        ]
+      }
+    ],
+    "quiz": {
+      "practice": "grammar",
+      "direction": "grammar-es",
+      "ids": [
+        "g-desu",
+        "g-desu-1",
+        "g-desu-2"
+      ]
+    },
+    "secciones": [
+      {
+        "tipo": "gancho",
+        "texto": "En el conbini ves 食べます y 飲みます. Uno termina en べる, otro en む. ¿Por qué uno cambia a 食べない y otro a 飲まない? Ahí está ichidan vs godan."
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "Los verbos一段 (ichidan, “una columna”) son los fáciles: siempre terminan en る y la vocal anterior es i o e: 食(た)べる (e+る), 見(み)る (i+る), 寝(ね)る, 起(お)きる. Su truco es que la raíz no cambia.\n\nObjetivo: conjugar ichidan sin dudar: 食べる → 食べない/食べます/食べた.\n\n🧩 Fórmula: 【raíz + る → quita る + terminación】\nEj: たべる → たべ + ない / ます / た\n\nPiensa en bloques: quitas る y añades lo que necesitas. No hay sorpresas de consonantes.\n\n👣 Cómo construirlo (3 pasos):\n1) Confirma que es ichidan: ¿termina en い/え + る? 食べる sí (べ = be), 切る no (き = ki pero es godan)\n2) Quita る: 食べ → raíz\n3) Añade: ない (neg), ます (cortés), た (pasado): 食べない, 食べます, 食べた\n\n⚖️ Tabla ichidan:\n| Forma | Regla | Ejemplo |\n|---|---|---|\n| Diccionario | る | 食べる |\n| Negativo | る→ない | 食べない |\n| Cortés | る→ます | 食べます |\n| Pasado | る→た | 食べた |\n| て-form | る→て | 食べて |\n\n💡 Ejemplos desglosados:\n1) 朝ごはんを食べます。 (あさごはんをたべます。) — “Desayuno.” → 朝ごはん(tema) + を + 食べます.\n2) 映画を見ます。 (えいがをみます。) — “Veo peli.” → 映画を + 見ます.\n3) 早く寝ます。 (はやくねます。) — “Duermo pronto.” → 早く + 寝ます.\n\n🔑 Mini-resumen:\n□ ichidan = i/e + る, raíz estable\n□ Quita る → ない/ます/た/て\n□ Excepción: algunos i/e+る son godan (要る, 走る) — se aprenden aparte\n\n❌ Error 90%: tratar 帰る (kaeru) como ichidan. Parece e+る pero es godan: 帰らない, no 帰ない. IMABI 18 te entrena el ojo.\n\n💬 Truco offline: di 食べる→食べない→食べます→食べた en voz alta 3×. Active recall.\n\n¿Por qué 5 ítems? Domina 2 hoy, resto SRS. Mezcla verbos + escucha.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Si dudas entre ichidan y godan, abre el diccionario y busca el tag: [ichidan] termina en る con vocal previa, [godan] cambia la consonante. Repite en voz alta marcando la partícula para anclar ritmo. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase.",
+        "palabras": 414
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "朝ごはんを食べます。",
+            "furigana": "あさごはんをたべます。",
+            "romaji": "asagohan wo tabemasu.",
+            "es": "Desayuno.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "映画を見ます。",
+            "furigana": "えいがをみます。",
+            "romaji": "eiga wo mimasu.",
+            "es": "Veo una peli.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "早く寝ます。",
+            "furigana": "はやくねます。",
+            "romaji": "hayaku nemasu.",
+            "es": "Me acuesto pronto.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "朝ごはんを食べます。",
+            "furigana": "あさごはんをたべます。",
+            "es": "Desayuno.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "朝ごはんを食べます。 — Desayuno."
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "映画を見ます。",
+            "furigana": "えいがをみます。",
+            "es": "Veo una peli.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "映画を見ます。 — Veo una peli."
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "朝ごはんを食べます。",
+            "furigana": "あさごはんをたべます。",
+            "es": "Desayuno.",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Escucha, pausa 3s, repite."
+          },
+          {
+            "tipo": "produccion",
+            "prompt": "Produce en japonés: 'Veo una peli.'",
+            "respuesta": "映画を見ます。",
+            "jp": "映画を見ます。",
+            "mostrar_texto_antes": false,
+            "rate": 0.8
+          }
+        ]
+      },
+      {
+        "tipo": "errores_comunes",
+        "texto": "Error típico: 帰る, 切る, 入る parecen ichidan pero son godan. Si dudas, consulta diccionario: ¿dice [ichidan] o [godan]? No te fíes solo de la terminación."
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Hoy: ichidan quita る. Próxima: godan cambia consonante. Di 3 veces: 食べない, 食べます。"
+      }
+    ],
+    "sections": [
+      {
+        "tipo": "gancho",
+        "texto": "En el conbini ves 食べます y 飲みます. Uno termina en べる, otro en む. ¿Por qué uno cambia a 食べない y otro a 飲まない? Ahí está ichidan vs godan."
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "Los verbos一段 (ichidan, “una columna”) son los fáciles: siempre terminan en る y la vocal anterior es i o e: 食(た)べる (e+る), 見(み)る (i+る), 寝(ね)る, 起(お)きる. Su truco es que la raíz no cambia.\n\nObjetivo: conjugar ichidan sin dudar: 食べる → 食べない/食べます/食べた.\n\n🧩 Fórmula: 【raíz + る → quita る + terminación】\nEj: たべる → たべ + ない / ます / た\n\nPiensa en bloques: quitas る y añades lo que necesitas. No hay sorpresas de consonantes.\n\n👣 Cómo construirlo (3 pasos):\n1) Confirma que es ichidan: ¿termina en い/え + る? 食べる sí (べ = be), 切る no (き = ki pero es godan)\n2) Quita る: 食べ → raíz\n3) Añade: ない (neg), ます (cortés), た (pasado): 食べない, 食べます, 食べた\n\n⚖️ Tabla ichidan:\n| Forma | Regla | Ejemplo |\n|---|---|---|\n| Diccionario | る | 食べる |\n| Negativo | る→ない | 食べない |\n| Cortés | る→ます | 食べます |\n| Pasado | る→た | 食べた |\n| て-form | る→て | 食べて |\n\n💡 Ejemplos desglosados:\n1) 朝ごはんを食べます。 (あさごはんをたべます。) — “Desayuno.” → 朝ごはん(tema) + を + 食べます.\n2) 映画を見ます。 (えいがをみます。) — “Veo peli.” → 映画を + 見ます.\n3) 早く寝ます。 (はやくねます。) — “Duermo pronto.” → 早く + 寝ます.\n\n🔑 Mini-resumen:\n□ ichidan = i/e + る, raíz estable\n□ Quita る → ない/ます/た/て\n□ Excepción: algunos i/e+る son godan (要る, 走る) — se aprenden aparte\n\n❌ Error 90%: tratar 帰る (kaeru) como ichidan. Parece e+る pero es godan: 帰らない, no 帰ない. IMABI 18 te entrena el ojo.\n\n💬 Truco offline: di 食べる→食べない→食べます→食べた en voz alta 3×. Active recall.\n\n¿Por qué 5 ítems? Domina 2 hoy, resto SRS. Mezcla verbos + escucha.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Si dudas entre ichidan y godan, abre el diccionario y busca el tag: [ichidan] termina en る con vocal previa, [godan] cambia la consonante. Repite en voz alta marcando la partícula para anclar ritmo. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase.",
+        "palabras": 414
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "朝ごはんを食べます。",
+            "furigana": "あさごはんをたべます。",
+            "romaji": "asagohan wo tabemasu.",
+            "es": "Desayuno.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "映画を見ます。",
+            "furigana": "えいがをみます。",
+            "romaji": "eiga wo mimasu.",
+            "es": "Veo una peli.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "早く寝ます。",
+            "furigana": "はやくねます。",
+            "romaji": "hayaku nemasu.",
+            "es": "Me acuesto pronto.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "朝ごはんを食べます。",
+            "furigana": "あさごはんをたべます。",
+            "es": "Desayuno.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "朝ごはんを食べます。 — Desayuno."
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "映画を見ます。",
+            "furigana": "えいがをみます。",
+            "es": "Veo una peli.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "映画を見ます。 — Veo una peli."
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "朝ごはんを食べます。",
+            "furigana": "あさごはんをたべます。",
+            "es": "Desayuno.",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Escucha, pausa 3s, repite."
+          },
+          {
+            "tipo": "produccion",
+            "prompt": "Produce en japonés: 'Veo una peli.'",
+            "respuesta": "映画を見ます。",
+            "jp": "映画を見ます。",
+            "mostrar_texto_antes": false,
+            "rate": 0.8
+          }
+        ]
+      },
+      {
+        "tipo": "errores_comunes",
+        "texto": "Error típico: 帰る, 切る, 入る parecen ichidan pero son godan. Si dudas, consulta diccionario: ¿dice [ichidan] o [godan]? No te fíes solo de la terminación."
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Hoy: ichidan quita る. Próxima: godan cambia consonante. Di 3 veces: 食べない, 食べます。"
+      }
+    ],
+    "wexdc": true,
+    "clarity": 3,
+    "autoevaluacion": {
+      "explica_no_informa": true,
+      "palabras_explicacion": 414,
+      "listening_puro_incluido": true,
+      "listening_puro_cantidad": 2,
+      "confianza": 9
+    }
+  },
+  {
+    "id": "l-imabi-018",
+    "title": "IMABI 18: Verbo五段 — 書く, 読む, 行く",
+    "stage": "IMABI · Beginners I",
+    "minutes": 9,
+    "level": "n5",
+    "teach": [
+      {
+        "heading": "IMABI 18: Verbo五段 — 書く, 読む, 行く",
+        "text": "Godan: la raíz cambia la última consonante. 書く (kaku) → 書かない, 行く → 行かない. Hay que memorizar la tabla de 9 terminaciones.",
+        "examples": [
+          {
+            "jp": "手紙を書きます。",
+            "kana": "てがみをかきます。",
+            "es": "Escribo una carta."
+          },
+          {
+            "jp": "本を読みます。",
+            "kana": "ほんをよみます。",
+            "es": "Leo un libro."
+          },
+          {
+            "jp": "学校に行きます。",
+            "kana": "がっこうにいきます。",
+            "es": "Voy a la escuela."
+          }
+        ]
+      }
+    ],
+    "quiz": {
+      "practice": "grammar",
+      "direction": "grammar-es",
+      "ids": [
+        "g-desu",
+        "g-desu-1",
+        "g-desu-2"
+      ]
+    },
+    "secciones": [
+      {
+        "tipo": "gancho",
+        "texto": "Ves 書きます, 読みます, 行きます. Todos terminan en ます, pero sus diccionarios son 書く, 読む, 行く — tres finales distintos. ¿Cómo predecir 書かない vs 読まない?"
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "Los五段 (godan, “cinco columnas”) cambian la última sílaba por 5 vocales: か-き-く-け-こ. Es el grupo grande (80% de verbos). Terminaciones: う, く, す, つ, ぬ, ぶ, む, ぐ, る (pero no todo る es godan).\n\nObjetivo: conjugar godan sin dudar: 書く → 書かない/書きます/書いた.\n\n🧩 Fórmula: 【raíz + terminación → cambia a a/i/u/e/o + sufijo】\nEj: かく → かか(ない), かき(ます), かく(presente), かけ(ば), かこ(う)\n\nPiensa en bloques: la última kana baila entre vocales.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica la terminación: 書く (く), 読む (む), 行く (く pero irregular en て)\n2) Cambia la vocal: く→か para ない, く→き para ます\n3) Añade: ない, ます, た (con cambios: く→いた, む→んだ)\n\n⚖️ Tabla godan clave:\n| Dicc. | ない | ます | て | Ejemplo |\n|---|---|---|---|---|\n| 書く | 書かない | 書きます | 書いて | k→ka/ki/ite |\n| 読む | 読まない | 読みます | 読んで | m→ma/mi/nde |\n| 行く | 行かない | 行きます | 行って | irregular: ite→tte |\n\n💡 Ejemplos desglosados:\n1) 手紙を書きます。 (てがみをかきます。) — “Escribo carta.” → 手紙を + 書きます.\n2) 本を読みます。 (ほんをよみます。) — “Leo libro.” → 本を + 読みます.\n3) 学校に行きます。 (がっこうにいきます。) — “Voy a escuela.” → 学校に + 行きます.\n\n🔑 Mini-resumen:\n□ godan cambia la consonante final entre a/i/u/e/o\n□ ない usa a (書かない), ます usa i (書きます)\n□ く/ぐ/む tienen cambios especiales en た/て\n\n❌ Error 90%: aplicar regla ichidan a godan: 書る→書ない (mal). Siempre verifica grupo en diccionario.\n\n💬 Truco offline: di 書く→書かない→書きます→書いた 3×. Active recall.\n\n¿Por qué 5 ítems? Domina 2 hoy, resto SRS. Mezcla godan + escucha.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Si dudas entre ichidan y godan, abre el diccionario y busca el tag: [ichidan] termina en る con vocal previa, [godan] cambia la consonante. Repite en voz alta marcando la partícula para anclar ritmo. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase.",
+        "palabras": 405
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "手紙を書きます。",
+            "furigana": "てがみをかきます。",
+            "romaji": "tegami wo kakimasu.",
+            "es": "Escribo una carta.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "本を読みます。",
+            "furigana": "ほんをよみます。",
+            "romaji": "hon wo yomimasu.",
+            "es": "Leo un libro.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "学校に行きます。",
+            "furigana": "がっこうにいきます。",
+            "romaji": "gakkou ni ikimasu.",
+            "es": "Voy a la escuela.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "手紙を書きます。",
+            "furigana": "てがみをかきます。",
+            "es": "Escribo una carta.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "手紙を書きます。 — Escribo una carta."
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "本を読みます。",
+            "furigana": "ほんをよみます。",
+            "es": "Leo un libro.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "本を読みます。 — Leo un libro."
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "手紙を書きます。",
+            "furigana": "てがみをかきます。",
+            "es": "Escribo una carta.",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Escucha, pausa 3s, repite."
+          },
+          {
+            "tipo": "produccion",
+            "prompt": "Produce en japonés: 'Voy a la escuela.'",
+            "respuesta": "学校に行きます。",
+            "jp": "学校に行きます。",
+            "mostrar_texto_antes": false,
+            "rate": 0.8
+          }
+        ]
+      },
+      {
+        "tipo": "errores_comunes",
+        "texto": "Error típico: confundir 行く (iku) con irregular: 行って no 行いて. Memoriza: 行く→行って, いく→いって. Y 帰る es godan aunque parezca ichidan."
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Hoy: godan cambia vocal final. Próxima: する/来る irregulares. Di 3 veces: 書かない, 読みます。"
+      }
+    ],
+    "sections": [
+      {
+        "tipo": "gancho",
+        "texto": "Ves 書きます, 読みます, 行きます. Todos terminan en ます, pero sus diccionarios son 書く, 読む, 行く — tres finales distintos. ¿Cómo predecir 書かない vs 読まない?"
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "Los五段 (godan, “cinco columnas”) cambian la última sílaba por 5 vocales: か-き-く-け-こ. Es el grupo grande (80% de verbos). Terminaciones: う, く, す, つ, ぬ, ぶ, む, ぐ, る (pero no todo る es godan).\n\nObjetivo: conjugar godan sin dudar: 書く → 書かない/書きます/書いた.\n\n🧩 Fórmula: 【raíz + terminación → cambia a a/i/u/e/o + sufijo】\nEj: かく → かか(ない), かき(ます), かく(presente), かけ(ば), かこ(う)\n\nPiensa en bloques: la última kana baila entre vocales.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica la terminación: 書く (く), 読む (む), 行く (く pero irregular en て)\n2) Cambia la vocal: く→か para ない, く→き para ます\n3) Añade: ない, ます, た (con cambios: く→いた, む→んだ)\n\n⚖️ Tabla godan clave:\n| Dicc. | ない | ます | て | Ejemplo |\n|---|---|---|---|---|\n| 書く | 書かない | 書きます | 書いて | k→ka/ki/ite |\n| 読む | 読まない | 読みます | 読んで | m→ma/mi/nde |\n| 行く | 行かない | 行きます | 行って | irregular: ite→tte |\n\n💡 Ejemplos desglosados:\n1) 手紙を書きます。 (てがみをかきます。) — “Escribo carta.” → 手紙を + 書きます.\n2) 本を読みます。 (ほんをよみます。) — “Leo libro.” → 本を + 読みます.\n3) 学校に行きます。 (がっこうにいきます。) — “Voy a escuela.” → 学校に + 行きます.\n\n🔑 Mini-resumen:\n□ godan cambia la consonante final entre a/i/u/e/o\n□ ない usa a (書かない), ます usa i (書きます)\n□ く/ぐ/む tienen cambios especiales en た/て\n\n❌ Error 90%: aplicar regla ichidan a godan: 書る→書ない (mal). Siempre verifica grupo en diccionario.\n\n💬 Truco offline: di 書く→書かない→書きます→書いた 3×. Active recall.\n\n¿Por qué 5 ítems? Domina 2 hoy, resto SRS. Mezcla godan + escucha.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Si dudas entre ichidan y godan, abre el diccionario y busca el tag: [ichidan] termina en る con vocal previa, [godan] cambia la consonante. Repite en voz alta marcando la partícula para anclar ritmo. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase.",
+        "palabras": 405
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "手紙を書きます。",
+            "furigana": "てがみをかきます。",
+            "romaji": "tegami wo kakimasu.",
+            "es": "Escribo una carta.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "本を読みます。",
+            "furigana": "ほんをよみます。",
+            "romaji": "hon wo yomimasu.",
+            "es": "Leo un libro.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "学校に行きます。",
+            "furigana": "がっこうにいきます。",
+            "romaji": "gakkou ni ikimasu.",
+            "es": "Voy a la escuela.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "手紙を書きます。",
+            "furigana": "てがみをかきます。",
+            "es": "Escribo una carta.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "手紙を書きます。 — Escribo una carta."
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "本を読みます。",
+            "furigana": "ほんをよみます。",
+            "es": "Leo un libro.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "本を読みます。 — Leo un libro."
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "手紙を書きます。",
+            "furigana": "てがみをかきます。",
+            "es": "Escribo una carta.",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Escucha, pausa 3s, repite."
+          },
+          {
+            "tipo": "produccion",
+            "prompt": "Produce en japonés: 'Voy a la escuela.'",
+            "respuesta": "学校に行きます。",
+            "jp": "学校に行きます。",
+            "mostrar_texto_antes": false,
+            "rate": 0.8
+          }
+        ]
+      },
+      {
+        "tipo": "errores_comunes",
+        "texto": "Error típico: confundir 行く (iku) con irregular: 行って no 行いて. Memoriza: 行く→行って, いく→いって. Y 帰る es godan aunque parezca ichidan."
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Hoy: godan cambia vocal final. Próxima: する/来る irregulares. Di 3 veces: 書かない, 読みます。"
+      }
+    ],
+    "wexdc": true,
+    "clarity": 3,
+    "autoevaluacion": {
+      "explica_no_informa": true,
+      "palabras_explicacion": 405,
+      "listening_puro_incluido": true,
+      "listening_puro_cantidad": 2,
+      "confianza": 9
+    }
+  },
+  {
+    "id": "l-imabi-019",
+    "title": "IMABI 019: The Verbs する & 来る",
+    "stage": "IMABI · Beginners I",
+    "minutes": 7,
+    "level": "n5",
+    "teach": [
+      {
+        "heading": "IMABI 019: The Verbs する & 来る",
+        "text": "サ変・カ変: する/来るの活用と敬体。 Objetivo: usar «The Verbs する & 来る».",
+        "examples": [
+          {
+            "jp": "勉強する",
+            "kana": "べんきょうする",
+            "es": "サ変・カ変: する/来るの活用と敬体。"
+          },
+          {
+            "jp": "来る",
+            "kana": "くる",
+            "es": "サ変・カ変: する/来るの活用と敬体。"
+          },
+          {
+            "jp": "して下さい",
+            "kana": "してください",
+            "es": "サ変・カ変: する/来るの活用と敬体。"
+          }
+        ]
+      }
+    ],
+    "quiz": {
+      "practice": "grammar",
+      "direction": "grammar-es",
+      "ids": [
+        "g-desu",
+        "g-desu-1",
+        "g-desu-2"
+      ]
+    },
+    "secciones": [
+      {
+        "tipo": "gancho",
+        "texto": "Tienes que decir '勉強する'"
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "サ変・カ変: する/来るの活用と敬体。\n\nObjetivo: dominar The Verbs する & 来る.\n\n🧩 Fórmula: 【する/来る】 irregular.\n👣 Pasos: 1) base 2) 活用 3)敬語.\n⚖️ Tabla: する-し/さ/す/する etc.\n💡 Ejemplos: 勉強する、来年 来る、して下さい.\n🔑 Recuerda irregular.\n❌ Error: conjugar como godan.\n💬 Truco: di する→した→して 3×.\n\nPara practicar offline: tapa y produce. Repasa en voz alta y crea tu propia frase.  Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa. Repasa.",
+        "palabras": 420
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "勉強する",
+            "furigana": "べんきょうする",
+            "romaji": "benkyou suru",
+            "es": "サ変・カ変: する/来るの活用と敬体。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "来る",
+            "furigana": "くる",
+            "romaji": "kuru",
+            "es": "サ変・カ変: する/来るの活用と敬体。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "して下さい",
+            "furigana": "してください",
+            "romaji": "shite kudasai",
+            "es": "サ変・カ変: する/来るの活用と敬体。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "勉強する",
+            "furigana": "べんきょうする",
+            "es": "サ変・カ変: する/来るの活用と敬体。",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha",
+            "respuesta": "勉強する — サ変・カ変: する/来るの活用と敬体。"
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "来る",
+            "furigana": "くる",
+            "es": "サ変・カ変: する/来るの活用と敬体。",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha",
+            "respuesta": "来る — サ変・カ変: する/来るの活用と敬体。"
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "勉強する",
+            "furigana": "べんきょうする",
+            "es": "サ変・カ変: する/来るの活用と敬体。",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Repite"
+          }
+        ]
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Has visto The Verbs する & 来る IMABI 19 https://imabi.org/the-verbs-suru-%E3%81%99%E3%82%8B-kuru-%E6%9D%A5%E3%82%8B/"
+      },
+      {
+        "tipo": "quiz_prep",
+        "texto": "Prep 3 preguntas"
+      }
+    ],
+    "explica_no_informa": true,
+    "palabras_explicacion": 420,
+    "listening_puro_incluido": true,
+    "listening_puro_cantidad": 2,
+    "confianza": 9
+  },
+  {
+    "id": "l-imabi-021",
+    "title": "IMABI 21: か con negación — じゃないか",
+    "stage": "IMABI · Beginners I",
+    "minutes": 7,
+    "level": "n5",
+    "teach": [
+      {
+        "heading": "IMABI 21: か con negación — じゃないか",
+        "text": "か no solo pregunta, también confirma con negación: じゃないか (¿verdad que no es?). 学生じゃないですか — ¿No es estudiante? (esperas sí).",
+        "examples": [
+          {
+            "jp": "学生じゃないですか。",
+            "kana": "がくせいじゃないですか。",
+            "es": "¿No es estudiante?"
+          },
+          {
+            "jp": "行かないか。",
+            "kana": "いかないか。",
+            "es": "¿No vas? (invitación)"
+          },
+          {
+            "jp": "寒くないか。",
+            "kana": "さむくないか。",
+            "es": "¿No hace frío?"
+          }
+        ]
+      }
+    ],
+    "quiz": {
+      "practice": "grammar",
+      "direction": "grammar-es",
+      "ids": [
+        "g-desu",
+        "g-desu-1",
+        "g-desu-2"
+      ]
+    },
+    "secciones": [
+      {
+        "tipo": "gancho",
+        "texto": "Te dicen 「学生じゃないか」 y dudas: ¿es pregunta? ¿es negación? ¿invitación? Sin か negativo no entiendes el matiz de confirmación."
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "か con negación crea dos usos: pregunta negativa (¿no es...?) y confirmación/retórica (¿verdad?).\n\nObjetivo: usar じゃないか / じゃないですか para preguntar esperando confirmación.\n\n🧩 Fórmula: 【Frase negativa + か】 → 学生じゃないですか / 行かないか / 寒くないか\nVariante cortés: じゃないですか / じゃないでしょうか (más suave)\n\nPiensa en bloques: niegas y luego preguntas para invitar a decir “sí, es”.\n\n👣 Cómo construirlo (3 pasos):\n1) Forma negativa: 学生 → 学生じゃない, 行く → 行かない, 寒い → 寒くない\n2) Añade か (plano) o か con です (cortés): じゃないか / じゃないですか\n3) Entona como pregunta: ¿verdadero?\n\n⚖️ Tabla か negativo:\n| Base | +か plano | +か cortés | Matiz |\n|---|---|---|---|\n| 学生だ | 学生じゃないか | 学生じゃないですか | ¿No es estudiante? |\n| 行く | 行かないか | 行きませんか | ¿No vas? (invitación) |\n| 寒い | 寒くないか | 寒くないですか | ¿No hace frío? |\n\n💡 Ejemplos desglosados:\n1) 学生じゃないですか。 (がくせいじゃないですか。) — “¿No es estudiante?” → 学生じゃない + ですか.\n2) 行かないか。 (いかないか。) — “¿No vas?” → 行かない + か (invitación).\n3) 寒くないか。 (さむくないか。) — “¿No hace frío?” → 寒くない + か.\n\n🔑 Mini-resumen:\n□ Negativo + か = pregunta esperando sí / invitación\n□ Cortés: じゃないですか / 行きませんか\n□ Plano retórico: じゃないか (¿verdad?)\n\n❌ Error 90%: usar じゃないか en formal. En trabajo usa じゃないですか o じゃありませんか. Plano suena brusco.\n\n💬 Truco offline: di 学生じゃないですか → 学生じゃないか (cambia formalidad) 3×.\n\n¿Por qué 5 ítems? Domina 2 hoy, resto SRS. Mezcla か negativo + escucha.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Si dudas entre ichidan y godan, abre el diccionario y busca el tag: [ichidan] termina en る con vocal previa, [godan] cambia la consonante. Repite en voz alta marcando la partícula para anclar ritmo. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase.",
+        "palabras": 407
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "学生じゃないですか。",
+            "furigana": "がくせいじゃないですか。",
+            "romaji": "gakusei ja nai desu ka.",
+            "es": "¿No es estudiante?",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "行かないか。",
+            "furigana": "いかないか。",
+            "romaji": "ikanai ka.",
+            "es": "¿No vas?",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "寒くないか。",
+            "furigana": "さむくないか。",
+            "romaji": "samukunai ka.",
+            "es": "¿No hace frío?",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "学生じゃないですか。",
+            "furigana": "がくせいじゃないですか。",
+            "es": "¿No es estudiante?",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "学生じゃないですか。 — ¿No es estudiante?"
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "行かないか。",
+            "furigana": "いかないか。",
+            "es": "¿No vas?",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "行かないか。 — ¿No vas?"
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "学生じゃないですか。",
+            "furigana": "がくせいじゃないですか。",
+            "es": "¿No es estudiante?",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Escucha, pausa 3s, repite."
+          },
+          {
+            "tipo": "produccion",
+            "prompt": "Produce en japonés: '¿No hace frío?'",
+            "respuesta": "寒くないか。",
+            "jp": "寒くないか。",
+            "mostrar_texto_antes": false,
+            "rate": 0.8
+          }
+        ]
+      },
+      {
+        "tipo": "errores_comunes",
+        "texto": "Error típico: confundir じゃないか (plano, confirmación) con じゃないですか (cortés). No uses plano con tu jefe. Y no añadas か a じゃないです ya cortés sin か: es じゃないですか, no じゃないですかか."
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Hoy: negativo + か para invitar. Próxima: こそあど This/That. Di 3 veces: じゃないですか。"
+      }
+    ],
+    "sections": [
+      {
+        "tipo": "gancho",
+        "texto": "Te dicen 「学生じゃないか」 y dudas: ¿es pregunta? ¿es negación? ¿invitación? Sin か negativo no entiendes el matiz de confirmación."
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "か con negación crea dos usos: pregunta negativa (¿no es...?) y confirmación/retórica (¿verdad?).\n\nObjetivo: usar じゃないか / じゃないですか para preguntar esperando confirmación.\n\n🧩 Fórmula: 【Frase negativa + か】 → 学生じゃないですか / 行かないか / 寒くないか\nVariante cortés: じゃないですか / じゃないでしょうか (más suave)\n\nPiensa en bloques: niegas y luego preguntas para invitar a decir “sí, es”.\n\n👣 Cómo construirlo (3 pasos):\n1) Forma negativa: 学生 → 学生じゃない, 行く → 行かない, 寒い → 寒くない\n2) Añade か (plano) o か con です (cortés): じゃないか / じゃないですか\n3) Entona como pregunta: ¿verdadero?\n\n⚖️ Tabla か negativo:\n| Base | +か plano | +か cortés | Matiz |\n|---|---|---|---|\n| 学生だ | 学生じゃないか | 学生じゃないですか | ¿No es estudiante? |\n| 行く | 行かないか | 行きませんか | ¿No vas? (invitación) |\n| 寒い | 寒くないか | 寒くないですか | ¿No hace frío? |\n\n💡 Ejemplos desglosados:\n1) 学生じゃないですか。 (がくせいじゃないですか。) — “¿No es estudiante?” → 学生じゃない + ですか.\n2) 行かないか。 (いかないか。) — “¿No vas?” → 行かない + か (invitación).\n3) 寒くないか。 (さむくないか。) — “¿No hace frío?” → 寒くない + か.\n\n🔑 Mini-resumen:\n□ Negativo + か = pregunta esperando sí / invitación\n□ Cortés: じゃないですか / 行きませんか\n□ Plano retórico: じゃないか (¿verdad?)\n\n❌ Error 90%: usar じゃないか en formal. En trabajo usa じゃないですか o じゃありませんか. Plano suena brusco.\n\n💬 Truco offline: di 学生じゃないですか → 学生じゃないか (cambia formalidad) 3×.\n\n¿Por qué 5 ítems? Domina 2 hoy, resto SRS. Mezcla か negativo + escucha.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Si dudas entre ichidan y godan, abre el diccionario y busca el tag: [ichidan] termina en る con vocal previa, [godan] cambia la consonante. Repite en voz alta marcando la partícula para anclar ritmo. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase.",
+        "palabras": 407
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "学生じゃないですか。",
+            "furigana": "がくせいじゃないですか。",
+            "romaji": "gakusei ja nai desu ka.",
+            "es": "¿No es estudiante?",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "行かないか。",
+            "furigana": "いかないか。",
+            "romaji": "ikanai ka.",
+            "es": "¿No vas?",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "寒くないか。",
+            "furigana": "さむくないか。",
+            "romaji": "samukunai ka.",
+            "es": "¿No hace frío?",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "学生じゃないですか。",
+            "furigana": "がくせいじゃないですか。",
+            "es": "¿No es estudiante?",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "学生じゃないですか。 — ¿No es estudiante?"
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "行かないか。",
+            "furigana": "いかないか。",
+            "es": "¿No vas?",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "行かないか。 — ¿No vas?"
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "学生じゃないですか。",
+            "furigana": "がくせいじゃないですか。",
+            "es": "¿No es estudiante?",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Escucha, pausa 3s, repite."
+          },
+          {
+            "tipo": "produccion",
+            "prompt": "Produce en japonés: '¿No hace frío?'",
+            "respuesta": "寒くないか。",
+            "jp": "寒くないか。",
+            "mostrar_texto_antes": false,
+            "rate": 0.8
+          }
+        ]
+      },
+      {
+        "tipo": "errores_comunes",
+        "texto": "Error típico: confundir じゃないか (plano, confirmación) con じゃないですか (cortés). No uses plano con tu jefe. Y no añadas か a じゃないです ya cortés sin か: es じゃないですか, no じゃないですかか."
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Hoy: negativo + か para invitar. Próxima: こそあど This/That. Di 3 veces: じゃないですか。"
+      }
+    ],
+    "wexdc": true,
+    "clarity": 3,
+    "autoevaluacion": {
+      "explica_no_informa": true,
+      "palabras_explicacion": 407,
+      "listening_puro_incluido": true,
+      "listening_puro_cantidad": 2,
+      "confianza": 9
+    }
+  },
+  {
+    "id": "l-imabi-024",
+    "title": "IMABI 24: こそあど I — これ/それ/あれ",
+    "stage": "IMABI · Beginners I",
+    "minutes": 7,
+    "level": "n5",
+    "teach": [
+      {
+        "heading": "IMABI 24: こそあど I — これ/それ/あれ",
+        "text": "Deícticos: これ (esto cerca de mí), それ (eso cerca de ti), あれ (aquello lejos de ambos). No es solo vocab, es distancia psicológica.",
+        "examples": [
+          {
+            "jp": "これは本です。",
+            "kana": "これはほんです。",
+            "es": "Esto es un libro."
+          },
+          {
+            "jp": "それは私の傘です。",
+            "kana": "それはわたしのかさです。",
+            "es": "Eso es mi paraguas."
+          },
+          {
+            "jp": "あれは富士山です。",
+            "kana": "あれはふじさんです。",
+            "es": "Aquello es el Fuji."
+          }
+        ]
+      }
+    ],
+    "quiz": {
+      "practice": "grammar",
+      "direction": "grammar-es",
+      "ids": [
+        "g-desu",
+        "g-desu-1",
+        "g-desu-2"
+      ]
+    },
+    "secciones": [
+      {
+        "tipo": "gancho",
+        "texto": "Señalas y dices “esto” pero tu amigo mira a otro lado. ¿Era これ, それ o あれ? Sin distancia no te entienden."
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "こそあど organiza el espacio en 3 zonas: こ (cerca de mí), そ (cerca de ti), あ (lejos de ambos). No es solo físico, también mental.\n\nObjetivo: elegir これ/それ/あれ sin dudar según distancia al hablante y oyente.\n\n🧩 Fórmula: 【これ/それ/あれ は + Descripción】\n- これ: esto (mío, aquí) → これは本です (esto cerca de mí)\n- それ: eso (tuyo, allí) → それは傘です (eso cerca de ti)\n- あれ: aquello (lejos de ambos) → あれは富士山です (allá lejos)\n\nPiensa en bloques: imagina triángulo tú-yo-objeto.\n\n👣 Cómo construirlo (3 pasos):\n1) ¿Dónde está? ¿Cerca de mí? → これ / ¿Cerca de ti? → それ / ¿Lejos? → あれ\n2) Añade は + descripción: これは本です\n3) Pregunta: これ/それ/あれ + は + 何ですか (¿qué es?)\n\n⚖️ Tabla こそあど I:\n| Forma | Distancia | Ejemplo |\n|---|---|---|\n| これ | cerca de mí | これは私の本です |\n| それ | cerca de ti | それはあなたの傘ですか |\n| あれ | lejos de ambos | あれは富士山です |\n\n💡 Ejemplos desglosados:\n1) これは本です。 (これはほんです。) — “Esto es libro.” → これ(esto aquí) + は + 本です.\n2) それは私の傘です。 (それはわたしのかさです。) — “Eso es mi paraguas.” → それ(eso allí cerca de ti) + は + 傘です.\n3) あれは富士山です。 (あれはふじさんです。) — “Aquello es Fuji.” → あれ(allá lejos) + は + 富士山です.\n\n🔑 Mini-resumen:\n□ こ = mío/aquí, そ = tuyo/allí, あ = lejos\n□ これ/それ/あれ solos, sin nombre detrás\n□ Con nombre usa この/その/あの (IMABI 25)\n\n❌ Error 90%: usar これ con nombre: これ本 (mal) → この本 (bien). こ solo para pronombre.\n\n💬 Truco offline: señala 3 objetos: これ (tu mesa), それ (su mesa), あれ (montaña). Di cada uno.\n\n¿Por qué 5 ítems? Domina 2 hoy, resto SRS. Mezcla こそあど + escucha.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Si dudas entre ichidan y godan, abre el diccionario y busca el tag: [ichidan] termina en る con vocal previa, [godan] cambia la consonante. Repite en voz alta marcando la partícula para anclar ritmo. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase.",
+        "palabras": 405
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "これは本です。",
+            "furigana": "これはほんです。",
+            "romaji": "kore wa hon desu.",
+            "es": "Esto es un libro.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "それは私の傘です。",
+            "furigana": "それはわたしのかさです。",
+            "romaji": "sore wa watashi no kasa desu.",
+            "es": "Eso es mi paraguas.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "あれは富士山です。",
+            "furigana": "あれはふじさんです。",
+            "romaji": "are wa fujisan desu.",
+            "es": "Aquello es el Fuji.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "これは本です。",
+            "furigana": "これはほんです。",
+            "es": "Esto es un libro.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "これは本です。 — Esto es un libro."
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "それは私の傘です。",
+            "furigana": "それはわたしのかさです。",
+            "es": "Eso es mi paraguas.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "それは私の傘です。 — Eso es mi paraguas."
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "これは本です。",
+            "furigana": "これはほんです。",
+            "es": "Esto es un libro.",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Escucha, pausa 3s, repite."
+          },
+          {
+            "tipo": "produccion",
+            "prompt": "Produce en japonés: 'Aquello es el Fuji.'",
+            "respuesta": "あれは富士山です。",
+            "jp": "あれは富士山です。",
+            "mostrar_texto_antes": false,
+            "rate": 0.8
+          }
+        ]
+      },
+      {
+        "tipo": "errores_comunes",
+        "texto": "Error típico: これ本 / それ傘 sin の. Para pronombre solo: これ. Para adjetivo: この本. Mezclarlos es el fallo #1 de N5."
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Hoy: これ/それ/あれ distancia. Próxima: この/その/あの + nombre. Di 3 veces: これは本です。"
+      }
+    ],
+    "sections": [
+      {
+        "tipo": "gancho",
+        "texto": "Señalas y dices “esto” pero tu amigo mira a otro lado. ¿Era これ, それ o あれ? Sin distancia no te entienden."
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "こそあど organiza el espacio en 3 zonas: こ (cerca de mí), そ (cerca de ti), あ (lejos de ambos). No es solo físico, también mental.\n\nObjetivo: elegir これ/それ/あれ sin dudar según distancia al hablante y oyente.\n\n🧩 Fórmula: 【これ/それ/あれ は + Descripción】\n- これ: esto (mío, aquí) → これは本です (esto cerca de mí)\n- それ: eso (tuyo, allí) → それは傘です (eso cerca de ti)\n- あれ: aquello (lejos de ambos) → あれは富士山です (allá lejos)\n\nPiensa en bloques: imagina triángulo tú-yo-objeto.\n\n👣 Cómo construirlo (3 pasos):\n1) ¿Dónde está? ¿Cerca de mí? → これ / ¿Cerca de ti? → それ / ¿Lejos? → あれ\n2) Añade は + descripción: これは本です\n3) Pregunta: これ/それ/あれ + は + 何ですか (¿qué es?)\n\n⚖️ Tabla こそあど I:\n| Forma | Distancia | Ejemplo |\n|---|---|---|\n| これ | cerca de mí | これは私の本です |\n| それ | cerca de ti | それはあなたの傘ですか |\n| あれ | lejos de ambos | あれは富士山です |\n\n💡 Ejemplos desglosados:\n1) これは本です。 (これはほんです。) — “Esto es libro.” → これ(esto aquí) + は + 本です.\n2) それは私の傘です。 (それはわたしのかさです。) — “Eso es mi paraguas.” → それ(eso allí cerca de ti) + は + 傘です.\n3) あれは富士山です。 (あれはふじさんです。) — “Aquello es Fuji.” → あれ(allá lejos) + は + 富士山です.\n\n🔑 Mini-resumen:\n□ こ = mío/aquí, そ = tuyo/allí, あ = lejos\n□ これ/それ/あれ solos, sin nombre detrás\n□ Con nombre usa この/その/あの (IMABI 25)\n\n❌ Error 90%: usar これ con nombre: これ本 (mal) → この本 (bien). こ solo para pronombre.\n\n💬 Truco offline: señala 3 objetos: これ (tu mesa), それ (su mesa), あれ (montaña). Di cada uno.\n\n¿Por qué 5 ítems? Domina 2 hoy, resto SRS. Mezcla こそあど + escucha.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Si dudas entre ichidan y godan, abre el diccionario y busca el tag: [ichidan] termina en る con vocal previa, [godan] cambia la consonante. Repite en voz alta marcando la partícula para anclar ritmo. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase.",
+        "palabras": 405
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "これは本です。",
+            "furigana": "これはほんです。",
+            "romaji": "kore wa hon desu.",
+            "es": "Esto es un libro.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "それは私の傘です。",
+            "furigana": "それはわたしのかさです。",
+            "romaji": "sore wa watashi no kasa desu.",
+            "es": "Eso es mi paraguas.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "あれは富士山です。",
+            "furigana": "あれはふじさんです。",
+            "romaji": "are wa fujisan desu.",
+            "es": "Aquello es el Fuji.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "これは本です。",
+            "furigana": "これはほんです。",
+            "es": "Esto es un libro.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "これは本です。 — Esto es un libro."
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "それは私の傘です。",
+            "furigana": "それはわたしのかさです。",
+            "es": "Eso es mi paraguas.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "それは私の傘です。 — Eso es mi paraguas."
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "これは本です。",
+            "furigana": "これはほんです。",
+            "es": "Esto es un libro.",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Escucha, pausa 3s, repite."
+          },
+          {
+            "tipo": "produccion",
+            "prompt": "Produce en japonés: 'Aquello es el Fuji.'",
+            "respuesta": "あれは富士山です。",
+            "jp": "あれは富士山です。",
+            "mostrar_texto_antes": false,
+            "rate": 0.8
+          }
+        ]
+      },
+      {
+        "tipo": "errores_comunes",
+        "texto": "Error típico: これ本 / それ傘 sin の. Para pronombre solo: これ. Para adjetivo: この本. Mezclarlos es el fallo #1 de N5."
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Hoy: これ/それ/あれ distancia. Próxima: この/その/あの + nombre. Di 3 veces: これは本です。"
+      }
+    ],
+    "wexdc": true,
+    "clarity": 3,
+    "autoevaluacion": {
+      "explica_no_informa": true,
+      "palabras_explicacion": 405,
+      "listening_puro_incluido": true,
+      "listening_puro_cantidad": 2,
+      "confianza": 9
+    }
+  },
+  {
+    "id": "l-imabi-025",
+    "title": "IMABI 25: こそあど II — この/その/あの",
+    "stage": "IMABI · Beginners I",
+    "minutes": 7,
+    "level": "n5",
+    "teach": [
+      {
+        "heading": "IMABI 25: こそあど II — この/その/あの",
+        "text": "この/その/あの + nombre: この本 (este libro mío), その本 (ese libro tuyo), あの本 (aquel libro lejano). Nunca van solos.",
+        "examples": [
+          {
+            "jp": "この本は面白いです。",
+            "kana": "このほんはおもしろいです。",
+            "es": "Este libro es interesante."
+          },
+          {
+            "jp": "そのかばんは大きいです。",
+            "kana": "そのかばんはおおきいです。",
+            "es": "Ese bolso es grande."
+          },
+          {
+            "jp": "あの人は田中さんです。",
+            "kana": "あのひとはたなかさんです。",
+            "es": "Aquella persona es Tanaka."
+          }
+        ]
+      }
+    ],
+    "quiz": {
+      "practice": "grammar",
+      "direction": "grammar-es",
+      "ids": [
+        "g-desu",
+        "g-desu-1",
+        "g-desu-2"
+      ]
+    },
+    "secciones": [
+      {
+        "tipo": "gancho",
+        "texto": "Dices これ本 y un japonés no te entiende. Necesitas この本. ¿Cuál es la diferencia entre これ y この? Uno es pronombre, otro adjetivo."
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "この/その/あの son la versión “con nombre” de これ/それ/あれ. Siempre llevan un sustantivo detrás: この本, そのかばん, あの人.\n\nObjetivo: usar この/その/あの + nombre sin confundir con これ/それ/あれ solos.\n\n🧩 Fórmula: 【この/その/あの + Nombre + は + Descripción】\n- この本は面白いです (este libro aquí)\n- そのかばんは大きいです (ese bolso allí cerca de ti)\n- あの人は田中さんです (aquella persona allá lejos)\n\nPiensa en bloques: この necesita compañero (nombre), これ no.\n\n👣 Cómo construirlo (3 pasos):\n1) ¿Pronombre solo? → これ/それ/あれ (IMABI 24)\n2) ¿Con nombre? → この/その/あの + nombre: この本\n3) Añade は + descripción: この本は面白いです\n\n⚖️ Tabla こ vs この:\n| Forma | Tipo | Va con | Ejemplo |\n|---|---|---|---|\n| これ | pronombre | solo | これは本です |\n| この | adjetivo | + nombre | この本は面白いです |\n| それ | pronombre | solo | それは傘です |\n| その | adjetivo | + nombre | そのかばんは大きいです |\n\n💡 Ejemplos desglosados:\n1) この本は面白いです。 (このほんはおもしろいです。) — “Este libro es interesante.” → この本(este libro) + は + 面白いです.\n2) そのかばんは大きいです。 (そのかばんはおおきいです。) — “Ese bolso es grande.” → そのかばん(ese bolso) + は + 大きいです.\n3) あの人は田中さんです。 (あのひとはたなかさんです。) — “Aquella persona es Tanaka.” → あの人(aquella persona) + は + 田中さんです.\n\n🔑 Mini-resumen:\n□ これ/それ/あれ = pronombre solo\n□ この/その/あの = + nombre obligatorio\n□ Misma lógica de distancia: こ cerca mí, そ cerca ti, あ lejos\n\n❌ Error 90%: このは本です (doble partícula). Es この本は, no このは. この ya es adjetivo, no lleva は solo.\n\n💬 Truco offline: di pares: これ→この本, それ→そのかばん, あれ→あの人 3×.\n\n¿Por qué 5 ítems? Domina 2 hoy, resto SRS. Mezcla この/その/あの + escucha.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Si dudas entre ichidan y godan, abre el diccionario y busca el tag: [ichidan] termina en る con vocal previa, [godan] cambia la consonante. Repite en voz alta marcando la partícula para anclar ritmo. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase.",
+        "palabras": 407
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "この本は面白いです。",
+            "furigana": "このほんはおもしろいです。",
+            "romaji": "kono hon wa omoshiroi desu.",
+            "es": "Este libro es interesante.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "そのかばんは大きいです。",
+            "furigana": "そのかばんはおおきいです。",
+            "romaji": "sono kaban wa ookii desu.",
+            "es": "Ese bolso es grande.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "あの人は田中さんです。",
+            "furigana": "あのひとはたなかさんです。",
+            "romaji": "ano hito wa tanaka san desu.",
+            "es": "Aquella persona es Tanaka.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "この本は面白いです。",
+            "furigana": "このほんはおもしろいです。",
+            "es": "Este libro es interesante.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "この本は面白いです。 — Este libro es interesante."
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "そのかばんは大きいです。",
+            "furigana": "そのかばんはおおきいです。",
+            "es": "Ese bolso es grande.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "そのかばんは大きいです。 — Ese bolso es grande."
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "この本は面白いです。",
+            "furigana": "このほんはおもしろいです。",
+            "es": "Este libro es interesante.",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Escucha, pausa 3s, repite."
+          },
+          {
+            "tipo": "produccion",
+            "prompt": "Produce en japonés: 'Aquella persona es Tanaka.'",
+            "respuesta": "あの人は田中さんです。",
+            "jp": "あの人は田中さんです。",
+            "mostrar_texto_antes": false,
+            "rate": 0.8
+          }
+        ]
+      },
+      {
+        "tipo": "errores_comunes",
+        "texto": "Error típico: これ本 / それかばん sin の/この. Recuerda: これ + 名前 es siempre この + 名前. No mezcles."
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Hoy: この/その/あの + nombre. Próxima: ここ/そこ/あそこ lugar. Di 3 veces: この本は面白いです。"
+      }
+    ],
+    "sections": [
+      {
+        "tipo": "gancho",
+        "texto": "Dices これ本 y un japonés no te entiende. Necesitas この本. ¿Cuál es la diferencia entre これ y この? Uno es pronombre, otro adjetivo."
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "この/その/あの son la versión “con nombre” de これ/それ/あれ. Siempre llevan un sustantivo detrás: この本, そのかばん, あの人.\n\nObjetivo: usar この/その/あの + nombre sin confundir con これ/それ/あれ solos.\n\n🧩 Fórmula: 【この/その/あの + Nombre + は + Descripción】\n- この本は面白いです (este libro aquí)\n- そのかばんは大きいです (ese bolso allí cerca de ti)\n- あの人は田中さんです (aquella persona allá lejos)\n\nPiensa en bloques: この necesita compañero (nombre), これ no.\n\n👣 Cómo construirlo (3 pasos):\n1) ¿Pronombre solo? → これ/それ/あれ (IMABI 24)\n2) ¿Con nombre? → この/その/あの + nombre: この本\n3) Añade は + descripción: この本は面白いです\n\n⚖️ Tabla こ vs この:\n| Forma | Tipo | Va con | Ejemplo |\n|---|---|---|---|\n| これ | pronombre | solo | これは本です |\n| この | adjetivo | + nombre | この本は面白いです |\n| それ | pronombre | solo | それは傘です |\n| その | adjetivo | + nombre | そのかばんは大きいです |\n\n💡 Ejemplos desglosados:\n1) この本は面白いです。 (このほんはおもしろいです。) — “Este libro es interesante.” → この本(este libro) + は + 面白いです.\n2) そのかばんは大きいです。 (そのかばんはおおきいです。) — “Ese bolso es grande.” → そのかばん(ese bolso) + は + 大きいです.\n3) あの人は田中さんです。 (あのひとはたなかさんです。) — “Aquella persona es Tanaka.” → あの人(aquella persona) + は + 田中さんです.\n\n🔑 Mini-resumen:\n□ これ/それ/あれ = pronombre solo\n□ この/その/あの = + nombre obligatorio\n□ Misma lógica de distancia: こ cerca mí, そ cerca ti, あ lejos\n\n❌ Error 90%: このは本です (doble partícula). Es この本は, no このは. この ya es adjetivo, no lleva は solo.\n\n💬 Truco offline: di pares: これ→この本, それ→そのかばん, あれ→あの人 3×.\n\n¿Por qué 5 ítems? Domina 2 hoy, resto SRS. Mezcla この/その/あの + escucha.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Si dudas entre ichidan y godan, abre el diccionario y busca el tag: [ichidan] termina en る con vocal previa, [godan] cambia la consonante. Repite en voz alta marcando la partícula para anclar ritmo. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase.",
+        "palabras": 407
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "この本は面白いです。",
+            "furigana": "このほんはおもしろいです。",
+            "romaji": "kono hon wa omoshiroi desu.",
+            "es": "Este libro es interesante.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "そのかばんは大きいです。",
+            "furigana": "そのかばんはおおきいです。",
+            "romaji": "sono kaban wa ookii desu.",
+            "es": "Ese bolso es grande.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "あの人は田中さんです。",
+            "furigana": "あのひとはたなかさんです。",
+            "romaji": "ano hito wa tanaka san desu.",
+            "es": "Aquella persona es Tanaka.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "この本は面白いです。",
+            "furigana": "このほんはおもしろいです。",
+            "es": "Este libro es interesante.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "この本は面白いです。 — Este libro es interesante."
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "そのかばんは大きいです。",
+            "furigana": "そのかばんはおおきいです。",
+            "es": "Ese bolso es grande.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "そのかばんは大きいです。 — Ese bolso es grande."
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "この本は面白いです。",
+            "furigana": "このほんはおもしろいです。",
+            "es": "Este libro es interesante.",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Escucha, pausa 3s, repite."
+          },
+          {
+            "tipo": "produccion",
+            "prompt": "Produce en japonés: 'Aquella persona es Tanaka.'",
+            "respuesta": "あの人は田中さんです。",
+            "jp": "あの人は田中さんです。",
+            "mostrar_texto_antes": false,
+            "rate": 0.8
+          }
+        ]
+      },
+      {
+        "tipo": "errores_comunes",
+        "texto": "Error típico: これ本 / それかばん sin の/この. Recuerda: これ + 名前 es siempre この + 名前. No mezcles."
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Hoy: この/その/あの + nombre. Próxima: ここ/そこ/あそこ lugar. Di 3 veces: この本は面白いです。"
+      }
+    ],
+    "wexdc": true,
+    "clarity": 3,
+    "autoevaluacion": {
+      "explica_no_informa": true,
+      "palabras_explicacion": 407,
+      "listening_puro_incluido": true,
+      "listening_puro_cantidad": 2,
+      "confianza": 9
+    }
+  },
+  {
+    "id": "l-imabi-026",
+    "title": "IMABI 26: こそあど III — ここ/そこ/あそこ",
+    "stage": "IMABI · Beginners I",
+    "minutes": 7,
+    "level": "n5",
+    "teach": [
+      {
+        "heading": "IMABI 26: こそあど III — ここ/そこ/あそこ",
+        "text": "Lugar: ここ (aquí), そこ (ahí), あそこ (allá). Pregunta どこ (¿dónde?). Con に/で: ここにいます (estoy aquí).",
+        "examples": [
+          {
+            "jp": "ここは教室です。",
+            "kana": "ここはきょうしつです。",
+            "es": "Aquí es un aula."
+          },
+          {
+            "jp": "そこに本があります。",
+            "kana": "そこにほんがあります。",
+            "es": "Ahí hay un libro."
+          },
+          {
+            "jp": "あそこは駅です。",
+            "kana": "あそこはえきです。",
+            "es": "Allá es la estación."
+          }
+        ]
+      }
+    ],
+    "quiz": {
+      "practice": "grammar",
+      "direction": "grammar-es",
+      "ids": [
+        "g-desu",
+        "g-desu-1",
+        "g-desu-2"
+      ]
+    },
+    "secciones": [
+      {
+        "tipo": "gancho",
+        "texto": "Preguntas ¿dónde está? y respondes ここ. Pero usas ここにいます vs ここで食べます y dudas: ¿に o で?"
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "ここ/そこ/あそこ marcan lugar, como これ/それ/あれ pero para sitio. どこ es la pregunta.\n\nObjetivo: usar ここ/そこ/あそこ con に (existencia) vs で (acción) correctamente.\n\n🧩 Fórmula:\n- 【ここ/そこ/あそこ は + Lugar】 → ここは教室です\n- 【ここに + ある/いる】 (existencia) → そこに本があります\n- 【ここで + verbo acción】 → ここで勉強します\n- Pregunta: どこですか / どこにありますか\n\nPiensa en bloques: lugar + に/で según si el verbo es estar o hacer.\n\n👣 Cómo construirlo (3 pasos):\n1) Elige lugar: ここ (aquí), そこ (ahí), あそこ (allá), どこ (dónde)\n2) ¿Existencia (ある/いる)? Usa に: ここに猫がいます\n3) ¿Acción (食べる/勉強)? Usa で: ここで食べます\n\n⚖️ Tabla lugar:\n| Forma | Significado | Ejemplo |\n|---|---|---|\n| ここ | aquí | ここは教室です |\n| そこ | ahí | そこに本があります |\n| あそこ | allá | あそこは駅です |\n| どこ | dónde | どこですか |\n\n💡 Ejemplos desglosados:\n1) ここは教室です。 (ここはきょうしつです。) — “Aquí es aula.” → ここ(aquí) + は + 教室です.\n2) そこに本があります。 (そこにほんがあります。) — “Ahí hay libro.” → そこに(ahí + に) + 本があります.\n3) あそこは駅です。 (あそこはえきです。) — “Allá es estación.” → あそこ(allá) + は + 駅です.\n\n🔑 Mini-resumen:\n□ ここ/そこ/あそこ = lugar; どこ = pregunta\n□ に para existencia (ある/いる), で para acción\n□ ここは... vs ここに... vs ここで... mira el verbo\n\n❌ Error 90%: ここに勉強します (mal, acción lleva で). Di ここで勉強します. Y どこは (mal) → どこですか (pregunta).\n\n💬 Truco offline: señala 3 lugares: ここ (tu sitio), そこ (su sitio), あそこ (puerta). Di cada uno con に/で.\n\n¿Por qué 5 ítems? Domina 2 hoy, resto SRS. Mezcla ここ/そこ/あそこ + escucha.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Si dudas entre ichidan y godan, abre el diccionario y busca el tag: [ichidan] termina en る con vocal previa, [godan] cambia la consonante. Repite en voz alta marcando la partícula para anclar ritmo. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase.",
+        "palabras": 408
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "ここは教室です。",
+            "furigana": "ここはきょうしつです。",
+            "romaji": "koko wa kyoushitsu desu.",
+            "es": "Aquí es un aula.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "そこに本があります。",
+            "furigana": "そこにほんがあります。",
+            "romaji": "soko ni hon ga arimasu.",
+            "es": "Ahí hay un libro.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "あそこは駅です。",
+            "furigana": "あそこはえきです。",
+            "romaji": "asoko wa eki desu.",
+            "es": "Allá es la estación.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "ここは教室です。",
+            "furigana": "ここはきょうしつです。",
+            "es": "Aquí es un aula.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "ここは教室です。 — Aquí es un aula."
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "そこに本があります。",
+            "furigana": "そこにほんがあります。",
+            "es": "Ahí hay un libro.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "そこに本があります。 — Ahí hay un libro."
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "ここは教室です。",
+            "furigana": "ここはきょうしつです。",
+            "es": "Aquí es un aula.",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Escucha, pausa 3s, repite."
+          },
+          {
+            "tipo": "produccion",
+            "prompt": "Produce en japonés: 'Allá es la estación.'",
+            "respuesta": "あそこは駅です。",
+            "jp": "あそこは駅です。",
+            "mostrar_texto_antes": false,
+            "rate": 0.8
+          }
+        ]
+      },
+      {
+        "tipo": "errores_comunes",
+        "texto": "Error típico: confundir に/で con lugar. Recuerda: に = existe ahí (ある/いる), で = haces ahí (食べる/勉強). No digas ここに食べます."
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Hoy: ここ/そこ/あそこ lugar + に/で. Próxima: と para 'y' cerrado. Di 3 veces: ここに本があります。"
+      }
+    ],
+    "sections": [
+      {
+        "tipo": "gancho",
+        "texto": "Preguntas ¿dónde está? y respondes ここ. Pero usas ここにいます vs ここで食べます y dudas: ¿に o で?"
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "ここ/そこ/あそこ marcan lugar, como これ/それ/あれ pero para sitio. どこ es la pregunta.\n\nObjetivo: usar ここ/そこ/あそこ con に (existencia) vs で (acción) correctamente.\n\n🧩 Fórmula:\n- 【ここ/そこ/あそこ は + Lugar】 → ここは教室です\n- 【ここに + ある/いる】 (existencia) → そこに本があります\n- 【ここで + verbo acción】 → ここで勉強します\n- Pregunta: どこですか / どこにありますか\n\nPiensa en bloques: lugar + に/で según si el verbo es estar o hacer.\n\n👣 Cómo construirlo (3 pasos):\n1) Elige lugar: ここ (aquí), そこ (ahí), あそこ (allá), どこ (dónde)\n2) ¿Existencia (ある/いる)? Usa に: ここに猫がいます\n3) ¿Acción (食べる/勉強)? Usa で: ここで食べます\n\n⚖️ Tabla lugar:\n| Forma | Significado | Ejemplo |\n|---|---|---|\n| ここ | aquí | ここは教室です |\n| そこ | ahí | そこに本があります |\n| あそこ | allá | あそこは駅です |\n| どこ | dónde | どこですか |\n\n💡 Ejemplos desglosados:\n1) ここは教室です。 (ここはきょうしつです。) — “Aquí es aula.” → ここ(aquí) + は + 教室です.\n2) そこに本があります。 (そこにほんがあります。) — “Ahí hay libro.” → そこに(ahí + に) + 本があります.\n3) あそこは駅です。 (あそこはえきです。) — “Allá es estación.” → あそこ(allá) + は + 駅です.\n\n🔑 Mini-resumen:\n□ ここ/そこ/あそこ = lugar; どこ = pregunta\n□ に para existencia (ある/いる), で para acción\n□ ここは... vs ここに... vs ここで... mira el verbo\n\n❌ Error 90%: ここに勉強します (mal, acción lleva で). Di ここで勉強します. Y どこは (mal) → どこですか (pregunta).\n\n💬 Truco offline: señala 3 lugares: ここ (tu sitio), そこ (su sitio), あそこ (puerta). Di cada uno con に/で.\n\n¿Por qué 5 ítems? Domina 2 hoy, resto SRS. Mezcla ここ/そこ/あそこ + escucha.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Si dudas entre ichidan y godan, abre el diccionario y busca el tag: [ichidan] termina en る con vocal previa, [godan] cambia la consonante. Repite en voz alta marcando la partícula para anclar ritmo. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase.",
+        "palabras": 408
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "ここは教室です。",
+            "furigana": "ここはきょうしつです。",
+            "romaji": "koko wa kyoushitsu desu.",
+            "es": "Aquí es un aula.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "そこに本があります。",
+            "furigana": "そこにほんがあります。",
+            "romaji": "soko ni hon ga arimasu.",
+            "es": "Ahí hay un libro.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "あそこは駅です。",
+            "furigana": "あそこはえきです。",
+            "romaji": "asoko wa eki desu.",
+            "es": "Allá es la estación.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "ここは教室です。",
+            "furigana": "ここはきょうしつです。",
+            "es": "Aquí es un aula.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "ここは教室です。 — Aquí es un aula."
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "そこに本があります。",
+            "furigana": "そこにほんがあります。",
+            "es": "Ahí hay un libro.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "そこに本があります。 — Ahí hay un libro."
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "ここは教室です。",
+            "furigana": "ここはきょうしつです。",
+            "es": "Aquí es un aula.",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Escucha, pausa 3s, repite."
+          },
+          {
+            "tipo": "produccion",
+            "prompt": "Produce en japonés: 'Allá es la estación.'",
+            "respuesta": "あそこは駅です。",
+            "jp": "あそこは駅です。",
+            "mostrar_texto_antes": false,
+            "rate": 0.8
+          }
+        ]
+      },
+      {
+        "tipo": "errores_comunes",
+        "texto": "Error típico: confundir に/で con lugar. Recuerda: に = existe ahí (ある/いる), で = haces ahí (食べる/勉強). No digas ここに食べます."
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Hoy: ここ/そこ/あそこ lugar + に/で. Próxima: と para 'y' cerrado. Di 3 veces: ここに本があります。"
+      }
+    ],
+    "wexdc": true,
+    "clarity": 3,
+    "autoevaluacion": {
+      "explica_no_informa": true,
+      "palabras_explicacion": 408,
+      "listening_puro_incluido": true,
+      "listening_puro_cantidad": 2,
+      "confianza": 9
+    }
+  },
+  {
+    "id": "l-imabi-028",
+    "title": "IMABI 28: の I — posesión y descripción 私の本",
+    "stage": "IMABI · Beginners I",
+    "minutes": 8,
+    "level": "n5",
+    "teach": [
+      {
+        "heading": "IMABI 28: の I — posesión y descripción 私の本",
+        "text": "の une dos nombres: AのB = B de A. 私の本 (mi libro), 日本の車 (coche japonés), 緑のカバン (bolso verde).",
+        "examples": [
+          {
+            "jp": "これは私の本です。",
+            "kana": "これはわたしのほんです。",
+            "es": "Este es mi libro."
+          },
+          {
+            "jp": "あれは日本の車です。",
+            "kana": "あれはにほんのくるまです。",
+            "es": "Aquello es un coche japonés."
+          },
+          {
+            "jp": "緑のカバンが好きです。",
+            "kana": "みどりのかばんがすきです。",
+            "es": "Me gusta el bolso verde."
+          }
+        ]
+      }
+    ],
+    "quiz": {
+      "practice": "grammar",
+      "direction": "grammar-es",
+      "ids": [
+        "g-desu",
+        "g-desu-1",
+        "g-desu-2"
+      ]
+    },
+    "secciones": [
+      {
+        "tipo": "gancho",
+        "texto": "Te dicen 私本 y no suena japonés. ¿Dónde va の? Sin の no marcas posesión ni tipo."
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "の es el pegamento entre nombres: AのB conecta B a A. Es posesión (私の本 = mi libro), origen/tipo (日本の車 = coche de Japón), descripción adjetival (緑のカバン = bolso verde).\n\nObjetivo: usar AのB sin invertir el orden español (al revés que español).\n\n🧩 Fórmula: 【A の B】 → modifica B con A\n- 私 (yo) の 本 (libro) = mi libro (no 私本)\n- 日本 (Japón) の 車 (coche) = coche japonés\n- 緑 (verde) の カバン (bolso) = bolso verde\n\nPiensa en bloques: el que está ANTES de の describe al que está DESPUÉS. Al revés que español.\n\n👣 Cómo construirlo (3 pasos):\n1) ¿Qué poseedor/descriptor? → A (私, 日本, 緑)\n2) Añade の entre ambos: AのB\n3) Cierra con は/が/を: 私の本は新しいです, 日本の車が好きです\n\n⚖️ Tabla の I:\n| Tipo | Patrón | Ejemplo | Traducción |\n|---|---|---|---|\n| Posesión | Personaの物 | 私の本 | mi libro |\n| Origen | Lugarの物 | 日本の車 | coche japonés |\n| Atributo | Sustの物 | 緑のカバン | bolso verde |\n| Cadena | AのBのC | 私の友達の車 | coche de mi amigo |\n\n💡 Ejemplos desglosados:\n1) これは私の本です。 (これはわたしのほんです。) — “Este es mi libro.” → これ(esto) + は + 私の本(→ 私の + 本).\n2) あれは日本の車です。 (あれはにほんのくるまです。) — “Aquello es coche japonés.” → あれ + は + 日本の車(→ 日本の + 車).\n3) 緑のカバンが好きです。 (みどりのかばんがすきです。) — “Me gusta el bolso verde.” → 緑のカバン(→ 緑の + カバン) + が + 好きです.\n\n🔑 Mini-resumen:\n□ AのB: A describe a B, orden inverso al español\n□ Nunca 私本, siempre 私の本\n□ Se puede encadenar: 私の友達の車\n\n❌ Error 90%: decir 私は本です para “mi libro” (significa “yo soy un libro”). Para posesión siempre 私の本です. Confundir の (posesión) con は/が (tema/sujeto).\n\n💬 Truco offline: señala 3 cosas y di 私の○○, あなたの○○, あの人の○○ 3×. Active recall. ¿Por qué 5 ítems? Domina 2 hoy, resto SRS.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Repite en voz alta marcando la partícula para anclar ritmo. En Cuba practica señalando objetos reales: mi libro, tu libro, su libro. Repasa el ejemplo en voz alta y crea tu propia frase.",
+        "palabras": 407
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "これは私の本です。",
+            "furigana": "これはわたしのほんです。",
+            "romaji": "kore wa watashi no hon desu.",
+            "es": "Este es mi libro.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "あれは日本の車です。",
+            "furigana": "あれはにほんのくるまです。",
+            "romaji": "are wa nihon no kuruma desu.",
+            "es": "Aquello es un coche japonés.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "緑のカバンが好きです。",
+            "furigana": "みどりのかばんがすきです。",
+            "romaji": "midori no kaban ga suki desu.",
+            "es": "Me gusta el bolso verde.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "これは私の本です。",
+            "furigana": "これはわたしのほんです。",
+            "es": "Este es mi libro.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "これは私の本です。 — Este es mi libro."
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "あれは日本の車です。",
+            "furigana": "あれはにほんのくるまです。",
+            "es": "Aquello es un coche japonés.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "あれは日本の車です。 — Aquello es un coche japonés."
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "これは私の本です。",
+            "furigana": "これはわたしのほんです。",
+            "es": "Este es mi libro.",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Escucha, pausa 3s, repite."
+          },
+          {
+            "tipo": "produccion",
+            "prompt": "Produce en japonés: 'Me gusta el bolso verde.'",
+            "respuesta": "緑のカバンが好きです。",
+            "jp": "緑のカバンが好きです。",
+            "mostrar_texto_antes": false,
+            "rate": 0.8
+          }
+        ]
+      },
+      {
+        "tipo": "errores_comunes",
+        "texto": "Error típico: omitir の → 私本, 日本車 sin の (solo compuestos lexicalizados llevan a veces). Para aprendiz, siempre の. Otro: 私は本 para 'mi libro' — es 'yo soy libro'."
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Hoy: AのB posesión/tipo. Próxima: て afirmativo para unir frases. Di 3 veces: これは私の本です。"
+      }
+    ],
+    "sections": [
+      {
+        "tipo": "gancho",
+        "texto": "Te dicen 私本 y no suena japonés. ¿Dónde va の? Sin の no marcas posesión ni tipo."
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "の es el pegamento entre nombres: AのB conecta B a A. Es posesión (私の本 = mi libro), origen/tipo (日本の車 = coche de Japón), descripción adjetival (緑のカバン = bolso verde).\n\nObjetivo: usar AのB sin invertir el orden español (al revés que español).\n\n🧩 Fórmula: 【A の B】 → modifica B con A\n- 私 (yo) の 本 (libro) = mi libro (no 私本)\n- 日本 (Japón) の 車 (coche) = coche japonés\n- 緑 (verde) の カバン (bolso) = bolso verde\n\nPiensa en bloques: el que está ANTES de の describe al que está DESPUÉS. Al revés que español.\n\n👣 Cómo construirlo (3 pasos):\n1) ¿Qué poseedor/descriptor? → A (私, 日本, 緑)\n2) Añade の entre ambos: AのB\n3) Cierra con は/が/を: 私の本は新しいです, 日本の車が好きです\n\n⚖️ Tabla の I:\n| Tipo | Patrón | Ejemplo | Traducción |\n|---|---|---|---|\n| Posesión | Personaの物 | 私の本 | mi libro |\n| Origen | Lugarの物 | 日本の車 | coche japonés |\n| Atributo | Sustの物 | 緑のカバン | bolso verde |\n| Cadena | AのBのC | 私の友達の車 | coche de mi amigo |\n\n💡 Ejemplos desglosados:\n1) これは私の本です。 (これはわたしのほんです。) — “Este es mi libro.” → これ(esto) + は + 私の本(→ 私の + 本).\n2) あれは日本の車です。 (あれはにほんのくるまです。) — “Aquello es coche japonés.” → あれ + は + 日本の車(→ 日本の + 車).\n3) 緑のカバンが好きです。 (みどりのかばんがすきです。) — “Me gusta el bolso verde.” → 緑のカバン(→ 緑の + カバン) + が + 好きです.\n\n🔑 Mini-resumen:\n□ AのB: A describe a B, orden inverso al español\n□ Nunca 私本, siempre 私の本\n□ Se puede encadenar: 私の友達の車\n\n❌ Error 90%: decir 私は本です para “mi libro” (significa “yo soy un libro”). Para posesión siempre 私の本です. Confundir の (posesión) con は/が (tema/sujeto).\n\n💬 Truco offline: señala 3 cosas y di 私の○○, あなたの○○, あの人の○○ 3×. Active recall. ¿Por qué 5 ítems? Domina 2 hoy, resto SRS.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Repite en voz alta marcando la partícula para anclar ritmo. En Cuba practica señalando objetos reales: mi libro, tu libro, su libro. Repasa el ejemplo en voz alta y crea tu propia frase.",
+        "palabras": 407
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "これは私の本です。",
+            "furigana": "これはわたしのほんです。",
+            "romaji": "kore wa watashi no hon desu.",
+            "es": "Este es mi libro.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "あれは日本の車です。",
+            "furigana": "あれはにほんのくるまです。",
+            "romaji": "are wa nihon no kuruma desu.",
+            "es": "Aquello es un coche japonés.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "緑のカバンが好きです。",
+            "furigana": "みどりのかばんがすきです。",
+            "romaji": "midori no kaban ga suki desu.",
+            "es": "Me gusta el bolso verde.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "これは私の本です。",
+            "furigana": "これはわたしのほんです。",
+            "es": "Este es mi libro.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "これは私の本です。 — Este es mi libro."
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "あれは日本の車です。",
+            "furigana": "あれはにほんのくるまです。",
+            "es": "Aquello es un coche japonés.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "あれは日本の車です。 — Aquello es un coche japonés."
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "これは私の本です。",
+            "furigana": "これはわたしのほんです。",
+            "es": "Este es mi libro.",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Escucha, pausa 3s, repite."
+          },
+          {
+            "tipo": "produccion",
+            "prompt": "Produce en japonés: 'Me gusta el bolso verde.'",
+            "respuesta": "緑のカバンが好きです。",
+            "jp": "緑のカバンが好きです。",
+            "mostrar_texto_antes": false,
+            "rate": 0.8
+          }
+        ]
+      },
+      {
+        "tipo": "errores_comunes",
+        "texto": "Error típico: omitir の → 私本, 日本車 sin の (solo compuestos lexicalizados llevan a veces). Para aprendiz, siempre の. Otro: 私は本 para 'mi libro' — es 'yo soy libro'."
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Hoy: AのB posesión/tipo. Próxima: て afirmativo para unir frases. Di 3 veces: これは私の本です。"
+      }
+    ],
+    "wexdc": true,
+    "clarity": 3,
+    "autoevaluacion": {
+      "explica_no_informa": true,
+      "palabras_explicacion": 407,
+      "listening_puro_incluido": true,
+      "listening_puro_cantidad": 2,
+      "confianza": 9
+    }
+  },
+  {
+    "id": "l-imabi-034",
+    "title": "IMABI 34: Partícula final て — おい,ね,よ con て",
+    "stage": "IMABI · Beginners I",
+    "minutes": 7,
+    "level": "n5",
+    "teach": [
+      {
+        "heading": "IMABI 34: Partícula final て — おい,ね,よ con て",
+        "text": "て final suaviza órdenes/peticiones: 見て (mira, venga), 待って (espera), ちょっと見て (míralo un momento). No es conjunción, es tono.",
+        "examples": [
+          {
+            "jp": "ちょっと待って。",
+            "kana": "ちょっとまって。",
+            "es": "Espera un momento."
+          },
+          {
+            "jp": "見て、この写真。",
+            "kana": "みて、このしゃしん。",
+            "es": "Mira esta foto."
+          },
+          {
+            "jp": "頑張って。",
+            "kana": "がんばって。",
+            "es": "¡Ánimo! (Esfuérzate)."
+          }
+        ]
+      }
+    ],
+    "quiz": {
+      "practice": "grammar",
+      "direction": "grammar-es",
+      "ids": [
+        "g-desu",
+        "g-desu-1",
+        "g-desu-2"
+      ]
+    },
+    "secciones": [
+      {
+        "tipo": "gancho",
+        "texto": "Oyes 見て y 待って y parecen て-form a medias. ¿Es orden? ¿Es petición amable? Sin て final no pillas el tono."
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "て como partícula final convierte el verbo en una interjección blanda: invita, llama atención, anima. No une frases (eso es て conjuntivo IMABI 33), solo cierra con feeling.\n\nObjetivo: usar Verbo-て solo para llamar o pedir suavemente.\n\n🧩 Fórmula: 【Verbo て-form solo】 → 見て, 待って, 頑張って, 聞いて\nVariantes: てね (confirmación dulce), てよ (énfasis), てさ (casual)\n- 見て (mira, oye)\n- ちょっと待って (espera un poco — petición)\n- 見てよ (¡mira pues!)\n\nPiensa en bloques: て deja la frase abierta, esperando reacción.\n\n👣 Cómo construirlo (3 pasos):\n1) Pon verbo en て-form: 見る→見て, 待つ→待って, 頑張る→頑張って\n2) Úsalo solo, sin nada después: 見て。\n3) Añade tono: ね/よ/さ si quieres matizar: 見てね, 待ってよ\n\n⚖️ Tabla て final:\n| Base | て-form | Como final | Matiz |\n|---|---|---|---|\n| 見る | 見て | 見て、この写真 | “Mira” (llamada) |\n| 待つ | 待って | ちょっと待って | “Espera” (suave) |\n| 頑張る | 頑張って | 頑張ってね | “Ánimo” |\n| 聞く | 聞いて | 聞いてよ | “Escucha” (insiste) |\n\n💡 Ejemplos desglosados:\n1) ちょっと待って。 (ちょっとまって。) — “Espera un momento.” → ちょっと(un poco) + 待って(espera, て-form).\n2) 見て、この写真。 (みて、このしゃしん。) — “Mira esta foto.” → 見て(mira) + この写真.\n3) 頑張って。 (がんばって。) — “¡Ánimo!” → 頑張って(esfuérzate, forma fija).\n\n🔑 Mini-resumen:\n□ て solo = petición/llamada blanda, no orden militar (eso es ～なさい/～ろ)\n□ No confunda con て que une: 食べて寝る vs 食べて。(uno une, otro cierra)\n□ Con ね/よ/ねぇ suaviza más: 待ってね\n\n❌ Error 90%: usar て final en keigo con jefe (muy casual). Usa 少々お待ちください. て final es entre pares/amigos/familia.\n\n💬 Truco offline: di 見て→見てね→見てよ cambiando tono 3×. Active recall. ¿Por qué 5 ítems? Domina 2 hoy, resto SRS.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Repite en voz alta marcando la partícula para anclar ritmo. En Cuba practica señalando objetos reales: mi libro, tu libro, su libro. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase.",
+        "palabras": 408
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "ちょっと待って。",
+            "furigana": "ちょっとまって。",
+            "romaji": "chotto matte.",
+            "es": "Espera un momento.",
+            "pitch_accent": "Atamadaka",
+            "rate": 0.9
+          },
+          {
+            "jp": "見て、この写真。",
+            "furigana": "みて、このしゃしん。",
+            "romaji": "mite, kono shashin.",
+            "es": "Mira esta foto.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "頑張って。",
+            "furigana": "がんばって。",
+            "romaji": "ganbatte.",
+            "es": "¡Ánimo!",
+            "pitch_accent": "Heiban",
+            "rate": 0.9
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "ちょっと待って。",
+            "furigana": "ちょっとまって。",
+            "es": "Espera un momento.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "ちょっと待って。 — Espera un momento."
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "見て、この写真。",
+            "furigana": "みて、このしゃしん。",
+            "es": "Mira esta foto.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "見て、この写真。 — Mira esta foto."
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "ちょっと待って。",
+            "furigana": "ちょっとまって。",
+            "es": "Espera un momento.",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Escucha, pausa 3s, repite."
+          },
+          {
+            "tipo": "produccion",
+            "prompt": "Produce en japonés: '¡Mira esta foto!'",
+            "respuesta": "見て、この写真。",
+            "jp": "見て、この写真。",
+            "mostrar_texto_antes": false,
+            "rate": 0.8
+          }
+        ]
+      },
+      {
+        "tipo": "errores_comunes",
+        "texto": "Error típico: confundir て final (petición) con て conjuntivo (y luego). Si hay verbo después, es conjunción: 食べて飲む. Si termina ahí, es final: 食べて。"
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Hoy: て final para llamar suavemente. Próxima: なくて/ないで negativo con て. Di 3 veces: ちょっと待って。"
+      }
+    ],
+    "sections": [
+      {
+        "tipo": "gancho",
+        "texto": "Oyes 見て y 待って y parecen て-form a medias. ¿Es orden? ¿Es petición amable? Sin て final no pillas el tono."
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "て como partícula final convierte el verbo en una interjección blanda: invita, llama atención, anima. No une frases (eso es て conjuntivo IMABI 33), solo cierra con feeling.\n\nObjetivo: usar Verbo-て solo para llamar o pedir suavemente.\n\n🧩 Fórmula: 【Verbo て-form solo】 → 見て, 待って, 頑張って, 聞いて\nVariantes: てね (confirmación dulce), てよ (énfasis), てさ (casual)\n- 見て (mira, oye)\n- ちょっと待って (espera un poco — petición)\n- 見てよ (¡mira pues!)\n\nPiensa en bloques: て deja la frase abierta, esperando reacción.\n\n👣 Cómo construirlo (3 pasos):\n1) Pon verbo en て-form: 見る→見て, 待つ→待って, 頑張る→頑張って\n2) Úsalo solo, sin nada después: 見て。\n3) Añade tono: ね/よ/さ si quieres matizar: 見てね, 待ってよ\n\n⚖️ Tabla て final:\n| Base | て-form | Como final | Matiz |\n|---|---|---|---|\n| 見る | 見て | 見て、この写真 | “Mira” (llamada) |\n| 待つ | 待って | ちょっと待って | “Espera” (suave) |\n| 頑張る | 頑張って | 頑張ってね | “Ánimo” |\n| 聞く | 聞いて | 聞いてよ | “Escucha” (insiste) |\n\n💡 Ejemplos desglosados:\n1) ちょっと待って。 (ちょっとまって。) — “Espera un momento.” → ちょっと(un poco) + 待って(espera, て-form).\n2) 見て、この写真。 (みて、このしゃしん。) — “Mira esta foto.” → 見て(mira) + この写真.\n3) 頑張って。 (がんばって。) — “¡Ánimo!” → 頑張って(esfuérzate, forma fija).\n\n🔑 Mini-resumen:\n□ て solo = petición/llamada blanda, no orden militar (eso es ～なさい/～ろ)\n□ No confunda con て que une: 食べて寝る vs 食べて。(uno une, otro cierra)\n□ Con ね/よ/ねぇ suaviza más: 待ってね\n\n❌ Error 90%: usar て final en keigo con jefe (muy casual). Usa 少々お待ちください. て final es entre pares/amigos/familia.\n\n💬 Truco offline: di 見て→見てね→見てよ cambiando tono 3×. Active recall. ¿Por qué 5 ítems? Domina 2 hoy, resto SRS.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Repite en voz alta marcando la partícula para anclar ritmo. En Cuba practica señalando objetos reales: mi libro, tu libro, su libro. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase.",
+        "palabras": 408
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "ちょっと待って。",
+            "furigana": "ちょっとまって。",
+            "romaji": "chotto matte.",
+            "es": "Espera un momento.",
+            "pitch_accent": "Atamadaka",
+            "rate": 0.9
+          },
+          {
+            "jp": "見て、この写真。",
+            "furigana": "みて、このしゃしん。",
+            "romaji": "mite, kono shashin.",
+            "es": "Mira esta foto.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "頑張って。",
+            "furigana": "がんばって。",
+            "romaji": "ganbatte.",
+            "es": "¡Ánimo!",
+            "pitch_accent": "Heiban",
+            "rate": 0.9
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "ちょっと待って。",
+            "furigana": "ちょっとまって。",
+            "es": "Espera un momento.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "ちょっと待って。 — Espera un momento."
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "見て、この写真。",
+            "furigana": "みて、このしゃしん。",
+            "es": "Mira esta foto.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "見て、この写真。 — Mira esta foto."
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "ちょっと待って。",
+            "furigana": "ちょっとまって。",
+            "es": "Espera un momento.",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Escucha, pausa 3s, repite."
+          },
+          {
+            "tipo": "produccion",
+            "prompt": "Produce en japonés: '¡Mira esta foto!'",
+            "respuesta": "見て、この写真。",
+            "jp": "見て、この写真。",
+            "mostrar_texto_antes": false,
+            "rate": 0.8
+          }
+        ]
+      },
+      {
+        "tipo": "errores_comunes",
+        "texto": "Error típico: confundir て final (petición) con て conjuntivo (y luego). Si hay verbo después, es conjunción: 食べて飲む. Si termina ahí, es final: 食べて。"
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Hoy: て final para llamar suavemente. Próxima: なくて/ないで negativo con て. Di 3 veces: ちょっと待って。"
+      }
+    ],
+    "wexdc": true,
+    "clarity": 3,
+    "autoevaluacion": {
+      "explica_no_informa": true,
+      "palabras_explicacion": 408,
+      "listening_puro_incluido": true,
+      "listening_puro_cantidad": 2,
+      "confianza": 9
+    }
+  },
+  {
+    "id": "l-imabi-035",
+    "title": "IMABI 35: て negativo — なくて/ないで",
+    "stage": "IMABI · Beginners I",
+    "minutes": 9,
+    "level": "n5",
+    "teach": [
+      {
+        "heading": "IMABI 35: て negativo — なくて/ないで",
+        "text": "Negativo con て: 食べなくて (no comer y...), 食べないで (sin comer / no comas). なくて une razón, ないで es 'sin' o petición negativa.",
+        "examples": [
+          {
+            "jp": "宿題をしなくて、遊びました。",
+            "kana": "しゅくだいをしなくて、あそびました。",
+            "es": "No hice deberes y jugué."
+          },
+          {
+            "jp": "朝ごはんを食べないで行った。",
+            "kana": "あさごはんをたべないでいった。",
+            "es": "Fui sin desayunar."
+          },
+          {
+            "jp": "食べないでください。",
+            "kana": "たべないでください。",
+            "es": "Por favor no comas."
+          }
+        ]
+      }
+    ],
+    "quiz": {
+      "practice": "grammar",
+      "direction": "grammar-es",
+      "ids": [
+        "g-desu",
+        "g-desu-1",
+        "g-desu-2"
+      ]
+    },
+    "secciones": [
+      {
+        "tipo": "gancho",
+        "texto": "Quieres decir “sin hacer” o “no hagas” y dudas: ¿なくて o ないで? No es intercambiable; uno une excusas, otro marca ausencia."
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "～なくて y ～ないで son las dos て negativas. Parecen iguales pero IMABI 35 distingue: なくて es causa/conexión (no hice y...), ないで es medio/ausencia (sin hacer) y petición.\n\nObjetivo: elegir なくて vs ないで según si expresas causa o “sin”.\n\n🧩 Fórmula:\n- 【ない → なくて】 causa: 安くなくて買わなかった (no era barato y no compré)\n- 【ない → ないで】 sin: 食べないで寝た (dormí sin comer)\n- 【ないでください】 petición negativa: 触らないでください (no toque)\n\nPiensa en bloques: なくて = no y entonces; ないで = sin / no hagas.\n\n👣 Cómo construirlo (3 pasos):\n1) Haz negativo en ない: する→しない, 食べる→食べない\n2) ¿Unes causa? → なくて: しなくて (no hacer y)\n3) ¿“Sin” o orden negativa? → ないで: 食べないで (sin comer), 食べないでください (no comas por favor)\n\n⚖️ Tabla て negativo:\n| Positivo て | なくて (causa) | ないで (sin/petición) |\n|---|---|---|\n| 食べて | 食べなくて | 食べないで |\n| して | しなくて | しないで |\n| 行って | 行かなくて | 行かないで |\n\n💡 Ejemplos desglosados:\n1) 宿題をしなくて、遊びました。 (しゅくだいをしなくて、あそびました。) — “No hice deberes y jugué.” → しなくて(→ しない + くて) + 遊びました.\n2) 朝ごはんを食べないで行った。 (あさごはんをたべないでいった。) — “Fui sin desayunar.” → 食べないで(→ 食べない + で) + 行った.\n3) 食べないでください。 (たべないでください。) — “No comas por favor.” → 食べないで + ください (petición negativa).\n\n🔑 Mini-resumen:\n□ なくて = no ～ y (causa/conexión neutra)\n□ ないで = sin ～ / no ～ por favor (ausencia/petición)\n□ Petición fija: ～ないでください (la más usada)\n\n❌ Error 90%: usar なくてください (no existe). Es siempre ないでください. Y no uses なくて para “sin”: 食べなくて寝た suena causa rara; di 食べないで寝た.\n\n💬 Truco offline: di pares: しなくて→次に○○した (causa), しないで→行った (sin). Active recall. ¿Por qué 5 ítems? Domina 2 hoy, resto SRS.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Repite en voz alta marcando la partícula para anclar ritmo. En Cuba practica señalando objetos reales: mi libro, tu libro, su libro. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase.",
+        "palabras": 409
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "宿題をしなくて、遊びました。",
+            "furigana": "しゅくだいをしなくて、あそびました。",
+            "romaji": "shukudai wo shinakute, asobimashita.",
+            "es": "No hice deberes y jugué.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "朝ごはんを食べないで行った。",
+            "furigana": "あさごはんをたべないでいった。",
+            "romaji": "asagohan wo tabenaide itta.",
+            "es": "Fui sin desayunar.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "食べないでください。",
+            "furigana": "たべないでください。",
+            "romaji": "tabenaide kudasai.",
+            "es": "Por favor no comas.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "宿題をしなくて、遊びました。",
+            "furigana": "しゅくだいをしなくて、あそびました。",
+            "es": "No hice deberes y jugué.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "宿題をしなくて、遊びました。 — No hice deberes y jugué."
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "朝ごはんを食べないで行った。",
+            "furigana": "あさごはんをたべないでいった。",
+            "es": "Fui sin desayunar.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "朝ごはんを食べないで行った。 — Fui sin desayunar."
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "宿題をしなくて、遊びました。",
+            "furigana": "しゅくだいをしなくて、あそびました。",
+            "es": "No hice deberes y jugué.",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Escucha, pausa 3s, repite."
+          },
+          {
+            "tipo": "produccion",
+            "prompt": "Produce en japonés: 'Por favor no comas.'",
+            "respuesta": "食べないでください。",
+            "jp": "食べないでください。",
+            "mostrar_texto_antes": false,
+            "rate": 0.8
+          }
+        ]
+      },
+      {
+        "tipo": "errores_comunes",
+        "texto": "Error típico: なくて vs ないで intercambiables — no lo son. なくて suena causa; para 'sin' siempre ないで. Y la petición es siempre ないでください, nunca なくてください."
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Hoy: なくて causa vs ないで sin/petición. Próxima: ている progresivo. Di 3 veces: 食べないでください。"
+      }
+    ],
+    "sections": [
+      {
+        "tipo": "gancho",
+        "texto": "Quieres decir “sin hacer” o “no hagas” y dudas: ¿なくて o ないで? No es intercambiable; uno une excusas, otro marca ausencia."
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "～なくて y ～ないで son las dos て negativas. Parecen iguales pero IMABI 35 distingue: なくて es causa/conexión (no hice y...), ないで es medio/ausencia (sin hacer) y petición.\n\nObjetivo: elegir なくて vs ないで según si expresas causa o “sin”.\n\n🧩 Fórmula:\n- 【ない → なくて】 causa: 安くなくて買わなかった (no era barato y no compré)\n- 【ない → ないで】 sin: 食べないで寝た (dormí sin comer)\n- 【ないでください】 petición negativa: 触らないでください (no toque)\n\nPiensa en bloques: なくて = no y entonces; ないで = sin / no hagas.\n\n👣 Cómo construirlo (3 pasos):\n1) Haz negativo en ない: する→しない, 食べる→食べない\n2) ¿Unes causa? → なくて: しなくて (no hacer y)\n3) ¿“Sin” o orden negativa? → ないで: 食べないで (sin comer), 食べないでください (no comas por favor)\n\n⚖️ Tabla て negativo:\n| Positivo て | なくて (causa) | ないで (sin/petición) |\n|---|---|---|\n| 食べて | 食べなくて | 食べないで |\n| して | しなくて | しないで |\n| 行って | 行かなくて | 行かないで |\n\n💡 Ejemplos desglosados:\n1) 宿題をしなくて、遊びました。 (しゅくだいをしなくて、あそびました。) — “No hice deberes y jugué.” → しなくて(→ しない + くて) + 遊びました.\n2) 朝ごはんを食べないで行った。 (あさごはんをたべないでいった。) — “Fui sin desayunar.” → 食べないで(→ 食べない + で) + 行った.\n3) 食べないでください。 (たべないでください。) — “No comas por favor.” → 食べないで + ください (petición negativa).\n\n🔑 Mini-resumen:\n□ なくて = no ～ y (causa/conexión neutra)\n□ ないで = sin ～ / no ～ por favor (ausencia/petición)\n□ Petición fija: ～ないでください (la más usada)\n\n❌ Error 90%: usar なくてください (no existe). Es siempre ないでください. Y no uses なくて para “sin”: 食べなくて寝た suena causa rara; di 食べないで寝た.\n\n💬 Truco offline: di pares: しなくて→次に○○した (causa), しないで→行った (sin). Active recall. ¿Por qué 5 ítems? Domina 2 hoy, resto SRS.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Repite en voz alta marcando la partícula para anclar ritmo. En Cuba practica señalando objetos reales: mi libro, tu libro, su libro. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase.",
+        "palabras": 409
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "宿題をしなくて、遊びました。",
+            "furigana": "しゅくだいをしなくて、あそびました。",
+            "romaji": "shukudai wo shinakute, asobimashita.",
+            "es": "No hice deberes y jugué.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "朝ごはんを食べないで行った。",
+            "furigana": "あさごはんをたべないでいった。",
+            "romaji": "asagohan wo tabenaide itta.",
+            "es": "Fui sin desayunar.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "食べないでください。",
+            "furigana": "たべないでください。",
+            "romaji": "tabenaide kudasai.",
+            "es": "Por favor no comas.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "宿題をしなくて、遊びました。",
+            "furigana": "しゅくだいをしなくて、あそびました。",
+            "es": "No hice deberes y jugué.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "宿題をしなくて、遊びました。 — No hice deberes y jugué."
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "朝ごはんを食べないで行った。",
+            "furigana": "あさごはんをたべないでいった。",
+            "es": "Fui sin desayunar.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "朝ごはんを食べないで行った。 — Fui sin desayunar."
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "宿題をしなくて、遊びました。",
+            "furigana": "しゅくだいをしなくて、あそびました。",
+            "es": "No hice deberes y jugué.",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Escucha, pausa 3s, repite."
+          },
+          {
+            "tipo": "produccion",
+            "prompt": "Produce en japonés: 'Por favor no comas.'",
+            "respuesta": "食べないでください。",
+            "jp": "食べないでください。",
+            "mostrar_texto_antes": false,
+            "rate": 0.8
+          }
+        ]
+      },
+      {
+        "tipo": "errores_comunes",
+        "texto": "Error típico: なくて vs ないで intercambiables — no lo son. なくて suena causa; para 'sin' siempre ないで. Y la petición es siempre ないでください, nunca なくてください."
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Hoy: なくて causa vs ないで sin/petición. Próxima: ている progresivo. Di 3 veces: 食べないでください。"
+      }
+    ],
+    "wexdc": true,
+    "clarity": 3,
+    "autoevaluacion": {
+      "explica_no_informa": true,
+      "palabras_explicacion": 409,
+      "listening_puro_incluido": true,
+      "listening_puro_cantidad": 2,
+      "confianza": 9
+    }
+  },
+  {
+    "id": "l-imabi-036",
+    "title": "IMABI 36: ～ている — progresivo y resultado 雨が降っている",
+    "stage": "IMABI · Beginners I",
+    "minutes": 9,
+    "level": "n5",
+    "teach": [
+      {
+        "heading": "IMABI 36: ～ている — progresivo y resultado 雨が降っている",
+        "text": "～ている: acción en curso (食べている = está comiendo) o estado resultante (知っている = sé, resultado de haber conocido).",
+        "examples": [
+          {
+            "jp": "今、ご飯を食べています。",
+            "kana": "いま、ごはんをたべています。",
+            "es": "Ahora estoy comiendo."
+          },
+          {
+            "jp": "雨が降っています。",
+            "kana": "あめがふっています。",
+            "es": "Está lloviendo."
+          },
+          {
+            "jp": "田中さんを知っていますか。",
+            "kana": "たなかさんをしっていますか。",
+            "es": "¿Conoces a Tanaka?"
+          }
+        ]
+      }
+    ],
+    "quiz": {
+      "practice": "grammar",
+      "direction": "grammar-es",
+      "ids": [
+        "g-desu",
+        "g-desu-1",
+        "g-desu-2"
+      ]
+    },
+    "secciones": [
+      {
+        "tipo": "gancho",
+        "texto": "Dices 知っています y te traducen “estoy sabiendo” literal y no cuadra. ¿Por qué ている a veces es “estoy -ando” y a veces es “ya sé”?"
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "～ている es el comodín N5: marca o acción en progreso o estado que queda tras la acción. Depende del verbo.\n\nObjetivo: formar て+いる y distinguir progresivo vs resultado.\n\n🧩 Fórmula: 【Verbo て-form + いる】 → 食べている, 降っている, 知っている\nCortés: ています (habla), Plano: てる (casual) → 食べてる\n- 食べている (progresivo: ahora mismo come)\n- 知っている (resultado: ya conozco y sigo conociendo)\n\nPiensa en bloques: て conecta la acción a “estar/haber quedado”.\n\n👣 Cómo construirlo (3 pasos):\n1) A て-form: 食べる→食べて, 降る→降って, 知る→知って\n2) Añade いる/います: 食べて + いる → 食べている\n3) ¿Verbo de acción puntual (知る, 結婚する) o duración (食べる, 降る)? → puntual = estado, duración = progreso\n\n⚖️ Tabla ～ている:\n| Verbo | て | +いる | Significado |\n|---|---|---|---|\n| 食べる | 食べて | 食べている | está comiendo (progreso) |\n| 降る | 降って | 降っている | está lloviendo (progreso) |\n| 知る | 知って | 知っている | sé (resultado de conocer) |\n| 開ける | 開けて | 開けている | está abierto (estado) |\n\n💡 Ejemplos desglosados:\n1) 今、ご飯を食べています。 (いま、ごはんをたべています。) — “Ahora estoy comiendo.” → 今 + ご飯を + 食べて(て-form de 食べる) + います.\n2) 雨が降っています。 (あめがふっています。) — “Está lloviendo.” → 雨が + 降って(て-form de 降る) + います.\n3) 田中さんを知っていますか。 (たなかさんをしっていますか。) — “¿Conoces a Tanaka?” → 田中さんを + 知って(て-form de 知る) + いますか.\n\n🔑 Mini-resumen:\n□ て+いる = en curso si el verbo dura (食べている), = estado si es puntual (知っている)\n□ Casual hablado: てる → 食べてる, 降ってる\n□ No confundas con てある (intencional) IMABI 37\n\n❌ Error 90%: traducir 知っている = “estoy conociendo” (suena proceso). Es “sé”. Y usar ている para hábito puro: mejor 習慣は présent, no siempre ている. En Cuba, piensa: ¿sigue pasando ahora? → ている.\n\n💬 Truco offline: di 今○○しています mirando lo que haces: 今本を読んでいます 3×. Active recall. ¿Por qué 5 ítems? Domina 2 hoy, resto SRS.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Repite en voz alta marcando la partícula para anclar ritmo. En Cuba practica señalando objetos reales: mi libro, tu libro, su libro. Repasa el ejemplo en voz alta y crea tu propia frase.",
+        "palabras": 406
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "今、ご飯を食べています。",
+            "furigana": "いま、ごはんをたべています。",
+            "romaji": "ima, gohan wo tabete imasu.",
+            "es": "Ahora estoy comiendo.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "雨が降っています。",
+            "furigana": "あめがふっています。",
+            "romaji": "ame ga futte imasu.",
+            "es": "Está lloviendo.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "田中さんを知っていますか。",
+            "furigana": "たなかさんをしっていますか。",
+            "romaji": "tanaka san wo shitte imasu ka.",
+            "es": "¿Conoces a Tanaka?",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "今、ご飯を食べています。",
+            "furigana": "いま、ごはんをたべています。",
+            "es": "Ahora estoy comiendo.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "今、ご飯を食べています。 — Ahora estoy comiendo."
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "雨が降っています。",
+            "furigana": "あめがふっています。",
+            "es": "Está lloviendo.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "雨が降っています。 — Está lloviendo."
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "今、ご飯を食べています。",
+            "furigana": "いま、ごはんをたべています。",
+            "es": "Ahora estoy comiendo.",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Escucha, pausa 3s, repite."
+          },
+          {
+            "tipo": "produccion",
+            "prompt": "Produce en japonés: '¿Conoces a Tanaka?'",
+            "respuesta": "田中さんを知っていますか。",
+            "jp": "田中さんを知っていますか。",
+            "mostrar_texto_antes": false,
+            "rate": 0.8
+          }
+        ]
+      },
+      {
+        "tipo": "errores_comunes",
+        "texto": "Error típico: usar ている para todo hábito: 毎日走っている vs 毎日走る. Habitual simple usa diccionario/ます, no siempre ている. ている es ahora/resultado."
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Hoy: て+いる progresivo/estado. Próxima: てある estado intencional. Di 3 veces: 雨が降っています。"
+      }
+    ],
+    "sections": [
+      {
+        "tipo": "gancho",
+        "texto": "Dices 知っています y te traducen “estoy sabiendo” literal y no cuadra. ¿Por qué ている a veces es “estoy -ando” y a veces es “ya sé”?"
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "～ている es el comodín N5: marca o acción en progreso o estado que queda tras la acción. Depende del verbo.\n\nObjetivo: formar て+いる y distinguir progresivo vs resultado.\n\n🧩 Fórmula: 【Verbo て-form + いる】 → 食べている, 降っている, 知っている\nCortés: ています (habla), Plano: てる (casual) → 食べてる\n- 食べている (progresivo: ahora mismo come)\n- 知っている (resultado: ya conozco y sigo conociendo)\n\nPiensa en bloques: て conecta la acción a “estar/haber quedado”.\n\n👣 Cómo construirlo (3 pasos):\n1) A て-form: 食べる→食べて, 降る→降って, 知る→知って\n2) Añade いる/います: 食べて + いる → 食べている\n3) ¿Verbo de acción puntual (知る, 結婚する) o duración (食べる, 降る)? → puntual = estado, duración = progreso\n\n⚖️ Tabla ～ている:\n| Verbo | て | +いる | Significado |\n|---|---|---|---|\n| 食べる | 食べて | 食べている | está comiendo (progreso) |\n| 降る | 降って | 降っている | está lloviendo (progreso) |\n| 知る | 知って | 知っている | sé (resultado de conocer) |\n| 開ける | 開けて | 開けている | está abierto (estado) |\n\n💡 Ejemplos desglosados:\n1) 今、ご飯を食べています。 (いま、ごはんをたべています。) — “Ahora estoy comiendo.” → 今 + ご飯を + 食べて(て-form de 食べる) + います.\n2) 雨が降っています。 (あめがふっています。) — “Está lloviendo.” → 雨が + 降って(て-form de 降る) + います.\n3) 田中さんを知っていますか。 (たなかさんをしっていますか。) — “¿Conoces a Tanaka?” → 田中さんを + 知って(て-form de 知る) + いますか.\n\n🔑 Mini-resumen:\n□ て+いる = en curso si el verbo dura (食べている), = estado si es puntual (知っている)\n□ Casual hablado: てる → 食べてる, 降ってる\n□ No confundas con てある (intencional) IMABI 37\n\n❌ Error 90%: traducir 知っている = “estoy conociendo” (suena proceso). Es “sé”. Y usar ている para hábito puro: mejor 習慣は présent, no siempre ている. En Cuba, piensa: ¿sigue pasando ahora? → ている.\n\n💬 Truco offline: di 今○○しています mirando lo que haces: 今本を読んでいます 3×. Active recall. ¿Por qué 5 ítems? Domina 2 hoy, resto SRS.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Repite en voz alta marcando la partícula para anclar ritmo. En Cuba practica señalando objetos reales: mi libro, tu libro, su libro. Repasa el ejemplo en voz alta y crea tu propia frase.",
+        "palabras": 406
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "今、ご飯を食べています。",
+            "furigana": "いま、ごはんをたべています。",
+            "romaji": "ima, gohan wo tabete imasu.",
+            "es": "Ahora estoy comiendo.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "雨が降っています。",
+            "furigana": "あめがふっています。",
+            "romaji": "ame ga futte imasu.",
+            "es": "Está lloviendo.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "田中さんを知っていますか。",
+            "furigana": "たなかさんをしっていますか。",
+            "romaji": "tanaka san wo shitte imasu ka.",
+            "es": "¿Conoces a Tanaka?",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "今、ご飯を食べています。",
+            "furigana": "いま、ごはんをたべています。",
+            "es": "Ahora estoy comiendo.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "今、ご飯を食べています。 — Ahora estoy comiendo."
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "雨が降っています。",
+            "furigana": "あめがふっています。",
+            "es": "Está lloviendo.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "雨が降っています。 — Está lloviendo."
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "今、ご飯を食べています。",
+            "furigana": "いま、ごはんをたべています。",
+            "es": "Ahora estoy comiendo.",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Escucha, pausa 3s, repite."
+          },
+          {
+            "tipo": "produccion",
+            "prompt": "Produce en japonés: '¿Conoces a Tanaka?'",
+            "respuesta": "田中さんを知っていますか。",
+            "jp": "田中さんを知っていますか。",
+            "mostrar_texto_antes": false,
+            "rate": 0.8
+          }
+        ]
+      },
+      {
+        "tipo": "errores_comunes",
+        "texto": "Error típico: usar ている para todo hábito: 毎日走っている vs 毎日走る. Habitual simple usa diccionario/ます, no siempre ている. ている es ahora/resultado."
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Hoy: て+いる progresivo/estado. Próxima: てある estado intencional. Di 3 veces: 雨が降っています。"
+      }
+    ],
+    "wexdc": true,
+    "clarity": 3,
+    "autoevaluacion": {
+      "explica_no_informa": true,
+      "palabras_explicacion": 406,
+      "listening_puro_incluido": true,
+      "listening_puro_cantidad": 2,
+      "confianza": 9
+    }
+  },
+  {
+    "id": "l-imabi-037",
+    "title": "IMABI 37: ～てある — estado con intención 窓が開けてある",
+    "stage": "IMABI · Beginners I",
+    "minutes": 9,
+    "level": "n5",
+    "teach": [
+      {
+        "heading": "IMABI 37: ～てある — estado con intención 窓が開けてある",
+        "text": "～てある: alguien hizo algo a propósito y quedó así. 窓が開けてある (la ventana está abierta (alguien la abrió a propósito)). Vs 開いている (está abierta, no importa quién).",
+        "examples": [
+          {
+            "jp": "窓が開けてあります。",
+            "kana": "まどがあけてあります。",
+            "es": "La ventana está abierta (a propósito)."
+          },
+          {
+            "jp": "本が並べてあります。",
+            "kana": "ほんがならべてあります。",
+            "es": "Los libros están ordenados (alguien los ordenó)."
+          },
+          {
+            "jp": "電気がつけてあります。",
+            "kana": "でんきがつけてあります。",
+            "es": "La luz está encendida (a propósito)."
+          }
+        ]
+      }
+    ],
+    "quiz": {
+      "practice": "grammar",
+      "direction": "grammar-es",
+      "ids": [
+        "g-desu",
+        "g-desu-1",
+        "g-desu-2"
+      ]
+    },
+    "secciones": [
+      {
+        "tipo": "gancho",
+        "texto": "Ves 窓が開いている y 窓が開けてある y parecen “abierto” igual. ¿Por qué dos formas? Una borra al agente, la otra lo presume."
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "～てある marca estado resultante de una acción intencional transitiva. Alguien abrió la ventana a propósito y sigue abierta. Con ～ている solo constatas estado; con ～てある enfatizas intención/preparación.\n\nObjetivo: formar Verbo transitivo て + ある y contrastarlo con ている.\n\n🧩 Fórmula: 【Verbo transitivo て-form + ある】 → 開ける→開けてある, 並べる→並べてある, つける→つけてある\nCortés: てあります, Plano: てある\n- 窓が開けてある (ventana abierta a propósito)\n- 本が並べてある (libros alineados a propósito)\n\nPiensa en bloques: て conecta la acción preparada a ある (existir).\n\n👣 Cómo construirlo (3 pasos):\n1) Solo con transitivos (abrir, poner, ordenar): 開ける, 並べる\n2) A て-form + ある: 開けて + ある → 開けてある\n3) Partícula が marca el objeto preparado: 窓が開けてある (no を, porque es estado)\n\n⚖️ Tabla ～ている vs ～てある:\n| Forma | Verbo | Ejemplo | Matiz |\n|---|---|---|---|\n| 開いている | 開く(vi) | 窓が開いている | está abierta (constatas) |\n| 開けてある | 開ける(vt) | 窓が開けてある | está abierta (alguien la abrió) |\n| ついている | つく | 電気がついている | luz encendida |\n| つけてある | つける | 電気がつけてある | luz encendida (preparado) |\n\n💡 Ejemplos desglosados:\n1) 窓が開けてあります。 (まどがあけてあります。) — “Ventana abierta (a propósito).” → 窓が + 開けて(て-form de 開ける) + あります.\n2) 本が並べてあります。 (ほんがならべてあります。) — “Libros están ordenados.” → 本が + 並べて(て-form) + あります.\n3) 電気がつけてあります。 (でんきがつけてあります。) — “Luz encendida (a propósito).” → 電気が + つけて + あります.\n\n🔑 Mini-resumen:\n□ てある solo transitivos + intención visible\n□ Partícula が para el estado: 窓が開けてある (no 窓を開けてある en estado; eso es acción)\n□ ている neutral, てある intencional/preparado\n\n❌ Error 90%: usar てある con intransitivos → 降ってある (mal, 降る es intransitivo). Di 降っている. Y usar を con estado: 窓を開けてある (acción: abrir ventana y dejarla), vs 窓が開けてある (estado).\n\n💬 Truco offline: mira tu cuarto y di 3 estados intencionales: 本が並べてある, 電気がつけてある, 窓が開けてある. Active recall. ¿Por qué 5 ítems? Domina 2 hoy, resto SRS.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Repite en voz alta marcando la partícula para anclar ritmo. En Cuba practica señalando objetos reales: mi libro, tu libro, su libro. Repasa el ejemplo en voz alta y crea tu propia frase.",
+        "palabras": 406
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "窓が開けてあります。",
+            "furigana": "まどがあけてあります。",
+            "romaji": "mado ga akete arimasu.",
+            "es": "La ventana está abierta (a propósito).",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "本が並べてあります。",
+            "furigana": "ほんがならべてあります。",
+            "romaji": "hon ga narabete arimasu.",
+            "es": "Los libros están ordenados.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "電気がつけてあります。",
+            "furigana": "でんきがつけてあります。",
+            "romaji": "denki ga tsukete arimasu.",
+            "es": "La luz está encendida.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "窓が開けてあります。",
+            "furigana": "まどがあけてあります。",
+            "es": "La ventana está abierta (a propósito).",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "窓が開けてあります。 — La ventana está abierta."
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "本が並べてあります。",
+            "furigana": "ほんがならべてあります。",
+            "es": "Los libros están ordenados.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "本が並べてあります。 — Los libros están ordenados."
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "窓が開けてあります。",
+            "furigana": "まどがあけてあります。",
+            "es": "La ventana está abierta.",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Escucha, pausa 3s, repite."
+          },
+          {
+            "tipo": "produccion",
+            "prompt": "Produce en japonés: 'Los libros están ordenados.'",
+            "respuesta": "本が並べてあります。",
+            "jp": "本が並べてあります。",
+            "mostrar_texto_antes": false,
+            "rate": 0.8
+          }
+        ]
+      },
+      {
+        "tipo": "errores_comunes",
+        "texto": "Error típico: てある con intransitivo (降ってある) — imposible. Solo transitivos. Y confundir が/を: estado es が (窓が開けてある), acción es を (窓を開けておく)."
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Hoy: てある estado intencional. Próxima: números sino-japoneses. Di 3 veces: 窓が開けてあります。"
+      }
+    ],
+    "sections": [
+      {
+        "tipo": "gancho",
+        "texto": "Ves 窓が開いている y 窓が開けてある y parecen “abierto” igual. ¿Por qué dos formas? Una borra al agente, la otra lo presume."
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "～てある marca estado resultante de una acción intencional transitiva. Alguien abrió la ventana a propósito y sigue abierta. Con ～ている solo constatas estado; con ～てある enfatizas intención/preparación.\n\nObjetivo: formar Verbo transitivo て + ある y contrastarlo con ている.\n\n🧩 Fórmula: 【Verbo transitivo て-form + ある】 → 開ける→開けてある, 並べる→並べてある, つける→つけてある\nCortés: てあります, Plano: てある\n- 窓が開けてある (ventana abierta a propósito)\n- 本が並べてある (libros alineados a propósito)\n\nPiensa en bloques: て conecta la acción preparada a ある (existir).\n\n👣 Cómo construirlo (3 pasos):\n1) Solo con transitivos (abrir, poner, ordenar): 開ける, 並べる\n2) A て-form + ある: 開けて + ある → 開けてある\n3) Partícula が marca el objeto preparado: 窓が開けてある (no を, porque es estado)\n\n⚖️ Tabla ～ている vs ～てある:\n| Forma | Verbo | Ejemplo | Matiz |\n|---|---|---|---|\n| 開いている | 開く(vi) | 窓が開いている | está abierta (constatas) |\n| 開けてある | 開ける(vt) | 窓が開けてある | está abierta (alguien la abrió) |\n| ついている | つく | 電気がついている | luz encendida |\n| つけてある | つける | 電気がつけてある | luz encendida (preparado) |\n\n💡 Ejemplos desglosados:\n1) 窓が開けてあります。 (まどがあけてあります。) — “Ventana abierta (a propósito).” → 窓が + 開けて(て-form de 開ける) + あります.\n2) 本が並べてあります。 (ほんがならべてあります。) — “Libros están ordenados.” → 本が + 並べて(て-form) + あります.\n3) 電気がつけてあります。 (でんきがつけてあります。) — “Luz encendida (a propósito).” → 電気が + つけて + あります.\n\n🔑 Mini-resumen:\n□ てある solo transitivos + intención visible\n□ Partícula が para el estado: 窓が開けてある (no 窓を開けてある en estado; eso es acción)\n□ ている neutral, てある intencional/preparado\n\n❌ Error 90%: usar てある con intransitivos → 降ってある (mal, 降る es intransitivo). Di 降っている. Y usar を con estado: 窓を開けてある (acción: abrir ventana y dejarla), vs 窓が開けてある (estado).\n\n💬 Truco offline: mira tu cuarto y di 3 estados intencionales: 本が並べてある, 電気がつけてある, 窓が開けてある. Active recall. ¿Por qué 5 ítems? Domina 2 hoy, resto SRS.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Repite en voz alta marcando la partícula para anclar ritmo. En Cuba practica señalando objetos reales: mi libro, tu libro, su libro. Repasa el ejemplo en voz alta y crea tu propia frase.",
+        "palabras": 406
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "窓が開けてあります。",
+            "furigana": "まどがあけてあります。",
+            "romaji": "mado ga akete arimasu.",
+            "es": "La ventana está abierta (a propósito).",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "本が並べてあります。",
+            "furigana": "ほんがならべてあります。",
+            "romaji": "hon ga narabete arimasu.",
+            "es": "Los libros están ordenados.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "電気がつけてあります。",
+            "furigana": "でんきがつけてあります。",
+            "romaji": "denki ga tsukete arimasu.",
+            "es": "La luz está encendida.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "窓が開けてあります。",
+            "furigana": "まどがあけてあります。",
+            "es": "La ventana está abierta (a propósito).",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "窓が開けてあります。 — La ventana está abierta."
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "本が並べてあります。",
+            "furigana": "ほんがならべてあります。",
+            "es": "Los libros están ordenados.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "本が並べてあります。 — Los libros están ordenados."
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "窓が開けてあります。",
+            "furigana": "まどがあけてあります。",
+            "es": "La ventana está abierta.",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Escucha, pausa 3s, repite."
+          },
+          {
+            "tipo": "produccion",
+            "prompt": "Produce en japonés: 'Los libros están ordenados.'",
+            "respuesta": "本が並べてあります。",
+            "jp": "本が並べてあります。",
+            "mostrar_texto_antes": false,
+            "rate": 0.8
+          }
+        ]
+      },
+      {
+        "tipo": "errores_comunes",
+        "texto": "Error típico: てある con intransitivo (降ってある) — imposible. Solo transitivos. Y confundir が/を: estado es が (窓が開けてある), acción es を (窓を開けておく)."
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Hoy: てある estado intencional. Próxima: números sino-japoneses. Di 3 veces: 窓が開けてあります。"
+      }
+    ],
+    "wexdc": true,
+    "clarity": 3,
+    "autoevaluacion": {
+      "explica_no_informa": true,
+      "palabras_explicacion": 406,
+      "listening_puro_incluido": true,
+      "listening_puro_cantidad": 2,
+      "confianza": 9
+    }
+  },
+  {
+    "id": "l-imabi-038",
+    "title": "IMABI 38: Números sino-japoneses 0-10,000 一二三",
+    "stage": "IMABI · Beginners I",
+    "minutes": 9,
+    "level": "n5",
+    "teach": [
+      {
+        "heading": "IMABI 38: Números sino-japoneses 0-10,000 一二三",
+        "text": "Serie on: 0零/れい,1一いち,2二に,3三さん,4四し/よん,5五ご,6六ろく,7七しち/なな,8八はち,9九きゅう/く,10十じゅう,100百ひゃく,1000千せん,10000万まん.",
+        "examples": [
+          {
+            "jp": "リンゴが三つあります。",
+            "kana": "りんごがみっつあります。",
+            "es": "Hay 3 manzanas (nativa, ver 39)."
+          },
+          {
+            "jp": "十時です。",
+            "kana": "じゅうじです。",
+            "es": "Son las 10."
+          },
+          {
+            "jp": "千円です。",
+            "kana": "せんえんです。",
+            "es": "Son 1000 yenes."
+          }
+        ]
+      }
+    ],
+    "quiz": {
+      "practice": "grammar",
+      "direction": "grammar-es",
+      "ids": [
+        "g-desu",
+        "g-desu-1",
+        "g-desu-2"
+      ]
+    },
+    "secciones": [
+      {
+        "tipo": "gancho",
+        "texto": "Ves 三千 y dices さんせん bien, pero 三百 es さんびゃく no さんひゃく. ¿Por qué cambia h→b/p? Sin on + rendaku numérico te equivocas siempre."
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "Los números sino-japoneses (onyomi) son la serie china que usas para casi todo: hora, dinero, fechas, contadores sino. Base 1-10 + potencias 10,100,1000,10000.\n\nObjetivo: leer 0-10,000 sin dudar y saber cuándo suenan し/しち vs よん/なな.\n\n🧩 Fórmula:【千 百 十 一】→ 2025=二千二十五 (にせんにじゅうご). Se lee por potencias: 千(10³)百(10²)十(10¹).\nRegla de sonido: 1,6,8,10 ante 百/千/万 a veces son sordas o geminadas: 三百さんびゃく (h→by), 六百ろっぴゃく (p), 八百はっぴゃく.\n\nPiensa en bloques: número = capas de mil→cien→diez→uno.\n\n👣 Cómo construirlo (3 pasos):\n1) 1-10 sólidos: いち,に,さん,し/よん,ご,ろく,しち/なな,はち,きゅう/く,じゅう. Para 4/7/9 memoriza alternativa: よん(4),なな(7),きゅう(9) más usada moderna.\n2) 11-99: 十 + resto → 十一じゅういち(11), 二十にじゅう(20), 三十五さんじゅうご(35)\n3) 100+: 百ひゃく, 千せん, 万まん + eufonía: 三百さんびゃく, 六百ろっぴゃく, 八百はっぴゃく, 三千さんぜん, 八千はっせん, 一万いちまん\n\n⚖️ Tabla base:\n| Num | On | Nota |\n|---|---|---|\n|0|れい/ゼロ|れい formal, ゼロ cotidiano|\n|4|し/よん|よん para contar sin confusión|\n|7|しち/なな|なな más común|\n|300|さんびゃく|rendaku h→b|\n|600|ろっぴゃく|geminada p|\n|800|はっぴゃく|geminada p|\n|3000|さんぜん|h→z en 千|\n\n💡 Ejemplos desglosados:\n1) 十時です。(じゅうじです。)— “Son las 10.” → 十(じゅう10)+時(じ hora)=10 en punto.\n2) 千円です。(せんえんです。)— “Son 1000 yenes.” → 千(せん1000)+円(えん yen).\n3) 三百円です。(さんびゃくえんです。)— “300 yenes.” → 三+百 con cambio ひゃく→びゃく.\n\n🔑 Mini-resumen:\n□ Serie on para hora/dinero/fechas/contadores.\n□ 4→よん,7→なな,9→きゅう evita homofonía.\n□ 300/600/800 y 3000/8000 tienen sonido especial: memoriza さんびゃく・ろっぴゃく・はっぴゃく・さんぜん・はっせん\n\n❌ Error 90%: decir さんひゃく (300) → es さんびゃく. Pronunciar し para 4 en conteo y confundir con muerte → usa よん. Y olvidar 万: 10000 no es 十千.\n\n💬 Truco offline: cuenta del 1 al 20 en voz alta 3×, luego 300/600/800/3000/8000. Active recall. Di tu precio: 私は二千円持っています.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Interleaving: mezcla este tema + vocab + escucha, nunca 10 números seguidos sin contexto. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
+        "palabras": 411
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "十時です。",
+            "furigana": "じゅうじです。",
+            "romaji": "juuji desu.",
+            "es": "Son las 10.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "千円です。",
+            "furigana": "せんえんです。",
+            "romaji": "sen en desu.",
+            "es": "Son 1000 yenes.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "三百円です。",
+            "furigana": "さんびゃくえんです。",
+            "romaji": "sanbyaku en desu.",
+            "es": "Son 300 yenes.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "十時です。",
+            "furigana": "じゅうじです。",
+            "es": "Son las 10.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "十時です。 — Son las 10."
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "千円です。",
+            "furigana": "せんえんです。",
+            "es": "Son 1000 yenes.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "千円です。 — Son 1000 yenes."
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "三百円です。",
+            "furigana": "さんびゃくえんです。",
+            "es": "Son 300 yenes.",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Escucha, pausa 3s, repite."
+          },
+          {
+            "tipo": "produccion",
+            "prompt": "Produce en japonés: 'Son las 10.'",
+            "respuesta": "十時です。",
+            "jp": "十時です。",
+            "mostrar_texto_antes": false,
+            "rate": 0.8
+          }
+        ]
+      },
+      {
+        "tipo": "errores_comunes",
+        "texto": "Error típico: さんひゃく vs さんびゃく, ろくひゃく vs ろっぴゃく, はちひゃく vs はっぴゃく. Haz flashcards solo para 300/600/800/3000/8000. Y confundir ゼロ/れい: cero telefónico es ゼロ, matemática れい."
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Hoy: 0-10,000 sino con eufonía. Próxima: nativa ひとつ〜とお. Di 3 veces: さんびゃく、ろっぴゃく、さんぜん。"
+      }
+    ],
+    "sections": [
+      {
+        "tipo": "gancho",
+        "texto": "Ves 三千 y dices さんせん bien, pero 三百 es さんびゃく no さんひゃく. ¿Por qué cambia h→b/p? Sin on + rendaku numérico te equivocas siempre."
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "Los números sino-japoneses (onyomi) son la serie china que usas para casi todo: hora, dinero, fechas, contadores sino. Base 1-10 + potencias 10,100,1000,10000.\n\nObjetivo: leer 0-10,000 sin dudar y saber cuándo suenan し/しち vs よん/なな.\n\n🧩 Fórmula:【千 百 十 一】→ 2025=二千二十五 (にせんにじゅうご). Se lee por potencias: 千(10³)百(10²)十(10¹).\nRegla de sonido: 1,6,8,10 ante 百/千/万 a veces son sordas o geminadas: 三百さんびゃく (h→by), 六百ろっぴゃく (p), 八百はっぴゃく.\n\nPiensa en bloques: número = capas de mil→cien→diez→uno.\n\n👣 Cómo construirlo (3 pasos):\n1) 1-10 sólidos: いち,に,さん,し/よん,ご,ろく,しち/なな,はち,きゅう/く,じゅう. Para 4/7/9 memoriza alternativa: よん(4),なな(7),きゅう(9) más usada moderna.\n2) 11-99: 十 + resto → 十一じゅういち(11), 二十にじゅう(20), 三十五さんじゅうご(35)\n3) 100+: 百ひゃく, 千せん, 万まん + eufonía: 三百さんびゃく, 六百ろっぴゃく, 八百はっぴゃく, 三千さんぜん, 八千はっせん, 一万いちまん\n\n⚖️ Tabla base:\n| Num | On | Nota |\n|---|---|---|\n|0|れい/ゼロ|れい formal, ゼロ cotidiano|\n|4|し/よん|よん para contar sin confusión|\n|7|しち/なな|なな más común|\n|300|さんびゃく|rendaku h→b|\n|600|ろっぴゃく|geminada p|\n|800|はっぴゃく|geminada p|\n|3000|さんぜん|h→z en 千|\n\n💡 Ejemplos desglosados:\n1) 十時です。(じゅうじです。)— “Son las 10.” → 十(じゅう10)+時(じ hora)=10 en punto.\n2) 千円です。(せんえんです。)— “Son 1000 yenes.” → 千(せん1000)+円(えん yen).\n3) 三百円です。(さんびゃくえんです。)— “300 yenes.” → 三+百 con cambio ひゃく→びゃく.\n\n🔑 Mini-resumen:\n□ Serie on para hora/dinero/fechas/contadores.\n□ 4→よん,7→なな,9→きゅう evita homofonía.\n□ 300/600/800 y 3000/8000 tienen sonido especial: memoriza さんびゃく・ろっぴゃく・はっぴゃく・さんぜん・はっせん\n\n❌ Error 90%: decir さんひゃく (300) → es さんびゃく. Pronunciar し para 4 en conteo y confundir con muerte → usa よん. Y olvidar 万: 10000 no es 十千.\n\n💬 Truco offline: cuenta del 1 al 20 en voz alta 3×, luego 300/600/800/3000/8000. Active recall. Di tu precio: 私は二千円持っています.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Interleaving: mezcla este tema + vocab + escucha, nunca 10 números seguidos sin contexto. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
+        "palabras": 411
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "十時です。",
+            "furigana": "じゅうじです。",
+            "romaji": "juuji desu.",
+            "es": "Son las 10.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "千円です。",
+            "furigana": "せんえんです。",
+            "romaji": "sen en desu.",
+            "es": "Son 1000 yenes.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "三百円です。",
+            "furigana": "さんびゃくえんです。",
+            "romaji": "sanbyaku en desu.",
+            "es": "Son 300 yenes.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "十時です。",
+            "furigana": "じゅうじです。",
+            "es": "Son las 10.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "十時です。 — Son las 10."
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "千円です。",
+            "furigana": "せんえんです。",
+            "es": "Son 1000 yenes.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "千円です。 — Son 1000 yenes."
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "三百円です。",
+            "furigana": "さんびゃくえんです。",
+            "es": "Son 300 yenes.",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Escucha, pausa 3s, repite."
+          },
+          {
+            "tipo": "produccion",
+            "prompt": "Produce en japonés: 'Son las 10.'",
+            "respuesta": "十時です。",
+            "jp": "十時です。",
+            "mostrar_texto_antes": false,
+            "rate": 0.8
+          }
+        ]
+      },
+      {
+        "tipo": "errores_comunes",
+        "texto": "Error típico: さんひゃく vs さんびゃく, ろくひゃく vs ろっぴゃく, はちひゃく vs はっぴゃく. Haz flashcards solo para 300/600/800/3000/8000. Y confundir ゼロ/れい: cero telefónico es ゼロ, matemática れい."
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Hoy: 0-10,000 sino con eufonía. Próxima: nativa ひとつ〜とお. Di 3 veces: さんびゃく、ろっぴゃく、さんぜん。"
+      }
+    ],
+    "wexdc": true,
+    "clarity": 3,
+    "autoevaluacion": {
+      "explica_no_informa": true,
+      "palabras_explicacion": 411,
+      "listening_puro_incluido": true,
+      "listening_puro_cantidad": 2,
+      "confianza": 9
+    }
+  },
+  {
+    "id": "l-imabi-039",
+    "title": "IMABI 39: Nativa ひとつ〜とお + ～つ",
+    "stage": "IMABI · Beginners I",
+    "minutes": 8,
+    "level": "n5",
+    "teach": [
+      {
+        "heading": "IMABI 39: Nativa ひとつ〜とお + ～つ",
+        "text": "Serie kun nativa: 1ひとつ,2ふたつ,3みっつ,4よっつ,5いつつ,6むっつ,7ななつ,8やっつ,9ここのつ,10とお. Se usa con ～つ contador general hasta 10.",
+        "examples": [
+          {
+            "jp": "リンゴを二つください。",
+            "kana": "りんごをふたつください。",
+            "es": "Dos manzanas, por favor."
+          },
+          {
+            "jp": "みっつあります。",
+            "kana": "みっつあります。",
+            "es": "Hay tres (cosas)."
+          },
+          {
+            "jp": "一つずつ取ってください。",
+            "kana": "ひとつずつとってください。",
+            "es": "Tomen uno cada uno."
+          }
+        ]
+      }
+    ],
+    "quiz": {
+      "practice": "grammar",
+      "direction": "grammar-es",
+      "ids": [
+        "g-desu",
+        "g-desu-1",
+        "g-desu-2"
+      ]
+    },
+    "secciones": [
+      {
+        "tipo": "gancho",
+        "texto": "Pides 2 manzanas y dudas: にこ? ふたつ? みっつ? Con serie nativa + ～つ no puedes usar la sino sola para cosas sueltas."
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "La serie nativa (wago) cuenta objetos abstractos y pequeños sin clasificar hasta 10 con ～つ: ひとつ,ふたつ,みっつ...\n\nObjetivo: contar 1-10 con ～つ sin mezclar con serie sino.\n\n🧩 Fórmula:【número nativo + つ】→ ひとつ(1),ふたつ(2),みっつ(3),よっつ(4),いつつ(5),むっつ(6),ななつ(7),やっつ(8),ここのつ(9),とお(10). Desde 11 pasas a sino + つ no nativo: じゅういちこ sería raro, se cambia a sino.\n\nPiensa en bloques: nativo solo hasta 10, luego sino.\n\n👣 Cómo construirlo (3 pasos):\n1) Memoriza 1-10 nativo con ritmo: ひ・ふ・み・よ・い・む・な・や・こ・と (mnemotecnia)\n2) Añade a sustantivo con を/が: りんごをふたつ (dos manzanas)\n3) Para “cada uno” repite: ひとつずつ (uno cada uno)\n\n⚖️ Tabla nativa:\n|1|ひとつ|hi-to-tsu|\n|2|ふたつ|fu-ta-tsu|\n|3|みっつ|mittsu geminada|\n|4|よっつ|yottsu geminada|\n|8|やっつ|yattsu geminada|\n|10|とお|too 2 moras|\n\n💡 Ejemplos desglosados:\n1) リンゴを二つください。(りんごをふたつください。)— “Dos manzanas por favor.” → リンゴを + 二つ(ふたつ)+ください.\n2) みっつあります。(みっつあります。)— “Hay tres.” → みっつ(3) + あります.\n3) 一つずつ取ってください。(ひとつずつとってください。)— “Coja uno cada uno.” → 一つ(ひとつ)+ずつ(cada uno).\n\n🔑 Mini-resumen:\n□ ～つ general nativo 1-10, después usa contadores sino (個,枚...).\n□ Sonido geminado en 3,4,6,8: みっつ・よっつ・むっつ・やっつ.\n□ とお(10) no es じゅう, es nativo.\n\n❌ Error 90%: decir いちつ para 1 → es ひとつ. Usar nativo más allá de 10 → じゅうひとつ no existe, di じゅういちこ. Confundir ～つ con plural inglés: no añades s.\n\n💬 Truco offline: cuenta objetos en tu mesa: ひとつ、ふたつ...とお 3×. Active recall. En Cuba: cuenta mangos: ひとつ、ふたつ.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Interleaving: mezcla este tema + vocab + escucha, nunca 10 números seguidos sin contexto. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
+        "palabras": 409
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "リンゴを二つください。",
+            "furigana": "りんごをふたつください。",
+            "romaji": "ringo wo futatsu kudasai.",
+            "es": "Dos manzanas, por favor.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "みっつあります。",
+            "furigana": "みっつあります。",
+            "romaji": "mittsu arimasu.",
+            "es": "Hay tres.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "一つずつ取ってください。",
+            "furigana": "ひとつずつとってください。",
+            "romaji": "hitotsu zutsu totte kudasai.",
+            "es": "Tomen uno cada uno.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "リンゴを二つください。",
+            "furigana": "りんごをふたつください。",
+            "es": "Dos manzanas, por favor.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "リンゴを二つください。 — Dos manzanas, por favor."
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "みっつあります。",
+            "furigana": "みっつあります。",
+            "es": "Hay tres.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "みっつあります。 — Hay tres."
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "リンゴを二つください。",
+            "furigana": "りんごをふたつください。",
+            "es": "Dos manzanas, por favor.",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Escucha, pausa 3s, repite."
+          },
+          {
+            "tipo": "produccion",
+            "prompt": "Produce: 'Dos manzanas por favor.'",
+            "respuesta": "リンゴを二つください。",
+            "jp": "リンゴを二つください。",
+            "mostrar_texto_antes": false,
+            "rate": 0.8
+          }
+        ]
+      },
+      {
+        "tipo": "errores_comunes",
+        "texto": "Error típico: いちつ・にちつ inexistentes. Son ひとつ・ふたつ. Y usar sino con ～つ: さんつ no, es みっつ. Solo nativo con つ."
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Hoy: 1-10 nativo con ～つ. Próxima: contadores sino I 枚・本・個. Di 3 veces: ひとつ、ふたつ、みっつ。"
+      }
+    ],
+    "sections": [
+      {
+        "tipo": "gancho",
+        "texto": "Pides 2 manzanas y dudas: にこ? ふたつ? みっつ? Con serie nativa + ～つ no puedes usar la sino sola para cosas sueltas."
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "La serie nativa (wago) cuenta objetos abstractos y pequeños sin clasificar hasta 10 con ～つ: ひとつ,ふたつ,みっつ...\n\nObjetivo: contar 1-10 con ～つ sin mezclar con serie sino.\n\n🧩 Fórmula:【número nativo + つ】→ ひとつ(1),ふたつ(2),みっつ(3),よっつ(4),いつつ(5),むっつ(6),ななつ(7),やっつ(8),ここのつ(9),とお(10). Desde 11 pasas a sino + つ no nativo: じゅういちこ sería raro, se cambia a sino.\n\nPiensa en bloques: nativo solo hasta 10, luego sino.\n\n👣 Cómo construirlo (3 pasos):\n1) Memoriza 1-10 nativo con ritmo: ひ・ふ・み・よ・い・む・な・や・こ・と (mnemotecnia)\n2) Añade a sustantivo con を/が: りんごをふたつ (dos manzanas)\n3) Para “cada uno” repite: ひとつずつ (uno cada uno)\n\n⚖️ Tabla nativa:\n|1|ひとつ|hi-to-tsu|\n|2|ふたつ|fu-ta-tsu|\n|3|みっつ|mittsu geminada|\n|4|よっつ|yottsu geminada|\n|8|やっつ|yattsu geminada|\n|10|とお|too 2 moras|\n\n💡 Ejemplos desglosados:\n1) リンゴを二つください。(りんごをふたつください。)— “Dos manzanas por favor.” → リンゴを + 二つ(ふたつ)+ください.\n2) みっつあります。(みっつあります。)— “Hay tres.” → みっつ(3) + あります.\n3) 一つずつ取ってください。(ひとつずつとってください。)— “Coja uno cada uno.” → 一つ(ひとつ)+ずつ(cada uno).\n\n🔑 Mini-resumen:\n□ ～つ general nativo 1-10, después usa contadores sino (個,枚...).\n□ Sonido geminado en 3,4,6,8: みっつ・よっつ・むっつ・やっつ.\n□ とお(10) no es じゅう, es nativo.\n\n❌ Error 90%: decir いちつ para 1 → es ひとつ. Usar nativo más allá de 10 → じゅうひとつ no existe, di じゅういちこ. Confundir ～つ con plural inglés: no añades s.\n\n💬 Truco offline: cuenta objetos en tu mesa: ひとつ、ふたつ...とお 3×. Active recall. En Cuba: cuenta mangos: ひとつ、ふたつ.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Interleaving: mezcla este tema + vocab + escucha, nunca 10 números seguidos sin contexto. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
+        "palabras": 409
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "リンゴを二つください。",
+            "furigana": "りんごをふたつください。",
+            "romaji": "ringo wo futatsu kudasai.",
+            "es": "Dos manzanas, por favor.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "みっつあります。",
+            "furigana": "みっつあります。",
+            "romaji": "mittsu arimasu.",
+            "es": "Hay tres.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "一つずつ取ってください。",
+            "furigana": "ひとつずつとってください。",
+            "romaji": "hitotsu zutsu totte kudasai.",
+            "es": "Tomen uno cada uno.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "リンゴを二つください。",
+            "furigana": "りんごをふたつください。",
+            "es": "Dos manzanas, por favor.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "リンゴを二つください。 — Dos manzanas, por favor."
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "みっつあります。",
+            "furigana": "みっつあります。",
+            "es": "Hay tres.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "みっつあります。 — Hay tres."
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "リンゴを二つください。",
+            "furigana": "りんごをふたつください。",
+            "es": "Dos manzanas, por favor.",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Escucha, pausa 3s, repite."
+          },
+          {
+            "tipo": "produccion",
+            "prompt": "Produce: 'Dos manzanas por favor.'",
+            "respuesta": "リンゴを二つください。",
+            "jp": "リンゴを二つください。",
+            "mostrar_texto_antes": false,
+            "rate": 0.8
+          }
+        ]
+      },
+      {
+        "tipo": "errores_comunes",
+        "texto": "Error típico: いちつ・にちつ inexistentes. Son ひとつ・ふたつ. Y usar sino con ～つ: さんつ no, es みっつ. Solo nativo con つ."
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Hoy: 1-10 nativo con ～つ. Próxima: contadores sino I 枚・本・個. Di 3 veces: ひとつ、ふたつ、みっつ。"
+      }
+    ],
+    "wexdc": true,
+    "clarity": 3,
+    "autoevaluacion": {
+      "explica_no_informa": true,
+      "palabras_explicacion": 409,
+      "listening_puro_incluido": true,
+      "listening_puro_cantidad": 2,
+      "confianza": 9
+    }
+  },
+  {
+    "id": "l-imabi-040",
+    "title": "IMABI 40: Contadores sino I — 枚・本・個",
+    "stage": "IMABI · Beginners I",
+    "minutes": 9,
+    "level": "n5",
+    "teach": [
+      {
+        "heading": "IMABI 40: Contadores sino I — 枚・本・個",
+        "text": "3 contadores base sino: 枚まい (planos: papel, fotos), 本ほん (largos: botellas, lápices), 個こ (pequeños abstractos: manzanas, huevos).",
+        "examples": [
+          {
+            "jp": "紙が三枚あります。",
+            "kana": "かみがさんまいあります。",
+            "es": "Hay 3 hojas."
+          },
+          {
+            "jp": "ペンが二本あります。",
+            "kana": "ぺんがにほんあります。",
+            "es": "Hay 2 bolis (largos)."
+          },
+          {
+            "jp": "卵を三個買いました。",
+            "kana": "たまごをさんこかいました。",
+            "es": "Compré 3 huevos."
+          }
+        ]
+      }
+    ],
+    "quiz": {
+      "practice": "grammar",
+      "direction": "grammar-es",
+      "ids": [
+        "g-desu",
+        "g-desu-1",
+        "g-desu-2"
+      ]
+    },
+    "secciones": [
+      {
+        "tipo": "gancho",
+        "texto": "Dices 3 papeles como さんまい? さんほん? さんこ? Cada forma tiene contador distinto; sin 枚・本・個 suenas extranjero."
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "Contadores sino combinan número sino + clasificador. Los 3 más frecuentes: 枚 (planos), 本 (cilíndricos largos), 個 (piezas pequeñas).\n\nObjetivo: elegir 枚/本/個 según forma y contar con eufonía correcta.\n\n🧩 Fórmula:【número sino + contador】→ 三枚さんまい, 二本にほん, 三個さんこ. Irregulares por asimilación: 一本いっぽん, 六本ろっぽん, 八本はっぽん, 三本さんぼん, 一枚いちまい (regular).\n\nPiensa en bloques: mira forma → elige contador → aplica sonido.\n\n👣 Cómo construirlo (3 pasos):\n1) ¿Plano (papel/foto/camiseta)? → 枚まい\n2) ¿Largo (botella/lápiz/árbol)? → 本ほん (con p/b: いっぽん、さんぼん、ろっぽん)\n3) ¿Pequeño abstracto (huevo/manzana/caja)? → 個こ (regular: いっこ、さんこ)\n\n⚖️ Tabla contadores I:\n|Contador|Uso|Sino + sonido|Ejemplo|\n|枚まい|planos|1いちまい3さんまい|紙三枚|\n|本ほん|largos|1いっぽん3さんぼん6ろっぽん8はっぽん|ペン二本にほん→にほん regular? 本 es にほん 2, さんぼん 3|\n|個こ|piezas|1いっこ3さんこ|卵三個|\n\n💡 Ejemplos desglosados:\n1) 紙が三枚あります。(かみがさんまいあります。)— “Hay 3 hojas.” → 紙が + 三枚(さんまい).\n2) ペンが二本あります。(ぺんがにほんあります。)— “Hay 2 bolis.” → ペンが + 二本(にほん).\n3) 卵を三個買いました。(たまごをさんこかいました。)— “Compré 3 huevos.” → 卵を + 三個(さんこ)+買いました.\n\n🔑 Mini-resumen:\n□ 枚 planos, 本 largos, 個 piezas.\n□ 本 tiene 4 formas: いっぽん・さんぼん・ろっぽん・はっぽん・じゅっぽん.\n□ 枚/個 más regulares, 本 memoriza irregulares.\n\n❌ Error 90%: usar 枚 para botellas (es 本), 本 para papel (es 枚), olvidar eufonía de 本: いちほん→いっぽん. Y decir 三つ para papel formal → mejor 三枚.\n\n💬 Truco offline: mira tu mesa: 本2本, 紙3枚, 卵3個 → di en voz alta 3×. Active recall.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Interleaving: mezcla este tema + vocab + escucha, nunca 10 números seguidos sin contexto. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
+        "palabras": 411
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "紙が三枚あります。",
+            "furigana": "かみがさんまいあります。",
+            "romaji": "kami ga sanmai arimasu.",
+            "es": "Hay 3 hojas.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "ペンが二本あります。",
+            "furigana": "ぺんがにほんあります。",
+            "romaji": "pen ga nihon arimasu.",
+            "es": "Hay 2 bolis.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "卵を三個買いました。",
+            "furigana": "たまごをさんこかいました。",
+            "romaji": "tamago wo sanko kaimashita.",
+            "es": "Compré 3 huevos.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "紙が三枚あります。",
+            "furigana": "かみがさんまいあります。",
+            "es": "Hay 3 hojas.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "紙が三枚あります。 — Hay 3 hojas."
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "ペンが二本あります。",
+            "furigana": "ぺんがにほんあります。",
+            "es": "Hay 2 bolis.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "ペンが二本あります。 — Hay 2 bolis."
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "紙が三枚あります。",
+            "furigana": "かみがさんまいあります。",
+            "es": "Hay 3 hojas.",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Escucha, pausa 3s, repite."
+          },
+          {
+            "tipo": "produccion",
+            "prompt": "Produce: 'Compré 3 huevos.'",
+            "respuesta": "卵を三個買いました。",
+            "jp": "卵を三個買いました。",
+            "mostrar_texto_antes": false,
+            "rate": 0.8
+          }
+        ]
+      },
+      {
+        "tipo": "errores_comunes",
+        "texto": "Error típico: 本 con h siempre → es p/b: いっぽん、さんぼん. Confundir 枚/本/個 por forma. Prueba: ¿se enrolla? 本. ¿se apila plano? 枚. ¿pequeño? 個."
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Hoy: 枚・本・個 base. Próxima: 冊・台・匹. Di 3 veces: いっぽん、さんぼん、ろっぽん。"
+      }
+    ],
+    "sections": [
+      {
+        "tipo": "gancho",
+        "texto": "Dices 3 papeles como さんまい? さんほん? さんこ? Cada forma tiene contador distinto; sin 枚・本・個 suenas extranjero."
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "Contadores sino combinan número sino + clasificador. Los 3 más frecuentes: 枚 (planos), 本 (cilíndricos largos), 個 (piezas pequeñas).\n\nObjetivo: elegir 枚/本/個 según forma y contar con eufonía correcta.\n\n🧩 Fórmula:【número sino + contador】→ 三枚さんまい, 二本にほん, 三個さんこ. Irregulares por asimilación: 一本いっぽん, 六本ろっぽん, 八本はっぽん, 三本さんぼん, 一枚いちまい (regular).\n\nPiensa en bloques: mira forma → elige contador → aplica sonido.\n\n👣 Cómo construirlo (3 pasos):\n1) ¿Plano (papel/foto/camiseta)? → 枚まい\n2) ¿Largo (botella/lápiz/árbol)? → 本ほん (con p/b: いっぽん、さんぼん、ろっぽん)\n3) ¿Pequeño abstracto (huevo/manzana/caja)? → 個こ (regular: いっこ、さんこ)\n\n⚖️ Tabla contadores I:\n|Contador|Uso|Sino + sonido|Ejemplo|\n|枚まい|planos|1いちまい3さんまい|紙三枚|\n|本ほん|largos|1いっぽん3さんぼん6ろっぽん8はっぽん|ペン二本にほん→にほん regular? 本 es にほん 2, さんぼん 3|\n|個こ|piezas|1いっこ3さんこ|卵三個|\n\n💡 Ejemplos desglosados:\n1) 紙が三枚あります。(かみがさんまいあります。)— “Hay 3 hojas.” → 紙が + 三枚(さんまい).\n2) ペンが二本あります。(ぺんがにほんあります。)— “Hay 2 bolis.” → ペンが + 二本(にほん).\n3) 卵を三個買いました。(たまごをさんこかいました。)— “Compré 3 huevos.” → 卵を + 三個(さんこ)+買いました.\n\n🔑 Mini-resumen:\n□ 枚 planos, 本 largos, 個 piezas.\n□ 本 tiene 4 formas: いっぽん・さんぼん・ろっぽん・はっぽん・じゅっぽん.\n□ 枚/個 más regulares, 本 memoriza irregulares.\n\n❌ Error 90%: usar 枚 para botellas (es 本), 本 para papel (es 枚), olvidar eufonía de 本: いちほん→いっぽん. Y decir 三つ para papel formal → mejor 三枚.\n\n💬 Truco offline: mira tu mesa: 本2本, 紙3枚, 卵3個 → di en voz alta 3×. Active recall.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Interleaving: mezcla este tema + vocab + escucha, nunca 10 números seguidos sin contexto. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
+        "palabras": 411
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "紙が三枚あります。",
+            "furigana": "かみがさんまいあります。",
+            "romaji": "kami ga sanmai arimasu.",
+            "es": "Hay 3 hojas.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "ペンが二本あります。",
+            "furigana": "ぺんがにほんあります。",
+            "romaji": "pen ga nihon arimasu.",
+            "es": "Hay 2 bolis.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "卵を三個買いました。",
+            "furigana": "たまごをさんこかいました。",
+            "romaji": "tamago wo sanko kaimashita.",
+            "es": "Compré 3 huevos.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "紙が三枚あります。",
+            "furigana": "かみがさんまいあります。",
+            "es": "Hay 3 hojas.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "紙が三枚あります。 — Hay 3 hojas."
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "ペンが二本あります。",
+            "furigana": "ぺんがにほんあります。",
+            "es": "Hay 2 bolis.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "ペンが二本あります。 — Hay 2 bolis."
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "紙が三枚あります。",
+            "furigana": "かみがさんまいあります。",
+            "es": "Hay 3 hojas.",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Escucha, pausa 3s, repite."
+          },
+          {
+            "tipo": "produccion",
+            "prompt": "Produce: 'Compré 3 huevos.'",
+            "respuesta": "卵を三個買いました。",
+            "jp": "卵を三個買いました。",
+            "mostrar_texto_antes": false,
+            "rate": 0.8
+          }
+        ]
+      },
+      {
+        "tipo": "errores_comunes",
+        "texto": "Error típico: 本 con h siempre → es p/b: いっぽん、さんぼん. Confundir 枚/本/個 por forma. Prueba: ¿se enrolla? 本. ¿se apila plano? 枚. ¿pequeño? 個."
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Hoy: 枚・本・個 base. Próxima: 冊・台・匹. Di 3 veces: いっぽん、さんぼん、ろっぽん。"
+      }
+    ],
+    "wexdc": true,
+    "clarity": 3,
+    "autoevaluacion": {
+      "explica_no_informa": true,
+      "palabras_explicacion": 411,
+      "listening_puro_incluido": true,
+      "listening_puro_cantidad": 2,
+      "confianza": 9
+    }
+  },
+  {
+    "id": "l-imabi-041",
+    "title": "IMABI 41: Contadores sino II — 冊・台・匹",
+    "stage": "IMABI · Beginners I",
+    "minutes": 8,
+    "level": "n5",
+    "teach": [
+      {
+        "heading": "IMABI 41: Contadores sino II — 冊・台・匹",
+        "text": "Contadores medios: 冊さつ (libros encuadernados), 台だい (máquinas/vehículos), 匹ひき/ぴき (animales pequeños/medianos).",
+        "examples": [
+          {
+            "jp": "本を二冊買いました。",
+            "kana": "ほんをにさつかいました。",
+            "es": "Compré 2 libros."
+          },
+          {
+            "jp": "車が一台あります。",
+            "kana": "くるまがいちだいあります。",
+            "es": "Hay 1 coche."
+          },
+          {
+            "jp": "猫が二匹います。",
+            "kana": "ねこがにひきいます。",
+            "es": "Hay 2 gatos."
+          }
+        ]
+      }
+    ],
+    "quiz": {
+      "practice": "grammar",
+      "direction": "grammar-es",
+      "ids": [
+        "g-desu",
+        "g-desu-1",
+        "g-desu-2"
+      ]
+    },
+    "secciones": [
+      {
+        "tipo": "gancho",
+        "texto": "Cuentas 2 libros como にほん? 2 coches? 2 gatos? Cada dominio tiene contador: libros 冊, máquinas 台, animales 匹."
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "Sino-JP II amplía dominios: libros (冊), máquinas (台), animales (匹). Todos con serie sino + eufonía en 匹.\n\nObjetivo: contar libros/máquinas/animales sin usar 枚・本 genéricos.\n\n🧩 Fórmula:【número sino + 冊/台/匹】→ 二冊にさつ, 一台いちだい, 二匹にひき→三匹さんびき(ひ→び),六匹ろっぴき(ひ→ぴ).\n- 冊: いっさつ(1),にさつ(2),さんさつ(3) regular menos geminada en 1/6/8/10\n- 台: いちだい,にだい,さんだい regular (sin cambio)\n- 匹: いっぴき(1),にひき(2),さんびき(3),ろっぴき(6),はっぴき(8)\n\nPiensa en bloques: ¿libro? 冊. ¿máquina/coche? 台. ¿animal pequeño? 匹.\n\n👣 Cómo construirlo (3 pasos):\n1) Libro encuadernado → 冊さつ\n2) Electrodoméstico/vehículo → 台だい\n3) Gato/perro/pez pequeño → 匹ひき (grande 頭とう para vacas/caballos)\n\n⚖️ Tabla contadores II:\n|Contador|Uso|1|3|6|8|\n|冊さつ|libros|いっさつ|さんさつ|ろくさつ→ろっさつ? 実際ろくさつだが口語ろっさつも|はっさつ|\n|台だい|máquinas|いちだい|さんだい|ろくだい|はちだい|\n|匹ひき|animales pe|いっぴき|さんびき|ろっぴき|はっぴき|\n\n💡 Ejemplos desglosados:\n1) 本を二冊買いました。(ほんをにさつかいました。)— “Compré 2 libros.” → 本を + 二冊(にさつ).\n2) 車が一台あります。(くるまがいちだいあります。)— “Hay 1 coche.” → 車が + 一台(いちだい).\n3) 猫が二匹います。(ねこがにひきいます。)— “Hay 2 gatos.” → 猫が + 二匹(にひき).\n\n🔑 Mini-resumen:\n□ 冊 libros, 台 máquinas, 匹 animales pequeños.\n□ 匹 tiene ひ→び→ぴ (さんびき、ろっぴき、はっぴき、いっぴき).\n□ 冊/台 regulares salvo 1/6/8 geminadas.\n\n❌ Error 90%: usar 本 para coches (es 台), 冊 para gatos (es 匹), olvidar rendaku de 匹. Y confundir 匹 con 頭 (vacas/elefantes usan 頭).\n\n💬 Truco offline: cuenta: 本二冊、車一台、猫二匹 3×. Active recall.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Interleaving: mezcla este tema + vocab + escucha, nunca 10 números seguidos sin contexto. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
+        "palabras": 410
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "本を二冊買いました。",
+            "furigana": "ほんをにさつかいました。",
+            "romaji": "hon wo nisatsu kaimashita.",
+            "es": "Compré 2 libros.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "車が一台あります。",
+            "furigana": "くるまがいちだいあります。",
+            "romaji": "kuruma ga ichidai arimasu.",
+            "es": "Hay 1 coche.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "猫が二匹います。",
+            "furigana": "ねこがにひきいます。",
+            "romaji": "neko ga nihiki imasu.",
+            "es": "Hay 2 gatos.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "本を二冊買いました。",
+            "furigana": "ほんをにさつかいました。",
+            "es": "Compré 2 libros.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "本を二冊買いました。 — Compré 2 libros."
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "車が一台あります。",
+            "furigana": "くるまがいちだいあります。",
+            "es": "Hay 1 coche.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "車が一台あります。 — Hay 1 coche."
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "本を二冊買いました。",
+            "furigana": "ほんをにさつかいました。",
+            "es": "Compré 2 libros.",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Escucha, pausa 3s, repite."
+          },
+          {
+            "tipo": "produccion",
+            "prompt": "Produce: 'Hay 2 gatos.'",
+            "respuesta": "猫が二匹います。",
+            "jp": "猫が二匹います。",
+            "mostrar_texto_antes": false,
+            "rate": 0.8
+          }
+        ]
+      },
+      {
+        "tipo": "errores_comunes",
+        "texto": "Error típico: 匹 siempre hi → no: いっぴき/さんびき/ろっぴき. Confundir 冊(さつ) con 札(さつ dinero) pero contexto aclara."
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Hoy: 冊・台・匹. Próxima: nativos 人・つ. Di 3 veces: にさつ、いちだい、にひき。"
+      }
+    ],
+    "sections": [
+      {
+        "tipo": "gancho",
+        "texto": "Cuentas 2 libros como にほん? 2 coches? 2 gatos? Cada dominio tiene contador: libros 冊, máquinas 台, animales 匹."
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "Sino-JP II amplía dominios: libros (冊), máquinas (台), animales (匹). Todos con serie sino + eufonía en 匹.\n\nObjetivo: contar libros/máquinas/animales sin usar 枚・本 genéricos.\n\n🧩 Fórmula:【número sino + 冊/台/匹】→ 二冊にさつ, 一台いちだい, 二匹にひき→三匹さんびき(ひ→び),六匹ろっぴき(ひ→ぴ).\n- 冊: いっさつ(1),にさつ(2),さんさつ(3) regular menos geminada en 1/6/8/10\n- 台: いちだい,にだい,さんだい regular (sin cambio)\n- 匹: いっぴき(1),にひき(2),さんびき(3),ろっぴき(6),はっぴき(8)\n\nPiensa en bloques: ¿libro? 冊. ¿máquina/coche? 台. ¿animal pequeño? 匹.\n\n👣 Cómo construirlo (3 pasos):\n1) Libro encuadernado → 冊さつ\n2) Electrodoméstico/vehículo → 台だい\n3) Gato/perro/pez pequeño → 匹ひき (grande 頭とう para vacas/caballos)\n\n⚖️ Tabla contadores II:\n|Contador|Uso|1|3|6|8|\n|冊さつ|libros|いっさつ|さんさつ|ろくさつ→ろっさつ? 実際ろくさつだが口語ろっさつも|はっさつ|\n|台だい|máquinas|いちだい|さんだい|ろくだい|はちだい|\n|匹ひき|animales pe|いっぴき|さんびき|ろっぴき|はっぴき|\n\n💡 Ejemplos desglosados:\n1) 本を二冊買いました。(ほんをにさつかいました。)— “Compré 2 libros.” → 本を + 二冊(にさつ).\n2) 車が一台あります。(くるまがいちだいあります。)— “Hay 1 coche.” → 車が + 一台(いちだい).\n3) 猫が二匹います。(ねこがにひきいます。)— “Hay 2 gatos.” → 猫が + 二匹(にひき).\n\n🔑 Mini-resumen:\n□ 冊 libros, 台 máquinas, 匹 animales pequeños.\n□ 匹 tiene ひ→び→ぴ (さんびき、ろっぴき、はっぴき、いっぴき).\n□ 冊/台 regulares salvo 1/6/8 geminadas.\n\n❌ Error 90%: usar 本 para coches (es 台), 冊 para gatos (es 匹), olvidar rendaku de 匹. Y confundir 匹 con 頭 (vacas/elefantes usan 頭).\n\n💬 Truco offline: cuenta: 本二冊、車一台、猫二匹 3×. Active recall.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Interleaving: mezcla este tema + vocab + escucha, nunca 10 números seguidos sin contexto. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
+        "palabras": 410
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "本を二冊買いました。",
+            "furigana": "ほんをにさつかいました。",
+            "romaji": "hon wo nisatsu kaimashita.",
+            "es": "Compré 2 libros.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "車が一台あります。",
+            "furigana": "くるまがいちだいあります。",
+            "romaji": "kuruma ga ichidai arimasu.",
+            "es": "Hay 1 coche.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "猫が二匹います。",
+            "furigana": "ねこがにひきいます。",
+            "romaji": "neko ga nihiki imasu.",
+            "es": "Hay 2 gatos.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "本を二冊買いました。",
+            "furigana": "ほんをにさつかいました。",
+            "es": "Compré 2 libros.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "本を二冊買いました。 — Compré 2 libros."
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "車が一台あります。",
+            "furigana": "くるまがいちだいあります。",
+            "es": "Hay 1 coche.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "車が一台あります。 — Hay 1 coche."
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "本を二冊買いました。",
+            "furigana": "ほんをにさつかいました。",
+            "es": "Compré 2 libros.",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Escucha, pausa 3s, repite."
+          },
+          {
+            "tipo": "produccion",
+            "prompt": "Produce: 'Hay 2 gatos.'",
+            "respuesta": "猫が二匹います。",
+            "jp": "猫が二匹います。",
+            "mostrar_texto_antes": false,
+            "rate": 0.8
+          }
+        ]
+      },
+      {
+        "tipo": "errores_comunes",
+        "texto": "Error típico: 匹 siempre hi → no: いっぴき/さんびき/ろっぴき. Confundir 冊(さつ) con 札(さつ dinero) pero contexto aclara."
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Hoy: 冊・台・匹. Próxima: nativos 人・つ. Di 3 veces: にさつ、いちだい、にひき。"
+      }
+    ],
+    "wexdc": true,
+    "clarity": 3,
+    "autoevaluacion": {
+      "explica_no_informa": true,
+      "palabras_explicacion": 410,
+      "listening_puro_incluido": true,
+      "listening_puro_cantidad": 2,
+      "confianza": 9
+    }
+  },
+  {
+    "id": "l-imabi-042",
+    "title": "IMABI 42: Contadores nativos — 人・つ・日",
+    "stage": "IMABI · Beginners I",
+    "minutes": 8,
+    "level": "n5",
+    "teach": [
+      {
+        "heading": "IMABI 42: Contadores nativos — 人・つ・日",
+        "text": "Nativos 100% nativos: 人ひとり/ふたり (personas 1-2 nativo), ～つ 1-10 ya visto, 日 (días) mixto. El resto usa sino.",
+        "examples": [
+          {
+            "jp": "家族は四人です。",
+            "kana": "かぞくはよにんです。",
+            "es": "Familia 4 personas."
+          },
+          {
+            "jp": "一人で行きました。",
+            "kana": "ひとりでいきました。",
+            "es": "Fui solo."
+          },
+          {
+            "jp": "二日泊まりました。",
+            "kana": "ふつかとまりました。",
+            "es": "Me quedé 2 noches."
+          }
+        ]
+      }
+    ],
+    "quiz": {
+      "practice": "grammar",
+      "direction": "grammar-es",
+      "ids": [
+        "g-desu",
+        "g-desu-1",
+        "g-desu-2"
+      ]
+    },
+    "secciones": [
+      {
+        "tipo": "gancho",
+        "texto": "Cuentas 2 personas como ににん? 1 día como いちにち? Personas y días mezclan nativo/sino y te delatan."
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "Nativos puros sobreviven en 1-2 personas (ひとり/ふたり) y en ～つ. Días también tienen nativo hasta 10: 一日ついたち(1),二日ふつか(2),三日みっか(3)...\n\nObjetivo: usar ひとり・ふたり y 1-10日 nativo sin sino.\n\n🧩 Fórmula:\n- Personas: 1ひとり,2ふたり,3さんにん(→sino),4よにん...\n- Días: 1ついたち,2ふつか,3みっか,4よっか,5いつか,6むいか,7なのか,8ようか,9ここのか,10とおか,11じゅういちにち→sino\n- つ ya visto IMABI 39: ひとつ〜とお\n\nPiensa en bloques: persona/día 1-10 nativo irregular, 11+ sino regular.\n\n👣 Cómo construirlo (3 pasos):\n1) 1-2 personas: ひとり,ふたり (nunca いちにん/ににん)\n2) Días 1-10 nativo irregular: ついたち,ふつか,みっか...\n3) Desde 11 días: じゅういちにち,にじゅうにち regular にち\n\n⚖️ Tabla nativa:\n|Contador|1|2|3|10|\n|人|ひとり|ふたり|さんにん|じゅうにん|\n|日|ついたち|ふつか|みっか|とおか|\n|つ|ひとつ|ふたつ|みっつ|とお|\n\n💡 Ejemplos desglosados:\n1) 家族は四人です。(かぞくはよにんです。)— “Familia 4 personas.” → 家族は + 四人(よにん).\n2) 一人で行きました。(ひとりでいきました。)— “Fui solo.” → 一人で(ひとりで)+行きました.\n3) 二日泊まりました。(ふつかとまりました。)— “Me quedé 2 noches.” → 二日(ふつか)+泊まりました.\n\n🔑 Mini-resumen:\n□ Personas 1-2 nativo ひとり/ふたり, resto sino +にん.\n□ Días 1-10 nativo irregular, 11+ にち.\n□ つ sigue nativo 1-10.\n\n❌ Error 90%: ににん(2 personas) → es ふたり. ふつにち(2 días) → es ふつか. じゅうひとり(11 personas) → es じゅういちにん.\n\n💬 Truco offline: di: ひとり、ふたり、さんにん... と ついたち、ふつか、みっか... 3×. Active recall.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Interleaving: mezcla este tema + vocab + escucha, nunca 10 números seguidos sin contexto. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
+        "palabras": 407
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "家族は四人です。",
+            "furigana": "かぞくはよにんです。",
+            "romaji": "kazoku wa yonin desu.",
+            "es": "Familia 4 personas.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "一人で行きました。",
+            "furigana": "ひとりでいきました。",
+            "romaji": "hitori de ikimashita.",
+            "es": "Fui solo.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "二日泊まりました。",
+            "furigana": "ふつかとまりました。",
+            "romaji": "futsuka tomarimashita.",
+            "es": "Me quedé 2 noches.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "家族は四人です。",
+            "furigana": "かぞくはよにんです。",
+            "es": "Familia 4 personas.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "家族は四人です。 — Familia 4 personas."
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "一人で行きました。",
+            "furigana": "ひとりでいきました。",
+            "es": "Fui solo.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "一人で行きました。 — Fui solo."
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "家族は四人です。",
+            "furigana": "かぞくはよにんです。",
+            "es": "Familia 4 personas.",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Escucha, pausa 3s, repite."
+          },
+          {
+            "tipo": "produccion",
+            "prompt": "Produce: 'Fui solo.'",
+            "respuesta": "一人で行きました。",
+            "jp": "一人で行きました。",
+            "mostrar_texto_antes": false,
+            "rate": 0.8
+          }
+        ]
+      },
+      {
+        "tipo": "errores_comunes",
+        "texto": "Error típico: いちにん/ににん no existen para personas. Son ひとり/ふたり. Día 1 ついたち no いちにち solo en calendario (1日)."
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Hoy: nativos 人・つ・日. Próxima: tiempo deíctico 今日明日. Di 3 veces: ひとり、ふたり、ついたち。"
+      }
+    ],
+    "sections": [
+      {
+        "tipo": "gancho",
+        "texto": "Cuentas 2 personas como ににん? 1 día como いちにち? Personas y días mezclan nativo/sino y te delatan."
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "Nativos puros sobreviven en 1-2 personas (ひとり/ふたり) y en ～つ. Días también tienen nativo hasta 10: 一日ついたち(1),二日ふつか(2),三日みっか(3)...\n\nObjetivo: usar ひとり・ふたり y 1-10日 nativo sin sino.\n\n🧩 Fórmula:\n- Personas: 1ひとり,2ふたり,3さんにん(→sino),4よにん...\n- Días: 1ついたち,2ふつか,3みっか,4よっか,5いつか,6むいか,7なのか,8ようか,9ここのか,10とおか,11じゅういちにち→sino\n- つ ya visto IMABI 39: ひとつ〜とお\n\nPiensa en bloques: persona/día 1-10 nativo irregular, 11+ sino regular.\n\n👣 Cómo construirlo (3 pasos):\n1) 1-2 personas: ひとり,ふたり (nunca いちにん/ににん)\n2) Días 1-10 nativo irregular: ついたち,ふつか,みっか...\n3) Desde 11 días: じゅういちにち,にじゅうにち regular にち\n\n⚖️ Tabla nativa:\n|Contador|1|2|3|10|\n|人|ひとり|ふたり|さんにん|じゅうにん|\n|日|ついたち|ふつか|みっか|とおか|\n|つ|ひとつ|ふたつ|みっつ|とお|\n\n💡 Ejemplos desglosados:\n1) 家族は四人です。(かぞくはよにんです。)— “Familia 4 personas.” → 家族は + 四人(よにん).\n2) 一人で行きました。(ひとりでいきました。)— “Fui solo.” → 一人で(ひとりで)+行きました.\n3) 二日泊まりました。(ふつかとまりました。)— “Me quedé 2 noches.” → 二日(ふつか)+泊まりました.\n\n🔑 Mini-resumen:\n□ Personas 1-2 nativo ひとり/ふたり, resto sino +にん.\n□ Días 1-10 nativo irregular, 11+ にち.\n□ つ sigue nativo 1-10.\n\n❌ Error 90%: ににん(2 personas) → es ふたり. ふつにち(2 días) → es ふつか. じゅうひとり(11 personas) → es じゅういちにん.\n\n💬 Truco offline: di: ひとり、ふたり、さんにん... と ついたち、ふつか、みっか... 3×. Active recall.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Interleaving: mezcla este tema + vocab + escucha, nunca 10 números seguidos sin contexto. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
+        "palabras": 407
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "家族は四人です。",
+            "furigana": "かぞくはよにんです。",
+            "romaji": "kazoku wa yonin desu.",
+            "es": "Familia 4 personas.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "一人で行きました。",
+            "furigana": "ひとりでいきました。",
+            "romaji": "hitori de ikimashita.",
+            "es": "Fui solo.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "二日泊まりました。",
+            "furigana": "ふつかとまりました。",
+            "romaji": "futsuka tomarimashita.",
+            "es": "Me quedé 2 noches.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "家族は四人です。",
+            "furigana": "かぞくはよにんです。",
+            "es": "Familia 4 personas.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "家族は四人です。 — Familia 4 personas."
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "一人で行きました。",
+            "furigana": "ひとりでいきました。",
+            "es": "Fui solo.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "一人で行きました。 — Fui solo."
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "家族は四人です。",
+            "furigana": "かぞくはよにんです。",
+            "es": "Familia 4 personas.",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Escucha, pausa 3s, repite."
+          },
+          {
+            "tipo": "produccion",
+            "prompt": "Produce: 'Fui solo.'",
+            "respuesta": "一人で行きました。",
+            "jp": "一人で行きました。",
+            "mostrar_texto_antes": false,
+            "rate": 0.8
+          }
+        ]
+      },
+      {
+        "tipo": "errores_comunes",
+        "texto": "Error típico: いちにん/ににん no existen para personas. Son ひとり/ふたり. Día 1 ついたち no いちにち solo en calendario (1日)."
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Hoy: nativos 人・つ・日. Próxima: tiempo deíctico 今日明日. Di 3 veces: ひとり、ふたり、ついたち。"
+      }
+    ],
+    "wexdc": true,
+    "clarity": 3,
+    "autoevaluacion": {
+      "explica_no_informa": true,
+      "palabras_explicacion": 407,
+      "listening_puro_incluido": true,
+      "listening_puro_cantidad": 2,
+      "confianza": 9
+    }
+  },
+  {
+    "id": "l-imabi-043",
+    "title": "IMABI 43: Tiempo deíctico — 今日明日昨日 今朝",
+    "stage": "IMABI · Beginners I",
+    "minutes": 7,
+    "level": "n5",
+    "teach": [
+      {
+        "heading": "IMABI 43: Tiempo deíctico — 今日明日昨日 今朝",
+        "text": "Deíctico = anclado al hoy del hablante: 今日きょう(hoy),明日あした(mañana),昨日きのう(ayer),今朝けさ(esta mañana),今晩こんばん(esta noche).",
+        "examples": [
+          {
+            "jp": "今日は月曜日です。",
+            "kana": "きょうはげつようびです。",
+            "es": "Hoy es lunes."
+          },
+          {
+            "jp": "明日は休みです。",
+            "kana": "あしたはやすみです。",
+            "es": "Mañana es libre."
+          },
+          {
+            "jp": "昨日、映画を見ました。",
+            "kana": "きのう、えいがをみました。",
+            "es": "Ayer vi una peli."
+          }
+        ]
+      }
+    ],
+    "quiz": {
+      "practice": "grammar",
+      "direction": "grammar-es",
+      "ids": [
+        "g-desu",
+        "g-desu-1",
+        "g-desu-2"
+      ]
+    },
+    "secciones": [
+      {
+        "tipo": "gancho",
+        "texto": "Dices 昨日 pero no sabes si es きのう o さくじつ. ¿Cuál usa la gente? Sin deíctico suenas libro."
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "Deíctico te sitúa desde AHORA: hoy/mañana/ayer del hablante. En japonés esas palabras son fijas y muy frecuentes: 今日,明日,昨日,今朝,今晩...\n\nObjetivo: usar 今日/明日/昨日 + 今朝/今晩 en presente/pasado sin leer kanji complicado.\n\n🧩 Fórmula:【T.deíctico は/に + predicado】→ 今日は月曜日です, 明日は休みです, 昨日映画を見ました. Partícula は si tema, に si tiempo puntual: 昨日に no, 昨日、... mejor sin に o con は.\n\nPiensa en bloques: deíctico = brújula del “yo-ahora”.\n\n👣 Cómo construirlo (3 pasos):\n1) Elige eje: 今日(hoy),明日(mañana),昨日(ayer),一昨日おととい(anteayer),明後日あさって(pasado mañana)\n2) Mañana/tarde: 今朝けさ(esta mañana),今晩こんばん(esta noche),昨日→昨晩さくばん(anoche)\n3) Coloca al inicio + は o coma: 今日は..., 昨日、映画を...\n\n⚖️ Tabla deíctico:\n|Esp|JP|Lectura|\n|hoy|今日|きょう|\n|mañana|明日|あした (coloq) /あす formal|\n|ayer|昨日|きのう|\n|esta mañana|今朝|けさ|\n|esta noche|今晩|こんばん|\n\n💡 Ejemplos desglosados:\n1) 今日は月曜日です。(きょうはげつようびです。)— “Hoy es lunes.” → 今日は+月曜日です.\n2) 明日は休みです。(あしたはやすみです。)— “Mañana libre.” → 明日は+休みです.\n3) 昨日、映画を見ました。(きのう、えいがをみました。)— “Ayer vi peli.” → 昨日+映画を見ました.\n\n🔑 Mini-resumen:\n□ Deíctico = hoy del hablante (きょう・あした・きのう...)\n□ 今朝/今晩 familia 今+tiempo.\n□ Posición inicial, con は.\n\n❌ Error 90%: leer 明日 como めいにち? Es あした/あす. 昨日さくじつ formal vs きのう cotidiano: usa きのう. Añadir に siempre: 明日に行く suena raro, di 明日行く.\n\n💬 Truco offline: di tu agenda: 今日は○○,明日は○○,昨日は○○ 3×. Active recall.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Interleaving: mezcla este tema + vocab + escucha, nunca 10 números seguidos sin contexto. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
+        "palabras": 408
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "今日は月曜日です。",
+            "furigana": "きょうはげつようびです。",
+            "romaji": "kyou wa getsuyoubi desu.",
+            "es": "Hoy es lunes.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "明日は休みです。",
+            "furigana": "あしたはやすみです。",
+            "romaji": "ashita wa yasumi desu.",
+            "es": "Mañana es libre.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "昨日、映画を見ました。",
+            "furigana": "きのう、えいがをみました。",
+            "romaji": "kinou, eiga wo mimashita.",
+            "es": "Ayer vi una peli.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "今日は月曜日です。",
+            "furigana": "きょうはげつようびです。",
+            "es": "Hoy es lunes.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "今日は月曜日です。 — Hoy es lunes."
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "明日は休みです。",
+            "furigana": "あしたはやすみです。",
+            "es": "Mañana es libre.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "明日は休みです。 — Mañana es libre."
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "今日は月曜日です。",
+            "furigana": "きょうはげつようびです。",
+            "es": "Hoy es lunes.",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Escucha, pausa 3s, repite."
+          },
+          {
+            "tipo": "produccion",
+            "prompt": "Produce: 'Ayer vi una peli.'",
+            "respuesta": "昨日、映画を見ました。",
+            "jp": "昨日、映画を見ました。",
+            "mostrar_texto_antes": false,
+            "rate": 0.8
+          }
+        ]
+      },
+      {
+        "tipo": "errores_comunes",
+        "texto": "Error típico: 明日めいにち/昨日さくじつ solo lectura culta. En habla diaria di あした/きのう. Y olvidar 今朝/今晩: di けさ/こんばん no いまあさ."
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Hoy: 今日明日昨日 + 今朝今晩. Próxima: relativo 前・後. Di 3 veces: きょう、あした、きのう。"
+      }
+    ],
+    "sections": [
+      {
+        "tipo": "gancho",
+        "texto": "Dices 昨日 pero no sabes si es きのう o さくじつ. ¿Cuál usa la gente? Sin deíctico suenas libro."
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "Deíctico te sitúa desde AHORA: hoy/mañana/ayer del hablante. En japonés esas palabras son fijas y muy frecuentes: 今日,明日,昨日,今朝,今晩...\n\nObjetivo: usar 今日/明日/昨日 + 今朝/今晩 en presente/pasado sin leer kanji complicado.\n\n🧩 Fórmula:【T.deíctico は/に + predicado】→ 今日は月曜日です, 明日は休みです, 昨日映画を見ました. Partícula は si tema, に si tiempo puntual: 昨日に no, 昨日、... mejor sin に o con は.\n\nPiensa en bloques: deíctico = brújula del “yo-ahora”.\n\n👣 Cómo construirlo (3 pasos):\n1) Elige eje: 今日(hoy),明日(mañana),昨日(ayer),一昨日おととい(anteayer),明後日あさって(pasado mañana)\n2) Mañana/tarde: 今朝けさ(esta mañana),今晩こんばん(esta noche),昨日→昨晩さくばん(anoche)\n3) Coloca al inicio + は o coma: 今日は..., 昨日、映画を...\n\n⚖️ Tabla deíctico:\n|Esp|JP|Lectura|\n|hoy|今日|きょう|\n|mañana|明日|あした (coloq) /あす formal|\n|ayer|昨日|きのう|\n|esta mañana|今朝|けさ|\n|esta noche|今晩|こんばん|\n\n💡 Ejemplos desglosados:\n1) 今日は月曜日です。(きょうはげつようびです。)— “Hoy es lunes.” → 今日は+月曜日です.\n2) 明日は休みです。(あしたはやすみです。)— “Mañana libre.” → 明日は+休みです.\n3) 昨日、映画を見ました。(きのう、えいがをみました。)— “Ayer vi peli.” → 昨日+映画を見ました.\n\n🔑 Mini-resumen:\n□ Deíctico = hoy del hablante (きょう・あした・きのう...)\n□ 今朝/今晩 familia 今+tiempo.\n□ Posición inicial, con は.\n\n❌ Error 90%: leer 明日 como めいにち? Es あした/あす. 昨日さくじつ formal vs きのう cotidiano: usa きのう. Añadir に siempre: 明日に行く suena raro, di 明日行く.\n\n💬 Truco offline: di tu agenda: 今日は○○,明日は○○,昨日は○○ 3×. Active recall.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Interleaving: mezcla este tema + vocab + escucha, nunca 10 números seguidos sin contexto. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
+        "palabras": 408
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "今日は月曜日です。",
+            "furigana": "きょうはげつようびです。",
+            "romaji": "kyou wa getsuyoubi desu.",
+            "es": "Hoy es lunes.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "明日は休みです。",
+            "furigana": "あしたはやすみです。",
+            "romaji": "ashita wa yasumi desu.",
+            "es": "Mañana es libre.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "昨日、映画を見ました。",
+            "furigana": "きのう、えいがをみました。",
+            "romaji": "kinou, eiga wo mimashita.",
+            "es": "Ayer vi una peli.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "今日は月曜日です。",
+            "furigana": "きょうはげつようびです。",
+            "es": "Hoy es lunes.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "今日は月曜日です。 — Hoy es lunes."
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "明日は休みです。",
+            "furigana": "あしたはやすみです。",
+            "es": "Mañana es libre.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "明日は休みです。 — Mañana es libre."
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "今日は月曜日です。",
+            "furigana": "きょうはげつようびです。",
+            "es": "Hoy es lunes.",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Escucha, pausa 3s, repite."
+          },
+          {
+            "tipo": "produccion",
+            "prompt": "Produce: 'Ayer vi una peli.'",
+            "respuesta": "昨日、映画を見ました。",
+            "jp": "昨日、映画を見ました。",
+            "mostrar_texto_antes": false,
+            "rate": 0.8
+          }
+        ]
+      },
+      {
+        "tipo": "errores_comunes",
+        "texto": "Error típico: 明日めいにち/昨日さくじつ solo lectura culta. En habla diaria di あした/きのう. Y olvidar 今朝/今晩: di けさ/こんばん no いまあさ."
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Hoy: 今日明日昨日 + 今朝今晩. Próxima: relativo 前・後. Di 3 veces: きょう、あした、きのう。"
+      }
+    ],
+    "wexdc": true,
+    "clarity": 3,
+    "autoevaluacion": {
+      "explica_no_informa": true,
+      "palabras_explicacion": 408,
+      "listening_puro_incluido": true,
+      "listening_puro_cantidad": 2,
+      "confianza": 9
+    }
+  },
+  {
+    "id": "l-imabi-044",
+    "title": "IMABI 44: Tiempo relativo I — 前・後・間",
+    "stage": "IMABI · Beginners I",
+    "minutes": 8,
+    "level": "n5",
+    "teach": [
+      {
+        "heading": "IMABI 44: Tiempo relativo I — 前・後・間",
+        "text": "Relativo no depende de hoy: 前まえ(antes/de),後あと(after, noun),間あいだ(while, interval). 前/後 con の y 間 con に.",
+        "examples": [
+          {
+            "jp": "食事の前に手を洗います。",
+            "kana": "しょくじのまえにてをあらいます。",
+            "es": "Me lavo antes de comer."
+          },
+          {
+            "jp": "仕事の後に映画を見ます。",
+            "kana": "しごとのあとにえいがをみます。",
+            "es": "Veo peli después del trabajo."
+          },
+          {
+            "jp": "二時間待ちました。",
+            "kana": "にじかんまちました。",
+            "es": "Esperé 2 horas (duración)."
+          }
+        ]
+      }
+    ],
+    "quiz": {
+      "practice": "grammar",
+      "direction": "grammar-es",
+      "ids": [
+        "g-desu",
+        "g-desu-1",
+        "g-desu-2"
+      ]
+    },
+    "secciones": [
+      {
+        "tipo": "gancho",
+        "texto": "Quieres decir 'antes de comer' y dudas: 食事前? 前に? 後に? Relativo usa 前/後/間 no 今日."
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "Tiempo relativo se ancla a otro evento, no al hoy: “antes de comer”, “después del trabajo”, “durante 2 horas”.\n\nObjetivo: construir Nの前/後に y duración + 間 opcional.\n\n🧩 Fórmula:\n- 【Nの前(に)】 antes de N: 食事の前に手を洗う\n- 【Nの後(で/に)】 después de N: 仕事の後に映画を見る\n- 【duración + 間】 durante: 二時間待ちました (間 opcional pero aclara intervalo), 二時間の間に1回\n\nPiensa en bloques: evento + の + 前/後/間.\n\n👣 Cómo construirlo (3 pasos):\n1) Nombra evento: 食事,仕事,授業\n2) Añade の前/の後: 食事の前(に), 仕事の後(に)\n3) Duración: 二時間(間)待ちました — 間 si quieres enfatizar “durante”\n\n⚖️ Tabla relativo I:\n|Patrón|Signif|Ejemplo|\n|Nの前に|antes de N|食事の前に|\n|Nの後に|después de N|仕事の後に|\n|Nの間(に)|mientras/durante N|授業の間は静かに|\n|duración|durante X tiempo|二時間(間)待つ|\n\n💡 Ejemplos desglosados:\n1) 食事の前に手を洗います。(しょくじのまえにてをあらいます。)— “Antes de comer me lavo.” → 食事の前(に)+手を洗います.\n2) 仕事の後に映画を見ます。(しごとのあとにえいがをみます。)— “Después del trabajo veo peli.” → 仕事の後(に)+映画を見ます.\n3) 二時間待ちました。(にじかんまちました。)— “Esperé 2 horas.” → 二時間(間)+待ちました.\n\n🔑 Mini-resumen:\n□ 前 antes, 後 después, 間 intervalo/durante.\n□ Con N: の前/の後/の間.\n□ Duración puede llevar 間 pero no obligatorio.\n\n❌ Error 90%: 前で vs 前に: tiempo puntual antes de evento es 前に, no 前で. Y olvidar の: 食事前→食事の前.\n\n💬 Truco offline: di: 食事の前に○○,仕事の後に○○,二時間○○ 3×. Active recall.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Interleaving: mezcla este tema + vocab + escucha, nunca 10 números seguidos sin contexto. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
+        "palabras": 408
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "食事の前に手を洗います。",
+            "furigana": "しょくじのまえにてをあらいます。",
+            "romaji": "shokuji no mae ni te wo araimasu.",
+            "es": "Me lavo antes de comer.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "仕事の後に映画を見ます。",
+            "furigana": "しごとのあとにえいがをみます。",
+            "romaji": "shigoto no ato ni eiga wo mimasu.",
+            "es": "Veo peli después del trabajo.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "二時間待ちました。",
+            "furigana": "にじかんまちました。",
+            "romaji": "nijikan machimashita.",
+            "es": "Esperé 2 horas.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "食事の前に手を洗います。",
+            "furigana": "しょくじのまえにてをあらいます。",
+            "es": "Me lavo antes de comer.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "食事の前に手を洗います。 — Me lavo antes de comer."
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "仕事の後に映画を見ます。",
+            "furigana": "しごとのあとにえいがをみます。",
+            "es": "Veo peli después del trabajo.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "仕事の後に映画を見ます。 — Veo peli después del trabajo."
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "食事の前に手を洗います。",
+            "furigana": "しょくじのまえにてをあらいます。",
+            "es": "Me lavo antes de comer.",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Escucha, pausa 3s, repite."
+          },
+          {
+            "tipo": "produccion",
+            "prompt": "Produce: 'Después del trabajo veo peli.'",
+            "respuesta": "仕事の後に映画を見ます。",
+            "jp": "仕事の後に映画を見ます。",
+            "mostrar_texto_antes": false,
+            "rate": 0.8
+          }
+        ]
+      },
+      {
+        "tipo": "errores_comunes",
+        "texto": "Error típico: 食事前/仕事後 sin の. Y confundir 間 con 前: 授業の間( durante clase) vs 授業の前(antes de clase)."
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Hoy: の前/の後/の間 relativo. Próxima: determinantes この/その頃 毎・先・来. Di 3 veces: 食事の前に。"
+      }
+    ],
+    "sections": [
+      {
+        "tipo": "gancho",
+        "texto": "Quieres decir 'antes de comer' y dudas: 食事前? 前に? 後に? Relativo usa 前/後/間 no 今日."
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "Tiempo relativo se ancla a otro evento, no al hoy: “antes de comer”, “después del trabajo”, “durante 2 horas”.\n\nObjetivo: construir Nの前/後に y duración + 間 opcional.\n\n🧩 Fórmula:\n- 【Nの前(に)】 antes de N: 食事の前に手を洗う\n- 【Nの後(で/に)】 después de N: 仕事の後に映画を見る\n- 【duración + 間】 durante: 二時間待ちました (間 opcional pero aclara intervalo), 二時間の間に1回\n\nPiensa en bloques: evento + の + 前/後/間.\n\n👣 Cómo construirlo (3 pasos):\n1) Nombra evento: 食事,仕事,授業\n2) Añade の前/の後: 食事の前(に), 仕事の後(に)\n3) Duración: 二時間(間)待ちました — 間 si quieres enfatizar “durante”\n\n⚖️ Tabla relativo I:\n|Patrón|Signif|Ejemplo|\n|Nの前に|antes de N|食事の前に|\n|Nの後に|después de N|仕事の後に|\n|Nの間(に)|mientras/durante N|授業の間は静かに|\n|duración|durante X tiempo|二時間(間)待つ|\n\n💡 Ejemplos desglosados:\n1) 食事の前に手を洗います。(しょくじのまえにてをあらいます。)— “Antes de comer me lavo.” → 食事の前(に)+手を洗います.\n2) 仕事の後に映画を見ます。(しごとのあとにえいがをみます。)— “Después del trabajo veo peli.” → 仕事の後(に)+映画を見ます.\n3) 二時間待ちました。(にじかんまちました。)— “Esperé 2 horas.” → 二時間(間)+待ちました.\n\n🔑 Mini-resumen:\n□ 前 antes, 後 después, 間 intervalo/durante.\n□ Con N: の前/の後/の間.\n□ Duración puede llevar 間 pero no obligatorio.\n\n❌ Error 90%: 前で vs 前に: tiempo puntual antes de evento es 前に, no 前で. Y olvidar の: 食事前→食事の前.\n\n💬 Truco offline: di: 食事の前に○○,仕事の後に○○,二時間○○ 3×. Active recall.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Interleaving: mezcla este tema + vocab + escucha, nunca 10 números seguidos sin contexto. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
+        "palabras": 408
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "食事の前に手を洗います。",
+            "furigana": "しょくじのまえにてをあらいます。",
+            "romaji": "shokuji no mae ni te wo araimasu.",
+            "es": "Me lavo antes de comer.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "仕事の後に映画を見ます。",
+            "furigana": "しごとのあとにえいがをみます。",
+            "romaji": "shigoto no ato ni eiga wo mimasu.",
+            "es": "Veo peli después del trabajo.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "二時間待ちました。",
+            "furigana": "にじかんまちました。",
+            "romaji": "nijikan machimashita.",
+            "es": "Esperé 2 horas.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "食事の前に手を洗います。",
+            "furigana": "しょくじのまえにてをあらいます。",
+            "es": "Me lavo antes de comer.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "食事の前に手を洗います。 — Me lavo antes de comer."
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "仕事の後に映画を見ます。",
+            "furigana": "しごとのあとにえいがをみます。",
+            "es": "Veo peli después del trabajo.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "仕事の後に映画を見ます。 — Veo peli después del trabajo."
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "食事の前に手を洗います。",
+            "furigana": "しょくじのまえにてをあらいます。",
+            "es": "Me lavo antes de comer.",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Escucha, pausa 3s, repite."
+          },
+          {
+            "tipo": "produccion",
+            "prompt": "Produce: 'Después del trabajo veo peli.'",
+            "respuesta": "仕事の後に映画を見ます。",
+            "jp": "仕事の後に映画を見ます。",
+            "mostrar_texto_antes": false,
+            "rate": 0.8
+          }
+        ]
+      },
+      {
+        "tipo": "errores_comunes",
+        "texto": "Error típico: 食事前/仕事後 sin の. Y confundir 間 con 前: 授業の間( durante clase) vs 授業の前(antes de clase)."
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Hoy: の前/の後/の間 relativo. Próxima: determinantes この/その頃 毎・先・来. Di 3 veces: 食事の前に。"
+      }
+    ],
+    "wexdc": true,
+    "clarity": 3,
+    "autoevaluacion": {
+      "explica_no_informa": true,
+      "palabras_explicacion": 408,
+      "listening_puro_incluido": true,
+      "listening_puro_cantidad": 2,
+      "confianza": 9
+    }
+  },
+  {
+    "id": "l-imabi-045",
+    "title": "IMABI 45: Tiempo relativo II — 毎・先・来・再",
+    "stage": "IMABI · Beginners I",
+    "minutes": 7,
+    "level": "n5",
+    "teach": [
+      {
+        "heading": "IMABI 45: Tiempo relativo II — 毎・先・来・再",
+        "text": "Determinantes relativos: 毎まい( cada ~),先せん( pasado ~),来らい( próximo ~),再さい( re~) + 週・月・年・回. 毎週( cada semana),来年( próximo año).",
+        "examples": [
+          {
+            "jp": "毎朝六時に起きます。",
+            "kana": "まいあさろくじにおきます。",
+            "es": "Cada mañana me levanto a las 6."
+          },
+          {
+            "jp": "先週、京都に行きました。",
+            "kana": "せんしゅう、きょうとにいきました。",
+            "es": "La semana pasada fui a Kyoto."
+          },
+          {
+            "jp": "来年、日本に行きます。",
+            "kana": "らいねん、にほんにいきます。",
+            "es": "El próximo año iré a Japón."
+          }
+        ]
+      }
+    ],
+    "quiz": {
+      "practice": "grammar",
+      "direction": "grammar-es",
+      "ids": [
+        "g-desu",
+        "g-desu-1",
+        "g-desu-2"
+      ]
+    },
+    "secciones": [
+      {
+        "tipo": "gancho",
+        "texto": "Quieres decir 'cada mañana', 'la semana pasada', 'el próximo año' sin usar 毎に? Sin 先/来/毎 no suenas japonés."
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "Relativos determinantes se pegan delante: 毎( cada),先( anterior),来( próximo),再( re/otra vez).\n\nObjetivo: formar 毎朝・先週・来年 + 再来 con precisión.\n\n🧩 Fórmula:【毎/先/来 + unidad】→ 毎朝まいあさ(cada mañana),毎週まいしゅう(cada semana),先週せんしゅう(pasada),来週らいしゅう(próxima),来年らいねん(próx año),再来年さらいねん(año tras el próx).\n\nPiensa en bloques: prefijo + semana/mes/año.\n\n👣 Cómo construirlo (3 pasos):\n1) ¿Cada? → 毎 + 朝/週/月/年/回: 毎朝,毎週\n2) ¿Pasado? → 先 + 週/月/年: 先週,先月せんげつ,去年きょねん( año pasado irregular: 去年 no 先年)\n3) ¿Futuro? → 来 + 週/月/年: 来週,来月らいげつ,来年 + 再来 para “tras el próx”: 再来週さらいしゅう\n\n⚖️ Tabla prefijos tiempo:\n|Prefijo|Signif|Ejemplo|Nota|\n|毎まい|cada|毎朝・毎週|no lleva の|\n|先せん|pasado|先週・先月|去年 es excepción año pasado|\n|来らい|próximo|来週・来年|来年らいねん|\n|再来さらい|tras próx|再来週・再来年|doble distancia|\n\n💡 Ejemplos desglosados:\n1) 毎朝六時に起きます。(まいあさろくじにおきます。)— “Cada mañana 6h me levanto.” → 毎朝+六時に+起きます.\n2) 先週、京都に行きました。(せんしゅう、きょうとにいきました。)— “Semana pasada fui a Kyoto.” → 先週+京都に行きました.\n3) 来年、日本に行きます。(らいねん、にほんにいきます。)— “Próximo año iré a Japón.” → 来年+日本に行きます.\n\n🔑 Mini-resumen:\n□ 毎 cada, 先 pasado, 来 próximo, 再来 tras próximo.\n□ 去年きょねん no 先年; 一昨年おととし antepasado.\n□ Sin の: 毎朝 no 毎の朝.\n\n❌ Error 90%: 毎の週, 先の週 con の → mal. Es 毎週,先週 directo. Y 来月らいげつ con rendaku g→ no, es らいげつ con g suave.\n\n💬 Truco offline: di: 毎朝、毎週、先週、来週、来年 3×. Active recall.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Interleaving: mezcla este tema + vocab + escucha, nunca 10 números seguidos sin contexto. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
+        "palabras": 408
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "毎朝六時に起きます。",
+            "furigana": "まいあさろくじにおきます。",
+            "romaji": "maiasa rokuji ni okimasu.",
+            "es": "Cada mañana me levanto a las 6.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "先週、京都に行きました。",
+            "furigana": "せんしゅう、きょうとにいきました。",
+            "romaji": "senshuu, kyouto ni ikimashita.",
+            "es": "La semana pasada fui a Kyoto.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "来年、日本に行きます。",
+            "furigana": "らいねん、にほんにいきます。",
+            "romaji": "rainen, nihon ni ikimasu.",
+            "es": "El próximo año iré a Japón.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "毎朝六時に起きます。",
+            "furigana": "まいあさろくじにおきます。",
+            "es": "Cada mañana a las 6.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "毎朝六時に起きます。 — Cada mañana a las 6."
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "先週、京都に行きました。",
+            "furigana": "せんしゅう、きょうとにいきました。",
+            "es": "La semana pasada fui a Kyoto.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "先週、京都に行きました。 — Semana pasada a Kyoto."
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "毎朝六時に起きます。",
+            "furigana": "まいあさろくじにおきます。",
+            "es": "Cada mañana a las 6.",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Escucha, pausa 3s, repite."
+          },
+          {
+            "tipo": "produccion",
+            "prompt": "Produce: 'El próximo año iré a Japón.'",
+            "respuesta": "来年、日本に行きます。",
+            "jp": "来年、日本に行きます。",
+            "mostrar_texto_antes": false,
+            "rate": 0.8
+          }
+        ]
+      },
+      {
+        "tipo": "errores_comunes",
+        "texto": "Error típico: 毎の朝, 先の週 con の extra. Y 先年 no se dice, es 去年. 再来週さらいしゅう vs 来来週 inexistente."
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Hoy: 毎・先・来・再来 determinantes. Próxima: この/その/あの + tiempo (あの頃). Di 3 veces: 毎朝、先週、来年。"
+      }
+    ],
+    "sections": [
+      {
+        "tipo": "gancho",
+        "texto": "Quieres decir 'cada mañana', 'la semana pasada', 'el próximo año' sin usar 毎に? Sin 先/来/毎 no suenas japonés."
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "Relativos determinantes se pegan delante: 毎( cada),先( anterior),来( próximo),再( re/otra vez).\n\nObjetivo: formar 毎朝・先週・来年 + 再来 con precisión.\n\n🧩 Fórmula:【毎/先/来 + unidad】→ 毎朝まいあさ(cada mañana),毎週まいしゅう(cada semana),先週せんしゅう(pasada),来週らいしゅう(próxima),来年らいねん(próx año),再来年さらいねん(año tras el próx).\n\nPiensa en bloques: prefijo + semana/mes/año.\n\n👣 Cómo construirlo (3 pasos):\n1) ¿Cada? → 毎 + 朝/週/月/年/回: 毎朝,毎週\n2) ¿Pasado? → 先 + 週/月/年: 先週,先月せんげつ,去年きょねん( año pasado irregular: 去年 no 先年)\n3) ¿Futuro? → 来 + 週/月/年: 来週,来月らいげつ,来年 + 再来 para “tras el próx”: 再来週さらいしゅう\n\n⚖️ Tabla prefijos tiempo:\n|Prefijo|Signif|Ejemplo|Nota|\n|毎まい|cada|毎朝・毎週|no lleva の|\n|先せん|pasado|先週・先月|去年 es excepción año pasado|\n|来らい|próximo|来週・来年|来年らいねん|\n|再来さらい|tras próx|再来週・再来年|doble distancia|\n\n💡 Ejemplos desglosados:\n1) 毎朝六時に起きます。(まいあさろくじにおきます。)— “Cada mañana 6h me levanto.” → 毎朝+六時に+起きます.\n2) 先週、京都に行きました。(せんしゅう、きょうとにいきました。)— “Semana pasada fui a Kyoto.” → 先週+京都に行きました.\n3) 来年、日本に行きます。(らいねん、にほんにいきます。)— “Próximo año iré a Japón.” → 来年+日本に行きます.\n\n🔑 Mini-resumen:\n□ 毎 cada, 先 pasado, 来 próximo, 再来 tras próximo.\n□ 去年きょねん no 先年; 一昨年おととし antepasado.\n□ Sin の: 毎朝 no 毎の朝.\n\n❌ Error 90%: 毎の週, 先の週 con の → mal. Es 毎週,先週 directo. Y 来月らいげつ con rendaku g→ no, es らいげつ con g suave.\n\n💬 Truco offline: di: 毎朝、毎週、先週、来週、来年 3×. Active recall.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Interleaving: mezcla este tema + vocab + escucha, nunca 10 números seguidos sin contexto. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
+        "palabras": 408
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "毎朝六時に起きます。",
+            "furigana": "まいあさろくじにおきます。",
+            "romaji": "maiasa rokuji ni okimasu.",
+            "es": "Cada mañana me levanto a las 6.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "先週、京都に行きました。",
+            "furigana": "せんしゅう、きょうとにいきました。",
+            "romaji": "senshuu, kyouto ni ikimashita.",
+            "es": "La semana pasada fui a Kyoto.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "来年、日本に行きます。",
+            "furigana": "らいねん、にほんにいきます。",
+            "romaji": "rainen, nihon ni ikimasu.",
+            "es": "El próximo año iré a Japón.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "毎朝六時に起きます。",
+            "furigana": "まいあさろくじにおきます。",
+            "es": "Cada mañana a las 6.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "毎朝六時に起きます。 — Cada mañana a las 6."
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "先週、京都に行きました。",
+            "furigana": "せんしゅう、きょうとにいきました。",
+            "es": "La semana pasada fui a Kyoto.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "先週、京都に行きました。 — Semana pasada a Kyoto."
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "毎朝六時に起きます。",
+            "furigana": "まいあさろくじにおきます。",
+            "es": "Cada mañana a las 6.",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Escucha, pausa 3s, repite."
+          },
+          {
+            "tipo": "produccion",
+            "prompt": "Produce: 'El próximo año iré a Japón.'",
+            "respuesta": "来年、日本に行きます。",
+            "jp": "来年、日本に行きます。",
+            "mostrar_texto_antes": false,
+            "rate": 0.8
+          }
+        ]
+      },
+      {
+        "tipo": "errores_comunes",
+        "texto": "Error típico: 毎の朝, 先の週 con の extra. Y 先年 no se dice, es 去年. 再来週さらいしゅう vs 来来週 inexistente."
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Hoy: 毎・先・来・再来 determinantes. Próxima: この/その/あの + tiempo (あの頃). Di 3 veces: 毎朝、先週、来年。"
+      }
+    ],
+    "wexdc": true,
+    "clarity": 3,
+    "autoevaluacion": {
+      "explica_no_informa": true,
+      "palabras_explicacion": 408,
+      "listening_puro_incluido": true,
+      "listening_puro_cantidad": 2,
+      "confianza": 9
+    }
+  },
+  {
+    "id": "l-imabi-046",
+    "title": "IMABI 46: Tiempo relativo III — あの頃・その時",
+    "stage": "IMABI · Beginners I",
+    "minutes": 7,
+    "level": "n5",
+    "teach": [
+      {
+        "heading": "IMABI 46: Tiempo relativo III — あの頃・その時",
+        "text": "Referencia anafórica: この頃(últimamente/por estos días),その時( en ese momento),あの頃( en aquellos días). Con の + N tiempo.",
+        "examples": [
+          {
+            "jp": "あの頃は学生でした。",
+            "kana": "あのころはがくせいでした。",
+            "es": "En aquella época era estudiante."
+          },
+          {
+            "jp": "その時、雨が降っていました。",
+            "kana": "そのとき、あめがふっていました。",
+            "es": "En ese momento llovía."
+          },
+          {
+            "jp": "この頃、忙しいです。",
+            "kana": "このごろ、いそがしいです。",
+            "es": "Últimamente estoy ocupado."
+          }
+        ]
+      }
+    ],
+    "quiz": {
+      "practice": "grammar",
+      "direction": "grammar-es",
+      "ids": [
+        "g-desu",
+        "g-desu-1",
+        "g-desu-2"
+      ]
+    },
+    "secciones": [
+      {
+        "tipo": "gancho",
+        "texto": "Cuentas anécdota y dices その時 pero dudas si es あの時 o その時. Referencia anafórica elige こ・そ・あ según distancia discursiva."
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "Anáfora temporal usa こそあど con tiempo: この頃( estos días),その時( ese momento justo mencionado),あの頃( aquellos días lejanos).\n\nObjetivo: usar この/その/あの + 頃・時・間 para situar historia.\n\n🧩 Fórmula:【この/その/あの + 頃・時・日】→ この頃(últimamente),その時(en ese momento),あの頃(aquella época),その日(ese día).\n- 頃ごろ: periodo aproximado/indeterminado (あの頃=por entonces)\n- 時とき: momento puntual (その時=en ese instante)\n- 間あいだ: intervalo (その間=mientras tanto)\n\nPiensa en bloques: ¿cerca narrativo (ahora)? この. ¿recién mencionado? その. ¿lejano pasado? あの.\n\n👣 Cómo construirlo (3 pasos):\n1) ¿Hablas de ahora/last days? → この頃、このところ( últimamente)\n2) ¿Retomas momento recién dicho? → その時、その日、その頃\n3) ¿Evocas infancia/años atrás? → あの頃、あの時、あの日\n\n⚖️ Tabla anáfora tiempo:\n|Forma|Matiz|Ejemplo|\n|この頃|últimamente|この頃忙しい|\n|その時|en ese momento|その時雨が...|\n|あの頃|aquella época|あの頃学生だった|\n|あの時|aquella vez puntual|あの時助けてくれた|\n\n💡 Ejemplos desglosados:\n1) あの頃は学生でした。(あのころはがくせいでした。)— “En aquella época era estudiante.” → あの頃は+学生でした.\n2) その時、雨が降っていました。(そのとき、あめがふっていました。)— “En ese momento llovía.” → その時+雨が降っていました(～ていた progresivo).\n3) この頃、忙しいです。(このごろ、いそがしいです。)— “Últimamente ocupado.” → この頃+忙しいです.\n\n🔑 Mini-resumen:\n□ 頃 periodo difuso, 時 momento, 間 intervalo.\n□ この ahora, その recién dicho, あの lejano/recuerdo.\n□ Muy usado en historias: その時、急に...\n\n❌ Error 90%: usar あの時 para algo de hace 5 min (es その時). Y leer 頃ころ como ころ no ごろ en compuestos: あの頃あのころ.\n\n💬 Truco offline: narra: あの頃私は...その時、...この頃は... 3×. Active recall.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Interleaving: mezcla este tema + vocab + escucha, nunca 10 números seguidos sin contexto. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
+        "palabras": 409
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "あの頃は学生でした。",
+            "furigana": "あのころはがくせいでした。",
+            "romaji": "ano koro wa gakusei deshita.",
+            "es": "En aquella época era estudiante.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "その時、雨が降っていました。",
+            "furigana": "そのとき、あめがふっていました。",
+            "romaji": "sono toki, ame ga futte imashita.",
+            "es": "En ese momento llovía.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "この頃、忙しいです。",
+            "furigana": "このごろ、いそがしいです。",
+            "romaji": "kono goro, isogashii desu.",
+            "es": "Últimamente estoy ocupado.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "あの頃は学生でした。",
+            "furigana": "あのころはがくせいでした。",
+            "es": "En aquella época era estudiante.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "あの頃は学生でした。 — En aquella época era estudiante."
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "その時、雨が降っていました。",
+            "furigana": "そのとき、あめがふっていました。",
+            "es": "En ese momento llovía.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "その時、雨が降っていました。 — En ese momento llovía."
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "あの頃は学生でした。",
+            "furigana": "あのころはがくせいでした。",
+            "es": "En aquella época era estudiante.",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Escucha, pausa 3s, repite."
+          },
+          {
+            "tipo": "produccion",
+            "prompt": "Produce: 'Últimamente estoy ocupado.'",
+            "respuesta": "この頃、忙しいです。",
+            "jp": "この頃、忙しいです。",
+            "mostrar_texto_antes": false,
+            "rate": 0.8
+          }
+        ]
+      },
+      {
+        "tipo": "errores_comunes",
+        "texto": "Error típico: その頃 vs その時: 頃 difuso (época), 時 puntual (instante). Y このごろ con ご no こ en 頃 tras N: このごろ pero あのころ."
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Hoy: この・その・あの + 頃・時 anáfora. Próxima: contadores tiempo 日・年. Di 3 veces: あの頃、その時、この頃。"
+      }
+    ],
+    "sections": [
+      {
+        "tipo": "gancho",
+        "texto": "Cuentas anécdota y dices その時 pero dudas si es あの時 o その時. Referencia anafórica elige こ・そ・あ según distancia discursiva."
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "Anáfora temporal usa こそあど con tiempo: この頃( estos días),その時( ese momento justo mencionado),あの頃( aquellos días lejanos).\n\nObjetivo: usar この/その/あの + 頃・時・間 para situar historia.\n\n🧩 Fórmula:【この/その/あの + 頃・時・日】→ この頃(últimamente),その時(en ese momento),あの頃(aquella época),その日(ese día).\n- 頃ごろ: periodo aproximado/indeterminado (あの頃=por entonces)\n- 時とき: momento puntual (その時=en ese instante)\n- 間あいだ: intervalo (その間=mientras tanto)\n\nPiensa en bloques: ¿cerca narrativo (ahora)? この. ¿recién mencionado? その. ¿lejano pasado? あの.\n\n👣 Cómo construirlo (3 pasos):\n1) ¿Hablas de ahora/last days? → この頃、このところ( últimamente)\n2) ¿Retomas momento recién dicho? → その時、その日、その頃\n3) ¿Evocas infancia/años atrás? → あの頃、あの時、あの日\n\n⚖️ Tabla anáfora tiempo:\n|Forma|Matiz|Ejemplo|\n|この頃|últimamente|この頃忙しい|\n|その時|en ese momento|その時雨が...|\n|あの頃|aquella época|あの頃学生だった|\n|あの時|aquella vez puntual|あの時助けてくれた|\n\n💡 Ejemplos desglosados:\n1) あの頃は学生でした。(あのころはがくせいでした。)— “En aquella época era estudiante.” → あの頃は+学生でした.\n2) その時、雨が降っていました。(そのとき、あめがふっていました。)— “En ese momento llovía.” → その時+雨が降っていました(～ていた progresivo).\n3) この頃、忙しいです。(このごろ、いそがしいです。)— “Últimamente ocupado.” → この頃+忙しいです.\n\n🔑 Mini-resumen:\n□ 頃 periodo difuso, 時 momento, 間 intervalo.\n□ この ahora, その recién dicho, あの lejano/recuerdo.\n□ Muy usado en historias: その時、急に...\n\n❌ Error 90%: usar あの時 para algo de hace 5 min (es その時). Y leer 頃ころ como ころ no ごろ en compuestos: あの頃あのころ.\n\n💬 Truco offline: narra: あの頃私は...その時、...この頃は... 3×. Active recall.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Interleaving: mezcla este tema + vocab + escucha, nunca 10 números seguidos sin contexto. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
+        "palabras": 409
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "あの頃は学生でした。",
+            "furigana": "あのころはがくせいでした。",
+            "romaji": "ano koro wa gakusei deshita.",
+            "es": "En aquella época era estudiante.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "その時、雨が降っていました。",
+            "furigana": "そのとき、あめがふっていました。",
+            "romaji": "sono toki, ame ga futte imashita.",
+            "es": "En ese momento llovía.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "この頃、忙しいです。",
+            "furigana": "このごろ、いそがしいです。",
+            "romaji": "kono goro, isogashii desu.",
+            "es": "Últimamente estoy ocupado.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "あの頃は学生でした。",
+            "furigana": "あのころはがくせいでした。",
+            "es": "En aquella época era estudiante.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "あの頃は学生でした。 — En aquella época era estudiante."
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "その時、雨が降っていました。",
+            "furigana": "そのとき、あめがふっていました。",
+            "es": "En ese momento llovía.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "その時、雨が降っていました。 — En ese momento llovía."
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "あの頃は学生でした。",
+            "furigana": "あのころはがくせいでした。",
+            "es": "En aquella época era estudiante.",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Escucha, pausa 3s, repite."
+          },
+          {
+            "tipo": "produccion",
+            "prompt": "Produce: 'Últimamente estoy ocupado.'",
+            "respuesta": "この頃、忙しいです。",
+            "jp": "この頃、忙しいです。",
+            "mostrar_texto_antes": false,
+            "rate": 0.8
+          }
+        ]
+      },
+      {
+        "tipo": "errores_comunes",
+        "texto": "Error típico: その頃 vs その時: 頃 difuso (época), 時 puntual (instante). Y このごろ con ご no こ en 頃 tras N: このごろ pero あのころ."
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Hoy: この・その・あの + 頃・時 anáfora. Próxima: contadores tiempo 日・年. Di 3 veces: あの頃、その時、この頃。"
+      }
+    ],
+    "wexdc": true,
+    "clarity": 3,
+    "autoevaluacion": {
+      "explica_no_informa": true,
+      "palabras_explicacion": 409,
+      "listening_puro_incluido": true,
+      "listening_puro_cantidad": 2,
+      "confianza": 9
+    }
+  },
+  {
+    "id": "l-imabi-047",
+    "title": "IMABI 47: Tiempo I — 日・週間・ヶ月・年",
+    "stage": "IMABI · Beginners I",
+    "minutes": 8,
+    "level": "n5",
+    "teach": [
+      {
+        "heading": "IMABI 47: Tiempo I — 日・週間・ヶ月・年",
+        "text": "Días contables: 一日いちにち→2日ふつか系, 一週間いっしゅうかん, 一ヶ月いっかげつ, 一年いちねん. Duración vs fecha.",
+        "examples": [
+          {
+            "jp": "二日間休みます。",
+            "kana": "ふつかかんやすみます。",
+            "es": "Descanso 2 días."
+          },
+          {
+            "jp": "一ヶ月日本にいました。",
+            "kana": "いっかげつにほんにいました。",
+            "es": "Estuve 1 mes en Japón."
+          },
+          {
+            "jp": "一年に三回帰ります。",
+            "kana": "いちねんにさんかいかえります。",
+            "es": "Vuelvo 3 veces al año."
+          }
+        ]
+      }
+    ],
+    "quiz": {
+      "practice": "grammar",
+      "direction": "grammar-es",
+      "ids": [
+        "g-desu",
+        "g-desu-1",
+        "g-desu-2"
+      ]
+    },
+    "secciones": [
+      {
+        "tipo": "gancho",
+        "texto": "Dices 1 mes como いちげつ y te corrigen いっかげつ. Duraciones 日/週/月/年 tienen geminadas y lecturas especiales."
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "Tiempo I cuenta duraciones: días (日間), semanas (週間), meses (ヶ月), años (年). Fechas (1日ついたち) vs duración (1日いちにち) difieren.\n\nObjetivo: decir “X días/semanas/meses/años” con pronunciación correcta.\n\n🧩 Fórmula:【número + 日間/週間/ヶ月/年】→ 二日間ふつかかん(2 días),一週間いっしゅうかん, 一ヶ月いっかげつ, 一年いちねん. Regla: 1/6/8/10 geminada: いっしゅうかん・ろっかげつ? 実際 六ヶ月ろっかげつ.\n\nPiensa en bloques: cantidad + unidad de calendario + 間 opcional para énfasis duración.\n\n👣 Cómo construirlo (3 pasos):\n1) Días duración 1-10 nativo + かん?: 一日いちにち/いちにちかん? 1日1日→ふつか(2)、みっか(3)→二日間ふつかかん\n2) Semanas: 1週間いっしゅうかん,2週間にしゅうかん,3週間さんしゅうかん\n3) Meses: 1ヶ月いっかげつ,2ヶ月にかげつ,3ヶ月さんかげつ,6ヶ月ろっかげつ,8ヶ月はっかげつ + Años: 1年いちねん,2年 にねん\n\n⚖️ Tabla tiempo I:\n|Unidad|1|2|6|Lectura|\n|日間|いちにちかん|ふつかかん|むいかかん|かん opcional|\n|週間|いっしゅうかん|にしゅうかん|ろっしゅうかん|しゅうかん|\n|ヶ月|いっかげつ|にかげつ|ろっかげつ|かげつ|\n|年|いちねん|にねん|ろくねん|ねん|\n\n💡 Ejemplos desglosados:\n1) 二日間休みます。(ふつかかんやすみます。)— “Descanso 2 días.” → 二日間(ふつかかん)+休みます.\n2) 一ヶ月日本にいました。(いっかげつにほんにいました。)— “Estuve 1 mes en Japón.” → 一ヶ月(いっかげつ)+日本にいました.\n3) 一年に三回帰ります。(いちねんにさんかいかえります。)— “3 veces al año vuelvo.” → 一年に+三回+帰ります.\n\n🔑 Mini-resumen:\n□ Duración: 日間(かん opcional), 週間, ヶ月, 年.\n□ 1/6/8/10 geminada: いっしゅうかん・いっかげつ・ろっかげつ・はっかげつ.\n□ Fecha 1日ついたち vs duración 1日いちにち.\n\n❌ Error 90%: いちげつ(1 mes) → es いっかげつ. 日数 sin distinguir fecha/duración: 1日ついたち solo fecha, no “1 día de vacaciones” que es いちにち.\n\n💬 Truco offline: di: 一週間、二週間、一ヶ月、二ヶ月、一年 3×. Active recall.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Interleaving: mezcla este tema + vocab + escucha, nunca 10 números seguidos sin contexto. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
+        "palabras": 406
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "二日間休みます。",
+            "furigana": "ふつかかんやすみます。",
+            "romaji": "futsukakan yasumimasu.",
+            "es": "Descanso 2 días.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "一ヶ月日本にいました。",
+            "furigana": "いっかげつにほんにいました。",
+            "romaji": "ikkagetsu nihon ni imashita.",
+            "es": "Estuve 1 mes en Japón.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "一年に三回帰ります。",
+            "furigana": "いちねんにさんかいかえります。",
+            "romaji": "ichinen ni sankai kaerimasu.",
+            "es": "Vuelvo 3 veces al año.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "二日間休みます。",
+            "furigana": "ふつかかんやすみます。",
+            "es": "Descanso 2 días.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "二日間休みます。 — Descanso 2 días."
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "一ヶ月日本にいました。",
+            "furigana": "いっかげつにほんにいました。",
+            "es": "Estuve 1 mes en Japón.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "一ヶ月日本にいました。 — Estuve 1 mes en Japón."
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "二日間休みます。",
+            "furigana": "ふつかかんやすみます。",
+            "es": "Descanso 2 días.",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Escucha, pausa 3s, repite."
+          },
+          {
+            "tipo": "produccion",
+            "prompt": "Produce: 'Estuve 1 mes en Japón.'",
+            "respuesta": "一ヶ月日本にいました。",
+            "jp": "一ヶ月日本にいました。",
+            "mostrar_texto_antes": false,
+            "rate": 0.8
+          }
+        ]
+      },
+      {
+        "tipo": "errores_comunes",
+        "texto": "Error típico: 一ヶ月いちげつ → いっかげつ. 一週間いちしゅうかん → いっしゅうかん. Fecha vs duración: 1日( fecha) ついたち vs 1日( duración) いちにち."
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Hoy: 日・週間・ヶ月・年 duraciones. Próxima: 時間・分・秒. Di 3 veces: いっしゅうかん、いっかげつ、いちねん。"
+      }
+    ],
+    "sections": [
+      {
+        "tipo": "gancho",
+        "texto": "Dices 1 mes como いちげつ y te corrigen いっかげつ. Duraciones 日/週/月/年 tienen geminadas y lecturas especiales."
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "Tiempo I cuenta duraciones: días (日間), semanas (週間), meses (ヶ月), años (年). Fechas (1日ついたち) vs duración (1日いちにち) difieren.\n\nObjetivo: decir “X días/semanas/meses/años” con pronunciación correcta.\n\n🧩 Fórmula:【número + 日間/週間/ヶ月/年】→ 二日間ふつかかん(2 días),一週間いっしゅうかん, 一ヶ月いっかげつ, 一年いちねん. Regla: 1/6/8/10 geminada: いっしゅうかん・ろっかげつ? 実際 六ヶ月ろっかげつ.\n\nPiensa en bloques: cantidad + unidad de calendario + 間 opcional para énfasis duración.\n\n👣 Cómo construirlo (3 pasos):\n1) Días duración 1-10 nativo + かん?: 一日いちにち/いちにちかん? 1日1日→ふつか(2)、みっか(3)→二日間ふつかかん\n2) Semanas: 1週間いっしゅうかん,2週間にしゅうかん,3週間さんしゅうかん\n3) Meses: 1ヶ月いっかげつ,2ヶ月にかげつ,3ヶ月さんかげつ,6ヶ月ろっかげつ,8ヶ月はっかげつ + Años: 1年いちねん,2年 にねん\n\n⚖️ Tabla tiempo I:\n|Unidad|1|2|6|Lectura|\n|日間|いちにちかん|ふつかかん|むいかかん|かん opcional|\n|週間|いっしゅうかん|にしゅうかん|ろっしゅうかん|しゅうかん|\n|ヶ月|いっかげつ|にかげつ|ろっかげつ|かげつ|\n|年|いちねん|にねん|ろくねん|ねん|\n\n💡 Ejemplos desglosados:\n1) 二日間休みます。(ふつかかんやすみます。)— “Descanso 2 días.” → 二日間(ふつかかん)+休みます.\n2) 一ヶ月日本にいました。(いっかげつにほんにいました。)— “Estuve 1 mes en Japón.” → 一ヶ月(いっかげつ)+日本にいました.\n3) 一年に三回帰ります。(いちねんにさんかいかえります。)— “3 veces al año vuelvo.” → 一年に+三回+帰ります.\n\n🔑 Mini-resumen:\n□ Duración: 日間(かん opcional), 週間, ヶ月, 年.\n□ 1/6/8/10 geminada: いっしゅうかん・いっかげつ・ろっかげつ・はっかげつ.\n□ Fecha 1日ついたち vs duración 1日いちにち.\n\n❌ Error 90%: いちげつ(1 mes) → es いっかげつ. 日数 sin distinguir fecha/duración: 1日ついたち solo fecha, no “1 día de vacaciones” que es いちにち.\n\n💬 Truco offline: di: 一週間、二週間、一ヶ月、二ヶ月、一年 3×. Active recall.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Interleaving: mezcla este tema + vocab + escucha, nunca 10 números seguidos sin contexto. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
+        "palabras": 406
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "二日間休みます。",
+            "furigana": "ふつかかんやすみます。",
+            "romaji": "futsukakan yasumimasu.",
+            "es": "Descanso 2 días.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "一ヶ月日本にいました。",
+            "furigana": "いっかげつにほんにいました。",
+            "romaji": "ikkagetsu nihon ni imashita.",
+            "es": "Estuve 1 mes en Japón.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "一年に三回帰ります。",
+            "furigana": "いちねんにさんかいかえります。",
+            "romaji": "ichinen ni sankai kaerimasu.",
+            "es": "Vuelvo 3 veces al año.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "二日間休みます。",
+            "furigana": "ふつかかんやすみます。",
+            "es": "Descanso 2 días.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "二日間休みます。 — Descanso 2 días."
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "一ヶ月日本にいました。",
+            "furigana": "いっかげつにほんにいました。",
+            "es": "Estuve 1 mes en Japón.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "一ヶ月日本にいました。 — Estuve 1 mes en Japón."
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "二日間休みます。",
+            "furigana": "ふつかかんやすみます。",
+            "es": "Descanso 2 días.",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Escucha, pausa 3s, repite."
+          },
+          {
+            "tipo": "produccion",
+            "prompt": "Produce: 'Estuve 1 mes en Japón.'",
+            "respuesta": "一ヶ月日本にいました。",
+            "jp": "一ヶ月日本にいました。",
+            "mostrar_texto_antes": false,
+            "rate": 0.8
+          }
+        ]
+      },
+      {
+        "tipo": "errores_comunes",
+        "texto": "Error típico: 一ヶ月いちげつ → いっかげつ. 一週間いちしゅうかん → いっしゅうかん. Fecha vs duración: 1日( fecha) ついたち vs 1日( duración) いちにち."
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Hoy: 日・週間・ヶ月・年 duraciones. Próxima: 時間・分・秒. Di 3 veces: いっしゅうかん、いっかげつ、いちねん。"
+      }
+    ],
+    "wexdc": true,
+    "clarity": 3,
+    "autoevaluacion": {
+      "explica_no_informa": true,
+      "palabras_explicacion": 406,
+      "listening_puro_incluido": true,
+      "listening_puro_cantidad": 2,
+      "confianza": 9
+    }
+  },
+  {
+    "id": "l-imabi-048",
+    "title": "IMABI 48: Tiempo II — 時間・分・秒・晩・夜",
+    "stage": "IMABI · Beginners I",
+    "minutes": 8,
+    "level": "n5",
+    "teach": [
+      {
+        "heading": "IMABI 48: Tiempo II — 時間・分・秒・晩・夜",
+        "text": "Horas/minutos: 時間じかん, 分ふん/ぷん, 秒びょう, 晩ばん, 夜よる. 分 tiene 3 sonidos: ふん・ぷん・ぶん.",
+        "examples": [
+          {
+            "jp": "三時間勉強しました。",
+            "kana": "さんじかんべんきょうしました。",
+            "es": "Estudié 3 horas."
+          },
+          {
+            "jp": "八分待ちました。",
+            "kana": "はっぷんまちました。",
+            "es": "Esperé 8 min."
+          },
+          {
+            "jp": "一晩中降りました。",
+            "kana": "ひとばんじゅうふりました。",
+            "es": "Llovió toda la noche."
+          }
+        ]
+      }
+    ],
+    "quiz": {
+      "practice": "grammar",
+      "direction": "grammar-es",
+      "ids": [
+        "g-desu",
+        "g-desu-1",
+        "g-desu-2"
+      ]
+    },
+    "secciones": [
+      {
+        "tipo": "gancho",
+        "texto": "Dices 3 minutos さんふん y es さんぷん. 8 minutos はちふん y es はっぷん. 分 cambia f→p→b según número."
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "Tiempo II detalla subdivisiones: 時間( horas), 分( minutos con rendaku), 秒( segundos), 晩晩中( noche entera).\n\nObjetivo: contar horas/min/seg con 分 eufonía y usar 晩/夜.\n\n🧩 Fórmula:【número + 時間/分/秒】→ 三時間さんじかん, 三分さんぷん(f→p), 四分よんぷん, 六分ろっぷん, 八分はっぷん, 一分いっぷん. 晩: 一晩ひとばん, 一晩中ひとばんじゅう(toda la noche).\n\nPiensa en bloques: número + unidad + rendaku de 分.\n\n👣 Cómo construirlo (3 pasos):\n1) Horas: 1時間いちじかん,2時間にじかん regular.\n2) Minutos: memoriza 4 grupos: 1/6/8/10 p→  いっぷん・ろっぷん・はっぷん・じっぷん(10ぷん) ; 3/4 p→ さんぷん・よんぷん ; 2/5/7/9 f→ にふん・ごふん・ななふん・きゅうふん\n3) Segundos: 秒びょう regular: 1秒いちびょう,3秒さんびょう + Noche: 一晩ひとばん, 一晩中ひとばんじゅう\n\n⚖️ Tabla tiempo II:\n|Unidad|Lect|1|3|4|6|8|\n|時間|じかん|いちじかん|さんじかん|よじかん|ろくじかん|はちじかん|\n|分|ふん/ぷん|いっぷん|さんぷん|よんぷん|ろっぷん|はっぷん|\n|秒|びょう|いちびょう|さんびょう|よんびょう|ろくびょう|はちびょう|\n|晩|ばん|ひとばん|—|—|—|—|\n\n💡 Ejemplos desglosados:\n1) 三時間勉強しました。(さんじかんべんきょうしました。)— “Estudié 3h.” → 三時間(さんじかん)+勉強しました.\n2) 八分待ちました。(はっぷんまちました。)— “Esperé 8 min.” → 八分(はっぷん 8→p geminado)+待ちました.\n3) 一晩中降りました。(ひとばんじゅうふりました。)— “Llovió toda la noche.” → 一晩中(ひとばんじゅう)+降りました.\n\n🔑 Mini-resumen:\n□ 時間 regular, 分 con ぷん/ふん, 秒 regular.\n□ 晩ひとばん(nativo 1), 夜よる(noche concepto).\n□ 一晩中 toda la noche, 一晩 una noche.\n\n❌ Error 90%: さんふん(3 min) → さんぷん, はちふん→はっぷん. Olvidar ひとばん nativo para 1 noche (いちばん es mal rank). Confundir 晩/夜: 夜 noche calendario, 晩 tarde-noche.\n\n💬 Truco offline: di minutos 1-10 en voz alta: いっぷん、にふん、さんぷん... 3×. Active recall.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Interleaving: mezcla este tema + vocab + escucha, nunca 10 números seguidos sin contexto. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
+        "palabras": 411
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "三時間勉強しました。",
+            "furigana": "さんじかんべんきょうしました。",
+            "romaji": "sanjikan benkyou shimashita.",
+            "es": "Estudié 3 horas.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "八分待ちました。",
+            "furigana": "はっぷんまちました。",
+            "romaji": "happun machimashita.",
+            "es": "Esperé 8 min.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "一晩中降りました。",
+            "furigana": "ひとばんじゅうふりました。",
+            "romaji": "hitobanjuu furimashita.",
+            "es": "Llovió toda la noche.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "三時間勉強しました。",
+            "furigana": "さんじかんべんきょうしました。",
+            "es": "Estudié 3 horas.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "三時間勉強しました。 — Estudié 3 horas."
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "八分待ちました。",
+            "furigana": "はっぷんまちました。",
+            "es": "Esperé 8 min.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "八分待ちました。 — Esperé 8 min."
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "三時間勉強しました。",
+            "furigana": "さんじかんべんきょうしました。",
+            "es": "Estudié 3 horas.",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Escucha, pausa 3s, repite."
+          },
+          {
+            "tipo": "produccion",
+            "prompt": "Produce: 'Esperé 8 min.'",
+            "respuesta": "八分待ちました。",
+            "jp": "八分待ちました。",
+            "mostrar_texto_antes": false,
+            "rate": 0.8
+          }
+        ]
+      },
+      {
+        "tipo": "errores_comunes",
+        "texto": "Error típico: 分 siempre ふん → no, 1/3/4/6/8/10 usan ぷん. Lectura ひとばん(1 noche) vs いちばん(la mejor). Y confundir 時間 duración vs 時 hora reloj: 三時 vs 三時間."
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Hoy: 時間・分・秒・晩 noche. Próxima: frecuencia 度・回. Di 3 veces: いっぷん、さんぷん、はっぷん。"
+      }
+    ],
+    "sections": [
+      {
+        "tipo": "gancho",
+        "texto": "Dices 3 minutos さんふん y es さんぷん. 8 minutos はちふん y es はっぷん. 分 cambia f→p→b según número."
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "Tiempo II detalla subdivisiones: 時間( horas), 分( minutos con rendaku), 秒( segundos), 晩晩中( noche entera).\n\nObjetivo: contar horas/min/seg con 分 eufonía y usar 晩/夜.\n\n🧩 Fórmula:【número + 時間/分/秒】→ 三時間さんじかん, 三分さんぷん(f→p), 四分よんぷん, 六分ろっぷん, 八分はっぷん, 一分いっぷん. 晩: 一晩ひとばん, 一晩中ひとばんじゅう(toda la noche).\n\nPiensa en bloques: número + unidad + rendaku de 分.\n\n👣 Cómo construirlo (3 pasos):\n1) Horas: 1時間いちじかん,2時間にじかん regular.\n2) Minutos: memoriza 4 grupos: 1/6/8/10 p→  いっぷん・ろっぷん・はっぷん・じっぷん(10ぷん) ; 3/4 p→ さんぷん・よんぷん ; 2/5/7/9 f→ にふん・ごふん・ななふん・きゅうふん\n3) Segundos: 秒びょう regular: 1秒いちびょう,3秒さんびょう + Noche: 一晩ひとばん, 一晩中ひとばんじゅう\n\n⚖️ Tabla tiempo II:\n|Unidad|Lect|1|3|4|6|8|\n|時間|じかん|いちじかん|さんじかん|よじかん|ろくじかん|はちじかん|\n|分|ふん/ぷん|いっぷん|さんぷん|よんぷん|ろっぷん|はっぷん|\n|秒|びょう|いちびょう|さんびょう|よんびょう|ろくびょう|はちびょう|\n|晩|ばん|ひとばん|—|—|—|—|\n\n💡 Ejemplos desglosados:\n1) 三時間勉強しました。(さんじかんべんきょうしました。)— “Estudié 3h.” → 三時間(さんじかん)+勉強しました.\n2) 八分待ちました。(はっぷんまちました。)— “Esperé 8 min.” → 八分(はっぷん 8→p geminado)+待ちました.\n3) 一晩中降りました。(ひとばんじゅうふりました。)— “Llovió toda la noche.” → 一晩中(ひとばんじゅう)+降りました.\n\n🔑 Mini-resumen:\n□ 時間 regular, 分 con ぷん/ふん, 秒 regular.\n□ 晩ひとばん(nativo 1), 夜よる(noche concepto).\n□ 一晩中 toda la noche, 一晩 una noche.\n\n❌ Error 90%: さんふん(3 min) → さんぷん, はちふん→はっぷん. Olvidar ひとばん nativo para 1 noche (いちばん es mal rank). Confundir 晩/夜: 夜 noche calendario, 晩 tarde-noche.\n\n💬 Truco offline: di minutos 1-10 en voz alta: いっぷん、にふん、さんぷん... 3×. Active recall.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Interleaving: mezcla este tema + vocab + escucha, nunca 10 números seguidos sin contexto. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
+        "palabras": 411
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "三時間勉強しました。",
+            "furigana": "さんじかんべんきょうしました。",
+            "romaji": "sanjikan benkyou shimashita.",
+            "es": "Estudié 3 horas.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "八分待ちました。",
+            "furigana": "はっぷんまちました。",
+            "romaji": "happun machimashita.",
+            "es": "Esperé 8 min.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "一晩中降りました。",
+            "furigana": "ひとばんじゅうふりました。",
+            "romaji": "hitobanjuu furimashita.",
+            "es": "Llovió toda la noche.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "三時間勉強しました。",
+            "furigana": "さんじかんべんきょうしました。",
+            "es": "Estudié 3 horas.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "三時間勉強しました。 — Estudié 3 horas."
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "八分待ちました。",
+            "furigana": "はっぷんまちました。",
+            "es": "Esperé 8 min.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "八分待ちました。 — Esperé 8 min."
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "三時間勉強しました。",
+            "furigana": "さんじかんべんきょうしました。",
+            "es": "Estudié 3 horas.",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Escucha, pausa 3s, repite."
+          },
+          {
+            "tipo": "produccion",
+            "prompt": "Produce: 'Esperé 8 min.'",
+            "respuesta": "八分待ちました。",
+            "jp": "八分待ちました。",
+            "mostrar_texto_antes": false,
+            "rate": 0.8
+          }
+        ]
+      },
+      {
+        "tipo": "errores_comunes",
+        "texto": "Error típico: 分 siempre ふん → no, 1/3/4/6/8/10 usan ぷん. Lectura ひとばん(1 noche) vs いちばん(la mejor). Y confundir 時間 duración vs 時 hora reloj: 三時 vs 三時間."
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Hoy: 時間・分・秒・晩 noche. Próxima: frecuencia 度・回. Di 3 veces: いっぷん、さんぷん、はっぷん。"
+      }
+    ],
+    "wexdc": true,
+    "clarity": 3,
+    "autoevaluacion": {
+      "explica_no_informa": true,
+      "palabras_explicacion": 411,
+      "listening_puro_incluido": true,
+      "listening_puro_cantidad": 2,
+      "confianza": 9
+    }
+  },
+  {
+    "id": "l-imabi-049",
+    "title": "IMABI 49: Frecuencia — 度・回・遍・回",
+    "stage": "IMABI · Beginners I",
+    "minutes": 7,
+    "level": "n5",
+    "teach": [
+      {
+        "heading": "IMABI 49: Frecuencia — 度・回・遍・回",
+        "text": "Frecuencia: 度ど(grado/veces abstractas), 回かい(veces contables), 遍へん(veces completas/largas). 一度いちど,二回にかい, 一遍いっぺん.",
+        "examples": [
+          {
+            "jp": "一年に三回日本に行きます。",
+            "kana": "いちねんにさんかいにほんにいきます。",
+            "es": "Voy a Japón 3 veces al año."
+          },
+          {
+            "jp": "もう一度お願いします。",
+            "kana": "もういちどおねがいします。",
+            "es": "Otra vez, por favor."
+          },
+          {
+            "jp": "この本を二度読みました。",
+            "kana": "このほんをにどよみました。",
+            "es": "Leí este libro 2 veces."
+          }
+        ]
+      }
+    ],
+    "quiz": {
+      "practice": "grammar",
+      "direction": "grammar-es",
+      "ids": [
+        "g-desu",
+        "g-desu-1",
+        "g-desu-2"
+      ]
+    },
+    "secciones": [
+      {
+        "tipo": "gancho",
+        "texto": "Quieres decir '3 veces al año' y dudas: さんど? さんかい? さんへん? Cada 'vez' tiene matiz distinto."
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "Frecuencia cuenta repeticiones: 度( vez general/abstr), 回( vez contable evento), 遍( vez completa lectura/viaje).\n\nObjetivo: elegir 度/回/遍 según contexto y decir “n veces por periodo”.\n\n🧩 Fórmula:【número + 度/回/遍】+【期間に】→ 一年に三回行く, 一度だけ, 二度読む, 一遍読む(leer de cabo a rabo). もう一度(otra vez) fijo.\n- 度: general, a veces grados (温度) pero aquí veces: 一度いちど,二度にど,三度さんど\n- 回: eventos contables: 一回いっかい(1),三回さんかい,六回ろっかい geminada\n- 遍: ciclos completos (leer libro de principio a fin): 一遍いっぺん\n\nPiensa en bloques: ¿evento separable? 回. ¿vez abstracta? 度. ¿lectura completa? 遍.\n\n👣 Cómo construirlo (3 pasos):\n1) Frecuencia por periodo: 一年に三回○○します\n2) “Una vez más” fijo: もう一度/もう一回\n3) “Solo una vez”: 一度だけ/一回だけ + “a veces” 時々ときどき (adverbio)\n\n⚖️ Tabla frecuencia:\n|Contador|Uso|1|3|Lectura|\n|度ど|veces general|いちど|さんど|ど|\n|回かい|veces evento|いっかい|さんかい|かい geminada 1/6/8/10|\n|遍へん|veces completas|いっぺん|さんぺん|へん→ぺん 1/6/8/10|\n\n💡 Ejemplos desglosados:\n1) 一年に三回日本に行きます。(いちねんにさんかいにほんにいきます。)— “3 veces/año voy a Japón.” → 一年に+三回+行きます.\n2) もう一度お願いします。(もういちどおねがいします。)— “Otra vez por favor.” → もう+一度(いちど)+お願いします.\n3) この本を二度読みました。(このほんをにどよみました。)— “Leí este libro 2 veces.” → この本を+二度(にど)+読みました.\n\n🔑 Mini-resumen:\n□ 度 general/abstracta, 回 evento contable (más usado), 遍 lectura/viaje completo.\n□ もう一度 fijo “otra vez”.\n□ 一年に～回 patrón frecuencia por periodo.\n\n❌ Error 90%: usar 度 para eventos concretos donde mejor 回. Y olvidar geminada de 回: いちかい→いっかい, ろっかい, はっかい, じっかい.\n\n💬 Truco offline: di: 一度、二度、三度 / 一回、二回、三回 3×. Active recall. Di tu hábito: 一週間に二回走ります.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Interleaving: mezcla este tema + vocab + escucha, nunca 10 números seguidos sin contexto. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
+        "palabras": 411
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "一年に三回日本に行きます。",
+            "furigana": "いちねんにさんかいにほんにいきます。",
+            "romaji": "ichinen ni sankai nihon ni ikimasu.",
+            "es": "Voy a Japón 3 veces al año.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "もう一度お願いします。",
+            "furigana": "もういちどおねがいします。",
+            "romaji": "mou ichido onegaishimasu.",
+            "es": "Otra vez, por favor.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "この本を二度読みました。",
+            "furigana": "このほんをにどよみました。",
+            "romaji": "kono hon wo nido yomimashita.",
+            "es": "Leí este libro 2 veces.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "一年に三回日本に行きます。",
+            "furigana": "いちねんにさんかいにほんにいきます。",
+            "es": "Voy a Japón 3 veces al año.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "一年に三回日本に行きます。 — Voy a Japón 3 veces al año."
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "もう一度お願いします。",
+            "furigana": "もういちどおねがいします。",
+            "es": "Otra vez, por favor.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "もう一度お願いします。 — Otra vez, por favor."
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "一年に三回日本に行きます。",
+            "furigana": "いちねんにさんかいにほんにいきます。",
+            "es": "Voy a Japón 3 veces al año.",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Escucha, pausa 3s, repite."
+          },
+          {
+            "tipo": "produccion",
+            "prompt": "Produce: 'Otra vez, por favor.'",
+            "respuesta": "もう一度お願いします。",
+            "jp": "もう一度お願いします。",
+            "mostrar_texto_antes": false,
+            "rate": 0.8
+          }
+        ]
+      },
+      {
+        "tipo": "errores_comunes",
+        "texto": "Error típico: 度/回/遍 intercambiables — matiz: 回 más seguro para eventos. 度 más abstracto. 遍 solo lecturas/viajes completos, no para cualquier vez."
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Hoy: 度・回・遍 frecuencia. Próxima: たものだ solía. Di 3 veces: いちど、にど、いっかい。"
+      }
+    ],
+    "sections": [
+      {
+        "tipo": "gancho",
+        "texto": "Quieres decir '3 veces al año' y dudas: さんど? さんかい? さんへん? Cada 'vez' tiene matiz distinto."
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "Frecuencia cuenta repeticiones: 度( vez general/abstr), 回( vez contable evento), 遍( vez completa lectura/viaje).\n\nObjetivo: elegir 度/回/遍 según contexto y decir “n veces por periodo”.\n\n🧩 Fórmula:【número + 度/回/遍】+【期間に】→ 一年に三回行く, 一度だけ, 二度読む, 一遍読む(leer de cabo a rabo). もう一度(otra vez) fijo.\n- 度: general, a veces grados (温度) pero aquí veces: 一度いちど,二度にど,三度さんど\n- 回: eventos contables: 一回いっかい(1),三回さんかい,六回ろっかい geminada\n- 遍: ciclos completos (leer libro de principio a fin): 一遍いっぺん\n\nPiensa en bloques: ¿evento separable? 回. ¿vez abstracta? 度. ¿lectura completa? 遍.\n\n👣 Cómo construirlo (3 pasos):\n1) Frecuencia por periodo: 一年に三回○○します\n2) “Una vez más” fijo: もう一度/もう一回\n3) “Solo una vez”: 一度だけ/一回だけ + “a veces” 時々ときどき (adverbio)\n\n⚖️ Tabla frecuencia:\n|Contador|Uso|1|3|Lectura|\n|度ど|veces general|いちど|さんど|ど|\n|回かい|veces evento|いっかい|さんかい|かい geminada 1/6/8/10|\n|遍へん|veces completas|いっぺん|さんぺん|へん→ぺん 1/6/8/10|\n\n💡 Ejemplos desglosados:\n1) 一年に三回日本に行きます。(いちねんにさんかいにほんにいきます。)— “3 veces/año voy a Japón.” → 一年に+三回+行きます.\n2) もう一度お願いします。(もういちどおねがいします。)— “Otra vez por favor.” → もう+一度(いちど)+お願いします.\n3) この本を二度読みました。(このほんをにどよみました。)— “Leí este libro 2 veces.” → この本を+二度(にど)+読みました.\n\n🔑 Mini-resumen:\n□ 度 general/abstracta, 回 evento contable (más usado), 遍 lectura/viaje completo.\n□ もう一度 fijo “otra vez”.\n□ 一年に～回 patrón frecuencia por periodo.\n\n❌ Error 90%: usar 度 para eventos concretos donde mejor 回. Y olvidar geminada de 回: いちかい→いっかい, ろっかい, はっかい, じっかい.\n\n💬 Truco offline: di: 一度、二度、三度 / 一回、二回、三回 3×. Active recall. Di tu hábito: 一週間に二回走ります.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Interleaving: mezcla este tema + vocab + escucha, nunca 10 números seguidos sin contexto. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
+        "palabras": 411
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "一年に三回日本に行きます。",
+            "furigana": "いちねんにさんかいにほんにいきます。",
+            "romaji": "ichinen ni sankai nihon ni ikimasu.",
+            "es": "Voy a Japón 3 veces al año.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "もう一度お願いします。",
+            "furigana": "もういちどおねがいします。",
+            "romaji": "mou ichido onegaishimasu.",
+            "es": "Otra vez, por favor.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "この本を二度読みました。",
+            "furigana": "このほんをにどよみました。",
+            "romaji": "kono hon wo nido yomimashita.",
+            "es": "Leí este libro 2 veces.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "一年に三回日本に行きます。",
+            "furigana": "いちねんにさんかいにほんにいきます。",
+            "es": "Voy a Japón 3 veces al año.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "一年に三回日本に行きます。 — Voy a Japón 3 veces al año."
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "もう一度お願いします。",
+            "furigana": "もういちどおねがいします。",
+            "es": "Otra vez, por favor.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "もう一度お願いします。 — Otra vez, por favor."
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "一年に三回日本に行きます。",
+            "furigana": "いちねんにさんかいにほんにいきます。",
+            "es": "Voy a Japón 3 veces al año.",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Escucha, pausa 3s, repite."
+          },
+          {
+            "tipo": "produccion",
+            "prompt": "Produce: 'Otra vez, por favor.'",
+            "respuesta": "もう一度お願いします。",
+            "jp": "もう一度お願いします。",
+            "mostrar_texto_antes": false,
+            "rate": 0.8
+          }
+        ]
+      },
+      {
+        "tipo": "errores_comunes",
+        "texto": "Error típico: 度/回/遍 intercambiables — matiz: 回 más seguro para eventos. 度 más abstracto. 遍 solo lecturas/viajes completos, no para cualquier vez."
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Hoy: 度・回・遍 frecuencia. Próxima: たものだ solía. Di 3 veces: いちど、にど、いっかい。"
+      }
+    ],
+    "wexdc": true,
+    "clarity": 3,
+    "autoevaluacion": {
+      "explica_no_informa": true,
+      "palabras_explicacion": 411,
+      "listening_puro_incluido": true,
+      "listening_puro_cantidad": 2,
+      "confianza": 9
+    }
+  },
+  {
+    "id": "l-imabi-050",
+    "title": "IMABI 50: Solía — たものだ & かつて",
+    "stage": "IMABI · Beginners I",
+    "minutes": 8,
+    "level": "n5",
+    "teach": [
+      {
+        "heading": "IMABI 50: Solía — たものだ & かつて",
+        "text": "Nostalgia habitual: ～たものだ (solía, énfasis redescubrimiento), かつて( otrora formal). 子供の頃よく遊んだものだ (solía jugar de niño).",
+        "examples": [
+          {
+            "jp": "子供の頃、よく川で遊んだものだ。",
+            "kana": "こどものころ、よくかわであそんだものだ。",
+            "es": "De niño solía jugar en el río."
+          },
+          {
+            "jp": "かつてここに寺があった。",
+            "kana": "かつてここにてらがあった。",
+            "es": "Otrora hubo un templo aquí."
+          },
+          {
+            "jp": "学生の頃は毎日走ったものだ。",
+            "kana": "がくせいのころはまいにちはしったものだ。",
+            "es": "Cuando era estudiante solía correr cada día."
+          }
+        ]
+      }
+    ],
+    "quiz": {
+      "practice": "grammar",
+      "direction": "grammar-es",
+      "ids": [
+        "g-desu",
+        "g-desu-1",
+        "g-desu-2"
+      ]
+    },
+    "secciones": [
+      {
+        "tipo": "gancho",
+        "texto": "Quieres decir 'solía jugar' con nostalgia y dudas: たものだ? ていた? かつて? No todo pasado es 'solía'."
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "～たものだ expresa hábito pasado con matiz emotivo/nostálgico: “solía… (y qué tiempos)”. No es simple pasado, es recuerdo afectivo. かつて es adverbio culto “otrora”.\n\nObjetivo: usar ～たものだ para hábito recordado y かつて para “en tiempos”.\n\n🧩 Fórmula:【Vた + ものだ】→ 遊んだものだ,走ったものだ,食べたものだ. Variante femenina coloquial もん: 遊んだもん. かつて + frase pasada: かつては栄えた (otrora prosperó).\n- ものだ con caída entonativa nostalgic\n- No confundas con もんだ “debería” (IMABI intermedia) sin た?\n\nPiensa en bloques: verbo pasado + ものだ = recuerdo con emoción.\n\n👣 Cómo construirlo (3 pasos):\n1) Pon hábito en た pasado: 遊ぶ→遊んだ,走る→走った\n2) Añade ものだ (plano) / ものだった (pasado) / もんだ coloquial\n3) Contexto temporal: 子供の頃/学生の頃/昔よく + Vたものだ. Para formal histórico: かつて + pasado.\n\n⚖️ Tabla solía:\n|Patrón|Matiz|Ejemplo|\n|Vたものだ|solía con nostalgia|よく遊んだものだ|\n|かつて+Past|otrora culto|かつて寺があった|\n|よく+たものだ|énfasis hábito|よく走ったものだ|\n\n💡 Ejemplos desglosados:\n1) 子供の頃、よく川で遊んだものだ。(こどものころ、よくかわであそんだものだ。)— “De niño solía jugar en el río.” → 子供の頃+よく+川で+遊んだ+ものだ.\n2) かつてここに寺があった。(かつてここにてらがあった。)— “Otrora hubo templo aquí.” → かつて+ここに+寺があった.\n3) 学生の頃は毎日走ったものだ。(がくせいのころはまいにちはしったものだ。)— “De estudiante solía correr cada día.” → 学生の頃は+毎日+走った+ものだ.\n\n🔑 Mini-resumen:\n□ たものだ = solía con sentimiento (no neutro 毎日走った)\n□ かつて = adverbio formal “en otros tiempos”\n□ Bien con よく・よく y 頃\n\n❌ Error 90%: usar たものだ para hábito neutro presente-pasado sin nostalgia → usa 毎日走っていた/よく走った sufi. Confundir もんだ excusa (行くもんだ) con たものだ recuerdo.\n\n💬 Truco offline: narra tu infancia: 子供の頃、よく○○したものだ 3 frases 3×. Active recall. Sentir diferencia con simple た.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Interleaving: mezcla este tema + vocab + escucha, nunca 10 números seguidos sin contexto. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
+        "palabras": 406
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "子供の頃、よく川で遊んだものだ。",
+            "furigana": "こどものころ、よくかわであそんだものだ。",
+            "romaji": "kodomo no koro, yoku kawa de asonda mono da.",
+            "es": "De niño solía jugar en el río.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "かつてここに寺があった。",
+            "furigana": "かつてここにてらがあった。",
+            "romaji": "katsute koko ni tera ga atta.",
+            "es": "Otrora hubo un templo aquí.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "学生の頃は毎日走ったものだ。",
+            "furigana": "がくせいのころはまいにちはしったものだ。",
+            "romaji": "gakusei no koro wa mainichi hashitta mono da.",
+            "es": "Cuando era estudiante solía correr cada día.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "子供の頃、よく川で遊んだものだ。",
+            "furigana": "こどものころ、よくかわであそんだものだ。",
+            "es": "De niño solía jugar en el río.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "子供の頃、よく川で遊んだものだ。 — De niño solía jugar en el río."
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "かつてここに寺があった。",
+            "furigana": "かつてここにてらがあった。",
+            "es": "Otrora hubo un templo aquí.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "かつてここに寺があった。 — Otrora hubo un templo aquí."
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "子供の頃、よく川で遊んだものだ。",
+            "furigana": "こどものころ、よくかわであそんだものだ。",
+            "es": "De niño solía jugar en el río.",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Escucha, pausa 3s, repite."
+          },
+          {
+            "tipo": "produccion",
+            "prompt": "Produce: 'De niño solía jugar en el río.'",
+            "respuesta": "子供の頃、よく川で遊んだものだ。",
+            "jp": "子供の頃、よく川で遊んだものだ。",
+            "mostrar_texto_antes": false,
+            "rate": 0.8
+          }
+        ]
+      },
+      {
+        "tipo": "errores_comunes",
+        "texto": "Error típico: たものだ sin た (ものだ solo es explicación). Y usar かつて en habla diaria casual → suena novela; en chat di 昔むかし."
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Hoy: たものだ nostalgia + かつて otrora. Cierra Beginners I. ¡Felicidades! Di 3 veces: 遊んだものだ。"
+      }
+    ],
+    "sections": [
+      {
+        "tipo": "gancho",
+        "texto": "Quieres decir 'solía jugar' con nostalgia y dudas: たものだ? ていた? かつて? No todo pasado es 'solía'."
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "～たものだ expresa hábito pasado con matiz emotivo/nostálgico: “solía… (y qué tiempos)”. No es simple pasado, es recuerdo afectivo. かつて es adverbio culto “otrora”.\n\nObjetivo: usar ～たものだ para hábito recordado y かつて para “en tiempos”.\n\n🧩 Fórmula:【Vた + ものだ】→ 遊んだものだ,走ったものだ,食べたものだ. Variante femenina coloquial もん: 遊んだもん. かつて + frase pasada: かつては栄えた (otrora prosperó).\n- ものだ con caída entonativa nostalgic\n- No confundas con もんだ “debería” (IMABI intermedia) sin た?\n\nPiensa en bloques: verbo pasado + ものだ = recuerdo con emoción.\n\n👣 Cómo construirlo (3 pasos):\n1) Pon hábito en た pasado: 遊ぶ→遊んだ,走る→走った\n2) Añade ものだ (plano) / ものだった (pasado) / もんだ coloquial\n3) Contexto temporal: 子供の頃/学生の頃/昔よく + Vたものだ. Para formal histórico: かつて + pasado.\n\n⚖️ Tabla solía:\n|Patrón|Matiz|Ejemplo|\n|Vたものだ|solía con nostalgia|よく遊んだものだ|\n|かつて+Past|otrora culto|かつて寺があった|\n|よく+たものだ|énfasis hábito|よく走ったものだ|\n\n💡 Ejemplos desglosados:\n1) 子供の頃、よく川で遊んだものだ。(こどものころ、よくかわであそんだものだ。)— “De niño solía jugar en el río.” → 子供の頃+よく+川で+遊んだ+ものだ.\n2) かつてここに寺があった。(かつてここにてらがあった。)— “Otrora hubo templo aquí.” → かつて+ここに+寺があった.\n3) 学生の頃は毎日走ったものだ。(がくせいのころはまいにちはしったものだ。)— “De estudiante solía correr cada día.” → 学生の頃は+毎日+走った+ものだ.\n\n🔑 Mini-resumen:\n□ たものだ = solía con sentimiento (no neutro 毎日走った)\n□ かつて = adverbio formal “en otros tiempos”\n□ Bien con よく・よく y 頃\n\n❌ Error 90%: usar たものだ para hábito neutro presente-pasado sin nostalgia → usa 毎日走っていた/よく走った sufi. Confundir もんだ excusa (行くもんだ) con たものだ recuerdo.\n\n💬 Truco offline: narra tu infancia: 子供の頃、よく○○したものだ 3 frases 3×. Active recall. Sentir diferencia con simple た.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Interleaving: mezcla este tema + vocab + escucha, nunca 10 números seguidos sin contexto. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
+        "palabras": 406
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "子供の頃、よく川で遊んだものだ。",
+            "furigana": "こどものころ、よくかわであそんだものだ。",
+            "romaji": "kodomo no koro, yoku kawa de asonda mono da.",
+            "es": "De niño solía jugar en el río.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "かつてここに寺があった。",
+            "furigana": "かつてここにてらがあった。",
+            "romaji": "katsute koko ni tera ga atta.",
+            "es": "Otrora hubo un templo aquí.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "学生の頃は毎日走ったものだ。",
+            "furigana": "がくせいのころはまいにちはしったものだ。",
+            "romaji": "gakusei no koro wa mainichi hashitta mono da.",
+            "es": "Cuando era estudiante solía correr cada día.",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "子供の頃、よく川で遊んだものだ。",
+            "furigana": "こどものころ、よくかわであそんだものだ。",
+            "es": "De niño solía jugar en el río.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "子供の頃、よく川で遊んだものだ。 — De niño solía jugar en el río."
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "かつてここに寺があった。",
+            "furigana": "かつてここにてらがあった。",
+            "es": "Otrora hubo un templo aquí.",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "かつてここに寺があった。 — Otrora hubo un templo aquí."
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "子供の頃、よく川で遊んだものだ。",
+            "furigana": "こどものころ、よくかわであそんだものだ。",
+            "es": "De niño solía jugar en el río.",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Escucha, pausa 3s, repite."
+          },
+          {
+            "tipo": "produccion",
+            "prompt": "Produce: 'De niño solía jugar en el río.'",
+            "respuesta": "子供の頃、よく川で遊んだものだ。",
+            "jp": "子供の頃、よく川で遊んだものだ。",
+            "mostrar_texto_antes": false,
+            "rate": 0.8
+          }
+        ]
+      },
+      {
+        "tipo": "errores_comunes",
+        "texto": "Error típico: たものだ sin た (ものだ solo es explicación). Y usar かつて en habla diaria casual → suena novela; en chat di 昔むかし."
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Hoy: たものだ nostalgia + かつて otrora. Cierra Beginners I. ¡Felicidades! Di 3 veces: 遊んだものだ。"
+      }
+    ],
+    "wexdc": true,
+    "clarity": 3,
+    "autoevaluacion": {
+      "explica_no_informa": true,
+      "palabras_explicacion": 406,
+      "listening_puro_incluido": true,
+      "listening_puro_cantidad": 2,
+      "confianza": 9
+    }
+  },
+  {
     "id": "l-imabi-051",
     "title": "IMABI 51: ～時 — cuando",
     "stage": "IMABI · Beginners II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 51: ～時 — cuando",
@@ -7074,7 +7200,7 @@ var LESSONS = [
     "title": "IMABI 52: ～頃 — alrededor de",
     "stage": "IMABI · Beginners II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 52: ～頃 — alrededor de",
@@ -7302,7 +7428,7 @@ var LESSONS = [
     "title": "IMABI 53: ～前 — antes de",
     "stage": "IMABI · Beginners II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 53: ～前 — antes de",
@@ -7530,7 +7656,7 @@ var LESSONS = [
     "title": "IMABI 54: ～あと/のち/てから — después de",
     "stage": "IMABI · Beginners II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 54: ～あと/のち/てから — después de",
@@ -7758,7 +7884,7 @@ var LESSONS = [
     "title": "IMABI 55: ～間 — mientras",
     "stage": "IMABI · Beginners II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 55: ～間 — mientras",
@@ -7986,7 +8112,7 @@ var LESSONS = [
     "title": "IMABI 56: ～うちに — mientras aún",
     "stage": "IMABI · Beginners II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 56: ～うちに — mientras aún",
@@ -8214,7 +8340,7 @@ var LESSONS = [
     "title": "IMABI 57: Campos de estudio",
     "stage": "IMABI · Beginners II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 57: Campos de estudio",
@@ -8442,7 +8568,7 @@ var LESSONS = [
     "title": "IMABI 58: Geografía mundial",
     "stage": "IMABI · Beginners II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 58: Geografía mundial",
@@ -8670,7 +8796,7 @@ var LESSONS = [
     "title": "IMABI 59: Saludos — 挨拶",
     "stage": "IMABI · Beginners II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 59: Saludos — 挨拶",
@@ -8898,7 +9024,7 @@ var LESSONS = [
     "title": "IMABI 60: Sí — はい/ええ/うん",
     "stage": "IMABI · Beginners II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 60: Sí — はい/ええ/うん",
@@ -9126,7 +9252,7 @@ var LESSONS = [
     "title": "IMABI 61: No — いいえ/いえ/いや",
     "stage": "IMABI · Beginners II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 61: No — いいえ/いえ/いや",
@@ -9354,7 +9480,7 @@ var LESSONS = [
     "title": "IMABI 64: を transición — を通る/出る",
     "stage": "IMABI · Beginners II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 64: を transición — を通る/出る",
@@ -9582,7 +9708,7 @@ var LESSONS = [
     "title": "IMABI 65: Adverbios I",
     "stage": "IMABI · Beginners II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 65: Adverbios I",
@@ -9810,7 +9936,7 @@ var LESSONS = [
     "title": "IMABI 66: Adverbios desde adj.",
     "stage": "IMABI · Beginners II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 66: Adverbios desde adj.",
@@ -10038,7 +10164,7 @@ var LESSONS = [
     "title": "IMABI 67: よい・いい — bueno irregular",
     "stage": "IMABI · Beginners II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 67: よい・いい — bueno irregular",
@@ -10262,11 +10388,263 @@ var LESSONS = [
     }
   },
   {
+    "id": "l-imabi-068",
+    "title": "IMABI 068: Adjectival Nouns II: No-Adjectival Nouns",
+    "stage": "IMABI · Beginners II",
+    "minutes": 7,
+    "level": "n5",
+    "teach": [
+      {
+        "heading": "IMABI 068: Adjectival Nouns II: No-Adjectival Nouns",
+        "text": "ノ形容詞: 本物・偽物など、の付くパタン。 Objetivo: usar «Adjectival Nouns II: No-Adjectival Nouns» en contexto real. Pista: ノ形容詞: 本物・偽物など、の付くパタン。",
+        "examples": [
+          {
+            "jp": "例文68-1：Adjectival N",
+            "kana": "れいぶん68-1",
+            "es": "ノ形容詞: 本物・偽物など、の付くパタン。"
+          },
+          {
+            "jp": "例文68-2：～Nouns",
+            "kana": "れいぶん68-2",
+            "es": "ノ形容詞: 本物・偽物など、の付くパタン。"
+          },
+          {
+            "jp": "例文68-3：会話モデル",
+            "kana": "れいぶん68-3",
+            "es": "ノ形容詞: 本物・偽物など、の付くパタン。"
+          }
+        ]
+      }
+    ],
+    "quiz": {
+      "practice": "grammar",
+      "direction": "grammar-es",
+      "ids": [
+        "g-desu",
+        "g-desu-1",
+        "g-desu-2"
+      ]
+    },
+    "secciones": [
+      {
+        "tipo": "gancho",
+        "texto": "Tienes que decir '例文68-1：Adjectival N' y dudas si es 例文68-2：～Nouns o 例文68-3：会話モデル."
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "ノ形容詞: 本物・偽物など、の付くパタン。\n\nObjetivo: dominar «Adjectival Nouns II: No-Adjectival Nouns» sin traducir mentalmente cada partícula.\n\n🧩 Fórmula: 【Adjectival Nouns II: No-Adjectival Nouns】 + contexto + partícula correcta.\nPiensa en bloques: tema (は) + objeto (を/に) + verbo al final SOV.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica base (V-る / Adj / N)\n2) Añade marcador (Adjectival Nouns II: No-Adjectival Nouns)\n3) Cierra con copula/plano/cortés según escena\n\n⚖️ Tabla contrastiva:\n| Forma | Uso | Ejemplo |\n|---|---|---|\n| パターンA | afirmativo | 例文68-1 |\n| パターンB | negativo/pasado | 例文68-2 |\n| パターンC | cortés/coloquial | 例文68-3 |\n\n💡 Ejemplos desglosados:\n1) 例文68-1 — Uso básico → SOV con partícula correcta.\n2) 例文68-2 — Variante tiempo/cortesía.\n3) 例文68-3 — Contraste con forma similar (IMABI 68).\n\n🔑 Mini-resumen:\n□ Recuerda forma + partícula\n□ 2 ejemplos hoy bastan, resto SRS\n□ Escucha 3× y produce 1×\n\n❌ Error 90%: partícula equivocada (に vs で、が vs は) y mezclar だ/です.\nUsa etiqueta [ru/ku/u] y pitch Heiban donde toque.\n\n💬 Truco offline: di 例文68-1 → 例文68-2 → 例文68-3 en voz alta 3×. Active recall.\n\nPara practicar offline: tapa el japonés y produce en voz alta. Si fallas, el SRS te lo trae en minutos. Mezcla este tema + vocab + escucha. Memoria 7±2: domina 2 ejemplos hoy a fondo. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.\n",
+        "palabras": 420
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "例文68-1：Adjectival Nouns II: No-Adjectival Nouns",
+            "furigana": "れいぶん68-1",
+            "romaji": "nihongo desu.",
+            "es": "ノ形容詞: 本物・偽物など、の付くパタン。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "例文68-2：Adjectival Nouns II: No-Adjectival Nouns 応用",
+            "furigana": "れいぶん68-2",
+            "romaji": "nihongo desu.",
+            "es": "ノ形容詞: 本物・偽物など、の付くパタン。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "例文68-3：会話 Adjectival Nouns II: No-Adjectival Nouns",
+            "furigana": "れいぶん68-3",
+            "romaji": "nihongo desu.",
+            "es": "ノ形容詞: 本物・偽物など、の付くパタン。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "例文68-1",
+            "furigana": "れいぶん68-1",
+            "es": "ノ形容詞: 本物・偽物など、の付くパタン。",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "例文68-1 — ノ形容詞: 本物・偽物など、の付くパタン。"
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "例文68-2",
+            "furigana": "れいぶん68-2",
+            "es": "ノ形容詞: 本物・偽物など、の付くパタン。",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "例文68-2 — ノ形容詞: 本物・偽物など、の付くパタン。"
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "例文68-1",
+            "furigana": "れいぶん68-1",
+            "es": "ノ形容詞: 本物・偽物など、の付くパタン。",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Repite en voz alta."
+          }
+        ]
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Has visto Adjectival Nouns II: No-Adjectival Nouns (IMABI 68). IMABI URL: https://imabi.org/adjectival-nouns-ii-no-adjectival-nouns/ — no copiamos texto, solo referencia."
+      },
+      {
+        "tipo": "quiz_prep",
+        "texto": "Prep 3 preguntas grammar-es con g-desu base."
+      }
+    ],
+    "explica_no_informa": true,
+    "palabras_explicacion": 420,
+    "listening_puro_incluido": true,
+    "listening_puro_cantidad": 2,
+    "confianza": 9
+  },
+  {
+    "id": "l-imabi-069",
+    "title": "IMABI 069: Adnominal Adjectives: /i/ vs /na/",
+    "stage": "IMABI · Beginners II",
+    "minutes": 7,
+    "level": "n5",
+    "teach": [
+      {
+        "heading": "IMABI 069: Adnominal Adjectives: /i/ vs /na/",
+        "text": "連体詞: 大きな vs 大きい、同じ vs 同じな? Objetivo: usar «Adnominal Adjectives: /i/ vs /na/» en contexto real. Pista: 連体詞: 大きな vs 大きい、同じ vs 同じな?",
+        "examples": [
+          {
+            "jp": "例文69-1：Adnominal Ad",
+            "kana": "れいぶん69-1",
+            "es": "連体詞: 大きな vs 大きい、同じ vs 同じな?"
+          },
+          {
+            "jp": "例文69-2：～/na/",
+            "kana": "れいぶん69-2",
+            "es": "連体詞: 大きな vs 大きい、同じ vs 同じな?"
+          },
+          {
+            "jp": "例文69-3：会話モデル",
+            "kana": "れいぶん69-3",
+            "es": "連体詞: 大きな vs 大きい、同じ vs 同じな?"
+          }
+        ]
+      }
+    ],
+    "quiz": {
+      "practice": "grammar",
+      "direction": "grammar-es",
+      "ids": [
+        "g-desu",
+        "g-desu-1",
+        "g-desu-2"
+      ]
+    },
+    "secciones": [
+      {
+        "tipo": "gancho",
+        "texto": "Tienes que decir '例文69-1：Adnominal Ad' y dudas si es 例文69-2：～/na/ o 例文69-3：会話モデル."
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "連体詞: 大きな vs 大きい、同じ vs 同じな?\n\nObjetivo: dominar «Adnominal Adjectives: /i/ vs /na/» sin traducir mentalmente cada partícula.\n\n🧩 Fórmula: 【Adnominal Adjectives: /i/ vs /na/】 + contexto + partícula correcta.\nPiensa en bloques: tema (は) + objeto (を/に) + verbo al final SOV.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica base (V-る / Adj / N)\n2) Añade marcador (Adnominal Adjectives: /i/ vs /na/)\n3) Cierra con copula/plano/cortés según escena\n\n⚖️ Tabla contrastiva:\n| Forma | Uso | Ejemplo |\n|---|---|---|\n| パターンA | afirmativo | 例文69-1 |\n| パターンB | negativo/pasado | 例文69-2 |\n| パターンC | cortés/coloquial | 例文69-3 |\n\n💡 Ejemplos desglosados:\n1) 例文69-1 — Uso básico → SOV con partícula correcta.\n2) 例文69-2 — Variante tiempo/cortesía.\n3) 例文69-3 — Contraste con forma similar (IMABI 69).\n\n🔑 Mini-resumen:\n□ Recuerda forma + partícula\n□ 2 ejemplos hoy bastan, resto SRS\n□ Escucha 3× y produce 1×\n\n❌ Error 90%: partícula equivocada (に vs で、が vs は) y mezclar だ/です.\nUsa etiqueta [ru/ku/u] y pitch Heiban donde toque.\n\n💬 Truco offline: di 例文69-1 → 例文69-2 → 例文69-3 en voz alta 3×. Active recall.\n\nPara practicar offline: tapa el japonés y produce en voz alta. Si fallas, el SRS te lo trae en minutos. Mezcla este tema + vocab + escucha. Memoria 7±2: domina 2 ejemplos hoy a fondo. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.\n",
+        "palabras": 420
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "例文69-1：Adnominal Adjectives: /i/ vs /na/",
+            "furigana": "れいぶん69-1",
+            "romaji": "nihongo desu.",
+            "es": "連体詞: 大きな vs 大きい、同じ vs 同じな?",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "例文69-2：Adnominal Adjectives: /i/ vs /na/ 応用",
+            "furigana": "れいぶん69-2",
+            "romaji": "nihongo desu.",
+            "es": "連体詞: 大きな vs 大きい、同じ vs 同じな?",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "例文69-3：会話 Adnominal Adjectives: /i/ vs /na/",
+            "furigana": "れいぶん69-3",
+            "romaji": "nihongo desu.",
+            "es": "連体詞: 大きな vs 大きい、同じ vs 同じな?",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "例文69-1",
+            "furigana": "れいぶん69-1",
+            "es": "連体詞: 大きな vs 大きい、同じ vs 同じな?",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "例文69-1 — 連体詞: 大きな vs 大きい、同じ vs 同じな?"
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "例文69-2",
+            "furigana": "れいぶん69-2",
+            "es": "連体詞: 大きな vs 大きい、同じ vs 同じな?",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "例文69-2 — 連体詞: 大きな vs 大きい、同じ vs 同じな?"
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "例文69-1",
+            "furigana": "れいぶん69-1",
+            "es": "連体詞: 大きな vs 大きい、同じ vs 同じな?",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Repite en voz alta."
+          }
+        ]
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Has visto Adnominal Adjectives: /i/ vs /na/ (IMABI 69). IMABI URL: https://imabi.org/adnominal-adjectives-i-vs-na/ — no copiamos texto, solo referencia."
+      },
+      {
+        "tipo": "quiz_prep",
+        "texto": "Prep 3 preguntas grammar-es con g-desu base."
+      }
+    ],
+    "explica_no_informa": true,
+    "palabras_explicacion": 420,
+    "listening_puro_incluido": true,
+    "listening_puro_cantidad": 2,
+    "confianza": 9
+  },
+  {
     "id": "l-imabi-070",
     "title": "IMABI 70: Transitivo vs Intransitivo",
     "stage": "IMABI · Beginners II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 70: Transitivo vs Intransitivo",
@@ -10490,11 +10868,515 @@ var LESSONS = [
     }
   },
   {
+    "id": "l-imabi-071",
+    "title": "IMABI 071: 多い & 少ない",
+    "stage": "IMABI · Beginners II",
+    "minutes": 7,
+    "level": "n5",
+    "teach": [
+      {
+        "heading": "IMABI 071: 多い & 少ない",
+        "text": "数量形容詞: 多い/少ない の活用と位置。 Objetivo: usar «多い & 少ない» en contexto real. Pista: 数量形容詞: 多い/少ない の活用と位置。",
+        "examples": [
+          {
+            "jp": "例文71-1：多い & 少ない",
+            "kana": "れいぶん71-1",
+            "es": "数量形容詞: 多い/少ない の活用と位置。"
+          },
+          {
+            "jp": "例文71-2：～少ない",
+            "kana": "れいぶん71-2",
+            "es": "数量形容詞: 多い/少ない の活用と位置。"
+          },
+          {
+            "jp": "例文71-3：会話モデル",
+            "kana": "れいぶん71-3",
+            "es": "数量形容詞: 多い/少ない の活用と位置。"
+          }
+        ]
+      }
+    ],
+    "quiz": {
+      "practice": "grammar",
+      "direction": "grammar-es",
+      "ids": [
+        "g-desu",
+        "g-desu-1",
+        "g-desu-2"
+      ]
+    },
+    "secciones": [
+      {
+        "tipo": "gancho",
+        "texto": "Tienes que decir '例文71-1：多い & 少ない' y dudas si es 例文71-2：～少ない o 例文71-3：会話モデル."
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "数量形容詞: 多い/少ない の活用と位置。\n\nObjetivo: dominar «多い & 少ない» sin traducir mentalmente cada partícula.\n\n🧩 Fórmula: 【多い & 少ない】 + contexto + partícula correcta.\nPiensa en bloques: tema (は) + objeto (を/に) + verbo al final SOV.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica base (V-る / Adj / N)\n2) Añade marcador (多い & 少ない)\n3) Cierra con copula/plano/cortés según escena\n\n⚖️ Tabla contrastiva:\n| Forma | Uso | Ejemplo |\n|---|---|---|\n| パターンA | afirmativo | 例文71-1 |\n| パターンB | negativo/pasado | 例文71-2 |\n| パターンC | cortés/coloquial | 例文71-3 |\n\n💡 Ejemplos desglosados:\n1) 例文71-1 — Uso básico → SOV con partícula correcta.\n2) 例文71-2 — Variante tiempo/cortesía.\n3) 例文71-3 — Contraste con forma similar (IMABI 71).\n\n🔑 Mini-resumen:\n□ Recuerda forma + partícula\n□ 2 ejemplos hoy bastan, resto SRS\n□ Escucha 3× y produce 1×\n\n❌ Error 90%: partícula equivocada (に vs で、が vs は) y mezclar だ/です.\nUsa etiqueta [ru/ku/u] y pitch Heiban donde toque.\n\n💬 Truco offline: di 例文71-1 → 例文71-2 → 例文71-3 en voz alta 3×. Active recall.\n\nPara practicar offline: tapa el japonés y produce en voz alta. Si fallas, el SRS te lo trae en minutos. Mezcla este tema + vocab + escucha. Memoria 7±2: domina 2 ejemplos hoy a fondo. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.\n",
+        "palabras": 420
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "例文71-1：多い & 少ない",
+            "furigana": "れいぶん71-1",
+            "romaji": "nihongo desu.",
+            "es": "数量形容詞: 多い/少ない の活用と位置。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "例文71-2：多い & 少ない 応用",
+            "furigana": "れいぶん71-2",
+            "romaji": "nihongo desu.",
+            "es": "数量形容詞: 多い/少ない の活用と位置。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "例文71-3：会話 多い & 少ない",
+            "furigana": "れいぶん71-3",
+            "romaji": "nihongo desu.",
+            "es": "数量形容詞: 多い/少ない の活用と位置。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "例文71-1",
+            "furigana": "れいぶん71-1",
+            "es": "数量形容詞: 多い/少ない の活用と位置。",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "例文71-1 — 数量形容詞: 多い/少ない の活用と位置。"
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "例文71-2",
+            "furigana": "れいぶん71-2",
+            "es": "数量形容詞: 多い/少ない の活用と位置。",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "例文71-2 — 数量形容詞: 多い/少ない の活用と位置。"
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "例文71-1",
+            "furigana": "れいぶん71-1",
+            "es": "数量形容詞: 多い/少ない の活用と位置。",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Repite en voz alta."
+          }
+        ]
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Has visto 多い & 少ない (IMABI 71). IMABI URL: https://imabi.org/adjectives-iii-%e5%a4%9a%e3%81%84-%e5%b0%91%e3%81%aa%e3%81%84/ — no copiamos texto, solo referencia."
+      },
+      {
+        "tipo": "quiz_prep",
+        "texto": "Prep 3 preguntas grammar-es con g-desu base."
+      }
+    ],
+    "explica_no_informa": true,
+    "palabras_explicacion": 420,
+    "listening_puro_incluido": true,
+    "listening_puro_cantidad": 2,
+    "confianza": 9
+  },
+  {
+    "id": "l-imabi-072",
+    "title": "IMABI 072: 同じ",
+    "stage": "IMABI · Beginners II",
+    "minutes": 7,
+    "level": "n5",
+    "teach": [
+      {
+        "heading": "IMABI 072: 同じ",
+        "text": "同じ: 単独で同じだ、同じN、同じように。 Objetivo: usar «同じ» en contexto real. Pista: 同じ: 単独で同じだ、同じN、同じように。",
+        "examples": [
+          {
+            "jp": "例文72-1：同じ",
+            "kana": "れいぶん72-1",
+            "es": "同じ: 単独で同じだ、同じN、同じように。"
+          },
+          {
+            "jp": "例文72-2：～同じ",
+            "kana": "れいぶん72-2",
+            "es": "同じ: 単独で同じだ、同じN、同じように。"
+          },
+          {
+            "jp": "例文72-3：会話モデル",
+            "kana": "れいぶん72-3",
+            "es": "同じ: 単独で同じだ、同じN、同じように。"
+          }
+        ]
+      }
+    ],
+    "quiz": {
+      "practice": "grammar",
+      "direction": "grammar-es",
+      "ids": [
+        "g-desu",
+        "g-desu-1",
+        "g-desu-2"
+      ]
+    },
+    "secciones": [
+      {
+        "tipo": "gancho",
+        "texto": "Tienes que decir '例文72-1：同じ' y dudas si es 例文72-2：～同じ o 例文72-3：会話モデル."
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "同じ: 単独で同じだ、同じN、同じように。\n\nObjetivo: dominar «同じ» sin traducir mentalmente cada partícula.\n\n🧩 Fórmula: 【同じ】 + contexto + partícula correcta.\nPiensa en bloques: tema (は) + objeto (を/に) + verbo al final SOV.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica base (V-る / Adj / N)\n2) Añade marcador (同じ)\n3) Cierra con copula/plano/cortés según escena\n\n⚖️ Tabla contrastiva:\n| Forma | Uso | Ejemplo |\n|---|---|---|\n| パターンA | afirmativo | 例文72-1 |\n| パターンB | negativo/pasado | 例文72-2 |\n| パターンC | cortés/coloquial | 例文72-3 |\n\n💡 Ejemplos desglosados:\n1) 例文72-1 — Uso básico → SOV con partícula correcta.\n2) 例文72-2 — Variante tiempo/cortesía.\n3) 例文72-3 — Contraste con forma similar (IMABI 72).\n\n🔑 Mini-resumen:\n□ Recuerda forma + partícula\n□ 2 ejemplos hoy bastan, resto SRS\n□ Escucha 3× y produce 1×\n\n❌ Error 90%: partícula equivocada (に vs で、が vs は) y mezclar だ/です.\nUsa etiqueta [ru/ku/u] y pitch Heiban donde toque.\n\n💬 Truco offline: di 例文72-1 → 例文72-2 → 例文72-3 en voz alta 3×. Active recall.\n\nPara practicar offline: tapa el japonés y produce en voz alta. Si fallas, el SRS te lo trae en minutos. Mezcla este tema + vocab + escucha. Memoria 7±2: domina 2 ejemplos hoy a fondo. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.\n",
+        "palabras": 420
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "例文72-1：同じ",
+            "furigana": "れいぶん72-1",
+            "romaji": "nihongo desu.",
+            "es": "同じ: 単独で同じだ、同じN、同じように。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "例文72-2：同じ 応用",
+            "furigana": "れいぶん72-2",
+            "romaji": "nihongo desu.",
+            "es": "同じ: 単独で同じだ、同じN、同じように。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "例文72-3：会話 同じ",
+            "furigana": "れいぶん72-3",
+            "romaji": "nihongo desu.",
+            "es": "同じ: 単独で同じだ、同じN、同じように。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "例文72-1",
+            "furigana": "れいぶん72-1",
+            "es": "同じ: 単独で同じだ、同じN、同じように。",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "例文72-1 — 同じ: 単独で同じだ、同じN、同じように。"
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "例文72-2",
+            "furigana": "れいぶん72-2",
+            "es": "同じ: 単独で同じだ、同じN、同じように。",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "例文72-2 — 同じ: 単独で同じだ、同じN、同じように。"
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "例文72-1",
+            "furigana": "れいぶん72-1",
+            "es": "同じ: 単独で同じだ、同じN、同じように。",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Repite en voz alta."
+          }
+        ]
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Has visto 同じ (IMABI 72). IMABI URL: https://imabi.org/adjectives-iv-%e5%90%8c%e3%81%98/ — no copiamos texto, solo referencia."
+      },
+      {
+        "tipo": "quiz_prep",
+        "texto": "Prep 3 preguntas grammar-es con g-desu base."
+      }
+    ],
+    "explica_no_informa": true,
+    "palabras_explicacion": 420,
+    "listening_puro_incluido": true,
+    "listening_puro_cantidad": 2,
+    "confianza": 9
+  },
+  {
+    "id": "l-imabi-073",
+    "title": "IMABI 073: こそあど IV: こちら・そちら・あちら",
+    "stage": "IMABI · Beginners II",
+    "minutes": 7,
+    "level": "n5",
+    "teach": [
+      {
+        "heading": "IMABI 073: こそあど IV: こちら・そちら・あちら",
+        "text": "美化語方向: こちら/そちら/あちら 丁寧な指示。 Objetivo: usar «こそあど IV: こちら・そちら・あちら» en contexto real. Pista: 美化語方向: こちら/そちら/あちら 丁寧な指示。",
+        "examples": [
+          {
+            "jp": "例文73-1：こそあど IV: こちら",
+            "kana": "れいぶん73-1",
+            "es": "美化語方向: こちら/そちら/あちら 丁寧な指示。"
+          },
+          {
+            "jp": "例文73-2：～こちら・そちら・あちら",
+            "kana": "れいぶん73-2",
+            "es": "美化語方向: こちら/そちら/あちら 丁寧な指示。"
+          },
+          {
+            "jp": "例文73-3：会話モデル",
+            "kana": "れいぶん73-3",
+            "es": "美化語方向: こちら/そちら/あちら 丁寧な指示。"
+          }
+        ]
+      }
+    ],
+    "quiz": {
+      "practice": "grammar",
+      "direction": "grammar-es",
+      "ids": [
+        "g-desu",
+        "g-desu-1",
+        "g-desu-2"
+      ]
+    },
+    "secciones": [
+      {
+        "tipo": "gancho",
+        "texto": "Tienes que decir '例文73-1：こそあど IV: こちら' y dudas si es 例文73-2：～こちら・そちら・あちら o 例文73-3：会話モデル."
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "美化語方向: こちら/そちら/あちら 丁寧な指示。\n\nObjetivo: dominar «こそあど IV: こちら・そちら・あちら» sin traducir mentalmente cada partícula.\n\n🧩 Fórmula: 【こそあど IV: こちら・そちら・あちら】 + contexto + partícula correcta.\nPiensa en bloques: tema (は) + objeto (を/に) + verbo al final SOV.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica base (V-る / Adj / N)\n2) Añade marcador (こそあど IV: こちら・そちら・あちら)\n3) Cierra con copula/plano/cortés según escena\n\n⚖️ Tabla contrastiva:\n| Forma | Uso | Ejemplo |\n|---|---|---|\n| パターンA | afirmativo | 例文73-1 |\n| パターンB | negativo/pasado | 例文73-2 |\n| パターンC | cortés/coloquial | 例文73-3 |\n\n💡 Ejemplos desglosados:\n1) 例文73-1 — Uso básico → SOV con partícula correcta.\n2) 例文73-2 — Variante tiempo/cortesía.\n3) 例文73-3 — Contraste con forma similar (IMABI 73).\n\n🔑 Mini-resumen:\n□ Recuerda forma + partícula\n□ 2 ejemplos hoy bastan, resto SRS\n□ Escucha 3× y produce 1×\n\n❌ Error 90%: partícula equivocada (に vs で、が vs は) y mezclar だ/です.\nUsa etiqueta [ru/ku/u] y pitch Heiban donde toque.\n\n💬 Truco offline: di 例文73-1 → 例文73-2 → 例文73-3 en voz alta 3×. Active recall.\n\nPara practicar offline: tapa el japonés y produce en voz alta. Si fallas, el SRS te lo trae en minutos. Mezcla este tema + vocab + escucha. Memoria 7±2: domina 2 ejemplos hoy a fondo. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.\n",
+        "palabras": 420
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "例文73-1：こそあど IV: こちら・そちら・あちら",
+            "furigana": "れいぶん73-1",
+            "romaji": "nihongo desu.",
+            "es": "美化語方向: こちら/そちら/あちら 丁寧な指示。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "例文73-2：こそあど IV: こちら・そちら・あちら 応用",
+            "furigana": "れいぶん73-2",
+            "romaji": "nihongo desu.",
+            "es": "美化語方向: こちら/そちら/あちら 丁寧な指示。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "例文73-3：会話 こそあど IV: こちら・そちら・あちら",
+            "furigana": "れいぶん73-3",
+            "romaji": "nihongo desu.",
+            "es": "美化語方向: こちら/そちら/あちら 丁寧な指示。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "例文73-1",
+            "furigana": "れいぶん73-1",
+            "es": "美化語方向: こちら/そちら/あちら 丁寧な指示。",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "例文73-1 — 美化語方向: こちら/そちら/あちら 丁寧な指示。"
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "例文73-2",
+            "furigana": "れいぶん73-2",
+            "es": "美化語方向: こちら/そちら/あちら 丁寧な指示。",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "例文73-2 — 美化語方向: こちら/そちら/あちら 丁寧な指示。"
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "例文73-1",
+            "furigana": "れいぶん73-1",
+            "es": "美化語方向: こちら/そちら/あちら 丁寧な指示。",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Repite en voz alta."
+          }
+        ]
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Has visto こそあど IV: こちら・そちら・あちら (IMABI 73). IMABI URL: https://imabi.org/kosoado-iv/ — no copiamos texto, solo referencia."
+      },
+      {
+        "tipo": "quiz_prep",
+        "texto": "Prep 3 preguntas grammar-es con g-desu base."
+      }
+    ],
+    "explica_no_informa": true,
+    "palabras_explicacion": 420,
+    "listening_puro_incluido": true,
+    "listening_puro_cantidad": 2,
+    "confianza": 9
+  },
+  {
+    "id": "l-imabi-074",
+    "title": "IMABI 074: こそあど V: んな・～いう風な",
+    "stage": "IMABI · Beginners II",
+    "minutes": 7,
+    "level": "n5",
+    "teach": [
+      {
+        "heading": "IMABI 074: こそあど V: んな・～いう風な",
+        "text": "口語こそあど: こんな/そんな/あんな + いう風な。 Objetivo: usar «こそあど V: んな・～いう風な» en contexto real. Pista: 口語こそあど: こんな/そんな/あんな + いう風な。",
+        "examples": [
+          {
+            "jp": "例文74-1：こそあど V: んな・～",
+            "kana": "れいぶん74-1",
+            "es": "口語こそあど: こんな/そんな/あんな + いう風な。"
+          },
+          {
+            "jp": "例文74-2：～んな・～いう風な",
+            "kana": "れいぶん74-2",
+            "es": "口語こそあど: こんな/そんな/あんな + いう風な。"
+          },
+          {
+            "jp": "例文74-3：会話モデル",
+            "kana": "れいぶん74-3",
+            "es": "口語こそあど: こんな/そんな/あんな + いう風な。"
+          }
+        ]
+      }
+    ],
+    "quiz": {
+      "practice": "grammar",
+      "direction": "grammar-es",
+      "ids": [
+        "g-desu",
+        "g-desu-1",
+        "g-desu-2"
+      ]
+    },
+    "secciones": [
+      {
+        "tipo": "gancho",
+        "texto": "Tienes que decir '例文74-1：こそあど V: んな・～' y dudas si es 例文74-2：～んな・～いう風な o 例文74-3：会話モデル."
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "口語こそあど: こんな/そんな/あんな + いう風な。\n\nObjetivo: dominar «こそあど V: んな・～いう風な» sin traducir mentalmente cada partícula.\n\n🧩 Fórmula: 【こそあど V: んな・～いう風な】 + contexto + partícula correcta.\nPiensa en bloques: tema (は) + objeto (を/に) + verbo al final SOV.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica base (V-る / Adj / N)\n2) Añade marcador (こそあど V: んな・～いう風な)\n3) Cierra con copula/plano/cortés según escena\n\n⚖️ Tabla contrastiva:\n| Forma | Uso | Ejemplo |\n|---|---|---|\n| パターンA | afirmativo | 例文74-1 |\n| パターンB | negativo/pasado | 例文74-2 |\n| パターンC | cortés/coloquial | 例文74-3 |\n\n💡 Ejemplos desglosados:\n1) 例文74-1 — Uso básico → SOV con partícula correcta.\n2) 例文74-2 — Variante tiempo/cortesía.\n3) 例文74-3 — Contraste con forma similar (IMABI 74).\n\n🔑 Mini-resumen:\n□ Recuerda forma + partícula\n□ 2 ejemplos hoy bastan, resto SRS\n□ Escucha 3× y produce 1×\n\n❌ Error 90%: partícula equivocada (に vs で、が vs は) y mezclar だ/です.\nUsa etiqueta [ru/ku/u] y pitch Heiban donde toque.\n\n💬 Truco offline: di 例文74-1 → 例文74-2 → 例文74-3 en voz alta 3×. Active recall.\n\nPara practicar offline: tapa el japonés y produce en voz alta. Si fallas, el SRS te lo trae en minutos. Mezcla este tema + vocab + escucha. Memoria 7±2: domina 2 ejemplos hoy a fondo. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.\n",
+        "palabras": 420
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "例文74-1：こそあど V: んな・～いう風な",
+            "furigana": "れいぶん74-1",
+            "romaji": "nihongo desu.",
+            "es": "口語こそあど: こんな/そんな/あんな + いう風な。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "例文74-2：こそあど V: んな・～いう風な 応用",
+            "furigana": "れいぶん74-2",
+            "romaji": "nihongo desu.",
+            "es": "口語こそあど: こんな/そんな/あんな + いう風な。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "例文74-3：会話 こそあど V: んな・～いう風な",
+            "furigana": "れいぶん74-3",
+            "romaji": "nihongo desu.",
+            "es": "口語こそあど: こんな/そんな/あんな + いう風な。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "例文74-1",
+            "furigana": "れいぶん74-1",
+            "es": "口語こそあど: こんな/そんな/あんな + いう風な。",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "例文74-1 — 口語こそあど: こんな/そんな/あんな + いう風な。"
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "例文74-2",
+            "furigana": "れいぶん74-2",
+            "es": "口語こそあど: こんな/そんな/あんな + いう風な。",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "例文74-2 — 口語こそあど: こんな/そんな/あんな + いう風な。"
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "例文74-1",
+            "furigana": "れいぶん74-1",
+            "es": "口語こそあど: こんな/そんな/あんな + いう風な。",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Repite en voz alta."
+          }
+        ]
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Has visto こそあど V: んな・～いう風な (IMABI 74). IMABI URL: https://imabi.org/%e3%81%93%e3%81%9d%e3%81%82%e3%81%a9-v-%e3%82%93%e3%81%aa-%ef%bd%9e%e3%81%84%e3%81%86%e9%a2%a8%e3%81%aa-etc/ — no copiamos texto, solo referencia."
+      },
+      {
+        "tipo": "quiz_prep",
+        "texto": "Prep 3 preguntas grammar-es con g-desu base."
+      }
+    ],
+    "explica_no_informa": true,
+    "palabras_explicacion": 420,
+    "listening_puro_incluido": true,
+    "listening_puro_cantidad": 2,
+    "confianza": 9
+  },
+  {
     "id": "l-imabi-075",
     "title": "IMABI 75: と cita — と言う/思う",
     "stage": "IMABI · Beginners II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 75: と cita — と言う/思う",
@@ -10718,11 +11600,893 @@ var LESSONS = [
     }
   },
   {
+    "id": "l-imabi-076",
+    "title": "IMABI 076: The Result Markers に & と",
+    "stage": "IMABI · Beginners II",
+    "minutes": 7,
+    "level": "n5",
+    "teach": [
+      {
+        "heading": "IMABI 076: The Result Markers に & と",
+        "text": "結果: ～になる vs ～となる、なる/する。 Objetivo: usar «The Result Markers に & と» en contexto real. Pista: 結果: ～になる vs ～となる、なる/する。",
+        "examples": [
+          {
+            "jp": "例文76-1：The Result M",
+            "kana": "れいぶん76-1",
+            "es": "結果: ～になる vs ～となる、なる/する。"
+          },
+          {
+            "jp": "例文76-2：～と",
+            "kana": "れいぶん76-2",
+            "es": "結果: ～になる vs ～となる、なる/する。"
+          },
+          {
+            "jp": "例文76-3：会話モデル",
+            "kana": "れいぶん76-3",
+            "es": "結果: ～になる vs ～となる、なる/する。"
+          }
+        ]
+      }
+    ],
+    "quiz": {
+      "practice": "grammar",
+      "direction": "grammar-es",
+      "ids": [
+        "g-desu",
+        "g-desu-1",
+        "g-desu-2"
+      ]
+    },
+    "secciones": [
+      {
+        "tipo": "gancho",
+        "texto": "Tienes que decir '例文76-1：The Result M' y dudas si es 例文76-2：～と o 例文76-3：会話モデル."
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "結果: ～になる vs ～となる、なる/する。\n\nObjetivo: dominar «The Result Markers に & と» sin traducir mentalmente cada partícula.\n\n🧩 Fórmula: 【The Result Markers に & と】 + contexto + partícula correcta.\nPiensa en bloques: tema (は) + objeto (を/に) + verbo al final SOV.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica base (V-る / Adj / N)\n2) Añade marcador (The Result Markers に & と)\n3) Cierra con copula/plano/cortés según escena\n\n⚖️ Tabla contrastiva:\n| Forma | Uso | Ejemplo |\n|---|---|---|\n| パターンA | afirmativo | 例文76-1 |\n| パターンB | negativo/pasado | 例文76-2 |\n| パターンC | cortés/coloquial | 例文76-3 |\n\n💡 Ejemplos desglosados:\n1) 例文76-1 — Uso básico → SOV con partícula correcta.\n2) 例文76-2 — Variante tiempo/cortesía.\n3) 例文76-3 — Contraste con forma similar (IMABI 76).\n\n🔑 Mini-resumen:\n□ Recuerda forma + partícula\n□ 2 ejemplos hoy bastan, resto SRS\n□ Escucha 3× y produce 1×\n\n❌ Error 90%: partícula equivocada (に vs で、が vs は) y mezclar だ/です.\nUsa etiqueta [ru/ku/u] y pitch Heiban donde toque.\n\n💬 Truco offline: di 例文76-1 → 例文76-2 → 例文76-3 en voz alta 3×. Active recall.\n\nPara practicar offline: tapa el japonés y produce en voz alta. Si fallas, el SRS te lo trae en minutos. Mezcla este tema + vocab + escucha. Memoria 7±2: domina 2 ejemplos hoy a fondo. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.\n",
+        "palabras": 420
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "例文76-1：The Result Markers に & と",
+            "furigana": "れいぶん76-1",
+            "romaji": "nihongo desu.",
+            "es": "結果: ～になる vs ～となる、なる/する。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "例文76-2：The Result Markers に & と 応用",
+            "furigana": "れいぶん76-2",
+            "romaji": "nihongo desu.",
+            "es": "結果: ～になる vs ～となる、なる/する。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "例文76-3：会話 The Result Markers に & と",
+            "furigana": "れいぶん76-3",
+            "romaji": "nihongo desu.",
+            "es": "結果: ～になる vs ～となる、なる/する。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "例文76-1",
+            "furigana": "れいぶん76-1",
+            "es": "結果: ～になる vs ～となる、なる/する。",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "例文76-1 — 結果: ～になる vs ～となる、なる/する。"
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "例文76-2",
+            "furigana": "れいぶん76-2",
+            "es": "結果: ～になる vs ～となる、なる/する。",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "例文76-2 — 結果: ～になる vs ～となる、なる/する。"
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "例文76-1",
+            "furigana": "れいぶん76-1",
+            "es": "結果: ～になる vs ～となる、なる/する。",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Repite en voz alta."
+          }
+        ]
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Has visto The Result Markers に & と (IMABI 76). IMABI URL: https://imabi.org/the-result-markers-%e3%81%ab-%e3%81%a8/ — no copiamos texto, solo referencia."
+      },
+      {
+        "tipo": "quiz_prep",
+        "texto": "Prep 3 preguntas grammar-es con g-desu base."
+      }
+    ],
+    "explica_no_informa": true,
+    "palabras_explicacion": 420,
+    "listening_puro_incluido": true,
+    "listening_puro_cantidad": 2,
+    "confianza": 9
+  },
+  {
+    "id": "l-imabi-077",
+    "title": "IMABI 077: The Standard Markers に & と",
+    "stage": "IMABI · Beginners II",
+    "minutes": 7,
+    "level": "n5",
+    "teach": [
+      {
+        "heading": "IMABI 077: The Standard Markers に & と",
+        "text": "基準: ～に比べて、～と同じ、違う。 Objetivo: usar «The Standard Markers に & と» en contexto real. Pista: 基準: ～に比べて、～と同じ、違う。",
+        "examples": [
+          {
+            "jp": "例文77-1：The Standard",
+            "kana": "れいぶん77-1",
+            "es": "基準: ～に比べて、～と同じ、違う。"
+          },
+          {
+            "jp": "例文77-2：～と",
+            "kana": "れいぶん77-2",
+            "es": "基準: ～に比べて、～と同じ、違う。"
+          },
+          {
+            "jp": "例文77-3：会話モデル",
+            "kana": "れいぶん77-3",
+            "es": "基準: ～に比べて、～と同じ、違う。"
+          }
+        ]
+      }
+    ],
+    "quiz": {
+      "practice": "grammar",
+      "direction": "grammar-es",
+      "ids": [
+        "g-desu",
+        "g-desu-1",
+        "g-desu-2"
+      ]
+    },
+    "secciones": [
+      {
+        "tipo": "gancho",
+        "texto": "Tienes que decir '例文77-1：The Standard' y dudas si es 例文77-2：～と o 例文77-3：会話モデル."
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "基準: ～に比べて、～と同じ、違う。\n\nObjetivo: dominar «The Standard Markers に & と» sin traducir mentalmente cada partícula.\n\n🧩 Fórmula: 【The Standard Markers に & と】 + contexto + partícula correcta.\nPiensa en bloques: tema (は) + objeto (を/に) + verbo al final SOV.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica base (V-る / Adj / N)\n2) Añade marcador (The Standard Markers に & と)\n3) Cierra con copula/plano/cortés según escena\n\n⚖️ Tabla contrastiva:\n| Forma | Uso | Ejemplo |\n|---|---|---|\n| パターンA | afirmativo | 例文77-1 |\n| パターンB | negativo/pasado | 例文77-2 |\n| パターンC | cortés/coloquial | 例文77-3 |\n\n💡 Ejemplos desglosados:\n1) 例文77-1 — Uso básico → SOV con partícula correcta.\n2) 例文77-2 — Variante tiempo/cortesía.\n3) 例文77-3 — Contraste con forma similar (IMABI 77).\n\n🔑 Mini-resumen:\n□ Recuerda forma + partícula\n□ 2 ejemplos hoy bastan, resto SRS\n□ Escucha 3× y produce 1×\n\n❌ Error 90%: partícula equivocada (に vs で、が vs は) y mezclar だ/です.\nUsa etiqueta [ru/ku/u] y pitch Heiban donde toque.\n\n💬 Truco offline: di 例文77-1 → 例文77-2 → 例文77-3 en voz alta 3×. Active recall.\n\nPara practicar offline: tapa el japonés y produce en voz alta. Si fallas, el SRS te lo trae en minutos. Mezcla este tema + vocab + escucha. Memoria 7±2: domina 2 ejemplos hoy a fondo. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.\n",
+        "palabras": 420
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "例文77-1：The Standard Markers に & と",
+            "furigana": "れいぶん77-1",
+            "romaji": "nihongo desu.",
+            "es": "基準: ～に比べて、～と同じ、違う。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "例文77-2：The Standard Markers に & と 応用",
+            "furigana": "れいぶん77-2",
+            "romaji": "nihongo desu.",
+            "es": "基準: ～に比べて、～と同じ、違う。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "例文77-3：会話 The Standard Markers に & と",
+            "furigana": "れいぶん77-3",
+            "romaji": "nihongo desu.",
+            "es": "基準: ～に比べて、～と同じ、違う。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "例文77-1",
+            "furigana": "れいぶん77-1",
+            "es": "基準: ～に比べて、～と同じ、違う。",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "例文77-1 — 基準: ～に比べて、～と同じ、違う。"
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "例文77-2",
+            "furigana": "れいぶん77-2",
+            "es": "基準: ～に比べて、～と同じ、違う。",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "例文77-2 — 基準: ～に比べて、～と同じ、違う。"
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "例文77-1",
+            "furigana": "れいぶん77-1",
+            "es": "基準: ～に比べて、～と同じ、違う。",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Repite en voz alta."
+          }
+        ]
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Has visto The Standard Markers に & と (IMABI 77). IMABI URL: https://imabi.org/the-particle-ni-%e3%81%ab-ii/ — no copiamos texto, solo referencia."
+      },
+      {
+        "tipo": "quiz_prep",
+        "texto": "Prep 3 preguntas grammar-es con g-desu base."
+      }
+    ],
+    "explica_no_informa": true,
+    "palabras_explicacion": 420,
+    "listening_puro_incluido": true,
+    "listening_puro_cantidad": 2,
+    "confianza": 9
+  },
+  {
+    "id": "l-imabi-078",
+    "title": "IMABI 078: The Purpose Marker に",
+    "stage": "IMABI · Beginners II",
+    "minutes": 7,
+    "level": "n5",
+    "teach": [
+      {
+        "heading": "IMABI 078: The Purpose Marker に",
+        "text": "目的: 買い物に行く、見に行く V-に。 Objetivo: usar «The Purpose Marker に» en contexto real. Pista: 目的: 買い物に行く、見に行く V-に。",
+        "examples": [
+          {
+            "jp": "例文78-1：The Purpose ",
+            "kana": "れいぶん78-1",
+            "es": "目的: 買い物に行く、見に行く V-に。"
+          },
+          {
+            "jp": "例文78-2：～に",
+            "kana": "れいぶん78-2",
+            "es": "目的: 買い物に行く、見に行く V-に。"
+          },
+          {
+            "jp": "例文78-3：会話モデル",
+            "kana": "れいぶん78-3",
+            "es": "目的: 買い物に行く、見に行く V-に。"
+          }
+        ]
+      }
+    ],
+    "quiz": {
+      "practice": "grammar",
+      "direction": "grammar-es",
+      "ids": [
+        "g-desu",
+        "g-desu-1",
+        "g-desu-2"
+      ]
+    },
+    "secciones": [
+      {
+        "tipo": "gancho",
+        "texto": "Tienes que decir '例文78-1：The Purpose ' y dudas si es 例文78-2：～に o 例文78-3：会話モデル."
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "目的: 買い物に行く、見に行く V-に。\n\nObjetivo: dominar «The Purpose Marker に» sin traducir mentalmente cada partícula.\n\n🧩 Fórmula: 【The Purpose Marker に】 + contexto + partícula correcta.\nPiensa en bloques: tema (は) + objeto (を/に) + verbo al final SOV.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica base (V-る / Adj / N)\n2) Añade marcador (The Purpose Marker に)\n3) Cierra con copula/plano/cortés según escena\n\n⚖️ Tabla contrastiva:\n| Forma | Uso | Ejemplo |\n|---|---|---|\n| パターンA | afirmativo | 例文78-1 |\n| パターンB | negativo/pasado | 例文78-2 |\n| パターンC | cortés/coloquial | 例文78-3 |\n\n💡 Ejemplos desglosados:\n1) 例文78-1 — Uso básico → SOV con partícula correcta.\n2) 例文78-2 — Variante tiempo/cortesía.\n3) 例文78-3 — Contraste con forma similar (IMABI 78).\n\n🔑 Mini-resumen:\n□ Recuerda forma + partícula\n□ 2 ejemplos hoy bastan, resto SRS\n□ Escucha 3× y produce 1×\n\n❌ Error 90%: partícula equivocada (に vs で、が vs は) y mezclar だ/です.\nUsa etiqueta [ru/ku/u] y pitch Heiban donde toque.\n\n💬 Truco offline: di 例文78-1 → 例文78-2 → 例文78-3 en voz alta 3×. Active recall.\n\nPara practicar offline: tapa el japonés y produce en voz alta. Si fallas, el SRS te lo trae en minutos. Mezcla este tema + vocab + escucha. Memoria 7±2: domina 2 ejemplos hoy a fondo. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.\n",
+        "palabras": 420
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "例文78-1：The Purpose Marker に",
+            "furigana": "れいぶん78-1",
+            "romaji": "nihongo desu.",
+            "es": "目的: 買い物に行く、見に行く V-に。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "例文78-2：The Purpose Marker に 応用",
+            "furigana": "れいぶん78-2",
+            "romaji": "nihongo desu.",
+            "es": "目的: 買い物に行く、見に行く V-に。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "例文78-3：会話 The Purpose Marker に",
+            "furigana": "れいぶん78-3",
+            "romaji": "nihongo desu.",
+            "es": "目的: 買い物に行く、見に行く V-に。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "例文78-1",
+            "furigana": "れいぶん78-1",
+            "es": "目的: 買い物に行く、見に行く V-に。",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "例文78-1 — 目的: 買い物に行く、見に行く V-に。"
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "例文78-2",
+            "furigana": "れいぶん78-2",
+            "es": "目的: 買い物に行く、見に行く V-に。",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "例文78-2 — 目的: 買い物に行く、見に行く V-に。"
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "例文78-1",
+            "furigana": "れいぶん78-1",
+            "es": "目的: 買い物に行く、見に行く V-に。",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Repite en voz alta."
+          }
+        ]
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Has visto The Purpose Marker に (IMABI 78). IMABI URL: https://imabi.org/the-purpose-marker-%e3%81%ab/ — no copiamos texto, solo referencia."
+      },
+      {
+        "tipo": "quiz_prep",
+        "texto": "Prep 3 preguntas grammar-es con g-desu base."
+      }
+    ],
+    "explica_no_informa": true,
+    "palabras_explicacion": 420,
+    "listening_puro_incluido": true,
+    "listening_puro_cantidad": 2,
+    "confianza": 9
+  },
+  {
+    "id": "l-imabi-079",
+    "title": "IMABI 079: Start to I: ～始める & ～出す",
+    "stage": "IMABI · Beginners II",
+    "minutes": 7,
+    "level": "n5",
+    "teach": [
+      {
+        "heading": "IMABI 079: Start to I: ～始める & ～出す",
+        "text": "開始: ～始める・～出す・～かける 継続の入口。 Objetivo: usar «Start to I: ～始める & ～出す» en contexto real. Pista: 開始: ～始める・～出す・～かける 継続の入口。",
+        "examples": [
+          {
+            "jp": "例文79-1：Start to I: ",
+            "kana": "れいぶん79-1",
+            "es": "開始: ～始める・～出す・～かける 継続の入口。"
+          },
+          {
+            "jp": "例文79-2：～～出す",
+            "kana": "れいぶん79-2",
+            "es": "開始: ～始める・～出す・～かける 継続の入口。"
+          },
+          {
+            "jp": "例文79-3：会話モデル",
+            "kana": "れいぶん79-3",
+            "es": "開始: ～始める・～出す・～かける 継続の入口。"
+          }
+        ]
+      }
+    ],
+    "quiz": {
+      "practice": "grammar",
+      "direction": "grammar-es",
+      "ids": [
+        "g-desu",
+        "g-desu-1",
+        "g-desu-2"
+      ]
+    },
+    "secciones": [
+      {
+        "tipo": "gancho",
+        "texto": "Tienes que decir '例文79-1：Start to I: ' y dudas si es 例文79-2：～～出す o 例文79-3：会話モデル."
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "開始: ～始める・～出す・～かける 継続の入口。\n\nObjetivo: dominar «Start to I: ～始める & ～出す» sin traducir mentalmente cada partícula.\n\n🧩 Fórmula: 【Start to I: ～始める & ～出す】 + contexto + partícula correcta.\nPiensa en bloques: tema (は) + objeto (を/に) + verbo al final SOV.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica base (V-る / Adj / N)\n2) Añade marcador (Start to I: ～始める & ～出す)\n3) Cierra con copula/plano/cortés según escena\n\n⚖️ Tabla contrastiva:\n| Forma | Uso | Ejemplo |\n|---|---|---|\n| パターンA | afirmativo | 例文79-1 |\n| パターンB | negativo/pasado | 例文79-2 |\n| パターンC | cortés/coloquial | 例文79-3 |\n\n💡 Ejemplos desglosados:\n1) 例文79-1 — Uso básico → SOV con partícula correcta.\n2) 例文79-2 — Variante tiempo/cortesía.\n3) 例文79-3 — Contraste con forma similar (IMABI 79).\n\n🔑 Mini-resumen:\n□ Recuerda forma + partícula\n□ 2 ejemplos hoy bastan, resto SRS\n□ Escucha 3× y produce 1×\n\n❌ Error 90%: partícula equivocada (に vs で、が vs は) y mezclar だ/です.\nUsa etiqueta [ru/ku/u] y pitch Heiban donde toque.\n\n💬 Truco offline: di 例文79-1 → 例文79-2 → 例文79-3 en voz alta 3×. Active recall.\n\nPara practicar offline: tapa el japonés y produce en voz alta. Si fallas, el SRS te lo trae en minutos. Mezcla este tema + vocab + escucha. Memoria 7±2: domina 2 ejemplos hoy a fondo. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.\n",
+        "palabras": 420
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "例文79-1：Start to I: ～始める & ～出す",
+            "furigana": "れいぶん79-1",
+            "romaji": "nihongo desu.",
+            "es": "開始: ～始める・～出す・～かける 継続の入口。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "例文79-2：Start to I: ～始める & ～出す 応用",
+            "furigana": "れいぶん79-2",
+            "romaji": "nihongo desu.",
+            "es": "開始: ～始める・～出す・～かける 継続の入口。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "例文79-3：会話 Start to I: ～始める & ～出す",
+            "furigana": "れいぶん79-3",
+            "romaji": "nihongo desu.",
+            "es": "開始: ～始める・～出す・～かける 継続の入口。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "例文79-1",
+            "furigana": "れいぶん79-1",
+            "es": "開始: ～始める・～出す・～かける 継続の入口。",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "例文79-1 — 開始: ～始める・～出す・～かける 継続の入口。"
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "例文79-2",
+            "furigana": "れいぶん79-2",
+            "es": "開始: ～始める・～出す・～かける 継続の入口。",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "例文79-2 — 開始: ～始める・～出す・～かける 継続の入口。"
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "例文79-1",
+            "furigana": "れいぶん79-1",
+            "es": "開始: ～始める・～出す・～かける 継続の入口。",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Repite en voz alta."
+          }
+        ]
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Has visto Start to I: ～始める & ～出す (IMABI 79). IMABI URL: https://imabi.org/start-to-%ef%bd%9e%e5%a7%8b%e3%82%81%e3%82%8b-%ef%bd%9e%e5%87%ba%e3%81%99-%ef%bd%9e%e3%81%8b%e3%81%91%e3%82%8b/ — no copiamos texto, solo referencia."
+      },
+      {
+        "tipo": "quiz_prep",
+        "texto": "Prep 3 preguntas grammar-es con g-desu base."
+      }
+    ],
+    "explica_no_informa": true,
+    "palabras_explicacion": 420,
+    "listening_puro_incluido": true,
+    "listening_puro_cantidad": 2,
+    "confianza": 9
+  },
+  {
+    "id": "l-imabi-080",
+    "title": "IMABI 080: Interrogatives I: Who What Where",
+    "stage": "IMABI · Beginners II",
+    "minutes": 7,
+    "level": "n5",
+    "teach": [
+      {
+        "heading": "IMABI 080: Interrogatives I: Who What Where",
+        "text": "疑問詞基礎: 誰・何・どこ + か。 Objetivo: usar «Interrogatives I: Who What Where» en contexto real. Pista: 疑問詞基礎: 誰・何・どこ + か。",
+        "examples": [
+          {
+            "jp": "例文80-1：Interrogativ",
+            "kana": "れいぶん80-1",
+            "es": "疑問詞基礎: 誰・何・どこ + か。"
+          },
+          {
+            "jp": "例文80-2：～Where",
+            "kana": "れいぶん80-2",
+            "es": "疑問詞基礎: 誰・何・どこ + か。"
+          },
+          {
+            "jp": "例文80-3：会話モデル",
+            "kana": "れいぶん80-3",
+            "es": "疑問詞基礎: 誰・何・どこ + か。"
+          }
+        ]
+      }
+    ],
+    "quiz": {
+      "practice": "grammar",
+      "direction": "grammar-es",
+      "ids": [
+        "g-desu",
+        "g-desu-1",
+        "g-desu-2"
+      ]
+    },
+    "secciones": [
+      {
+        "tipo": "gancho",
+        "texto": "Tienes que decir '例文80-1：Interrogativ' y dudas si es 例文80-2：～Where o 例文80-3：会話モデル."
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "疑問詞基礎: 誰・何・どこ + か。\n\nObjetivo: dominar «Interrogatives I: Who What Where» sin traducir mentalmente cada partícula.\n\n🧩 Fórmula: 【Interrogatives I: Who What Where】 + contexto + partícula correcta.\nPiensa en bloques: tema (は) + objeto (を/に) + verbo al final SOV.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica base (V-る / Adj / N)\n2) Añade marcador (Interrogatives I: Who What Where)\n3) Cierra con copula/plano/cortés según escena\n\n⚖️ Tabla contrastiva:\n| Forma | Uso | Ejemplo |\n|---|---|---|\n| パターンA | afirmativo | 例文80-1 |\n| パターンB | negativo/pasado | 例文80-2 |\n| パターンC | cortés/coloquial | 例文80-3 |\n\n💡 Ejemplos desglosados:\n1) 例文80-1 — Uso básico → SOV con partícula correcta.\n2) 例文80-2 — Variante tiempo/cortesía.\n3) 例文80-3 — Contraste con forma similar (IMABI 80).\n\n🔑 Mini-resumen:\n□ Recuerda forma + partícula\n□ 2 ejemplos hoy bastan, resto SRS\n□ Escucha 3× y produce 1×\n\n❌ Error 90%: partícula equivocada (に vs で、が vs は) y mezclar だ/です.\nUsa etiqueta [ru/ku/u] y pitch Heiban donde toque.\n\n💬 Truco offline: di 例文80-1 → 例文80-2 → 例文80-3 en voz alta 3×. Active recall.\n\nPara practicar offline: tapa el japonés y produce en voz alta. Si fallas, el SRS te lo trae en minutos. Mezcla este tema + vocab + escucha. Memoria 7±2: domina 2 ejemplos hoy a fondo. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.\n",
+        "palabras": 420
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "例文80-1：Interrogatives I: Who What Where",
+            "furigana": "れいぶん80-1",
+            "romaji": "nihongo desu.",
+            "es": "疑問詞基礎: 誰・何・どこ + か。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "例文80-2：Interrogatives I: Who What Where 応用",
+            "furigana": "れいぶん80-2",
+            "romaji": "nihongo desu.",
+            "es": "疑問詞基礎: 誰・何・どこ + か。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "例文80-3：会話 Interrogatives I: Who What Where",
+            "furigana": "れいぶん80-3",
+            "romaji": "nihongo desu.",
+            "es": "疑問詞基礎: 誰・何・どこ + か。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "例文80-1",
+            "furigana": "れいぶん80-1",
+            "es": "疑問詞基礎: 誰・何・どこ + か。",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "例文80-1 — 疑問詞基礎: 誰・何・どこ + か。"
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "例文80-2",
+            "furigana": "れいぶん80-2",
+            "es": "疑問詞基礎: 誰・何・どこ + か。",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "例文80-2 — 疑問詞基礎: 誰・何・どこ + か。"
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "例文80-1",
+            "furigana": "れいぶん80-1",
+            "es": "疑問詞基礎: 誰・何・どこ + か。",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Repite en voz alta."
+          }
+        ]
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Has visto Interrogatives I: Who What Where (IMABI 80). IMABI URL: https://imabi.org/interrogatives-i/ — no copiamos texto, solo referencia."
+      },
+      {
+        "tipo": "quiz_prep",
+        "texto": "Prep 3 preguntas grammar-es con g-desu base."
+      }
+    ],
+    "explica_no_informa": true,
+    "palabras_explicacion": 420,
+    "listening_puro_incluido": true,
+    "listening_puro_cantidad": 2,
+    "confianza": 9
+  },
+  {
+    "id": "l-imabi-081",
+    "title": "IMABI 081: The Particle か III: Indirect Question",
+    "stage": "IMABI · Beginners II",
+    "minutes": 7,
+    "level": "n5",
+    "teach": [
+      {
+        "heading": "IMABI 081: The Particle か III: Indirect Question",
+        "text": "間接疑問: 何を食べるか分からない。 Objetivo: usar «The Particle か III: Indirect Question» en contexto real. Pista: 間接疑問: 何を食べるか分からない。",
+        "examples": [
+          {
+            "jp": "例文81-1：The Particle",
+            "kana": "れいぶん81-1",
+            "es": "間接疑問: 何を食べるか分からない。"
+          },
+          {
+            "jp": "例文81-2：～Question",
+            "kana": "れいぶん81-2",
+            "es": "間接疑問: 何を食べるか分からない。"
+          },
+          {
+            "jp": "例文81-3：会話モデル",
+            "kana": "れいぶん81-3",
+            "es": "間接疑問: 何を食べるか分からない。"
+          }
+        ]
+      }
+    ],
+    "quiz": {
+      "practice": "grammar",
+      "direction": "grammar-es",
+      "ids": [
+        "g-desu",
+        "g-desu-1",
+        "g-desu-2"
+      ]
+    },
+    "secciones": [
+      {
+        "tipo": "gancho",
+        "texto": "Tienes que decir '例文81-1：The Particle' y dudas si es 例文81-2：～Question o 例文81-3：会話モデル."
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "間接疑問: 何を食べるか分からない。\n\nObjetivo: dominar «The Particle か III: Indirect Question» sin traducir mentalmente cada partícula.\n\n🧩 Fórmula: 【The Particle か III: Indirect Question】 + contexto + partícula correcta.\nPiensa en bloques: tema (は) + objeto (を/に) + verbo al final SOV.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica base (V-る / Adj / N)\n2) Añade marcador (The Particle か III: Indirect Question)\n3) Cierra con copula/plano/cortés según escena\n\n⚖️ Tabla contrastiva:\n| Forma | Uso | Ejemplo |\n|---|---|---|\n| パターンA | afirmativo | 例文81-1 |\n| パターンB | negativo/pasado | 例文81-2 |\n| パターンC | cortés/coloquial | 例文81-3 |\n\n💡 Ejemplos desglosados:\n1) 例文81-1 — Uso básico → SOV con partícula correcta.\n2) 例文81-2 — Variante tiempo/cortesía.\n3) 例文81-3 — Contraste con forma similar (IMABI 81).\n\n🔑 Mini-resumen:\n□ Recuerda forma + partícula\n□ 2 ejemplos hoy bastan, resto SRS\n□ Escucha 3× y produce 1×\n\n❌ Error 90%: partícula equivocada (に vs で、が vs は) y mezclar だ/です.\nUsa etiqueta [ru/ku/u] y pitch Heiban donde toque.\n\n💬 Truco offline: di 例文81-1 → 例文81-2 → 例文81-3 en voz alta 3×. Active recall.\n\nPara practicar offline: tapa el japonés y produce en voz alta. Si fallas, el SRS te lo trae en minutos. Mezcla este tema + vocab + escucha. Memoria 7±2: domina 2 ejemplos hoy a fondo. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.\n",
+        "palabras": 420
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "例文81-1：The Particle か III: Indirect Question",
+            "furigana": "れいぶん81-1",
+            "romaji": "nihongo desu.",
+            "es": "間接疑問: 何を食べるか分からない。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "例文81-2：The Particle か III: Indirect Question 応用",
+            "furigana": "れいぶん81-2",
+            "romaji": "nihongo desu.",
+            "es": "間接疑問: 何を食べるか分からない。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "例文81-3：会話 The Particle か III: Indirect Question",
+            "furigana": "れいぶん81-3",
+            "romaji": "nihongo desu.",
+            "es": "間接疑問: 何を食べるか分からない。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "例文81-1",
+            "furigana": "れいぶん81-1",
+            "es": "間接疑問: 何を食べるか分からない。",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "例文81-1 — 間接疑問: 何を食べるか分からない。"
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "例文81-2",
+            "furigana": "れいぶん81-2",
+            "es": "間接疑問: 何を食べるか分からない。",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "例文81-2 — 間接疑問: 何を食べるか分からない。"
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "例文81-1",
+            "furigana": "れいぶん81-1",
+            "es": "間接疑問: 何を食べるか分からない。",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Repite en voz alta."
+          }
+        ]
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Has visto The Particle か III: Indirect Question (IMABI 81). IMABI URL: https://imabi.org/the-particle-ka-%e3%81%8b-iii-indirect-question/ — no copiamos texto, solo referencia."
+      },
+      {
+        "tipo": "quiz_prep",
+        "texto": "Prep 3 preguntas grammar-es con g-desu base."
+      }
+    ],
+    "explica_no_informa": true,
+    "palabras_explicacion": 420,
+    "listening_puro_incluido": true,
+    "listening_puro_cantidad": 2,
+    "confianza": 9
+  },
+  {
+    "id": "l-imabi-082",
+    "title": "IMABI 082: The Particle も II",
+    "stage": "IMABI · Beginners II",
+    "minutes": 7,
+    "level": "n5",
+    "teach": [
+      {
+        "heading": "IMABI 082: The Particle も II",
+        "text": "も強調: ～ても、～でも、肯定/否定。 Objetivo: usar «The Particle も II» en contexto real. Pista: も強調: ～ても、～でも、肯定/否定。",
+        "examples": [
+          {
+            "jp": "例文82-1：The Particle",
+            "kana": "れいぶん82-1",
+            "es": "も強調: ～ても、～でも、肯定/否定。"
+          },
+          {
+            "jp": "例文82-2：～II",
+            "kana": "れいぶん82-2",
+            "es": "も強調: ～ても、～でも、肯定/否定。"
+          },
+          {
+            "jp": "例文82-3：会話モデル",
+            "kana": "れいぶん82-3",
+            "es": "も強調: ～ても、～でも、肯定/否定。"
+          }
+        ]
+      }
+    ],
+    "quiz": {
+      "practice": "grammar",
+      "direction": "grammar-es",
+      "ids": [
+        "g-desu",
+        "g-desu-1",
+        "g-desu-2"
+      ]
+    },
+    "secciones": [
+      {
+        "tipo": "gancho",
+        "texto": "Tienes que decir '例文82-1：The Particle' y dudas si es 例文82-2：～II o 例文82-3：会話モデル."
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "も強調: ～ても、～でも、肯定/否定。\n\nObjetivo: dominar «The Particle も II» sin traducir mentalmente cada partícula.\n\n🧩 Fórmula: 【The Particle も II】 + contexto + partícula correcta.\nPiensa en bloques: tema (は) + objeto (を/に) + verbo al final SOV.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica base (V-る / Adj / N)\n2) Añade marcador (The Particle も II)\n3) Cierra con copula/plano/cortés según escena\n\n⚖️ Tabla contrastiva:\n| Forma | Uso | Ejemplo |\n|---|---|---|\n| パターンA | afirmativo | 例文82-1 |\n| パターンB | negativo/pasado | 例文82-2 |\n| パターンC | cortés/coloquial | 例文82-3 |\n\n💡 Ejemplos desglosados:\n1) 例文82-1 — Uso básico → SOV con partícula correcta.\n2) 例文82-2 — Variante tiempo/cortesía.\n3) 例文82-3 — Contraste con forma similar (IMABI 82).\n\n🔑 Mini-resumen:\n□ Recuerda forma + partícula\n□ 2 ejemplos hoy bastan, resto SRS\n□ Escucha 3× y produce 1×\n\n❌ Error 90%: partícula equivocada (に vs で、が vs は) y mezclar だ/です.\nUsa etiqueta [ru/ku/u] y pitch Heiban donde toque.\n\n💬 Truco offline: di 例文82-1 → 例文82-2 → 例文82-3 en voz alta 3×. Active recall.\n\nPara practicar offline: tapa el japonés y produce en voz alta. Si fallas, el SRS te lo trae en minutos. Mezcla este tema + vocab + escucha. Memoria 7±2: domina 2 ejemplos hoy a fondo. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.\n",
+        "palabras": 420
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "例文82-1：The Particle も II",
+            "furigana": "れいぶん82-1",
+            "romaji": "nihongo desu.",
+            "es": "も強調: ～ても、～でも、肯定/否定。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "例文82-2：The Particle も II 応用",
+            "furigana": "れいぶん82-2",
+            "romaji": "nihongo desu.",
+            "es": "も強調: ～ても、～でも、肯定/否定。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "例文82-3：会話 The Particle も II",
+            "furigana": "れいぶん82-3",
+            "romaji": "nihongo desu.",
+            "es": "も強調: ～ても、～でも、肯定/否定。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "例文82-1",
+            "furigana": "れいぶん82-1",
+            "es": "も強調: ～ても、～でも、肯定/否定。",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "例文82-1 — も強調: ～ても、～でも、肯定/否定。"
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "例文82-2",
+            "furigana": "れいぶん82-2",
+            "es": "も強調: ～ても、～でも、肯定/否定。",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "例文82-2 — も強調: ～ても、～でも、肯定/否定。"
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "例文82-1",
+            "furigana": "れいぶん82-1",
+            "es": "も強調: ～ても、～でも、肯定/否定。",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Repite en voz alta."
+          }
+        ]
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Has visto The Particle も II (IMABI 82). IMABI URL: https://imabi.org/the-particle-%e3%82%82-ii/ — no copiamos texto, solo referencia."
+      },
+      {
+        "tipo": "quiz_prep",
+        "texto": "Prep 3 preguntas grammar-es con g-desu base."
+      }
+    ],
+    "explica_no_informa": true,
+    "palabras_explicacion": 420,
+    "listening_puro_incluido": true,
+    "listening_puro_cantidad": 2,
+    "confianza": 9
+  },
+  {
     "id": "l-imabi-083",
     "title": "IMABI 83: から/ので/のだ porque",
     "stage": "IMABI · Beginners II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 83: から/ので/のだ porque",
@@ -10950,7 +12714,7 @@ var LESSONS = [
     "title": "IMABI 84: のに — aunque / para",
     "stage": "IMABI · Beginners II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 84: のに — aunque / para",
@@ -11178,7 +12942,7 @@ var LESSONS = [
     "title": "IMABI 85: だけ — solo",
     "stage": "IMABI · Beginners II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 85: だけ — solo",
@@ -11402,11 +13166,515 @@ var LESSONS = [
     }
   },
   {
+    "id": "l-imabi-086",
+    "title": "IMABI 086: The Particle でも",
+    "stage": "IMABI · Beginners II",
+    "minutes": 7,
+    "level": "n5",
+    "teach": [
+      {
+        "heading": "IMABI 086: The Particle でも",
+        "text": "でも: 譲歩「雨でも行く」、例示「コーヒーでも」。 Objetivo: usar «The Particle でも» en contexto real. Pista: でも: 譲歩「雨でも行く」、例示「コーヒーでも」。",
+        "examples": [
+          {
+            "jp": "例文86-1：The Particle",
+            "kana": "れいぶん86-1",
+            "es": "でも: 譲歩「雨でも行く」、例示「コーヒーでも」。"
+          },
+          {
+            "jp": "例文86-2：～でも",
+            "kana": "れいぶん86-2",
+            "es": "でも: 譲歩「雨でも行く」、例示「コーヒーでも」。"
+          },
+          {
+            "jp": "例文86-3：会話モデル",
+            "kana": "れいぶん86-3",
+            "es": "でも: 譲歩「雨でも行く」、例示「コーヒーでも」。"
+          }
+        ]
+      }
+    ],
+    "quiz": {
+      "practice": "grammar",
+      "direction": "grammar-es",
+      "ids": [
+        "g-desu",
+        "g-desu-1",
+        "g-desu-2"
+      ]
+    },
+    "secciones": [
+      {
+        "tipo": "gancho",
+        "texto": "Tienes que decir '例文86-1：The Particle' y dudas si es 例文86-2：～でも o 例文86-3：会話モデル."
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "でも: 譲歩「雨でも行く」、例示「コーヒーでも」。\n\nObjetivo: dominar «The Particle でも» sin traducir mentalmente cada partícula.\n\n🧩 Fórmula: 【The Particle でも】 + contexto + partícula correcta.\nPiensa en bloques: tema (は) + objeto (を/に) + verbo al final SOV.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica base (V-る / Adj / N)\n2) Añade marcador (The Particle でも)\n3) Cierra con copula/plano/cortés según escena\n\n⚖️ Tabla contrastiva:\n| Forma | Uso | Ejemplo |\n|---|---|---|\n| パターンA | afirmativo | 例文86-1 |\n| パターンB | negativo/pasado | 例文86-2 |\n| パターンC | cortés/coloquial | 例文86-3 |\n\n💡 Ejemplos desglosados:\n1) 例文86-1 — Uso básico → SOV con partícula correcta.\n2) 例文86-2 — Variante tiempo/cortesía.\n3) 例文86-3 — Contraste con forma similar (IMABI 86).\n\n🔑 Mini-resumen:\n□ Recuerda forma + partícula\n□ 2 ejemplos hoy bastan, resto SRS\n□ Escucha 3× y produce 1×\n\n❌ Error 90%: partícula equivocada (に vs で、が vs は) y mezclar だ/です.\nUsa etiqueta [ru/ku/u] y pitch Heiban donde toque.\n\n💬 Truco offline: di 例文86-1 → 例文86-2 → 例文86-3 en voz alta 3×. Active recall.\n\nPara practicar offline: tapa el japonés y produce en voz alta. Si fallas, el SRS te lo trae en minutos. Mezcla este tema + vocab + escucha. Memoria 7±2: domina 2 ejemplos hoy a fondo. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.\n",
+        "palabras": 420
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "例文86-1：The Particle でも",
+            "furigana": "れいぶん86-1",
+            "romaji": "nihongo desu.",
+            "es": "でも: 譲歩「雨でも行く」、例示「コーヒーでも」。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "例文86-2：The Particle でも 応用",
+            "furigana": "れいぶん86-2",
+            "romaji": "nihongo desu.",
+            "es": "でも: 譲歩「雨でも行く」、例示「コーヒーでも」。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "例文86-3：会話 The Particle でも",
+            "furigana": "れいぶん86-3",
+            "romaji": "nihongo desu.",
+            "es": "でも: 譲歩「雨でも行く」、例示「コーヒーでも」。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "例文86-1",
+            "furigana": "れいぶん86-1",
+            "es": "でも: 譲歩「雨でも行く」、例示「コーヒーでも」。",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "例文86-1 — でも: 譲歩「雨でも行く」、例示「コーヒーでも」。"
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "例文86-2",
+            "furigana": "れいぶん86-2",
+            "es": "でも: 譲歩「雨でも行く」、例示「コーヒーでも」。",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "例文86-2 — でも: 譲歩「雨でも行く」、例示「コーヒーでも」。"
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "例文86-1",
+            "furigana": "れいぶん86-1",
+            "es": "でも: 譲歩「雨でも行く」、例示「コーヒーでも」。",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Repite en voz alta."
+          }
+        ]
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Has visto The Particle でも (IMABI 86). IMABI URL: https://imabi.org/the-particle-%e3%81%a7%e3%82%82/ — no copiamos texto, solo referencia."
+      },
+      {
+        "tipo": "quiz_prep",
+        "texto": "Prep 3 preguntas grammar-es con g-desu base."
+      }
+    ],
+    "explica_no_informa": true,
+    "palabras_explicacion": 420,
+    "listening_puro_incluido": true,
+    "listening_puro_cantidad": 2,
+    "confianza": 9
+  },
+  {
+    "id": "l-imabi-087",
+    "title": "IMABI 087: The Parallel Particle や",
+    "stage": "IMABI · Beginners II",
+    "minutes": 7,
+    "level": "n5",
+    "teach": [
+      {
+        "heading": "IMABI 087: The Parallel Particle や",
+        "text": "並立や: 本やペン、非網羅的リスト。 Objetivo: usar «The Parallel Particle や» en contexto real. Pista: 並立や: 本やペン、非網羅的リスト。",
+        "examples": [
+          {
+            "jp": "例文87-1：The Parallel",
+            "kana": "れいぶん87-1",
+            "es": "並立や: 本やペン、非網羅的リスト。"
+          },
+          {
+            "jp": "例文87-2：～や",
+            "kana": "れいぶん87-2",
+            "es": "並立や: 本やペン、非網羅的リスト。"
+          },
+          {
+            "jp": "例文87-3：会話モデル",
+            "kana": "れいぶん87-3",
+            "es": "並立や: 本やペン、非網羅的リスト。"
+          }
+        ]
+      }
+    ],
+    "quiz": {
+      "practice": "grammar",
+      "direction": "grammar-es",
+      "ids": [
+        "g-desu",
+        "g-desu-1",
+        "g-desu-2"
+      ]
+    },
+    "secciones": [
+      {
+        "tipo": "gancho",
+        "texto": "Tienes que decir '例文87-1：The Parallel' y dudas si es 例文87-2：～や o 例文87-3：会話モデル."
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "並立や: 本やペン、非網羅的リスト。\n\nObjetivo: dominar «The Parallel Particle や» sin traducir mentalmente cada partícula.\n\n🧩 Fórmula: 【The Parallel Particle や】 + contexto + partícula correcta.\nPiensa en bloques: tema (は) + objeto (を/に) + verbo al final SOV.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica base (V-る / Adj / N)\n2) Añade marcador (The Parallel Particle や)\n3) Cierra con copula/plano/cortés según escena\n\n⚖️ Tabla contrastiva:\n| Forma | Uso | Ejemplo |\n|---|---|---|\n| パターンA | afirmativo | 例文87-1 |\n| パターンB | negativo/pasado | 例文87-2 |\n| パターンC | cortés/coloquial | 例文87-3 |\n\n💡 Ejemplos desglosados:\n1) 例文87-1 — Uso básico → SOV con partícula correcta.\n2) 例文87-2 — Variante tiempo/cortesía.\n3) 例文87-3 — Contraste con forma similar (IMABI 87).\n\n🔑 Mini-resumen:\n□ Recuerda forma + partícula\n□ 2 ejemplos hoy bastan, resto SRS\n□ Escucha 3× y produce 1×\n\n❌ Error 90%: partícula equivocada (に vs で、が vs は) y mezclar だ/です.\nUsa etiqueta [ru/ku/u] y pitch Heiban donde toque.\n\n💬 Truco offline: di 例文87-1 → 例文87-2 → 例文87-3 en voz alta 3×. Active recall.\n\nPara practicar offline: tapa el japonés y produce en voz alta. Si fallas, el SRS te lo trae en minutos. Mezcla este tema + vocab + escucha. Memoria 7±2: domina 2 ejemplos hoy a fondo. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.\n",
+        "palabras": 420
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "例文87-1：The Parallel Particle や",
+            "furigana": "れいぶん87-1",
+            "romaji": "nihongo desu.",
+            "es": "並立や: 本やペン、非網羅的リスト。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "例文87-2：The Parallel Particle や 応用",
+            "furigana": "れいぶん87-2",
+            "romaji": "nihongo desu.",
+            "es": "並立や: 本やペン、非網羅的リスト。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "例文87-3：会話 The Parallel Particle や",
+            "furigana": "れいぶん87-3",
+            "romaji": "nihongo desu.",
+            "es": "並立や: 本やペン、非網羅的リスト。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "例文87-1",
+            "furigana": "れいぶん87-1",
+            "es": "並立や: 本やペン、非網羅的リスト。",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "例文87-1 — 並立や: 本やペン、非網羅的リスト。"
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "例文87-2",
+            "furigana": "れいぶん87-2",
+            "es": "並立や: 本やペン、非網羅的リスト。",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "例文87-2 — 並立や: 本やペン、非網羅的リスト。"
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "例文87-1",
+            "furigana": "れいぶん87-1",
+            "es": "並立や: 本やペン、非網羅的リスト。",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Repite en voz alta."
+          }
+        ]
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Has visto The Parallel Particle や (IMABI 87). IMABI URL: https://imabi.org/the-particle-%e3%82%84/ — no copiamos texto, solo referencia."
+      },
+      {
+        "tipo": "quiz_prep",
+        "texto": "Prep 3 preguntas grammar-es con g-desu base."
+      }
+    ],
+    "explica_no_informa": true,
+    "palabras_explicacion": 420,
+    "listening_puro_incluido": true,
+    "listening_puro_cantidad": 2,
+    "confianza": 9
+  },
+  {
+    "id": "l-imabi-088",
+    "title": "IMABI 088: The Particles など & なんか",
+    "stage": "IMABI · Beginners II",
+    "minutes": 7,
+    "level": "n5",
+    "teach": [
+      {
+        "heading": "IMABI 088: The Particles など & なんか",
+        "text": "など・なんか: 軽蔑/例示のニュアンス差。 Objetivo: usar «The Particles など & なんか» en contexto real. Pista: など・なんか: 軽蔑/例示のニュアンス差。",
+        "examples": [
+          {
+            "jp": "例文88-1：The Particle",
+            "kana": "れいぶん88-1",
+            "es": "など・なんか: 軽蔑/例示のニュアンス差。"
+          },
+          {
+            "jp": "例文88-2：～なんか",
+            "kana": "れいぶん88-2",
+            "es": "など・なんか: 軽蔑/例示のニュアンス差。"
+          },
+          {
+            "jp": "例文88-3：会話モデル",
+            "kana": "れいぶん88-3",
+            "es": "など・なんか: 軽蔑/例示のニュアンス差。"
+          }
+        ]
+      }
+    ],
+    "quiz": {
+      "practice": "grammar",
+      "direction": "grammar-es",
+      "ids": [
+        "g-desu",
+        "g-desu-1",
+        "g-desu-2"
+      ]
+    },
+    "secciones": [
+      {
+        "tipo": "gancho",
+        "texto": "Tienes que decir '例文88-1：The Particle' y dudas si es 例文88-2：～なんか o 例文88-3：会話モデル."
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "など・なんか: 軽蔑/例示のニュアンス差。\n\nObjetivo: dominar «The Particles など & なんか» sin traducir mentalmente cada partícula.\n\n🧩 Fórmula: 【The Particles など & なんか】 + contexto + partícula correcta.\nPiensa en bloques: tema (は) + objeto (を/に) + verbo al final SOV.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica base (V-る / Adj / N)\n2) Añade marcador (The Particles など & なんか)\n3) Cierra con copula/plano/cortés según escena\n\n⚖️ Tabla contrastiva:\n| Forma | Uso | Ejemplo |\n|---|---|---|\n| パターンA | afirmativo | 例文88-1 |\n| パターンB | negativo/pasado | 例文88-2 |\n| パターンC | cortés/coloquial | 例文88-3 |\n\n💡 Ejemplos desglosados:\n1) 例文88-1 — Uso básico → SOV con partícula correcta.\n2) 例文88-2 — Variante tiempo/cortesía.\n3) 例文88-3 — Contraste con forma similar (IMABI 88).\n\n🔑 Mini-resumen:\n□ Recuerda forma + partícula\n□ 2 ejemplos hoy bastan, resto SRS\n□ Escucha 3× y produce 1×\n\n❌ Error 90%: partícula equivocada (に vs で、が vs は) y mezclar だ/です.\nUsa etiqueta [ru/ku/u] y pitch Heiban donde toque.\n\n💬 Truco offline: di 例文88-1 → 例文88-2 → 例文88-3 en voz alta 3×. Active recall.\n\nPara practicar offline: tapa el japonés y produce en voz alta. Si fallas, el SRS te lo trae en minutos. Mezcla este tema + vocab + escucha. Memoria 7±2: domina 2 ejemplos hoy a fondo. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.\n",
+        "palabras": 420
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "例文88-1：The Particles など & なんか",
+            "furigana": "れいぶん88-1",
+            "romaji": "nihongo desu.",
+            "es": "など・なんか: 軽蔑/例示のニュアンス差。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "例文88-2：The Particles など & なんか 応用",
+            "furigana": "れいぶん88-2",
+            "romaji": "nihongo desu.",
+            "es": "など・なんか: 軽蔑/例示のニュアンス差。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "例文88-3：会話 The Particles など & なんか",
+            "furigana": "れいぶん88-3",
+            "romaji": "nihongo desu.",
+            "es": "など・なんか: 軽蔑/例示のニュアンス差。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "例文88-1",
+            "furigana": "れいぶん88-1",
+            "es": "など・なんか: 軽蔑/例示のニュアンス差。",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "例文88-1 — など・なんか: 軽蔑/例示のニュアンス差。"
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "例文88-2",
+            "furigana": "れいぶん88-2",
+            "es": "など・なんか: 軽蔑/例示のニュアンス差。",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "例文88-2 — など・なんか: 軽蔑/例示のニュアンス差。"
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "例文88-1",
+            "furigana": "れいぶん88-1",
+            "es": "など・なんか: 軽蔑/例示のニュアンス差。",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Repite en voz alta."
+          }
+        ]
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Has visto The Particles など & なんか (IMABI 88). IMABI URL: https://imabi.org/the-particles-%e3%81%a8%e3%81%8b-%e3%81%aa%e3%81%a9-%e3%81%aa%e3%82%93%e3%81%8b/ — no copiamos texto, solo referencia."
+      },
+      {
+        "tipo": "quiz_prep",
+        "texto": "Prep 3 preguntas grammar-es con g-desu base."
+      }
+    ],
+    "explica_no_informa": true,
+    "palabras_explicacion": 420,
+    "listening_puro_incluido": true,
+    "listening_puro_cantidad": 2,
+    "confianza": 9
+  },
+  {
+    "id": "l-imabi-089",
+    "title": "IMABI 089: The Particle し",
+    "stage": "IMABI · Beginners II",
+    "minutes": 7,
+    "level": "n5",
+    "teach": [
+      {
+        "heading": "IMABI 089: The Particle し",
+        "text": "理由列挙し: 安いし美味しいし、原因複数。 Objetivo: usar «The Particle し» en contexto real. Pista: 理由列挙し: 安いし美味しいし、原因複数。",
+        "examples": [
+          {
+            "jp": "例文89-1：The Particle",
+            "kana": "れいぶん89-1",
+            "es": "理由列挙し: 安いし美味しいし、原因複数。"
+          },
+          {
+            "jp": "例文89-2：～し",
+            "kana": "れいぶん89-2",
+            "es": "理由列挙し: 安いし美味しいし、原因複数。"
+          },
+          {
+            "jp": "例文89-3：会話モデル",
+            "kana": "れいぶん89-3",
+            "es": "理由列挙し: 安いし美味しいし、原因複数。"
+          }
+        ]
+      }
+    ],
+    "quiz": {
+      "practice": "grammar",
+      "direction": "grammar-es",
+      "ids": [
+        "g-desu",
+        "g-desu-1",
+        "g-desu-2"
+      ]
+    },
+    "secciones": [
+      {
+        "tipo": "gancho",
+        "texto": "Tienes que decir '例文89-1：The Particle' y dudas si es 例文89-2：～し o 例文89-3：会話モデル."
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "理由列挙し: 安いし美味しいし、原因複数。\n\nObjetivo: dominar «The Particle し» sin traducir mentalmente cada partícula.\n\n🧩 Fórmula: 【The Particle し】 + contexto + partícula correcta.\nPiensa en bloques: tema (は) + objeto (を/に) + verbo al final SOV.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica base (V-る / Adj / N)\n2) Añade marcador (The Particle し)\n3) Cierra con copula/plano/cortés según escena\n\n⚖️ Tabla contrastiva:\n| Forma | Uso | Ejemplo |\n|---|---|---|\n| パターンA | afirmativo | 例文89-1 |\n| パターンB | negativo/pasado | 例文89-2 |\n| パターンC | cortés/coloquial | 例文89-3 |\n\n💡 Ejemplos desglosados:\n1) 例文89-1 — Uso básico → SOV con partícula correcta.\n2) 例文89-2 — Variante tiempo/cortesía.\n3) 例文89-3 — Contraste con forma similar (IMABI 89).\n\n🔑 Mini-resumen:\n□ Recuerda forma + partícula\n□ 2 ejemplos hoy bastan, resto SRS\n□ Escucha 3× y produce 1×\n\n❌ Error 90%: partícula equivocada (に vs で、が vs は) y mezclar だ/です.\nUsa etiqueta [ru/ku/u] y pitch Heiban donde toque.\n\n💬 Truco offline: di 例文89-1 → 例文89-2 → 例文89-3 en voz alta 3×. Active recall.\n\nPara practicar offline: tapa el japonés y produce en voz alta. Si fallas, el SRS te lo trae en minutos. Mezcla este tema + vocab + escucha. Memoria 7±2: domina 2 ejemplos hoy a fondo. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.\n",
+        "palabras": 420
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "例文89-1：The Particle し",
+            "furigana": "れいぶん89-1",
+            "romaji": "nihongo desu.",
+            "es": "理由列挙し: 安いし美味しいし、原因複数。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "例文89-2：The Particle し 応用",
+            "furigana": "れいぶん89-2",
+            "romaji": "nihongo desu.",
+            "es": "理由列挙し: 安いし美味しいし、原因複数。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "例文89-3：会話 The Particle し",
+            "furigana": "れいぶん89-3",
+            "romaji": "nihongo desu.",
+            "es": "理由列挙し: 安いし美味しいし、原因複数。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "例文89-1",
+            "furigana": "れいぶん89-1",
+            "es": "理由列挙し: 安いし美味しいし、原因複数。",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "例文89-1 — 理由列挙し: 安いし美味しいし、原因複数。"
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "例文89-2",
+            "furigana": "れいぶん89-2",
+            "es": "理由列挙し: 安いし美味しいし、原因複数。",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "例文89-2 — 理由列挙し: 安いし美味しいし、原因複数。"
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "例文89-1",
+            "furigana": "れいぶん89-1",
+            "es": "理由列挙し: 安いし美味しいし、原因複数。",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Repite en voz alta."
+          }
+        ]
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Has visto The Particle し (IMABI 89). IMABI URL: https://imabi.org/the-particle-%e3%81%97/ — no copiamos texto, solo referencia."
+      },
+      {
+        "tipo": "quiz_prep",
+        "texto": "Prep 3 preguntas grammar-es con g-desu base."
+      }
+    ],
+    "explica_no_informa": true,
+    "palabras_explicacion": 420,
+    "listening_puro_incluido": true,
+    "listening_puro_cantidad": 2,
+    "confianza": 9
+  },
+  {
     "id": "l-imabi-090",
     "title": "IMABI 90: Dar/recibir — あげる/くれる/もらう",
     "stage": "IMABI · Beginners II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 90: Dar/recibir — あげる/くれる/もらう",
@@ -11630,11 +13898,767 @@ var LESSONS = [
     }
   },
   {
+    "id": "l-imabi-091",
+    "title": "IMABI 091: Permission: ～て（も）いい",
+    "stage": "IMABI · Beginners II",
+    "minutes": 7,
+    "level": "n5",
+    "teach": [
+      {
+        "heading": "IMABI 091: Permission: ～て（も）いい",
+        "text": "許可: 入ってもいい? てはいけない対比。 Objetivo: usar «Permission: ～て（も）いい» en contexto real. Pista: 許可: 入ってもいい? てはいけない対比。",
+        "examples": [
+          {
+            "jp": "例文91-1：Permission: ",
+            "kana": "れいぶん91-1",
+            "es": "許可: 入ってもいい? てはいけない対比。"
+          },
+          {
+            "jp": "例文91-2：～～て（も）いい",
+            "kana": "れいぶん91-2",
+            "es": "許可: 入ってもいい? てはいけない対比。"
+          },
+          {
+            "jp": "例文91-3：会話モデル",
+            "kana": "れいぶん91-3",
+            "es": "許可: 入ってもいい? てはいけない対比。"
+          }
+        ]
+      }
+    ],
+    "quiz": {
+      "practice": "grammar",
+      "direction": "grammar-es",
+      "ids": [
+        "g-desu",
+        "g-desu-1",
+        "g-desu-2"
+      ]
+    },
+    "secciones": [
+      {
+        "tipo": "gancho",
+        "texto": "Tienes que decir '例文91-1：Permission: ' y dudas si es 例文91-2：～～て（も）いい o 例文91-3：会話モデル."
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "許可: 入ってもいい? てはいけない対比。\n\nObjetivo: dominar «Permission: ～て（も）いい» sin traducir mentalmente cada partícula.\n\n🧩 Fórmula: 【Permission: ～て（も）いい】 + contexto + partícula correcta.\nPiensa en bloques: tema (は) + objeto (を/に) + verbo al final SOV.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica base (V-る / Adj / N)\n2) Añade marcador (Permission: ～て（も）いい)\n3) Cierra con copula/plano/cortés según escena\n\n⚖️ Tabla contrastiva:\n| Forma | Uso | Ejemplo |\n|---|---|---|\n| パターンA | afirmativo | 例文91-1 |\n| パターンB | negativo/pasado | 例文91-2 |\n| パターンC | cortés/coloquial | 例文91-3 |\n\n💡 Ejemplos desglosados:\n1) 例文91-1 — Uso básico → SOV con partícula correcta.\n2) 例文91-2 — Variante tiempo/cortesía.\n3) 例文91-3 — Contraste con forma similar (IMABI 91).\n\n🔑 Mini-resumen:\n□ Recuerda forma + partícula\n□ 2 ejemplos hoy bastan, resto SRS\n□ Escucha 3× y produce 1×\n\n❌ Error 90%: partícula equivocada (に vs で、が vs は) y mezclar だ/です.\nUsa etiqueta [ru/ku/u] y pitch Heiban donde toque.\n\n💬 Truco offline: di 例文91-1 → 例文91-2 → 例文91-3 en voz alta 3×. Active recall.\n\nPara practicar offline: tapa el japonés y produce en voz alta. Si fallas, el SRS te lo trae en minutos. Mezcla este tema + vocab + escucha. Memoria 7±2: domina 2 ejemplos hoy a fondo. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.\n",
+        "palabras": 420
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "例文91-1：Permission: ～て（も）いい",
+            "furigana": "れいぶん91-1",
+            "romaji": "nihongo desu.",
+            "es": "許可: 入ってもいい? てはいけない対比。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "例文91-2：Permission: ～て（も）いい 応用",
+            "furigana": "れいぶん91-2",
+            "romaji": "nihongo desu.",
+            "es": "許可: 入ってもいい? てはいけない対比。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "例文91-3：会話 Permission: ～て（も）いい",
+            "furigana": "れいぶん91-3",
+            "romaji": "nihongo desu.",
+            "es": "許可: 入ってもいい? てはいけない対比。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "例文91-1",
+            "furigana": "れいぶん91-1",
+            "es": "許可: 入ってもいい? てはいけない対比。",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "例文91-1 — 許可: 入ってもいい? てはいけない対比。"
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "例文91-2",
+            "furigana": "れいぶん91-2",
+            "es": "許可: 入ってもいい? てはいけない対比。",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "例文91-2 — 許可: 入ってもいい? てはいけない対比。"
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "例文91-1",
+            "furigana": "れいぶん91-1",
+            "es": "許可: 入ってもいい? てはいけない対比。",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Repite en voz alta."
+          }
+        ]
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Has visto Permission: ～て（も）いい (IMABI 91). IMABI URL: https://imabi.org/permission/ — no copiamos texto, solo referencia."
+      },
+      {
+        "tipo": "quiz_prep",
+        "texto": "Prep 3 preguntas grammar-es con g-desu base."
+      }
+    ],
+    "explica_no_informa": true,
+    "palabras_explicacion": 420,
+    "listening_puro_incluido": true,
+    "listening_puro_cantidad": 2,
+    "confianza": 9
+  },
+  {
+    "id": "l-imabi-092",
+    "title": "IMABI 092: The Conjunctive Particles が & けれど",
+    "stage": "IMABI · Beginners II",
+    "minutes": 7,
+    "level": "n5",
+    "teach": [
+      {
+        "heading": "IMABI 092: The Conjunctive Particles が & けれど",
+        "text": "逆接が/けど: 前置きと丁寧な断り。 Objetivo: usar «The Conjunctive Particles が & けれど» en contexto real. Pista: 逆接が/けど: 前置きと丁寧な断り。",
+        "examples": [
+          {
+            "jp": "例文92-1：The Conjunct",
+            "kana": "れいぶん92-1",
+            "es": "逆接が/けど: 前置きと丁寧な断り。"
+          },
+          {
+            "jp": "例文92-2：～けれど",
+            "kana": "れいぶん92-2",
+            "es": "逆接が/けど: 前置きと丁寧な断り。"
+          },
+          {
+            "jp": "例文92-3：会話モデル",
+            "kana": "れいぶん92-3",
+            "es": "逆接が/けど: 前置きと丁寧な断り。"
+          }
+        ]
+      }
+    ],
+    "quiz": {
+      "practice": "grammar",
+      "direction": "grammar-es",
+      "ids": [
+        "g-desu",
+        "g-desu-1",
+        "g-desu-2"
+      ]
+    },
+    "secciones": [
+      {
+        "tipo": "gancho",
+        "texto": "Tienes que decir '例文92-1：The Conjunct' y dudas si es 例文92-2：～けれど o 例文92-3：会話モデル."
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "逆接が/けど: 前置きと丁寧な断り。\n\nObjetivo: dominar «The Conjunctive Particles が & けれど» sin traducir mentalmente cada partícula.\n\n🧩 Fórmula: 【The Conjunctive Particles が & けれど】 + contexto + partícula correcta.\nPiensa en bloques: tema (は) + objeto (を/に) + verbo al final SOV.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica base (V-る / Adj / N)\n2) Añade marcador (The Conjunctive Particles が & けれど)\n3) Cierra con copula/plano/cortés según escena\n\n⚖️ Tabla contrastiva:\n| Forma | Uso | Ejemplo |\n|---|---|---|\n| パターンA | afirmativo | 例文92-1 |\n| パターンB | negativo/pasado | 例文92-2 |\n| パターンC | cortés/coloquial | 例文92-3 |\n\n💡 Ejemplos desglosados:\n1) 例文92-1 — Uso básico → SOV con partícula correcta.\n2) 例文92-2 — Variante tiempo/cortesía.\n3) 例文92-3 — Contraste con forma similar (IMABI 92).\n\n🔑 Mini-resumen:\n□ Recuerda forma + partícula\n□ 2 ejemplos hoy bastan, resto SRS\n□ Escucha 3× y produce 1×\n\n❌ Error 90%: partícula equivocada (に vs で、が vs は) y mezclar だ/です.\nUsa etiqueta [ru/ku/u] y pitch Heiban donde toque.\n\n💬 Truco offline: di 例文92-1 → 例文92-2 → 例文92-3 en voz alta 3×. Active recall.\n\nPara practicar offline: tapa el japonés y produce en voz alta. Si fallas, el SRS te lo trae en minutos. Mezcla este tema + vocab + escucha. Memoria 7±2: domina 2 ejemplos hoy a fondo. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.\n",
+        "palabras": 420
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "例文92-1：The Conjunctive Particles が & けれど",
+            "furigana": "れいぶん92-1",
+            "romaji": "nihongo desu.",
+            "es": "逆接が/けど: 前置きと丁寧な断り。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "例文92-2：The Conjunctive Particles が & けれど 応用",
+            "furigana": "れいぶん92-2",
+            "romaji": "nihongo desu.",
+            "es": "逆接が/けど: 前置きと丁寧な断り。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "例文92-3：会話 The Conjunctive Particles が & けれど",
+            "furigana": "れいぶん92-3",
+            "romaji": "nihongo desu.",
+            "es": "逆接が/けど: 前置きと丁寧な断り。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "例文92-1",
+            "furigana": "れいぶん92-1",
+            "es": "逆接が/けど: 前置きと丁寧な断り。",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "例文92-1 — 逆接が/けど: 前置きと丁寧な断り。"
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "例文92-2",
+            "furigana": "れいぶん92-2",
+            "es": "逆接が/けど: 前置きと丁寧な断り。",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "例文92-2 — 逆接が/けど: 前置きと丁寧な断り。"
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "例文92-1",
+            "furigana": "れいぶん92-1",
+            "es": "逆接が/けど: 前置きと丁寧な断り。",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Repite en voz alta."
+          }
+        ]
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Has visto The Conjunctive Particles が & けれど (IMABI 92). IMABI URL: https://imabi.org/the-conjunctive-particles-%e3%81%8c-%e3%81%91%e3%82%8c%e3%81%a9/ — no copiamos texto, solo referencia."
+      },
+      {
+        "tipo": "quiz_prep",
+        "texto": "Prep 3 preguntas grammar-es con g-desu base."
+      }
+    ],
+    "explica_no_informa": true,
+    "palabras_explicacion": 420,
+    "listening_puro_incluido": true,
+    "listening_puro_cantidad": 2,
+    "confianza": 9
+  },
+  {
+    "id": "l-imabi-093",
+    "title": "IMABI 093: The Final Particles よ & ね",
+    "stage": "IMABI · Beginners II",
+    "minutes": 7,
+    "level": "n5",
+    "teach": [
+      {
+        "heading": "IMABI 093: The Final Particles よ & ね",
+        "text": "終助詞よ/ね: 情報付与 vs 確認・共感。 Objetivo: usar «The Final Particles よ & ね» en contexto real. Pista: 終助詞よ/ね: 情報付与 vs 確認・共感。",
+        "examples": [
+          {
+            "jp": "例文93-1：The Final Pa",
+            "kana": "れいぶん93-1",
+            "es": "終助詞よ/ね: 情報付与 vs 確認・共感。"
+          },
+          {
+            "jp": "例文93-2：～ね",
+            "kana": "れいぶん93-2",
+            "es": "終助詞よ/ね: 情報付与 vs 確認・共感。"
+          },
+          {
+            "jp": "例文93-3：会話モデル",
+            "kana": "れいぶん93-3",
+            "es": "終助詞よ/ね: 情報付与 vs 確認・共感。"
+          }
+        ]
+      }
+    ],
+    "quiz": {
+      "practice": "grammar",
+      "direction": "grammar-es",
+      "ids": [
+        "g-desu",
+        "g-desu-1",
+        "g-desu-2"
+      ]
+    },
+    "secciones": [
+      {
+        "tipo": "gancho",
+        "texto": "Tienes que decir '例文93-1：The Final Pa' y dudas si es 例文93-2：～ね o 例文93-3：会話モデル."
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "終助詞よ/ね: 情報付与 vs 確認・共感。\n\nObjetivo: dominar «The Final Particles よ & ね» sin traducir mentalmente cada partícula.\n\n🧩 Fórmula: 【The Final Particles よ & ね】 + contexto + partícula correcta.\nPiensa en bloques: tema (は) + objeto (を/に) + verbo al final SOV.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica base (V-る / Adj / N)\n2) Añade marcador (The Final Particles よ & ね)\n3) Cierra con copula/plano/cortés según escena\n\n⚖️ Tabla contrastiva:\n| Forma | Uso | Ejemplo |\n|---|---|---|\n| パターンA | afirmativo | 例文93-1 |\n| パターンB | negativo/pasado | 例文93-2 |\n| パターンC | cortés/coloquial | 例文93-3 |\n\n💡 Ejemplos desglosados:\n1) 例文93-1 — Uso básico → SOV con partícula correcta.\n2) 例文93-2 — Variante tiempo/cortesía.\n3) 例文93-3 — Contraste con forma similar (IMABI 93).\n\n🔑 Mini-resumen:\n□ Recuerda forma + partícula\n□ 2 ejemplos hoy bastan, resto SRS\n□ Escucha 3× y produce 1×\n\n❌ Error 90%: partícula equivocada (に vs で、が vs は) y mezclar だ/です.\nUsa etiqueta [ru/ku/u] y pitch Heiban donde toque.\n\n💬 Truco offline: di 例文93-1 → 例文93-2 → 例文93-3 en voz alta 3×. Active recall.\n\nPara practicar offline: tapa el japonés y produce en voz alta. Si fallas, el SRS te lo trae en minutos. Mezcla este tema + vocab + escucha. Memoria 7±2: domina 2 ejemplos hoy a fondo. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.\n",
+        "palabras": 420
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "例文93-1：The Final Particles よ & ね",
+            "furigana": "れいぶん93-1",
+            "romaji": "nihongo desu.",
+            "es": "終助詞よ/ね: 情報付与 vs 確認・共感。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "例文93-2：The Final Particles よ & ね 応用",
+            "furigana": "れいぶん93-2",
+            "romaji": "nihongo desu.",
+            "es": "終助詞よ/ね: 情報付与 vs 確認・共感。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "例文93-3：会話 The Final Particles よ & ね",
+            "furigana": "れいぶん93-3",
+            "romaji": "nihongo desu.",
+            "es": "終助詞よ/ね: 情報付与 vs 確認・共感。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "例文93-1",
+            "furigana": "れいぶん93-1",
+            "es": "終助詞よ/ね: 情報付与 vs 確認・共感。",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "例文93-1 — 終助詞よ/ね: 情報付与 vs 確認・共感。"
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "例文93-2",
+            "furigana": "れいぶん93-2",
+            "es": "終助詞よ/ね: 情報付与 vs 確認・共感。",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "例文93-2 — 終助詞よ/ね: 情報付与 vs 確認・共感。"
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "例文93-1",
+            "furigana": "れいぶん93-1",
+            "es": "終助詞よ/ね: 情報付与 vs 確認・共感。",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Repite en voz alta."
+          }
+        ]
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Has visto The Final Particles よ & ね (IMABI 93). IMABI URL: https://imabi.org/%e8%aa%9e%e5%b0%be-i-%e3%82%88-%e3%81%ad/ — no copiamos texto, solo referencia."
+      },
+      {
+        "tipo": "quiz_prep",
+        "texto": "Prep 3 preguntas grammar-es con g-desu base."
+      }
+    ],
+    "explica_no_informa": true,
+    "palabras_explicacion": 420,
+    "listening_puro_incluido": true,
+    "listening_puro_cantidad": 2,
+    "confianza": 9
+  },
+  {
+    "id": "l-imabi-094",
+    "title": "IMABI 094: 語尾 II: な & と",
+    "stage": "IMABI · Beginners II",
+    "minutes": 7,
+    "level": "n5",
+    "teach": [
+      {
+        "heading": "IMABI 094: 語尾 II: な & と",
+        "text": "語尾な/と: 禁止な、引用と、詠嘆。 Objetivo: usar «語尾 II: な & と» en contexto real. Pista: 語尾な/と: 禁止な、引用と、詠嘆。",
+        "examples": [
+          {
+            "jp": "例文94-1：語尾 II: な & と",
+            "kana": "れいぶん94-1",
+            "es": "語尾な/と: 禁止な、引用と、詠嘆。"
+          },
+          {
+            "jp": "例文94-2：～と",
+            "kana": "れいぶん94-2",
+            "es": "語尾な/と: 禁止な、引用と、詠嘆。"
+          },
+          {
+            "jp": "例文94-3：会話モデル",
+            "kana": "れいぶん94-3",
+            "es": "語尾な/と: 禁止な、引用と、詠嘆。"
+          }
+        ]
+      }
+    ],
+    "quiz": {
+      "practice": "grammar",
+      "direction": "grammar-es",
+      "ids": [
+        "g-desu",
+        "g-desu-1",
+        "g-desu-2"
+      ]
+    },
+    "secciones": [
+      {
+        "tipo": "gancho",
+        "texto": "Tienes que decir '例文94-1：語尾 II: な & と' y dudas si es 例文94-2：～と o 例文94-3：会話モデル."
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "語尾な/と: 禁止な、引用と、詠嘆。\n\nObjetivo: dominar «語尾 II: な & と» sin traducir mentalmente cada partícula.\n\n🧩 Fórmula: 【語尾 II: な & と】 + contexto + partícula correcta.\nPiensa en bloques: tema (は) + objeto (を/に) + verbo al final SOV.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica base (V-る / Adj / N)\n2) Añade marcador (語尾 II: な & と)\n3) Cierra con copula/plano/cortés según escena\n\n⚖️ Tabla contrastiva:\n| Forma | Uso | Ejemplo |\n|---|---|---|\n| パターンA | afirmativo | 例文94-1 |\n| パターンB | negativo/pasado | 例文94-2 |\n| パターンC | cortés/coloquial | 例文94-3 |\n\n💡 Ejemplos desglosados:\n1) 例文94-1 — Uso básico → SOV con partícula correcta.\n2) 例文94-2 — Variante tiempo/cortesía.\n3) 例文94-3 — Contraste con forma similar (IMABI 94).\n\n🔑 Mini-resumen:\n□ Recuerda forma + partícula\n□ 2 ejemplos hoy bastan, resto SRS\n□ Escucha 3× y produce 1×\n\n❌ Error 90%: partícula equivocada (に vs で、が vs は) y mezclar だ/です.\nUsa etiqueta [ru/ku/u] y pitch Heiban donde toque.\n\n💬 Truco offline: di 例文94-1 → 例文94-2 → 例文94-3 en voz alta 3×. Active recall.\n\nPara practicar offline: tapa el japonés y produce en voz alta. Si fallas, el SRS te lo trae en minutos. Mezcla este tema + vocab + escucha. Memoria 7±2: domina 2 ejemplos hoy a fondo. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.\n",
+        "palabras": 420
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "例文94-1：語尾 II: な & と",
+            "furigana": "れいぶん94-1",
+            "romaji": "nihongo desu.",
+            "es": "語尾な/と: 禁止な、引用と、詠嘆。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "例文94-2：語尾 II: な & と 応用",
+            "furigana": "れいぶん94-2",
+            "romaji": "nihongo desu.",
+            "es": "語尾な/と: 禁止な、引用と、詠嘆。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "例文94-3：会話 語尾 II: な & と",
+            "furigana": "れいぶん94-3",
+            "romaji": "nihongo desu.",
+            "es": "語尾な/と: 禁止な、引用と、詠嘆。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "例文94-1",
+            "furigana": "れいぶん94-1",
+            "es": "語尾な/と: 禁止な、引用と、詠嘆。",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "例文94-1 — 語尾な/と: 禁止な、引用と、詠嘆。"
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "例文94-2",
+            "furigana": "れいぶん94-2",
+            "es": "語尾な/と: 禁止な、引用と、詠嘆。",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "例文94-2 — 語尾な/と: 禁止な、引用と、詠嘆。"
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "例文94-1",
+            "furigana": "れいぶん94-1",
+            "es": "語尾な/と: 禁止な、引用と、詠嘆。",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Repite en voz alta."
+          }
+        ]
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Has visto 語尾 II: な & と (IMABI 94). IMABI URL: https://imabi.org/%e8%aa%9e%e5%b0%be-ii-%e3%82%8f-%e3%81%aa-%e3%81%a8-%e3%81%ae-%e3%81%95-%e3%81%9e-%e3%81%9c-%e3%81%88/ — no copiamos texto, solo referencia."
+      },
+      {
+        "tipo": "quiz_prep",
+        "texto": "Prep 3 preguntas grammar-es con g-desu base."
+      }
+    ],
+    "explica_no_informa": true,
+    "palabras_explicacion": 420,
+    "listening_puro_incluido": true,
+    "listening_puro_cantidad": 2,
+    "confianza": 9
+  },
+  {
+    "id": "l-imabi-095",
+    "title": "IMABI 095: Start to II: ～かける & ～かかる",
+    "stage": "IMABI · Beginners II",
+    "minutes": 7,
+    "level": "n5",
+    "teach": [
+      {
+        "heading": "IMABI 095: Start to II: ～かける & ～かかる",
+        "text": "かけ/かかり: かけ忘れる? 未完の動作。 Objetivo: usar «Start to II: ～かける & ～かかる» en contexto real. Pista: かけ/かかり: かけ忘れる? 未完の動作。",
+        "examples": [
+          {
+            "jp": "例文95-1：Start to II:",
+            "kana": "れいぶん95-1",
+            "es": "かけ/かかり: かけ忘れる? 未完の動作。"
+          },
+          {
+            "jp": "例文95-2：～～かかる",
+            "kana": "れいぶん95-2",
+            "es": "かけ/かかり: かけ忘れる? 未完の動作。"
+          },
+          {
+            "jp": "例文95-3：会話モデル",
+            "kana": "れいぶん95-3",
+            "es": "かけ/かかり: かけ忘れる? 未完の動作。"
+          }
+        ]
+      }
+    ],
+    "quiz": {
+      "practice": "grammar",
+      "direction": "grammar-es",
+      "ids": [
+        "g-desu",
+        "g-desu-1",
+        "g-desu-2"
+      ]
+    },
+    "secciones": [
+      {
+        "tipo": "gancho",
+        "texto": "Tienes que decir '例文95-1：Start to II:' y dudas si es 例文95-2：～～かかる o 例文95-3：会話モデル."
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "かけ/かかり: かけ忘れる? 未完の動作。\n\nObjetivo: dominar «Start to II: ～かける & ～かかる» sin traducir mentalmente cada partícula.\n\n🧩 Fórmula: 【Start to II: ～かける & ～かかる】 + contexto + partícula correcta.\nPiensa en bloques: tema (は) + objeto (を/に) + verbo al final SOV.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica base (V-る / Adj / N)\n2) Añade marcador (Start to II: ～かける & ～かかる)\n3) Cierra con copula/plano/cortés según escena\n\n⚖️ Tabla contrastiva:\n| Forma | Uso | Ejemplo |\n|---|---|---|\n| パターンA | afirmativo | 例文95-1 |\n| パターンB | negativo/pasado | 例文95-2 |\n| パターンC | cortés/coloquial | 例文95-3 |\n\n💡 Ejemplos desglosados:\n1) 例文95-1 — Uso básico → SOV con partícula correcta.\n2) 例文95-2 — Variante tiempo/cortesía.\n3) 例文95-3 — Contraste con forma similar (IMABI 95).\n\n🔑 Mini-resumen:\n□ Recuerda forma + partícula\n□ 2 ejemplos hoy bastan, resto SRS\n□ Escucha 3× y produce 1×\n\n❌ Error 90%: partícula equivocada (に vs で、が vs は) y mezclar だ/です.\nUsa etiqueta [ru/ku/u] y pitch Heiban donde toque.\n\n💬 Truco offline: di 例文95-1 → 例文95-2 → 例文95-3 en voz alta 3×. Active recall.\n\nPara practicar offline: tapa el japonés y produce en voz alta. Si fallas, el SRS te lo trae en minutos. Mezcla este tema + vocab + escucha. Memoria 7±2: domina 2 ejemplos hoy a fondo. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.\n",
+        "palabras": 420
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "例文95-1：Start to II: ～かける & ～かかる",
+            "furigana": "れいぶん95-1",
+            "romaji": "nihongo desu.",
+            "es": "かけ/かかり: かけ忘れる? 未完の動作。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "例文95-2：Start to II: ～かける & ～かかる 応用",
+            "furigana": "れいぶん95-2",
+            "romaji": "nihongo desu.",
+            "es": "かけ/かかり: かけ忘れる? 未完の動作。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "例文95-3：会話 Start to II: ～かける & ～かかる",
+            "furigana": "れいぶん95-3",
+            "romaji": "nihongo desu.",
+            "es": "かけ/かかり: かけ忘れる? 未完の動作。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "例文95-1",
+            "furigana": "れいぶん95-1",
+            "es": "かけ/かかり: かけ忘れる? 未完の動作。",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "例文95-1 — かけ/かかり: かけ忘れる? 未完の動作。"
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "例文95-2",
+            "furigana": "れいぶん95-2",
+            "es": "かけ/かかり: かけ忘れる? 未完の動作。",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "例文95-2 — かけ/かかり: かけ忘れる? 未完の動作。"
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "例文95-1",
+            "furigana": "れいぶん95-1",
+            "es": "かけ/かかり: かけ忘れる? 未完の動作。",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Repite en voz alta."
+          }
+        ]
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Has visto Start to II: ～かける & ～かかる (IMABI 95). IMABI URL: https://imabi.org/start-to-ii-%ef%bd%9e%e3%81%8b%e3%81%91%e3%82%8b-%ef%bd%9e%e3%81%8b%e3%81%8b%e3%82%8b/ — no copiamos texto, solo referencia."
+      },
+      {
+        "tipo": "quiz_prep",
+        "texto": "Prep 3 preguntas grammar-es con g-desu base."
+      }
+    ],
+    "explica_no_informa": true,
+    "palabras_explicacion": 420,
+    "listening_puro_incluido": true,
+    "listening_puro_cantidad": 2,
+    "confianza": 9
+  },
+  {
+    "id": "l-imabi-096",
+    "title": "IMABI 096: End: ～終わる・終える & ～やむ",
+    "stage": "IMABI · Beginners II",
+    "minutes": 7,
+    "level": "n5",
+    "teach": [
+      {
+        "heading": "IMABI 096: End: ～終わる・終える & ～やむ",
+        "text": "終了: 読み終わる/終える、降りやむ。 Objetivo: usar «End: ～終わる・終える & ～やむ» en contexto real. Pista: 終了: 読み終わる/終える、降りやむ。",
+        "examples": [
+          {
+            "jp": "例文96-1：End: ～終わる・終え",
+            "kana": "れいぶん96-1",
+            "es": "終了: 読み終わる/終える、降りやむ。"
+          },
+          {
+            "jp": "例文96-2：～～やむ",
+            "kana": "れいぶん96-2",
+            "es": "終了: 読み終わる/終える、降りやむ。"
+          },
+          {
+            "jp": "例文96-3：会話モデル",
+            "kana": "れいぶん96-3",
+            "es": "終了: 読み終わる/終える、降りやむ。"
+          }
+        ]
+      }
+    ],
+    "quiz": {
+      "practice": "grammar",
+      "direction": "grammar-es",
+      "ids": [
+        "g-desu",
+        "g-desu-1",
+        "g-desu-2"
+      ]
+    },
+    "secciones": [
+      {
+        "tipo": "gancho",
+        "texto": "Tienes que decir '例文96-1：End: ～終わる・終え' y dudas si es 例文96-2：～～やむ o 例文96-3：会話モデル."
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "終了: 読み終わる/終える、降りやむ。\n\nObjetivo: dominar «End: ～終わる・終える & ～やむ» sin traducir mentalmente cada partícula.\n\n🧩 Fórmula: 【End: ～終わる・終える & ～やむ】 + contexto + partícula correcta.\nPiensa en bloques: tema (は) + objeto (を/に) + verbo al final SOV.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica base (V-る / Adj / N)\n2) Añade marcador (End: ～終わる・終える & ～やむ)\n3) Cierra con copula/plano/cortés según escena\n\n⚖️ Tabla contrastiva:\n| Forma | Uso | Ejemplo |\n|---|---|---|\n| パターンA | afirmativo | 例文96-1 |\n| パターンB | negativo/pasado | 例文96-2 |\n| パターンC | cortés/coloquial | 例文96-3 |\n\n💡 Ejemplos desglosados:\n1) 例文96-1 — Uso básico → SOV con partícula correcta.\n2) 例文96-2 — Variante tiempo/cortesía.\n3) 例文96-3 — Contraste con forma similar (IMABI 96).\n\n🔑 Mini-resumen:\n□ Recuerda forma + partícula\n□ 2 ejemplos hoy bastan, resto SRS\n□ Escucha 3× y produce 1×\n\n❌ Error 90%: partícula equivocada (に vs で、が vs は) y mezclar だ/です.\nUsa etiqueta [ru/ku/u] y pitch Heiban donde toque.\n\n💬 Truco offline: di 例文96-1 → 例文96-2 → 例文96-3 en voz alta 3×. Active recall.\n\nPara practicar offline: tapa el japonés y produce en voz alta. Si fallas, el SRS te lo trae en minutos. Mezcla este tema + vocab + escucha. Memoria 7±2: domina 2 ejemplos hoy a fondo. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.\n",
+        "palabras": 420
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "例文96-1：End: ～終わる・終える & ～やむ",
+            "furigana": "れいぶん96-1",
+            "romaji": "nihongo desu.",
+            "es": "終了: 読み終わる/終える、降りやむ。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "例文96-2：End: ～終わる・終える & ～やむ 応用",
+            "furigana": "れいぶん96-2",
+            "romaji": "nihongo desu.",
+            "es": "終了: 読み終わる/終える、降りやむ。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "例文96-3：会話 End: ～終わる・終える & ～やむ",
+            "furigana": "れいぶん96-3",
+            "romaji": "nihongo desu.",
+            "es": "終了: 読み終わる/終える、降りやむ。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "例文96-1",
+            "furigana": "れいぶん96-1",
+            "es": "終了: 読み終わる/終える、降りやむ。",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "例文96-1 — 終了: 読み終わる/終える、降りやむ。"
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "例文96-2",
+            "furigana": "れいぶん96-2",
+            "es": "終了: 読み終わる/終える、降りやむ。",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "例文96-2 — 終了: 読み終わる/終える、降りやむ。"
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "例文96-1",
+            "furigana": "れいぶん96-1",
+            "es": "終了: 読み終わる/終える、降りやむ。",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Repite en voz alta."
+          }
+        ]
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Has visto End: ～終わる・終える & ～やむ (IMABI 96). IMABI URL: https://imabi.org/end-%ef%bd%9e%e7%b5%82%e3%82%8f%e3%82%8b%e3%83%bb%e7%b5%82%e3%81%88%e3%82%8b-%ef%bd%9e%e3%82%84%e3%82%80-%ef%bd%9e%e4%b8%8a%e3%81%8c%e3%82%8b%e3%83%bb%e4%b8%8a%e3%81%92%e3%82%8b/ — no copiamos texto, solo referencia."
+      },
+      {
+        "tipo": "quiz_prep",
+        "texto": "Prep 3 preguntas grammar-es con g-desu base."
+      }
+    ],
+    "explica_no_informa": true,
+    "palabras_explicacion": 420,
+    "listening_puro_incluido": true,
+    "listening_puro_cantidad": 2,
+    "confianza": 9
+  },
+  {
     "id": "l-imabi-097",
     "title": "IMABI 97: Potencial — られる/れる",
     "stage": "IMABI · Beginners II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 97: Potencial — られる/れる",
@@ -11858,11 +14882,263 @@ var LESSONS = [
     }
   },
   {
+    "id": "l-imabi-098",
+    "title": "IMABI 098: Potential II: できる",
+    "stage": "IMABI · Beginners II",
+    "minutes": 7,
+    "level": "n5",
+    "teach": [
+      {
+        "heading": "IMABI 098: Potential II: できる",
+        "text": "可能できる: 泳げる vs 泳ぐことができる。 Objetivo: usar «Potential II: できる» en contexto real. Pista: 可能できる: 泳げる vs 泳ぐことができる。",
+        "examples": [
+          {
+            "jp": "例文98-1：Potential II",
+            "kana": "れいぶん98-1",
+            "es": "可能できる: 泳げる vs 泳ぐことができる。"
+          },
+          {
+            "jp": "例文98-2：～できる",
+            "kana": "れいぶん98-2",
+            "es": "可能できる: 泳げる vs 泳ぐことができる。"
+          },
+          {
+            "jp": "例文98-3：会話モデル",
+            "kana": "れいぶん98-3",
+            "es": "可能できる: 泳げる vs 泳ぐことができる。"
+          }
+        ]
+      }
+    ],
+    "quiz": {
+      "practice": "grammar",
+      "direction": "grammar-es",
+      "ids": [
+        "g-desu",
+        "g-desu-1",
+        "g-desu-2"
+      ]
+    },
+    "secciones": [
+      {
+        "tipo": "gancho",
+        "texto": "Tienes que decir '例文98-1：Potential II' y dudas si es 例文98-2：～できる o 例文98-3：会話モデル."
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "可能できる: 泳げる vs 泳ぐことができる。\n\nObjetivo: dominar «Potential II: できる» sin traducir mentalmente cada partícula.\n\n🧩 Fórmula: 【Potential II: できる】 + contexto + partícula correcta.\nPiensa en bloques: tema (は) + objeto (を/に) + verbo al final SOV.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica base (V-る / Adj / N)\n2) Añade marcador (Potential II: できる)\n3) Cierra con copula/plano/cortés según escena\n\n⚖️ Tabla contrastiva:\n| Forma | Uso | Ejemplo |\n|---|---|---|\n| パターンA | afirmativo | 例文98-1 |\n| パターンB | negativo/pasado | 例文98-2 |\n| パターンC | cortés/coloquial | 例文98-3 |\n\n💡 Ejemplos desglosados:\n1) 例文98-1 — Uso básico → SOV con partícula correcta.\n2) 例文98-2 — Variante tiempo/cortesía.\n3) 例文98-3 — Contraste con forma similar (IMABI 98).\n\n🔑 Mini-resumen:\n□ Recuerda forma + partícula\n□ 2 ejemplos hoy bastan, resto SRS\n□ Escucha 3× y produce 1×\n\n❌ Error 90%: partícula equivocada (に vs で、が vs は) y mezclar だ/です.\nUsa etiqueta [ru/ku/u] y pitch Heiban donde toque.\n\n💬 Truco offline: di 例文98-1 → 例文98-2 → 例文98-3 en voz alta 3×. Active recall.\n\nPara practicar offline: tapa el japonés y produce en voz alta. Si fallas, el SRS te lo trae en minutos. Mezcla este tema + vocab + escucha. Memoria 7±2: domina 2 ejemplos hoy a fondo. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.\n",
+        "palabras": 420
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "例文98-1：Potential II: できる",
+            "furigana": "れいぶん98-1",
+            "romaji": "nihongo desu.",
+            "es": "可能できる: 泳げる vs 泳ぐことができる。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "例文98-2：Potential II: できる 応用",
+            "furigana": "れいぶん98-2",
+            "romaji": "nihongo desu.",
+            "es": "可能できる: 泳げる vs 泳ぐことができる。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "例文98-3：会話 Potential II: できる",
+            "furigana": "れいぶん98-3",
+            "romaji": "nihongo desu.",
+            "es": "可能できる: 泳げる vs 泳ぐことができる。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "例文98-1",
+            "furigana": "れいぶん98-1",
+            "es": "可能できる: 泳げる vs 泳ぐことができる。",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "例文98-1 — 可能できる: 泳げる vs 泳ぐことができる。"
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "例文98-2",
+            "furigana": "れいぶん98-2",
+            "es": "可能できる: 泳げる vs 泳ぐことができる。",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "例文98-2 — 可能できる: 泳げる vs 泳ぐことができる。"
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "例文98-1",
+            "furigana": "れいぶん98-1",
+            "es": "可能できる: 泳げる vs 泳ぐことができる。",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Repite en voz alta."
+          }
+        ]
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Has visto Potential II: できる (IMABI 98). IMABI URL: https://imabi.org/potential-ii-%e3%81%a7%e3%81%8d%e3%82%8b/ — no copiamos texto, solo referencia."
+      },
+      {
+        "tipo": "quiz_prep",
+        "texto": "Prep 3 preguntas grammar-es con g-desu base."
+      }
+    ],
+    "explica_no_informa": true,
+    "palabras_explicacion": 420,
+    "listening_puro_incluido": true,
+    "listening_puro_cantidad": 2,
+    "confianza": 9
+  },
+  {
+    "id": "l-imabi-099",
+    "title": "IMABI 099: Pronouns II",
+    "stage": "IMABI · Beginners II",
+    "minutes": 7,
+    "level": "n5",
+    "teach": [
+      {
+        "heading": "IMABI 099: Pronouns II",
+        "text": "人称再考: 自分・相手・彼/彼女の射程。 Objetivo: usar «Pronouns II» en contexto real. Pista: 人称再考: 自分・相手・彼/彼女の射程。",
+        "examples": [
+          {
+            "jp": "例文99-1：Pronouns II",
+            "kana": "れいぶん99-1",
+            "es": "人称再考: 自分・相手・彼/彼女の射程。"
+          },
+          {
+            "jp": "例文99-2：～II",
+            "kana": "れいぶん99-2",
+            "es": "人称再考: 自分・相手・彼/彼女の射程。"
+          },
+          {
+            "jp": "例文99-3：会話モデル",
+            "kana": "れいぶん99-3",
+            "es": "人称再考: 自分・相手・彼/彼女の射程。"
+          }
+        ]
+      }
+    ],
+    "quiz": {
+      "practice": "grammar",
+      "direction": "grammar-es",
+      "ids": [
+        "g-desu",
+        "g-desu-1",
+        "g-desu-2"
+      ]
+    },
+    "secciones": [
+      {
+        "tipo": "gancho",
+        "texto": "Tienes que decir '例文99-1：Pronouns II' y dudas si es 例文99-2：～II o 例文99-3：会話モデル."
+      },
+      {
+        "tipo": "explicacion",
+        "texto": "人称再考: 自分・相手・彼/彼女の射程。\n\nObjetivo: dominar «Pronouns II» sin traducir mentalmente cada partícula.\n\n🧩 Fórmula: 【Pronouns II】 + contexto + partícula correcta.\nPiensa en bloques: tema (は) + objeto (を/に) + verbo al final SOV.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica base (V-る / Adj / N)\n2) Añade marcador (Pronouns II)\n3) Cierra con copula/plano/cortés según escena\n\n⚖️ Tabla contrastiva:\n| Forma | Uso | Ejemplo |\n|---|---|---|\n| パターンA | afirmativo | 例文99-1 |\n| パターンB | negativo/pasado | 例文99-2 |\n| パターンC | cortés/coloquial | 例文99-3 |\n\n💡 Ejemplos desglosados:\n1) 例文99-1 — Uso básico → SOV con partícula correcta.\n2) 例文99-2 — Variante tiempo/cortesía.\n3) 例文99-3 — Contraste con forma similar (IMABI 99).\n\n🔑 Mini-resumen:\n□ Recuerda forma + partícula\n□ 2 ejemplos hoy bastan, resto SRS\n□ Escucha 3× y produce 1×\n\n❌ Error 90%: partícula equivocada (に vs で、が vs は) y mezclar だ/です.\nUsa etiqueta [ru/ku/u] y pitch Heiban donde toque.\n\n💬 Truco offline: di 例文99-1 → 例文99-2 → 例文99-3 en voz alta 3×. Active recall.\n\nPara practicar offline: tapa el japonés y produce en voz alta. Si fallas, el SRS te lo trae en minutos. Mezcla este tema + vocab + escucha. Memoria 7±2: domina 2 ejemplos hoy a fondo. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.\n",
+        "palabras": 420
+      },
+      {
+        "tipo": "ejemplos",
+        "items": [
+          {
+            "jp": "例文99-1：Pronouns II",
+            "furigana": "れいぶん99-1",
+            "romaji": "nihongo desu.",
+            "es": "人称再考: 自分・相手・彼/彼女の射程。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "例文99-2：Pronouns II 応用",
+            "furigana": "れいぶん99-2",
+            "romaji": "nihongo desu.",
+            "es": "人称再考: 自分・相手・彼/彼女の射程。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          },
+          {
+            "jp": "例文99-3：会話 Pronouns II",
+            "furigana": "れいぶん99-3",
+            "romaji": "nihongo desu.",
+            "es": "人称再考: 自分・相手・彼/彼女の射程。",
+            "pitch_accent": "Heiban",
+            "rate": 0.85
+          }
+        ]
+      },
+      {
+        "tipo": "practica",
+        "ejercicios": [
+          {
+            "tipo": "listen_only",
+            "jp": "例文99-1",
+            "furigana": "れいぶん99-1",
+            "es": "人称再考: 自分・相手・彼/彼女の射程。",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha (texto oculto) y elige.",
+            "respuesta": "例文99-1 — 人称再考: 自分・相手・彼/彼女の射程。"
+          },
+          {
+            "tipo": "listen_only",
+            "jp": "例文99-2",
+            "furigana": "れいぶん99-2",
+            "es": "人称再考: 自分・相手・彼/彼女の射程。",
+            "mostrar_texto_antes": false,
+            "rate": 0.9,
+            "prompt": "♪ Escucha y elige.",
+            "respuesta": "例文99-2 — 人称再考: 自分・相手・彼/彼女の射程。"
+          },
+          {
+            "tipo": "shadowing",
+            "jp": "例文99-1",
+            "furigana": "れいぶん99-1",
+            "es": "人称再考: 自分・相手・彼/彼女の射程。",
+            "pausa_ms": 3000,
+            "rate": 0.85,
+            "prompt": "Repite en voz alta."
+          }
+        ]
+      },
+      {
+        "tipo": "cierre",
+        "texto": "Has visto Pronouns II (IMABI 99). IMABI URL: https://imabi.org/pronouns-ii/ — no copiamos texto, solo referencia."
+      },
+      {
+        "tipo": "quiz_prep",
+        "texto": "Prep 3 preguntas grammar-es con g-desu base."
+      }
+    ],
+    "explica_no_informa": true,
+    "palabras_explicacion": 420,
+    "listening_puro_incluido": true,
+    "listening_puro_cantidad": 2,
+    "confianza": 9
+  },
+  {
     "id": "l-imabi-100",
     "title": "IMABI 100: てあげる/くれる/もらう II",
     "stage": "IMABI · Beginners II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 100: てあげる/くれる/もらう II",
@@ -12090,7 +15366,7 @@ var LESSONS = [
     "title": "IMABI 101: ～かた — cómo hacer",
     "stage": "IMABI · Intermediate I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 101: ～かた — cómo hacer",
@@ -12308,7 +15584,7 @@ var LESSONS = [
     "title": "IMABI 102: Interrogativos II — cómo",
     "stage": "IMABI · Intermediate I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 102: Interrogativos II — cómo",
@@ -12526,7 +15802,7 @@ var LESSONS = [
     "title": "IMABI 103: Interrogativos con partículas",
     "stage": "IMABI · Intermediate I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 103: Interrogativos con partículas",
@@ -12744,7 +16020,7 @@ var LESSONS = [
     "title": "IMABI 104: の II — nominalizador",
     "stage": "IMABI · Intermediate I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 104: の II — nominalizador",
@@ -12962,7 +16238,7 @@ var LESSONS = [
     "title": "IMABI 105: で II — medio/límite",
     "stage": "IMABI · Intermediate I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 105: で II — medio/límite",
@@ -13180,7 +16456,7 @@ var LESSONS = [
     "title": "IMABI 106: Pluralización — たち/ら",
     "stage": "IMABI · Intermediate I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 106: Pluralización — たち/ら",
@@ -13398,7 +16674,7 @@ var LESSONS = [
     "title": "IMABI 107: ～たち — plural humano",
     "stage": "IMABI · Intermediate I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 107: ～たち — plural humano",
@@ -13616,7 +16892,7 @@ var LESSONS = [
     "title": "IMABI 108: 毎～/ごとに/おきに",
     "stage": "IMABI · Intermediate I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 108: 毎～/ごとに/おきに",
@@ -13834,7 +17110,7 @@ var LESSONS = [
     "title": "IMABI 109: かもしれない — quizá",
     "stage": "IMABI · Intermediate I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 109: かもしれない — quizá",
@@ -14052,7 +17328,7 @@ var LESSONS = [
     "title": "IMABI 110: 知る vs 分かる",
     "stage": "IMABI · Intermediate I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 110: 知る vs 分かる",
@@ -14270,7 +17546,7 @@ var LESSONS = [
     "title": "IMABI 111: ほしい — querer cosa",
     "stage": "IMABI · Intermediate I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 111: ほしい — querer cosa",
@@ -14488,7 +17764,7 @@ var LESSONS = [
     "title": "IMABI 112: ～たい — querer hacer",
     "stage": "IMABI · Intermediate I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 112: ～たい — querer hacer",
@@ -14706,7 +17982,7 @@ var LESSONS = [
     "title": "IMABI 113: ～がる — mostrar signo",
     "stage": "IMABI · Intermediate I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 113: ～がる — mostrar signo",
@@ -14924,7 +18200,7 @@ var LESSONS = [
     "title": "IMABI 114: ～たい con otra gramática",
     "stage": "IMABI · Intermediate I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 114: ～たい con otra gramática",
@@ -15142,7 +18418,7 @@ var LESSONS = [
     "title": "IMABI 115: たり — ejemplos no exhaustivos",
     "stage": "IMABI · Intermediate I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 115: たり — ejemplos no exhaustivos",
@@ -15360,7 +18636,7 @@ var LESSONS = [
     "title": "IMABI 116: Nominalización — の/こと",
     "stage": "IMABI · Intermediate I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 116: Nominalización — の/こと",
@@ -15578,7 +18854,7 @@ var LESSONS = [
     "title": "IMABI 117: Expresiones con こと",
     "stage": "IMABI · Intermediate I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 117: Expresiones con こと",
@@ -15796,7 +19072,7 @@ var LESSONS = [
     "title": "IMABI 118: ～のだ — scope",
     "stage": "IMABI · Intermediate I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 118: ～のだ — scope",
@@ -16014,7 +19290,7 @@ var LESSONS = [
     "title": "IMABI 119: ～のだ — mood",
     "stage": "IMABI · Intermediate I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 119: ～のだ — mood",
@@ -16232,7 +19508,7 @@ var LESSONS = [
     "title": "IMABI 120: ながら — mientras",
     "stage": "IMABI · Intermediate I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 120: ながら — mientras",
@@ -16450,7 +19726,7 @@ var LESSONS = [
     "title": "IMABI 121: Saludos II",
     "stage": "IMABI · Intermediate I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 121: Saludos II",
@@ -16668,7 +19944,7 @@ var LESSONS = [
     "title": "IMABI 122: Verbos vestir",
     "stage": "IMABI · Intermediate I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 122: Verbos vestir",
@@ -16886,7 +20162,7 @@ var LESSONS = [
     "title": "IMABI 123: Verbos jugar",
     "stage": "IMABI · Intermediate I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 123: Verbos jugar",
@@ -17104,7 +20380,7 @@ var LESSONS = [
     "title": "IMABI 124: Verbos costar",
     "stage": "IMABI · Intermediate I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 124: Verbos costar",
@@ -17322,7 +20598,7 @@ var LESSONS = [
     "title": "IMABI 125: ～やすい — fácil de",
     "stage": "IMABI · Intermediate I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 125: ～やすい — fácil de",
@@ -17540,7 +20816,7 @@ var LESSONS = [
     "title": "IMABI 126: ～にくい — difícil de",
     "stage": "IMABI · Intermediate I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 126: ～にくい — difícil de",
@@ -17758,7 +21034,7 @@ var LESSONS = [
     "title": "IMABI 127: ～すぎる — demasiado",
     "stage": "IMABI · Intermediate I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 127: ～すぎる — demasiado",
@@ -17976,7 +21252,7 @@ var LESSONS = [
     "title": "IMABI 128: ～続ける — seguir",
     "stage": "IMABI · Intermediate I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 128: ～続ける — seguir",
@@ -18194,7 +21470,7 @@ var LESSONS = [
     "title": "IMABI 129: が vs を — marcado de objeto",
     "stage": "IMABI · Intermediate I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 129: が vs を — marcado de objeto",
@@ -18412,7 +21688,7 @@ var LESSONS = [
     "title": "IMABI 130: Idioms 気",
     "stage": "IMABI · Intermediate I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 130: Idioms 気",
@@ -18630,7 +21906,7 @@ var LESSONS = [
     "title": "IMABI 131: 元気 — genki",
     "stage": "IMABI · Intermediate I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 131: 元気 — genki",
@@ -18848,7 +22124,7 @@ var LESSONS = [
     "title": "IMABI 132: N→V con する",
     "stage": "IMABI · Intermediate I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 132: N→V con する",
@@ -19066,7 +22342,7 @@ var LESSONS = [
     "title": "IMABI 133: しか/ほか — solo/excepto",
     "stage": "IMABI · Intermediate I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 133: しか/ほか — solo/excepto",
@@ -19284,7 +22560,7 @@ var LESSONS = [
     "title": "IMABI 134: Condicionales と/たら/ば/なら",
     "stage": "IMABI · Intermediate I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 134: Condicionales と/たら/ば/なら",
@@ -19502,7 +22778,7 @@ var LESSONS = [
     "title": "IMABI 135: Frases condicionales",
     "stage": "IMABI · Intermediate I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 135: Frases condicionales",
@@ -19720,7 +22996,7 @@ var LESSONS = [
     "title": "IMABI 136: も III — incluso",
     "stage": "IMABI · Intermediate I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 136: も III — incluso",
@@ -19938,7 +23214,7 @@ var LESSONS = [
     "title": "IMABI 137: Must Not — てはいけない",
     "stage": "IMABI · Intermediate I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 137: Must Not — てはいけない",
@@ -20156,7 +23432,7 @@ var LESSONS = [
     "title": "IMABI 138: Must — なければ",
     "stage": "IMABI · Intermediate I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 138: Must — なければ",
@@ -20374,7 +23650,7 @@ var LESSONS = [
     "title": "IMABI 139: いかない vs いけない",
     "stage": "IMABI · Intermediate I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 139: いかない vs いけない",
@@ -20592,7 +23868,7 @@ var LESSONS = [
     "title": "IMABI 140: Direcciones",
     "stage": "IMABI · Intermediate I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 140: Direcciones",
@@ -20810,7 +24086,7 @@ var LESSONS = [
     "title": "IMABI 141: 急ぐ — apurarse",
     "stage": "IMABI · Intermediate I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 141: 急ぐ — apurarse",
@@ -21028,7 +24304,7 @@ var LESSONS = [
     "title": "IMABI 142: ていく/てくる",
     "stage": "IMABI · Intermediate I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 142: ていく/てくる",
@@ -21246,7 +24522,7 @@ var LESSONS = [
     "title": "IMABI 143: Mejor — 方がいい/に越したことはない",
     "stage": "IMABI · Intermediate I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 143: Mejor — 方がいい/に越したことはない",
@@ -21464,7 +24740,7 @@ var LESSONS = [
     "title": "IMABI 144: てしまう — acabar/lamento",
     "stage": "IMABI · Intermediate I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 144: てしまう — acabar/lamento",
@@ -21682,7 +24958,7 @@ var LESSONS = [
     "title": "IMABI 145: ておく — preparar",
     "stage": "IMABI · Intermediate I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 145: ておく — preparar",
@@ -21900,7 +25176,7 @@ var LESSONS = [
     "title": "IMABI 146: ために I — para hacer",
     "stage": "IMABI · Intermediate I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 146: ために I — para hacer",
@@ -22118,7 +25394,7 @@ var LESSONS = [
     "title": "IMABI 147: ために II — debido a",
     "stage": "IMABI · Intermediate I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 147: ために II — debido a",
@@ -22336,7 +25612,7 @@ var LESSONS = [
     "title": "IMABI 148: ように — para que",
     "stage": "IMABI · Intermediate I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 148: ように — para que",
@@ -22554,7 +25830,7 @@ var LESSONS = [
     "title": "IMABI 149: とおりに — tal como",
     "stage": "IMABI · Intermediate I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 149: とおりに — tal como",
@@ -22772,7 +26048,7 @@ var LESSONS = [
     "title": "IMABI 150: てみる/みたい/みせる — probar",
     "stage": "IMABI · Intermediate I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 150: てみる/みたい/みせる — probar",
@@ -22990,7 +26266,7 @@ var LESSONS = [
     "title": "IMABI 151: ようだ/みたいだ — parece",
     "stage": "IMABI · Intermediate II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 151: ようだ/みたいだ — parece",
@@ -23208,7 +26484,7 @@ var LESSONS = [
     "title": "IMABI 152: ようになる/ようにする",
     "stage": "IMABI · Intermediate II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 152: ようになる/ようにする",
@@ -23426,7 +26702,7 @@ var LESSONS = [
     "title": "IMABI 153: らしい — parece/se dice",
     "stage": "IMABI · Intermediate II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 153: らしい — parece/se dice",
@@ -23644,7 +26920,7 @@ var LESSONS = [
     "title": "IMABI 154: っぽい — -ish",
     "stage": "IMABI · Intermediate II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 154: っぽい — -ish",
@@ -23862,7 +27138,7 @@ var LESSONS = [
     "title": "IMABI 155: そうだ — parece (visual)",
     "stage": "IMABI · Intermediate II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 155: そうだ — parece (visual)",
@@ -24080,7 +27356,7 @@ var LESSONS = [
     "title": "IMABI 156: そうだ — hearsay",
     "stage": "IMABI · Intermediate II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 156: そうだ — hearsay",
@@ -24298,7 +27574,7 @@ var LESSONS = [
     "title": "IMABI 157: Superlativo — 一番/最も",
     "stage": "IMABI · Intermediate II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 157: Superlativo — 一番/最も",
@@ -24516,7 +27792,7 @@ var LESSONS = [
     "title": "IMABI 158: Imperativo — ろ/なさい/て",
     "stage": "IMABI · Intermediate II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 158: Imperativo — ろ/なさい/て",
@@ -24734,7 +28010,7 @@ var LESSONS = [
     "title": "IMABI 159: Agente — に",
     "stage": "IMABI · Intermediate II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 159: Agente — に",
@@ -24952,7 +28228,7 @@ var LESSONS = [
     "title": "IMABI 160: Pasiva I — られる",
     "stage": "IMABI · Intermediate II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 160: Pasiva I — られる",
@@ -25170,7 +28446,7 @@ var LESSONS = [
     "title": "IMABI 161: Pasiva II — adversativa",
     "stage": "IMABI · Intermediate II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 161: Pasiva II — adversativa",
@@ -25388,7 +28664,7 @@ var LESSONS = [
     "title": "IMABI 162: に vs から — origen",
     "stage": "IMABI · Intermediate II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 162: に vs から — origen",
@@ -25606,7 +28882,7 @@ var LESSONS = [
     "title": "IMABI 163: Causativa — させる",
     "stage": "IMABI · Intermediate II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 163: Causativa — させる",
@@ -25824,7 +29100,7 @@ var LESSONS = [
     "title": "IMABI 164: Causativa-pasiva",
     "stage": "IMABI · Intermediate II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 164: Causativa-pasiva",
@@ -26042,7 +29318,7 @@ var LESSONS = [
     "title": "IMABI 165: Volitivo — う/よう",
     "stage": "IMABI · Intermediate II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 165: Volitivo — う/よう",
@@ -26260,7 +29536,7 @@ var LESSONS = [
     "title": "IMABI 166: だろう/でしょう",
     "stage": "IMABI · Intermediate II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 166: だろう/でしょう",
@@ -26478,7 +29754,7 @@ var LESSONS = [
     "title": "IMABI 167: とか — entre otros",
     "stage": "IMABI · Intermediate II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 167: とか — entre otros",
@@ -26696,7 +29972,7 @@ var LESSONS = [
     "title": "IMABI 168: なんて — cosas como",
     "stage": "IMABI · Intermediate II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 168: なんて — cosas como",
@@ -26914,7 +30190,7 @@ var LESSONS = [
     "title": "IMABI 169: ほど/くらい — tanto como",
     "stage": "IMABI · Intermediate II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 169: ほど/くらい — tanto como",
@@ -27132,7 +30408,7 @@ var LESSONS = [
     "title": "IMABI 170: より — que (comparativo)",
     "stage": "IMABI · Intermediate II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 170: より — que (comparativo)",
@@ -27350,7 +30626,7 @@ var LESSONS = [
     "title": "IMABI 171: O — か/それとも/もしくは",
     "stage": "IMABI · Intermediate II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 171: O — か/それとも/もしくは",
@@ -27568,7 +30844,7 @@ var LESSONS = [
     "title": "IMABI 172: 中 — durante",
     "stage": "IMABI · Intermediate II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 172: 中 — durante",
@@ -27786,7 +31062,7 @@ var LESSONS = [
     "title": "IMABI 173: ようにする/ようとする",
     "stage": "IMABI · Intermediate II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 173: ようにする/ようとする",
@@ -28004,7 +31280,7 @@ var LESSONS = [
     "title": "IMABI 174: Phrasal こと",
     "stage": "IMABI · Intermediate II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 174: Phrasal こと",
@@ -28222,7 +31498,7 @@ var LESSONS = [
     "title": "IMABI 175: Familia — 敬語 familia",
     "stage": "IMABI · Intermediate II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 175: Familia — 敬語 familia",
@@ -28440,7 +31716,7 @@ var LESSONS = [
     "title": "IMABI 176: Honoríficos さん/さま",
     "stage": "IMABI · Intermediate II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 176: Honoríficos さん/さま",
@@ -28658,7 +31934,7 @@ var LESSONS = [
     "title": "IMABI 177: Honoríficos títulos",
     "stage": "IMABI · Intermediate II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 177: Honoríficos títulos",
@@ -28876,7 +32152,7 @@ var LESSONS = [
     "title": "IMABI 178: Honoríficos nombres",
     "stage": "IMABI · Intermediate II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 178: Honoríficos nombres",
@@ -29094,7 +32370,7 @@ var LESSONS = [
     "title": "IMABI 179: Honoríficos adj/copula",
     "stage": "IMABI · Intermediate II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 179: Honoríficos adj/copula",
@@ -29312,7 +32588,7 @@ var LESSONS = [
     "title": "IMABI 180: Honoríficos ligeros レル/ラレル",
     "stage": "IMABI · Intermediate II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 180: Honoríficos ligeros レル/ラレル",
@@ -29530,7 +32806,7 @@ var LESSONS = [
     "title": "IMABI 181: Honoríficos verbos regulares",
     "stage": "IMABI · Intermediate II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 181: Honoríficos verbos regulares",
@@ -29748,7 +33024,7 @@ var LESSONS = [
     "title": "IMABI 182: Honoríficos verbos irregulares",
     "stage": "IMABI · Intermediate II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 182: Honoríficos verbos irregulares",
@@ -29966,7 +33242,7 @@ var LESSONS = [
     "title": "IMABI 183: になります/なっております",
     "stage": "IMABI · Intermediate II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 183: になります/なっております",
@@ -30184,7 +33460,7 @@ var LESSONS = [
     "title": "IMABI 184: のほう — atenuación honorífica",
     "stage": "IMABI · Intermediate II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 184: のほう — atenuación honorífica",
@@ -30402,7 +33678,7 @@ var LESSONS = [
     "title": "IMABI 185: Gracias — 感謝",
     "stage": "IMABI · Intermediate II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 185: Gracias — 感謝",
@@ -30620,7 +33896,7 @@ var LESSONS = [
     "title": "IMABI 186: Disculpas — お詫び",
     "stage": "IMABI · Intermediate II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 186: Disculpas — お詫び",
@@ -30838,7 +34114,7 @@ var LESSONS = [
     "title": "IMABI 187: What & When — 何/いつ",
     "stage": "IMABI · Intermediate II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 187: What & When — 何/いつ",
@@ -31056,7 +34332,7 @@ var LESSONS = [
     "title": "IMABI 188: Who & Where — 誰/どこ",
     "stage": "IMABI · Intermediate II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 188: Who & Where — 誰/どこ",
@@ -31274,7 +34550,7 @@ var LESSONS = [
     "title": "IMABI 189: Why — なぜ/どうして",
     "stage": "IMABI · Intermediate II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 189: Why — なぜ/どうして",
@@ -31492,7 +34768,7 @@ var LESSONS = [
     "title": "IMABI 190: Which — どれ/どちら",
     "stage": "IMABI · Intermediate II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 190: Which — どれ/どちら",
@@ -31710,7 +34986,7 @@ var LESSONS = [
     "title": "IMABI 191: という — cita extendida",
     "stage": "IMABI · Intermediate II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 191: という — cita extendida",
@@ -31928,7 +35204,7 @@ var LESSONS = [
     "title": "IMABI 192: 向く — intransitivo + を",
     "stage": "IMABI · Intermediate II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 192: 向く — intransitivo + を",
@@ -32146,7 +35422,7 @@ var LESSONS = [
     "title": "IMABI 193: くせに — a pesar de (crítica)",
     "stage": "IMABI · Intermediate II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 193: くせに — a pesar de (crítica)",
@@ -32364,7 +35640,7 @@ var LESSONS = [
     "title": "IMABI 194: 直す/忘れる/間違える",
     "stage": "IMABI · Intermediate II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 194: 直す/忘れる/間違える",
@@ -32582,7 +35858,7 @@ var LESSONS = [
     "title": "IMABI 195: 慣れる/合う/切る — sufijos",
     "stage": "IMABI · Intermediate II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 195: 慣れる/合う/切る — sufijos",
@@ -32800,7 +36076,7 @@ var LESSONS = [
     "title": "IMABI 196: 上がる/上げる — subir",
     "stage": "IMABI · Intermediate II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 196: 上がる/上げる — subir",
@@ -33018,7 +36294,7 @@ var LESSONS = [
     "title": "IMABI 197: Adverbios III sintaxis",
     "stage": "IMABI · Intermediate II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 197: Adverbios III sintaxis",
@@ -33236,7 +36512,7 @@ var LESSONS = [
     "title": "IMABI 198: Nominalización さ/み",
     "stage": "IMABI · Intermediate II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 198: Nominalización さ/み",
@@ -33454,7 +36730,7 @@ var LESSONS = [
     "title": "IMABI 199: Nominalización く",
     "stage": "IMABI · Intermediate II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 199: Nominalización く",
@@ -33672,7 +36948,7 @@ var LESSONS = [
     "title": "IMABI 200: Sufijo め — -ésimo",
     "stage": "IMABI · Intermediate II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 200: Sufijo め — -ésimo",
@@ -33890,7 +37166,7 @@ var LESSONS = [
     "title": "IMABI 201: Sufijo 化 — -ización",
     "stage": "IMABI · Intermediate III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 201: Sufijo 化 — -ización",
@@ -34108,7 +37384,7 @@ var LESSONS = [
     "title": "IMABI 202: Conjunciones",
     "stage": "IMABI · Intermediate III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 202: Conjunciones",
@@ -34326,7 +37602,7 @@ var LESSONS = [
     "title": "IMABI 203: Prefijos negativos 未無非否不",
     "stage": "IMABI · Intermediate III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 203: Prefijos negativos 未無非否不",
@@ -34544,7 +37820,7 @@ var LESSONS = [
     "title": "IMABI 204: Contadores aproximados",
     "stage": "IMABI · Intermediate III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 204: Contadores aproximados",
@@ -34762,7 +38038,7 @@ var LESSONS = [
     "title": "IMABI 205: Prefijos contadores 何幾数半",
     "stage": "IMABI · Intermediate III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 205: Prefijos contadores 何幾数半",
@@ -34980,7 +38256,7 @@ var LESSONS = [
     "title": "IMABI 206: Bueno/Malo en — 得意/苦手",
     "stage": "IMABI · Intermediate III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 206: Bueno/Malo en — 得意/苦手",
@@ -35198,7 +38474,7 @@ var LESSONS = [
     "title": "IMABI 207: Gustar — 好き/大好き",
     "stage": "IMABI · Intermediate III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 207: Gustar — 好き/大好き",
@@ -35416,7 +38692,7 @@ var LESSONS = [
     "title": "IMABI 208: Odiar — 嫌い",
     "stage": "IMABI · Intermediate III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 208: Odiar — 嫌い",
@@ -35634,7 +38910,7 @@ var LESSONS = [
     "title": "IMABI 209: Viejo — 古い/旧",
     "stage": "IMABI · Intermediate III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 209: Viejo — 古い/旧",
@@ -35852,7 +39128,7 @@ var LESSONS = [
     "title": "IMABI 210: やはり/さすが — como era esperado",
     "stage": "IMABI · Intermediate III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 210: やはり/さすが — como era esperado",
@@ -36070,7 +39346,7 @@ var LESSONS = [
     "title": "IMABI 211: せっかく/わざわざ",
     "stage": "IMABI · Intermediate III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 211: せっかく/わざわざ",
@@ -36288,7 +39564,7 @@ var LESSONS = [
     "title": "IMABI 212: せめて — al menos",
     "stage": "IMABI · Intermediate III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 212: せめて — al menos",
@@ -36506,7 +39782,7 @@ var LESSONS = [
     "title": "IMABI 213: Idioms frases",
     "stage": "IMABI · Intermediate III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 213: Idioms frases",
@@ -36724,7 +40000,7 @@ var LESSONS = [
     "title": "IMABI 214: Onomatopeya I",
     "stage": "IMABI · Intermediate III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 214: Onomatopeya I",
@@ -36942,7 +40218,7 @@ var LESSONS = [
     "title": "IMABI 215: Onomatopeya II animales",
     "stage": "IMABI · Intermediate III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 215: Onomatopeya II animales",
@@ -37160,7 +40436,7 @@ var LESSONS = [
     "title": "IMABI 216: Onomatopeya III 擬態擬情",
     "stage": "IMABI · Intermediate III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 216: Onomatopeya III 擬態擬情",
@@ -37378,7 +40654,7 @@ var LESSONS = [
     "title": "IMABI 217: Cuerpo humano",
     "stage": "IMABI · Intermediate III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 217: Cuerpo humano",
@@ -37596,7 +40872,7 @@ var LESSONS = [
     "title": "IMABI 218: Colores I",
     "stage": "IMABI · Intermediate III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 218: Colores I",
@@ -37814,7 +41090,7 @@ var LESSONS = [
     "title": "IMABI 219: Colores II",
     "stage": "IMABI · Intermediate III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 219: Colores II",
@@ -38032,7 +41308,7 @@ var LESSONS = [
     "title": "IMABI 220: Comida",
     "stage": "IMABI · Intermediate III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 220: Comida",
@@ -38250,7 +41526,7 @@ var LESSONS = [
     "title": "IMABI 221: Astronomía",
     "stage": "IMABI · Intermediate III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 221: Astronomía",
@@ -38468,7 +41744,7 @@ var LESSONS = [
     "title": "IMABI 222: Plantas y animales",
     "stage": "IMABI · Intermediate III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 222: Plantas y animales",
@@ -38686,7 +41962,7 @@ var LESSONS = [
     "title": "IMABI 223: について/に関して",
     "stage": "IMABI · Intermediate III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 223: について/に関して",
@@ -38904,7 +42180,7 @@ var LESSONS = [
     "title": "IMABI 224: だけに — dado que",
     "stage": "IMABI · Intermediate III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 224: だけに — dado que",
@@ -39122,7 +42398,7 @@ var LESSONS = [
     "title": "IMABI 225: Interjecciones",
     "stage": "IMABI · Intermediate III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 225: Interjecciones",
@@ -39340,7 +42616,7 @@ var LESSONS = [
     "title": "IMABI 226: てある II con を",
     "stage": "IMABI · Intermediate III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 226: てある II con を",
@@ -39558,7 +42834,7 @@ var LESSONS = [
     "title": "IMABI 227: ぞ/ぜ — asertivo masc",
     "stage": "IMABI · Intermediate III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 227: ぞ/ぜ — asertivo masc",
@@ -39776,7 +43052,7 @@ var LESSONS = [
     "title": "IMABI 228: さ — partícula final",
     "stage": "IMABI · Intermediate III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 228: さ — partícula final",
@@ -39994,7 +43270,7 @@ var LESSONS = [
     "title": "IMABI 229: Finales かな/かしら/じゃん",
     "stage": "IMABI · Intermediate III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 229: Finales かな/かしら/じゃん",
@@ -40212,7 +43488,7 @@ var LESSONS = [
     "title": "IMABI 230: こと — final recriminativo",
     "stage": "IMABI · Intermediate III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 230: こと — final recriminativo",
@@ -40430,7 +43706,7 @@ var LESSONS = [
     "title": "IMABI 231: てよ/だわ — femenino",
     "stage": "IMABI · Intermediate III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 231: てよ/だわ — femenino",
@@ -40648,7 +43924,7 @@ var LESSONS = [
     "title": "IMABI 232: て III — conjuntivo extendido",
     "stage": "IMABI · Intermediate III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 232: て III — conjuntivo extendido",
@@ -40866,7 +44142,7 @@ var LESSONS = [
     "title": "IMABI 233: も IV — incluso enfático",
     "stage": "IMABI · Intermediate III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 233: も IV — incluso enfático",
@@ -41084,7 +44360,7 @@ var LESSONS = [
     "title": "IMABI 234: も V — adverbial",
     "stage": "IMABI · Intermediate III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 234: も V — adverbial",
@@ -41302,7 +44578,7 @@ var LESSONS = [
     "title": "IMABI 235: はずだ — se supone",
     "stage": "IMABI · Intermediate III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 235: はずだ — se supone",
@@ -41520,7 +44796,7 @@ var LESSONS = [
     "title": "IMABI 236: ずつ/わりで",
     "stage": "IMABI · Intermediate III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 236: ずつ/わりで",
@@ -41738,7 +45014,7 @@ var LESSONS = [
     "title": "IMABI 237: ず — sin hacer clásico",
     "stage": "IMABI · Intermediate III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 237: ず — sin hacer clásico",
@@ -41956,7 +45232,7 @@ var LESSONS = [
     "title": "IMABI 238: Intensificador ない",
     "stage": "IMABI · Intermediate III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 238: Intensificador ない",
@@ -42174,7 +45450,7 @@ var LESSONS = [
     "title": "IMABI 239: Pronombres reflexivos 自分",
     "stage": "IMABI · Intermediate III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 239: Pronombres reflexivos 自分",
@@ -42392,7 +45668,7 @@ var LESSONS = [
     "title": "IMABI 240: Ordinales — 番目",
     "stage": "IMABI · Intermediate III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 240: Ordinales — 番目",
@@ -42610,7 +45886,7 @@ var LESSONS = [
     "title": "IMABI 241: Contadores 基/滴/票/件",
     "stage": "IMABI · Intermediate III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 241: Contadores 基/滴/票/件",
@@ -42828,7 +46104,7 @@ var LESSONS = [
     "title": "IMABI 242: Tallo adjetivo en compuestos",
     "stage": "IMABI · Intermediate III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 242: Tallo adjetivo en compuestos",
@@ -43046,7 +46322,7 @@ var LESSONS = [
     "title": "IMABI 243: Contadores ヶ/ヵ",
     "stage": "IMABI · Intermediate III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 243: Contadores ヶ/ヵ",
@@ -43264,7 +46540,7 @@ var LESSONS = [
     "title": "IMABI 244: Idioms cuerpo II",
     "stage": "IMABI · Intermediate III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 244: Idioms cuerpo II",
@@ -43482,7 +46758,7 @@ var LESSONS = [
     "title": "IMABI 245: Adj + です gramaticalidad",
     "stage": "IMABI · Intermediate III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 245: Adj + です gramaticalidad",
@@ -43700,7 +46976,7 @@ var LESSONS = [
     "title": "IMABI 246: Elisión だ",
     "stage": "IMABI · Intermediate III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 246: Elisión だ",
@@ -43918,7 +47194,7 @@ var LESSONS = [
     "title": "IMABI 247: だか/だの — etc despectivo",
     "stage": "IMABI · Intermediate III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 247: だか/だの — etc despectivo",
@@ -44136,7 +47412,7 @@ var LESSONS = [
     "title": "IMABI 248: Bases verbales 活用形",
     "stage": "IMABI · Intermediate III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 248: Bases verbales 活用形",
@@ -44354,7 +47630,7 @@ var LESSONS = [
     "title": "IMABI 249: 連用→sustantivo",
     "stage": "IMABI · Intermediate III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 249: 連用→sustantivo",
@@ -44572,7 +47848,7 @@ var LESSONS = [
     "title": "IMABI 250: 連用中止",
     "stage": "IMABI · Intermediate III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 250: 連用中止",
@@ -44790,7 +48066,7 @@ var LESSONS = [
     "title": "IMABI 251: Tenso TA — た",
     "stage": "IMABI · Advanced I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 251: Tenso TA — た",
@@ -45008,7 +48284,7 @@ var LESSONS = [
     "title": "IMABI 252: Morfema RU — る",
     "stage": "IMABI · Advanced I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 252: Morfema RU — る",
@@ -45226,7 +48502,7 @@ var LESSONS = [
     "title": "IMABI 253: ては — si/contrastivo",
     "stage": "IMABI · Advanced I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 253: ては — si/contrastivo",
@@ -45444,7 +48720,7 @@ var LESSONS = [
     "title": "IMABI 254: のみ — solamente formal",
     "stage": "IMABI · Advanced I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 254: のみ — solamente formal",
@@ -45662,7 +48938,7 @@ var LESSONS = [
     "title": "IMABI 255: こそ — énfasis",
     "stage": "IMABI · Advanced I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 255: こそ — énfasis",
@@ -45880,7 +49156,7 @@ var LESSONS = [
     "title": "IMABI 256: しも — incluso",
     "stage": "IMABI · Advanced I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 256: しも — incluso",
@@ -46098,7 +49374,7 @@ var LESSONS = [
     "title": "IMABI 257: わけだ — es que",
     "stage": "IMABI · Advanced I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 257: わけだ — es que",
@@ -46316,7 +49592,7 @@ var LESSONS = [
     "title": "IMABI 258: わけではない/ない/いかない",
     "stage": "IMABI · Advanced I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 258: わけではない/ない/いかない",
@@ -46534,7 +49810,7 @@ var LESSONS = [
     "title": "IMABI 259: ながらも/ながらに",
     "stage": "IMABI · Advanced I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 259: ながらも/ながらに",
@@ -46752,7 +50028,7 @@ var LESSONS = [
     "title": "IMABI 260: に違いない — sin duda",
     "stage": "IMABI · Advanced I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 260: に違いない — sin duda",
@@ -46970,7 +50246,7 @@ var LESSONS = [
     "title": "IMABI 261: に基づいて",
     "stage": "IMABI · Advanced I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 261: に基づいて",
@@ -47188,7 +50464,7 @@ var LESSONS = [
     "title": "IMABI 262: てからというもの",
     "stage": "IMABI · Advanced I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 262: てからというもの",
@@ -47406,7 +50682,7 @@ var LESSONS = [
     "title": "IMABI 263: 場合 — en caso de",
     "stage": "IMABI · Advanced I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 263: 場合 — en caso de",
@@ -47624,7 +50900,7 @@ var LESSONS = [
     "title": "IMABI 264: 度/都度/につけ",
     "stage": "IMABI · Advanced I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 264: 度/都度/につけ",
@@ -47842,7 +51118,7 @@ var LESSONS = [
     "title": "IMABI 265: 隙に/間に",
     "stage": "IMABI · Advanced I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 265: 隙に/間に",
@@ -48060,7 +51336,7 @@ var LESSONS = [
     "title": "IMABI 266: する suplementario",
     "stage": "IMABI · Advanced I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 266: する suplementario",
@@ -48278,7 +51554,7 @@ var LESSONS = [
     "title": "IMABI 267: に対して",
     "stage": "IMABI · Advanced I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 267: に対して",
@@ -48496,7 +51772,7 @@ var LESSONS = [
     "title": "IMABI 268: Intransitivo/Transitivo 1",
     "stage": "IMABI · Advanced I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 268: Intransitivo/Transitivo 1",
@@ -48714,7 +51990,7 @@ var LESSONS = [
     "title": "IMABI 269: Intransitivo/Transitivo 2",
     "stage": "IMABI · Advanced I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 269: Intransitivo/Transitivo 2",
@@ -48932,7 +52208,7 @@ var LESSONS = [
     "title": "IMABI 270: として/にとって",
     "stage": "IMABI · Advanced I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 270: として/にとって",
@@ -49150,7 +52426,7 @@ var LESSONS = [
     "title": "IMABI 271: を通して/通じて",
     "stage": "IMABI · Advanced I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 271: を通して/通じて",
@@ -49368,7 +52644,7 @@ var LESSONS = [
     "title": "IMABI 272: にかけて/にわたって",
     "stage": "IMABI · Advanced I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 272: にかけて/にわたって",
@@ -49586,7 +52862,7 @@ var LESSONS = [
     "title": "IMABI 273: によって",
     "stage": "IMABI · Advanced I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 273: によって",
@@ -49804,7 +53080,7 @@ var LESSONS = [
     "title": "IMABI 274: ざるを得ない",
     "stage": "IMABI · Advanced I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 274: ざるを得ない",
@@ -50022,7 +53298,7 @@ var LESSONS = [
     "title": "IMABI 275: Causativa transitiva",
     "stage": "IMABI · Advanced I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 275: Causativa transitiva",
@@ -50240,7 +53516,7 @@ var LESSONS = [
     "title": "IMABI 276: Intransitivo traducido pasiva",
     "stage": "IMABI · Advanced I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 276: Intransitivo traducido pasiva",
@@ -50458,7 +53734,7 @@ var LESSONS = [
     "title": "IMABI 277: 自受動詞",
     "stage": "IMABI · Advanced I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 277: 自受動詞",
@@ -50676,7 +53952,7 @@ var LESSONS = [
     "title": "IMABI 278: 他受動詞",
     "stage": "IMABI · Advanced I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 278: 他受動詞",
@@ -50894,7 +54170,7 @@ var LESSONS = [
     "title": "IMABI 279: さえ/すら/だに",
     "stage": "IMABI · Advanced I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 279: さえ/すら/だに",
@@ -51112,7 +54388,7 @@ var LESSONS = [
     "title": "IMABI 280: において/における",
     "stage": "IMABI · Advanced I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 280: において/における",
@@ -51330,7 +54606,7 @@ var LESSONS = [
     "title": "IMABI 281: Negativos なしで/なくして",
     "stage": "IMABI · Advanced I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 281: Negativos なしで/なくして",
@@ -51548,7 +54824,7 @@ var LESSONS = [
     "title": "IMABI 282: Excepción のぞいて等",
     "stage": "IMABI · Advanced I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 282: Excepción のぞいて等",
@@ -51766,7 +55042,7 @@ var LESSONS = [
     "title": "IMABI 283: ないではいられない",
     "stage": "IMABI · Advanced I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 283: ないではいられない",
@@ -51984,7 +55260,7 @@ var LESSONS = [
     "title": "IMABI 284: てならない/てたまらない",
     "stage": "IMABI · Advanced I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 284: てならない/てたまらない",
@@ -52202,7 +55478,7 @@ var LESSONS = [
     "title": "IMABI 285: ないではすまない",
     "stage": "IMABI · Advanced I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 285: ないではすまない",
@@ -52420,7 +55696,7 @@ var LESSONS = [
     "title": "IMABI 286: ～よい — fácil clásico",
     "stage": "IMABI · Advanced I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 286: ～よい — fácil clásico",
@@ -52638,7 +55914,7 @@ var LESSONS = [
     "title": "IMABI 287: がたい/づらい — difícil",
     "stage": "IMABI · Advanced I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 287: がたい/づらい — difícil",
@@ -52856,7 +56132,7 @@ var LESSONS = [
     "title": "IMABI 288: Intrans/Trans 3",
     "stage": "IMABI · Advanced I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 288: Intrans/Trans 3",
@@ -53074,7 +56350,7 @@ var LESSONS = [
     "title": "IMABI 289: Intrans/Trans 4",
     "stage": "IMABI · Advanced I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 289: Intrans/Trans 4",
@@ -53292,7 +56568,7 @@ var LESSONS = [
     "title": "IMABI 290: 自他 Sino-JP サ変",
     "stage": "IMABI · Advanced I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 290: 自他 Sino-JP サ変",
@@ -53510,7 +56786,7 @@ var LESSONS = [
     "title": "IMABI 291: 限り — límite",
     "stage": "IMABI · Advanced I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 291: 限り — límite",
@@ -53728,7 +57004,7 @@ var LESSONS = [
     "title": "IMABI 292: 加えて/とどまらず",
     "stage": "IMABI · Advanced I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 292: 加えて/とどまらず",
@@ -53946,7 +57222,7 @@ var LESSONS = [
     "title": "IMABI 293: と — cita 〜と言うまい",
     "stage": "IMABI · Advanced I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 293: と — cita 〜と言うまい",
@@ -54164,7 +57440,7 @@ var LESSONS = [
     "title": "IMABI 294: まい — volición negativa",
     "stage": "IMABI · Advanced I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 294: まい — volición negativa",
@@ -54382,7 +57658,7 @@ var LESSONS = [
     "title": "IMABI 295: う con adj/verbo suposición",
     "stage": "IMABI · Advanced I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 295: う con adj/verbo suposición",
@@ -54600,7 +57876,7 @@ var LESSONS = [
     "title": "IMABI 296: うが/まいが — pase lo que pase",
     "stage": "IMABI · Advanced I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 296: うが/まいが — pase lo que pase",
@@ -54818,7 +58094,7 @@ var LESSONS = [
     "title": "IMABI 297: うにも/うものなら",
     "stage": "IMABI · Advanced I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 297: うにも/うものなら",
@@ -55036,7 +58312,7 @@ var LESSONS = [
     "title": "IMABI 298: Variantes copula — たり/なり",
     "stage": "IMABI · Advanced I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 298: Variantes copula — たり/なり",
@@ -55254,7 +58530,7 @@ var LESSONS = [
     "title": "IMABI 299: Cambios sonido adj",
     "stage": "IMABI · Advanced I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 299: Cambios sonido adj",
@@ -55472,7 +58748,7 @@ var LESSONS = [
     "title": "IMABI 300: Bases antiguas adj",
     "stage": "IMABI · Advanced I",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 300: Bases antiguas adj",
@@ -55690,7 +58966,7 @@ var LESSONS = [
     "title": "IMABI 301: Tema avanzado 301",
     "stage": "IMABI · Advanced II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 301: Tema avanzado 301",
@@ -55908,7 +59184,7 @@ var LESSONS = [
     "title": "IMABI 302: Tema avanzado 302",
     "stage": "IMABI · Advanced II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 302: Tema avanzado 302",
@@ -56126,7 +59402,7 @@ var LESSONS = [
     "title": "IMABI 303: Tema avanzado 303",
     "stage": "IMABI · Advanced II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 303: Tema avanzado 303",
@@ -56344,7 +59620,7 @@ var LESSONS = [
     "title": "IMABI 304: Tema avanzado 304",
     "stage": "IMABI · Advanced II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 304: Tema avanzado 304",
@@ -56562,7 +59838,7 @@ var LESSONS = [
     "title": "IMABI 305: Tema avanzado 305",
     "stage": "IMABI · Advanced II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 305: Tema avanzado 305",
@@ -56780,7 +60056,7 @@ var LESSONS = [
     "title": "IMABI 306: Tema avanzado 306",
     "stage": "IMABI · Advanced II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 306: Tema avanzado 306",
@@ -56998,7 +60274,7 @@ var LESSONS = [
     "title": "IMABI 307: Tema avanzado 307",
     "stage": "IMABI · Advanced II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 307: Tema avanzado 307",
@@ -57216,7 +60492,7 @@ var LESSONS = [
     "title": "IMABI 308: Tema avanzado 308",
     "stage": "IMABI · Advanced II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 308: Tema avanzado 308",
@@ -57434,7 +60710,7 @@ var LESSONS = [
     "title": "IMABI 309: Tema avanzado 309",
     "stage": "IMABI · Advanced II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 309: Tema avanzado 309",
@@ -57652,7 +60928,7 @@ var LESSONS = [
     "title": "IMABI 310: Tema avanzado 310",
     "stage": "IMABI · Advanced II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 310: Tema avanzado 310",
@@ -57870,7 +61146,7 @@ var LESSONS = [
     "title": "IMABI 311: Tema avanzado 311",
     "stage": "IMABI · Advanced II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 311: Tema avanzado 311",
@@ -58088,7 +61364,7 @@ var LESSONS = [
     "title": "IMABI 312: Tema avanzado 312",
     "stage": "IMABI · Advanced II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 312: Tema avanzado 312",
@@ -58306,7 +61582,7 @@ var LESSONS = [
     "title": "IMABI 313: Tema avanzado 313",
     "stage": "IMABI · Advanced II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 313: Tema avanzado 313",
@@ -58524,7 +61800,7 @@ var LESSONS = [
     "title": "IMABI 314: Tema avanzado 314",
     "stage": "IMABI · Advanced II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 314: Tema avanzado 314",
@@ -58742,7 +62018,7 @@ var LESSONS = [
     "title": "IMABI 315: Tema avanzado 315",
     "stage": "IMABI · Advanced II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 315: Tema avanzado 315",
@@ -58960,7 +62236,7 @@ var LESSONS = [
     "title": "IMABI 316: Tema avanzado 316",
     "stage": "IMABI · Advanced II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 316: Tema avanzado 316",
@@ -59178,7 +62454,7 @@ var LESSONS = [
     "title": "IMABI 317: Tema avanzado 317",
     "stage": "IMABI · Advanced II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 317: Tema avanzado 317",
@@ -59396,7 +62672,7 @@ var LESSONS = [
     "title": "IMABI 318: Tema avanzado 318",
     "stage": "IMABI · Advanced II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 318: Tema avanzado 318",
@@ -59614,7 +62890,7 @@ var LESSONS = [
     "title": "IMABI 319: Tema avanzado 319",
     "stage": "IMABI · Advanced II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 319: Tema avanzado 319",
@@ -59832,7 +63108,7 @@ var LESSONS = [
     "title": "IMABI 320: Tema avanzado 320",
     "stage": "IMABI · Advanced II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 320: Tema avanzado 320",
@@ -60050,7 +63326,7 @@ var LESSONS = [
     "title": "IMABI 321: Tema avanzado 321",
     "stage": "IMABI · Advanced II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 321: Tema avanzado 321",
@@ -60268,7 +63544,7 @@ var LESSONS = [
     "title": "IMABI 322: Tema avanzado 322",
     "stage": "IMABI · Advanced II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 322: Tema avanzado 322",
@@ -60486,7 +63762,7 @@ var LESSONS = [
     "title": "IMABI 323: Tema avanzado 323",
     "stage": "IMABI · Advanced II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 323: Tema avanzado 323",
@@ -60704,7 +63980,7 @@ var LESSONS = [
     "title": "IMABI 324: Tema avanzado 324",
     "stage": "IMABI · Advanced II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 324: Tema avanzado 324",
@@ -60922,7 +64198,7 @@ var LESSONS = [
     "title": "IMABI 325: Tema avanzado 325",
     "stage": "IMABI · Advanced II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 325: Tema avanzado 325",
@@ -61140,7 +64416,7 @@ var LESSONS = [
     "title": "IMABI 326: Tema avanzado 326",
     "stage": "IMABI · Advanced II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 326: Tema avanzado 326",
@@ -61358,7 +64634,7 @@ var LESSONS = [
     "title": "IMABI 327: Tema avanzado 327",
     "stage": "IMABI · Advanced II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 327: Tema avanzado 327",
@@ -61576,7 +64852,7 @@ var LESSONS = [
     "title": "IMABI 328: Tema avanzado 328",
     "stage": "IMABI · Advanced II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 328: Tema avanzado 328",
@@ -61794,7 +65070,7 @@ var LESSONS = [
     "title": "IMABI 329: Tema avanzado 329",
     "stage": "IMABI · Advanced II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 329: Tema avanzado 329",
@@ -62012,7 +65288,7 @@ var LESSONS = [
     "title": "IMABI 330: Tema avanzado 330",
     "stage": "IMABI · Advanced II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 330: Tema avanzado 330",
@@ -62230,7 +65506,7 @@ var LESSONS = [
     "title": "IMABI 331: Tema avanzado 331",
     "stage": "IMABI · Advanced II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 331: Tema avanzado 331",
@@ -62448,7 +65724,7 @@ var LESSONS = [
     "title": "IMABI 332: Tema avanzado 332",
     "stage": "IMABI · Advanced II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 332: Tema avanzado 332",
@@ -62666,7 +65942,7 @@ var LESSONS = [
     "title": "IMABI 333: Tema avanzado 333",
     "stage": "IMABI · Advanced II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 333: Tema avanzado 333",
@@ -62884,7 +66160,7 @@ var LESSONS = [
     "title": "IMABI 334: Tema avanzado 334",
     "stage": "IMABI · Advanced II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 334: Tema avanzado 334",
@@ -63102,7 +66378,7 @@ var LESSONS = [
     "title": "IMABI 335: Tema avanzado 335",
     "stage": "IMABI · Advanced II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 335: Tema avanzado 335",
@@ -63320,7 +66596,7 @@ var LESSONS = [
     "title": "IMABI 336: Tema avanzado 336",
     "stage": "IMABI · Advanced II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 336: Tema avanzado 336",
@@ -63538,7 +66814,7 @@ var LESSONS = [
     "title": "IMABI 337: Tema avanzado 337",
     "stage": "IMABI · Advanced II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 337: Tema avanzado 337",
@@ -63756,7 +67032,7 @@ var LESSONS = [
     "title": "IMABI 338: Tema avanzado 338",
     "stage": "IMABI · Advanced II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 338: Tema avanzado 338",
@@ -63974,7 +67250,7 @@ var LESSONS = [
     "title": "IMABI 339: Tema avanzado 339",
     "stage": "IMABI · Advanced II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 339: Tema avanzado 339",
@@ -64192,7 +67468,7 @@ var LESSONS = [
     "title": "IMABI 340: Tema avanzado 340",
     "stage": "IMABI · Advanced II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 340: Tema avanzado 340",
@@ -64410,7 +67686,7 @@ var LESSONS = [
     "title": "IMABI 341: Tema avanzado 341",
     "stage": "IMABI · Advanced II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 341: Tema avanzado 341",
@@ -64628,7 +67904,7 @@ var LESSONS = [
     "title": "IMABI 342: Tema avanzado 342",
     "stage": "IMABI · Advanced II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 342: Tema avanzado 342",
@@ -64846,7 +68122,7 @@ var LESSONS = [
     "title": "IMABI 343: Tema avanzado 343",
     "stage": "IMABI · Advanced II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 343: Tema avanzado 343",
@@ -65064,7 +68340,7 @@ var LESSONS = [
     "title": "IMABI 344: Tema avanzado 344",
     "stage": "IMABI · Advanced II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 344: Tema avanzado 344",
@@ -65282,7 +68558,7 @@ var LESSONS = [
     "title": "IMABI 345: Tema avanzado 345",
     "stage": "IMABI · Advanced II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 345: Tema avanzado 345",
@@ -65500,7 +68776,7 @@ var LESSONS = [
     "title": "IMABI 346: Tema avanzado 346",
     "stage": "IMABI · Advanced II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 346: Tema avanzado 346",
@@ -65718,7 +68994,7 @@ var LESSONS = [
     "title": "IMABI 347: Tema avanzado 347",
     "stage": "IMABI · Advanced II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 347: Tema avanzado 347",
@@ -65936,7 +69212,7 @@ var LESSONS = [
     "title": "IMABI 348: Tema avanzado 348",
     "stage": "IMABI · Advanced II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 348: Tema avanzado 348",
@@ -66154,7 +69430,7 @@ var LESSONS = [
     "title": "IMABI 349: Tema avanzado 349",
     "stage": "IMABI · Advanced II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 349: Tema avanzado 349",
@@ -66372,7 +69648,7 @@ var LESSONS = [
     "title": "IMABI 350: Tema avanzado 350",
     "stage": "IMABI · Advanced II",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 350: Tema avanzado 350",
@@ -66590,7 +69866,7 @@ var LESSONS = [
     "title": "IMABI 351: Tema avanzado 351",
     "stage": "IMABI · Advanced III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 351: Tema avanzado 351",
@@ -66808,7 +70084,7 @@ var LESSONS = [
     "title": "IMABI 352: Tema avanzado 352",
     "stage": "IMABI · Advanced III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 352: Tema avanzado 352",
@@ -67026,7 +70302,7 @@ var LESSONS = [
     "title": "IMABI 353: Tema avanzado 353",
     "stage": "IMABI · Advanced III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 353: Tema avanzado 353",
@@ -67244,7 +70520,7 @@ var LESSONS = [
     "title": "IMABI 354: Tema avanzado 354",
     "stage": "IMABI · Advanced III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 354: Tema avanzado 354",
@@ -67462,7 +70738,7 @@ var LESSONS = [
     "title": "IMABI 355: Tema avanzado 355",
     "stage": "IMABI · Advanced III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 355: Tema avanzado 355",
@@ -67680,7 +70956,7 @@ var LESSONS = [
     "title": "IMABI 356: Tema avanzado 356",
     "stage": "IMABI · Advanced III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 356: Tema avanzado 356",
@@ -67898,7 +71174,7 @@ var LESSONS = [
     "title": "IMABI 357: Tema avanzado 357",
     "stage": "IMABI · Advanced III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 357: Tema avanzado 357",
@@ -68116,7 +71392,7 @@ var LESSONS = [
     "title": "IMABI 358: Tema avanzado 358",
     "stage": "IMABI · Advanced III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 358: Tema avanzado 358",
@@ -68334,7 +71610,7 @@ var LESSONS = [
     "title": "IMABI 359: Tema avanzado 359",
     "stage": "IMABI · Advanced III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 359: Tema avanzado 359",
@@ -68552,7 +71828,7 @@ var LESSONS = [
     "title": "IMABI 360: Tema avanzado 360",
     "stage": "IMABI · Advanced III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 360: Tema avanzado 360",
@@ -68770,7 +72046,7 @@ var LESSONS = [
     "title": "IMABI 361: Tema avanzado 361",
     "stage": "IMABI · Advanced III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 361: Tema avanzado 361",
@@ -68988,7 +72264,7 @@ var LESSONS = [
     "title": "IMABI 362: Tema avanzado 362",
     "stage": "IMABI · Advanced III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 362: Tema avanzado 362",
@@ -69206,7 +72482,7 @@ var LESSONS = [
     "title": "IMABI 363: Tema avanzado 363",
     "stage": "IMABI · Advanced III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 363: Tema avanzado 363",
@@ -69424,7 +72700,7 @@ var LESSONS = [
     "title": "IMABI 364: Tema avanzado 364",
     "stage": "IMABI · Advanced III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 364: Tema avanzado 364",
@@ -69642,7 +72918,7 @@ var LESSONS = [
     "title": "IMABI 365: Tema avanzado 365",
     "stage": "IMABI · Advanced III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 365: Tema avanzado 365",
@@ -69860,7 +73136,7 @@ var LESSONS = [
     "title": "IMABI 366: Tema avanzado 366",
     "stage": "IMABI · Advanced III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 366: Tema avanzado 366",
@@ -70078,7 +73354,7 @@ var LESSONS = [
     "title": "IMABI 367: Tema avanzado 367",
     "stage": "IMABI · Advanced III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 367: Tema avanzado 367",
@@ -70296,7 +73572,7 @@ var LESSONS = [
     "title": "IMABI 368: Tema avanzado 368",
     "stage": "IMABI · Advanced III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 368: Tema avanzado 368",
@@ -70514,7 +73790,7 @@ var LESSONS = [
     "title": "IMABI 369: Tema avanzado 369",
     "stage": "IMABI · Advanced III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 369: Tema avanzado 369",
@@ -70732,7 +74008,7 @@ var LESSONS = [
     "title": "IMABI 370: Tema avanzado 370",
     "stage": "IMABI · Advanced III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 370: Tema avanzado 370",
@@ -70950,7 +74226,7 @@ var LESSONS = [
     "title": "IMABI 371: Tema avanzado 371",
     "stage": "IMABI · Advanced III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 371: Tema avanzado 371",
@@ -71168,7 +74444,7 @@ var LESSONS = [
     "title": "IMABI 372: Tema avanzado 372",
     "stage": "IMABI · Advanced III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 372: Tema avanzado 372",
@@ -71386,7 +74662,7 @@ var LESSONS = [
     "title": "IMABI 373: Tema avanzado 373",
     "stage": "IMABI · Advanced III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 373: Tema avanzado 373",
@@ -71604,7 +74880,7 @@ var LESSONS = [
     "title": "IMABI 374: Tema avanzado 374",
     "stage": "IMABI · Advanced III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 374: Tema avanzado 374",
@@ -71822,7 +75098,7 @@ var LESSONS = [
     "title": "IMABI 375: Tema avanzado 375",
     "stage": "IMABI · Advanced III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 375: Tema avanzado 375",
@@ -72040,7 +75316,7 @@ var LESSONS = [
     "title": "IMABI 376: Tema avanzado 376",
     "stage": "IMABI · Advanced III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 376: Tema avanzado 376",
@@ -72258,7 +75534,7 @@ var LESSONS = [
     "title": "IMABI 377: Tema avanzado 377",
     "stage": "IMABI · Advanced III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 377: Tema avanzado 377",
@@ -72476,7 +75752,7 @@ var LESSONS = [
     "title": "IMABI 378: Tema avanzado 378",
     "stage": "IMABI · Advanced III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 378: Tema avanzado 378",
@@ -72694,7 +75970,7 @@ var LESSONS = [
     "title": "IMABI 379: Tema avanzado 379",
     "stage": "IMABI · Advanced III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 379: Tema avanzado 379",
@@ -72912,7 +76188,7 @@ var LESSONS = [
     "title": "IMABI 380: Tema avanzado 380",
     "stage": "IMABI · Advanced III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 380: Tema avanzado 380",
@@ -73130,7 +76406,7 @@ var LESSONS = [
     "title": "IMABI 381: Tema avanzado 381",
     "stage": "IMABI · Advanced III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 381: Tema avanzado 381",
@@ -73348,7 +76624,7 @@ var LESSONS = [
     "title": "IMABI 382: Tema avanzado 382",
     "stage": "IMABI · Advanced III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 382: Tema avanzado 382",
@@ -73566,7 +76842,7 @@ var LESSONS = [
     "title": "IMABI 383: Tema avanzado 383",
     "stage": "IMABI · Advanced III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 383: Tema avanzado 383",
@@ -73784,7 +77060,7 @@ var LESSONS = [
     "title": "IMABI 384: Tema avanzado 384",
     "stage": "IMABI · Advanced III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 384: Tema avanzado 384",
@@ -74002,7 +77278,7 @@ var LESSONS = [
     "title": "IMABI 385: Tema avanzado 385",
     "stage": "IMABI · Advanced III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 385: Tema avanzado 385",
@@ -74220,7 +77496,7 @@ var LESSONS = [
     "title": "IMABI 386: Tema avanzado 386",
     "stage": "IMABI · Advanced III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 386: Tema avanzado 386",
@@ -74438,7 +77714,7 @@ var LESSONS = [
     "title": "IMABI 387: Tema avanzado 387",
     "stage": "IMABI · Advanced III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 387: Tema avanzado 387",
@@ -74656,7 +77932,7 @@ var LESSONS = [
     "title": "IMABI 388: Tema avanzado 388",
     "stage": "IMABI · Advanced III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 388: Tema avanzado 388",
@@ -74874,7 +78150,7 @@ var LESSONS = [
     "title": "IMABI 389: Tema avanzado 389",
     "stage": "IMABI · Advanced III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 389: Tema avanzado 389",
@@ -75092,7 +78368,7 @@ var LESSONS = [
     "title": "IMABI 390: Tema avanzado 390",
     "stage": "IMABI · Advanced III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 390: Tema avanzado 390",
@@ -75310,7 +78586,7 @@ var LESSONS = [
     "title": "IMABI 391: Tema avanzado 391",
     "stage": "IMABI · Advanced III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 391: Tema avanzado 391",
@@ -75528,7 +78804,7 @@ var LESSONS = [
     "title": "IMABI 392: Tema avanzado 392",
     "stage": "IMABI · Advanced III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 392: Tema avanzado 392",
@@ -75746,7 +79022,7 @@ var LESSONS = [
     "title": "IMABI 393: Tema avanzado 393",
     "stage": "IMABI · Advanced III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 393: Tema avanzado 393",
@@ -75964,7 +79240,7 @@ var LESSONS = [
     "title": "IMABI 394: Tema avanzado 394",
     "stage": "IMABI · Advanced III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 394: Tema avanzado 394",
@@ -76182,7 +79458,7 @@ var LESSONS = [
     "title": "IMABI 395: Tema avanzado 395",
     "stage": "IMABI · Advanced III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 395: Tema avanzado 395",
@@ -76400,7 +79676,7 @@ var LESSONS = [
     "title": "IMABI 396: Tema avanzado 396",
     "stage": "IMABI · Advanced III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 396: Tema avanzado 396",
@@ -76618,7 +79894,7 @@ var LESSONS = [
     "title": "IMABI 397: Tema avanzado 397",
     "stage": "IMABI · Advanced III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 397: Tema avanzado 397",
@@ -76836,7 +80112,7 @@ var LESSONS = [
     "title": "IMABI 398: Tema avanzado 398",
     "stage": "IMABI · Advanced III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 398: Tema avanzado 398",
@@ -77054,7 +80330,7 @@ var LESSONS = [
     "title": "IMABI 399: Tema avanzado 399",
     "stage": "IMABI · Advanced III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 399: Tema avanzado 399",
@@ -77272,7 +80548,7 @@ var LESSONS = [
     "title": "IMABI 400: Tema avanzado 400",
     "stage": "IMABI · Advanced III",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 400: Tema avanzado 400",
@@ -77490,7 +80766,7 @@ var LESSONS = [
     "title": "IMABI 401: Cierre IMABI 401",
     "stage": "IMABI · Cierre",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 401: Cierre IMABI 401",
@@ -77708,7 +80984,7 @@ var LESSONS = [
     "title": "IMABI 402: Cierre IMABI 402",
     "stage": "IMABI · Cierre",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 402: Cierre IMABI 402",
@@ -77926,7 +81202,7 @@ var LESSONS = [
     "title": "IMABI 403: Cierre IMABI 403",
     "stage": "IMABI · Cierre",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 403: Cierre IMABI 403",
@@ -78144,7 +81420,7 @@ var LESSONS = [
     "title": "IMABI 404: Cierre IMABI 404",
     "stage": "IMABI · Cierre",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 404: Cierre IMABI 404",
@@ -78362,7 +81638,7 @@ var LESSONS = [
     "title": "IMABI 405: Cierre IMABI 405",
     "stage": "IMABI · Cierre",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 405: Cierre IMABI 405",
@@ -78580,7 +81856,7 @@ var LESSONS = [
     "title": "IMABI 406: Cierre IMABI 406",
     "stage": "IMABI · Cierre",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 406: Cierre IMABI 406",
@@ -78798,7 +82074,7 @@ var LESSONS = [
     "title": "IMABI 407: Cierre IMABI 407",
     "stage": "IMABI · Cierre",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 407: Cierre IMABI 407",
@@ -79016,7 +82292,7 @@ var LESSONS = [
     "title": "IMABI 408: Cierre IMABI 408",
     "stage": "IMABI · Cierre",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 408: Cierre IMABI 408",
@@ -79234,7 +82510,7 @@ var LESSONS = [
     "title": "IMABI 409: Cierre IMABI 409",
     "stage": "IMABI · Cierre",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 409: Cierre IMABI 409",
@@ -79452,7 +82728,7 @@ var LESSONS = [
     "title": "IMABI 410: Cierre IMABI 410",
     "stage": "IMABI · Cierre",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 410: Cierre IMABI 410",
@@ -79670,7 +82946,7 @@ var LESSONS = [
     "title": "IMABI 411: Cierre IMABI 411",
     "stage": "IMABI · Cierre",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 411: Cierre IMABI 411",
@@ -79888,7 +83164,7 @@ var LESSONS = [
     "title": "IMABI 412: Cierre IMABI 412",
     "stage": "IMABI · Cierre",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 412: Cierre IMABI 412",
@@ -80106,7 +83382,7 @@ var LESSONS = [
     "title": "IMABI 413: Cierre IMABI 413",
     "stage": "IMABI · Cierre",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 413: Cierre IMABI 413",
@@ -80324,7 +83600,7 @@ var LESSONS = [
     "title": "IMABI 414: Cierre IMABI 414",
     "stage": "IMABI · Cierre",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 414: Cierre IMABI 414",
@@ -80542,7 +83818,7 @@ var LESSONS = [
     "title": "IMABI 415: Cierre IMABI 415",
     "stage": "IMABI · Cierre",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 415: Cierre IMABI 415",
@@ -80760,7 +84036,7 @@ var LESSONS = [
     "title": "IMABI 416: Cierre IMABI 416",
     "stage": "IMABI · Cierre",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 416: Cierre IMABI 416",
@@ -80978,7 +84254,7 @@ var LESSONS = [
     "title": "IMABI 417: Cierre IMABI 417",
     "stage": "IMABI · Cierre",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 417: Cierre IMABI 417",
@@ -81196,7 +84472,7 @@ var LESSONS = [
     "title": "IMABI 418: Cierre IMABI 418",
     "stage": "IMABI · Cierre",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 418: Cierre IMABI 418",
@@ -81414,7 +84690,7 @@ var LESSONS = [
     "title": "IMABI 419: Cierre IMABI 419",
     "stage": "IMABI · Cierre",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 419: Cierre IMABI 419",
@@ -81632,7 +84908,7 @@ var LESSONS = [
     "title": "IMABI 420: Cierre IMABI 420",
     "stage": "IMABI · Cierre",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 420: Cierre IMABI 420",
@@ -81850,7 +85126,7 @@ var LESSONS = [
     "title": "IMABI 421: Cierre IMABI 421",
     "stage": "IMABI · Cierre",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 421: Cierre IMABI 421",
@@ -82068,7 +85344,7 @@ var LESSONS = [
     "title": "IMABI 422: Cierre IMABI 422",
     "stage": "IMABI · Cierre",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 422: Cierre IMABI 422",
@@ -82286,7 +85562,7 @@ var LESSONS = [
     "title": "IMABI 423: Cierre IMABI 423",
     "stage": "IMABI · Cierre",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 423: Cierre IMABI 423",
@@ -82504,7 +85780,7 @@ var LESSONS = [
     "title": "IMABI 424: Cierre IMABI 424",
     "stage": "IMABI · Cierre",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 424: Cierre IMABI 424",
@@ -82722,7 +85998,7 @@ var LESSONS = [
     "title": "IMABI 425: Cierre IMABI 425",
     "stage": "IMABI · Cierre",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 425: Cierre IMABI 425",
@@ -82940,7 +86216,7 @@ var LESSONS = [
     "title": "IMABI 426: Cierre IMABI 426",
     "stage": "IMABI · Cierre",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 426: Cierre IMABI 426",
@@ -83158,7 +86434,7 @@ var LESSONS = [
     "title": "IMABI 427: Cierre IMABI 427",
     "stage": "IMABI · Cierre",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 427: Cierre IMABI 427",
@@ -83376,7 +86652,7 @@ var LESSONS = [
     "title": "IMABI 428: Cierre IMABI 428",
     "stage": "IMABI · Cierre",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 428: Cierre IMABI 428",
@@ -83594,7 +86870,7 @@ var LESSONS = [
     "title": "IMABI 429: Cierre IMABI 429",
     "stage": "IMABI · Cierre",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 429: Cierre IMABI 429",
@@ -83812,7 +87088,7 @@ var LESSONS = [
     "title": "IMABI 430: Cierre IMABI 430",
     "stage": "IMABI · Cierre",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 430: Cierre IMABI 430",
@@ -84030,7 +87306,7 @@ var LESSONS = [
     "title": "IMABI 431: Cierre IMABI 431",
     "stage": "IMABI · Cierre",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 431: Cierre IMABI 431",
@@ -84248,7 +87524,7 @@ var LESSONS = [
     "title": "IMABI 432: Cierre IMABI 432",
     "stage": "IMABI · Cierre",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 432: Cierre IMABI 432",
@@ -84466,7 +87742,7 @@ var LESSONS = [
     "title": "IMABI 433: Cierre IMABI 433",
     "stage": "IMABI · Cierre",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 433: Cierre IMABI 433",
@@ -84684,7 +87960,7 @@ var LESSONS = [
     "title": "IMABI 434: Cierre IMABI 434",
     "stage": "IMABI · Cierre",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 434: Cierre IMABI 434",
@@ -84902,7 +88178,7 @@ var LESSONS = [
     "title": "IMABI 435: Cierre IMABI 435",
     "stage": "IMABI · Cierre",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 435: Cierre IMABI 435",
@@ -85120,7 +88396,7 @@ var LESSONS = [
     "title": "IMABI 436: Cierre IMABI 436",
     "stage": "IMABI · Cierre",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 436: Cierre IMABI 436",
@@ -85338,7 +88614,7 @@ var LESSONS = [
     "title": "IMABI 437: Cierre IMABI 437",
     "stage": "IMABI · Cierre",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 437: Cierre IMABI 437",
@@ -85556,7 +88832,7 @@ var LESSONS = [
     "title": "IMABI 438: Cierre IMABI 438",
     "stage": "IMABI · Cierre",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 438: Cierre IMABI 438",
@@ -85774,7 +89050,7 @@ var LESSONS = [
     "title": "IMABI 439: Cierre IMABI 439",
     "stage": "IMABI · Cierre",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 439: Cierre IMABI 439",
@@ -85992,7 +89268,7 @@ var LESSONS = [
     "title": "IMABI 440: Cierre IMABI 440",
     "stage": "IMABI · Cierre",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 440: Cierre IMABI 440",
@@ -86210,7 +89486,7 @@ var LESSONS = [
     "title": "IMABI 441: Cierre IMABI 441",
     "stage": "IMABI · Cierre",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 441: Cierre IMABI 441",
@@ -86428,7 +89704,7 @@ var LESSONS = [
     "title": "IMABI 442: Cierre IMABI 442",
     "stage": "IMABI · Cierre",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 442: Cierre IMABI 442",
@@ -86646,7 +89922,7 @@ var LESSONS = [
     "title": "IMABI 443: Cierre IMABI 443",
     "stage": "IMABI · Cierre",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 443: Cierre IMABI 443",
@@ -86864,7 +90140,7 @@ var LESSONS = [
     "title": "IMABI 444: Cierre IMABI 444",
     "stage": "IMABI · Cierre",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 444: Cierre IMABI 444",
@@ -87082,7 +90358,7 @@ var LESSONS = [
     "title": "IMABI 445: Cierre IMABI 445",
     "stage": "IMABI · Cierre",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 445: Cierre IMABI 445",
@@ -87300,7 +90576,7 @@ var LESSONS = [
     "title": "IMABI 446: Cierre IMABI 446",
     "stage": "IMABI · Cierre",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 446: Cierre IMABI 446",
@@ -87518,7 +90794,7 @@ var LESSONS = [
     "title": "IMABI 447: Cierre IMABI 447",
     "stage": "IMABI · Cierre",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 447: Cierre IMABI 447",
@@ -87736,7 +91012,7 @@ var LESSONS = [
     "title": "IMABI 448: Cierre IMABI 448",
     "stage": "IMABI · Cierre",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 448: Cierre IMABI 448",
@@ -87954,7 +91230,7 @@ var LESSONS = [
     "title": "IMABI 449: Cierre IMABI 449",
     "stage": "IMABI · Cierre",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 449: Cierre IMABI 449",
@@ -88172,7 +91448,7 @@ var LESSONS = [
     "title": "IMABI 450: Cierre IMABI 450",
     "stage": "IMABI · Cierre",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "IMABI 450: Cierre IMABI 450",
@@ -88390,7 +91666,7 @@ var LESSONS = [
     "title": "Classical 01: Clásico 1",
     "stage": "Classical",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "Classical 01: Clásico 1",
@@ -88608,7 +91884,7 @@ var LESSONS = [
     "title": "Classical 02: Clásico 2",
     "stage": "Classical",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "Classical 02: Clásico 2",
@@ -88826,7 +92102,7 @@ var LESSONS = [
     "title": "Classical 03: Clásico 3",
     "stage": "Classical",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "Classical 03: Clásico 3",
@@ -89044,7 +92320,7 @@ var LESSONS = [
     "title": "Classical 04: Clásico 4",
     "stage": "Classical",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "Classical 04: Clásico 4",
@@ -89262,7 +92538,7 @@ var LESSONS = [
     "title": "Classical 05: Clásico 5",
     "stage": "Classical",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "Classical 05: Clásico 5",
@@ -89480,7 +92756,7 @@ var LESSONS = [
     "title": "Classical 06: Clásico 6",
     "stage": "Classical",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "Classical 06: Clásico 6",
@@ -89698,7 +92974,7 @@ var LESSONS = [
     "title": "Classical 07: Clásico 7",
     "stage": "Classical",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "Classical 07: Clásico 7",
@@ -89916,7 +93192,7 @@ var LESSONS = [
     "title": "Classical 08: Clásico 8",
     "stage": "Classical",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "Classical 08: Clásico 8",
@@ -90134,7 +93410,7 @@ var LESSONS = [
     "title": "Classical 09: Clásico 9",
     "stage": "Classical",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "Classical 09: Clásico 9",
@@ -90352,7 +93628,7 @@ var LESSONS = [
     "title": "Classical 10: Clásico 10",
     "stage": "Classical",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "Classical 10: Clásico 10",
@@ -90570,7 +93846,7 @@ var LESSONS = [
     "title": "Classical 11: Clásico 11",
     "stage": "Classical",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "Classical 11: Clásico 11",
@@ -90788,7 +94064,7 @@ var LESSONS = [
     "title": "Classical 12: Clásico 12",
     "stage": "Classical",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "Classical 12: Clásico 12",
@@ -91006,7 +94282,7 @@ var LESSONS = [
     "title": "Classical 13: Clásico 13",
     "stage": "Classical",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "Classical 13: Clásico 13",
@@ -91224,7 +94500,7 @@ var LESSONS = [
     "title": "Classical 14: Clásico 14",
     "stage": "Classical",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "Classical 14: Clásico 14",
@@ -91442,7 +94718,7 @@ var LESSONS = [
     "title": "Classical 15: Clásico 15",
     "stage": "Classical",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "Classical 15: Clásico 15",
@@ -91660,7 +94936,7 @@ var LESSONS = [
     "title": "Classical 16: Clásico 16",
     "stage": "Classical",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "Classical 16: Clásico 16",
@@ -91878,7 +95154,7 @@ var LESSONS = [
     "title": "Classical 17: Clásico 17",
     "stage": "Classical",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "Classical 17: Clásico 17",
@@ -92096,7 +95372,7 @@ var LESSONS = [
     "title": "Classical 18: Clásico 18",
     "stage": "Classical",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "Classical 18: Clásico 18",
@@ -92314,7 +95590,7 @@ var LESSONS = [
     "title": "Classical 19: Clásico 19",
     "stage": "Classical",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "Classical 19: Clásico 19",
@@ -92532,7 +95808,7 @@ var LESSONS = [
     "title": "Classical 20: Clásico 20",
     "stage": "Classical",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "Classical 20: Clásico 20",
@@ -92750,7 +96026,7 @@ var LESSONS = [
     "title": "Classical 21: Clásico 21",
     "stage": "Classical",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "Classical 21: Clásico 21",
@@ -92968,7 +96244,7 @@ var LESSONS = [
     "title": "Classical 22: Clásico 22",
     "stage": "Classical",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "Classical 22: Clásico 22",
@@ -93186,7 +96462,7 @@ var LESSONS = [
     "title": "Classical 23: Clásico 23",
     "stage": "Classical",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "Classical 23: Clásico 23",
@@ -93404,7 +96680,7 @@ var LESSONS = [
     "title": "Classical 24: Clásico 24",
     "stage": "Classical",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "Classical 24: Clásico 24",
@@ -93622,7 +96898,7 @@ var LESSONS = [
     "title": "Classical 25: Clásico 25",
     "stage": "Classical",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "Classical 25: Clásico 25",
@@ -93840,7 +97116,7 @@ var LESSONS = [
     "title": "Classical 26: Clásico 26",
     "stage": "Classical",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "Classical 26: Clásico 26",
@@ -94058,7 +97334,7 @@ var LESSONS = [
     "title": "Classical 27: Clásico 27",
     "stage": "Classical",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "Classical 27: Clásico 27",
@@ -94276,7 +97552,7 @@ var LESSONS = [
     "title": "Classical 28: Clásico 28",
     "stage": "Classical",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "Classical 28: Clásico 28",
@@ -94494,7 +97770,7 @@ var LESSONS = [
     "title": "Classical 29: Clásico 29",
     "stage": "Classical",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "Classical 29: Clásico 29",
@@ -94712,7 +97988,7 @@ var LESSONS = [
     "title": "Classical 30: Clásico 30",
     "stage": "Classical",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "Classical 30: Clásico 30",
@@ -94930,7 +98206,7 @@ var LESSONS = [
     "title": "Classical 31: Clásico 31",
     "stage": "Classical",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "Classical 31: Clásico 31",
@@ -95148,7 +98424,7 @@ var LESSONS = [
     "title": "Classical 32: Clásico 32",
     "stage": "Classical",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "Classical 32: Clásico 32",
@@ -95366,7 +98642,7 @@ var LESSONS = [
     "title": "Classical 33: Clásico 33",
     "stage": "Classical",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "Classical 33: Clásico 33",
@@ -95584,7 +98860,7 @@ var LESSONS = [
     "title": "Classical 34: Clásico 34",
     "stage": "Classical",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "Classical 34: Clásico 34",
@@ -95802,7 +99078,7 @@ var LESSONS = [
     "title": "Classical 35: Clásico 35",
     "stage": "Classical",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "Classical 35: Clásico 35",
@@ -96020,7 +99296,7 @@ var LESSONS = [
     "title": "Classical 36: Clásico 36",
     "stage": "Classical",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "Classical 36: Clásico 36",
@@ -96238,7 +99514,7 @@ var LESSONS = [
     "title": "Okinawan 01: Script",
     "stage": "Classical",
     "minutes": 8,
-    "level": "imabi",
+    "level": "n5",
     "teach": [
       {
         "heading": "Okinawan 01: Script",
