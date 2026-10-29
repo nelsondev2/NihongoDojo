@@ -1,4 +1,4 @@
-/* NihongoDojo N5. WexDC Clarity 3.0 + IMABI 17-26 */
+/* NihongoDojo N5. WexDC Clarity 3.0 + IMABI 27-37 */
 (function (root) {
     "use strict";
     var data = {
@@ -76076,6 +76076,1146 @@
         "listening_puro_cantidad": 2,
         "confianza": 9
       }
+    },
+    {
+      "id": "l-imabi-028",
+      "title": "IMABI 28: の I — posesión y descripción 私の本",
+      "stage": "IMABI · Beginners I",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 28: の I — posesión y descripción 私の本",
+          "text": "の une dos nombres: AのB = B de A. 私の本 (mi libro), 日本の車 (coche japonés), 緑のカバン (bolso verde).",
+          "examples": [
+            {
+              "jp": "これは私の本です。",
+              "kana": "これはわたしのほんです。",
+              "es": "Este es mi libro."
+            },
+            {
+              "jp": "あれは日本の車です。",
+              "kana": "あれはにほんのくるまです。",
+              "es": "Aquello es un coche japonés."
+            },
+            {
+              "jp": "緑のカバンが好きです。",
+              "kana": "みどりのかばんがすきです。",
+              "es": "Me gusta el bolso verde."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Te dicen 私本 y no suena japonés. ¿Dónde va の? Sin の no marcas posesión ni tipo."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "の es el pegamento entre nombres: AのB conecta B a A. Es posesión (私の本 = mi libro), origen/tipo (日本の車 = coche de Japón), descripción adjetival (緑のカバン = bolso verde).\n\nObjetivo: usar AのB sin invertir el orden español (al revés que español).\n\n🧩 Fórmula: 【A の B】 → modifica B con A\n- 私 (yo) の 本 (libro) = mi libro (no 私本)\n- 日本 (Japón) の 車 (coche) = coche japonés\n- 緑 (verde) の カバン (bolso) = bolso verde\n\nPiensa en bloques: el que está ANTES de の describe al que está DESPUÉS. Al revés que español.\n\n👣 Cómo construirlo (3 pasos):\n1) ¿Qué poseedor/descriptor? → A (私, 日本, 緑)\n2) Añade の entre ambos: AのB\n3) Cierra con は/が/を: 私の本は新しいです, 日本の車が好きです\n\n⚖️ Tabla の I:\n| Tipo | Patrón | Ejemplo | Traducción |\n|---|---|---|---|\n| Posesión | Personaの物 | 私の本 | mi libro |\n| Origen | Lugarの物 | 日本の車 | coche japonés |\n| Atributo | Sustの物 | 緑のカバン | bolso verde |\n| Cadena | AのBのC | 私の友達の車 | coche de mi amigo |\n\n💡 Ejemplos desglosados:\n1) これは私の本です。 (これはわたしのほんです。) — “Este es mi libro.” → これ(esto) + は + 私の本(→ 私の + 本).\n2) あれは日本の車です。 (あれはにほんのくるまです。) — “Aquello es coche japonés.” → あれ + は + 日本の車(→ 日本の + 車).\n3) 緑のカバンが好きです。 (みどりのかばんがすきです。) — “Me gusta el bolso verde.” → 緑のカバン(→ 緑の + カバン) + が + 好きです.\n\n🔑 Mini-resumen:\n□ AのB: A describe a B, orden inverso al español\n□ Nunca 私本, siempre 私の本\n□ Se puede encadenar: 私の友達の車\n\n❌ Error 90%: decir 私は本です para “mi libro” (significa “yo soy un libro”). Para posesión siempre 私の本です. Confundir の (posesión) con は/が (tema/sujeto).\n\n💬 Truco offline: señala 3 cosas y di 私の○○, あなたの○○, あの人の○○ 3×. Active recall. ¿Por qué 5 ítems? Domina 2 hoy, resto SRS.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Repite en voz alta marcando la partícula para anclar ritmo. En Cuba practica señalando objetos reales: mi libro, tu libro, su libro. Repasa el ejemplo en voz alta y crea tu propia frase.",
+          "palabras": 407
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "これは私の本です。",
+              "furigana": "これはわたしのほんです。",
+              "romaji": "kore wa watashi no hon desu.",
+              "es": "Este es mi libro.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "あれは日本の車です。",
+              "furigana": "あれはにほんのくるまです。",
+              "romaji": "are wa nihon no kuruma desu.",
+              "es": "Aquello es un coche japonés.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "緑のカバンが好きです。",
+              "furigana": "みどりのかばんがすきです。",
+              "romaji": "midori no kaban ga suki desu.",
+              "es": "Me gusta el bolso verde.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "これは私の本です。",
+              "furigana": "これはわたしのほんです。",
+              "es": "Este es mi libro.",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha (texto oculto) y elige.",
+              "respuesta": "これは私の本です。 — Este es mi libro."
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "あれは日本の車です。",
+              "furigana": "あれはにほんのくるまです。",
+              "es": "Aquello es un coche japonés.",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "あれは日本の車です。 — Aquello es un coche japonés."
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "これは私の本です。",
+              "furigana": "これはわたしのほんです。",
+              "es": "Este es mi libro.",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: 'Me gusta el bolso verde.'",
+              "respuesta": "緑のカバンが好きです。",
+              "jp": "緑のカバンが好きです。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: omitir の → 私本, 日本車 sin の (solo compuestos lexicalizados llevan a veces). Para aprendiz, siempre の. Otro: 私は本 para 'mi libro' — es 'yo soy libro'."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: AのB posesión/tipo. Próxima: て afirmativo para unir frases. Di 3 veces: これは私の本です。"
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Te dicen 私本 y no suena japonés. ¿Dónde va の? Sin の no marcas posesión ni tipo."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "の es el pegamento entre nombres: AのB conecta B a A. Es posesión (私の本 = mi libro), origen/tipo (日本の車 = coche de Japón), descripción adjetival (緑のカバン = bolso verde).\n\nObjetivo: usar AのB sin invertir el orden español (al revés que español).\n\n🧩 Fórmula: 【A の B】 → modifica B con A\n- 私 (yo) の 本 (libro) = mi libro (no 私本)\n- 日本 (Japón) の 車 (coche) = coche japonés\n- 緑 (verde) の カバン (bolso) = bolso verde\n\nPiensa en bloques: el que está ANTES de の describe al que está DESPUÉS. Al revés que español.\n\n👣 Cómo construirlo (3 pasos):\n1) ¿Qué poseedor/descriptor? → A (私, 日本, 緑)\n2) Añade の entre ambos: AのB\n3) Cierra con は/が/を: 私の本は新しいです, 日本の車が好きです\n\n⚖️ Tabla の I:\n| Tipo | Patrón | Ejemplo | Traducción |\n|---|---|---|---|\n| Posesión | Personaの物 | 私の本 | mi libro |\n| Origen | Lugarの物 | 日本の車 | coche japonés |\n| Atributo | Sustの物 | 緑のカバン | bolso verde |\n| Cadena | AのBのC | 私の友達の車 | coche de mi amigo |\n\n💡 Ejemplos desglosados:\n1) これは私の本です。 (これはわたしのほんです。) — “Este es mi libro.” → これ(esto) + は + 私の本(→ 私の + 本).\n2) あれは日本の車です。 (あれはにほんのくるまです。) — “Aquello es coche japonés.” → あれ + は + 日本の車(→ 日本の + 車).\n3) 緑のカバンが好きです。 (みどりのかばんがすきです。) — “Me gusta el bolso verde.” → 緑のカバン(→ 緑の + カバン) + が + 好きです.\n\n🔑 Mini-resumen:\n□ AのB: A describe a B, orden inverso al español\n□ Nunca 私本, siempre 私の本\n□ Se puede encadenar: 私の友達の車\n\n❌ Error 90%: decir 私は本です para “mi libro” (significa “yo soy un libro”). Para posesión siempre 私の本です. Confundir の (posesión) con は/が (tema/sujeto).\n\n💬 Truco offline: señala 3 cosas y di 私の○○, あなたの○○, あの人の○○ 3×. Active recall. ¿Por qué 5 ítems? Domina 2 hoy, resto SRS.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Repite en voz alta marcando la partícula para anclar ritmo. En Cuba practica señalando objetos reales: mi libro, tu libro, su libro. Repasa el ejemplo en voz alta y crea tu propia frase.",
+          "palabras": 407
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "これは私の本です。",
+              "furigana": "これはわたしのほんです。",
+              "romaji": "kore wa watashi no hon desu.",
+              "es": "Este es mi libro.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "あれは日本の車です。",
+              "furigana": "あれはにほんのくるまです。",
+              "romaji": "are wa nihon no kuruma desu.",
+              "es": "Aquello es un coche japonés.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "緑のカバンが好きです。",
+              "furigana": "みどりのかばんがすきです。",
+              "romaji": "midori no kaban ga suki desu.",
+              "es": "Me gusta el bolso verde.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "これは私の本です。",
+              "furigana": "これはわたしのほんです。",
+              "es": "Este es mi libro.",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha (texto oculto) y elige.",
+              "respuesta": "これは私の本です。 — Este es mi libro."
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "あれは日本の車です。",
+              "furigana": "あれはにほんのくるまです。",
+              "es": "Aquello es un coche japonés.",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "あれは日本の車です。 — Aquello es un coche japonés."
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "これは私の本です。",
+              "furigana": "これはわたしのほんです。",
+              "es": "Este es mi libro.",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: 'Me gusta el bolso verde.'",
+              "respuesta": "緑のカバンが好きです。",
+              "jp": "緑のカバンが好きです。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: omitir の → 私本, 日本車 sin の (solo compuestos lexicalizados llevan a veces). Para aprendiz, siempre の. Otro: 私は本 para 'mi libro' — es 'yo soy libro'."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: AのB posesión/tipo. Próxima: て afirmativo para unir frases. Di 3 veces: これは私の本です。"
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 407,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-034",
+      "title": "IMABI 34: Partícula final て — おい,ね,よ con て",
+      "stage": "IMABI · Beginners I",
+      "minutes": 7,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 34: Partícula final て — おい,ね,よ con て",
+          "text": "て final suaviza órdenes/peticiones: 見て (mira, venga), 待って (espera), ちょっと見て (míralo un momento). No es conjunción, es tono.",
+          "examples": [
+            {
+              "jp": "ちょっと待って。",
+              "kana": "ちょっとまって。",
+              "es": "Espera un momento."
+            },
+            {
+              "jp": "見て、この写真。",
+              "kana": "みて、このしゃしん。",
+              "es": "Mira esta foto."
+            },
+            {
+              "jp": "頑張って。",
+              "kana": "がんばって。",
+              "es": "¡Ánimo! (Esfuérzate)."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Oyes 見て y 待って y parecen て-form a medias. ¿Es orden? ¿Es petición amable? Sin て final no pillas el tono."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "て como partícula final convierte el verbo en una interjección blanda: invita, llama atención, anima. No une frases (eso es て conjuntivo IMABI 33), solo cierra con feeling.\n\nObjetivo: usar Verbo-て solo para llamar o pedir suavemente.\n\n🧩 Fórmula: 【Verbo て-form solo】 → 見て, 待って, 頑張って, 聞いて\nVariantes: てね (confirmación dulce), てよ (énfasis), てさ (casual)\n- 見て (mira, oye)\n- ちょっと待って (espera un poco — petición)\n- 見てよ (¡mira pues!)\n\nPiensa en bloques: て deja la frase abierta, esperando reacción.\n\n👣 Cómo construirlo (3 pasos):\n1) Pon verbo en て-form: 見る→見て, 待つ→待って, 頑張る→頑張って\n2) Úsalo solo, sin nada después: 見て。\n3) Añade tono: ね/よ/さ si quieres matizar: 見てね, 待ってよ\n\n⚖️ Tabla て final:\n| Base | て-form | Como final | Matiz |\n|---|---|---|---|\n| 見る | 見て | 見て、この写真 | “Mira” (llamada) |\n| 待つ | 待って | ちょっと待って | “Espera” (suave) |\n| 頑張る | 頑張って | 頑張ってね | “Ánimo” |\n| 聞く | 聞いて | 聞いてよ | “Escucha” (insiste) |\n\n💡 Ejemplos desglosados:\n1) ちょっと待って。 (ちょっとまって。) — “Espera un momento.” → ちょっと(un poco) + 待って(espera, て-form).\n2) 見て、この写真。 (みて、このしゃしん。) — “Mira esta foto.” → 見て(mira) + この写真.\n3) 頑張って。 (がんばって。) — “¡Ánimo!” → 頑張って(esfuérzate, forma fija).\n\n🔑 Mini-resumen:\n□ て solo = petición/llamada blanda, no orden militar (eso es ～なさい/～ろ)\n□ No confunda con て que une: 食べて寝る vs 食べて。(uno une, otro cierra)\n□ Con ね/よ/ねぇ suaviza más: 待ってね\n\n❌ Error 90%: usar て final en keigo con jefe (muy casual). Usa 少々お待ちください. て final es entre pares/amigos/familia.\n\n💬 Truco offline: di 見て→見てね→見てよ cambiando tono 3×. Active recall. ¿Por qué 5 ítems? Domina 2 hoy, resto SRS.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Repite en voz alta marcando la partícula para anclar ritmo. En Cuba practica señalando objetos reales: mi libro, tu libro, su libro. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase.",
+          "palabras": 408
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "ちょっと待って。",
+              "furigana": "ちょっとまって。",
+              "romaji": "chotto matte.",
+              "es": "Espera un momento.",
+              "pitch_accent": "Atamadaka",
+              "rate": 0.9
+            },
+            {
+              "jp": "見て、この写真。",
+              "furigana": "みて、このしゃしん。",
+              "romaji": "mite, kono shashin.",
+              "es": "Mira esta foto.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "頑張って。",
+              "furigana": "がんばって。",
+              "romaji": "ganbatte.",
+              "es": "¡Ánimo!",
+              "pitch_accent": "Heiban",
+              "rate": 0.9
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "ちょっと待って。",
+              "furigana": "ちょっとまって。",
+              "es": "Espera un momento.",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha (texto oculto) y elige.",
+              "respuesta": "ちょっと待って。 — Espera un momento."
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "見て、この写真。",
+              "furigana": "みて、このしゃしん。",
+              "es": "Mira esta foto.",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "見て、この写真。 — Mira esta foto."
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "ちょっと待って。",
+              "furigana": "ちょっとまって。",
+              "es": "Espera un momento.",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: '¡Mira esta foto!'",
+              "respuesta": "見て、この写真。",
+              "jp": "見て、この写真。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: confundir て final (petición) con て conjuntivo (y luego). Si hay verbo después, es conjunción: 食べて飲む. Si termina ahí, es final: 食べて。"
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: て final para llamar suavemente. Próxima: なくて/ないで negativo con て. Di 3 veces: ちょっと待って。"
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Oyes 見て y 待って y parecen て-form a medias. ¿Es orden? ¿Es petición amable? Sin て final no pillas el tono."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "て como partícula final convierte el verbo en una interjección blanda: invita, llama atención, anima. No une frases (eso es て conjuntivo IMABI 33), solo cierra con feeling.\n\nObjetivo: usar Verbo-て solo para llamar o pedir suavemente.\n\n🧩 Fórmula: 【Verbo て-form solo】 → 見て, 待って, 頑張って, 聞いて\nVariantes: てね (confirmación dulce), てよ (énfasis), てさ (casual)\n- 見て (mira, oye)\n- ちょっと待って (espera un poco — petición)\n- 見てよ (¡mira pues!)\n\nPiensa en bloques: て deja la frase abierta, esperando reacción.\n\n👣 Cómo construirlo (3 pasos):\n1) Pon verbo en て-form: 見る→見て, 待つ→待って, 頑張る→頑張って\n2) Úsalo solo, sin nada después: 見て。\n3) Añade tono: ね/よ/さ si quieres matizar: 見てね, 待ってよ\n\n⚖️ Tabla て final:\n| Base | て-form | Como final | Matiz |\n|---|---|---|---|\n| 見る | 見て | 見て、この写真 | “Mira” (llamada) |\n| 待つ | 待って | ちょっと待って | “Espera” (suave) |\n| 頑張る | 頑張って | 頑張ってね | “Ánimo” |\n| 聞く | 聞いて | 聞いてよ | “Escucha” (insiste) |\n\n💡 Ejemplos desglosados:\n1) ちょっと待って。 (ちょっとまって。) — “Espera un momento.” → ちょっと(un poco) + 待って(espera, て-form).\n2) 見て、この写真。 (みて、このしゃしん。) — “Mira esta foto.” → 見て(mira) + この写真.\n3) 頑張って。 (がんばって。) — “¡Ánimo!” → 頑張って(esfuérzate, forma fija).\n\n🔑 Mini-resumen:\n□ て solo = petición/llamada blanda, no orden militar (eso es ～なさい/～ろ)\n□ No confunda con て que une: 食べて寝る vs 食べて。(uno une, otro cierra)\n□ Con ね/よ/ねぇ suaviza más: 待ってね\n\n❌ Error 90%: usar て final en keigo con jefe (muy casual). Usa 少々お待ちください. て final es entre pares/amigos/familia.\n\n💬 Truco offline: di 見て→見てね→見てよ cambiando tono 3×. Active recall. ¿Por qué 5 ítems? Domina 2 hoy, resto SRS.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Repite en voz alta marcando la partícula para anclar ritmo. En Cuba practica señalando objetos reales: mi libro, tu libro, su libro. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase.",
+          "palabras": 408
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "ちょっと待って。",
+              "furigana": "ちょっとまって。",
+              "romaji": "chotto matte.",
+              "es": "Espera un momento.",
+              "pitch_accent": "Atamadaka",
+              "rate": 0.9
+            },
+            {
+              "jp": "見て、この写真。",
+              "furigana": "みて、このしゃしん。",
+              "romaji": "mite, kono shashin.",
+              "es": "Mira esta foto.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "頑張って。",
+              "furigana": "がんばって。",
+              "romaji": "ganbatte.",
+              "es": "¡Ánimo!",
+              "pitch_accent": "Heiban",
+              "rate": 0.9
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "ちょっと待って。",
+              "furigana": "ちょっとまって。",
+              "es": "Espera un momento.",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha (texto oculto) y elige.",
+              "respuesta": "ちょっと待って。 — Espera un momento."
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "見て、この写真。",
+              "furigana": "みて、このしゃしん。",
+              "es": "Mira esta foto.",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "見て、この写真。 — Mira esta foto."
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "ちょっと待って。",
+              "furigana": "ちょっとまって。",
+              "es": "Espera un momento.",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: '¡Mira esta foto!'",
+              "respuesta": "見て、この写真。",
+              "jp": "見て、この写真。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: confundir て final (petición) con て conjuntivo (y luego). Si hay verbo después, es conjunción: 食べて飲む. Si termina ahí, es final: 食べて。"
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: て final para llamar suavemente. Próxima: なくて/ないで negativo con て. Di 3 veces: ちょっと待って。"
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 408,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-035",
+      "title": "IMABI 35: て negativo — なくて/ないで",
+      "stage": "IMABI · Beginners I",
+      "minutes": 9,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 35: て negativo — なくて/ないで",
+          "text": "Negativo con て: 食べなくて (no comer y...), 食べないで (sin comer / no comas). なくて une razón, ないで es 'sin' o petición negativa.",
+          "examples": [
+            {
+              "jp": "宿題をしなくて、遊びました。",
+              "kana": "しゅくだいをしなくて、あそびました。",
+              "es": "No hice deberes y jugué."
+            },
+            {
+              "jp": "朝ごはんを食べないで行った。",
+              "kana": "あさごはんをたべないでいった。",
+              "es": "Fui sin desayunar."
+            },
+            {
+              "jp": "食べないでください。",
+              "kana": "たべないでください。",
+              "es": "Por favor no comas."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Quieres decir “sin hacer” o “no hagas” y dudas: ¿なくて o ないで? No es intercambiable; uno une excusas, otro marca ausencia."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "～なくて y ～ないで son las dos て negativas. Parecen iguales pero IMABI 35 distingue: なくて es causa/conexión (no hice y...), ないで es medio/ausencia (sin hacer) y petición.\n\nObjetivo: elegir なくて vs ないで según si expresas causa o “sin”.\n\n🧩 Fórmula:\n- 【ない → なくて】 causa: 安くなくて買わなかった (no era barato y no compré)\n- 【ない → ないで】 sin: 食べないで寝た (dormí sin comer)\n- 【ないでください】 petición negativa: 触らないでください (no toque)\n\nPiensa en bloques: なくて = no y entonces; ないで = sin / no hagas.\n\n👣 Cómo construirlo (3 pasos):\n1) Haz negativo en ない: する→しない, 食べる→食べない\n2) ¿Unes causa? → なくて: しなくて (no hacer y)\n3) ¿“Sin” o orden negativa? → ないで: 食べないで (sin comer), 食べないでください (no comas por favor)\n\n⚖️ Tabla て negativo:\n| Positivo て | なくて (causa) | ないで (sin/petición) |\n|---|---|---|\n| 食べて | 食べなくて | 食べないで |\n| して | しなくて | しないで |\n| 行って | 行かなくて | 行かないで |\n\n💡 Ejemplos desglosados:\n1) 宿題をしなくて、遊びました。 (しゅくだいをしなくて、あそびました。) — “No hice deberes y jugué.” → しなくて(→ しない + くて) + 遊びました.\n2) 朝ごはんを食べないで行った。 (あさごはんをたべないでいった。) — “Fui sin desayunar.” → 食べないで(→ 食べない + で) + 行った.\n3) 食べないでください。 (たべないでください。) — “No comas por favor.” → 食べないで + ください (petición negativa).\n\n🔑 Mini-resumen:\n□ なくて = no ～ y (causa/conexión neutra)\n□ ないで = sin ～ / no ～ por favor (ausencia/petición)\n□ Petición fija: ～ないでください (la más usada)\n\n❌ Error 90%: usar なくてください (no existe). Es siempre ないでください. Y no uses なくて para “sin”: 食べなくて寝た suena causa rara; di 食べないで寝た.\n\n💬 Truco offline: di pares: しなくて→次に○○した (causa), しないで→行った (sin). Active recall. ¿Por qué 5 ítems? Domina 2 hoy, resto SRS.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Repite en voz alta marcando la partícula para anclar ritmo. En Cuba practica señalando objetos reales: mi libro, tu libro, su libro. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase.",
+          "palabras": 409
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "宿題をしなくて、遊びました。",
+              "furigana": "しゅくだいをしなくて、あそびました。",
+              "romaji": "shukudai wo shinakute, asobimashita.",
+              "es": "No hice deberes y jugué.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "朝ごはんを食べないで行った。",
+              "furigana": "あさごはんをたべないでいった。",
+              "romaji": "asagohan wo tabenaide itta.",
+              "es": "Fui sin desayunar.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "食べないでください。",
+              "furigana": "たべないでください。",
+              "romaji": "tabenaide kudasai.",
+              "es": "Por favor no comas.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "宿題をしなくて、遊びました。",
+              "furigana": "しゅくだいをしなくて、あそびました。",
+              "es": "No hice deberes y jugué.",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha (texto oculto) y elige.",
+              "respuesta": "宿題をしなくて、遊びました。 — No hice deberes y jugué."
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "朝ごはんを食べないで行った。",
+              "furigana": "あさごはんをたべないでいった。",
+              "es": "Fui sin desayunar.",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "朝ごはんを食べないで行った。 — Fui sin desayunar."
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "宿題をしなくて、遊びました。",
+              "furigana": "しゅくだいをしなくて、あそびました。",
+              "es": "No hice deberes y jugué.",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: 'Por favor no comas.'",
+              "respuesta": "食べないでください。",
+              "jp": "食べないでください。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: なくて vs ないで intercambiables — no lo son. なくて suena causa; para 'sin' siempre ないで. Y la petición es siempre ないでください, nunca なくてください."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: なくて causa vs ないで sin/petición. Próxima: ている progresivo. Di 3 veces: 食べないでください。"
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Quieres decir “sin hacer” o “no hagas” y dudas: ¿なくて o ないで? No es intercambiable; uno une excusas, otro marca ausencia."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "～なくて y ～ないで son las dos て negativas. Parecen iguales pero IMABI 35 distingue: なくて es causa/conexión (no hice y...), ないで es medio/ausencia (sin hacer) y petición.\n\nObjetivo: elegir なくて vs ないで según si expresas causa o “sin”.\n\n🧩 Fórmula:\n- 【ない → なくて】 causa: 安くなくて買わなかった (no era barato y no compré)\n- 【ない → ないで】 sin: 食べないで寝た (dormí sin comer)\n- 【ないでください】 petición negativa: 触らないでください (no toque)\n\nPiensa en bloques: なくて = no y entonces; ないで = sin / no hagas.\n\n👣 Cómo construirlo (3 pasos):\n1) Haz negativo en ない: する→しない, 食べる→食べない\n2) ¿Unes causa? → なくて: しなくて (no hacer y)\n3) ¿“Sin” o orden negativa? → ないで: 食べないで (sin comer), 食べないでください (no comas por favor)\n\n⚖️ Tabla て negativo:\n| Positivo て | なくて (causa) | ないで (sin/petición) |\n|---|---|---|\n| 食べて | 食べなくて | 食べないで |\n| して | しなくて | しないで |\n| 行って | 行かなくて | 行かないで |\n\n💡 Ejemplos desglosados:\n1) 宿題をしなくて、遊びました。 (しゅくだいをしなくて、あそびました。) — “No hice deberes y jugué.” → しなくて(→ しない + くて) + 遊びました.\n2) 朝ごはんを食べないで行った。 (あさごはんをたべないでいった。) — “Fui sin desayunar.” → 食べないで(→ 食べない + で) + 行った.\n3) 食べないでください。 (たべないでください。) — “No comas por favor.” → 食べないで + ください (petición negativa).\n\n🔑 Mini-resumen:\n□ なくて = no ～ y (causa/conexión neutra)\n□ ないで = sin ～ / no ～ por favor (ausencia/petición)\n□ Petición fija: ～ないでください (la más usada)\n\n❌ Error 90%: usar なくてください (no existe). Es siempre ないでください. Y no uses なくて para “sin”: 食べなくて寝た suena causa rara; di 食べないで寝た.\n\n💬 Truco offline: di pares: しなくて→次に○○した (causa), しないで→行った (sin). Active recall. ¿Por qué 5 ítems? Domina 2 hoy, resto SRS.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Repite en voz alta marcando la partícula para anclar ritmo. En Cuba practica señalando objetos reales: mi libro, tu libro, su libro. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase.",
+          "palabras": 409
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "宿題をしなくて、遊びました。",
+              "furigana": "しゅくだいをしなくて、あそびました。",
+              "romaji": "shukudai wo shinakute, asobimashita.",
+              "es": "No hice deberes y jugué.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "朝ごはんを食べないで行った。",
+              "furigana": "あさごはんをたべないでいった。",
+              "romaji": "asagohan wo tabenaide itta.",
+              "es": "Fui sin desayunar.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "食べないでください。",
+              "furigana": "たべないでください。",
+              "romaji": "tabenaide kudasai.",
+              "es": "Por favor no comas.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "宿題をしなくて、遊びました。",
+              "furigana": "しゅくだいをしなくて、あそびました。",
+              "es": "No hice deberes y jugué.",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha (texto oculto) y elige.",
+              "respuesta": "宿題をしなくて、遊びました。 — No hice deberes y jugué."
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "朝ごはんを食べないで行った。",
+              "furigana": "あさごはんをたべないでいった。",
+              "es": "Fui sin desayunar.",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "朝ごはんを食べないで行った。 — Fui sin desayunar."
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "宿題をしなくて、遊びました。",
+              "furigana": "しゅくだいをしなくて、あそびました。",
+              "es": "No hice deberes y jugué.",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: 'Por favor no comas.'",
+              "respuesta": "食べないでください。",
+              "jp": "食べないでください。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: なくて vs ないで intercambiables — no lo son. なくて suena causa; para 'sin' siempre ないで. Y la petición es siempre ないでください, nunca なくてください."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: なくて causa vs ないで sin/petición. Próxima: ている progresivo. Di 3 veces: 食べないでください。"
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 409,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-036",
+      "title": "IMABI 36: ～ている — progresivo y resultado 雨が降っている",
+      "stage": "IMABI · Beginners I",
+      "minutes": 9,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 36: ～ている — progresivo y resultado 雨が降っている",
+          "text": "～ている: acción en curso (食べている = está comiendo) o estado resultante (知っている = sé, resultado de haber conocido).",
+          "examples": [
+            {
+              "jp": "今、ご飯を食べています。",
+              "kana": "いま、ごはんをたべています。",
+              "es": "Ahora estoy comiendo."
+            },
+            {
+              "jp": "雨が降っています。",
+              "kana": "あめがふっています。",
+              "es": "Está lloviendo."
+            },
+            {
+              "jp": "田中さんを知っていますか。",
+              "kana": "たなかさんをしっていますか。",
+              "es": "¿Conoces a Tanaka?"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Dices 知っています y te traducen “estoy sabiendo” literal y no cuadra. ¿Por qué ている a veces es “estoy -ando” y a veces es “ya sé”?"
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "～ている es el comodín N5: marca o acción en progreso o estado que queda tras la acción. Depende del verbo.\n\nObjetivo: formar て+いる y distinguir progresivo vs resultado.\n\n🧩 Fórmula: 【Verbo て-form + いる】 → 食べている, 降っている, 知っている\nCortés: ています (habla), Plano: てる (casual) → 食べてる\n- 食べている (progresivo: ahora mismo come)\n- 知っている (resultado: ya conozco y sigo conociendo)\n\nPiensa en bloques: て conecta la acción a “estar/haber quedado”.\n\n👣 Cómo construirlo (3 pasos):\n1) A て-form: 食べる→食べて, 降る→降って, 知る→知って\n2) Añade いる/います: 食べて + いる → 食べている\n3) ¿Verbo de acción puntual (知る, 結婚する) o duración (食べる, 降る)? → puntual = estado, duración = progreso\n\n⚖️ Tabla ～ている:\n| Verbo | て | +いる | Significado |\n|---|---|---|---|\n| 食べる | 食べて | 食べている | está comiendo (progreso) |\n| 降る | 降って | 降っている | está lloviendo (progreso) |\n| 知る | 知って | 知っている | sé (resultado de conocer) |\n| 開ける | 開けて | 開けている | está abierto (estado) |\n\n💡 Ejemplos desglosados:\n1) 今、ご飯を食べています。 (いま、ごはんをたべています。) — “Ahora estoy comiendo.” → 今 + ご飯を + 食べて(て-form de 食べる) + います.\n2) 雨が降っています。 (あめがふっています。) — “Está lloviendo.” → 雨が + 降って(て-form de 降る) + います.\n3) 田中さんを知っていますか。 (たなかさんをしっていますか。) — “¿Conoces a Tanaka?” → 田中さんを + 知って(て-form de 知る) + いますか.\n\n🔑 Mini-resumen:\n□ て+いる = en curso si el verbo dura (食べている), = estado si es puntual (知っている)\n□ Casual hablado: てる → 食べてる, 降ってる\n□ No confundas con てある (intencional) IMABI 37\n\n❌ Error 90%: traducir 知っている = “estoy conociendo” (suena proceso). Es “sé”. Y usar ている para hábito puro: mejor 習慣は présent, no siempre ている. En Cuba, piensa: ¿sigue pasando ahora? → ている.\n\n💬 Truco offline: di 今○○しています mirando lo que haces: 今本を読んでいます 3×. Active recall. ¿Por qué 5 ítems? Domina 2 hoy, resto SRS.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Repite en voz alta marcando la partícula para anclar ritmo. En Cuba practica señalando objetos reales: mi libro, tu libro, su libro. Repasa el ejemplo en voz alta y crea tu propia frase.",
+          "palabras": 406
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "今、ご飯を食べています。",
+              "furigana": "いま、ごはんをたべています。",
+              "romaji": "ima, gohan wo tabete imasu.",
+              "es": "Ahora estoy comiendo.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "雨が降っています。",
+              "furigana": "あめがふっています。",
+              "romaji": "ame ga futte imasu.",
+              "es": "Está lloviendo.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "田中さんを知っていますか。",
+              "furigana": "たなかさんをしっていますか。",
+              "romaji": "tanaka san wo shitte imasu ka.",
+              "es": "¿Conoces a Tanaka?",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "今、ご飯を食べています。",
+              "furigana": "いま、ごはんをたべています。",
+              "es": "Ahora estoy comiendo.",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha (texto oculto) y elige.",
+              "respuesta": "今、ご飯を食べています。 — Ahora estoy comiendo."
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "雨が降っています。",
+              "furigana": "あめがふっています。",
+              "es": "Está lloviendo.",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "雨が降っています。 — Está lloviendo."
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "今、ご飯を食べています。",
+              "furigana": "いま、ごはんをたべています。",
+              "es": "Ahora estoy comiendo.",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: '¿Conoces a Tanaka?'",
+              "respuesta": "田中さんを知っていますか。",
+              "jp": "田中さんを知っていますか。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: usar ている para todo hábito: 毎日走っている vs 毎日走る. Habitual simple usa diccionario/ます, no siempre ている. ている es ahora/resultado."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: て+いる progresivo/estado. Próxima: てある estado intencional. Di 3 veces: 雨が降っています。"
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Dices 知っています y te traducen “estoy sabiendo” literal y no cuadra. ¿Por qué ている a veces es “estoy -ando” y a veces es “ya sé”?"
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "～ている es el comodín N5: marca o acción en progreso o estado que queda tras la acción. Depende del verbo.\n\nObjetivo: formar て+いる y distinguir progresivo vs resultado.\n\n🧩 Fórmula: 【Verbo て-form + いる】 → 食べている, 降っている, 知っている\nCortés: ています (habla), Plano: てる (casual) → 食べてる\n- 食べている (progresivo: ahora mismo come)\n- 知っている (resultado: ya conozco y sigo conociendo)\n\nPiensa en bloques: て conecta la acción a “estar/haber quedado”.\n\n👣 Cómo construirlo (3 pasos):\n1) A て-form: 食べる→食べて, 降る→降って, 知る→知って\n2) Añade いる/います: 食べて + いる → 食べている\n3) ¿Verbo de acción puntual (知る, 結婚する) o duración (食べる, 降る)? → puntual = estado, duración = progreso\n\n⚖️ Tabla ～ている:\n| Verbo | て | +いる | Significado |\n|---|---|---|---|\n| 食べる | 食べて | 食べている | está comiendo (progreso) |\n| 降る | 降って | 降っている | está lloviendo (progreso) |\n| 知る | 知って | 知っている | sé (resultado de conocer) |\n| 開ける | 開けて | 開けている | está abierto (estado) |\n\n💡 Ejemplos desglosados:\n1) 今、ご飯を食べています。 (いま、ごはんをたべています。) — “Ahora estoy comiendo.” → 今 + ご飯を + 食べて(て-form de 食べる) + います.\n2) 雨が降っています。 (あめがふっています。) — “Está lloviendo.” → 雨が + 降って(て-form de 降る) + います.\n3) 田中さんを知っていますか。 (たなかさんをしっていますか。) — “¿Conoces a Tanaka?” → 田中さんを + 知って(て-form de 知る) + いますか.\n\n🔑 Mini-resumen:\n□ て+いる = en curso si el verbo dura (食べている), = estado si es puntual (知っている)\n□ Casual hablado: てる → 食べてる, 降ってる\n□ No confundas con てある (intencional) IMABI 37\n\n❌ Error 90%: traducir 知っている = “estoy conociendo” (suena proceso). Es “sé”. Y usar ている para hábito puro: mejor 習慣は présent, no siempre ている. En Cuba, piensa: ¿sigue pasando ahora? → ている.\n\n💬 Truco offline: di 今○○しています mirando lo que haces: 今本を読んでいます 3×. Active recall. ¿Por qué 5 ítems? Domina 2 hoy, resto SRS.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Repite en voz alta marcando la partícula para anclar ritmo. En Cuba practica señalando objetos reales: mi libro, tu libro, su libro. Repasa el ejemplo en voz alta y crea tu propia frase.",
+          "palabras": 406
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "今、ご飯を食べています。",
+              "furigana": "いま、ごはんをたべています。",
+              "romaji": "ima, gohan wo tabete imasu.",
+              "es": "Ahora estoy comiendo.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "雨が降っています。",
+              "furigana": "あめがふっています。",
+              "romaji": "ame ga futte imasu.",
+              "es": "Está lloviendo.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "田中さんを知っていますか。",
+              "furigana": "たなかさんをしっていますか。",
+              "romaji": "tanaka san wo shitte imasu ka.",
+              "es": "¿Conoces a Tanaka?",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "今、ご飯を食べています。",
+              "furigana": "いま、ごはんをたべています。",
+              "es": "Ahora estoy comiendo.",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha (texto oculto) y elige.",
+              "respuesta": "今、ご飯を食べています。 — Ahora estoy comiendo."
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "雨が降っています。",
+              "furigana": "あめがふっています。",
+              "es": "Está lloviendo.",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "雨が降っています。 — Está lloviendo."
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "今、ご飯を食べています。",
+              "furigana": "いま、ごはんをたべています。",
+              "es": "Ahora estoy comiendo.",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: '¿Conoces a Tanaka?'",
+              "respuesta": "田中さんを知っていますか。",
+              "jp": "田中さんを知っていますか。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: usar ている para todo hábito: 毎日走っている vs 毎日走る. Habitual simple usa diccionario/ます, no siempre ている. ている es ahora/resultado."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: て+いる progresivo/estado. Próxima: てある estado intencional. Di 3 veces: 雨が降っています。"
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 406,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-037",
+      "title": "IMABI 37: ～てある — estado con intención 窓が開けてある",
+      "stage": "IMABI · Beginners I",
+      "minutes": 9,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 37: ～てある — estado con intención 窓が開けてある",
+          "text": "～てある: alguien hizo algo a propósito y quedó así. 窓が開けてある (la ventana está abierta (alguien la abrió a propósito)). Vs 開いている (está abierta, no importa quién).",
+          "examples": [
+            {
+              "jp": "窓が開けてあります。",
+              "kana": "まどがあけてあります。",
+              "es": "La ventana está abierta (a propósito)."
+            },
+            {
+              "jp": "本が並べてあります。",
+              "kana": "ほんがならべてあります。",
+              "es": "Los libros están ordenados (alguien los ordenó)."
+            },
+            {
+              "jp": "電気がつけてあります。",
+              "kana": "でんきがつけてあります。",
+              "es": "La luz está encendida (a propósito)."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Ves 窓が開いている y 窓が開けてある y parecen “abierto” igual. ¿Por qué dos formas? Una borra al agente, la otra lo presume."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "～てある marca estado resultante de una acción intencional transitiva. Alguien abrió la ventana a propósito y sigue abierta. Con ～ている solo constatas estado; con ～てある enfatizas intención/preparación.\n\nObjetivo: formar Verbo transitivo て + ある y contrastarlo con ている.\n\n🧩 Fórmula: 【Verbo transitivo て-form + ある】 → 開ける→開けてある, 並べる→並べてある, つける→つけてある\nCortés: てあります, Plano: てある\n- 窓が開けてある (ventana abierta a propósito)\n- 本が並べてある (libros alineados a propósito)\n\nPiensa en bloques: て conecta la acción preparada a ある (existir).\n\n👣 Cómo construirlo (3 pasos):\n1) Solo con transitivos (abrir, poner, ordenar): 開ける, 並べる\n2) A て-form + ある: 開けて + ある → 開けてある\n3) Partícula が marca el objeto preparado: 窓が開けてある (no を, porque es estado)\n\n⚖️ Tabla ～ている vs ～てある:\n| Forma | Verbo | Ejemplo | Matiz |\n|---|---|---|---|\n| 開いている | 開く(vi) | 窓が開いている | está abierta (constatas) |\n| 開けてある | 開ける(vt) | 窓が開けてある | está abierta (alguien la abrió) |\n| ついている | つく | 電気がついている | luz encendida |\n| つけてある | つける | 電気がつけてある | luz encendida (preparado) |\n\n💡 Ejemplos desglosados:\n1) 窓が開けてあります。 (まどがあけてあります。) — “Ventana abierta (a propósito).” → 窓が + 開けて(て-form de 開ける) + あります.\n2) 本が並べてあります。 (ほんがならべてあります。) — “Libros están ordenados.” → 本が + 並べて(て-form) + あります.\n3) 電気がつけてあります。 (でんきがつけてあります。) — “Luz encendida (a propósito).” → 電気が + つけて + あります.\n\n🔑 Mini-resumen:\n□ てある solo transitivos + intención visible\n□ Partícula が para el estado: 窓が開けてある (no 窓を開けてある en estado; eso es acción)\n□ ている neutral, てある intencional/preparado\n\n❌ Error 90%: usar てある con intransitivos → 降ってある (mal, 降る es intransitivo). Di 降っている. Y usar を con estado: 窓を開けてある (acción: abrir ventana y dejarla), vs 窓が開けてある (estado).\n\n💬 Truco offline: mira tu cuarto y di 3 estados intencionales: 本が並べてある, 電気がつけてある, 窓が開けてある. Active recall. ¿Por qué 5 ítems? Domina 2 hoy, resto SRS.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Repite en voz alta marcando la partícula para anclar ritmo. En Cuba practica señalando objetos reales: mi libro, tu libro, su libro. Repasa el ejemplo en voz alta y crea tu propia frase.",
+          "palabras": 406
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "窓が開けてあります。",
+              "furigana": "まどがあけてあります。",
+              "romaji": "mado ga akete arimasu.",
+              "es": "La ventana está abierta (a propósito).",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "本が並べてあります。",
+              "furigana": "ほんがならべてあります。",
+              "romaji": "hon ga narabete arimasu.",
+              "es": "Los libros están ordenados.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "電気がつけてあります。",
+              "furigana": "でんきがつけてあります。",
+              "romaji": "denki ga tsukete arimasu.",
+              "es": "La luz está encendida.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "窓が開けてあります。",
+              "furigana": "まどがあけてあります。",
+              "es": "La ventana está abierta (a propósito).",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha (texto oculto) y elige.",
+              "respuesta": "窓が開けてあります。 — La ventana está abierta."
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "本が並べてあります。",
+              "furigana": "ほんがならべてあります。",
+              "es": "Los libros están ordenados.",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "本が並べてあります。 — Los libros están ordenados."
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "窓が開けてあります。",
+              "furigana": "まどがあけてあります。",
+              "es": "La ventana está abierta.",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: 'Los libros están ordenados.'",
+              "respuesta": "本が並べてあります。",
+              "jp": "本が並べてあります。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: てある con intransitivo (降ってある) — imposible. Solo transitivos. Y confundir が/を: estado es が (窓が開けてある), acción es を (窓を開けておく)."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: てある estado intencional. Próxima: números sino-japoneses. Di 3 veces: 窓が開けてあります。"
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Ves 窓が開いている y 窓が開けてある y parecen “abierto” igual. ¿Por qué dos formas? Una borra al agente, la otra lo presume."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "～てある marca estado resultante de una acción intencional transitiva. Alguien abrió la ventana a propósito y sigue abierta. Con ～ている solo constatas estado; con ～てある enfatizas intención/preparación.\n\nObjetivo: formar Verbo transitivo て + ある y contrastarlo con ている.\n\n🧩 Fórmula: 【Verbo transitivo て-form + ある】 → 開ける→開けてある, 並べる→並べてある, つける→つけてある\nCortés: てあります, Plano: てある\n- 窓が開けてある (ventana abierta a propósito)\n- 本が並べてある (libros alineados a propósito)\n\nPiensa en bloques: て conecta la acción preparada a ある (existir).\n\n👣 Cómo construirlo (3 pasos):\n1) Solo con transitivos (abrir, poner, ordenar): 開ける, 並べる\n2) A て-form + ある: 開けて + ある → 開けてある\n3) Partícula が marca el objeto preparado: 窓が開けてある (no を, porque es estado)\n\n⚖️ Tabla ～ている vs ～てある:\n| Forma | Verbo | Ejemplo | Matiz |\n|---|---|---|---|\n| 開いている | 開く(vi) | 窓が開いている | está abierta (constatas) |\n| 開けてある | 開ける(vt) | 窓が開けてある | está abierta (alguien la abrió) |\n| ついている | つく | 電気がついている | luz encendida |\n| つけてある | つける | 電気がつけてある | luz encendida (preparado) |\n\n💡 Ejemplos desglosados:\n1) 窓が開けてあります。 (まどがあけてあります。) — “Ventana abierta (a propósito).” → 窓が + 開けて(て-form de 開ける) + あります.\n2) 本が並べてあります。 (ほんがならべてあります。) — “Libros están ordenados.” → 本が + 並べて(て-form) + あります.\n3) 電気がつけてあります。 (でんきがつけてあります。) — “Luz encendida (a propósito).” → 電気が + つけて + あります.\n\n🔑 Mini-resumen:\n□ てある solo transitivos + intención visible\n□ Partícula が para el estado: 窓が開けてある (no 窓を開けてある en estado; eso es acción)\n□ ている neutral, てある intencional/preparado\n\n❌ Error 90%: usar てある con intransitivos → 降ってある (mal, 降る es intransitivo). Di 降っている. Y usar を con estado: 窓を開けてある (acción: abrir ventana y dejarla), vs 窓が開けてある (estado).\n\n💬 Truco offline: mira tu cuarto y di 3 estados intencionales: 本が並べてある, 電気がつけてある, 窓が開けてある. Active recall. ¿Por qué 5 ítems? Domina 2 hoy, resto SRS.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Repite en voz alta marcando la partícula para anclar ritmo. En Cuba practica señalando objetos reales: mi libro, tu libro, su libro. Repasa el ejemplo en voz alta y crea tu propia frase.",
+          "palabras": 406
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "窓が開けてあります。",
+              "furigana": "まどがあけてあります。",
+              "romaji": "mado ga akete arimasu.",
+              "es": "La ventana está abierta (a propósito).",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "本が並べてあります。",
+              "furigana": "ほんがならべてあります。",
+              "romaji": "hon ga narabete arimasu.",
+              "es": "Los libros están ordenados.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "電気がつけてあります。",
+              "furigana": "でんきがつけてあります。",
+              "romaji": "denki ga tsukete arimasu.",
+              "es": "La luz está encendida.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "窓が開けてあります。",
+              "furigana": "まどがあけてあります。",
+              "es": "La ventana está abierta (a propósito).",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha (texto oculto) y elige.",
+              "respuesta": "窓が開けてあります。 — La ventana está abierta."
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "本が並べてあります。",
+              "furigana": "ほんがならべてあります。",
+              "es": "Los libros están ordenados.",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "本が並べてあります。 — Los libros están ordenados."
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "窓が開けてあります。",
+              "furigana": "まどがあけてあります。",
+              "es": "La ventana está abierta.",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: 'Los libros están ordenados.'",
+              "respuesta": "本が並べてあります。",
+              "jp": "本が並べてあります。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: てある con intransitivo (降ってある) — imposible. Solo transitivos. Y confundir が/を: estado es が (窓が開けてある), acción es を (窓を開けておく)."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: てある estado intencional. Próxima: números sino-japoneses. Di 3 veces: 窓が開けてあります。"
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 406,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
     }
   ],
   "counts": {
@@ -76084,7 +77224,7 @@
     "phrases": 164,
     "grammar": 246,
     "verbs": 119,
-    "lessons": 223
+    "lessons": 228
   }
 };
     root.NihongoDojoN5 = data;
