@@ -22,6 +22,8 @@
     <script src="n5.js" defer></script>
     <script src="lexicon.js" defer></script>
     <script src="readings.js" defer></script>
+    <script src="imabi-data.js" defer></script>
+    <script src="imabi.js" defer></script>
     <script src="lessons.js" defer></script>
     <script src="app.js" defer></script>
 </head>
@@ -49,6 +51,23 @@
         </div>
 
         <div id="homeBar" class="home-bar">
+            <div class="selector-label" id="curriculumLabel">Plan de clases</div>
+            <div class="curriculum-row" role="group" aria-labelledby="curriculumLabel">
+                <button type="button" id="curriculumJlptBtn" class="type-btn" data-curriculum="jlpt" aria-pressed="true">JLPT (N5→N1)</button>
+                <button type="button" id="curriculumImabiBtn" class="type-btn" data-curriculum="imabi" aria-pressed="false">IMABI</button>
+            </div>
+            <p id="curriculumNote" class="mode-note">JLPT por nivel oficial. IMABI sigue imabi.org — más gradual. <a href="https://imabi.org/table-of-contents-%E7%9B%AE%E6%AC%A1" target="_blank" rel="noopener">Ver índice IMABI</a>. No copia textos.</p>
+            <div id="imabiBar" class="level-row hidden" role="group" aria-label="Nivel IMABI">
+                <button type="button" class="type-btn" data-imabi-level="beginners1" aria-pressed="true">Beginners I (0-50)</button>
+                <button type="button" class="type-btn" data-imabi-level="beginners2" aria-pressed="false">Beginners II (51-100)</button>
+                <button type="button" class="type-btn" data-imabi-level="intermediate1" aria-pressed="false">Intermediate I (101-150)</button>
+                <button type="button" class="type-btn" data-imabi-level="intermediate2" aria-pressed="false">Intermediate II (151-200)</button>
+                <button type="button" class="type-btn" data-imabi-level="intermediate3" aria-pressed="false">Intermediate III (201-250)</button>
+                <button type="button" class="type-btn" data-imabi-level="advanced1" aria-pressed="false">Advanced I (251-300)</button>
+                <button type="button" class="type-btn" data-imabi-level="advanced2" aria-pressed="false">Advanced II (301-350)</button>
+                <button type="button" class="type-btn" data-imabi-level="advanced3" aria-pressed="false">Advanced III (351-400)</button>
+                <button type="button" class="type-btn" data-imabi-level="classical" aria-pressed="false">Classical</button>
+            </div>
             <div class="selector-label" id="levelLabel">Nivel</div>
             <div class="level-row" role="group" aria-labelledby="levelLabel">
                 <button type="button" id="levelN5Btn" class="type-btn" data-level="n5" aria-pressed="true">N5</button>

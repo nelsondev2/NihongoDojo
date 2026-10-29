@@ -264,17 +264,92 @@
         return n;
     }
 
+    // --- Camino IMABI (https://imabi.org) — SEPARADO de JLPT, archivo propio ---
+    function imabiDataLessons() {
+        if (root.NihongoDojoImabiData && root.NihongoDojoImabiData.LESSONS) return root.NihongoDojoImabiData.LESSONS;
+        if (typeof require !== "undefined") {
+            try { var d = require("./imabi-data.js"); if (d && d.LESSONS) return d.LESSONS; } catch(e){}
+        }
+        return [];
+    }
+    function locateImabi(id) {
+        var jlpt = locate(id);
+        if (jlpt) return jlpt;
+        var list = imabiDataLessons();
+        for (var i = 0; i < list.length; i++) if (list[i].id === id) return { lesson: list[i], number: i + 1, level: 'imabi' };
+        return null;
+    }
+    function imabiLevelIds(imabiLevel) {
+        var Imabi = root.NihongoDojoImabi;
+        if (!Imabi) return [];
+        if (Imabi.idsForLevel) return Imabi.idsForLevel(imabiLevel);
+        if (Imabi.orderedIds) return Imabi.orderedIds();
+        return [];
+    }
+    function lessonsForImabi(imabiLevel) {
+        var ids = imabiLevelIds(imabiLevel);
+        if (!ids.length) return [];
+        var out = [];
+        var seen = {};
+        ids.forEach(function(id){
+            if (seen[id]) return;
+            seen[id] = true;
+            var found = locateImabi(id);
+            if (found && found.lesson) out.push(found.lesson);
+        });
+        return out;
+    }
+    function imabiStatsForLevel(levelKey) {
+        var Imabi = root.NihongoDojoImabi;
+        if (!Imabi) return { total: 0, mapped: 0, pending: 0 };
+        if (Imabi.entriesForLevel) {
+            var entries = Imabi.entriesForLevel(levelKey);
+            var total = entries.length;
+            var mapped = 0;
+            for (var i = 0; i < entries.length; i++) {
+                var e = entries[i];
+                if (e.ids && e.ids.length) {
+                    // al menos un id resuelve a lección real
+                    var ok = false;
+                    for (var j = 0; j < e.ids.length; j++) if (locateImabi(e.ids[j])) { ok = true; break; }
+                    if (ok) mapped++;
+                }
+            }
+            return { total: total, mapped: mapped, pending: total - mapped };
+        }
+        return Imabi.stats ? Imabi.stats() : { total: 0, mapped: 0, pending: 0 };
+    }
+    function imabiStats() {
+        var Imabi = root.NihongoDojoImabi;
+        return Imabi && Imabi.stats ? Imabi.stats() : { total: 0, mapped: 0, pending: 0 };
+    }
+    function findLessonAny(id) {
+        var f = locate(id);
+        if (f) return f.lesson;
+        var g = locateImabi(id);
+        return g ? g.lesson : null;
+    }
+
     const api = {
         PASS_PERCENT,
         LESSONS,
         lessonsFor,
+        lessonsForImabi,
+        imabiLevelIds,
+        imabiStats,
+        imabiStatsForLevel,
+        locateImabi,
+        findLessonAny,
         attach,
         ready,
         findLesson: function (id) {
             const found = locate(id);
-            return found ? found.lesson : null;
+            if (found) return found.lesson;
+            var alt = locateImabi(id);
+            return alt ? alt.lesson : null;
         },
         locate,
+        locateAny: function(id){ var a=locate(id); if(a) return a; return locateImabi(id); },
         buildQueue,
         validate,
         nextLesson,

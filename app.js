@@ -193,6 +193,8 @@
         conjGroups: new Set(),
         grammarGroups: new Set(),
         audioOn: true,
+        curriculum: 'jlpt',
+        imabiLevel: 'beginners1',
         home: 'path',
         pathOpen: false,
         selections: {
@@ -204,6 +206,44 @@
     function knownLevel(level) {
         if (Lex && Lex.LEVELS && Lex.LEVELS.indexOf(level) !== -1) return level;
         return 'n5';
+    }
+    function knownCurriculum(c) { return c === 'imabi' ? 'imabi' : 'jlpt'; }
+    function knownImabiLevel(l) {
+        if (!l) return 'beginners1';
+        var k = String(l).toLowerCase().replace(/[^a-z0-9]/g,'');
+        if (k === 'beginners1' || k === 'beginnersi' || k === 'b1') return 'beginners1';
+        if (k === 'beginners2' || k === 'beginnersii' || k === 'b2') return 'beginners2';
+        if (k === 'intermediate1' || k === 'intermediatei' || k === 'i1') return 'intermediate1';
+        if (k === 'intermediate2' || k === 'intermediateii' || k === 'i2') return 'intermediate2';
+        if (k === 'intermediate3' || k === 'intermediateiii' || k === 'i3') return 'intermediate3';
+        if (k === 'advanced1' || k === 'advancedi' || k === 'a1') return 'advanced1';
+        if (k === 'advanced2' || k === 'advancedii' || k === 'a2') return 'advanced2';
+        if (k === 'advanced3' || k === 'advancediii' || k === 'a3') return 'advanced3';
+        if (k === 'classical' || k === 'veteran' || k === 'c') return 'classical';
+        return 'beginners1';
+    }
+    // IMABI es un curriculum separado: no comparte lecciones N5 ni progreso JLPT
+    var IMABI_LABELS = {
+        beginners1: 'Beginners I (0-50)',
+        beginners2: 'Beginners II (51-100)',
+        intermediate1: 'Intermediate I (101-150)',
+        intermediate2: 'Intermediate II (151-200)',
+        intermediate3: 'Intermediate III (201-250)',
+        advanced1: 'Advanced I (251-300)',
+        advanced2: 'Advanced II (301-350)',
+        advanced3: 'Advanced III (351-400)',
+        classical: 'Classical / Veteran'
+    };
+    function isImabi() { return state.curriculum === 'imabi'; }
+    function currentLessons() {
+        if (isImabi() && Lessons && Lessons.lessonsForImabi) {
+            var im = Lessons.lessonsForImabi(state.imabiLevel);
+            if (im && im.length) return im;
+        }
+        return Lessons && Lessons.lessonsFor ? Lessons.lessonsFor(state.level) : [];
+    }
+    function currentProgressKey() {
+        return isImabi() ? ('imabi-' + state.imabiLevel) : state.level;
     }
     var LEVEL_SRC = { n4: 'n4.js', n3: 'n3.js', n2: 'n2.js', n1: 'n1.js' };
     var levelWait = {};
@@ -254,9 +294,14 @@
         return Lex && Lex.forLevel ? Lex.forLevel(level) : Lex;
     }
     function progressKey(level) {
-        var use = knownLevel(level || state.level);
+        var raw = level || state.level;
+        if (typeof raw === 'string' && raw.indexOf('imabi') === 0) {
+            return 'lessons.' + raw;
+        }
+        var use = knownLevel(raw);
         return use === 'n5' ? 'lessons' : 'lessons.' + use;
     }
+    function isImabiLevelKey(k) { return typeof k === 'string' && k.indexOf('imabi-') === 0; }
     function selKey(name) {
         return state.level === 'n5' ? 'sel.' + name : 'sel.' + state.level + '.' + name;
     }
@@ -282,6 +327,25 @@
     };
 
     var quizEls = emptyQuizEls();
+
+    // ---- QuizEngine variado helpers (WexDC 2.1) ----
+    function isVaried(item) { return !!(item && item.exerciseType); }
+    function variedView(item) {
+        if (!item) return null;
+        if (item._view) return item._view;
+        var QE = window.NihongoDojoQuizEngine || window.QuizEngine;
+        if (QE && QE.viewFor) {
+            try { return QE.viewFor(item); } catch(e) {}
+        }
+        return null;
+    }
+    function variedChoices(item) {
+        if (!item || !item.choices) return null;
+        // Varied choices are strings; convert to objects for paint
+        return item.choices.map(function (c, i) {
+            return { id: String(c), char: String(c), text: String(c), _isVariedString: true };
+        });
+    }
 
     function emptyQuizEls() {
         return {
@@ -392,6 +456,10 @@
     }
     function usesChoices(item) {
         if (!item && exam.queue) item = exam.queue[exam.index];
+        if (isVaried(item)) {
+            // Varied always offers choices except write-type (not used now)
+            return !!(item.choices && item.choices.length);
+        }
         if (item && item.reading) return true;
         if (item && item.lex) return exam.practice === 'review' || !isWrite();
         if (item && item.kanaObj) {
@@ -450,6 +518,10 @@
         return type === 'katakana' ? 'katakana' : 'hiragana';
     }
     function lexView(item) {
+        if (isVaried(item)) {
+            var vv = variedView(item);
+            if (vv) return vv;
+        }
         return Lex.view(item.lex, itemDirection(item));
     }
     function lexiconHint(view, settled) {
@@ -469,6 +541,12 @@
     }
     function spokenText(item, settled) {
         if (!item) return '';
+        if (isVaried(item)) {
+            var vv = variedView(item);
+            if (!vv) return item.speak || '';
+            if (!settled && !vv.speakOnShow && !(item.exerciseType && item.exerciseType.indexOf('listening')>=0)) return '';
+            return vv.speak || item.speak || '';
+        }
         if (item.kanaObj && !item.lex && !item.reading) {
             if (!settled && soundRevealsKana(item)) return '';
             return item.kanaObj.char;
@@ -480,6 +558,21 @@
         return view.speak || '';
     }
     function speakItem(item, settled) {
+        if (isVaried(item)) {
+            var vv = variedView(item);
+            var listen = item.exerciseType === 'listening_jp_es';
+            if (vv && !vv.speakOnShow && !settled && !listen) {
+                noteAudio('El sonido se oye al corregir, para no revelar la respuesta.');
+                return;
+            }
+            var text = vv ? vv.speak : (item.speak || '');
+            if (!text) return;
+            var rate = vv ? vv.speakRate : (item.speakRate || 0.85);
+            if (!speakJapanese(text, {rate: rate}) && listen && systemSpeech()) {
+                noteAudio('Pulsa Oír. Hace falta la síntesis de voz del sistema.');
+            }
+            return;
+        }
         if (soundRevealsKana(item) && !settled) {
             noteAudio('El sonido se oye al corregir, para no revelar la lectura.');
             return;
@@ -511,6 +604,16 @@
     }
     function maybeSpeakItem(item, settled) {
         if (!item) return;
+        if (isVaried(item)) {
+            var vv = variedView(item);
+            if (!vv) return;
+            var listen = item.exerciseType === 'listening_jp_es' || exam.direction === 'listen-es';
+            if (!state.audioOn && !listen) return;
+            var rate = vv.speakRate || 0.85;
+            if ((vv.speakOnShow || listen) && !settled) speakJapanese(vv.speak, {rate: rate});
+            else if (!vv.speakOnShow && settled) speakJapanese(vv.speak, {rate: rate});
+            return;
+        }
         var listen = exam.direction === 'listen-es';
         if (item.reading) {
             if (!state.audioOn || settled) return;
@@ -542,6 +645,15 @@
     function feedbackFor(item) {
         var r = item.result;
         var tail = ' Pulsa Siguiente o Enter.';
+        if (isVaried(item)) {
+            var view = lexView(item);
+            var shown = view.reveal && r ? view.reveal : view.prompt;
+            if (!r) return 'Elige la respuesta.';
+            if (r.skipped) return 'Saltada. ' + (view.reveal || view.prompt) + ' → ' + view.answer + '.' + tail;
+            if (r.correct) return 'Correcto: ' + view.answer + '.' + tail;
+            var yours = r.user || '—';
+            return 'Fallo. ' + shown + ' → ' + view.answer + '. Tú: ' + yours + '.' + tail;
+        }
         if (item.lex) {
             var view = lexView(item);
             var shown = view.reveal && r ? view.reveal : view.prompt;
@@ -674,6 +786,10 @@
         state.answerMode = storageGet('answerMode') === 'write' ? 'write' : 'choice';
         var storedLevel = storageGet('level');
         state.level = knownLevel(storedLevel);
+        var storedCurriculum = storageGet('curriculum');
+        state.curriculum = knownCurriculum(storedCurriculum);
+        var storedImabi = storageGet('imabiLevel');
+        state.imabiLevel = knownImabiLevel(storedImabi);
         state.home = storageGet('home') === 'free' ? 'free' : 'path';
         if (Lex) {
             var storedWordDir = storageGet('wordDirection');
@@ -1205,10 +1321,60 @@
     function updateLevelUI() {
         document.querySelectorAll('#homeBar [data-level]').forEach(function (btn) {
             if (!btn) return;
-            var on = btn.getAttribute('data-level') === (state.level || 'n5');
+            var on = !isImabi() && btn.getAttribute('data-level') === (state.level || 'n5');
             btn.classList.toggle('active', on);
             btn.setAttribute('aria-pressed', on ? 'true' : 'false');
         });
+        // curriculum toggle
+        var jlptBtn = document.getElementById('curriculumJlptBtn');
+        var imabiBtn = document.getElementById('curriculumImabiBtn');
+        if (jlptBtn && imabiBtn) {
+            var im = isImabi();
+            jlptBtn.classList.toggle('active', !im);
+            imabiBtn.classList.toggle('active', im);
+            jlptBtn.setAttribute('aria-pressed', im ? 'false' : 'true');
+            imabiBtn.setAttribute('aria-pressed', im ? 'true' : 'false');
+        }
+        var levelLabel = document.getElementById('levelLabel');
+        var curriculumNote = document.getElementById('curriculumNote');
+        var imabiBar = document.getElementById('imabiBar');
+        var homeBarLevels = document.querySelectorAll('#homeBar [data-level]');
+        if (isImabi()) {
+            if (levelLabel) levelLabel.textContent = 'Nivel IMABI';
+            if (curriculumNote) curriculumNote.style.display = '';
+            if (imabiBar) imabiBar.classList.remove('hidden');
+            homeBarLevels.forEach(function(b){ var p=b.closest('.level-row'); if(p) p.classList.add('hidden'); });
+            // imabi level buttons
+            document.querySelectorAll('#imabiBar [data-imabi-level]').forEach(function(btn){
+                var on = btn.getAttribute('data-imabi-level') === (state.imabiLevel || 'beginners1');
+                btn.classList.toggle('active', on);
+                btn.setAttribute('aria-pressed', on ? 'true' : 'false');
+            });
+        } else {
+            if (levelLabel) levelLabel.textContent = 'Nivel';
+            if (curriculumNote) curriculumNote.style.display = 'none';
+            if (imabiBar) imabiBar.classList.add('hidden');
+            homeBarLevels.forEach(function(b){ var p=b.closest('.level-row'); if(p) p.classList.remove('hidden'); });
+        }
+    }
+    function setCurriculum(cur) {
+        var next = knownCurriculum(cur);
+        if (next === state.curriculum) return;
+        state.curriculum = next;
+        storageSet('curriculum', next);
+        closeLesson();
+        updateLevelUI();
+        renderPath();
+        persistLevel();
+    }
+    function setImabiLevel(lv) {
+        var next = knownImabiLevel(lv);
+        if (next === state.imabiLevel && isImabi()) return;
+        state.imabiLevel = next;
+        storageSet('imabiLevel', next);
+        closeLesson();
+        updateLevelUI();
+        renderPath();
     }
     function setLevel(level) {
         if (exam.active) return;
@@ -1257,9 +1423,41 @@
         try { return synth.getVoices() || []; }
         catch (e) { return []; }
     }
+    // WexDC 2.0 — prioriza Neural > Enhanced/Premium > Google > Kyoko/Otoya > resto
+    // Filtra por lang.startsWith("ja") y prefiere localService (offline, clave en Cuba).
     function japaneseVoice() {
-        var ja = systemVoices().filter(function (v) { return v && /^ja([-_]|$)/i.test(v.lang || ''); });
-        return ja.filter(function (v) { return v.localService; })[0] || null;
+        var ja = systemVoices().filter(function (v) { return v && v.lang && /^ja([-_]|$)/i.test(v.lang); });
+        if (!ja.length) return null;
+        function score(v) {
+            var n = (v.name || '').toLowerCase();
+            if (/neural/i.test(v.name)) return 5;
+            if (/enhanced|premium/i.test(v.name)) return 4;
+            if (/google/i.test(v.name)) return 3;
+            if (/kyoko|otoya/i.test(v.name)) return 2;
+            return 1;
+        }
+        ja.sort(function (a, b) {
+            var s = score(b) - score(a);
+            if (s !== 0) return s;
+            // localService primero (voces offline)
+            var l = (b.localService ? 1 : 0) - (a.localService ? 1 : 0);
+            if (l !== 0) return l;
+            // desempate alfabético estable
+            return (a.name || '').localeCompare(b.name || '');
+        });
+        return ja[0] || null;
+    }
+    // Despertar motor TTS (frase vacía volume=0) — evita primer audio mudo en Android
+    function wakeEngine() {
+        var synth = speechSynth();
+        var Ctor = UtteranceCtor();
+        if (!synth || !Ctor) return;
+        try {
+            var u = new Ctor('');
+            u.volume = 0;
+            u.lang = 'ja-JP';
+            synth.speak(u);
+        } catch (e) {}
     }
     function requireJapaneseVoice(onReady, onMissing) {
         if (japaneseVoice()) { onReady(); return; }
@@ -1317,31 +1515,39 @@
         if (buf.trim()) out.push(buf.trim());
         return out.length ? out : [src];
     }
-    function speakJapanese(text) {
+    // WexDC 2.0 — rate por tipo pedagógico + cola onend + cancel previa
+    // rate: 0.8 vocab nuevo, 0.85 ejemplos, 0.9 listening N5-N3, 1.0 avanzado N4+
+    function speakJapanese(text, opts) {
         if (!text) return false;
         if (!systemSpeech()) {
             noteAudio('Este cliente no expone la síntesis de voz del sistema. El resto del examen sigue disponible.');
             return false;
         }
         var synth = speechSynth();
-        try { if (typeof synth.getVoices === 'function') synth.getVoices(); } catch (e) { /* la lista llega en voiceschanged */ }
+        try { if (typeof synth.getVoices === 'function') synth.getVoices(); } catch (e) {}
         var voice = japaneseVoice();
         if (!voice && systemVoices().length) {
             noteAudio('No hay voz japonesa del sistema. Instálala en los ajustes de texto a voz.');
         }
+        // Cancelar previa SIEMPRE antes de nueva (evitar solapamiento)
         var busy = false;
         try { busy = synth.speaking || synth.pending; } catch (e) { busy = false; }
         if (busy) stopSpeech();
         else speechGen++;
         var gen = speechGen;
         var chunks = speechChunks(text);
+        var rate = (opts && typeof opts.rate === 'number' && opts.rate >= 0.5 && opts.rate <= 2) ? opts.rate : (chunks[0] && chunks[0].length > 40 ? 0.92 : 0.88);
+        // Clamp WexDC: 0.8–1.0
+        if (rate < 0.8) rate = 0.8;
+        if (rate > 1.0) rate = 1.0;
+        var onEndAll = opts && typeof opts.onEnd === 'function' ? opts.onEnd : null;
         function fire(retry) {
             if (gen !== speechGen || !chunks.length) return;
             try {
                 if (synth.paused) synth.resume();
                 var utterance = new (UtteranceCtor())(chunks[0]);
                 utterance.lang = 'ja-JP';
-                utterance.rate = chunks[0].length > 40 ? 0.92 : 0.88;
+                utterance.rate = rate;
                 var picked = japaneseVoice();
                 if (picked) {
                     utterance.voice = picked;
@@ -1351,6 +1557,7 @@
                     if (gen !== speechGen) return;
                     chunks.shift();
                     if (chunks.length) fire(false);
+                    else if (onEndAll) onEndAll();
                 };
                 utterance.onerror = function (ev) {
                     if (gen !== speechGen) return;
@@ -1363,7 +1570,6 @@
                 if (!retry) noteAudio('No se pudo reproducir la voz del sistema. Pulsa Oír.');
             }
         }
-        // El primer speak va en este turno: webxdc y WebKit solo hablan dentro del toque.
         fire(false);
         window.setTimeout(function () {
             if (gen !== speechGen) return;
@@ -1372,7 +1578,18 @@
         }, 50);
         return true;
     }
-    function speakKana(ch) { return speakJapanese(ch); }
+    function speakKana(ch, opts) { return speakJapanese(ch, opts); }
+    // Variante pedagógica: elige rate según tipo y nivel
+    function rateFor(practice, level) {
+        // vocab nuevo 0.8, ejemplos 0.85, listening 0.9, avanzado N4+ 1.0
+        if (practice === 'kana' || practice === 'words') return 0.8;
+        if (practice === 'kanji' || practice === 'phrases') return 0.85;
+        if (practice === 'review' || practice === 'listening') {
+            // N4+ permite 1.0 para entrenar oído nativo
+            return (level === 'n4' || level === 'n3' || level === 'n2' || level === 'n1') ? 0.9 : 0.9;
+        }
+        return 0.85;
+    }
     function updateAudioUI() {
         if (audioOnBtn && audioOffBtn) {
             audioOnBtn.classList.toggle('active', state.audioOn);
@@ -1515,7 +1732,8 @@
     }
 
     function markChoicesSettled(item) {
-        if (item.reading) paintReading(item);
+        if (isVaried(item)) paintVariedChoices(item, true);
+        else if (item.reading) paintReading(item);
         else if (item.lex) paintLexChoices(item, true);
         else paintChoices(item, true);
     }
@@ -1615,6 +1833,35 @@
         return applyNote('');
     }
     function paintLexiconPrompt(item) {
+        // Varied engine: prompt/choices already prepared
+        if (isVaried(item)) {
+            var view = lexView(item);
+            hidePassage();
+            clearPromptClasses();
+            if (quizEls.kanaChar) {
+                var reveal = item.result && view.reveal ? view.reveal : view.prompt;
+                quizEls.kanaChar.textContent = reveal;
+                quizEls.kanaChar.lang = view.promptLang || 'ja';
+                if (!item.result && item.exerciseType === 'listening_jp_es') quizEls.kanaChar.classList.add('prompt-listen');
+                else if (view.promptLang !== 'es') {
+                    var len = Array.from(reveal).length;
+                    if (len > 10) quizEls.kanaChar.classList.add('prompt-sentence');
+                    else if (len > 6) quizEls.kanaChar.classList.add('prompt-xlong');
+                    else if (len > 3) quizEls.kanaChar.classList.add('prompt-long');
+                } else {
+                    quizEls.kanaChar.classList.add('prompt-es');
+                }
+            }
+            setHidden(quizEls.inputArea, true);
+            setHidden(quizEls.choiceArea, false);
+            if (quizEls.audioStatus) {
+                quizEls.audioStatus.textContent = '';
+                setHidden(quizEls.audioStatus, true);
+            }
+            paintVariedChoices(item, !!item.result);
+            var note = view.note || lexiconHint(view, !!item.result);
+            return applyNote(note);
+        }
         var view = lexView(item);
         var write = isWrite();
         hidePassage();
@@ -1653,8 +1900,83 @@
         }
         return applyNote(note);
     }
+    function paintVariedChoices(item, locked) {
+        clearChoices();
+        if (!quizEls.choiceArea || !item.choices) return;
+        var view = variedView(item) || lexView(item);
+        var stack = item.choices.some(function (c) { return Array.from(String(c)).length > 6; });
+        quizEls.choiceArea.classList.toggle('choice-stack', stack);
+        item.choices.forEach(function (choice, i) {
+            var choiceText = String(choice);
+            var btn = document.createElement('button');
+            btn.type = 'button';
+            btn.className = 'choice-btn choice-lex';
+            var choiceLen = Array.from(choiceText).length;
+            if (choiceLen > 12) btn.classList.add('choice-sentence');
+            else if (choiceLen > 8) btn.classList.add('choice-compact');
+            btn.lang = view.choiceLang || 'ja';
+            btn.textContent = choiceText;
+            var key = el('span', 'choice-key', String(i + 1));
+            key.setAttribute('aria-hidden', 'true');
+            btn.appendChild(key);
+            btn.setAttribute('data-id', choiceText);
+            btn.setAttribute('aria-label', 'Opción ' + (i + 1) + ', ' + choiceText);
+            if (locked && item.result) {
+                btn.disabled = true;
+                if (choiceText === item.answer) btn.classList.add('choice-ok');
+                else if (!item.result.skipped && item.result.user === choiceText && !item.result.correct) {
+                    btn.classList.add('choice-bad');
+                }
+            } else {
+                (function (c) { btn.addEventListener('click', function () { chooseVaried(c); }); })(choiceText);
+            }
+            quizEls.choiceArea.appendChild(btn);
+        });
+    }
+    function chooseVaried(choiceText) {
+        if (!exam.active || exam.waitingNext || dialogOpen()) return;
+        if (exam.index >= exam.queue.length) return;
+        var item = exam.queue[exam.index];
+        if (!isVaried(item)) { chooseOption(choiceText); return; }
+        var correct = String(choiceText) === String(item.answer);
+        // For blank, answer is single token but prompt blank; compare token
+        item.userAnswer = String(choiceText);
+        item.result = { user: String(choiceText), expected: String(item.answer), correct: correct, empty: false, skipped: false };
+        if (correct) exam.correct++; else exam.wrong++;
+        noteOutcome(item);
+        markChoicesSettled(item);
+        lockAnswerUI();
+        setFeedback(feedbackFor(item), resultKind(item));
+        updateStatsUI();
+        saveExam();
+        if (item.lex || isVaried(item)) maybeSpeakItem(item, true);
+        maybeScheduleAutoAdvance();
+    }
 
     function paintPrompt(item) {
+        if (isVaried(item)) {
+            if (item.kanaObj) {
+                // Varied kana: similar to kana but using varied prompt/answer
+                var view = variedView(item);
+                hidePassage();
+                clearPromptClasses();
+                var isRomajiToKana = item.direction === 'romaji-kana' || (view && view.choiceLang === 'ja' && view.promptLang === 'en');
+                // For kana varied we use prompt as shown
+                if (quizEls.kanaChar) {
+                    var reveal = item.result && view && view.reveal ? view.reveal : item.prompt;
+                    quizEls.kanaChar.textContent = reveal;
+                    quizEls.kanaChar.lang = isRomajiToKana ? 'en' : 'ja';
+                    quizEls.kanaChar.classList.toggle('prompt-romaji', isRomajiToKana);
+                }
+                setHidden(quizEls.inputArea, true);
+                setHidden(quizEls.choiceArea, false);
+                if (quizEls.audioStatus) { quizEls.audioStatus.textContent=''; setHidden(quizEls.audioStatus, true); }
+                paintVariedChoices(item, !!item.result);
+                var note = view ? view.note : '';
+                return applyNote(note);
+            }
+            return paintLexiconPrompt(item);
+        }
         if (item.reading) return paintReading(item);
         if (item.lex) return paintLexiconPrompt(item);
         hidePassage();
@@ -1750,7 +2072,14 @@
     }
     function noteOutcome(item) {
         if (!item || !item.result || item.result.skipped || !Lex) return;
-        var id = item.lex ? item.lex.id : item.reading ? item.reading.id : (item.kanaObj ? item.kanaObj.type + ':' + item.kanaObj.char : '');
+        var id = '';
+        if (isVaried(item)) {
+            if (item.lex && item.lex.id) id = item.lex.id;
+            else if (item.kanaObj) id = item.kanaObj.type + ':' + item.kanaObj.char;
+            else if (item.sourceId) id = item.sourceId;
+        } else {
+            id = item.lex ? item.lex.id : item.reading ? item.reading.id : (item.kanaObj ? item.kanaObj.type + ':' + item.kanaObj.char : '');
+        }
         if (!id) return;
         var practice = itemPractice(item);
         if (!practice || practice === 'review') return;
@@ -2210,6 +2539,23 @@
         if (exam.index >= exam.queue.length || usesChoices()) return;
 
         var item = exam.queue[exam.index];
+        if (isVaried(item)) {
+            var val = quizEls.input ? quizEls.input.value.trim() : '';
+            if (!val) { setFeedback('Escribe una respuesta o pulsa Saltar.'); return; }
+            var correct = val.toLowerCase() === String(item.answer).toLowerCase();
+            var result = { user: val, expected: String(item.answer), correct: correct, empty: false, skipped: false, written: true };
+            item.userAnswer = result.user;
+            item.result = result;
+            if (result.correct) exam.correct++; else exam.wrong++;
+            lockAnswerUI();
+            setFeedback(feedbackFor(item), resultKind(item));
+            updateStatsUI();
+            noteOutcome(item);
+            maybeSpeakItem(item, true);
+            saveExam();
+            maybeScheduleAutoAdvance();
+            return;
+        }
         var result = item.lex
             ? Lex.checkWritten(item.lex, exam.direction, quizEls.input.value)
             : Core.checkAnswer(item.kanaObj, quizEls.input.value, state.romajiMode);
@@ -2237,18 +2583,22 @@
         if (exam.index >= exam.queue.length) return;
         var item = exam.queue[exam.index];
         item.userAnswer = null;
-        item.result = item.reading
-            ? { user: '', expected: String(item.reading.answer), correct: false, empty: false, skipped: true }
-            : item.lex
-            ? { user: '', expected: item.lex.id, correct: false, empty: false, skipped: true }
-            : Core.markSkipped(item.kanaObj);
+        if (isVaried(item)) {
+            item.result = { user: '', expected: String(item.answer), correct: false, empty: false, skipped: true };
+        } else {
+            item.result = item.reading
+                ? { user: '', expected: String(item.reading.answer), correct: false, empty: false, skipped: true }
+                : item.lex
+                ? { user: '', expected: item.lex.id, correct: false, empty: false, skipped: true }
+                : Core.markSkipped(item.kanaObj);
+        }
         exam.skipped++;
         if (usesChoices()) markChoicesSettled(item);
         lockAnswerUI();
         setFeedback(feedbackFor(item), 'skip');
         updateStatsUI();
         saveExam();
-        if (item.lex) maybeSpeakItem(item, true);
+        if (isVaried(item) || item.lex) maybeSpeakItem(item, true);
         else maybeSpeakKana(item, true);
         maybeScheduleAutoAdvance();
         if (!usesChoices() && quizEls.input) quizEls.input.focus();
@@ -2258,6 +2608,7 @@
         if (!exam.active || exam.waitingNext || dialogOpen() || !usesChoices()) return;
         if (exam.index >= exam.queue.length) return;
         var item = exam.queue[exam.index];
+        if (isVaried(item)) { chooseVaried(id); return; }
         var result = item.reading ? Readings.check(item.reading, id)
             : item.lex ? Lex.checkChoice(item.lex, id)
             : Core.checkChoice(item.kanaObj, id);
@@ -2525,6 +2876,14 @@
         var list = el('ol', 'results-list');
         exam.queue.forEach(function (item) {
             var li = el('li');
+            if (isVaried(item)) {
+                var view = lexView(item);
+                var yours = item.result && item.result.skipped ? '—' : (item.result && item.result.user) || '—';
+                var prompt = item.result && view.reveal ? view.reveal : view.prompt;
+                li.appendChild(document.createTextNode(resultStatus(item) + '. ' + prompt + ' → ' + view.answer + '. Tú: ' + yours));
+                list.appendChild(li);
+                return;
+            }
             if (item.reading) {
                 var question = item.reading;
                 var picked = item.result && !item.result.skipped ? question.choices[Number(item.result.user)] : '—';
@@ -2818,13 +3177,20 @@
     function loadProgress(level) {
         var out = {};
         if (!Lessons) return out;
-        var use = level || state.level || 'n5';
+        var use = level || (isImabi() ? ('imabi-' + state.imabiLevel) : state.level) || 'n5';
         var raw = storageGet(progressKey(use));
         if (!raw) return out;
         try {
             var data = JSON.parse(raw);
             if (!data || typeof data !== 'object') return out;
-            var list = Lessons.lessonsFor ? Lessons.lessonsFor(use) : Lessons.LESSONS;
+            var list;
+            if (typeof use === 'string' && use.indexOf('imabi') === 0) {
+                var lvlKey = use.replace(/^imabi-?/, '') || state.imabiLevel || 'beginners1';
+                list = (Lessons.lessonsForImabi ? Lessons.lessonsForImabi(lvlKey) : []);
+            } else {
+                list = Lessons.lessonsFor ? Lessons.lessonsFor(use) : Lessons.LESSONS;
+            }
+            // also include any ids present in data that are not in list but are imabi (for backward compat)
             list.forEach(function (lesson) {
                 var row = data[lesson.id];
                 if (!row || typeof row !== 'object') return;
@@ -2840,9 +3206,36 @@
         return out;
     }
     function recordLesson(id, percent) {
-        if (!Lessons || !Lessons.findLesson(id)) return;
-        var lesson = Lessons.findLesson(id);
-        var use = lesson && lesson.level ? lesson.level : state.level;
+        if (!Lessons || !(Lessons.findLesson && Lessons.findLesson(id) || Lessons.findLessonAny && Lessons.findLessonAny(id))) return;
+        var lesson = (Lessons.findLessonAny ? Lessons.findLessonAny(id) : Lessons.findLesson(id));
+        if (!lesson) return;
+        var use;
+        if (typeof lesson.id === 'string' && lesson.id.indexOf('l-imabi') === 0) {
+            use = isImabi() ? ('imabi-' + state.imabiLevel) : ('imabi-' + (state.imabiLevel || 'beginners1'));
+            // try to find which level this id belongs to, for correct progress key
+            if (window.NihongoDojoImabi && window.NihongoDojoImabi.all) {
+                var allEntries = window.NihongoDojoImabi.all();
+                for (var ei = 0; ei < allEntries.length; ei++) {
+                    if (allEntries[ei].ids && allEntries[ei].ids.indexOf(id) !== -1) {
+                        var num = allEntries[ei].num;
+                        var lvl = 'beginners1';
+                        if (num <= 50) lvl = 'beginners1';
+                        else if (num <= 100) lvl = 'beginners2';
+                        else if (num <= 150) lvl = 'intermediate1';
+                        else if (num <= 200) lvl = 'intermediate2';
+                        else if (num <= 250) lvl = 'intermediate3';
+                        else if (num <= 300) lvl = 'advanced1';
+                        else if (num <= 350) lvl = 'advanced2';
+                        else if (num <= 400) lvl = 'advanced3';
+                        else lvl = 'classical';
+                        use = 'imabi-' + lvl;
+                        break;
+                    }
+                }
+            }
+        } else {
+            use = lesson && lesson.level ? lesson.level : state.level;
+        }
         var progress = loadProgress(use);
         var prev = progress[id] || { passed: false, best: 0, last: 0 };
         var score = Math.max(0, Math.min(100, Math.round(percent)));
@@ -2880,10 +3273,10 @@
         if (!pathList || !Lessons) return;
         if (pathList.replaceChildren) pathList.replaceChildren();
         else pathList.textContent = '';
-        var list = Lessons.lessonsFor ? Lessons.lessonsFor(state.level) : Lessons.LESSONS;
-        var progress = loadProgress(state.level);
-        var passed = Lessons.passedCount(progress, state.level);
-        if (levelPending(state.level)) {
+        var list = isImabi() && Lessons.lessonsForImabi ? Lessons.lessonsForImabi(state.imabiLevel) : (Lessons.lessonsFor ? Lessons.lessonsFor(state.level) : Lessons.LESSONS);
+        var progress = isImabi() ? loadProgress() : loadProgress(state.level);
+        var passed = isImabi() ? (function(){ var d=progress||{}; var c=0; for(var i=0;i<list.length;i++){ var id=list[i].id; if(d[id]&&d[id].passed) c++; } return c; })() : Lessons.passedCount(progress, state.level);
+        if (!isImabi() && levelPending(state.level)) {
             if (pathIntro) pathIntro.textContent = 'Cargando el ' + state.level.toUpperCase() + '…';
             if (pathContinueBtn) {
                 pathContinueBtn.disabled = true;
@@ -2902,13 +3295,23 @@
             return;
         }
         if (pathContinueBtn) pathContinueBtn.disabled = false;
-        if (pathIntro) pathIntro.textContent = 'Lista comunitaria. Incluye frases, escucha y lectura. No es el examen oficial.';
+        if (pathIntro) {
+            if (isImabi()) {
+                var lvlLabel = (typeof IMABI_LABELS !== 'undefined' && IMABI_LABELS[state.imabiLevel]) ? IMABI_LABELS[state.imabiLevel] : state.imabiLevel;
+                var st = (Lessons.imabiStatsForLevel ? Lessons.imabiStatsForLevel(state.imabiLevel) : (Lessons.imabiStats ? Lessons.imabiStats() : {total: list.length, mapped: list.length}));
+                var dispMapped = st.mapped;
+                var dispTotal = st.total;
+                pathIntro.textContent = 'Camino IMABI — ' + lvlLabel + ' · ' + dispMapped + '/' + dispTotal + ' con contenido · Archivo separado (no JLPT) · No copia textos IMABI.';
+            } else {
+                pathIntro.textContent = 'Lista comunitaria. Incluye frases, escucha y lectura. No es el examen oficial.';
+            }
+        }
         if (pathProgress) {
-            var due = reviewPlan(state.level).length;
+            var due = isImabi() ? 0 : reviewPlan(state.level).length;
             pathProgress.textContent = passed + ' de ' + list.length + ' superadas · ' + Lessons.PASS_PERCENT + '%'
                 + (due ? ' · ' + due + ' para repasar' : '');
         }
-        var next = Lessons.nextLesson(progress, state.level);
+        var next = isImabi() ? (function(){ for(var i=0;i<list.length;i++){ var l=list[i]; if(!progress[l.id]||!progress[l.id].passed) return l; } return list[0]||null; })() : Lessons.nextLesson(progress, state.level);
         var allPassed = passed === list.length;
         if (pathContinueBtn) {
             pathContinueBtn.textContent = allPassed ? 'Repetir desde el principio' : 'Seguir: ' + next.title;
@@ -2963,34 +3366,222 @@
         if (lessonTeach) {
             if (lessonTeach.replaceChildren) lessonTeach.replaceChildren();
             else lessonTeach.textContent = '';
-            lesson.teach.forEach(function (block) {
-                var section = el('section', 'teach-block');
-                if (block.heading && block.heading !== lesson.title) {
-                    section.appendChild(el('h3', null, block.heading));
-                }
-                section.appendChild(el('p', null, block.text));
-                if (block.examples && block.examples.length) {
-                    var list = el('ul', 'teach-examples');
-                    block.examples.forEach(function (example) {
-                        var li = el('li');
-                        var jp = el('span', 'teach-jp', example.jp);
-                        jp.lang = 'ja';
-                        li.appendChild(jp);
-                        if (example.kana && example.kana !== example.jp) {
-                            li.appendChild(document.createTextNode(' '));
-                            li.appendChild(el('span', 'teach-kana', example.kana));
-                        }
-                        var gloss = example.es || kanaReading(example.jp);
-                        if (gloss) {
-                            li.appendChild(document.createTextNode(' · '));
-                            li.appendChild(el('span', 'teach-es', gloss));
-                        }
-                        list.appendChild(li);
-                    });
-                    section.appendChild(list);
-                }
-                lessonTeach.appendChild(section);
-            });
+            // WexDC: soporta formato nuevo 6 secciones + legacy teach[]
+            var secciones = lesson.secciones || lesson.sections || null;
+            if (secciones && Array.isArray(secciones) && secciones.length) {
+                secciones.forEach(function (sec) {
+                    var section = el('section', 'teach-block teach-' + (sec.tipo || sec.type || 'bloque'));
+                    var titleMap = {
+                        gancho: '🎯 Por qué te importa',
+                        explicacion: '📖 Explicación',
+                        ejemplos: '💡 Ejemplos',
+                        practica: '✍️ Práctica',
+                        errores_comunes: '⚠️ Errores comunes',
+                        cierre: '✅ Cierre',
+                        hook: '🎯 Por qué te importa',
+                        explanation: '📖 Explicación',
+                        examples: '💡 Ejemplos',
+                        practice: '✍️ Práctica',
+                        common_mistakes: '⚠️ Errores comunes',
+                        closure: '✅ Cierre'
+                    };
+                    var tipo = sec.tipo || sec.type || '';
+                    var heading = titleMap[tipo] || sec.heading || sec.titulo || '';
+                    if (heading) section.appendChild(el('h3', null, heading));
+                    if (sec.texto || sec.text) {
+                        var raw = sec.texto || sec.text;
+                        // WexDC Clarity 3.0 — render rico: tablas, fórmulas, pasos, checklist
+                        raw.split('\n\n').forEach(function (para) {
+                            var trimmed = para.trim();
+                            if (!trimmed) return;
+                            if (trimmed.indexOf('|') !== -1 && trimmed.indexOf('---') !== -1) {
+                                var table = document.createElement('table');
+                                table.className = 'teach-table';
+                                var rows = trimmed.split('\n').filter(function(r){return r.trim();});
+                                rows.forEach(function(row, idx){
+                                    if (row.indexOf('---') !== -1) return;
+                                    var tr = document.createElement('tr');
+                                    var cells = row.split('|').filter(function(c){return c.trim();});
+                                    cells.forEach(function(cell){
+                                        var tag = idx===0 ? 'th' : 'td';
+                                        var elCell = document.createElement(tag);
+                                        elCell.textContent = cell.trim();
+                                        if (idx===0) elCell.setAttribute('scope','col');
+                                        tr.appendChild(elCell);
+                                    });
+                                    table.appendChild(tr);
+                                });
+                                section.appendChild(table);
+                                return;
+                            }
+                            if (trimmed.startsWith('🎯') || trimmed.startsWith('🧩') || trimmed.startsWith('👣') || trimmed.startsWith('⚖️') || trimmed.startsWith('💡') || trimmed.startsWith('🔑') || trimmed.startsWith('❌') || trimmed.startsWith('💬') || trimmed.startsWith('✅') || trimmed.startsWith('Fórmula') || trimmed.startsWith('Tabla') || trimmed.startsWith('Objetivo')) {
+                                var lines = trimmed.split('\n');
+                                var first = lines[0];
+                                if (first.length < 90) {
+                                    var h = el('h4', 'teach-subhead', first);
+                                    section.appendChild(h);
+                                    var rest = lines.slice(1).join('\n').trim();
+                                    if (rest) {
+                                        if (rest.indexOf('□') !== -1) {
+                                            var ul = el('ul', 'teach-checklist');
+                                            rest.split('\n').forEach(function(l){
+                                                if (!l.trim()) return;
+                                                var li = el('li', null, l.trim());
+                                                if (l.indexOf('□')===0) li.className='check-item';
+                                                ul.appendChild(li);
+                                            });
+                                            section.appendChild(ul);
+                                        } else {
+                                            var div = el('div', 'teach-rich');
+                                            rest.split('\n').forEach(function(line, i){
+                                                if (i>0) div.appendChild(document.createElement('br'));
+                                                div.appendChild(document.createTextNode(line));
+                                            });
+                                            section.appendChild(div);
+                                        }
+                                    }
+                                    return;
+                                }
+                            }
+                            if (trimmed.startsWith('Fórmula') || trimmed.startsWith('🧩')) {
+                                var box = el('div', 'teach-formula', trimmed);
+                                section.appendChild(box);
+                                return;
+                            }
+                            if (trimmed.indexOf('□') !== -1 && trimmed.split('\n').length>1) {
+                                var ul2 = el('ul', 'teach-checklist');
+                                trimmed.split('\n').forEach(function(l){
+                                    if (l.trim()) ul2.appendChild(el('li', 'check-item', l.trim()));
+                                });
+                                section.appendChild(ul2);
+                                return;
+                            }
+                            var p = el('p', null, '');
+                            if (trimmed.indexOf('Desglose:')===0 || trimmed.indexOf('Por qué así:')===0) {
+                                p.className = 'teach-desglose';
+                            }
+                            p.textContent = trimmed;
+                            section.appendChild(p);
+                        });
+                    }
+                    // Palabras contadas (debug WexDC)
+                    if (sec.palabras || sec.words) {
+                        var wc = sec.palabras || sec.words;
+                        section.appendChild(el('p', 'mode-note', wc + ' palabras'));
+                    }
+                    if (sec.items && sec.items.length) {
+                        var list = el('ul', 'teach-examples');
+                        sec.items.forEach(function (example) {
+                            var li = el('li');
+                            var jp = el('span', 'teach-jp', example.jp || '');
+                            jp.lang = 'ja';
+                            if (jp.textContent) li.appendChild(jp);
+                            if (example.furigana && example.furigana !== example.jp) {
+                                li.appendChild(document.createTextNode(' '));
+                                li.appendChild(el('span', 'teach-kana', example.furigana));
+                            } else if (example.kana && example.kana !== example.jp) {
+                                li.appendChild(document.createTextNode(' '));
+                                li.appendChild(el('span', 'teach-kana', example.kana));
+                            }
+                            if (example.romaji) {
+                                li.appendChild(document.createTextNode(' '));
+                                li.appendChild(el('span', 'teach-romaji', '[' + example.romaji + ']'));
+                            }
+                            var gloss = example.es || '';
+                            if (gloss) {
+                                li.appendChild(document.createTextNode(' · '));
+                                li.appendChild(el('span', 'teach-es', gloss));
+                            }
+                            if (example.rate) {
+                                var btn = el('button', 'btn btn-secondary teach-speak');
+                                btn.type = 'button';
+                                btn.textContent = '🔊 ' + example.rate + 'x';
+                                btn.setAttribute('aria-label', 'Oír ' + (example.jp||''));
+                                (function (text, rate) {
+                                    btn.addEventListener('click', function(){ speakJapanese(text, {rate: rate}); });
+                                })(example.jp, example.rate);
+                                li.appendChild(document.createTextNode(' '));
+                                li.appendChild(btn);
+                            }
+                            list.appendChild(li);
+                        });
+                        section.appendChild(list);
+                    }
+                    if (sec.ejercicios && sec.ejercicios.length) {
+                        var exList = el('ol', 'teach-practice');
+                        sec.ejercicios.forEach(function (ej, idx) {
+                            var li = el('li');
+                            var tipoEj = ej.tipo || ej.type || '';
+                            var badge = tipoEj === 'listen_only' ? '👂 Listening puro' : tipoEj === 'shadowing' ? '🗣️ Shadowing' : tipoEj === 'produccion' ? '✍️ Producción' : tipoEj;
+                            li.appendChild(el('span', 'practice-badge', badge));
+                            li.appendChild(document.createTextNode(' ' + (ej.prompt || ej.jp || '')));
+                            if (ej.mostrar_texto_antes === false) {
+                                li.appendChild(el('span', 'mode-note', ' — texto oculto hasta responder (active recall)'));
+                            }
+                            if (ej.jp) {
+                                var jpBtn = el('button', 'btn btn-secondary teach-speak');
+                                jpBtn.type='button'; jpBtn.textContent='🔊 Oír';
+                                (function (text, rate) {
+                                    jpBtn.addEventListener('click', function(){ speakJapanese(text, {rate: rate||0.9}); });
+                                })(ej.jp, ej.rate);
+                                li.appendChild(document.createTextNode(' '));
+                                li.appendChild(jpBtn);
+                            }
+                            // Botón revelar para active recall obligatorio
+                            if (tipoEj === 'listen_only' || tipoEj === 'produccion') {
+                                var reveal = el('button', 'btn btn-secondary');
+                                reveal.type='button'; reveal.textContent='Ver respuesta';
+                                reveal.setAttribute('aria-expanded','false');
+                                var ans = el('span', 'hidden', ej.respuesta || ej.es || '');
+                                ans.style.display='none';
+                                reveal.addEventListener('click', function(){
+                                    var hidden = ans.style.display==='none';
+                                    ans.style.display = hidden ? 'inline' : 'none';
+                                    ans.classList.toggle('hidden', !hidden);
+                                    reveal.setAttribute('aria-expanded', hidden ? 'true':'false');
+                                    reveal.textContent = hidden ? 'Ocultar' : 'Ver respuesta';
+                                });
+                                li.appendChild(document.createTextNode(' '));
+                                li.appendChild(reveal);
+                                li.appendChild(document.createTextNode(' '));
+                                li.appendChild(ans);
+                            }
+                            exList.appendChild(li);
+                        });
+                        section.appendChild(exList);
+                    }
+                    lessonTeach.appendChild(section);
+                });
+            } else if (lesson.teach && lesson.teach.length) {
+                lesson.teach.forEach(function (block) {
+                    var section = el('section', 'teach-block');
+                    if (block.heading && block.heading !== lesson.title) {
+                        section.appendChild(el('h3', null, block.heading));
+                    }
+                    section.appendChild(el('p', null, block.text));
+                    if (block.examples && block.examples.length) {
+                        var list = el('ul', 'teach-examples');
+                        block.examples.forEach(function (example) {
+                            var li = el('li');
+                            var jp = el('span', 'teach-jp', example.jp);
+                            jp.lang = 'ja';
+                            li.appendChild(jp);
+                            if (example.kana && example.kana !== example.jp) {
+                                li.appendChild(document.createTextNode(' '));
+                                li.appendChild(el('span', 'teach-kana', example.kana));
+                            }
+                            var gloss = example.es || kanaReading(example.jp);
+                            if (gloss) {
+                                li.appendChild(document.createTextNode(' · '));
+                                li.appendChild(el('span', 'teach-es', gloss));
+                            }
+                            list.appendChild(li);
+                        });
+                        section.appendChild(list);
+                    }
+                    lessonTeach.appendChild(section);
+                });
+            }
         }
         var row = loadProgress()[id];
         if (lessonStatus) {
@@ -3282,7 +3873,21 @@
         document.querySelectorAll('#homeBar [data-level]').forEach(function (btn) {
             if (!btn) return;
             btn.addEventListener('click', function () {
+                if (isImabi()) setCurriculum('jlpt');
                 setLevel(btn.getAttribute('data-level'));
+            });
+        });
+        document.querySelectorAll('#homeBar [data-curriculum]').forEach(function (btn) {
+            if (!btn) return;
+            btn.addEventListener('click', function () {
+                setCurriculum(btn.getAttribute('data-curriculum'));
+            });
+        });
+        document.querySelectorAll('#imabiBar [data-imabi-level]').forEach(function (btn) {
+            if (!btn) return;
+            btn.addEventListener('click', function () {
+                if (!isImabi()) setCurriculum('imabi');
+                setImabiLevel(btn.getAttribute('data-imabi-level'));
             });
         });
         if (homePathBtn) homePathBtn.addEventListener('click', function () { setHome('path'); });
@@ -3301,11 +3906,10 @@
         });
         if (pathContinueBtn) pathContinueBtn.addEventListener('click', function () {
             if (exam.active || !Lessons) return;
-            var list = Lessons.lessonsFor ? Lessons.lessonsFor(state.level) : Lessons.LESSONS;
-            var progress = loadProgress(state.level);
-            var next = Lessons.passedCount(progress, state.level) === list.length
-                ? list[0]
-                : Lessons.nextLesson(progress, state.level);
+            var list = isImabi() && Lessons.lessonsForImabi ? Lessons.lessonsForImabi(state.imabiLevel) : (Lessons.lessonsFor ? Lessons.lessonsFor(state.level) : Lessons.LESSONS);
+            var progressKey = isImabi() ? ('imabi-' + state.imabiLevel) : state.level;
+            var progress = loadProgress(progressKey);
+            var next = isImabi() ? (function(){ for(var i=0;i<list.length;i++){ var l=list[i]; if(!progress[l.id]||!progress[l.id].passed) return l; } return list[0]||null; })() : (Lessons.passedCount(progress, state.level) === list.length ? list[0] : Lessons.nextLesson(progress, state.level));
             if (!next) return;
             openLesson(next.id);
         });
@@ -3346,6 +3950,12 @@
             });
             try { if (typeof synth.getVoices === 'function') synth.getVoices(); } catch (e) { /* aún no hay voces */ }
         }
+        // WexDC: primer toque habilita audio (política WebKit/webxdc) + despertar motor
+        function unlockAudio(){ wakeEngine(); }
+        document.addEventListener('touchend', unlockAudio, {once:true});
+        document.addEventListener('click', unlockAudio, {once:true});
+        // Despertar al cargar por si ya hay voz
+        wakeEngine();
         document.addEventListener('keydown', onDocumentKeydown);
         window.addEventListener('pagehide', onPageHide);
         document.addEventListener('visibilitychange', onVisibility);
