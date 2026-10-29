@@ -764,48 +764,6 @@
         return /^\d{4}-\d{2}-\d{2}$/.test(day) ? "nihongodojo-copia-" + day + ".json" : "nihongodojo-copia.json";
     }
 
-    // --- SRS v2 determinista (WexDC) — ver docs/ALGORITMO_SRS.md ---
-    // Re-exportado aquí para no romper imports existentes; la lógica vive en srs.js si está cargado.
-    let SRS = null;
-    if (root.NihongoDojoSRS) SRS = root.NihongoDojoSRS;
-    else if (typeof require !== 'undefined') {
-        try { SRS = require('./srs.js'); root.NihongoDojoSRS = SRS; } catch (e) { SRS = null; }
-    }
-    function srsNext(state, quality, nowMs) {
-        if (SRS && SRS.srsNext) return SRS.srsNext(state, quality, nowMs);
-        // Fallback mínimo si srs.js no está: delega a lógica inline
-        const now = typeof nowMs === 'number' ? nowMs : Date.now();
-        let ease = typeof state.ease === 'number' ? state.ease : 2.5;
-        let interval = typeof state.interval === 'number' ? state.interval : 0;
-        let reps = typeof state.reps === 'number' ? state.reps : 0;
-        if (quality === 1) return { ease: Math.max(1.3, ease-0.2), interval: 0, reps: 0, due: now, lastSeen: now };
-        if (reps===0) interval=1; else if (reps===1) interval=3; else {
-            const f = quality===3?1.2:quality===4?ease:ease*1.3;
-            interval = Math.round(interval*f);
-        }
-        reps+=1;
-        ease = Math.max(1.3, Math.min(2.8, ease + (0.1 - (5-quality)*(0.08+(5-quality)*0.02))));
-        if (quality===3) interval=Math.max(1,interval);
-        if (quality===4) interval=Math.max(3,interval);
-        if (quality===5) interval=Math.max(4,interval);
-        if (interval>180) interval=180;
-        return { ease:ease, interval:interval, reps:reps, due: now+interval*86400000, lastSeen: now };
-    }
-    function srsInit(){ return SRS && SRS.srsInit ? SRS.srsInit() : {ease:2.5, interval:0, reps:0, due:0, lastSeen:0}; }
-    function fromLegacySeen(t, ok){ return SRS && SRS.fromLegacySeen ? SRS.fromLegacySeen(t, ok) : (ok ? {ease:2.5, interval:3, reps:1, due:t+3*86400000, lastSeen:t} : {ease:2.5, interval:0, reps:0, due:t, lastSeen:t}); }
-    function planReviewV2(allItems, now, opts){
-        if (SRS && SRS.planReviewV2) return SRS.planReviewV2(allItems, now, opts);
-        // Fallback interleaved simple
-        const limit = opts&&opts.limit>0?Math.floor(opts.limit):20;
-        const n = typeof now==='number'?now:Date.now();
-        const cand = (Array.isArray(allItems)?allItems:[]).filter(function(it){return it && typeof it.due==='number' && it.due<=n;}).sort(function(a,b){return a.due-b.due;});
-        const byPr={}; cand.forEach(function(it){(byPr[it.practice]=byPr[it.practice]||[]).push(it);});
-        const prs=Object.keys(byPr), out=[], used=new Set(); let more=true;
-        while(more && out.length<limit){ more=false; prs.forEach(function(p){ const lst=byPr[p]; if(!lst.length||out.length>=limit) return; const c=lst.shift(); const k=p+'\n'+c.id; if(used.has(k)) return; used.add(k); out.push({id:c.id, practice:p, reason:c.interval===0?'miss':'due', due:c.due}); more=true;});}
-        if(out.length<limit) cand.forEach(function(it){ if(out.length>=limit) return; const k=it.practice+'\n'+it.id; if(used.has(k)) return; used.add(k); out.push({id:it.id, practice:it.practice, reason:it.interval===0?'miss':'due', due:it.due});});
-        return out.slice(0,limit);
-    }
-
     // API pública
     const api = {
         MODES,
@@ -844,12 +802,7 @@
         backupSummary,
         backupLine,
         backupChatText,
-        backupFileName,
-        // WexDC SRS v2
-        srsNext,
-        srsInit,
-        fromLegacySeen,
-        planReviewV2
+        backupFileName
     };
 
     root.NihongoDojoCore = api;

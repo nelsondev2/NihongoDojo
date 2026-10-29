@@ -20,8 +20,7 @@ function check(name, fn) {
 
 check('cada lección arma su quiz con ítems que ya existen', () => {
     assert.strictEqual(Lessons.PASS_PERCENT, 70);
-    // WexDC 2.0: se inyectó 1 lección rica (l-wx-*), el conteo base es 213
-    assert.ok(Lessons.LESSONS.length >= 213, 'al menos 213 lecciones base');
+    assert.strictEqual(Lessons.LESSONS.length, 213);
     const errors = Lessons.validate(Core, Lex);
     assert.deepStrictEqual(errors, []);
     const ids = new Set();
@@ -29,42 +28,30 @@ check('cada lección arma su quiz con ítems que ya existen', () => {
         assert.strictEqual(ids.has(lesson.id), false, lesson.id);
         ids.add(lesson.id);
         const queue = Lessons.buildQueue(lesson, Core, Lex, () => 0.2);
-        // WexDC 2.1: 20 preguntas variadas por lección (interleaving + listening)
-        const expected = 20;
-        assert.strictEqual(queue.length, expected, lesson.id + ' got ' + queue.length);
-        // Varied items reuse original lex/kana but via QuizEngine
+        const expected = lesson.quiz.practice === 'kana' ? lesson.quiz.chars.length : lesson.quiz.ids.length;
+        assert.strictEqual(queue.length, expected, lesson.id);
         if (lesson.quiz.practice === 'kana') {
-            assert.ok(queue.every((item) => (item.kanaObj && item.kanaObj.type === lesson.quiz.type) || (item.exerciseType && item.kanaObj)));
-        } else if (lesson.quiz.practice === 'reading') {
-            assert.ok(queue.every((item) => item.reading && item.reading.level === 'n5'));
+            assert.ok(queue.every((item) => item.kanaObj && item.kanaObj.type === lesson.quiz.type));
         } else {
-            assert.ok(queue.every((item) => {
-                if (item.exerciseType) return !!(item.answer && item.choices && item.choices.length);
-                return item.lex && item.choices && item.choices.some((choice) => choice.id === item.lex.id);
-            }), lesson.id);
+            assert.ok(queue.every((item) => item.lex && item.choices && item.choices.some((choice) => choice.id === item.lex.id)));
         }
     }
 });
 
 check('el camino propone la primera no superada y no bloquea el resto', () => {
-    // WexDC: la primera es la rica (l-wx-n5-01-wa), luego vocales
-    const firstNext = Lessons.nextLesson({}).id;
-    assert.ok(firstNext === 'l-wx-n5-01-wa' || firstNext === 'l-h-vocales', firstNext);
-    assert.strictEqual(Lessons.nextLesson({ 'l-wx-n5-01-wa': { passed: true } }).id, 'l-h-vocales');
-    assert.strictEqual(Lessons.nextLesson({ 'l-h-vocales': { passed: true }, 'l-wx-n5-01-wa': { passed: true } }).id, 'l-h-fila-ka');
+    assert.strictEqual(Lessons.nextLesson({}).id, 'l-h-vocales');
+    assert.strictEqual(Lessons.nextLesson({ 'l-h-vocales': { passed: true } }).id, 'l-h-fila-ka');
     const first = Lessons.locate('l-h-vocales');
-    // WexDC: hay 1 lección rica antes, vocales es 2
-    assert.ok(first.number === 1 || first.number === 2, first.number);
+    assert.strictEqual(first.number, 1);
     assert.strictEqual(first.lesson.title, 'Hiragana: Vocales');
-    const kaNum = Lessons.locate('l-h-fila-ka').number;
-    assert.ok(kaNum === 2 || kaNum === 3, kaNum);
+    assert.strictEqual(Lessons.locate('l-h-fila-ka').number, 2);
     const ka = Lessons.findLesson('l-h-fila-ka');
     assert.ok(!ka.teach[0].text.includes('し'));
     assert.ok(ka.teach[0].text.includes('か es ka'));
     assert.ok(ka.quiz.chars.every((ch) => ch.length === 1 && ch !== 'ー'));
     const all = {};
     Lessons.lessonsFor('n5').forEach((lesson) => { all[lesson.id] = { passed: true }; });
-    assert.ok(['l-h-vocales','l-wx-n5-01-wa'].includes(Lessons.nextLesson(all).id), Lessons.nextLesson(all).id);
+    assert.strictEqual(Lessons.nextLesson(all).id, 'l-h-vocales');
     assert.strictEqual(Lessons.passedCount(all), Lessons.lessonsFor('n5').length);
     assert.strictEqual(Lessons.passedCount({ 'l-g-desu': { passed: false } }), 0);
     const conj = Lessons.findLesson('l-cj-1');
@@ -88,11 +75,12 @@ check('el N4 no mezcla el camino ni el catálogo del N5', () => {
         assert.strictEqual(n5ids.has(lesson.id), false, lesson.id);
         assert.ok(lesson.id.length <= 80, lesson.id);
         const queue = Lessons.buildQueue(lesson, Core, Lex, () => 0.2);
-        assert.strictEqual(queue.length, 20, lesson.id);
+        const expected = lesson.quiz.ids.length;
+        assert.strictEqual(queue.length, expected, lesson.id);
         if (lesson.quiz.practice === 'reading') {
             assert.ok(queue.every((item) => item.reading && item.reading.level === 'n4'), lesson.id);
         } else {
-            assert.ok(queue.every((item) => (item.lex && item.lex.level === 'n4') || (item.exerciseType && item.level === 'n4')), lesson.id);
+            assert.ok(queue.every((item) => item.lex && item.lex.level === 'n4'), lesson.id);
         }
     }
     const pack = Lex.forLevel('n4');
@@ -111,11 +99,11 @@ check('el N3 no mezcla el camino ni el catálogo del N4', () => {
         assert.strictEqual(lesson.level, 'n3');
         assert.strictEqual(other.has(lesson.id), false, lesson.id);
         const queue = Lessons.buildQueue(lesson, Core, Lex, () => 0.2);
-        assert.strictEqual(queue.length, 20, lesson.id);
+        assert.strictEqual(queue.length, lesson.quiz.ids.length, lesson.id);
         if (lesson.quiz.practice === 'reading') {
             assert.ok(queue.every((item) => item.reading && item.reading.level === 'n3'), lesson.id);
         } else {
-            assert.ok(queue.every((item) => (item.lex && item.lex.level === 'n3') || (item.exerciseType && item.level === 'n3')), lesson.id);
+            assert.ok(queue.every((item) => item.lex && item.lex.level === 'n3'), lesson.id);
         }
     }
     const pack = Lex.forLevel('n3');
@@ -135,11 +123,11 @@ check('el N2 no mezcla el camino ni el catálogo del N3', () => {
         assert.strictEqual(lesson.level, 'n2');
         assert.strictEqual(other.has(lesson.id), false, lesson.id);
         const queue = Lessons.buildQueue(lesson, Core, Lex, () => 0.2);
-        assert.strictEqual(queue.length, 20, lesson.id);
+        assert.strictEqual(queue.length, lesson.quiz.ids.length, lesson.id);
         if (lesson.quiz.practice === 'reading') {
             assert.ok(queue.every((item) => item.reading && item.reading.level === 'n2'), lesson.id);
         } else {
-            assert.ok(queue.every((item) => (item.lex && item.lex.level === 'n2') || (item.exerciseType && item.level === 'n2')), lesson.id);
+            assert.ok(queue.every((item) => item.lex && item.lex.level === 'n2'), lesson.id);
         }
     }
     const pack = Lex.forLevel('n2');
@@ -159,11 +147,11 @@ check('el N1 no mezcla el camino ni el catálogo del N2', () => {
         assert.strictEqual(lesson.level, 'n1');
         assert.strictEqual(other.has(lesson.id), false, lesson.id);
         const queue = Lessons.buildQueue(lesson, Core, Lex, () => 0.2);
-        assert.strictEqual(queue.length, 20, lesson.id);
+        assert.strictEqual(queue.length, lesson.quiz.ids.length, lesson.id);
         if (lesson.quiz.practice === 'reading') {
             assert.ok(queue.every((item) => item.reading && item.reading.level === 'n1'), lesson.id);
         } else {
-            assert.ok(queue.every((item) => (item.lex && item.lex.level === 'n1') || (item.exerciseType && item.level === 'n1')), lesson.id);
+            assert.ok(queue.every((item) => item.lex && item.lex.level === 'n1'), lesson.id);
         }
     }
     const pack = Lex.forLevel('n1');
@@ -201,7 +189,7 @@ check('cada nivel practica frases, escucha y lectura, y un nivel ausente no es e
         assert.strictEqual(coveredIds('phrases', 'phrase-es'), pack.PHRASES.length, level);
     }
     const first = Lessons.lessonsFor('n5')[0];
-    assert.ok(first.id === 'l-wx-n5-01-wa' || first.id === 'l-h-vocales', first.id);
+    assert.strictEqual(first.id, 'l-h-vocales');
     assert.strictEqual(Lessons.lessonsFor('n4')[0].id, 'l-n4-puente');
 });
 

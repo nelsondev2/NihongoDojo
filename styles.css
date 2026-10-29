@@ -345,6 +345,73 @@ body {
 .teach-block p {
     margin: 0 0 8px;
     color: #2c3e44;
+    line-height: 1.6;
+}
+
+.teach-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0;
+    font-size: 0.9rem;
+    background: white;
+}
+
+.teach-table th,
+.teach-table td {
+    border: 1px solid #f3e6d8;
+    padding: 8px 10px;
+    text-align: left;
+}
+
+.teach-table th {
+    background: #fff5e6;
+    font-weight: 700;
+    color: #d32f2f;
+}
+
+.teach-table tr:nth-child(even) {
+    background: #fffaf5;
+}
+
+.teach-subhead {
+    margin: 10px 0 6px;
+    font-size: 0.95rem;
+    color: #d32f2f;
+    font-weight: 700;
+}
+
+.teach-formula {
+    background: #fff8ef;
+    border-left: 4px solid #d32f2f;
+    padding: 10px 12px;
+    margin: 10px 0;
+    font-weight: 600;
+    border-radius: 8px;
+}
+
+.teach-checklist {
+    list-style: none;
+    padding-left: 0;
+    margin: 8px 0;
+}
+
+.teach-checklist li {
+    margin: 6px 0;
+    padding-left: 22px;
+    position: relative;
+}
+
+.teach-checklist li::before {
+    content: "☐";
+    position: absolute;
+    left: 0;
+    color: #d32f2f;
+}
+
+.check-item {
+    background: #fff5e6;
+    padding: 6px 10px;
+    border-radius: 10px;
 }
 
 .teach-examples {
@@ -933,30 +1000,3 @@ body {
     .type-btn { font-size: 0.75rem; }
     .quiz-card { padding: 16px 14px 22px; }
 }
-
-/* WexDC 2.0 — Lecciones ricas (6 secciones, active recall, listening puro) */
-.teach-gancho { border-left: 4px solid #d32f2f; background: #fff5f5; }
-.teach-explicacion { border-left: 4px solid #1565c0; background: #f0f6ff; }
-.teach-ejemplos { border-left: 4px solid #2e7d32; }
-.teach-practica { border-left: 4px solid #6a1b9a; background: #faf4ff; }
-.teach-errores_comunes { border-left: 4px solid #ef6c00; background: #fff8e1; }
-.teach-cierre { border-left: 4px solid #00796b; background: #e0f2f1; }
-.teach-romaji { color: #6a7a86; font-size: 0.85rem; font-style: italic; }
-.teach-speak { font-size: 0.7rem; padding: 4px 8px; min-height: auto; }
-.practice-badge { display: inline-block; background: #ede7f6; color: #4a148c; font-size: 0.7rem; font-weight: 700; padding: 2px 6px; border-radius: 8px; }
-.teach-practice li { margin: 8px 0; line-height: 1.5; }
-.lesson-view.wexdc-rich .lesson-title { font-size: 1.25rem; }
-
-/* WexDC Clarity 3.0 — render rico tablas/fórmulas/checklist */
-.teach-subhead { font-weight: 700; font-size: 1.05rem; margin: 14px 0 6px; color: #1a1a1a; border-bottom: 1px solid #e0e0e0; padding-bottom: 4px; }
-.teach-formula { background: #fffde7; border: 1.5px dashed #f9a825; border-radius: 8px; padding: 10px 14px; font-weight: 700; margin: 10px 0; font-size: 0.95rem; }
-.teach-table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 0.88rem; }
-.teach-table th, .teach-table td { border: 1px solid #bbb; padding: 6px 8px; text-align: left; }
-.teach-table th { background: #f5f5f5; font-weight: 700; }
-.teach-table tr:nth-child(even) td { background: #fafafa; }
-.teach-checklist { list-style: none; padding-left: 0; margin: 8px 0; }
-.teach-checklist li { background: #f1f8e9; border-radius: 6px; padding: 6px 10px; margin: 5px 0; border-left: 3px solid #66bb6a; }
-.teach-checklist li.check-item::before { content: "☐ "; font-weight: 700; }
-.teach-rich { line-height: 1.65; margin: 6px 0; white-space: pre-wrap; }
-.teach-desglose { background: #eef7ff; border-left: 3px solid #42a5f5; padding: 8px 10px; border-radius: 4px; margin: 8px 0; font-size: 0.92rem; }
-.teach-practice .practice-badge { display: inline-block; font-size: 0.75rem; font-weight: 700; padding: 2px 6px; border-radius: 4px; background: #ede7f6; color: #4527a0; margin-right: 4px; }

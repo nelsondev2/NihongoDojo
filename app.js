@@ -211,9 +211,29 @@
     function knownImabiLevel(l) {
         if (!l) return 'beginners1';
         var k = String(l).toLowerCase().replace(/[^a-z0-9]/g,'');
+        if (k === 'beginners1' || k === 'beginnersi' || k === 'b1') return 'beginners1';
         if (k === 'beginners2' || k === 'beginnersii' || k === 'b2') return 'beginners2';
+        if (k === 'intermediate1' || k === 'intermediatei' || k === 'i1') return 'intermediate1';
+        if (k === 'intermediate2' || k === 'intermediateii' || k === 'i2') return 'intermediate2';
+        if (k === 'intermediate3' || k === 'intermediateiii' || k === 'i3') return 'intermediate3';
+        if (k === 'advanced1' || k === 'advancedi' || k === 'a1') return 'advanced1';
+        if (k === 'advanced2' || k === 'advancedii' || k === 'a2') return 'advanced2';
+        if (k === 'advanced3' || k === 'advancediii' || k === 'a3') return 'advanced3';
+        if (k === 'classical' || k === 'veteran' || k === 'c') return 'classical';
         return 'beginners1';
     }
+    // IMABI es un curriculum separado: no comparte lecciones N5 ni progreso JLPT
+    var IMABI_LABELS = {
+        beginners1: 'Beginners I (0-50)',
+        beginners2: 'Beginners II (51-100)',
+        intermediate1: 'Intermediate I (101-150)',
+        intermediate2: 'Intermediate II (151-200)',
+        intermediate3: 'Intermediate III (201-250)',
+        advanced1: 'Advanced I (251-300)',
+        advanced2: 'Advanced II (301-350)',
+        advanced3: 'Advanced III (351-400)',
+        classical: 'Classical / Veteran'
+    };
     function isImabi() { return state.curriculum === 'imabi'; }
     function currentLessons() {
         if (isImabi() && Lessons && Lessons.lessonsForImabi) {
@@ -274,9 +294,14 @@
         return Lex && Lex.forLevel ? Lex.forLevel(level) : Lex;
     }
     function progressKey(level) {
-        var use = knownLevel(level || state.level);
+        var raw = level || state.level;
+        if (typeof raw === 'string' && raw.indexOf('imabi') === 0) {
+            return 'lessons.' + raw;
+        }
+        var use = knownLevel(raw);
         return use === 'n5' ? 'lessons' : 'lessons.' + use;
     }
+    function isImabiLevelKey(k) { return typeof k === 'string' && k.indexOf('imabi-') === 0; }
     function selKey(name) {
         return state.level === 'n5' ? 'sel.' + name : 'sel.' + state.level + '.' + name;
     }
@@ -3152,13 +3177,20 @@
     function loadProgress(level) {
         var out = {};
         if (!Lessons) return out;
-        var use = level || state.level || 'n5';
+        var use = level || (isImabi() ? ('imabi-' + state.imabiLevel) : state.level) || 'n5';
         var raw = storageGet(progressKey(use));
         if (!raw) return out;
         try {
             var data = JSON.parse(raw);
             if (!data || typeof data !== 'object') return out;
-            var list = Lessons.lessonsFor ? Lessons.lessonsFor(use) : Lessons.LESSONS;
+            var list;
+            if (typeof use === 'string' && use.indexOf('imabi') === 0) {
+                var lvlKey = use.replace(/^imabi-?/, '') || state.imabiLevel || 'beginners1';
+                list = (Lessons.lessonsForImabi ? Lessons.lessonsForImabi(lvlKey) : []);
+            } else {
+                list = Lessons.lessonsFor ? Lessons.lessonsFor(use) : Lessons.LESSONS;
+            }
+            // also include any ids present in data that are not in list but are imabi (for backward compat)
             list.forEach(function (lesson) {
                 var row = data[lesson.id];
                 if (!row || typeof row !== 'object') return;
@@ -3174,9 +3206,36 @@
         return out;
     }
     function recordLesson(id, percent) {
-        if (!Lessons || !Lessons.findLesson(id)) return;
-        var lesson = Lessons.findLesson(id);
-        var use = lesson && lesson.level ? lesson.level : state.level;
+        if (!Lessons || !(Lessons.findLesson && Lessons.findLesson(id) || Lessons.findLessonAny && Lessons.findLessonAny(id))) return;
+        var lesson = (Lessons.findLessonAny ? Lessons.findLessonAny(id) : Lessons.findLesson(id));
+        if (!lesson) return;
+        var use;
+        if (typeof lesson.id === 'string' && lesson.id.indexOf('l-imabi') === 0) {
+            use = isImabi() ? ('imabi-' + state.imabiLevel) : ('imabi-' + (state.imabiLevel || 'beginners1'));
+            // try to find which level this id belongs to, for correct progress key
+            if (window.NihongoDojoImabi && window.NihongoDojoImabi.all) {
+                var allEntries = window.NihongoDojoImabi.all();
+                for (var ei = 0; ei < allEntries.length; ei++) {
+                    if (allEntries[ei].ids && allEntries[ei].ids.indexOf(id) !== -1) {
+                        var num = allEntries[ei].num;
+                        var lvl = 'beginners1';
+                        if (num <= 50) lvl = 'beginners1';
+                        else if (num <= 100) lvl = 'beginners2';
+                        else if (num <= 150) lvl = 'intermediate1';
+                        else if (num <= 200) lvl = 'intermediate2';
+                        else if (num <= 250) lvl = 'intermediate3';
+                        else if (num <= 300) lvl = 'advanced1';
+                        else if (num <= 350) lvl = 'advanced2';
+                        else if (num <= 400) lvl = 'advanced3';
+                        else lvl = 'classical';
+                        use = 'imabi-' + lvl;
+                        break;
+                    }
+                }
+            }
+        } else {
+            use = lesson && lesson.level ? lesson.level : state.level;
+        }
         var progress = loadProgress(use);
         var prev = progress[id] || { passed: false, best: 0, last: 0 };
         var score = Math.max(0, Math.min(100, Math.round(percent)));
@@ -3238,8 +3297,11 @@
         if (pathContinueBtn) pathContinueBtn.disabled = false;
         if (pathIntro) {
             if (isImabi()) {
-                var st = Lessons.imabiStats ? Lessons.imabiStats() : {total: list.length, mapped: list.length};
-                pathIntro.textContent = 'Camino IMABI — ' + (state.imabiLevel === 'beginners2' ? 'Beginners II (51-100)' : 'Beginners I (0-50)') + ' · ' + st.mapped + '/' + st.total + ' mapeadas · No copia textos IMABI.';
+                var lvlLabel = (typeof IMABI_LABELS !== 'undefined' && IMABI_LABELS[state.imabiLevel]) ? IMABI_LABELS[state.imabiLevel] : state.imabiLevel;
+                var st = (Lessons.imabiStatsForLevel ? Lessons.imabiStatsForLevel(state.imabiLevel) : (Lessons.imabiStats ? Lessons.imabiStats() : {total: list.length, mapped: list.length}));
+                var dispMapped = st.mapped;
+                var dispTotal = st.total;
+                pathIntro.textContent = 'Camino IMABI — ' + lvlLabel + ' · ' + dispMapped + '/' + dispTotal + ' con contenido · Archivo separado (no JLPT) · No copia textos IMABI.';
             } else {
                 pathIntro.textContent = 'Lista comunitaria. Incluye frases, escucha y lectura. No es el examen oficial.';
             }
@@ -3332,25 +3394,51 @@
                         raw.split('\n\n').forEach(function (para) {
                             var trimmed = para.trim();
                             if (!trimmed) return;
+                            // Tabla: detecta bloque tabla aunque venga con título en mismo párrafo
                             if (trimmed.indexOf('|') !== -1 && trimmed.indexOf('---') !== -1) {
-                                var table = document.createElement('table');
-                                table.className = 'teach-table';
-                                var rows = trimmed.split('\n').filter(function(r){return r.trim();});
-                                rows.forEach(function(row, idx){
-                                    if (row.indexOf('---') !== -1) return;
-                                    var tr = document.createElement('tr');
-                                    var cells = row.split('|').filter(function(c){return c.trim();});
-                                    cells.forEach(function(cell){
-                                        var tag = idx===0 ? 'th' : 'td';
-                                        var elCell = document.createElement(tag);
-                                        elCell.textContent = cell.trim();
-                                        if (idx===0) elCell.setAttribute('scope','col');
-                                        tr.appendChild(elCell);
-                                    });
-                                    table.appendChild(tr);
-                                });
-                                section.appendChild(table);
-                                return;
+                                var lines = trimmed.split('\n');
+                                var tableStart = -1;
+                                for (var ti=0; ti<lines.length; ti++){
+                                    var l = lines[ti].trim();
+                                    if (l.indexOf('|')!==-1 && l.indexOf('---')===-1){
+                                        if (ti+1 < lines.length && lines[ti+1].indexOf('---')!==-1){ tableStart = ti; break; }
+                                    }
+                                }
+                                if (tableStart !== -1){
+                                    if (tableStart > 0){
+                                        var headingText = lines.slice(0, tableStart).join('\n').trim();
+                                        if (headingText){
+                                            if (headingText.length < 80) section.appendChild(el('h4','teach-subhead', headingText));
+                                            else { var hp = el('p', null, headingText); section.appendChild(hp); }
+                                        }
+                                    }
+                                    var table = document.createElement('table');
+                                    table.className = 'teach-table';
+                                    var isHeader = true;
+                                    for (var ri=tableStart; ri<lines.length; ri++){
+                                        var row = lines[ri].trim();
+                                        if (!row) continue;
+                                        if (row.indexOf('---')!==-1) continue;
+                                        if (row.indexOf('|')===-1) {
+                                            var after = lines.slice(ri).join('\n').trim();
+                                            if (after) section.appendChild(el('p', null, after));
+                                            break;
+                                        }
+                                        var tr = document.createElement('tr');
+                                        var cells = row.split('|').filter(function(c){return c.trim();});
+                                        cells.forEach(function(cell){
+                                            var tag = isHeader ? 'th' : 'td';
+                                            var elCell = document.createElement(tag);
+                                            elCell.textContent = cell.trim();
+                                            if (isHeader) elCell.setAttribute('scope','col');
+                                            tr.appendChild(elCell);
+                                        });
+                                        table.appendChild(tr);
+                                        isHeader = false;
+                                    }
+                                    section.appendChild(table);
+                                    return;
+                                }
                             }
                             if (trimmed.startsWith('🎯') || trimmed.startsWith('🧩') || trimmed.startsWith('👣') || trimmed.startsWith('⚖️') || trimmed.startsWith('💡') || trimmed.startsWith('🔑') || trimmed.startsWith('❌') || trimmed.startsWith('💬') || trimmed.startsWith('✅') || trimmed.startsWith('Fórmula') || trimmed.startsWith('Tabla') || trimmed.startsWith('Objetivo')) {
                                 var lines = trimmed.split('\n');

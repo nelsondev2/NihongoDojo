@@ -4,5 +4,5 @@
 # un cliente puede ignorarlos.
 name = "NihongoDojo"
 source_code_url = "https://github.com/nelsondev2/NihongoDojo"
-version = "1.14.0-wexdc"
-description = "WexDC 2.0 · SRS determinista + lecciones 400+ palabras + audio neural · Camino comunitario N5 a N1, con frases, escucha, lectura y copia de progreso."
+version = "1.13.6"
+description = "Camino comunitario N5 a N1, con frases, escucha, lectura y copia del progreso."
