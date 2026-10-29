@@ -11,10 +11,10 @@
     // Cuando un tema IMABI no tiene lección propia, se deja ids:[] y se creará en siguiente iteración.
     // BEGINNERS I = Imabi 0-50 (base N5)
     var BEGINNERS_I = [
-        { num: 0, title: "Introduction to Japanese", url: "https://imabi.org/what-is-japanese/", ids: [] },
+        { num: 0, title: "Introduction to Japanese", url: "https://imabi.org/what-is-japanese/", ids: ["l-imabi-000"] },
         { num: 1, title: "Vowels", url: "https://imabi.org/pronunciation-i/", ids: ["l-h-vocales", "l-k-vocales"] },
-        { num: 2, title: "Consonants", url: "https://imabi.org/pronunciation-ii%E3%80%80%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%81%AE%E7%99%BA%E9%9F%B3%E2%91%A1/", ids: [] },
-        { num: 3, title: "Pitch Accent & Devoicing", url: "https://imabi.org/pronunciation-iii-%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%81%AE%E7%99%BA%E9%9F%B3%E2%91%A2/", ids: [] },
+        { num: 2, title: "Consonants", url: "https://imabi.org/pronunciation-ii%E3%80%80%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%81%AE%E7%99%BA%E9%9F%B3%E2%91%A1/", ids: ["l-imabi-002"] },
+        { num: 3, title: "Pitch Accent & Devoicing", url: "https://imabi.org/pronunciation-iii-%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%81%AE%E7%99%BA%E9%9F%B3%E2%91%A2/", ids: ["l-imabi-003"] },
         { num: 4, title: "Hiragana ひらがな", url: "https://imabi.org/hiragana%E3%80%80%E3%81%B2%E3%82%89%E3%81%8C%E3%81%AA/", ids: ["l-h-vocales","l-h-fila-ka","l-h-fila-sa","l-h-fila-ta","l-h-fila-na","l-h-fila-ha","l-h-fila-ma","l-h-fila-ya","l-h-fila-ra","l-h-fila-wa"] },
         { num: 5, title: "Katakana カタカナ", url: "https://imabi.org/katakana%E3%80%80%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A/", ids: ["l-k-vocales","l-k-fila-ka","l-k-fila-sa","l-k-fila-ta","l-k-fila-na","l-k-fila-ha","l-k-fila-ma","l-k-fila-ya","l-k-fila-ra","l-k-fila-wa"] },
         { num: 6, title: "Kana Orthography", url: "https://imabi.org/kana-iii-orthography%E3%80%80%E4%BB%AE%E5%90%8D%E9%81%A3%E3%81%84/", ids: ["l-hy-kya-sha-cha","l-hy-nya-hya-mya-rya","l-hy-gya-ja-bya-pya","l-ky-kya-sha-cha"] },
