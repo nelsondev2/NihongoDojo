@@ -409,10 +409,16 @@
         { num: 400, title: "IMABI 400: Tema avanzado 400", url: "https://imabi.org/lesson-400/", ids: ["l-imabi-400"] },
     ];
 
+    var ADVANCED_IV = [
+    ];
+    var CLASSICAL = [
+        { num: 600, title: "Okinawan 01: Script", url: "https://imabi.org/okinawan-01/", ids: ["l-imabi-okin01"] },
+    ];
+
     // Resumen: Para no inflar XDC, solo detallamos Beginners I-II completos. El resto se genera igual.
     // Los 300+ restantes están en docs/IMABI_PLAN.md y se irán mapeando.
 
-    function all() { return [].concat(BEGINNERS_I, BEGINNERS_II, INTERMEDIATE_I, INTERMEDIATE_II, INTERMEDIATE_III, ADVANCED_I, ADVANCED_II, ADVANCED_III); }
+    function all() { return [].concat(BEGINNERS_I, BEGINNERS_II, INTERMEDIATE_I, INTERMEDIATE_II, INTERMEDIATE_III, ADVANCED_I, ADVANCED_II, ADVANCED_III, ADVANCED_IV, CLASSICAL); }
 
     function toLessonIds(entry) { return entry.ids || []; }
 
@@ -431,6 +437,8 @@
         ADVANCED_I: ADVANCED_I,
         ADVANCED_II: ADVANCED_II,
         ADVANCED_III: ADVANCED_III,
+        ADVANCED_IV: ADVANCED_IV,
+        CLASSICAL: CLASSICAL,
         all: all,
         toLessonIds: toLessonIds,
         stats: stats,
