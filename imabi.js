@@ -92,10 +92,38 @@
         { num: 100, title: "～てあげる/くれる/もらう", url: "https://imabi.org/%ef%bd%9e%e3%81%a6%e3%81%82%e3%81%92%e3%82%8b-%ef%bd%9e%e3%81%a6%e3%81%8f%e3%82%8c%e3%82%8b-%ef%bd%9e%e3%81%a6%e3%82%82%e3%82%89%e3%81%86-2/", ids: ["l-imabi-100"] }
     ];
 
+    var INTERMEDIATE_I = [
+        { num: 101, title: "～かた — cómo hacer", url: "https://imabi.org/the-non-question-how-%ef%bd%9e%e6%96%b9%e3%81%8b%e3%81%9f/", ids: ["l-imabi-101"] },
+        { num: 102, title: "Interrogativos II — cómo", url: "https://imabi.org/interrogatives-ii-the-question-how/", ids: ["l-imabi-102"] },
+        { num: 103, title: "Interrogativos con partículas", url: "https://imabi.org/interrogatives-iii-with-particles/", ids: ["l-imabi-103"] },
+        { num: 104, title: "の II — nominalizador", url: "https://imabi.org/the-particle-%e3%81%ae-ii/", ids: ["l-imabi-104"] },
+        { num: 105, title: "で II — medio/límite", url: "https://imabi.org/the-particle-%e3%81%a7-ii/", ids: ["l-imabi-105"] },
+        { num: 106, title: "Pluralización — たち/ら", url: "https://imabi.org/pluralization/", ids: ["l-imabi-106"] },
+        { num: 107, title: "～たち — plural humano", url: "https://imabi.org/pluralization-ii-%ef%bd%9e%e3%81%9f%e3%81%a1/", ids: ["l-imabi-107"] },
+        { num: 108, title: "毎～/ごとに/おきに", url: "https://imabi.org/whenever-%e6%af%8e%ef%bd%9e-%ef%bd%9e%e6%af%8e%e3%81%ab-%ef%bd%9e%e3%81%8a%e3%81%8d%e3%81%ab/", ids: ["l-imabi-108"] },
+        { num: 109, title: "かもしれない — quizá", url: "https://imabi.org/might-%e3%81%8b%e3%82%82%e3%81%97%e3%82%8c%e3%81%aa%e3%81%84/", ids: ["l-imabi-109"] },
+        { num: 110, title: "知る vs 分かる", url: "https://imabi.org/%e7%9f%a5%e3%82%8b-vs-%e5%88%86%e3%81%8b%e3%82%8b/", ids: ["l-imabi-110"] },
+        { num: 111, title: "ほしい — querer cosa", url: "https://imabi.org/want-feeling-i-%ef%bd%9e%e3%81%9f%e3%81%84-%e3%81%bb%e3%81%97%e3%81%84/", ids: ["l-imabi-111"] },
+        { num: 112, title: "～たい — querer hacer", url: "https://imabi.org/personal-desire-%ef%bd%9e%e3%81%9f%e3%81%84/", ids: ["l-imabi-112"] },
+        { num: 113, title: "～がる — mostrar signo", url: "https://imabi.org/the-auxiliary-verb-%ef%bd%9e%e3%81%8c%e3%82%8b/", ids: ["l-imabi-113"] },
+        { num: 114, title: "～たい con otra gramática", url: "https://imabi.org/%ef%bd%9e%e3%81%9f%e3%81%84-w-other-grammar/", ids: ["l-imabi-114"] },
+        { num: 115, title: "たり — ejemplos no exhaustivos", url: "https://imabi.org/the-particle-%e3%81%9f%e3%82%8a/", ids: ["l-imabi-115"] },
+        { num: 116, title: "Nominalización — の/こと", url: "https://imabi.org/nominalization/", ids: ["l-imabi-116"] },
+        { num: 117, title: "Expresiones con こと", url: "https://imabi.org/expressions-with-%e3%81%93%e3%81%a8/", ids: ["l-imabi-117"] },
+        { num: 118, title: "～のだ — scope", url: "https://imabi.org/the-scope-marker-%ef%bd%9e%e3%81%ae%e3%81%a0/", ids: ["l-imabi-118"] },
+        { num: 119, title: "～のだ — mood", url: "https://imabi.org/the-mood-marker-%ef%bd%9e%e3%81%ae%e3%81%a0/", ids: ["l-imabi-119"] },
+        { num: 120, title: "ながら — mientras", url: "https://imabi.org/the-particle-%e3%81%aa%e3%81%8c%e3%82%89-i-simultaneous-action/", ids: ["l-imabi-120"] },
+        { num: 121, title: "Saludos II", url: "https://imabi.org/greetings-ii%e3%80%80%e6%8c%a8%e6%8b%b6%e8%a1%a8%e7%8f%be%e3%80%81%e3%81%9d%e3%81%ae%e4%ba%8c/", ids: ["l-imabi-121"] },
+        { num: 122, title: "Verbos vestir", url: "https://imabi.org/the-verbs-for-to-wear-to-take-off/", ids: ["l-imabi-122"] },
+        { num: 123, title: "Verbos jugar", url: "https://imabi.org/the-verbs-for-to-play/", ids: ["l-imabi-123"] },
+        { num: 124, title: "Verbos costar", url: "https://imabi.org/to-cost-money-terminology/", ids: ["l-imabi-124"] },
+        { num: 125, title: "～やすい — fácil de", url: "https://imabi.org/easy-i-%ef%bd%9e%e3%82%84%e3%81%99%e3%81%84/", ids: ["l-imabi-125"] },
+    ];
+
     // Resumen: Para no inflar XDC, solo detallamos Beginners I-II completos. El resto se genera igual.
     // Los 300+ restantes están en docs/IMABI_PLAN.md y se irán mapeando.
 
-    function all() { return [].concat(BEGINNERS_I, BEGINNERS_II); }
+    function all() { return [].concat(BEGINNERS_I, BEGINNERS_II, INTERMEDIATE_I); }
 
     function toLessonIds(entry) { return entry.ids || []; }
 
@@ -108,6 +136,7 @@
     var API = {
         BEGINNERS_I: BEGINNERS_I,
         BEGINNERS_II: BEGINNERS_II,
+        INTERMEDIATE_I: INTERMEDIATE_I,
         all: all,
         toLessonIds: toLessonIds,
         stats: stats,
