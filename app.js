@@ -3394,25 +3394,51 @@
                         raw.split('\n\n').forEach(function (para) {
                             var trimmed = para.trim();
                             if (!trimmed) return;
+                            // Tabla: detecta bloque tabla aunque venga con título en mismo párrafo
                             if (trimmed.indexOf('|') !== -1 && trimmed.indexOf('---') !== -1) {
-                                var table = document.createElement('table');
-                                table.className = 'teach-table';
-                                var rows = trimmed.split('\n').filter(function(r){return r.trim();});
-                                rows.forEach(function(row, idx){
-                                    if (row.indexOf('---') !== -1) return;
-                                    var tr = document.createElement('tr');
-                                    var cells = row.split('|').filter(function(c){return c.trim();});
-                                    cells.forEach(function(cell){
-                                        var tag = idx===0 ? 'th' : 'td';
-                                        var elCell = document.createElement(tag);
-                                        elCell.textContent = cell.trim();
-                                        if (idx===0) elCell.setAttribute('scope','col');
-                                        tr.appendChild(elCell);
-                                    });
-                                    table.appendChild(tr);
-                                });
-                                section.appendChild(table);
-                                return;
+                                var lines = trimmed.split('\n');
+                                var tableStart = -1;
+                                for (var ti=0; ti<lines.length; ti++){
+                                    var l = lines[ti].trim();
+                                    if (l.indexOf('|')!==-1 && l.indexOf('---')===-1){
+                                        if (ti+1 < lines.length && lines[ti+1].indexOf('---')!==-1){ tableStart = ti; break; }
+                                    }
+                                }
+                                if (tableStart !== -1){
+                                    if (tableStart > 0){
+                                        var headingText = lines.slice(0, tableStart).join('\n').trim();
+                                        if (headingText){
+                                            if (headingText.length < 80) section.appendChild(el('h4','teach-subhead', headingText));
+                                            else { var hp = el('p', null, headingText); section.appendChild(hp); }
+                                        }
+                                    }
+                                    var table = document.createElement('table');
+                                    table.className = 'teach-table';
+                                    var isHeader = true;
+                                    for (var ri=tableStart; ri<lines.length; ri++){
+                                        var row = lines[ri].trim();
+                                        if (!row) continue;
+                                        if (row.indexOf('---')!==-1) continue;
+                                        if (row.indexOf('|')===-1) {
+                                            var after = lines.slice(ri).join('\n').trim();
+                                            if (after) section.appendChild(el('p', null, after));
+                                            break;
+                                        }
+                                        var tr = document.createElement('tr');
+                                        var cells = row.split('|').filter(function(c){return c.trim();});
+                                        cells.forEach(function(cell){
+                                            var tag = isHeader ? 'th' : 'td';
+                                            var elCell = document.createElement(tag);
+                                            elCell.textContent = cell.trim();
+                                            if (isHeader) elCell.setAttribute('scope','col');
+                                            tr.appendChild(elCell);
+                                        });
+                                        table.appendChild(tr);
+                                        isHeader = false;
+                                    }
+                                    section.appendChild(table);
+                                    return;
+                                }
                             }
                             if (trimmed.startsWith('🎯') || trimmed.startsWith('🧩') || trimmed.startsWith('👣') || trimmed.startsWith('⚖️') || trimmed.startsWith('💡') || trimmed.startsWith('🔑') || trimmed.startsWith('❌') || trimmed.startsWith('💬') || trimmed.startsWith('✅') || trimmed.startsWith('Fórmula') || trimmed.startsWith('Tabla') || trimmed.startsWith('Objetivo')) {
                                 var lines = trimmed.split('\n');
