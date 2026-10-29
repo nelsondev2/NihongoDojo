@@ -1,4 +1,4 @@
-/* NihongoDojo N5. WexDC Clarity 3.0 — patched l-wx fix */
+/* NihongoDojo N5. WexDC Clarity 3.0 + IMABI 9/14/15 */
 (function (root) {
     "use strict";
     var data = {
@@ -74024,6 +74024,690 @@
         "dudas_anticipadas": 1
       },
       "clarity": 3
+    },
+    {
+      "id": "l-imabi-009",
+      "title": "IMABI 9: Sustantivos y pronombres",
+      "stage": "IMABI · Beginners I",
+      "minutes": 7,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 9: Sustantivos y pronombres",
+          "text": "Los sustantivos no cambian por género ni número. 私 (yo), あなた (tú), 本 (libro). El plural se sugiere con contexto o con たち.",
+          "examples": [
+            {
+              "jp": "私は学生です。",
+              "kana": "わたしはがくせいです。",
+              "es": "Soy estudiante."
+            },
+            {
+              "jp": "あれは本です。",
+              "kana": "あれはほんです。",
+              "es": "Aquello es un libro."
+            },
+            {
+              "jp": "私たちは友達です。",
+              "kana": "わたしたちはともだちです。",
+              "es": "Nosotros somos amigos."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Estás en una izakaya y el camarero te dice 「何名様ですか」 (¿cuántas personas?). No sabes si te pregunta a ti, a tu grupo o a todos. Necesitas pronombres y sustantivos claros."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Los sustantivos en japonés son simples: no tienen género (no hay el/la) y casi nunca cambian por número. 本 es libro o libros según contexto. Si necesitas pluralizar persona, existe ～たち: 私たち (nosotros), 学生たち (los estudiantes), pero no lo uses para cosas: 本たち es raro.\n\nObjetivo: presentar personas y cosas con 私/あなた/あれ/これ sin confundir singular/plural.\n\n🧩 Fórmula: 【Sustantivo + は + Descripción + です】 → 私は学生です / あれは本です\n\nPiensa en bloques: tema + は + qué decimos de él + です cortés. El sustantivo nunca cambia, solo el contexto dice si es uno o muchos.\n\n👣 Cómo construirlo (3 pasos):\n1) Elige el sustantivo: 私 (yo), あなた (tú), 彼 (él), これ (esto), あれ (aquello)\n2) Márcalo con は si es tema: 私は\n3) Cierra con です para cortesía, o だ para plano\n\n⚖️ Tabla para no confundirte:\n| Forma | Para qué | Ejemplo |\n|---|---|---|\n| 私 | yo | 私は学生です |\n| 私たち | nosotros (plural humano) | 私たちは友達です |\n| あれ/これ | aquello/esto | あれは本です |\n| 学生たち | los estudiantes (plural) | 学生たちは教室にいます |\n\nRecuerda: 私たち vs 私達 (ambos válidos, たち en hiragana es más común).\n\n💡 Ejemplos desglosados (palabra por palabra):\n1) 私は学生です。 (わたしはがくせいです。) — “Soy estudiante.” → 私(tema) + は + 学生です。\n   Por qué así: sustantivo como tema con は, cierre cortés です\n2) あれは本です。 (あれはほんです。) — “Aquello es un libro.” → あれ(tema) + は + 本です。\n   Por qué así: demostrativo + は + descripción\n3) 私たちは友達です。 (わたしたちはともだちです。) — “Nosotros somos amigos.” → 私たち(tema plural) + は + 友達です。\n\n🔑 Mini-resumen:\n✅ Si solo recuerdas 3 cosas hoy:\n□ Sustantivo no cambia por número (本 = libro/libros)\n□ Persona en plural usa ～たち (私たち), cosa no\n□ Tema siempre con は, cierre con です cortés\n\n❌ Errores del 90%: decir 本たち para libros (suena a personificar). Di 本 o 本がたくさん. No uses 私達 con kanji en examen básico: usa hiragana たち.\n\n💬 Truco offline: tapa el japonés, lee “Soy estudiante”, produce 私は学生です en voz alta. Active recall > releer.\n\n¿Por qué 5 ítems nuevos máx? Memoria 7±2. Domina 2 hoy, resto al SRS. Mezcla sustantivos + escucha + lectura.",
+          "palabras": 355
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "私は学生です。",
+              "furigana": "わたしはがくせいです。",
+              "romaji": "watashi wa gakusei desu.",
+              "es": "Soy estudiante.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "あれは本です。",
+              "furigana": "あれはほんです。",
+              "romaji": "are wa hon desu.",
+              "es": "Aquello es un libro.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "私たちは友達です。",
+              "furigana": "わたしたちはともだちです。",
+              "romaji": "watashitachi wa tomodachi desu.",
+              "es": "Nosotros somos amigos.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "私は学生です。",
+              "furigana": "わたしはがくせいです。",
+              "es": "Soy estudiante.",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha (texto oculto) y elige.",
+              "respuesta": "私は学生です。 — Soy estudiante."
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "あれは本です。",
+              "furigana": "あれはほんです。",
+              "es": "Aquello es un libro.",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "あれは本です。 — Aquello es un libro."
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "私は学生です。",
+              "furigana": "わたしはがくせいです。",
+              "es": "Soy estudiante.",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: 'Nosotros somos amigos.'",
+              "respuesta": "私たちは友達です。",
+              "jp": "私たちは友達です。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: confundir 私たち (nosotros) con 私達 en kanji raro. En N5 usa hiragana. Y no pluralices cosas con たち: 本たち suena a que los libros son personas."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: 本 no cambia por número, persona plural con たち. Próxima: Copula plain/plite. Di 3 veces: 私たちは友達です。"
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Estás en una izakaya y el camarero te dice 「何名様ですか」 (¿cuántas personas?). No sabes si te pregunta a ti, a tu grupo o a todos. Necesitas pronombres y sustantivos claros."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Los sustantivos en japonés son simples: no tienen género (no hay el/la) y casi nunca cambian por número. 本 es libro o libros según contexto. Si necesitas pluralizar persona, existe ～たち: 私たち (nosotros), 学生たち (los estudiantes), pero no lo uses para cosas: 本たち es raro.\n\nObjetivo: presentar personas y cosas con 私/あなた/あれ/これ sin confundir singular/plural.\n\n🧩 Fórmula: 【Sustantivo + は + Descripción + です】 → 私は学生です / あれは本です\n\nPiensa en bloques: tema + は + qué decimos de él + です cortés. El sustantivo nunca cambia, solo el contexto dice si es uno o muchos.\n\n👣 Cómo construirlo (3 pasos):\n1) Elige el sustantivo: 私 (yo), あなた (tú), 彼 (él), これ (esto), あれ (aquello)\n2) Márcalo con は si es tema: 私は\n3) Cierra con です para cortesía, o だ para plano\n\n⚖️ Tabla para no confundirte:\n| Forma | Para qué | Ejemplo |\n|---|---|---|\n| 私 | yo | 私は学生です |\n| 私たち | nosotros (plural humano) | 私たちは友達です |\n| あれ/これ | aquello/esto | あれは本です |\n| 学生たち | los estudiantes (plural) | 学生たちは教室にいます |\n\nRecuerda: 私たち vs 私達 (ambos válidos, たち en hiragana es más común).\n\n💡 Ejemplos desglosados (palabra por palabra):\n1) 私は学生です。 (わたしはがくせいです。) — “Soy estudiante.” → 私(tema) + は + 学生です。\n   Por qué así: sustantivo como tema con は, cierre cortés です\n2) あれは本です。 (あれはほんです。) — “Aquello es un libro.” → あれ(tema) + は + 本です。\n   Por qué así: demostrativo + は + descripción\n3) 私たちは友達です。 (わたしたちはともだちです。) — “Nosotros somos amigos.” → 私たち(tema plural) + は + 友達です。\n\n🔑 Mini-resumen:\n✅ Si solo recuerdas 3 cosas hoy:\n□ Sustantivo no cambia por número (本 = libro/libros)\n□ Persona en plural usa ～たち (私たち), cosa no\n□ Tema siempre con は, cierre con です cortés\n\n❌ Errores del 90%: decir 本たち para libros (suena a personificar). Di 本 o 本がたくさん. No uses 私達 con kanji en examen básico: usa hiragana たち.\n\n💬 Truco offline: tapa el japonés, lee “Soy estudiante”, produce 私は学生です en voz alta. Active recall > releer.\n\n¿Por qué 5 ítems nuevos máx? Memoria 7±2. Domina 2 hoy, resto al SRS. Mezcla sustantivos + escucha + lectura.",
+          "palabras": 355
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "私は学生です。",
+              "furigana": "わたしはがくせいです。",
+              "romaji": "watashi wa gakusei desu.",
+              "es": "Soy estudiante.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "あれは本です。",
+              "furigana": "あれはほんです。",
+              "romaji": "are wa hon desu.",
+              "es": "Aquello es un libro.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "私たちは友達です。",
+              "furigana": "わたしたちはともだちです。",
+              "romaji": "watashitachi wa tomodachi desu.",
+              "es": "Nosotros somos amigos.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "私は学生です。",
+              "furigana": "わたしはがくせいです。",
+              "es": "Soy estudiante.",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha (texto oculto) y elige.",
+              "respuesta": "私は学生です。 — Soy estudiante."
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "あれは本です。",
+              "furigana": "あれはほんです。",
+              "es": "Aquello es un libro.",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "あれは本です。 — Aquello es un libro."
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "私は学生です。",
+              "furigana": "わたしはがくせいです。",
+              "es": "Soy estudiante.",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: 'Nosotros somos amigos.'",
+              "respuesta": "私たちは友達です。",
+              "jp": "私たちは友達です。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: confundir 私たち (nosotros) con 私達 en kanji raro. En N5 usa hiragana. Y no pluralices cosas con たち: 本たち suena a que los libros son personas."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: 本 no cambia por número, persona plural con たち. Próxima: Copula plain/plite. Di 3 veces: 私たちは友達です。"
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 355,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-014",
+      "title": "IMABI 14: Adjetivos i — 高い, 安い",
+      "stage": "IMABI · Beginners I",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 14: Adjetivos i — 高い, 安い",
+          "text": "Los adjetivos-i terminan en い y se conjugan como verbos: 高い (caro/alto), 安い (barato), 暑い (caluroso). No necesitan です para cerrar, pero lo añaden para cortesía.",
+          "examples": [
+            {
+              "jp": "今日は暑いです。",
+              "kana": "きょうはあついです。",
+              "es": "Hoy hace calor."
+            },
+            {
+              "jp": "この本は安いです。",
+              "kana": "このほんはやすいです。",
+              "es": "Este libro es barato."
+            },
+            {
+              "jp": "富士山は高いです。",
+              "kana": "ふじさんはたかいです。",
+              "es": "El Fuji es alto."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Ves dos carteles: 高い (takai) y 安い (yasui). Uno dice 10.000¥, otro 500¥. ¿Cuál es caro? Sin adjetivos no comparas."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Los adjetivos-i son palabras que terminan en い y describen por sí solas: 高い (caro/alto), 安い (barato), 暑い (caluroso), 大きい (grande), 小さい (pequeño). Ya traen la idea de “es”, no necesitas です, pero en cortés lo añades: 高いです (es caro, cortés).\n\nObjetivo: describir con i-adj y negar en くない.\n\n🧩 Fórmula: 【Tema は Adjetivo-i (+です cortés)】\nEj: 今日は暑いです / この本は安いです\nNegativo: 暑い → 暑くないです (quitas い, pones くないです)\nPasado: 暑かったです (quitas い, pones かったです)\n\n👣 Cómo construirlo (3 pasos):\n1) Tema + は: 今日は / この本は\n2) Adjetivo-i tal cual para presente: 暑い, 安い\n3) Para cortesía añade です: 暑いです / Para negar: 暑くないです\n\n⚖️ Tabla i-adj:\n| Forma | Regla | Ejemplo |\n|---|---|---|\n| Presente cortés | adj-i + です | 高いです |\n| Negativo cortés | quita い + くないです | 高くないです |\n| Pasado cortés | quita い + かったです | 高かったです |\n| Pasado negativo | quita い + くなかったです | 高くなかったです |\n\n💡 Ejemplos desglosados:\n1) 今日は暑いです。 (きょうはあついです。) — “Hoy hace calor.” → 今日(tema) + は + 暑いです.\n2) この本は安いです。 (このほんはやすいです。) — “Este libro es barato.” → この本(tema) + は + 安いです.\n3) 富士山は高いです。 (ふじさんはたかいです。) — “El Fuji es alto.” → 富士山(tema) + は + 高いです.\n\n🔑 Mini-resumen:\n□ i-adj termina en い, no necesita です pero lo usa en cortés\n□ Negar: quita い + くないです\n□ Pasado: quita い + かったです\n\n❌ Error 90%: confundir きれい (bonito) como i-adj. Parece que termina en い, pero es na-adj: きれいな本, no きれい本. IMABI 15 te lo explica.\n\n💬 Truco: di 暑い→暑くない→暑かった en voz alta 3×. Active recall.\n\n¿Por qué 5 ítems? Domina 2 hoy, resto SRS. Mezcla adjetivos + escucha.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Si dudas entre i-adj y na-adj, abre el diccionario y busca el tag: [adj-i] no lleva な, [adj-na] lleva な antes de nombre y だ/です como predicado. Repite en voz alta marcando la partícula para anclar ritmo. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase.",
+          "palabras": 407
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "今日は暑いです。",
+              "furigana": "きょうはあついです。",
+              "romaji": "kyou wa atsui desu.",
+              "es": "Hoy hace calor.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "この本は安いです。",
+              "furigana": "このほんはやすいです。",
+              "romaji": "kono hon wa yasui desu.",
+              "es": "Este libro es barato.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "富士山は高いです。",
+              "furigana": "ふじさんはたかいです。",
+              "romaji": "fujisan wa takai desu.",
+              "es": "El Fuji es alto.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "今日は暑いです。",
+              "furigana": "きょうはあついです。",
+              "es": "Hoy hace calor.",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "今日は暑いです。 — Hoy hace calor."
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "この本は安いです。",
+              "furigana": "このほんはやすいです。",
+              "es": "Este libro es barato.",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "この本は安いです。 — Este libro es barato."
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "今日は暑いです。",
+              "furigana": "きょうはあついです。",
+              "es": "Hoy hace calor.",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: 'Este libro es barato.'",
+              "respuesta": "この本は安いです。",
+              "jp": "この本は安いです。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: tratar きれい como i-adj. Es na-adj: きれいな本. Si ves い al final y dudas, revisa diccionario: ¿dice [adj-i] o [adj-na]?"
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: i-adj con ない/かった. Próxima: na-adj con な/じゃない. Di 3 veces: 高くないです。"
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Ves dos carteles: 高い (takai) y 安い (yasui). Uno dice 10.000¥, otro 500¥. ¿Cuál es caro? Sin adjetivos no comparas."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Los adjetivos-i son palabras que terminan en い y describen por sí solas: 高い (caro/alto), 安い (barato), 暑い (caluroso), 大きい (grande), 小さい (pequeño). Ya traen la idea de “es”, no necesitas です, pero en cortés lo añades: 高いです (es caro, cortés).\n\nObjetivo: describir con i-adj y negar en くない.\n\n🧩 Fórmula: 【Tema は Adjetivo-i (+です cortés)】\nEj: 今日は暑いです / この本は安いです\nNegativo: 暑い → 暑くないです (quitas い, pones くないです)\nPasado: 暑かったです (quitas い, pones かったです)\n\n👣 Cómo construirlo (3 pasos):\n1) Tema + は: 今日は / この本は\n2) Adjetivo-i tal cual para presente: 暑い, 安い\n3) Para cortesía añade です: 暑いです / Para negar: 暑くないです\n\n⚖️ Tabla i-adj:\n| Forma | Regla | Ejemplo |\n|---|---|---|\n| Presente cortés | adj-i + です | 高いです |\n| Negativo cortés | quita い + くないです | 高くないです |\n| Pasado cortés | quita い + かったです | 高かったです |\n| Pasado negativo | quita い + くなかったです | 高くなかったです |\n\n💡 Ejemplos desglosados:\n1) 今日は暑いです。 (きょうはあついです。) — “Hoy hace calor.” → 今日(tema) + は + 暑いです.\n2) この本は安いです。 (このほんはやすいです。) — “Este libro es barato.” → この本(tema) + は + 安いです.\n3) 富士山は高いです。 (ふじさんはたかいです。) — “El Fuji es alto.” → 富士山(tema) + は + 高いです.\n\n🔑 Mini-resumen:\n□ i-adj termina en い, no necesita です pero lo usa en cortés\n□ Negar: quita い + くないです\n□ Pasado: quita い + かったです\n\n❌ Error 90%: confundir きれい (bonito) como i-adj. Parece que termina en い, pero es na-adj: きれいな本, no きれい本. IMABI 15 te lo explica.\n\n💬 Truco: di 暑い→暑くない→暑かった en voz alta 3×. Active recall.\n\n¿Por qué 5 ítems? Domina 2 hoy, resto SRS. Mezcla adjetivos + escucha.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Si dudas entre i-adj y na-adj, abre el diccionario y busca el tag: [adj-i] no lleva な, [adj-na] lleva な antes de nombre y だ/です como predicado. Repite en voz alta marcando la partícula para anclar ritmo. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase.",
+          "palabras": 407
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "今日は暑いです。",
+              "furigana": "きょうはあついです。",
+              "romaji": "kyou wa atsui desu.",
+              "es": "Hoy hace calor.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "この本は安いです。",
+              "furigana": "このほんはやすいです。",
+              "romaji": "kono hon wa yasui desu.",
+              "es": "Este libro es barato.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "富士山は高いです。",
+              "furigana": "ふじさんはたかいです。",
+              "romaji": "fujisan wa takai desu.",
+              "es": "El Fuji es alto.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "今日は暑いです。",
+              "furigana": "きょうはあついです。",
+              "es": "Hoy hace calor.",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "今日は暑いです。 — Hoy hace calor."
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "この本は安いです。",
+              "furigana": "このほんはやすいです。",
+              "es": "Este libro es barato.",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "この本は安いです。 — Este libro es barato."
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "今日は暑いです。",
+              "furigana": "きょうはあついです。",
+              "es": "Hoy hace calor.",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: 'Este libro es barato.'",
+              "respuesta": "この本は安いです。",
+              "jp": "この本は安いです。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: tratar きれい como i-adj. Es na-adj: きれいな本. Si ves い al final y dudas, revisa diccionario: ¿dice [adj-i] o [adj-na]?"
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: i-adj con ない/かった. Próxima: na-adj con な/じゃない. Di 3 veces: 高くないです。"
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 276,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-015",
+      "title": "IMABI 15: Adjetivos-na — 静か, 元気",
+      "stage": "IMABI · Beginners I",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 15: Adjetivos-na — 静か, 元気",
+          "text": "Los na-adj necesitan な para describir nombre: 静かな部屋 (habitación tranquila), 元気な学生 (estudiante enérgico). Como predicado usan です/だ.",
+          "examples": [
+            {
+              "jp": "この部屋は静かです。",
+              "kana": "このへやはしずかです。",
+              "es": "Esta habitación es tranquila."
+            },
+            {
+              "jp": "彼は元気です。",
+              "kana": "かれはげんきです。",
+              "es": "Él está enérgico/bien."
+            },
+            {
+              "jp": "静かな夜です。",
+              "kana": "しずかなよるです。",
+              "es": "Es una noche tranquila."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Lees 静かな夜 y crees que 静か es i-adj por la か. Te equivocas y dices 静かい部屋 — un nativo no te entiende. Ahí entra na-adj."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Los na-adj (adjetivos nominales) parecen sustantivos pero describen: 静か (silencioso/tranquilo), 元気 (enérgico), きれい (bonito/limpio), 便利 (conveniente). Necesitan pegamento な cuando van antes de un nombre, y です/だ cuando son predicado.\n\nObjetivo: usar 静かなN vs 静かです sin confundir con i-adj.\n\n🧩 Fórmula:\n- Antes de nombre: 【na-adj + な + Nombre】 → 静かな部屋 / 元気な学生 / きれいな本\n- Como predicado: 【Tema は na-adj + です】 → この部屋は静かです / 彼は元気です\n- Negativo: 静かじゃないです / 静かではありません\n\n👣 Cómo construirlo (3 pasos):\n1) ¿Vas a describir un nombre justo después? Usa な: 静かな夜\n2) ¿Vas a cerrar frase? Usa です: 静かです / 元気です\n3) ¿Negar? Cambia です → じゃないです: 静かじゃないです\n\n⚖️ Tabla i vs na:\n| Tipo | Antes de nombre | Predicado cortés | Negativo |\n|---|---|---|---|\n| i-adj (高い) | 高い本 (sin な) | 高いです | 高くないです |\n| na-adj (静か) | 静かな本 | 静かです | 静かじゃないです |\n\n💡 Ejemplos desglosados:\n1) この部屋は静かです。 (このへやはしずかです。) — “Esta habitación es tranquila.” → この部屋(tema) + は + 静かです.\n2) 彼は元気です。 (かれはげんきです。) — “Él está enérgico.” → 彼(tema) + は + 元気です.\n3) 静かな夜です。 (しずかなよるです。) — “Es una noche tranquila.” → 静かな(na-adj+な) + 夜です.\n\n🔑 Mini-resumen:\n□ na-adj + な + Nombre / na-adj + です como predicado\n□ Negativo: じゃないです / ではありません (no くない)\n□ きれい parece i-adj pero es na: きれいな本\n\n❌ Error 90%: 高いな本 (i-adj no lleva な) y 静かい部屋 (na-adj no lleva い extra). Mira terminación en diccionario.\n\n💬 Truco: haz pares: 高い本 ↔ 静かな本. Di ambos 3×.\n\n¿Por qué 5 ítems? Domina 2 hoy, resto SRS. Mezcla na-adj + escucha.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Si dudas entre i-adj y na-adj, abre el diccionario y busca el tag: [adj-i] no lleva な, [adj-na] lleva な antes de nombre y だ/です como predicado. Repite en voz alta marcando la partícula para anclar ritmo. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase.",
+          "palabras": 412
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "この部屋は静かです。",
+              "furigana": "このへやはしずかです。",
+              "romaji": "kono heya wa shizuka desu.",
+              "es": "Esta habitación es tranquila.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "彼は元気です。",
+              "furigana": "かれはげんきです。",
+              "romaji": "kare wa genki desu.",
+              "es": "Él está enérgico.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "静かな夜です。",
+              "furigana": "しずかなよるです。",
+              "romaji": "shizuka na yoru desu.",
+              "es": "Es una noche tranquila.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "この部屋は静かです。",
+              "furigana": "このへやはしずかです。",
+              "es": "Esta habitación es tranquila.",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "この部屋は静かです。 — Esta habitación es tranquila."
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "彼は元気です。",
+              "furigana": "かれはげんきです。",
+              "es": "Él está enérgico.",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "彼は元気です。 — Él está enérgico."
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "この部屋は静かです。",
+              "furigana": "このへやはしずかです。",
+              "es": "Esta habitación es tranquila.",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: 'Es una noche tranquila.'",
+              "respuesta": "静かな夜です。",
+              "jp": "静かな夜です。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: decir 静かい部屋 o 高いな本. Regla: ¿el adjetivo termina en い y es i-adj en diccionario? No lleva な. ¿Es na-adj como 静か/きれい? Lleva な antes de nombre."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: na-adj con な/です. Próxima: を marca objeto. Di 3 veces: 静かな部屋。"
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Lees 静かな夜 y crees que 静か es i-adj por la か. Te equivocas y dices 静かい部屋 — un nativo no te entiende. Ahí entra na-adj."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Los na-adj (adjetivos nominales) parecen sustantivos pero describen: 静か (silencioso/tranquilo), 元気 (enérgico), きれい (bonito/limpio), 便利 (conveniente). Necesitan pegamento な cuando van antes de un nombre, y です/だ cuando son predicado.\n\nObjetivo: usar 静かなN vs 静かです sin confundir con i-adj.\n\n🧩 Fórmula:\n- Antes de nombre: 【na-adj + な + Nombre】 → 静かな部屋 / 元気な学生 / きれいな本\n- Como predicado: 【Tema は na-adj + です】 → この部屋は静かです / 彼は元気です\n- Negativo: 静かじゃないです / 静かではありません\n\n👣 Cómo construirlo (3 pasos):\n1) ¿Vas a describir un nombre justo después? Usa な: 静かな夜\n2) ¿Vas a cerrar frase? Usa です: 静かです / 元気です\n3) ¿Negar? Cambia です → じゃないです: 静かじゃないです\n\n⚖️ Tabla i vs na:\n| Tipo | Antes de nombre | Predicado cortés | Negativo |\n|---|---|---|---|\n| i-adj (高い) | 高い本 (sin な) | 高いです | 高くないです |\n| na-adj (静か) | 静かな本 | 静かです | 静かじゃないです |\n\n💡 Ejemplos desglosados:\n1) この部屋は静かです。 (このへやはしずかです。) — “Esta habitación es tranquila.” → この部屋(tema) + は + 静かです.\n2) 彼は元気です。 (かれはげんきです。) — “Él está enérgico.” → 彼(tema) + は + 元気です.\n3) 静かな夜です。 (しずかなよるです。) — “Es una noche tranquila.” → 静かな(na-adj+な) + 夜です.\n\n🔑 Mini-resumen:\n□ na-adj + な + Nombre / na-adj + です como predicado\n□ Negativo: じゃないです / ではありません (no くない)\n□ きれい parece i-adj pero es na: きれいな本\n\n❌ Error 90%: 高いな本 (i-adj no lleva な) y 静かい部屋 (na-adj no lleva い extra). Mira terminación en diccionario.\n\n💬 Truco: haz pares: 高い本 ↔ 静かな本. Di ambos 3×.\n\n¿Por qué 5 ítems? Domina 2 hoy, resto SRS. Mezcla na-adj + escucha.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Si dudas entre i-adj y na-adj, abre el diccionario y busca el tag: [adj-i] no lleva な, [adj-na] lleva な antes de nombre y だ/です como predicado. Repite en voz alta marcando la partícula para anclar ritmo. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase.",
+          "palabras": 412
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "この部屋は静かです。",
+              "furigana": "このへやはしずかです。",
+              "romaji": "kono heya wa shizuka desu.",
+              "es": "Esta habitación es tranquila.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "彼は元気です。",
+              "furigana": "かれはげんきです。",
+              "romaji": "kare wa genki desu.",
+              "es": "Él está enérgico.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "静かな夜です。",
+              "furigana": "しずかなよるです。",
+              "romaji": "shizuka na yoru desu.",
+              "es": "Es una noche tranquila.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "この部屋は静かです。",
+              "furigana": "このへやはしずかです。",
+              "es": "Esta habitación es tranquila.",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "この部屋は静かです。 — Esta habitación es tranquila."
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "彼は元気です。",
+              "furigana": "かれはげんきです。",
+              "es": "Él está enérgico.",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "彼は元気です。 — Él está enérgico."
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "この部屋は静かです。",
+              "furigana": "このへやはしずかです。",
+              "es": "Esta habitación es tranquila.",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: 'Es una noche tranquila.'",
+              "respuesta": "静かな夜です。",
+              "jp": "静かな夜です。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: decir 静かい部屋 o 高いな本. Regla: ¿el adjetivo termina en い y es i-adj en diccionario? No lleva な. ¿Es na-adj como 静か/きれい? Lleva な antes de nombre."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: na-adj con な/です. Próxima: を marca objeto. Di 3 veces: 静かな部屋。"
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 259,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
     }
   ],
   "counts": {
@@ -74032,7 +74716,7 @@
     "phrases": 164,
     "grammar": 246,
     "verbs": 119,
-    "lessons": 214
+    "lessons": 217
   }
 };
     root.NihongoDojoN5 = data;
