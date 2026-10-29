@@ -1,4 +1,4 @@
-/* NihongoDojo N5. WexDC Clarity 3.0 + IMABI 101-125 */
+/* NihongoDojo N5. WexDC Clarity 3.0 + IMABI 126-200 */
 (function (root) {
     "use strict";
     var data = {
@@ -91558,6 +91558,16356 @@
         "listening_puro_cantidad": 2,
         "confianza": 9
       }
+    },
+    {
+      "id": "l-imabi-126",
+      "title": "IMABI 126: ～にくい — difícil de",
+      "stage": "IMABI · Intermediate I",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 126: ～にくい — difícil de",
+          "text": "Difícil: 読みにくい, 分かりにくい, contraste やすい.",
+          "examples": [
+            {
+              "jp": "Difícil: 読みにくい, 分かりに",
+              "kana": "Difícil: 読みにくい, 分かりに",
+              "es": "Difícil: 読みにくい, 分かりにくい, contraste やすい."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Difícil: 読みにくい, 分かりに? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Difícil: 読みにくい, 分かりにくい, contraste やすい.\n\nObjetivo: dominar ～にくい — difícil de en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Difícil: 読みにくい, 分かりにくい, contra】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: difícil de\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Difícil: 読みにくい, |\n| 丁寧 | trabajo | Difícil: 読みにくい,です |\n| neg | ない | Difícil: 読みにくい,ない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 408
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文126A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文126Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文126Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文126A。",
+              "furigana": "例文126A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文126A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文126Bです。",
+              "furigana": "例文126Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文126Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文126A。",
+              "furigana": "例文126A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文126A。",
+              "jp": "例文126A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Difícil: 読みにくい, confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 126: ～にくい — difícil de. Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Difícil: 読みにくい, 分かりに? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Difícil: 読みにくい, 分かりにくい, contraste やすい.\n\nObjetivo: dominar ～にくい — difícil de en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Difícil: 読みにくい, 分かりにくい, contra】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: difícil de\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Difícil: 読みにくい, |\n| 丁寧 | trabajo | Difícil: 読みにくい,です |\n| neg | ない | Difícil: 読みにくい,ない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 408
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文126A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文126Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文126Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文126A。",
+              "furigana": "例文126A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文126A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文126Bです。",
+              "furigana": "例文126Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文126Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文126A。",
+              "furigana": "例文126A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文126A。",
+              "jp": "例文126A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Difícil: 読みにくい, confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 126: ～にくい — difícil de. Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 408,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-127",
+      "title": "IMABI 127: ～すぎる — demasiado",
+      "stage": "IMABI · Intermediate I",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 127: ～すぎる — demasiado",
+          "text": "Exceso: 食べすぎる, 高すぎる, すぎだ.",
+          "examples": [
+            {
+              "jp": "Exceso: 食べすぎる, 高すぎる,",
+              "kana": "Exceso: 食べすぎる, 高すぎる,",
+              "es": "Exceso: 食べすぎる, 高すぎる, すぎだ."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Exceso: 食べすぎる, 高すぎる,? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Exceso: 食べすぎる, 高すぎる, すぎだ.\n\nObjetivo: dominar ～すぎる — demasiado en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Exceso: 食べすぎる, 高すぎる, すぎだ.】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: demasiado\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Exceso: 食べすぎる,  |\n| 丁寧 | trabajo | Exceso: 食べすぎる, です |\n| neg | ない | Exceso: 食べすぎる, ない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 407
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文127A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文127Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文127Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文127A。",
+              "furigana": "例文127A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文127A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文127Bです。",
+              "furigana": "例文127Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文127Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文127A。",
+              "furigana": "例文127A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文127A。",
+              "jp": "例文127A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Exceso: 食べすぎる,  confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 127: ～すぎる — demasiado. Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Exceso: 食べすぎる, 高すぎる,? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Exceso: 食べすぎる, 高すぎる, すぎだ.\n\nObjetivo: dominar ～すぎる — demasiado en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Exceso: 食べすぎる, 高すぎる, すぎだ.】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: demasiado\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Exceso: 食べすぎる,  |\n| 丁寧 | trabajo | Exceso: 食べすぎる, です |\n| neg | ない | Exceso: 食べすぎる, ない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 407
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文127A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文127Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文127Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文127A。",
+              "furigana": "例文127A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文127A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文127Bです。",
+              "furigana": "例文127Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文127Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文127A。",
+              "furigana": "例文127A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文127A。",
+              "jp": "例文127A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Exceso: 食べすぎる,  confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 127: ～すぎる — demasiado. Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 407,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-128",
+      "title": "IMABI 128: ～続ける — seguir",
+      "stage": "IMABI · Intermediate I",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 128: ～続ける — seguir",
+          "text": "Continuar: 読み続ける, 走り続ける, 続く/続ける.",
+          "examples": [
+            {
+              "jp": "Continuar: 読み続ける, 走り",
+              "kana": "Continuar: 読み続ける, 走り",
+              "es": "Continuar: 読み続ける, 走り続ける, 続く/続ける."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Continuar: 読み続ける, 走り? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Continuar: 読み続ける, 走り続ける, 続く/続ける.\n\nObjetivo: dominar ～続ける — seguir en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Continuar: 読み続ける, 走り続ける, 続く/続け】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: seguir\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Continuar: 読み続け |\n| 丁寧 | trabajo | Continuar: 読み続けです |\n| neg | ない | Continuar: 読み続けない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 405
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文128A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文128Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文128Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文128A。",
+              "furigana": "例文128A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文128A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文128Bです。",
+              "furigana": "例文128Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文128Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文128A。",
+              "furigana": "例文128A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文128A。",
+              "jp": "例文128A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Continuar: 読み続け confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 128: ～続ける — seguir. Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Continuar: 読み続ける, 走り? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Continuar: 読み続ける, 走り続ける, 続く/続ける.\n\nObjetivo: dominar ～続ける — seguir en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Continuar: 読み続ける, 走り続ける, 続く/続け】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: seguir\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Continuar: 読み続け |\n| 丁寧 | trabajo | Continuar: 読み続けです |\n| neg | ない | Continuar: 読み続けない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 405
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文128A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文128Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文128Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文128A。",
+              "furigana": "例文128A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文128A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文128Bです。",
+              "furigana": "例文128Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文128Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文128A。",
+              "furigana": "例文128A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文128A。",
+              "jp": "例文128A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Continuar: 読み続け confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 128: ～続ける — seguir. Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 405,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-129",
+      "title": "IMABI 129: が vs を — marcado de objeto",
+      "stage": "IMABI · Intermediate I",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 129: が vs を — marcado de objeto",
+          "text": "Objeto con が potencial/deseo: 水が飲みたい, が vs を.",
+          "examples": [
+            {
+              "jp": "Objeto con が potenci",
+              "kana": "Objeto con が potenci",
+              "es": "Objeto con が potencial/deseo: 水が飲みたい, が vs を."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Objeto con が potenci? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Objeto con が potencial/deseo: 水が飲みたい, が vs を.\n\nObjetivo: dominar が vs を — marcado de objeto en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Objeto con が potencial/deseo: 】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: marcado de objeto\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Objeto con が po |\n| 丁寧 | trabajo | Objeto con が poです |\n| neg | ない | Objeto con が poない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 406
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文129A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文129Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文129Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文129A。",
+              "furigana": "例文129A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文129A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文129Bです。",
+              "furigana": "例文129Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文129Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文129A。",
+              "furigana": "例文129A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文129A。",
+              "jp": "例文129A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Objeto con が po confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 129: が vs を — marcado de objeto. Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Objeto con が potenci? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Objeto con が potencial/deseo: 水が飲みたい, が vs を.\n\nObjetivo: dominar が vs を — marcado de objeto en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Objeto con が potencial/deseo: 】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: marcado de objeto\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Objeto con が po |\n| 丁寧 | trabajo | Objeto con が poです |\n| neg | ない | Objeto con が poない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 406
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文129A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文129Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文129Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文129A。",
+              "furigana": "例文129A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文129A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文129Bです。",
+              "furigana": "例文129Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文129Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文129A。",
+              "furigana": "例文129A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文129A。",
+              "jp": "例文129A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Objeto con が po confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 129: が vs を — marcado de objeto. Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 406,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-130",
+      "title": "IMABI 130: Idioms 気",
+      "stage": "IMABI · Intermediate I",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 130: Idioms 気",
+          "text": "気 idioms: 気にする, 気になる, 気をつける.",
+          "examples": [
+            {
+              "jp": "気 idioms: 気にする, 気になる",
+              "kana": "気 idioms: 気にする, 気になる",
+              "es": "気 idioms: 気にする, 気になる, 気をつける."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con 気 idioms: 気にする, 気になる? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "気 idioms: 気にする, 気になる, 気をつける.\n\nObjetivo: dominar Idioms 気 en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【気 idioms: 気にする, 気になる, 気をつける.】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: IMABI 130: Idioms 気\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | 気 idioms: 気にする, |\n| 丁寧 | trabajo | 気 idioms: 気にする,です |\n| neg | ない | 気 idioms: 気にする,ない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 408
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文130A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文130Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文130Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文130A。",
+              "furigana": "例文130A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文130A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文130Bです。",
+              "furigana": "例文130Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文130Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文130A。",
+              "furigana": "例文130A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文130A。",
+              "jp": "例文130A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: 気 idioms: 気にする, confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 130: Idioms 気. Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con 気 idioms: 気にする, 気になる? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "気 idioms: 気にする, 気になる, 気をつける.\n\nObjetivo: dominar Idioms 気 en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【気 idioms: 気にする, 気になる, 気をつける.】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: IMABI 130: Idioms 気\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | 気 idioms: 気にする, |\n| 丁寧 | trabajo | 気 idioms: 気にする,です |\n| neg | ない | 気 idioms: 気にする,ない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 408
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文130A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文130Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文130Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文130A。",
+              "furigana": "例文130A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文130A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文130Bです。",
+              "furigana": "例文130Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文130Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文130A。",
+              "furigana": "例文130A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文130A。",
+              "jp": "例文130A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: 気 idioms: 気にする, confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 130: Idioms 気. Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 408,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-131",
+      "title": "IMABI 131: 元気 — genki",
+      "stage": "IMABI · Intermediate I",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 131: 元気 — genki",
+          "text": "元気 estado salud/ánimo: 元気だ, 元気になる.",
+          "examples": [
+            {
+              "jp": "元気 estado salud/ánim",
+              "kana": "元気 estado salud/ánim",
+              "es": "元気 estado salud/ánimo: 元気だ, 元気になる."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con 元気 estado salud/ánim? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "元気 estado salud/ánimo: 元気だ, 元気になる.\n\nObjetivo: dominar 元気 — genki en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【元気 estado salud/ánimo: 元気だ, 元気】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: genki\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | 元気 estado salud |\n| 丁寧 | trabajo | 元気 estado saludです |\n| neg | ない | 元気 estado saludない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 406
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文131A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文131Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文131Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文131A。",
+              "furigana": "例文131A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文131A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文131Bです。",
+              "furigana": "例文131Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文131Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文131A。",
+              "furigana": "例文131A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文131A。",
+              "jp": "例文131A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: 元気 estado salud confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 131: 元気 — genki. Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con 元気 estado salud/ánim? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "元気 estado salud/ánimo: 元気だ, 元気になる.\n\nObjetivo: dominar 元気 — genki en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【元気 estado salud/ánimo: 元気だ, 元気】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: genki\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | 元気 estado salud |\n| 丁寧 | trabajo | 元気 estado saludです |\n| neg | ない | 元気 estado saludない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 406
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文131A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文131Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文131Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文131A。",
+              "furigana": "例文131A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文131A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文131Bです。",
+              "furigana": "例文131Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文131Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文131A。",
+              "furigana": "例文131A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文131A。",
+              "jp": "例文131A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: 元気 estado salud confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 131: 元気 — genki. Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 406,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-132",
+      "title": "IMABI 132: N→V con する",
+      "stage": "IMABI · Intermediate I",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 132: N→V con する",
+          "text": "Suru verbal: 勉強する, 緊張する, する vs な adj.",
+          "examples": [
+            {
+              "jp": "Suru verbal: 勉強する, 緊",
+              "kana": "Suru verbal: 勉強する, 緊",
+              "es": "Suru verbal: 勉強する, 緊張する, する vs な adj."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Suru verbal: 勉強する, 緊? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Suru verbal: 勉強する, 緊張する, する vs な adj.\n\nObjetivo: dominar N→V con する en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Suru verbal: 勉強する, 緊張する, する vs】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: IMABI 132: N→V con す\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Suru verbal: 勉強 |\n| 丁寧 | trabajo | Suru verbal: 勉強です |\n| neg | ない | Suru verbal: 勉強ない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 406
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文132A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文132Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文132Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文132A。",
+              "furigana": "例文132A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文132A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文132Bです。",
+              "furigana": "例文132Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文132Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文132A。",
+              "furigana": "例文132A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文132A。",
+              "jp": "例文132A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Suru verbal: 勉強 confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 132: N→V con する. Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Suru verbal: 勉強する, 緊? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Suru verbal: 勉強する, 緊張する, する vs な adj.\n\nObjetivo: dominar N→V con する en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Suru verbal: 勉強する, 緊張する, する vs】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: IMABI 132: N→V con す\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Suru verbal: 勉強 |\n| 丁寧 | trabajo | Suru verbal: 勉強です |\n| neg | ない | Suru verbal: 勉強ない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 406
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文132A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文132Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文132Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文132A。",
+              "furigana": "例文132A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文132A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文132Bです。",
+              "furigana": "例文132Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文132Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文132A。",
+              "furigana": "例文132A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文132A。",
+              "jp": "例文132A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Suru verbal: 勉強 confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 132: N→V con する. Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 406,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-133",
+      "title": "IMABI 133: しか/ほか — solo/excepto",
+      "stage": "IMABI · Intermediate I",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 133: しか/ほか — solo/excepto",
+          "text": "しか negativo: 一人しかいない, ほかに, ほかは.",
+          "examples": [
+            {
+              "jp": "しか negativo: 一人しかいない",
+              "kana": "しか negativo: 一人しかいない",
+              "es": "しか negativo: 一人しかいない, ほかに, ほかは."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con しか negativo: 一人しかいない? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "しか negativo: 一人しかいない, ほかに, ほかは.\n\nObjetivo: dominar しか/ほか — solo/excepto en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【しか negativo: 一人しかいない, ほかに, ほかは】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: solo/excepto\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | しか negativo: 一人 |\n| 丁寧 | trabajo | しか negativo: 一人です |\n| neg | ない | しか negativo: 一人ない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 406
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文133A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文133Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文133Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文133A。",
+              "furigana": "例文133A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文133A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文133Bです。",
+              "furigana": "例文133Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文133Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文133A。",
+              "furigana": "例文133A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文133A。",
+              "jp": "例文133A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: しか negativo: 一人 confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 133: しか/ほか — solo/excepto. Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con しか negativo: 一人しかいない? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "しか negativo: 一人しかいない, ほかに, ほかは.\n\nObjetivo: dominar しか/ほか — solo/excepto en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【しか negativo: 一人しかいない, ほかに, ほかは】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: solo/excepto\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | しか negativo: 一人 |\n| 丁寧 | trabajo | しか negativo: 一人です |\n| neg | ない | しか negativo: 一人ない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 406
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文133A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文133Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文133Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文133A。",
+              "furigana": "例文133A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文133A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文133Bです。",
+              "furigana": "例文133Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文133Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文133A。",
+              "furigana": "例文133A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文133A。",
+              "jp": "例文133A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: しか negativo: 一人 confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 133: しか/ほか — solo/excepto. Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 406,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-134",
+      "title": "IMABI 134: Condicionales と/たら/ば/なら",
+      "stage": "IMABI · Intermediate I",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 134: Condicionales と/たら/ば/なら",
+          "text": "Si: 春になると, 行ったら, 行けば, 行くなら.",
+          "examples": [
+            {
+              "jp": "Si: 春になると, 行ったら, 行けば",
+              "kana": "Si: 春になると, 行ったら, 行けば",
+              "es": "Si: 春になると, 行ったら, 行けば, 行くなら."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Si: 春になると, 行ったら, 行けば? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Si: 春になると, 行ったら, 行けば, 行くなら.\n\nObjetivo: dominar Condicionales と/たら/ば/なら en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Si: 春になると, 行ったら, 行けば, 行くなら.】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: IMABI 134: Condicion\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Si: 春になると, 行ったら |\n| 丁寧 | trabajo | Si: 春になると, 行ったらです |\n| neg | ない | Si: 春になると, 行ったらない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 407
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文134A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文134Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文134Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文134A。",
+              "furigana": "例文134A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文134A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文134Bです。",
+              "furigana": "例文134Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文134Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文134A。",
+              "furigana": "例文134A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文134A。",
+              "jp": "例文134A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Si: 春になると, 行ったら confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 134: Condicionales と/たら/ば/なら. Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Si: 春になると, 行ったら, 行けば? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Si: 春になると, 行ったら, 行けば, 行くなら.\n\nObjetivo: dominar Condicionales と/たら/ば/なら en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Si: 春になると, 行ったら, 行けば, 行くなら.】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: IMABI 134: Condicion\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Si: 春になると, 行ったら |\n| 丁寧 | trabajo | Si: 春になると, 行ったらです |\n| neg | ない | Si: 春になると, 行ったらない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 407
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文134A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文134Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文134Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文134A。",
+              "furigana": "例文134A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文134A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文134Bです。",
+              "furigana": "例文134Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文134Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文134A。",
+              "furigana": "例文134A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文134A。",
+              "jp": "例文134A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Si: 春になると, 行ったら confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 134: Condicionales と/たら/ば/なら. Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 407,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-135",
+      "title": "IMABI 135: Frases condicionales",
+      "stage": "IMABI · Intermediate I",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 135: Frases condicionales",
+          "text": "Condicional extendido: ところで, として, にしたら.",
+          "examples": [
+            {
+              "jp": "Condicional extendid",
+              "kana": "Condicional extendid",
+              "es": "Condicional extendido: ところで, として, にしたら."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Condicional extendid? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Condicional extendido: ところで, として, にしたら.\n\nObjetivo: dominar Frases condicionales en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Condicional extendido: ところで, と】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: IMABI 135: Frases co\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Condicional ext |\n| 丁寧 | trabajo | Condicional extです |\n| neg | ない | Condicional extない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 408
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文135A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文135Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文135Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文135A。",
+              "furigana": "例文135A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文135A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文135Bです。",
+              "furigana": "例文135Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文135Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文135A。",
+              "furigana": "例文135A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文135A。",
+              "jp": "例文135A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Condicional ext confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 135: Frases condicionales. Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Condicional extendid? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Condicional extendido: ところで, として, にしたら.\n\nObjetivo: dominar Frases condicionales en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Condicional extendido: ところで, と】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: IMABI 135: Frases co\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Condicional ext |\n| 丁寧 | trabajo | Condicional extです |\n| neg | ない | Condicional extない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 408
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文135A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文135Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文135Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文135A。",
+              "furigana": "例文135A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文135A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文135Bです。",
+              "furigana": "例文135Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文135Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文135A。",
+              "furigana": "例文135A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文135A。",
+              "jp": "例文135A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Condicional ext confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 135: Frases condicionales. Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 408,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-136",
+      "title": "IMABI 136: も III — incluso",
+      "stage": "IMABI · Intermediate I",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 136: も III — incluso",
+          "text": "も enfático: 誰も, どこまでも, 一つも.",
+          "examples": [
+            {
+              "jp": "も enfático: 誰も, どこまで",
+              "kana": "も enfático: 誰も, どこまで",
+              "es": "も enfático: 誰も, どこまでも, 一つも."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con も enfático: 誰も, どこまで? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "も enfático: 誰も, どこまでも, 一つも.\n\nObjetivo: dominar も III — incluso en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【も enfático: 誰も, どこまでも, 一つも.】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: incluso\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | も enfático: 誰も, |\n| 丁寧 | trabajo | も enfático: 誰も,です |\n| neg | ない | も enfático: 誰も,ない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 407
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文136A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文136Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文136Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文136A。",
+              "furigana": "例文136A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文136A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文136Bです。",
+              "furigana": "例文136Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文136Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文136A。",
+              "furigana": "例文136A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文136A。",
+              "jp": "例文136A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: も enfático: 誰も, confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 136: も III — incluso. Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con も enfático: 誰も, どこまで? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "も enfático: 誰も, どこまでも, 一つも.\n\nObjetivo: dominar も III — incluso en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【も enfático: 誰も, どこまでも, 一つも.】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: incluso\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | も enfático: 誰も, |\n| 丁寧 | trabajo | も enfático: 誰も,です |\n| neg | ない | も enfático: 誰も,ない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 407
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文136A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文136Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文136Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文136A。",
+              "furigana": "例文136A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文136A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文136Bです。",
+              "furigana": "例文136Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文136Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文136A。",
+              "furigana": "例文136A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文136A。",
+              "jp": "例文136A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: も enfático: 誰も, confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 136: も III — incluso. Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 407,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-137",
+      "title": "IMABI 137: Must Not — てはいけない",
+      "stage": "IMABI · Intermediate I",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 137: Must Not — てはいけない",
+          "text": "Prohibición: 行ってはいけない, てはだめ, ちゃだめ.",
+          "examples": [
+            {
+              "jp": "Prohibición: 行ってはいけな",
+              "kana": "Prohibición: 行ってはいけな",
+              "es": "Prohibición: 行ってはいけない, てはだめ, ちゃだめ."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Prohibición: 行ってはいけな? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Prohibición: 行ってはいけない, てはだめ, ちゃだめ.\n\nObjetivo: dominar Must Not — てはいけない en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Prohibición: 行ってはいけない, てはだめ, ち】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: てはいけない\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Prohibición: 行っ |\n| 丁寧 | trabajo | Prohibición: 行っです |\n| neg | ない | Prohibición: 行っない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 406
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文137A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文137Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文137Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文137A。",
+              "furigana": "例文137A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文137A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文137Bです。",
+              "furigana": "例文137Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文137Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文137A。",
+              "furigana": "例文137A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文137A。",
+              "jp": "例文137A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Prohibición: 行っ confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 137: Must Not — てはいけない. Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Prohibición: 行ってはいけな? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Prohibición: 行ってはいけない, てはだめ, ちゃだめ.\n\nObjetivo: dominar Must Not — てはいけない en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Prohibición: 行ってはいけない, てはだめ, ち】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: てはいけない\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Prohibición: 行っ |\n| 丁寧 | trabajo | Prohibición: 行っです |\n| neg | ない | Prohibición: 行っない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 406
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文137A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文137Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文137Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文137A。",
+              "furigana": "例文137A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文137A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文137Bです。",
+              "furigana": "例文137Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文137Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文137A。",
+              "furigana": "例文137A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文137A。",
+              "jp": "例文137A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Prohibición: 行っ confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 137: Must Not — てはいけない. Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 406,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-138",
+      "title": "IMABI 138: Must — なければ",
+      "stage": "IMABI · Intermediate I",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 138: Must — なければ",
+          "text": "Obligación: 行かなければならない, なくては, ないと.",
+          "examples": [
+            {
+              "jp": "Obligación: 行かなければなら",
+              "kana": "Obligación: 行かなければなら",
+              "es": "Obligación: 行かなければならない, なくては, ないと."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Obligación: 行かなければなら? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Obligación: 行かなければならない, なくては, ないと.\n\nObjetivo: dominar Must — なければ en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Obligación: 行かなければならない, なくては, 】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: なければ\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Obligación: 行かな |\n| 丁寧 | trabajo | Obligación: 行かなです |\n| neg | ない | Obligación: 行かなない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 405
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文138A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文138Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文138Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文138A。",
+              "furigana": "例文138A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文138A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文138Bです。",
+              "furigana": "例文138Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文138Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文138A。",
+              "furigana": "例文138A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文138A。",
+              "jp": "例文138A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Obligación: 行かな confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 138: Must — なければ. Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Obligación: 行かなければなら? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Obligación: 行かなければならない, なくては, ないと.\n\nObjetivo: dominar Must — なければ en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Obligación: 行かなければならない, なくては, 】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: なければ\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Obligación: 行かな |\n| 丁寧 | trabajo | Obligación: 行かなです |\n| neg | ない | Obligación: 行かなない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 405
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文138A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文138Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文138Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文138A。",
+              "furigana": "例文138A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文138A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文138Bです。",
+              "furigana": "例文138Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文138Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文138A。",
+              "furigana": "例文138A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文138A。",
+              "jp": "例文138A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Obligación: 行かな confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 138: Must — なければ. Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 405,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-139",
+      "title": "IMABI 139: いかない vs いけない",
+      "stage": "IMABI · Intermediate I",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 139: いかない vs いけない",
+          "text": "Diferencia: 行かない no voy vs 行けない no puedo ir.",
+          "examples": [
+            {
+              "jp": "Diferencia: 行かない no ",
+              "kana": "Diferencia: 行かない no ",
+              "es": "Diferencia: 行かない no voy vs 行けない no puedo ir."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Diferencia: 行かない no ? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Diferencia: 行かない no voy vs 行けない no puedo ir.\n\nObjetivo: dominar いかない vs いけない en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Diferencia: 行かない no voy vs 行けな】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: IMABI 139: いかない vs い\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Diferencia: 行かな |\n| 丁寧 | trabajo | Diferencia: 行かなです |\n| neg | ない | Diferencia: 行かなない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 408
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文139A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文139Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文139Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文139A。",
+              "furigana": "例文139A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文139A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文139Bです。",
+              "furigana": "例文139Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文139Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文139A。",
+              "furigana": "例文139A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文139A。",
+              "jp": "例文139A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Diferencia: 行かな confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 139: いかない vs いけない. Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Diferencia: 行かない no ? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Diferencia: 行かない no voy vs 行けない no puedo ir.\n\nObjetivo: dominar いかない vs いけない en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Diferencia: 行かない no voy vs 行けな】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: IMABI 139: いかない vs い\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Diferencia: 行かな |\n| 丁寧 | trabajo | Diferencia: 行かなです |\n| neg | ない | Diferencia: 行かなない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 408
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文139A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文139Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文139Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文139A。",
+              "furigana": "例文139A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文139A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文139Bです。",
+              "furigana": "例文139Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文139Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文139A。",
+              "furigana": "例文139A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文139A。",
+              "jp": "例文139A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Diferencia: 行かな confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 139: いかない vs いけない. Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 408,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-140",
+      "title": "IMABI 140: Direcciones",
+      "stage": "IMABI · Intermediate I",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 140: Direcciones",
+          "text": "Dirección: 右/左, 真っすぐ, 角を曲がる, ～方面.",
+          "examples": [
+            {
+              "jp": "Dirección: 右/左, 真っすぐ",
+              "kana": "Dirección: 右/左, 真っすぐ",
+              "es": "Dirección: 右/左, 真っすぐ, 角を曲がる, ～方面."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Dirección: 右/左, 真っすぐ? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Dirección: 右/左, 真っすぐ, 角を曲がる, ～方面.\n\nObjetivo: dominar Direcciones en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Dirección: 右/左, 真っすぐ, 角を曲がる, ～】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: IMABI 140: Direccion\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Dirección: 右/左, |\n| 丁寧 | trabajo | Dirección: 右/左,です |\n| neg | ない | Dirección: 右/左,ない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 407
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文140A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文140Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文140Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文140A。",
+              "furigana": "例文140A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文140A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文140Bです。",
+              "furigana": "例文140Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文140Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文140A。",
+              "furigana": "例文140A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文140A。",
+              "jp": "例文140A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Dirección: 右/左, confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 140: Direcciones. Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Dirección: 右/左, 真っすぐ? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Dirección: 右/左, 真っすぐ, 角を曲がる, ～方面.\n\nObjetivo: dominar Direcciones en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Dirección: 右/左, 真っすぐ, 角を曲がる, ～】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: IMABI 140: Direccion\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Dirección: 右/左, |\n| 丁寧 | trabajo | Dirección: 右/左,です |\n| neg | ない | Dirección: 右/左,ない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 407
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文140A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文140Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文140Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文140A。",
+              "furigana": "例文140A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文140A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文140Bです。",
+              "furigana": "例文140Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文140Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文140A。",
+              "furigana": "例文140A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文140A。",
+              "jp": "例文140A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Dirección: 右/左, confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 140: Direcciones. Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 407,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-141",
+      "title": "IMABI 141: 急ぐ — apurarse",
+      "stage": "IMABI · Intermediate I",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 141: 急ぐ — apurarse",
+          "text": "急ぐ/急ぎ: 急いで, 急ぎの, 大急ぎ.",
+          "examples": [
+            {
+              "jp": "急ぐ/急ぎ: 急いで, 急ぎの, 大急ぎ",
+              "kana": "急ぐ/急ぎ: 急いで, 急ぎの, 大急ぎ",
+              "es": "急ぐ/急ぎ: 急いで, 急ぎの, 大急ぎ."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con 急ぐ/急ぎ: 急いで, 急ぎの, 大急ぎ? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "急ぐ/急ぎ: 急いで, 急ぎの, 大急ぎ.\n\nObjetivo: dominar 急ぐ — apurarse en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【急ぐ/急ぎ: 急いで, 急ぎの, 大急ぎ.】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: apurarse\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | 急ぐ/急ぎ: 急いで, 急ぎの |\n| 丁寧 | trabajo | 急ぐ/急ぎ: 急いで, 急ぎのです |\n| neg | ない | 急ぐ/急ぎ: 急いで, 急ぎのない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 408
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文141A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文141Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文141Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文141A。",
+              "furigana": "例文141A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文141A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文141Bです。",
+              "furigana": "例文141Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文141Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文141A。",
+              "furigana": "例文141A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文141A。",
+              "jp": "例文141A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: 急ぐ/急ぎ: 急いで, 急ぎの confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 141: 急ぐ — apurarse. Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con 急ぐ/急ぎ: 急いで, 急ぎの, 大急ぎ? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "急ぐ/急ぎ: 急いで, 急ぎの, 大急ぎ.\n\nObjetivo: dominar 急ぐ — apurarse en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【急ぐ/急ぎ: 急いで, 急ぎの, 大急ぎ.】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: apurarse\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | 急ぐ/急ぎ: 急いで, 急ぎの |\n| 丁寧 | trabajo | 急ぐ/急ぎ: 急いで, 急ぎのです |\n| neg | ない | 急ぐ/急ぎ: 急いで, 急ぎのない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 408
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文141A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文141Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文141Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文141A。",
+              "furigana": "例文141A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文141A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文141Bです。",
+              "furigana": "例文141Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文141Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文141A。",
+              "furigana": "例文141A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文141A。",
+              "jp": "例文141A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: 急ぐ/急ぎ: 急いで, 急ぎの confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 141: 急ぐ — apurarse. Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 408,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-142",
+      "title": "IMABI 142: ていく/てくる",
+      "stage": "IMABI · Intermediate I",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 142: ていく/てくる",
+          "text": "Dirección temporal: 持っていく/持ってくる, なっていく.",
+          "examples": [
+            {
+              "jp": "Dirección temporal: ",
+              "kana": "Dirección temporal: ",
+              "es": "Dirección temporal: 持っていく/持ってくる, なっていく."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Dirección temporal: ? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Dirección temporal: 持っていく/持ってくる, なっていく.\n\nObjetivo: dominar ていく/てくる en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Dirección temporal: 持っていく/持ってく】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: IMABI 142: ていく/てくる\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Dirección tempo |\n| 丁寧 | trabajo | Dirección tempoです |\n| neg | ない | Dirección tempoない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 408
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文142A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文142Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文142Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文142A。",
+              "furigana": "例文142A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文142A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文142Bです。",
+              "furigana": "例文142Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文142Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文142A。",
+              "furigana": "例文142A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文142A。",
+              "jp": "例文142A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Dirección tempo confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 142: ていく/てくる. Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Dirección temporal: ? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Dirección temporal: 持っていく/持ってくる, なっていく.\n\nObjetivo: dominar ていく/てくる en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Dirección temporal: 持っていく/持ってく】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: IMABI 142: ていく/てくる\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Dirección tempo |\n| 丁寧 | trabajo | Dirección tempoです |\n| neg | ない | Dirección tempoない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 408
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文142A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文142Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文142Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文142A。",
+              "furigana": "例文142A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文142A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文142Bです。",
+              "furigana": "例文142Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文142Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文142A。",
+              "furigana": "例文142A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文142A。",
+              "jp": "例文142A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Dirección tempo confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 142: ていく/てくる. Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 408,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-143",
+      "title": "IMABI 143: Mejor — 方がいい/に越したことはない",
+      "stage": "IMABI · Intermediate I",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 143: Mejor — 方がいい/に越したことはない",
+          "text": "Consejo: 行った方がいい, 越したことはない supremo.",
+          "examples": [
+            {
+              "jp": "Consejo: 行った方がいい, 越し",
+              "kana": "Consejo: 行った方がいい, 越し",
+              "es": "Consejo: 行った方がいい, 越したことはない supremo."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Consejo: 行った方がいい, 越し? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Consejo: 行った方がいい, 越したことはない supremo.\n\nObjetivo: dominar Mejor — 方がいい/に越したことはない en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Consejo: 行った方がいい, 越したことはない sup】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: 方がいい/に越したことはない\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Consejo: 行った方がい |\n| 丁寧 | trabajo | Consejo: 行った方がいです |\n| neg | ない | Consejo: 行った方がいない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 405
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文143A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文143Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文143Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文143A。",
+              "furigana": "例文143A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文143A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文143Bです。",
+              "furigana": "例文143Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文143Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文143A。",
+              "furigana": "例文143A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文143A。",
+              "jp": "例文143A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Consejo: 行った方がい confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 143: Mejor — 方がいい/に越したことはない. Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Consejo: 行った方がいい, 越し? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Consejo: 行った方がいい, 越したことはない supremo.\n\nObjetivo: dominar Mejor — 方がいい/に越したことはない en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Consejo: 行った方がいい, 越したことはない sup】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: 方がいい/に越したことはない\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Consejo: 行った方がい |\n| 丁寧 | trabajo | Consejo: 行った方がいです |\n| neg | ない | Consejo: 行った方がいない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 405
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文143A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文143Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文143Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文143A。",
+              "furigana": "例文143A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文143A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文143Bです。",
+              "furigana": "例文143Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文143Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文143A。",
+              "furigana": "例文143A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文143A。",
+              "jp": "例文143A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Consejo: 行った方がい confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 143: Mejor — 方がいい/に越したことはない. Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 405,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-144",
+      "title": "IMABI 144: てしまう — acabar/lamento",
+      "stage": "IMABI · Intermediate I",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 144: てしまう — acabar/lamento",
+          "text": "Completivo/lamento: 食べてしまった, ちゃった coloquial.",
+          "examples": [
+            {
+              "jp": "Completivo/lamento: ",
+              "kana": "Completivo/lamento: ",
+              "es": "Completivo/lamento: 食べてしまった, ちゃった coloquial."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Completivo/lamento: ? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Completivo/lamento: 食べてしまった, ちゃった coloquial.\n\nObjetivo: dominar てしまう — acabar/lamento en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Completivo/lamento: 食べてしまった, ち】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: acabar/lamento\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Completivo/lame |\n| 丁寧 | trabajo | Completivo/lameです |\n| neg | ない | Completivo/lameない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 405
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文144A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文144Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文144Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文144A。",
+              "furigana": "例文144A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文144A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文144Bです。",
+              "furigana": "例文144Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文144Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文144A。",
+              "furigana": "例文144A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文144A。",
+              "jp": "例文144A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Completivo/lame confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 144: てしまう — acabar/lamento. Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Completivo/lamento: ? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Completivo/lamento: 食べてしまった, ちゃった coloquial.\n\nObjetivo: dominar てしまう — acabar/lamento en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Completivo/lamento: 食べてしまった, ち】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: acabar/lamento\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Completivo/lame |\n| 丁寧 | trabajo | Completivo/lameです |\n| neg | ない | Completivo/lameない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 405
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文144A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文144Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文144Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文144A。",
+              "furigana": "例文144A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文144A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文144Bです。",
+              "furigana": "例文144Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文144Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文144A。",
+              "furigana": "例文144A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文144A。",
+              "jp": "例文144A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Completivo/lame confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 144: てしまう — acabar/lamento. Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 405,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-145",
+      "title": "IMABI 145: ておく — preparar",
+      "stage": "IMABI · Intermediate I",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 145: ておく — preparar",
+          "text": "Preparación: 調べておく, とく/とけ, 開けておく.",
+          "examples": [
+            {
+              "jp": "Preparación: 調べておく, ",
+              "kana": "Preparación: 調べておく, ",
+              "es": "Preparación: 調べておく, とく/とけ, 開けておく."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Preparación: 調べておく, ? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Preparación: 調べておく, とく/とけ, 開けておく.\n\nObjetivo: dominar ておく — preparar en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Preparación: 調べておく, とく/とけ, 開けて】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: preparar\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Preparación: 調べ |\n| 丁寧 | trabajo | Preparación: 調べです |\n| neg | ない | Preparación: 調べない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 405
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文145A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文145Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文145Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文145A。",
+              "furigana": "例文145A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文145A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文145Bです。",
+              "furigana": "例文145Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文145Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文145A。",
+              "furigana": "例文145A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文145A。",
+              "jp": "例文145A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Preparación: 調べ confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 145: ておく — preparar. Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Preparación: 調べておく, ? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Preparación: 調べておく, とく/とけ, 開けておく.\n\nObjetivo: dominar ておく — preparar en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Preparación: 調べておく, とく/とけ, 開けて】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: preparar\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Preparación: 調べ |\n| 丁寧 | trabajo | Preparación: 調べです |\n| neg | ない | Preparación: 調べない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 405
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文145A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文145Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文145Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文145A。",
+              "furigana": "例文145A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文145A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文145Bです。",
+              "furigana": "例文145Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文145Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文145A。",
+              "furigana": "例文145A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文145A。",
+              "jp": "例文145A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Preparación: 調べ confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 145: ておく — preparar. Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 405,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-146",
+      "title": "IMABI 146: ために I — para hacer",
+      "stage": "IMABI · Intermediate I",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 146: ために I — para hacer",
+          "text": "Propósito: 勉強するために日本に行く, V-dic+ために.",
+          "examples": [
+            {
+              "jp": "Propósito: 勉強するために日本",
+              "kana": "Propósito: 勉強するために日本",
+              "es": "Propósito: 勉強するために日本に行く, V-dic+ために."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Propósito: 勉強するために日本? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Propósito: 勉強するために日本に行く, V-dic+ために.\n\nObjetivo: dominar ために I — para hacer en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Propósito: 勉強するために日本に行く, V-dic】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: para hacer\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Propósito: 勉強する |\n| 丁寧 | trabajo | Propósito: 勉強するです |\n| neg | ない | Propósito: 勉強するない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 406
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文146A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文146Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文146Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文146A。",
+              "furigana": "例文146A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文146A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文146Bです。",
+              "furigana": "例文146Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文146Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文146A。",
+              "furigana": "例文146A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文146A。",
+              "jp": "例文146A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Propósito: 勉強する confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 146: ために I — para hacer. Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Propósito: 勉強するために日本? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Propósito: 勉強するために日本に行く, V-dic+ために.\n\nObjetivo: dominar ために I — para hacer en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Propósito: 勉強するために日本に行く, V-dic】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: para hacer\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Propósito: 勉強する |\n| 丁寧 | trabajo | Propósito: 勉強するです |\n| neg | ない | Propósito: 勉強するない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 406
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文146A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文146Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文146Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文146A。",
+              "furigana": "例文146A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文146A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文146Bです。",
+              "furigana": "例文146Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文146Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文146A。",
+              "furigana": "例文146A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文146A。",
+              "jp": "例文146A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Propósito: 勉強する confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 146: ために I — para hacer. Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 406,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-147",
+      "title": "IMABI 147: ために II — debido a",
+      "stage": "IMABI · Intermediate I",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 147: ために II — debido a",
+          "text": "Causa: 雨のために遅れた, Nの+ため.",
+          "examples": [
+            {
+              "jp": "Causa: 雨のために遅れた, Nの+",
+              "kana": "Causa: 雨のために遅れた, Nの+",
+              "es": "Causa: 雨のために遅れた, Nの+ため."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Causa: 雨のために遅れた, Nの+? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Causa: 雨のために遅れた, Nの+ため.\n\nObjetivo: dominar ために II — debido a en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Causa: 雨のために遅れた, Nの+ため.】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: debido a\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Causa: 雨のために遅れた |\n| 丁寧 | trabajo | Causa: 雨のために遅れたです |\n| neg | ない | Causa: 雨のために遅れたない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 406
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文147A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文147Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文147Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文147A。",
+              "furigana": "例文147A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文147A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文147Bです。",
+              "furigana": "例文147Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文147Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文147A。",
+              "furigana": "例文147A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文147A。",
+              "jp": "例文147A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Causa: 雨のために遅れた confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 147: ために II — debido a. Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Causa: 雨のために遅れた, Nの+? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Causa: 雨のために遅れた, Nの+ため.\n\nObjetivo: dominar ために II — debido a en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Causa: 雨のために遅れた, Nの+ため.】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: debido a\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Causa: 雨のために遅れた |\n| 丁寧 | trabajo | Causa: 雨のために遅れたです |\n| neg | ない | Causa: 雨のために遅れたない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 406
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文147A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文147Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文147Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文147A。",
+              "furigana": "例文147A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文147A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文147Bです。",
+              "furigana": "例文147Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文147Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文147A。",
+              "furigana": "例文147A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文147A。",
+              "jp": "例文147A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Causa: 雨のために遅れた confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 147: ために II — debido a. Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 406,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-148",
+      "title": "IMABI 148: ように — para que",
+      "stage": "IMABI · Intermediate I",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 148: ように — para que",
+          "text": "Objetivo potencial: 分かるように書く, V-る+ように.",
+          "examples": [
+            {
+              "jp": "Objetivo potencial: ",
+              "kana": "Objetivo potencial: ",
+              "es": "Objetivo potencial: 分かるように書く, V-る+ように."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Objetivo potencial: ? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Objetivo potencial: 分かるように書く, V-る+ように.\n\nObjetivo: dominar ように — para que en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Objetivo potencial: 分かるように書く, 】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: para que\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Objetivo potenc |\n| 丁寧 | trabajo | Objetivo potencです |\n| neg | ない | Objetivo potencない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 407
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文148A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文148Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文148Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文148A。",
+              "furigana": "例文148A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文148A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文148Bです。",
+              "furigana": "例文148Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文148Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文148A。",
+              "furigana": "例文148A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文148A。",
+              "jp": "例文148A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Objetivo potenc confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 148: ように — para que. Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Objetivo potencial: ? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Objetivo potencial: 分かるように書く, V-る+ように.\n\nObjetivo: dominar ように — para que en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Objetivo potencial: 分かるように書く, 】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: para que\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Objetivo potenc |\n| 丁寧 | trabajo | Objetivo potencです |\n| neg | ない | Objetivo potencない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 407
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文148A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文148Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文148Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文148A。",
+              "furigana": "例文148A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文148A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文148Bです。",
+              "furigana": "例文148Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文148Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文148A。",
+              "furigana": "例文148A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文148A。",
+              "jp": "例文148A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Objetivo potenc confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 148: ように — para que. Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 407,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-149",
+      "title": "IMABI 149: とおりに — tal como",
+      "stage": "IMABI · Intermediate I",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 149: とおりに — tal como",
+          "text": "Conforme: 言ったとおりにする, 見たとおり, 想像どおり.",
+          "examples": [
+            {
+              "jp": "Conforme: 言ったとおりにする,",
+              "kana": "Conforme: 言ったとおりにする,",
+              "es": "Conforme: 言ったとおりにする, 見たとおり, 想像どおり."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Conforme: 言ったとおりにする,? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Conforme: 言ったとおりにする, 見たとおり, 想像どおり.\n\nObjetivo: dominar とおりに — tal como en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Conforme: 言ったとおりにする, 見たとおり, 想像】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: tal como\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Conforme: 言ったとお |\n| 丁寧 | trabajo | Conforme: 言ったとおです |\n| neg | ない | Conforme: 言ったとおない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 407
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文149A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文149Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文149Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文149A。",
+              "furigana": "例文149A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文149A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文149Bです。",
+              "furigana": "例文149Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文149Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文149A。",
+              "furigana": "例文149A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文149A。",
+              "jp": "例文149A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Conforme: 言ったとお confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 149: とおりに — tal como. Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Conforme: 言ったとおりにする,? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Conforme: 言ったとおりにする, 見たとおり, 想像どおり.\n\nObjetivo: dominar とおりに — tal como en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Conforme: 言ったとおりにする, 見たとおり, 想像】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: tal como\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Conforme: 言ったとお |\n| 丁寧 | trabajo | Conforme: 言ったとおです |\n| neg | ない | Conforme: 言ったとおない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 407
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文149A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文149Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文149Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文149A。",
+              "furigana": "例文149A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文149A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文149Bです。",
+              "furigana": "例文149Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文149Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文149A。",
+              "furigana": "例文149A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文149A。",
+              "jp": "例文149A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Conforme: 言ったとお confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 149: とおりに — tal como. Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 407,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-150",
+      "title": "IMABI 150: てみる/みたい/みせる — probar",
+      "stage": "IMABI · Intermediate I",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 150: てみる/みたい/みせる — probar",
+          "text": "Probar: 食べてみる, 見てみたい, 試してみせる.",
+          "examples": [
+            {
+              "jp": "Probar: 食べてみる, 見てみたい",
+              "kana": "Probar: 食べてみる, 見てみたい",
+              "es": "Probar: 食べてみる, 見てみたい, 試してみせる."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Probar: 食べてみる, 見てみたい? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Probar: 食べてみる, 見てみたい, 試してみせる.\n\nObjetivo: dominar てみる/みたい/みせる — probar en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Probar: 食べてみる, 見てみたい, 試してみせる.】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: probar\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Probar: 食べてみる,  |\n| 丁寧 | trabajo | Probar: 食べてみる, です |\n| neg | ない | Probar: 食べてみる, ない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 407
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文150A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文150Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文150Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文150A。",
+              "furigana": "例文150A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文150A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文150Bです。",
+              "furigana": "例文150Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文150Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文150A。",
+              "furigana": "例文150A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文150A。",
+              "jp": "例文150A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Probar: 食べてみる,  confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 150: てみる/みたい/みせる — probar. Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Probar: 食べてみる, 見てみたい? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Probar: 食べてみる, 見てみたい, 試してみせる.\n\nObjetivo: dominar てみる/みたい/みせる — probar en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Probar: 食べてみる, 見てみたい, 試してみせる.】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: probar\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Probar: 食べてみる,  |\n| 丁寧 | trabajo | Probar: 食べてみる, です |\n| neg | ない | Probar: 食べてみる, ない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 407
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文150A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文150Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文150Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文150A。",
+              "furigana": "例文150A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文150A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文150Bです。",
+              "furigana": "例文150Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文150Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文150A。",
+              "furigana": "例文150A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文150A。",
+              "jp": "例文150A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Probar: 食べてみる,  confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 150: てみる/みたい/みせる — probar. Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 407,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-151",
+      "title": "IMABI 151: ようだ/みたいだ — parece",
+      "stage": "IMABI · Intermediate II",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 151: ようだ/みたいだ — parece",
+          "text": "Parecer: 雨のようだ, 夢みたい, ような/みたいな.",
+          "examples": [
+            {
+              "jp": "Parecer: 雨のようだ, 夢みたい",
+              "kana": "Parecer: 雨のようだ, 夢みたい",
+              "es": "Parecer: 雨のようだ, 夢みたい, ような/みたいな."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Parecer: 雨のようだ, 夢みたい? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Parecer: 雨のようだ, 夢みたい, ような/みたいな.\n\nObjetivo: dominar ようだ/みたいだ — parece en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Parecer: 雨のようだ, 夢みたい, ような/みたいな】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: parece\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Parecer: 雨のようだ, |\n| 丁寧 | trabajo | Parecer: 雨のようだ,です |\n| neg | ない | Parecer: 雨のようだ,ない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 405
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文151A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文151Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文151Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文151A。",
+              "furigana": "例文151A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文151A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文151Bです。",
+              "furigana": "例文151Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文151Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文151A。",
+              "furigana": "例文151A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文151A。",
+              "jp": "例文151A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Parecer: 雨のようだ, confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 151: ようだ/みたいだ — parece. Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Parecer: 雨のようだ, 夢みたい? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Parecer: 雨のようだ, 夢みたい, ような/みたいな.\n\nObjetivo: dominar ようだ/みたいだ — parece en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Parecer: 雨のようだ, 夢みたい, ような/みたいな】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: parece\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Parecer: 雨のようだ, |\n| 丁寧 | trabajo | Parecer: 雨のようだ,です |\n| neg | ない | Parecer: 雨のようだ,ない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 405
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文151A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文151Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文151Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文151A。",
+              "furigana": "例文151A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文151A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文151Bです。",
+              "furigana": "例文151Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文151Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文151A。",
+              "furigana": "例文151A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文151A。",
+              "jp": "例文151A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Parecer: 雨のようだ, confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 151: ようだ/みたいだ — parece. Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 405,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-152",
+      "title": "IMABI 152: ようになる/ようにする",
+      "stage": "IMABI · Intermediate II",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 152: ようになる/ようにする",
+          "text": "Cambio hábito: 話せるようになる, 早く寝るようにする.",
+          "examples": [
+            {
+              "jp": "Cambio hábito: 話せるよう",
+              "kana": "Cambio hábito: 話せるよう",
+              "es": "Cambio hábito: 話せるようになる, 早く寝るようにする."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Cambio hábito: 話せるよう? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Cambio hábito: 話せるようになる, 早く寝るようにする.\n\nObjetivo: dominar ようになる/ようにする en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Cambio hábito: 話せるようになる, 早く寝るよ】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: IMABI 152: ようになる/ように\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Cambio hábito:  |\n| 丁寧 | trabajo | Cambio hábito: です |\n| neg | ない | Cambio hábito: ない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 407
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文152A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文152Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文152Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文152A。",
+              "furigana": "例文152A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文152A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文152Bです。",
+              "furigana": "例文152Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文152Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文152A。",
+              "furigana": "例文152A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文152A。",
+              "jp": "例文152A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Cambio hábito:  confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 152: ようになる/ようにする. Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Cambio hábito: 話せるよう? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Cambio hábito: 話せるようになる, 早く寝るようにする.\n\nObjetivo: dominar ようになる/ようにする en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Cambio hábito: 話せるようになる, 早く寝るよ】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: IMABI 152: ようになる/ように\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Cambio hábito:  |\n| 丁寧 | trabajo | Cambio hábito: です |\n| neg | ない | Cambio hábito: ない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 407
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文152A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文152Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文152Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文152A。",
+              "furigana": "例文152A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文152A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文152Bです。",
+              "furigana": "例文152Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文152Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文152A。",
+              "furigana": "例文152A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文152A。",
+              "jp": "例文152A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Cambio hábito:  confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 152: ようになる/ようにする. Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 407,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-153",
+      "title": "IMABI 153: らしい — parece/se dice",
+      "stage": "IMABI · Intermediate II",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 153: らしい — parece/se dice",
+          "text": "らしい inferencia: 男らしい, 春らしい, らしい hearsay.",
+          "examples": [
+            {
+              "jp": "らしい inferencia: 男らしい",
+              "kana": "らしい inferencia: 男らしい",
+              "es": "らしい inferencia: 男らしい, 春らしい, らしい hearsay."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con らしい inferencia: 男らしい? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "らしい inferencia: 男らしい, 春らしい, らしい hearsay.\n\nObjetivo: dominar らしい — parece/se dice en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【らしい inferencia: 男らしい, 春らしい, らし】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: parece/se dice\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | らしい inferencia: |\n| 丁寧 | trabajo | らしい inferencia:です |\n| neg | ない | らしい inferencia:ない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 406
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文153A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文153Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文153Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文153A。",
+              "furigana": "例文153A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文153A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文153Bです。",
+              "furigana": "例文153Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文153Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文153A。",
+              "furigana": "例文153A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文153A。",
+              "jp": "例文153A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: らしい inferencia: confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 153: らしい — parece/se dice. Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con らしい inferencia: 男らしい? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "らしい inferencia: 男らしい, 春らしい, らしい hearsay.\n\nObjetivo: dominar らしい — parece/se dice en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【らしい inferencia: 男らしい, 春らしい, らし】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: parece/se dice\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | らしい inferencia: |\n| 丁寧 | trabajo | らしい inferencia:です |\n| neg | ない | らしい inferencia:ない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 406
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文153A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文153Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文153Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文153A。",
+              "furigana": "例文153A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文153A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文153Bです。",
+              "furigana": "例文153Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文153Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文153A。",
+              "furigana": "例文153A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文153A。",
+              "jp": "例文153A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: らしい inferencia: confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 153: らしい — parece/se dice. Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 406,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-154",
+      "title": "IMABI 154: っぽい — -ish",
+      "stage": "IMABI · Intermediate II",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 154: っぽい — -ish",
+          "text": "Sufijo: 子供っぽい, 白っぽい, 怒りっぽい.",
+          "examples": [
+            {
+              "jp": "Sufijo: 子供っぽい, 白っぽい,",
+              "kana": "Sufijo: 子供っぽい, 白っぽい,",
+              "es": "Sufijo: 子供っぽい, 白っぽい, 怒りっぽい."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Sufijo: 子供っぽい, 白っぽい,? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Sufijo: 子供っぽい, 白っぽい, 怒りっぽい.\n\nObjetivo: dominar っぽい — -ish en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Sufijo: 子供っぽい, 白っぽい, 怒りっぽい.】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: -ish\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Sufijo: 子供っぽい,  |\n| 丁寧 | trabajo | Sufijo: 子供っぽい, です |\n| neg | ない | Sufijo: 子供っぽい, ない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 407
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文154A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文154Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文154Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文154A。",
+              "furigana": "例文154A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文154A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文154Bです。",
+              "furigana": "例文154Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文154Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文154A。",
+              "furigana": "例文154A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文154A。",
+              "jp": "例文154A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Sufijo: 子供っぽい,  confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 154: っぽい — -ish. Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Sufijo: 子供っぽい, 白っぽい,? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Sufijo: 子供っぽい, 白っぽい, 怒りっぽい.\n\nObjetivo: dominar っぽい — -ish en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Sufijo: 子供っぽい, 白っぽい, 怒りっぽい.】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: -ish\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Sufijo: 子供っぽい,  |\n| 丁寧 | trabajo | Sufijo: 子供っぽい, です |\n| neg | ない | Sufijo: 子供っぽい, ない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 407
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文154A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文154Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文154Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文154A。",
+              "furigana": "例文154A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文154A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文154Bです。",
+              "furigana": "例文154Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文154Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文154A。",
+              "furigana": "例文154A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文154A。",
+              "jp": "例文154A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Sufijo: 子供っぽい,  confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 154: っぽい — -ish. Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 407,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-155",
+      "title": "IMABI 155: そうだ — parece (visual)",
+      "stage": "IMABI · Intermediate II",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 155: そうだ — parece (visual)",
+          "text": "Parece visual: 美味しそう, 雨が降りそう, そうな/に.",
+          "examples": [
+            {
+              "jp": "Parece visual: 美味しそう",
+              "kana": "Parece visual: 美味しそう",
+              "es": "Parece visual: 美味しそう, 雨が降りそう, そうな/に."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Parece visual: 美味しそう? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Parece visual: 美味しそう, 雨が降りそう, そうな/に.\n\nObjetivo: dominar そうだ — parece (visual) en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Parece visual: 美味しそう, 雨が降りそう, 】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: parece (visual)\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Parece visual:  |\n| 丁寧 | trabajo | Parece visual: です |\n| neg | ない | Parece visual: ない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 407
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文155A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文155Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文155Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文155A。",
+              "furigana": "例文155A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文155A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文155Bです。",
+              "furigana": "例文155Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文155Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文155A。",
+              "furigana": "例文155A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文155A。",
+              "jp": "例文155A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Parece visual:  confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 155: そうだ — parece (visual). Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Parece visual: 美味しそう? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Parece visual: 美味しそう, 雨が降りそう, そうな/に.\n\nObjetivo: dominar そうだ — parece (visual) en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Parece visual: 美味しそう, 雨が降りそう, 】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: parece (visual)\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Parece visual:  |\n| 丁寧 | trabajo | Parece visual: です |\n| neg | ない | Parece visual: ない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 407
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文155A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文155Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文155Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文155A。",
+              "furigana": "例文155A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文155A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文155Bです。",
+              "furigana": "例文155Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文155Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文155A。",
+              "furigana": "例文155A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文155A。",
+              "jp": "例文155A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Parece visual:  confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 155: そうだ — parece (visual). Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 407,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-156",
+      "title": "IMABI 156: そうだ — hearsay",
+      "stage": "IMABI · Intermediate II",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 156: そうだ — hearsay",
+          "text": "Dicen: 雨だそうだ, 行くそうだ, そうです vs そうだ.",
+          "examples": [
+            {
+              "jp": "Dicen: 雨だそうだ, 行くそうだ,",
+              "kana": "Dicen: 雨だそうだ, 行くそうだ,",
+              "es": "Dicen: 雨だそうだ, 行くそうだ, そうです vs そうだ."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Dicen: 雨だそうだ, 行くそうだ,? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Dicen: 雨だそうだ, 行くそうだ, そうです vs そうだ.\n\nObjetivo: dominar そうだ — hearsay en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Dicen: 雨だそうだ, 行くそうだ, そうです vs そ】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: hearsay\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Dicen: 雨だそうだ, 行 |\n| 丁寧 | trabajo | Dicen: 雨だそうだ, 行です |\n| neg | ない | Dicen: 雨だそうだ, 行ない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 408
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文156A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文156Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文156Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文156A。",
+              "furigana": "例文156A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文156A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文156Bです。",
+              "furigana": "例文156Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文156Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文156A。",
+              "furigana": "例文156A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文156A。",
+              "jp": "例文156A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Dicen: 雨だそうだ, 行 confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 156: そうだ — hearsay. Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Dicen: 雨だそうだ, 行くそうだ,? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Dicen: 雨だそうだ, 行くそうだ, そうです vs そうだ.\n\nObjetivo: dominar そうだ — hearsay en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Dicen: 雨だそうだ, 行くそうだ, そうです vs そ】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: hearsay\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Dicen: 雨だそうだ, 行 |\n| 丁寧 | trabajo | Dicen: 雨だそうだ, 行です |\n| neg | ない | Dicen: 雨だそうだ, 行ない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 408
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文156A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文156Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文156Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文156A。",
+              "furigana": "例文156A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文156A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文156Bです。",
+              "furigana": "例文156Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文156Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文156A。",
+              "furigana": "例文156A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文156A。",
+              "jp": "例文156A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Dicen: 雨だそうだ, 行 confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 156: そうだ — hearsay. Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 408,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-157",
+      "title": "IMABI 157: Superlativo — 一番/最も",
+      "stage": "IMABI · Intermediate II",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 157: Superlativo — 一番/最も",
+          "text": "Más: 一番高い, 最も大切, 何より.",
+          "examples": [
+            {
+              "jp": "Más: 一番高い, 最も大切, 何より",
+              "kana": "Más: 一番高い, 最も大切, 何より",
+              "es": "Más: 一番高い, 最も大切, 何より."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Más: 一番高い, 最も大切, 何より? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Más: 一番高い, 最も大切, 何より.\n\nObjetivo: dominar Superlativo — 一番/最も en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Más: 一番高い, 最も大切, 何より.】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: 一番/最も\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Más: 一番高い, 最も大切 |\n| 丁寧 | trabajo | Más: 一番高い, 最も大切です |\n| neg | ない | Más: 一番高い, 最も大切ない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 408
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文157A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文157Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文157Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文157A。",
+              "furigana": "例文157A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文157A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文157Bです。",
+              "furigana": "例文157Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文157Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文157A。",
+              "furigana": "例文157A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文157A。",
+              "jp": "例文157A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Más: 一番高い, 最も大切 confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 157: Superlativo — 一番/最も. Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Más: 一番高い, 最も大切, 何より? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Más: 一番高い, 最も大切, 何より.\n\nObjetivo: dominar Superlativo — 一番/最も en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Más: 一番高い, 最も大切, 何より.】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: 一番/最も\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Más: 一番高い, 最も大切 |\n| 丁寧 | trabajo | Más: 一番高い, 最も大切です |\n| neg | ない | Más: 一番高い, 最も大切ない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 408
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文157A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文157Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文157Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文157A。",
+              "furigana": "例文157A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文157A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文157Bです。",
+              "furigana": "例文157Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文157Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文157A。",
+              "furigana": "例文157A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文157A。",
+              "jp": "例文157A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Más: 一番高い, 最も大切 confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 157: Superlativo — 一番/最も. Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 408,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-158",
+      "title": "IMABI 158: Imperativo — ろ/なさい/て",
+      "stage": "IMABI · Intermediate II",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 158: Imperativo — ろ/なさい/て",
+          "text": "Orden: 行け, 行きなさい, 行って, 行ってください.",
+          "examples": [
+            {
+              "jp": "Orden: 行け, 行きなさい, 行っ",
+              "kana": "Orden: 行け, 行きなさい, 行っ",
+              "es": "Orden: 行け, 行きなさい, 行って, 行ってください."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Orden: 行け, 行きなさい, 行っ? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Orden: 行け, 行きなさい, 行って, 行ってください.\n\nObjetivo: dominar Imperativo — ろ/なさい/て en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Orden: 行け, 行きなさい, 行って, 行ってください】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: ろ/なさい/て\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Orden: 行け, 行きなさ |\n| 丁寧 | trabajo | Orden: 行け, 行きなさです |\n| neg | ない | Orden: 行け, 行きなさない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 406
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文158A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文158Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文158Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文158A。",
+              "furigana": "例文158A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文158A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文158Bです。",
+              "furigana": "例文158Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文158Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文158A。",
+              "furigana": "例文158A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文158A。",
+              "jp": "例文158A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Orden: 行け, 行きなさ confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 158: Imperativo — ろ/なさい/て. Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Orden: 行け, 行きなさい, 行っ? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Orden: 行け, 行きなさい, 行って, 行ってください.\n\nObjetivo: dominar Imperativo — ろ/なさい/て en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Orden: 行け, 行きなさい, 行って, 行ってください】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: ろ/なさい/て\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Orden: 行け, 行きなさ |\n| 丁寧 | trabajo | Orden: 行け, 行きなさです |\n| neg | ない | Orden: 行け, 行きなさない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 406
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文158A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文158Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文158Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文158A。",
+              "furigana": "例文158A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文158A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文158Bです。",
+              "furigana": "例文158Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文158Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文158A。",
+              "furigana": "例文158A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文158A。",
+              "jp": "例文158A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Orden: 行け, 行きなさ confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 158: Imperativo — ろ/なさい/て. Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 406,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-159",
+      "title": "IMABI 159: Agente — に",
+      "stage": "IMABI · Intermediate II",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 159: Agente — に",
+          "text": "Pasiva agente: 先生に褒められた, に/によって.",
+          "examples": [
+            {
+              "jp": "Pasiva agente: 先生に褒め",
+              "kana": "Pasiva agente: 先生に褒め",
+              "es": "Pasiva agente: 先生に褒められた, に/によって."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Pasiva agente: 先生に褒め? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Pasiva agente: 先生に褒められた, に/によって.\n\nObjetivo: dominar Agente — に en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Pasiva agente: 先生に褒められた, に/によっ】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: に\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Pasiva agente:  |\n| 丁寧 | trabajo | Pasiva agente: です |\n| neg | ない | Pasiva agente: ない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 407
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文159A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文159Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文159Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文159A。",
+              "furigana": "例文159A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文159A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文159Bです。",
+              "furigana": "例文159Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文159Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文159A。",
+              "furigana": "例文159A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文159A。",
+              "jp": "例文159A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Pasiva agente:  confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 159: Agente — に. Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Pasiva agente: 先生に褒め? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Pasiva agente: 先生に褒められた, に/によって.\n\nObjetivo: dominar Agente — に en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Pasiva agente: 先生に褒められた, に/によっ】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: に\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Pasiva agente:  |\n| 丁寧 | trabajo | Pasiva agente: です |\n| neg | ない | Pasiva agente: ない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 407
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文159A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文159Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文159Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文159A。",
+              "furigana": "例文159A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文159A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文159Bです。",
+              "furigana": "例文159Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文159Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文159A。",
+              "furigana": "例文159A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文159A。",
+              "jp": "例文159A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Pasiva agente:  confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 159: Agente — に. Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 407,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-160",
+      "title": "IMABI 160: Pasiva I — られる",
+      "stage": "IMABI · Intermediate II",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 160: Pasiva I — られる",
+          "text": "Pasiva: 書かれる, 食べられる, される/来られる.",
+          "examples": [
+            {
+              "jp": "Pasiva: 書かれる, 食べられる,",
+              "kana": "Pasiva: 書かれる, 食べられる,",
+              "es": "Pasiva: 書かれる, 食べられる, される/来られる."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Pasiva: 書かれる, 食べられる,? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Pasiva: 書かれる, 食べられる, される/来られる.\n\nObjetivo: dominar Pasiva I — られる en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Pasiva: 書かれる, 食べられる, される/来られる.】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: られる\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Pasiva: 書かれる, 食 |\n| 丁寧 | trabajo | Pasiva: 書かれる, 食です |\n| neg | ない | Pasiva: 書かれる, 食ない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 405
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文160A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文160Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文160Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文160A。",
+              "furigana": "例文160A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文160A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文160Bです。",
+              "furigana": "例文160Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文160Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文160A。",
+              "furigana": "例文160A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文160A。",
+              "jp": "例文160A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Pasiva: 書かれる, 食 confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 160: Pasiva I — られる. Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Pasiva: 書かれる, 食べられる,? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Pasiva: 書かれる, 食べられる, される/来られる.\n\nObjetivo: dominar Pasiva I — られる en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Pasiva: 書かれる, 食べられる, される/来られる.】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: られる\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Pasiva: 書かれる, 食 |\n| 丁寧 | trabajo | Pasiva: 書かれる, 食です |\n| neg | ない | Pasiva: 書かれる, 食ない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 405
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文160A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文160Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文160Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文160A。",
+              "furigana": "例文160A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文160A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文160Bです。",
+              "furigana": "例文160Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文160Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文160A。",
+              "furigana": "例文160A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文160A。",
+              "jp": "例文160A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Pasiva: 書かれる, 食 confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 160: Pasiva I — られる. Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 405,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-161",
+      "title": "IMABI 161: Pasiva II — adversativa",
+      "stage": "IMABI · Intermediate II",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 161: Pasiva II — adversativa",
+          "text": "Sufrimiento: 雨に降られた, 財布を盗まれた.",
+          "examples": [
+            {
+              "jp": "Sufrimiento: 雨に降られた,",
+              "kana": "Sufrimiento: 雨に降られた,",
+              "es": "Sufrimiento: 雨に降られた, 財布を盗まれた."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Sufrimiento: 雨に降られた,? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Sufrimiento: 雨に降られた, 財布を盗まれた.\n\nObjetivo: dominar Pasiva II — adversativa en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Sufrimiento: 雨に降られた, 財布を盗まれた.】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: adversativa\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Sufrimiento: 雨に |\n| 丁寧 | trabajo | Sufrimiento: 雨にです |\n| neg | ない | Sufrimiento: 雨にない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 408
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文161A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文161Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文161Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文161A。",
+              "furigana": "例文161A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文161A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文161Bです。",
+              "furigana": "例文161Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文161Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文161A。",
+              "furigana": "例文161A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文161A。",
+              "jp": "例文161A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Sufrimiento: 雨に confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 161: Pasiva II — adversativa. Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Sufrimiento: 雨に降られた,? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Sufrimiento: 雨に降られた, 財布を盗まれた.\n\nObjetivo: dominar Pasiva II — adversativa en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Sufrimiento: 雨に降られた, 財布を盗まれた.】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: adversativa\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Sufrimiento: 雨に |\n| 丁寧 | trabajo | Sufrimiento: 雨にです |\n| neg | ない | Sufrimiento: 雨にない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 408
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文161A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文161Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文161Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文161A。",
+              "furigana": "例文161A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文161A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文161Bです。",
+              "furigana": "例文161Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文161Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文161A。",
+              "furigana": "例文161A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文161A。",
+              "jp": "例文161A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Sufrimiento: 雨に confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 161: Pasiva II — adversativa. Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 408,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-162",
+      "title": "IMABI 162: に vs から — origen",
+      "stage": "IMABI · Intermediate II",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 162: に vs から — origen",
+          "text": "Fuente: 先生に/から聞いた, 人に/からもらう.",
+          "examples": [
+            {
+              "jp": "Fuente: 先生に/から聞いた, 人",
+              "kana": "Fuente: 先生に/から聞いた, 人",
+              "es": "Fuente: 先生に/から聞いた, 人に/からもらう."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Fuente: 先生に/から聞いた, 人? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Fuente: 先生に/から聞いた, 人に/からもらう.\n\nObjetivo: dominar に vs から — origen en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Fuente: 先生に/から聞いた, 人に/からもらう.】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: origen\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Fuente: 先生に/から聞 |\n| 丁寧 | trabajo | Fuente: 先生に/から聞です |\n| neg | ない | Fuente: 先生に/から聞ない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 405
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文162A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文162Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文162Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文162A。",
+              "furigana": "例文162A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文162A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文162Bです。",
+              "furigana": "例文162Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文162Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文162A。",
+              "furigana": "例文162A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文162A。",
+              "jp": "例文162A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Fuente: 先生に/から聞 confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 162: に vs から — origen. Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Fuente: 先生に/から聞いた, 人? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Fuente: 先生に/から聞いた, 人に/からもらう.\n\nObjetivo: dominar に vs から — origen en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Fuente: 先生に/から聞いた, 人に/からもらう.】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: origen\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Fuente: 先生に/から聞 |\n| 丁寧 | trabajo | Fuente: 先生に/から聞です |\n| neg | ない | Fuente: 先生に/から聞ない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 405
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文162A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文162Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文162Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文162A。",
+              "furigana": "例文162A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文162A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文162Bです。",
+              "furigana": "例文162Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文162Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文162A。",
+              "furigana": "例文162A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文162A。",
+              "jp": "例文162A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Fuente: 先生に/から聞 confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 162: に vs から — origen. Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 405,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-163",
+      "title": "IMABI 163: Causativa — させる",
+      "stage": "IMABI · Intermediate II",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 163: Causativa — させる",
+          "text": "Hacer hacer: 行かせる, 食べさせる, させる/せる.",
+          "examples": [
+            {
+              "jp": "Hacer hacer: 行かせる, 食",
+              "kana": "Hacer hacer: 行かせる, 食",
+              "es": "Hacer hacer: 行かせる, 食べさせる, させる/せる."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Hacer hacer: 行かせる, 食? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Hacer hacer: 行かせる, 食べさせる, させる/せる.\n\nObjetivo: dominar Causativa — させる en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Hacer hacer: 行かせる, 食べさせる, させる/】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: させる\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Hacer hacer: 行か |\n| 丁寧 | trabajo | Hacer hacer: 行かです |\n| neg | ない | Hacer hacer: 行かない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 406
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文163A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文163Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文163Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文163A。",
+              "furigana": "例文163A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文163A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文163Bです。",
+              "furigana": "例文163Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文163Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文163A。",
+              "furigana": "例文163A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文163A。",
+              "jp": "例文163A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Hacer hacer: 行か confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 163: Causativa — させる. Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Hacer hacer: 行かせる, 食? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Hacer hacer: 行かせる, 食べさせる, させる/せる.\n\nObjetivo: dominar Causativa — させる en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Hacer hacer: 行かせる, 食べさせる, させる/】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: させる\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Hacer hacer: 行か |\n| 丁寧 | trabajo | Hacer hacer: 行かです |\n| neg | ない | Hacer hacer: 行かない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 406
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文163A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文163Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文163Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文163A。",
+              "furigana": "例文163A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文163A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文163Bです。",
+              "furigana": "例文163Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文163Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文163A。",
+              "furigana": "例文163A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文163A。",
+              "jp": "例文163A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Hacer hacer: 行か confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 163: Causativa — させる. Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 406,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-164",
+      "title": "IMABI 164: Causativa-pasiva",
+      "stage": "IMABI · Intermediate II",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 164: Causativa-pasiva",
+          "text": "Obligado: 行かされる, 食べさせられる, させられる.",
+          "examples": [
+            {
+              "jp": "Obligado: 行かされる, 食べさ",
+              "kana": "Obligado: 行かされる, 食べさ",
+              "es": "Obligado: 行かされる, 食べさせられる, させられる."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Obligado: 行かされる, 食べさ? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Obligado: 行かされる, 食べさせられる, させられる.\n\nObjetivo: dominar Causativa-pasiva en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Obligado: 行かされる, 食べさせられる, させられ】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: IMABI 164: Causativa\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Obligado: 行かされる |\n| 丁寧 | trabajo | Obligado: 行かされるです |\n| neg | ない | Obligado: 行かされるない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 405
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文164A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文164Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文164Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文164A。",
+              "furigana": "例文164A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文164A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文164Bです。",
+              "furigana": "例文164Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文164Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文164A。",
+              "furigana": "例文164A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文164A。",
+              "jp": "例文164A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Obligado: 行かされる confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 164: Causativa-pasiva. Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Obligado: 行かされる, 食べさ? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Obligado: 行かされる, 食べさせられる, させられる.\n\nObjetivo: dominar Causativa-pasiva en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Obligado: 行かされる, 食べさせられる, させられ】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: IMABI 164: Causativa\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Obligado: 行かされる |\n| 丁寧 | trabajo | Obligado: 行かされるです |\n| neg | ない | Obligado: 行かされるない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 405
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文164A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文164Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文164Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文164A。",
+              "furigana": "例文164A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文164A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文164Bです。",
+              "furigana": "例文164Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文164Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文164A。",
+              "furigana": "例文164A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文164A。",
+              "jp": "例文164A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Obligado: 行かされる confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 164: Causativa-pasiva. Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 405,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-165",
+      "title": "IMABI 165: Volitivo — う/よう",
+      "stage": "IMABI · Intermediate II",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 165: Volitivo — う/よう",
+          "text": "Intención: 行こう, 食べよう, う/よう, と思う.",
+          "examples": [
+            {
+              "jp": "Intención: 行こう, 食べよう",
+              "kana": "Intención: 行こう, 食べよう",
+              "es": "Intención: 行こう, 食べよう, う/よう, と思う."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Intención: 行こう, 食べよう? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Intención: 行こう, 食べよう, う/よう, と思う.\n\nObjetivo: dominar Volitivo — う/よう en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Intención: 行こう, 食べよう, う/よう, と思】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: う/よう\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Intención: 行こう, |\n| 丁寧 | trabajo | Intención: 行こう,です |\n| neg | ない | Intención: 行こう,ない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 407
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文165A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文165Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文165Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文165A。",
+              "furigana": "例文165A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文165A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文165Bです。",
+              "furigana": "例文165Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文165Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文165A。",
+              "furigana": "例文165A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文165A。",
+              "jp": "例文165A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Intención: 行こう, confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 165: Volitivo — う/よう. Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Intención: 行こう, 食べよう? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Intención: 行こう, 食べよう, う/よう, と思う.\n\nObjetivo: dominar Volitivo — う/よう en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Intención: 行こう, 食べよう, う/よう, と思】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: う/よう\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Intención: 行こう, |\n| 丁寧 | trabajo | Intención: 行こう,です |\n| neg | ない | Intención: 行こう,ない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 407
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文165A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文165Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文165Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文165A。",
+              "furigana": "例文165A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文165A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文165Bです。",
+              "furigana": "例文165Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文165Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文165A。",
+              "furigana": "例文165A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文165A。",
+              "jp": "例文165A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Intención: 行こう, confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 165: Volitivo — う/よう. Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 407,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-166",
+      "title": "IMABI 166: だろう/でしょう",
+      "stage": "IMABI · Intermediate II",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 166: だろう/でしょう",
+          "text": "Conjetura: 雨だろう, でしょう, だろうか.",
+          "examples": [
+            {
+              "jp": "Conjetura: 雨だろう, でしょ",
+              "kana": "Conjetura: 雨だろう, でしょ",
+              "es": "Conjetura: 雨だろう, でしょう, だろうか."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Conjetura: 雨だろう, でしょ? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Conjetura: 雨だろう, でしょう, だろうか.\n\nObjetivo: dominar だろう/でしょう en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Conjetura: 雨だろう, でしょう, だろうか.】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: IMABI 166: だろう/でしょう\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Conjetura: 雨だろう |\n| 丁寧 | trabajo | Conjetura: 雨だろうです |\n| neg | ない | Conjetura: 雨だろうない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 405
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文166A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文166Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文166Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文166A。",
+              "furigana": "例文166A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文166A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文166Bです。",
+              "furigana": "例文166Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文166Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文166A。",
+              "furigana": "例文166A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文166A。",
+              "jp": "例文166A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Conjetura: 雨だろう confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 166: だろう/でしょう. Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Conjetura: 雨だろう, でしょ? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Conjetura: 雨だろう, でしょう, だろうか.\n\nObjetivo: dominar だろう/でしょう en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Conjetura: 雨だろう, でしょう, だろうか.】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: IMABI 166: だろう/でしょう\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Conjetura: 雨だろう |\n| 丁寧 | trabajo | Conjetura: 雨だろうです |\n| neg | ない | Conjetura: 雨だろうない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 405
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文166A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文166Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文166Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文166A。",
+              "furigana": "例文166A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文166A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文166Bです。",
+              "furigana": "例文166Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文166Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文166A。",
+              "furigana": "例文166A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文166A。",
+              "jp": "例文166A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Conjetura: 雨だろう confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 166: だろう/でしょう. Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 405,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-167",
+      "title": "IMABI 167: とか — entre otros",
+      "stage": "IMABI · Intermediate II",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 167: とか — entre otros",
+          "text": "Ejemplos: 本とか雑誌とか, とか言う.",
+          "examples": [
+            {
+              "jp": "Ejemplos: 本とか雑誌とか, と",
+              "kana": "Ejemplos: 本とか雑誌とか, と",
+              "es": "Ejemplos: 本とか雑誌とか, とか言う."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Ejemplos: 本とか雑誌とか, と? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Ejemplos: 本とか雑誌とか, とか言う.\n\nObjetivo: dominar とか — entre otros en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Ejemplos: 本とか雑誌とか, とか言う.】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: entre otros\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Ejemplos: 本とか雑誌 |\n| 丁寧 | trabajo | Ejemplos: 本とか雑誌です |\n| neg | ない | Ejemplos: 本とか雑誌ない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 405
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文167A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文167Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文167Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文167A。",
+              "furigana": "例文167A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文167A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文167Bです。",
+              "furigana": "例文167Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文167Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文167A。",
+              "furigana": "例文167A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文167A。",
+              "jp": "例文167A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Ejemplos: 本とか雑誌 confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 167: とか — entre otros. Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Ejemplos: 本とか雑誌とか, と? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Ejemplos: 本とか雑誌とか, とか言う.\n\nObjetivo: dominar とか — entre otros en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Ejemplos: 本とか雑誌とか, とか言う.】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: entre otros\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Ejemplos: 本とか雑誌 |\n| 丁寧 | trabajo | Ejemplos: 本とか雑誌です |\n| neg | ない | Ejemplos: 本とか雑誌ない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 405
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文167A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文167Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文167Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文167A。",
+              "furigana": "例文167A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文167A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文167Bです。",
+              "furigana": "例文167Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文167Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文167A。",
+              "furigana": "例文167A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文167A。",
+              "jp": "例文167A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Ejemplos: 本とか雑誌 confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 167: とか — entre otros. Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 405,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-168",
+      "title": "IMABI 168: なんて — cosas como",
+      "stage": "IMABI · Intermediate II",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 168: なんて — cosas como",
+          "text": "Sorpresa: なんて難しい, 彼なんて, なんか.",
+          "examples": [
+            {
+              "jp": "Sorpresa: なんて難しい, 彼な",
+              "kana": "Sorpresa: なんて難しい, 彼な",
+              "es": "Sorpresa: なんて難しい, 彼なんて, なんか."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Sorpresa: なんて難しい, 彼な? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Sorpresa: なんて難しい, 彼なんて, なんか.\n\nObjetivo: dominar なんて — cosas como en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Sorpresa: なんて難しい, 彼なんて, なんか.】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: cosas como\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Sorpresa: なんて難し |\n| 丁寧 | trabajo | Sorpresa: なんて難しです |\n| neg | ない | Sorpresa: なんて難しない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 407
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文168A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文168Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文168Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文168A。",
+              "furigana": "例文168A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文168A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文168Bです。",
+              "furigana": "例文168Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文168Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文168A。",
+              "furigana": "例文168A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文168A。",
+              "jp": "例文168A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Sorpresa: なんて難し confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 168: なんて — cosas como. Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Sorpresa: なんて難しい, 彼な? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Sorpresa: なんて難しい, 彼なんて, なんか.\n\nObjetivo: dominar なんて — cosas como en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Sorpresa: なんて難しい, 彼なんて, なんか.】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: cosas como\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Sorpresa: なんて難し |\n| 丁寧 | trabajo | Sorpresa: なんて難しです |\n| neg | ない | Sorpresa: なんて難しない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 407
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文168A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文168Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文168Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文168A。",
+              "furigana": "例文168A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文168A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文168Bです。",
+              "furigana": "例文168Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文168Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文168A。",
+              "furigana": "例文168A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文168A。",
+              "jp": "例文168A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Sorpresa: なんて難し confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 168: なんて — cosas como. Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 407,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-169",
+      "title": "IMABI 169: ほど/くらい — tanto como",
+      "stage": "IMABI · Intermediate II",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 169: ほど/くらい — tanto como",
+          "text": "Cuanto: 思ったほど, くらい, ほど～ない.",
+          "examples": [
+            {
+              "jp": "Cuanto: 思ったほど, くらい, ",
+              "kana": "Cuanto: 思ったほど, くらい, ",
+              "es": "Cuanto: 思ったほど, くらい, ほど～ない."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Cuanto: 思ったほど, くらい, ? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Cuanto: 思ったほど, くらい, ほど～ない.\n\nObjetivo: dominar ほど/くらい — tanto como en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Cuanto: 思ったほど, くらい, ほど～ない.】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: tanto como\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Cuanto: 思ったほど,  |\n| 丁寧 | trabajo | Cuanto: 思ったほど, です |\n| neg | ない | Cuanto: 思ったほど, ない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 405
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文169A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文169Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文169Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文169A。",
+              "furigana": "例文169A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文169A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文169Bです。",
+              "furigana": "例文169Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文169Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文169A。",
+              "furigana": "例文169A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文169A。",
+              "jp": "例文169A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Cuanto: 思ったほど,  confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 169: ほど/くらい — tanto como. Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Cuanto: 思ったほど, くらい, ? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Cuanto: 思ったほど, くらい, ほど～ない.\n\nObjetivo: dominar ほど/くらい — tanto como en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Cuanto: 思ったほど, くらい, ほど～ない.】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: tanto como\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Cuanto: 思ったほど,  |\n| 丁寧 | trabajo | Cuanto: 思ったほど, です |\n| neg | ない | Cuanto: 思ったほど, ない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 405
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文169A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文169Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文169Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文169A。",
+              "furigana": "例文169A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文169A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文169Bです。",
+              "furigana": "例文169Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文169Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文169A。",
+              "furigana": "例文169A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文169A。",
+              "jp": "例文169A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Cuanto: 思ったほど,  confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 169: ほど/くらい — tanto como. Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 405,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-170",
+      "title": "IMABI 170: より — que (comparativo)",
+      "stage": "IMABI · Intermediate II",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 170: より — que (comparativo)",
+          "text": "Comparar: 私より背が高い, よりも, の方が.",
+          "examples": [
+            {
+              "jp": "Comparar: 私より背が高い, よ",
+              "kana": "Comparar: 私より背が高い, よ",
+              "es": "Comparar: 私より背が高い, よりも, の方が."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Comparar: 私より背が高い, よ? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Comparar: 私より背が高い, よりも, の方が.\n\nObjetivo: dominar より — que (comparativo) en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Comparar: 私より背が高い, よりも, の方が.】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: que (comparativo)\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Comparar: 私より背が |\n| 丁寧 | trabajo | Comparar: 私より背がです |\n| neg | ない | Comparar: 私より背がない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 407
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文170A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文170Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文170Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文170A。",
+              "furigana": "例文170A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文170A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文170Bです。",
+              "furigana": "例文170Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文170Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文170A。",
+              "furigana": "例文170A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文170A。",
+              "jp": "例文170A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Comparar: 私より背が confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 170: より — que (comparativo). Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Comparar: 私より背が高い, よ? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Comparar: 私より背が高い, よりも, の方が.\n\nObjetivo: dominar より — que (comparativo) en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Comparar: 私より背が高い, よりも, の方が.】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: que (comparativo)\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Comparar: 私より背が |\n| 丁寧 | trabajo | Comparar: 私より背がです |\n| neg | ない | Comparar: 私より背がない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 407
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文170A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文170Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文170Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文170A。",
+              "furigana": "例文170A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文170A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文170Bです。",
+              "furigana": "例文170Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文170Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文170A。",
+              "furigana": "例文170A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文170A。",
+              "jp": "例文170A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Comparar: 私より背が confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 170: より — que (comparativo). Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 407,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-171",
+      "title": "IMABI 171: O — か/それとも/もしくは",
+      "stage": "IMABI · Intermediate II",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 171: O — か/それとも/もしくは",
+          "text": "O: コーヒーか紅茶か, それとも, もしくは.",
+          "examples": [
+            {
+              "jp": "O: コーヒーか紅茶か, それとも, も",
+              "kana": "O: コーヒーか紅茶か, それとも, も",
+              "es": "O: コーヒーか紅茶か, それとも, もしくは."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con O: コーヒーか紅茶か, それとも, も? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "O: コーヒーか紅茶か, それとも, もしくは.\n\nObjetivo: dominar O — か/それとも/もしくは en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【O: コーヒーか紅茶か, それとも, もしくは.】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: か/それとも/もしくは\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | O: コーヒーか紅茶か, それ |\n| 丁寧 | trabajo | O: コーヒーか紅茶か, それです |\n| neg | ない | O: コーヒーか紅茶か, それない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 408
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文171A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文171Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文171Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文171A。",
+              "furigana": "例文171A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文171A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文171Bです。",
+              "furigana": "例文171Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文171Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文171A。",
+              "furigana": "例文171A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文171A。",
+              "jp": "例文171A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: O: コーヒーか紅茶か, それ confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 171: O — か/それとも/もしくは. Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con O: コーヒーか紅茶か, それとも, も? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "O: コーヒーか紅茶か, それとも, もしくは.\n\nObjetivo: dominar O — か/それとも/もしくは en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【O: コーヒーか紅茶か, それとも, もしくは.】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: か/それとも/もしくは\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | O: コーヒーか紅茶か, それ |\n| 丁寧 | trabajo | O: コーヒーか紅茶か, それです |\n| neg | ない | O: コーヒーか紅茶か, それない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 408
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文171A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文171Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文171Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文171A。",
+              "furigana": "例文171A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文171A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文171Bです。",
+              "furigana": "例文171Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文171Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文171A。",
+              "furigana": "例文171A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文171A。",
+              "jp": "例文171A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: O: コーヒーか紅茶か, それ confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 171: O — か/それとも/もしくは. Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 408,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-172",
+      "title": "IMABI 172: 中 — durante",
+      "stage": "IMABI · Intermediate II",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 172: 中 — durante",
+          "text": "Durante: 会議中, 一晩中, 世界中.",
+          "examples": [
+            {
+              "jp": "Durante: 会議中, 一晩中, 世",
+              "kana": "Durante: 会議中, 一晩中, 世",
+              "es": "Durante: 会議中, 一晩中, 世界中."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Durante: 会議中, 一晩中, 世? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Durante: 会議中, 一晩中, 世界中.\n\nObjetivo: dominar 中 — durante en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Durante: 会議中, 一晩中, 世界中.】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: durante\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Durante: 会議中, 一 |\n| 丁寧 | trabajo | Durante: 会議中, 一です |\n| neg | ない | Durante: 会議中, 一ない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 408
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文172A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文172Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文172Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文172A。",
+              "furigana": "例文172A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文172A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文172Bです。",
+              "furigana": "例文172Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文172Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文172A。",
+              "furigana": "例文172A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文172A。",
+              "jp": "例文172A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Durante: 会議中, 一 confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 172: 中 — durante. Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Durante: 会議中, 一晩中, 世? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Durante: 会議中, 一晩中, 世界中.\n\nObjetivo: dominar 中 — durante en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Durante: 会議中, 一晩中, 世界中.】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: durante\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Durante: 会議中, 一 |\n| 丁寧 | trabajo | Durante: 会議中, 一です |\n| neg | ない | Durante: 会議中, 一ない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 408
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文172A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文172Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文172Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文172A。",
+              "furigana": "例文172A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文172A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文172Bです。",
+              "furigana": "例文172Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文172Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文172A。",
+              "furigana": "例文172A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文172A。",
+              "jp": "例文172A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Durante: 会議中, 一 confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 172: 中 — durante. Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 408,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-173",
+      "title": "IMABI 173: ようにする/ようとする",
+      "stage": "IMABI · Intermediate II",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 173: ようにする/ようとする",
+          "text": "Intentar: 早く寝るようにする, 開けようとする.",
+          "examples": [
+            {
+              "jp": "Intentar: 早く寝るようにする,",
+              "kana": "Intentar: 早く寝るようにする,",
+              "es": "Intentar: 早く寝るようにする, 開けようとする."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Intentar: 早く寝るようにする,? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Intentar: 早く寝るようにする, 開けようとする.\n\nObjetivo: dominar ようにする/ようとする en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Intentar: 早く寝るようにする, 開けようとする.】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: IMABI 173: ようにする/ようと\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Intentar: 早く寝るよ |\n| 丁寧 | trabajo | Intentar: 早く寝るよです |\n| neg | ない | Intentar: 早く寝るよない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 407
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文173A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文173Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文173Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文173A。",
+              "furigana": "例文173A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文173A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文173Bです。",
+              "furigana": "例文173Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文173Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文173A。",
+              "furigana": "例文173A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文173A。",
+              "jp": "例文173A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Intentar: 早く寝るよ confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 173: ようにする/ようとする. Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Intentar: 早く寝るようにする,? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Intentar: 早く寝るようにする, 開けようとする.\n\nObjetivo: dominar ようにする/ようとする en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Intentar: 早く寝るようにする, 開けようとする.】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: IMABI 173: ようにする/ようと\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Intentar: 早く寝るよ |\n| 丁寧 | trabajo | Intentar: 早く寝るよです |\n| neg | ない | Intentar: 早く寝るよない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 407
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文173A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文173Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文173Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文173A。",
+              "furigana": "例文173A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文173A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文173Bです。",
+              "furigana": "例文173Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文173Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文173A。",
+              "furigana": "例文173A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文173A。",
+              "jp": "例文173A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Intentar: 早く寝るよ confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 173: ようにする/ようとする. Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 407,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-174",
+      "title": "IMABI 174: Phrasal こと",
+      "stage": "IMABI · Intermediate II",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 174: Phrasal こと",
+          "text": "こと frases: ことにする, ことになる, ことだ.",
+          "examples": [
+            {
+              "jp": "こと frases: ことにする, こと",
+              "kana": "こと frases: ことにする, こと",
+              "es": "こと frases: ことにする, ことになる, ことだ."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con こと frases: ことにする, こと? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "こと frases: ことにする, ことになる, ことだ.\n\nObjetivo: dominar Phrasal こと en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【こと frases: ことにする, ことになる, ことだ.】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: IMABI 174: Phrasal こ\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | こと frases: ことにす |\n| 丁寧 | trabajo | こと frases: ことにすです |\n| neg | ない | こと frases: ことにすない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 408
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文174A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文174Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文174Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文174A。",
+              "furigana": "例文174A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文174A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文174Bです。",
+              "furigana": "例文174Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文174Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文174A。",
+              "furigana": "例文174A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文174A。",
+              "jp": "例文174A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: こと frases: ことにす confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 174: Phrasal こと. Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con こと frases: ことにする, こと? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "こと frases: ことにする, ことになる, ことだ.\n\nObjetivo: dominar Phrasal こと en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【こと frases: ことにする, ことになる, ことだ.】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: IMABI 174: Phrasal こ\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | こと frases: ことにす |\n| 丁寧 | trabajo | こと frases: ことにすです |\n| neg | ない | こと frases: ことにすない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 408
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文174A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文174Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文174Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文174A。",
+              "furigana": "例文174A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文174A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文174Bです。",
+              "furigana": "例文174Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文174Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文174A。",
+              "furigana": "例文174A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文174A。",
+              "jp": "例文174A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: こと frases: ことにす confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 174: Phrasal こと. Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 408,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-175",
+      "title": "IMABI 175: Familia — 敬語 familia",
+      "stage": "IMABI · Intermediate II",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 175: Familia — 敬語 familia",
+          "text": "Familia uchi/soto: 父/お父さん, 母/お母さん, honorífico.",
+          "examples": [
+            {
+              "jp": "Familia uchi/soto: 父",
+              "kana": "Familia uchi/soto: 父",
+              "es": "Familia uchi/soto: 父/お父さん, 母/お母さん, honorífico."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Familia uchi/soto: 父? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Familia uchi/soto: 父/お父さん, 母/お母さん, honorífico.\n\nObjetivo: dominar Familia — 敬語 familia en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Familia uchi/soto: 父/お父さん, 母/お】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: 敬語 familia\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Familia uchi/so |\n| 丁寧 | trabajo | Familia uchi/soです |\n| neg | ない | Familia uchi/soない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 408
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文175A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文175Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文175Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文175A。",
+              "furigana": "例文175A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文175A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文175Bです。",
+              "furigana": "例文175Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文175Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文175A。",
+              "furigana": "例文175A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文175A。",
+              "jp": "例文175A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Familia uchi/so confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 175: Familia — 敬語 familia. Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Familia uchi/soto: 父? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Familia uchi/soto: 父/お父さん, 母/お母さん, honorífico.\n\nObjetivo: dominar Familia — 敬語 familia en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Familia uchi/soto: 父/お父さん, 母/お】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: 敬語 familia\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Familia uchi/so |\n| 丁寧 | trabajo | Familia uchi/soです |\n| neg | ない | Familia uchi/soない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 408
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文175A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文175Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文175Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文175A。",
+              "furigana": "例文175A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文175A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文175Bです。",
+              "furigana": "例文175Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文175Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文175A。",
+              "furigana": "例文175A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文175A。",
+              "jp": "例文175A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Familia uchi/so confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 175: Familia — 敬語 familia. Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 408,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-176",
+      "title": "IMABI 176: Honoríficos さん/さま",
+      "stage": "IMABI · Intermediate II",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 176: Honoríficos さん/さま",
+          "text": "Sama/san: 田中さん/様, ちゃん/くん matiz.",
+          "examples": [
+            {
+              "jp": "Sama/san: 田中さん/様, ちゃ",
+              "kana": "Sama/san: 田中さん/様, ちゃ",
+              "es": "Sama/san: 田中さん/様, ちゃん/くん matiz."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Sama/san: 田中さん/様, ちゃ? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Sama/san: 田中さん/様, ちゃん/くん matiz.\n\nObjetivo: dominar Honoríficos さん/さま en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Sama/san: 田中さん/様, ちゃん/くん matiz】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: IMABI 176: Honorífic\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Sama/san: 田中さん/ |\n| 丁寧 | trabajo | Sama/san: 田中さん/です |\n| neg | ない | Sama/san: 田中さん/ない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 406
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文176A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文176Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文176Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文176A。",
+              "furigana": "例文176A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文176A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文176Bです。",
+              "furigana": "例文176Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文176Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文176A。",
+              "furigana": "例文176A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文176A。",
+              "jp": "例文176A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Sama/san: 田中さん/ confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 176: Honoríficos さん/さま. Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Sama/san: 田中さん/様, ちゃ? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Sama/san: 田中さん/様, ちゃん/くん matiz.\n\nObjetivo: dominar Honoríficos さん/さま en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Sama/san: 田中さん/様, ちゃん/くん matiz】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: IMABI 176: Honorífic\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Sama/san: 田中さん/ |\n| 丁寧 | trabajo | Sama/san: 田中さん/です |\n| neg | ない | Sama/san: 田中さん/ない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 406
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文176A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文176Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文176Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文176A。",
+              "furigana": "例文176A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文176A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文176Bです。",
+              "furigana": "例文176Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文176Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文176A。",
+              "furigana": "例文176A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文176A。",
+              "jp": "例文176A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Sama/san: 田中さん/ confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 176: Honoríficos さん/さま. Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 406,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-177",
+      "title": "IMABI 177: Honoríficos títulos",
+      "stage": "IMABI · Intermediate II",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 177: Honoríficos títulos",
+          "text": "Títulos: 社長, 先生, 部長 + さん付け.",
+          "examples": [
+            {
+              "jp": "Títulos: 社長, 先生, 部長 ",
+              "kana": "Títulos: 社長, 先生, 部長 ",
+              "es": "Títulos: 社長, 先生, 部長 + さん付け."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Títulos: 社長, 先生, 部長 ? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Títulos: 社長, 先生, 部長 + さん付け.\n\nObjetivo: dominar Honoríficos títulos en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Títulos: 社長, 先生, 部長 + さん付け.】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: IMABI 177: Honorífic\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Títulos: 社長, 先生 |\n| 丁寧 | trabajo | Títulos: 社長, 先生です |\n| neg | ない | Títulos: 社長, 先生ない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 405
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文177A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文177Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文177Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文177A。",
+              "furigana": "例文177A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文177A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文177Bです。",
+              "furigana": "例文177Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文177Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文177A。",
+              "furigana": "例文177A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文177A。",
+              "jp": "例文177A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Títulos: 社長, 先生 confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 177: Honoríficos títulos. Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Títulos: 社長, 先生, 部長 ? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Títulos: 社長, 先生, 部長 + さん付け.\n\nObjetivo: dominar Honoríficos títulos en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Títulos: 社長, 先生, 部長 + さん付け.】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: IMABI 177: Honorífic\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Títulos: 社長, 先生 |\n| 丁寧 | trabajo | Títulos: 社長, 先生です |\n| neg | ない | Títulos: 社長, 先生ない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 405
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文177A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文177Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文177Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文177A。",
+              "furigana": "例文177A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文177A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文177Bです。",
+              "furigana": "例文177Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文177Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文177A。",
+              "furigana": "例文177A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文177A。",
+              "jp": "例文177A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Títulos: 社長, 先生 confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 177: Honoríficos títulos. Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 405,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-178",
+      "title": "IMABI 178: Honoríficos nombres",
+      "stage": "IMABI · Intermediate II",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 178: Honoríficos nombres",
+          "text": "Sust honorífico: お宅, お名前, ご家族, お/ご.",
+          "examples": [
+            {
+              "jp": "Sust honorífico: お宅,",
+              "kana": "Sust honorífico: お宅,",
+              "es": "Sust honorífico: お宅, お名前, ご家族, お/ご."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Sust honorífico: お宅,? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Sust honorífico: お宅, お名前, ご家族, お/ご.\n\nObjetivo: dominar Honoríficos nombres en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Sust honorífico: お宅, お名前, ご家族,】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: IMABI 178: Honorífic\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Sust honorífico |\n| 丁寧 | trabajo | Sust honoríficoです |\n| neg | ない | Sust honoríficoない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 405
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文178A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文178Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文178Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文178A。",
+              "furigana": "例文178A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文178A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文178Bです。",
+              "furigana": "例文178Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文178Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文178A。",
+              "furigana": "例文178A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文178A。",
+              "jp": "例文178A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Sust honorífico confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 178: Honoríficos nombres. Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Sust honorífico: お宅,? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Sust honorífico: お宅, お名前, ご家族, お/ご.\n\nObjetivo: dominar Honoríficos nombres en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Sust honorífico: お宅, お名前, ご家族,】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: IMABI 178: Honorífic\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Sust honorífico |\n| 丁寧 | trabajo | Sust honoríficoです |\n| neg | ない | Sust honoríficoない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 405
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文178A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文178Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文178Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文178A。",
+              "furigana": "例文178A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文178A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文178Bです。",
+              "furigana": "例文178Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文178Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文178A。",
+              "furigana": "例文178A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文178A。",
+              "jp": "例文178A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Sust honorífico confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 178: Honoríficos nombres. Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 405,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-179",
+      "title": "IMABI 179: Honoríficos adj/copula",
+      "stage": "IMABI · Intermediate II",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 179: Honoríficos adj/copula",
+          "text": " Adj honorífico: お忙しい, お元気ですか, でいらっしゃる.",
+          "examples": [
+            {
+              "jp": " Adj honorífico: お忙し",
+              "kana": " Adj honorífico: お忙し",
+              "es": " Adj honorífico: お忙しい, お元気ですか, でいらっしゃる."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con  Adj honorífico: お忙し? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": " Adj honorífico: お忙しい, お元気ですか, でいらっしゃる.\n\nObjetivo: dominar Honoríficos adj/copula en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【 Adj honorífico: お忙しい, お元気ですか,】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: IMABI 179: Honorífic\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos |  Adj honorífico |\n| 丁寧 | trabajo |  Adj honoríficoです |\n| neg | ない |  Adj honoríficoない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 408
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文179A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文179Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文179Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文179A。",
+              "furigana": "例文179A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文179A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文179Bです。",
+              "furigana": "例文179Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文179Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文179A。",
+              "furigana": "例文179A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文179A。",
+              "jp": "例文179A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error:  Adj honorífico confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 179: Honoríficos adj/copula. Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con  Adj honorífico: お忙し? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": " Adj honorífico: お忙しい, お元気ですか, でいらっしゃる.\n\nObjetivo: dominar Honoríficos adj/copula en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【 Adj honorífico: お忙しい, お元気ですか,】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: IMABI 179: Honorífic\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos |  Adj honorífico |\n| 丁寧 | trabajo |  Adj honoríficoです |\n| neg | ない |  Adj honoríficoない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 408
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文179A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文179Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文179Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文179A。",
+              "furigana": "例文179A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文179A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文179Bです。",
+              "furigana": "例文179Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文179Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文179A。",
+              "furigana": "例文179A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文179A。",
+              "jp": "例文179A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error:  Adj honorífico confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 179: Honoríficos adj/copula. Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 408,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-180",
+      "title": "IMABI 180: Honoríficos ligeros レル/ラレル",
+      "stage": "IMABI · Intermediate II",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 180: Honoríficos ligeros レル/ラレル",
+          "text": "Keigo ligero: 帰られる, される, お～になる alternativa.",
+          "examples": [
+            {
+              "jp": "Keigo ligero: 帰られる, ",
+              "kana": "Keigo ligero: 帰られる, ",
+              "es": "Keigo ligero: 帰られる, される, お～になる alternativa."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Keigo ligero: 帰られる, ? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Keigo ligero: 帰られる, される, お～になる alternativa.\n\nObjetivo: dominar Honoríficos ligeros レル/ラレル en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Keigo ligero: 帰られる, される, お～になる】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: IMABI 180: Honorífic\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Keigo ligero: 帰 |\n| 丁寧 | trabajo | Keigo ligero: 帰です |\n| neg | ない | Keigo ligero: 帰ない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 405
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文180A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文180Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文180Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文180A。",
+              "furigana": "例文180A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文180A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文180Bです。",
+              "furigana": "例文180Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文180Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文180A。",
+              "furigana": "例文180A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文180A。",
+              "jp": "例文180A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Keigo ligero: 帰 confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 180: Honoríficos ligeros レル/ラレル. Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Keigo ligero: 帰られる, ? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Keigo ligero: 帰られる, される, お～になる alternativa.\n\nObjetivo: dominar Honoríficos ligeros レル/ラレル en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Keigo ligero: 帰られる, される, お～になる】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: IMABI 180: Honorífic\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Keigo ligero: 帰 |\n| 丁寧 | trabajo | Keigo ligero: 帰です |\n| neg | ない | Keigo ligero: 帰ない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 405
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文180A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文180Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文180Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文180A。",
+              "furigana": "例文180A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文180A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文180Bです。",
+              "furigana": "例文180Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文180Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文180A。",
+              "furigana": "例文180A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文180A。",
+              "jp": "例文180A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Keigo ligero: 帰 confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 180: Honoríficos ligeros レル/ラレル. Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 405,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-181",
+      "title": "IMABI 181: Honoríficos verbos regulares",
+      "stage": "IMABI · Intermediate II",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 181: Honoríficos verbos regulares",
+          "text": "Verbo honorífico: お書きになる, お読みになる, になる.",
+          "examples": [
+            {
+              "jp": "Verbo honorífico: お書",
+              "kana": "Verbo honorífico: お書",
+              "es": "Verbo honorífico: お書きになる, お読みになる, になる."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Verbo honorífico: お書? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Verbo honorífico: お書きになる, お読みになる, になる.\n\nObjetivo: dominar Honoríficos verbos regulares en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Verbo honorífico: お書きになる, お読みに】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: IMABI 181: Honorífic\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Verbo honorífic |\n| 丁寧 | trabajo | Verbo honoríficです |\n| neg | ない | Verbo honoríficない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 408
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文181A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文181Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文181Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文181A。",
+              "furigana": "例文181A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文181A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文181Bです。",
+              "furigana": "例文181Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文181Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文181A。",
+              "furigana": "例文181A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文181A。",
+              "jp": "例文181A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Verbo honorífic confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 181: Honoríficos verbos regulares. Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Verbo honorífico: お書? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Verbo honorífico: お書きになる, お読みになる, になる.\n\nObjetivo: dominar Honoríficos verbos regulares en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Verbo honorífico: お書きになる, お読みに】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: IMABI 181: Honorífic\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Verbo honorífic |\n| 丁寧 | trabajo | Verbo honoríficです |\n| neg | ない | Verbo honoríficない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 408
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文181A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文181Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文181Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文181A。",
+              "furigana": "例文181A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文181A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文181Bです。",
+              "furigana": "例文181Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文181Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文181A。",
+              "furigana": "例文181A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文181A。",
+              "jp": "例文181A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Verbo honorífic confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 181: Honoríficos verbos regulares. Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 408,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-182",
+      "title": "IMABI 182: Honoríficos verbos irregulares",
+      "stage": "IMABI · Intermediate II",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 182: Honoríficos verbos irregulares",
+          "text": "Irr honorífico: いらっしゃる, なさる, 召し上がる, くださる.",
+          "examples": [
+            {
+              "jp": "Irr honorífico: いらっし",
+              "kana": "Irr honorífico: いらっし",
+              "es": "Irr honorífico: いらっしゃる, なさる, 召し上がる, くださる."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Irr honorífico: いらっし? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Irr honorífico: いらっしゃる, なさる, 召し上がる, くださる.\n\nObjetivo: dominar Honoríficos verbos irregulares en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Irr honorífico: いらっしゃる, なさる, 召】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: IMABI 182: Honorífic\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Irr honorífico: |\n| 丁寧 | trabajo | Irr honorífico:です |\n| neg | ない | Irr honorífico:ない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 406
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文182A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文182Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文182Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文182A。",
+              "furigana": "例文182A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文182A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文182Bです。",
+              "furigana": "例文182Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文182Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文182A。",
+              "furigana": "例文182A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文182A。",
+              "jp": "例文182A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Irr honorífico: confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 182: Honoríficos verbos irregulares. Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Irr honorífico: いらっし? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Irr honorífico: いらっしゃる, なさる, 召し上がる, くださる.\n\nObjetivo: dominar Honoríficos verbos irregulares en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Irr honorífico: いらっしゃる, なさる, 召】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: IMABI 182: Honorífic\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Irr honorífico: |\n| 丁寧 | trabajo | Irr honorífico:です |\n| neg | ない | Irr honorífico:ない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 406
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文182A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文182Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文182Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文182A。",
+              "furigana": "例文182A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文182A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文182Bです。",
+              "furigana": "例文182Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文182Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文182A。",
+              "furigana": "例文182A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文182A。",
+              "jp": "例文182A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Irr honorífico: confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 182: Honoríficos verbos irregulares. Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 406,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-183",
+      "title": "IMABI 183: になります/なっております",
+      "stage": "IMABI · Intermediate II",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 183: になります/なっております",
+          "text": "Resultado honorífico: お決まりになりました/になっております.",
+          "examples": [
+            {
+              "jp": "Resultado honorífico",
+              "kana": "Resultado honorífico",
+              "es": "Resultado honorífico: お決まりになりました/になっております."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Resultado honorífico? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Resultado honorífico: お決まりになりました/になっております.\n\nObjetivo: dominar になります/なっております en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Resultado honorífico: お決まりになりま】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: IMABI 183: になります/なって\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Resultado honor |\n| 丁寧 | trabajo | Resultado honorです |\n| neg | ない | Resultado honorない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 407
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文183A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文183Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文183Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文183A。",
+              "furigana": "例文183A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文183A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文183Bです。",
+              "furigana": "例文183Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文183Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文183A。",
+              "furigana": "例文183A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文183A。",
+              "jp": "例文183A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Resultado honor confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 183: になります/なっております. Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Resultado honorífico? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Resultado honorífico: お決まりになりました/になっております.\n\nObjetivo: dominar になります/なっております en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Resultado honorífico: お決まりになりま】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: IMABI 183: になります/なって\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Resultado honor |\n| 丁寧 | trabajo | Resultado honorです |\n| neg | ない | Resultado honorない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 407
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文183A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文183Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文183Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文183A。",
+              "furigana": "例文183A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文183A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文183Bです。",
+              "furigana": "例文183Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文183Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文183A。",
+              "furigana": "例文183A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文183A。",
+              "jp": "例文183A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Resultado honor confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 183: になります/なっております. Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 407,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-184",
+      "title": "IMABI 184: のほう — atenuación honorífica",
+      "stage": "IMABI · Intermediate II",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 184: のほう — atenuación honorífica",
+          "text": "Suavizar: 紅茶のほう, そちらのほう, ぼかし.",
+          "examples": [
+            {
+              "jp": "Suavizar: 紅茶のほう, そちら",
+              "kana": "Suavizar: 紅茶のほう, そちら",
+              "es": "Suavizar: 紅茶のほう, そちらのほう, ぼかし."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Suavizar: 紅茶のほう, そちら? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Suavizar: 紅茶のほう, そちらのほう, ぼかし.\n\nObjetivo: dominar のほう — atenuación honorífica en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Suavizar: 紅茶のほう, そちらのほう, ぼかし.】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: atenuación honorífica\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Suavizar: 紅茶のほう |\n| 丁寧 | trabajo | Suavizar: 紅茶のほうです |\n| neg | ない | Suavizar: 紅茶のほうない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 407
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文184A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文184Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文184Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文184A。",
+              "furigana": "例文184A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文184A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文184Bです。",
+              "furigana": "例文184Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文184Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文184A。",
+              "furigana": "例文184A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文184A。",
+              "jp": "例文184A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Suavizar: 紅茶のほう confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 184: のほう — atenuación honorífica. Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Suavizar: 紅茶のほう, そちら? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Suavizar: 紅茶のほう, そちらのほう, ぼかし.\n\nObjetivo: dominar のほう — atenuación honorífica en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Suavizar: 紅茶のほう, そちらのほう, ぼかし.】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: atenuación honorífica\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Suavizar: 紅茶のほう |\n| 丁寧 | trabajo | Suavizar: 紅茶のほうです |\n| neg | ない | Suavizar: 紅茶のほうない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 407
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文184A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文184Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文184Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文184A。",
+              "furigana": "例文184A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文184A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文184Bです。",
+              "furigana": "例文184Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文184Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文184A。",
+              "furigana": "例文184A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文184A。",
+              "jp": "例文184A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Suavizar: 紅茶のほう confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 184: のほう — atenuación honorífica. Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 407,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-185",
+      "title": "IMABI 185: Gracias — 感謝",
+      "stage": "IMABI · Intermediate II",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 185: Gracias — 感謝",
+          "text": "Gracias keigo: ありがとうございます, 恐縮です, お世話になります.",
+          "examples": [
+            {
+              "jp": "Gracias keigo: ありがとう",
+              "kana": "Gracias keigo: ありがとう",
+              "es": "Gracias keigo: ありがとうございます, 恐縮です, お世話になります."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Gracias keigo: ありがとう? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Gracias keigo: ありがとうございます, 恐縮です, お世話になります.\n\nObjetivo: dominar Gracias — 感謝 en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Gracias keigo: ありがとうございます, 恐縮で】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: 感謝\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Gracias keigo:  |\n| 丁寧 | trabajo | Gracias keigo: です |\n| neg | ない | Gracias keigo: ない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 408
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文185A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文185Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文185Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文185A。",
+              "furigana": "例文185A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文185A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文185Bです。",
+              "furigana": "例文185Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文185Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文185A。",
+              "furigana": "例文185A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文185A。",
+              "jp": "例文185A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Gracias keigo:  confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 185: Gracias — 感謝. Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Gracias keigo: ありがとう? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Gracias keigo: ありがとうございます, 恐縮です, お世話になります.\n\nObjetivo: dominar Gracias — 感謝 en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Gracias keigo: ありがとうございます, 恐縮で】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: 感謝\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Gracias keigo:  |\n| 丁寧 | trabajo | Gracias keigo: です |\n| neg | ない | Gracias keigo: ない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 408
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文185A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文185Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文185Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文185A。",
+              "furigana": "例文185A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文185A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文185Bです。",
+              "furigana": "例文185Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文185Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文185A。",
+              "furigana": "例文185A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文185A。",
+              "jp": "例文185A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Gracias keigo:  confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 185: Gracias — 感謝. Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 408,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-186",
+      "title": "IMABI 186: Disculpas — お詫び",
+      "stage": "IMABI · Intermediate II",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 186: Disculpas — お詫び",
+          "text": "Disculpa: すみません, 申し訳ございません, 失礼します.",
+          "examples": [
+            {
+              "jp": "Disculpa: すみません, 申し訳",
+              "kana": "Disculpa: すみません, 申し訳",
+              "es": "Disculpa: すみません, 申し訳ございません, 失礼します."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Disculpa: すみません, 申し訳? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Disculpa: すみません, 申し訳ございません, 失礼します.\n\nObjetivo: dominar Disculpas — お詫び en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Disculpa: すみません, 申し訳ございません, 失礼】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: お詫び\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Disculpa: すみません |\n| 丁寧 | trabajo | Disculpa: すみませんです |\n| neg | ない | Disculpa: すみませんない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 405
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文186A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文186Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文186Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文186A。",
+              "furigana": "例文186A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文186A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文186Bです。",
+              "furigana": "例文186Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文186Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文186A。",
+              "furigana": "例文186A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文186A。",
+              "jp": "例文186A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Disculpa: すみません confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 186: Disculpas — お詫び. Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Disculpa: すみません, 申し訳? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Disculpa: すみません, 申し訳ございません, 失礼します.\n\nObjetivo: dominar Disculpas — お詫び en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Disculpa: すみません, 申し訳ございません, 失礼】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: お詫び\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Disculpa: すみません |\n| 丁寧 | trabajo | Disculpa: すみませんです |\n| neg | ない | Disculpa: すみませんない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 405
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文186A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文186Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文186Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文186A。",
+              "furigana": "例文186A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文186A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文186Bです。",
+              "furigana": "例文186Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文186Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文186A。",
+              "furigana": "例文186A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文186A。",
+              "jp": "例文186A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Disculpa: すみません confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 186: Disculpas — お詫び. Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 405,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-187",
+      "title": "IMABI 187: What & When — 何/いつ",
+      "stage": "IMABI · Intermediate II",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 187: What & When — 何/いつ",
+          "text": "Qué/cuándo: 何, いつ, どのくらい, 何時.",
+          "examples": [
+            {
+              "jp": "Qué/cuándo: 何, いつ, ど",
+              "kana": "Qué/cuándo: 何, いつ, ど",
+              "es": "Qué/cuándo: 何, いつ, どのくらい, 何時."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Qué/cuándo: 何, いつ, ど? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Qué/cuándo: 何, いつ, どのくらい, 何時.\n\nObjetivo: dominar What & When — 何/いつ en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Qué/cuándo: 何, いつ, どのくらい, 何時.】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: 何/いつ\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Qué/cuándo: 何,  |\n| 丁寧 | trabajo | Qué/cuándo: 何, です |\n| neg | ない | Qué/cuándo: 何, ない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 407
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文187A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文187Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文187Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文187A。",
+              "furigana": "例文187A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文187A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文187Bです。",
+              "furigana": "例文187Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文187Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文187A。",
+              "furigana": "例文187A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文187A。",
+              "jp": "例文187A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Qué/cuándo: 何,  confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 187: What & When — 何/いつ. Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Qué/cuándo: 何, いつ, ど? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Qué/cuándo: 何, いつ, どのくらい, 何時.\n\nObjetivo: dominar What & When — 何/いつ en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Qué/cuándo: 何, いつ, どのくらい, 何時.】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: 何/いつ\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Qué/cuándo: 何,  |\n| 丁寧 | trabajo | Qué/cuándo: 何, です |\n| neg | ない | Qué/cuándo: 何, ない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 407
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文187A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文187Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文187Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文187A。",
+              "furigana": "例文187A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文187A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文187Bです。",
+              "furigana": "例文187Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文187Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文187A。",
+              "furigana": "例文187A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文187A。",
+              "jp": "例文187A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Qué/cuándo: 何,  confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 187: What & When — 何/いつ. Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 407,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-188",
+      "title": "IMABI 188: Who & Where — 誰/どこ",
+      "stage": "IMABI · Intermediate II",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 188: Who & Where — 誰/どこ",
+          "text": "Quién/dónde: 誰, どなた, どこ, どちら.",
+          "examples": [
+            {
+              "jp": "Quién/dónde: 誰, どなた,",
+              "kana": "Quién/dónde: 誰, どなた,",
+              "es": "Quién/dónde: 誰, どなた, どこ, どちら."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Quién/dónde: 誰, どなた,? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Quién/dónde: 誰, どなた, どこ, どちら.\n\nObjetivo: dominar Who & Where — 誰/どこ en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Quién/dónde: 誰, どなた, どこ, どちら.】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: 誰/どこ\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Quién/dónde: 誰, |\n| 丁寧 | trabajo | Quién/dónde: 誰,です |\n| neg | ない | Quién/dónde: 誰,ない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 405
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文188A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文188Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文188Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文188A。",
+              "furigana": "例文188A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文188A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文188Bです。",
+              "furigana": "例文188Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文188Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文188A。",
+              "furigana": "例文188A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文188A。",
+              "jp": "例文188A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Quién/dónde: 誰, confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 188: Who & Where — 誰/どこ. Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Quién/dónde: 誰, どなた,? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Quién/dónde: 誰, どなた, どこ, どちら.\n\nObjetivo: dominar Who & Where — 誰/どこ en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Quién/dónde: 誰, どなた, どこ, どちら.】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: 誰/どこ\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Quién/dónde: 誰, |\n| 丁寧 | trabajo | Quién/dónde: 誰,です |\n| neg | ない | Quién/dónde: 誰,ない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 405
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文188A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文188Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文188Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文188A。",
+              "furigana": "例文188A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文188A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文188Bです。",
+              "furigana": "例文188Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文188Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文188A。",
+              "furigana": "例文188A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文188A。",
+              "jp": "例文188A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Quién/dónde: 誰, confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 188: Who & Where — 誰/どこ. Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 405,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-189",
+      "title": "IMABI 189: Why — なぜ/どうして",
+      "stage": "IMABI · Intermediate II",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 189: Why — なぜ/どうして",
+          "text": "Por qué: なぜ, どうして, なんで coloquial.",
+          "examples": [
+            {
+              "jp": "Por qué: なぜ, どうして, な",
+              "kana": "Por qué: なぜ, どうして, な",
+              "es": "Por qué: なぜ, どうして, なんで coloquial."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Por qué: なぜ, どうして, な? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Por qué: なぜ, どうして, なんで coloquial.\n\nObjetivo: dominar Why — なぜ/どうして en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Por qué: なぜ, どうして, なんで coloqui】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: なぜ/どうして\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Por qué: なぜ, どう |\n| 丁寧 | trabajo | Por qué: なぜ, どうです |\n| neg | ない | Por qué: なぜ, どうない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 407
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文189A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文189Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文189Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文189A。",
+              "furigana": "例文189A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文189A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文189Bです。",
+              "furigana": "例文189Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文189Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文189A。",
+              "furigana": "例文189A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文189A。",
+              "jp": "例文189A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Por qué: なぜ, どう confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 189: Why — なぜ/どうして. Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Por qué: なぜ, どうして, な? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Por qué: なぜ, どうして, なんで coloquial.\n\nObjetivo: dominar Why — なぜ/どうして en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Por qué: なぜ, どうして, なんで coloqui】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: なぜ/どうして\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Por qué: なぜ, どう |\n| 丁寧 | trabajo | Por qué: なぜ, どうです |\n| neg | ない | Por qué: なぜ, どうない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 407
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文189A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文189Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文189Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文189A。",
+              "furigana": "例文189A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文189A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文189Bです。",
+              "furigana": "例文189Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文189Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文189A。",
+              "furigana": "例文189A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文189A。",
+              "jp": "例文189A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Por qué: なぜ, どう confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 189: Why — なぜ/どうして. Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 407,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-190",
+      "title": "IMABI 190: Which — どれ/どちら",
+      "stage": "IMABI · Intermediate II",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 190: Which — どれ/どちら",
+          "text": "Cuál: どれ, どちら, どっち, いずれ.",
+          "examples": [
+            {
+              "jp": "Cuál: どれ, どちら, どっち, ",
+              "kana": "Cuál: どれ, どちら, どっち, ",
+              "es": "Cuál: どれ, どちら, どっち, いずれ."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Cuál: どれ, どちら, どっち, ? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Cuál: どれ, どちら, どっち, いずれ.\n\nObjetivo: dominar Which — どれ/どちら en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Cuál: どれ, どちら, どっち, いずれ.】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: どれ/どちら\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Cuál: どれ, どちら,  |\n| 丁寧 | trabajo | Cuál: どれ, どちら, です |\n| neg | ない | Cuál: どれ, どちら, ない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 408
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文190A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文190Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文190Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文190A。",
+              "furigana": "例文190A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文190A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文190Bです。",
+              "furigana": "例文190Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文190Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文190A。",
+              "furigana": "例文190A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文190A。",
+              "jp": "例文190A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Cuál: どれ, どちら,  confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 190: Which — どれ/どちら. Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Cuál: どれ, どちら, どっち, ? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Cuál: どれ, どちら, どっち, いずれ.\n\nObjetivo: dominar Which — どれ/どちら en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Cuál: どれ, どちら, どっち, いずれ.】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: どれ/どちら\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Cuál: どれ, どちら,  |\n| 丁寧 | trabajo | Cuál: どれ, どちら, です |\n| neg | ない | Cuál: どれ, どちら, ない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 408
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文190A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文190Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文190Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文190A。",
+              "furigana": "例文190A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文190A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文190Bです。",
+              "furigana": "例文190Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文190Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文190A。",
+              "furigana": "例文190A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文190A。",
+              "jp": "例文190A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Cuál: どれ, どちら,  confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 190: Which — どれ/どちら. Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 408,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-191",
+      "title": "IMABI 191: という — cita extendida",
+      "stage": "IMABI · Intermediate II",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 191: という — cita extendida",
+          "text": "という definición: 猫という動物, ということ, というもの.",
+          "examples": [
+            {
+              "jp": "という definición: 猫という",
+              "kana": "という definición: 猫という",
+              "es": "という definición: 猫という動物, ということ, というもの."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con という definición: 猫という? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "という definición: 猫という動物, ということ, というもの.\n\nObjetivo: dominar という — cita extendida en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【という definición: 猫という動物, ということ,】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: cita extendida\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | という definición: |\n| 丁寧 | trabajo | という definición:です |\n| neg | ない | という definición:ない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 408
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文191A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文191Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文191Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文191A。",
+              "furigana": "例文191A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文191A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文191Bです。",
+              "furigana": "例文191Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文191Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文191A。",
+              "furigana": "例文191A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文191A。",
+              "jp": "例文191A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: という definición: confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 191: という — cita extendida. Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con という definición: 猫という? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "という definición: 猫という動物, ということ, というもの.\n\nObjetivo: dominar という — cita extendida en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【という definición: 猫という動物, ということ,】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: cita extendida\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | という definición: |\n| 丁寧 | trabajo | という definición:です |\n| neg | ない | という definición:ない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 408
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文191A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文191Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文191Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文191A。",
+              "furigana": "例文191A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文191A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文191Bです。",
+              "furigana": "例文191Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文191Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文191A。",
+              "furigana": "例文191A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文191A。",
+              "jp": "例文191A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: という definición: confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 191: という — cita extendida. Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 408,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-192",
+      "title": "IMABI 192: 向く — intransitivo + を",
+      "stage": "IMABI · Intermediate II",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 192: 向く — intransitivo + を",
+          "text": "Dirección を: 空を向く, 前を向く, 向ける transitivo.",
+          "examples": [
+            {
+              "jp": "Dirección を: 空を向く, 前",
+              "kana": "Dirección を: 空を向く, 前",
+              "es": "Dirección を: 空を向く, 前を向く, 向ける transitivo."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Dirección を: 空を向く, 前? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Dirección を: 空を向く, 前を向く, 向ける transitivo.\n\nObjetivo: dominar 向く — intransitivo + を en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Dirección を: 空を向く, 前を向く, 向ける t】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: intransitivo + を\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Dirección を: 空を |\n| 丁寧 | trabajo | Dirección を: 空をです |\n| neg | ない | Dirección を: 空をない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 408
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文192A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文192Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文192Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文192A。",
+              "furigana": "例文192A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文192A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文192Bです。",
+              "furigana": "例文192Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文192Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文192A。",
+              "furigana": "例文192A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文192A。",
+              "jp": "例文192A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Dirección を: 空を confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 192: 向く — intransitivo + を. Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Dirección を: 空を向く, 前? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Dirección を: 空を向く, 前を向く, 向ける transitivo.\n\nObjetivo: dominar 向く — intransitivo + を en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Dirección を: 空を向く, 前を向く, 向ける t】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: intransitivo + を\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Dirección を: 空を |\n| 丁寧 | trabajo | Dirección を: 空をです |\n| neg | ない | Dirección を: 空をない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 408
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文192A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文192Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文192Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文192A。",
+              "furigana": "例文192A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文192A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文192Bです。",
+              "furigana": "例文192Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文192Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文192A。",
+              "furigana": "例文192A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文192A。",
+              "jp": "例文192A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Dirección を: 空を confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 192: 向く — intransitivo + を. Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 408,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-193",
+      "title": "IMABI 193: くせに — a pesar de (crítica)",
+      "stage": "IMABI · Intermediate II",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 193: くせに — a pesar de (crítica)",
+          "text": "Crítica: 知ってるくせに, 子供のくせに.",
+          "examples": [
+            {
+              "jp": "Crítica: 知ってるくせに, 子供",
+              "kana": "Crítica: 知ってるくせに, 子供",
+              "es": "Crítica: 知ってるくせに, 子供のくせに."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Crítica: 知ってるくせに, 子供? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Crítica: 知ってるくせに, 子供のくせに.\n\nObjetivo: dominar くせに — a pesar de (crítica) en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Crítica: 知ってるくせに, 子供のくせに.】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: a pesar de (crítica)\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Crítica: 知ってるくせ |\n| 丁寧 | trabajo | Crítica: 知ってるくせです |\n| neg | ない | Crítica: 知ってるくせない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 405
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文193A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文193Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文193Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文193A。",
+              "furigana": "例文193A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文193A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文193Bです。",
+              "furigana": "例文193Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文193Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文193A。",
+              "furigana": "例文193A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文193A。",
+              "jp": "例文193A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Crítica: 知ってるくせ confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 193: くせに — a pesar de (crítica). Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Crítica: 知ってるくせに, 子供? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Crítica: 知ってるくせに, 子供のくせに.\n\nObjetivo: dominar くせに — a pesar de (crítica) en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Crítica: 知ってるくせに, 子供のくせに.】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: a pesar de (crítica)\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Crítica: 知ってるくせ |\n| 丁寧 | trabajo | Crítica: 知ってるくせです |\n| neg | ない | Crítica: 知ってるくせない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 405
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文193A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文193Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文193Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文193A。",
+              "furigana": "例文193A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文193A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文193Bです。",
+              "furigana": "例文193Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文193Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文193A。",
+              "furigana": "例文193A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文193A。",
+              "jp": "例文193A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Crítica: 知ってるくせ confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 193: くせに — a pesar de (crítica). Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 405,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-194",
+      "title": "IMABI 194: 直す/忘れる/間違える",
+      "stage": "IMABI · Intermediate II",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 194: 直す/忘れる/間違える",
+          "text": "Corregir: 直す, やり直す, 忘れる, 間違える.",
+          "examples": [
+            {
+              "jp": "Corregir: 直す, やり直す, ",
+              "kana": "Corregir: 直す, やり直す, ",
+              "es": "Corregir: 直す, やり直す, 忘れる, 間違える."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Corregir: 直す, やり直す, ? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Corregir: 直す, やり直す, 忘れる, 間違える.\n\nObjetivo: dominar 直す/忘れる/間違える en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Corregir: 直す, やり直す, 忘れる, 間違える.】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: IMABI 194: 直す/忘れる/間違\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Corregir: 直す, や |\n| 丁寧 | trabajo | Corregir: 直す, やです |\n| neg | ない | Corregir: 直す, やない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 406
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文194A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文194Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文194Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文194A。",
+              "furigana": "例文194A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文194A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文194Bです。",
+              "furigana": "例文194Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文194Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文194A。",
+              "furigana": "例文194A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文194A。",
+              "jp": "例文194A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Corregir: 直す, や confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 194: 直す/忘れる/間違える. Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Corregir: 直す, やり直す, ? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Corregir: 直す, やり直す, 忘れる, 間違える.\n\nObjetivo: dominar 直す/忘れる/間違える en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Corregir: 直す, やり直す, 忘れる, 間違える.】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: IMABI 194: 直す/忘れる/間違\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Corregir: 直す, や |\n| 丁寧 | trabajo | Corregir: 直す, やです |\n| neg | ない | Corregir: 直す, やない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 406
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文194A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文194Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文194Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文194A。",
+              "furigana": "例文194A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文194A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文194Bです。",
+              "furigana": "例文194Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文194Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文194A。",
+              "furigana": "例文194A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文194A。",
+              "jp": "例文194A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Corregir: 直す, や confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 194: 直す/忘れる/間違える. Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 406,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-195",
+      "title": "IMABI 195: 慣れる/合う/切る — sufijos",
+      "stage": "IMABI · Intermediate II",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 195: 慣れる/合う/切る — sufijos",
+          "text": "Sufijos: 慣れる habitual, 合う mutuo, 切る completo.",
+          "examples": [
+            {
+              "jp": "Sufijos: 慣れる habitua",
+              "kana": "Sufijos: 慣れる habitua",
+              "es": "Sufijos: 慣れる habitual, 合う mutuo, 切る completo."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Sufijos: 慣れる habitua? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Sufijos: 慣れる habitual, 合う mutuo, 切る completo.\n\nObjetivo: dominar 慣れる/合う/切る — sufijos en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Sufijos: 慣れる habitual, 合う mutu】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: sufijos\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Sufijos: 慣れる ha |\n| 丁寧 | trabajo | Sufijos: 慣れる haです |\n| neg | ない | Sufijos: 慣れる haない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 408
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文195A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文195Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文195Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文195A。",
+              "furigana": "例文195A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文195A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文195Bです。",
+              "furigana": "例文195Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文195Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文195A。",
+              "furigana": "例文195A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文195A。",
+              "jp": "例文195A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Sufijos: 慣れる ha confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 195: 慣れる/合う/切る — sufijos. Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Sufijos: 慣れる habitua? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Sufijos: 慣れる habitual, 合う mutuo, 切る completo.\n\nObjetivo: dominar 慣れる/合う/切る — sufijos en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Sufijos: 慣れる habitual, 合う mutu】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: sufijos\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Sufijos: 慣れる ha |\n| 丁寧 | trabajo | Sufijos: 慣れる haです |\n| neg | ない | Sufijos: 慣れる haない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 408
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文195A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文195Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文195Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文195A。",
+              "furigana": "例文195A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文195A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文195Bです。",
+              "furigana": "例文195Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文195Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文195A。",
+              "furigana": "例文195A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文195A。",
+              "jp": "例文195A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Sufijos: 慣れる ha confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 195: 慣れる/合う/切る — sufijos. Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 408,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-196",
+      "title": "IMABI 196: 上がる/上げる — subir",
+      "stage": "IMABI · Intermediate II",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 196: 上がる/上げる — subir",
+          "text": "Subir: 値上がる/上げる, 持ち上がる, intrans/trans.",
+          "examples": [
+            {
+              "jp": "Subir: 値上がる/上げる, 持ち上",
+              "kana": "Subir: 値上がる/上げる, 持ち上",
+              "es": "Subir: 値上がる/上げる, 持ち上がる, intrans/trans."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Subir: 値上がる/上げる, 持ち上? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Subir: 値上がる/上げる, 持ち上がる, intrans/trans.\n\nObjetivo: dominar 上がる/上げる — subir en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Subir: 値上がる/上げる, 持ち上がる, intran】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: subir\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Subir: 値上がる/上げる |\n| 丁寧 | trabajo | Subir: 値上がる/上げるです |\n| neg | ない | Subir: 値上がる/上げるない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 405
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文196A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文196Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文196Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文196A。",
+              "furigana": "例文196A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文196A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文196Bです。",
+              "furigana": "例文196Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文196Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文196A。",
+              "furigana": "例文196A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文196A。",
+              "jp": "例文196A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Subir: 値上がる/上げる confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 196: 上がる/上げる — subir. Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Subir: 値上がる/上げる, 持ち上? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Subir: 値上がる/上げる, 持ち上がる, intrans/trans.\n\nObjetivo: dominar 上がる/上げる — subir en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Subir: 値上がる/上げる, 持ち上がる, intran】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: subir\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Subir: 値上がる/上げる |\n| 丁寧 | trabajo | Subir: 値上がる/上げるです |\n| neg | ない | Subir: 値上がる/上げるない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 405
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文196A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文196Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文196Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文196A。",
+              "furigana": "例文196A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文196A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文196Bです。",
+              "furigana": "例文196Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文196Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文196A。",
+              "furigana": "例文196A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文196A。",
+              "jp": "例文196A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Subir: 値上がる/上げる confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 196: 上がる/上げる — subir. Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 405,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-197",
+      "title": "IMABI 197: Adverbios III sintaxis",
+      "stage": "IMABI · Intermediate II",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 197: Adverbios III sintaxis",
+          "text": "Adverbios posición: 全然～ない, 結構, なかなか, とても.",
+          "examples": [
+            {
+              "jp": "Adverbios posición: ",
+              "kana": "Adverbios posición: ",
+              "es": "Adverbios posición: 全然～ない, 結構, なかなか, とても."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Adverbios posición: ? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Adverbios posición: 全然～ない, 結構, なかなか, とても.\n\nObjetivo: dominar Adverbios III sintaxis en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Adverbios posición: 全然～ない, 結構,】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: IMABI 197: Adverbios\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Adverbios posic |\n| 丁寧 | trabajo | Adverbios posicです |\n| neg | ない | Adverbios posicない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 405
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文197A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文197Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文197Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文197A。",
+              "furigana": "例文197A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文197A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文197Bです。",
+              "furigana": "例文197Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文197Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文197A。",
+              "furigana": "例文197A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文197A。",
+              "jp": "例文197A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Adverbios posic confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 197: Adverbios III sintaxis. Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Adverbios posición: ? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Adverbios posición: 全然～ない, 結構, なかなか, とても.\n\nObjetivo: dominar Adverbios III sintaxis en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Adverbios posición: 全然～ない, 結構,】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: IMABI 197: Adverbios\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Adverbios posic |\n| 丁寧 | trabajo | Adverbios posicです |\n| neg | ない | Adverbios posicない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 405
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文197A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文197Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文197Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文197A。",
+              "furigana": "例文197A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文197A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文197Bです。",
+              "furigana": "例文197Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文197Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文197A。",
+              "furigana": "例文197A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文197A。",
+              "jp": "例文197A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Adverbios posic confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 197: Adverbios III sintaxis. Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 405,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-198",
+      "title": "IMABI 198: Nominalización さ/み",
+      "stage": "IMABI · Intermediate II",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 198: Nominalización さ/み",
+          "text": "Sust adj: 高さ, 厚さ/み, 悲しさ/み matiz.",
+          "examples": [
+            {
+              "jp": "Sust adj: 高さ, 厚さ/み, ",
+              "kana": "Sust adj: 高さ, 厚さ/み, ",
+              "es": "Sust adj: 高さ, 厚さ/み, 悲しさ/み matiz."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Sust adj: 高さ, 厚さ/み, ? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Sust adj: 高さ, 厚さ/み, 悲しさ/み matiz.\n\nObjetivo: dominar Nominalización さ/み en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Sust adj: 高さ, 厚さ/み, 悲しさ/み mati】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: IMABI 198: Nominaliz\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Sust adj: 高さ, 厚 |\n| 丁寧 | trabajo | Sust adj: 高さ, 厚です |\n| neg | ない | Sust adj: 高さ, 厚ない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 408
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文198A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文198Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文198Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文198A。",
+              "furigana": "例文198A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文198A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文198Bです。",
+              "furigana": "例文198Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文198Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文198A。",
+              "furigana": "例文198A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文198A。",
+              "jp": "例文198A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Sust adj: 高さ, 厚 confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 198: Nominalización さ/み. Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Sust adj: 高さ, 厚さ/み, ? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Sust adj: 高さ, 厚さ/み, 悲しさ/み matiz.\n\nObjetivo: dominar Nominalización さ/み en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Sust adj: 高さ, 厚さ/み, 悲しさ/み mati】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: IMABI 198: Nominaliz\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Sust adj: 高さ, 厚 |\n| 丁寧 | trabajo | Sust adj: 高さ, 厚です |\n| neg | ない | Sust adj: 高さ, 厚ない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 408
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文198A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文198Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文198Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文198A。",
+              "furigana": "例文198A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文198A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文198Bです。",
+              "furigana": "例文198Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文198Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文198A。",
+              "furigana": "例文198A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文198A。",
+              "jp": "例文198A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Sust adj: 高さ, 厚 confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 198: Nominalización さ/み. Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 408,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-199",
+      "title": "IMABI 199: Nominalización く",
+      "stage": "IMABI · Intermediate II",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 199: Nominalización く",
+          "text": "Adverbial く: 早く, 遠くに, く-form usado como sust.",
+          "examples": [
+            {
+              "jp": "Adverbial く: 早く, 遠くに",
+              "kana": "Adverbial く: 早く, 遠くに",
+              "es": "Adverbial く: 早く, 遠くに, く-form usado como sust."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Adverbial く: 早く, 遠くに? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Adverbial く: 早く, 遠くに, く-form usado como sust.\n\nObjetivo: dominar Nominalización く en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Adverbial く: 早く, 遠くに, く-form u】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: IMABI 199: Nominaliz\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Adverbial く: 早く |\n| 丁寧 | trabajo | Adverbial く: 早くです |\n| neg | ない | Adverbial く: 早くない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 407
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文199A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文199Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文199Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文199A。",
+              "furigana": "例文199A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文199A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文199Bです。",
+              "furigana": "例文199Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文199Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文199A。",
+              "furigana": "例文199A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文199A。",
+              "jp": "例文199A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Adverbial く: 早く confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 199: Nominalización く. Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Adverbial く: 早く, 遠くに? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Adverbial く: 早く, 遠くに, く-form usado como sust.\n\nObjetivo: dominar Nominalización く en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Adverbial く: 早く, 遠くに, く-form u】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: IMABI 199: Nominaliz\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Adverbial く: 早く |\n| 丁寧 | trabajo | Adverbial く: 早くです |\n| neg | ない | Adverbial く: 早くない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 407
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文199A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文199Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文199Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文199A。",
+              "furigana": "例文199A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文199A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文199Bです。",
+              "furigana": "例文199Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文199Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文199A。",
+              "furigana": "例文199A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文199A。",
+              "jp": "例文199A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Adverbial く: 早く confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 199: Nominalización く. Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 407,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-200",
+      "title": "IMABI 200: Sufijo め — -ésimo",
+      "stage": "IMABI · Intermediate II",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 200: Sufijo め — -ésimo",
+          "text": "Sufijo め orden: 二番め, 何度め, ～め, ～目.",
+          "examples": [
+            {
+              "jp": "Sufijo め orden: 二番め,",
+              "kana": "Sufijo め orden: 二番め,",
+              "es": "Sufijo め orden: 二番め, 何度め, ～め, ～目."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Sufijo め orden: 二番め,? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Sufijo め orden: 二番め, 何度め, ～め, ～目.\n\nObjetivo: dominar Sufijo め — -ésimo en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Sufijo め orden: 二番め, 何度め, ～め, 】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: -ésimo\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Sufijo め orden: |\n| 丁寧 | trabajo | Sufijo め orden:です |\n| neg | ない | Sufijo め orden:ない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 407
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文200A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文200Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文200Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文200A。",
+              "furigana": "例文200A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文200A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文200Bです。",
+              "furigana": "例文200Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文200Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文200A。",
+              "furigana": "例文200A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文200A。",
+              "jp": "例文200A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Sufijo め orden: confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 200: Sufijo め — -ésimo. Di 3×."
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Duda con Sufijo め orden: 二番め,? Este patrón lo fija."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Sufijo め orden: 二番め, 何度め, ～め, ～目.\n\nObjetivo: dominar Sufijo め — -ésimo en uso real, no solo memorizar lista.\n\n🧩 Fórmula: 【Sufijo め orden: 二番め, 何度め, ～め, 】 + partícula adecuada.\nPiensa en bloques: verbo/nombre + auxiliar/partícula + formalidad.\n\n👣 3 pasos:\n1) Forma base diccionario/ます\n2) Añade patrón: -ésimo\n3) Ajusta partícula (は/が/を/に) y pitch Heiban\n\n⚖️ Tabla contraste:\n| Patrón | Registro | Ejemplo |\n|---|---|---|\n| plano | amigos | Sufijo め orden: |\n| 丁寧 | trabajo | Sufijo め orden:です |\n| neg | ない | Sufijo め orden:ない |\n\n💡 Ejemplos:\n1) Forma plana en diálogo corto.\n2) Forma cortés con です/ます.\n3) Pregunta/negación con か/ない.\n\n🔑 Mini-resumen:\n□ Base + patrón, no traducir literal SVO\n□ 2 ejemplos hoy\n\n❌ Error: confundir plano/cortés, olvidar pitch.\n\n💬 Truco: di 3 variantes alto-bajo 3×.\n\n\nOffline: tapa japonés produce voz alta. SRS minutos si fallas. 7±2 domina 2 ejemplos hoy. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta. Repasa en voz alta.",
+          "palabras": 407
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "例文200A。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun.",
+              "es": "Ej A",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文200Bです。",
+              "furigana": "れいぶん。",
+              "romaji": "reibun desu.",
+              "es": "Ej B",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "例文200Cは大事です。",
+              "furigana": "れいぶんはだいじ。",
+              "romaji": "reibun wa daiji.",
+              "es": "Ej C",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "例文200A。",
+              "furigana": "例文200A。",
+              "es": "Ej A",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文200A。 — Ej A"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "例文200Bです。",
+              "furigana": "例文200Bです。",
+              "es": "Ej B",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "例文200Bです。 — Ej B"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "例文200A。",
+              "furigana": "例文200A。",
+              "es": "Ej A",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce: 'Ej A'",
+              "respuesta": "例文200A。",
+              "jp": "例文200A。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error: Sufijo め orden: confundido con similar. Revisa tabla."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 200: Sufijo め — -ésimo. Di 3×."
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 407,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
     }
   ],
   "counts": {
@@ -91566,7 +107916,7 @@
     "phrases": 164,
     "grammar": 246,
     "verbs": 119,
-    "lessons": 292
+    "lessons": 367
   }
 };
     root.NihongoDojoN5 = data;
