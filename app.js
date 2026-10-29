@@ -193,6 +193,8 @@
         conjGroups: new Set(),
         grammarGroups: new Set(),
         audioOn: true,
+        curriculum: 'jlpt',
+        imabiLevel: 'beginners1',
         home: 'path',
         pathOpen: false,
         selections: {
@@ -204,6 +206,24 @@
     function knownLevel(level) {
         if (Lex && Lex.LEVELS && Lex.LEVELS.indexOf(level) !== -1) return level;
         return 'n5';
+    }
+    function knownCurriculum(c) { return c === 'imabi' ? 'imabi' : 'jlpt'; }
+    function knownImabiLevel(l) {
+        if (!l) return 'beginners1';
+        var k = String(l).toLowerCase().replace(/[^a-z0-9]/g,'');
+        if (k === 'beginners2' || k === 'beginnersii' || k === 'b2') return 'beginners2';
+        return 'beginners1';
+    }
+    function isImabi() { return state.curriculum === 'imabi'; }
+    function currentLessons() {
+        if (isImabi() && Lessons && Lessons.lessonsForImabi) {
+            var im = Lessons.lessonsForImabi(state.imabiLevel);
+            if (im && im.length) return im;
+        }
+        return Lessons && Lessons.lessonsFor ? Lessons.lessonsFor(state.level) : [];
+    }
+    function currentProgressKey() {
+        return isImabi() ? ('imabi-' + state.imabiLevel) : state.level;
     }
     var LEVEL_SRC = { n4: 'n4.js', n3: 'n3.js', n2: 'n2.js', n1: 'n1.js' };
     var levelWait = {};
@@ -282,6 +302,25 @@
     };
 
     var quizEls = emptyQuizEls();
+
+    // ---- QuizEngine variado helpers (WexDC 2.1) ----
+    function isVaried(item) { return !!(item && item.exerciseType); }
+    function variedView(item) {
+        if (!item) return null;
+        if (item._view) return item._view;
+        var QE = window.NihongoDojoQuizEngine || window.QuizEngine;
+        if (QE && QE.viewFor) {
+            try { return QE.viewFor(item); } catch(e) {}
+        }
+        return null;
+    }
+    function variedChoices(item) {
+        if (!item || !item.choices) return null;
+        // Varied choices are strings; convert to objects for paint
+        return item.choices.map(function (c, i) {
+            return { id: String(c), char: String(c), text: String(c), _isVariedString: true };
+        });
+    }
 
     function emptyQuizEls() {
         return {
@@ -392,6 +431,10 @@
     }
     function usesChoices(item) {
         if (!item && exam.queue) item = exam.queue[exam.index];
+        if (isVaried(item)) {
+            // Varied always offers choices except write-type (not used now)
+            return !!(item.choices && item.choices.length);
+        }
         if (item && item.reading) return true;
         if (item && item.lex) return exam.practice === 'review' || !isWrite();
         if (item && item.kanaObj) {
@@ -450,6 +493,10 @@
         return type === 'katakana' ? 'katakana' : 'hiragana';
     }
     function lexView(item) {
+        if (isVaried(item)) {
+            var vv = variedView(item);
+            if (vv) return vv;
+        }
         return Lex.view(item.lex, itemDirection(item));
     }
     function lexiconHint(view, settled) {
@@ -469,6 +516,12 @@
     }
     function spokenText(item, settled) {
         if (!item) return '';
+        if (isVaried(item)) {
+            var vv = variedView(item);
+            if (!vv) return item.speak || '';
+            if (!settled && !vv.speakOnShow && !(item.exerciseType && item.exerciseType.indexOf('listening')>=0)) return '';
+            return vv.speak || item.speak || '';
+        }
         if (item.kanaObj && !item.lex && !item.reading) {
             if (!settled && soundRevealsKana(item)) return '';
             return item.kanaObj.char;
@@ -480,6 +533,21 @@
         return view.speak || '';
     }
     function speakItem(item, settled) {
+        if (isVaried(item)) {
+            var vv = variedView(item);
+            var listen = item.exerciseType === 'listening_jp_es';
+            if (vv && !vv.speakOnShow && !settled && !listen) {
+                noteAudio('El sonido se oye al corregir, para no revelar la respuesta.');
+                return;
+            }
+            var text = vv ? vv.speak : (item.speak || '');
+            if (!text) return;
+            var rate = vv ? vv.speakRate : (item.speakRate || 0.85);
+            if (!speakJapanese(text, {rate: rate}) && listen && systemSpeech()) {
+                noteAudio('Pulsa Oír. Hace falta la síntesis de voz del sistema.');
+            }
+            return;
+        }
         if (soundRevealsKana(item) && !settled) {
             noteAudio('El sonido se oye al corregir, para no revelar la lectura.');
             return;
@@ -511,6 +579,16 @@
     }
     function maybeSpeakItem(item, settled) {
         if (!item) return;
+        if (isVaried(item)) {
+            var vv = variedView(item);
+            if (!vv) return;
+            var listen = item.exerciseType === 'listening_jp_es' || exam.direction === 'listen-es';
+            if (!state.audioOn && !listen) return;
+            var rate = vv.speakRate || 0.85;
+            if ((vv.speakOnShow || listen) && !settled) speakJapanese(vv.speak, {rate: rate});
+            else if (!vv.speakOnShow && settled) speakJapanese(vv.speak, {rate: rate});
+            return;
+        }
         var listen = exam.direction === 'listen-es';
         if (item.reading) {
             if (!state.audioOn || settled) return;
@@ -542,6 +620,15 @@
     function feedbackFor(item) {
         var r = item.result;
         var tail = ' Pulsa Siguiente o Enter.';
+        if (isVaried(item)) {
+            var view = lexView(item);
+            var shown = view.reveal && r ? view.reveal : view.prompt;
+            if (!r) return 'Elige la respuesta.';
+            if (r.skipped) return 'Saltada. ' + (view.reveal || view.prompt) + ' → ' + view.answer + '.' + tail;
+            if (r.correct) return 'Correcto: ' + view.answer + '.' + tail;
+            var yours = r.user || '—';
+            return 'Fallo. ' + shown + ' → ' + view.answer + '. Tú: ' + yours + '.' + tail;
+        }
         if (item.lex) {
             var view = lexView(item);
             var shown = view.reveal && r ? view.reveal : view.prompt;
@@ -674,6 +761,10 @@
         state.answerMode = storageGet('answerMode') === 'write' ? 'write' : 'choice';
         var storedLevel = storageGet('level');
         state.level = knownLevel(storedLevel);
+        var storedCurriculum = storageGet('curriculum');
+        state.curriculum = knownCurriculum(storedCurriculum);
+        var storedImabi = storageGet('imabiLevel');
+        state.imabiLevel = knownImabiLevel(storedImabi);
         state.home = storageGet('home') === 'free' ? 'free' : 'path';
         if (Lex) {
             var storedWordDir = storageGet('wordDirection');
@@ -1205,10 +1296,60 @@
     function updateLevelUI() {
         document.querySelectorAll('#homeBar [data-level]').forEach(function (btn) {
             if (!btn) return;
-            var on = btn.getAttribute('data-level') === (state.level || 'n5');
+            var on = !isImabi() && btn.getAttribute('data-level') === (state.level || 'n5');
             btn.classList.toggle('active', on);
             btn.setAttribute('aria-pressed', on ? 'true' : 'false');
         });
+        // curriculum toggle
+        var jlptBtn = document.getElementById('curriculumJlptBtn');
+        var imabiBtn = document.getElementById('curriculumImabiBtn');
+        if (jlptBtn && imabiBtn) {
+            var im = isImabi();
+            jlptBtn.classList.toggle('active', !im);
+            imabiBtn.classList.toggle('active', im);
+            jlptBtn.setAttribute('aria-pressed', im ? 'false' : 'true');
+            imabiBtn.setAttribute('aria-pressed', im ? 'true' : 'false');
+        }
+        var levelLabel = document.getElementById('levelLabel');
+        var curriculumNote = document.getElementById('curriculumNote');
+        var imabiBar = document.getElementById('imabiBar');
+        var homeBarLevels = document.querySelectorAll('#homeBar [data-level]');
+        if (isImabi()) {
+            if (levelLabel) levelLabel.textContent = 'Nivel IMABI';
+            if (curriculumNote) curriculumNote.style.display = '';
+            if (imabiBar) imabiBar.classList.remove('hidden');
+            homeBarLevels.forEach(function(b){ var p=b.closest('.level-row'); if(p) p.classList.add('hidden'); });
+            // imabi level buttons
+            document.querySelectorAll('#imabiBar [data-imabi-level]').forEach(function(btn){
+                var on = btn.getAttribute('data-imabi-level') === (state.imabiLevel || 'beginners1');
+                btn.classList.toggle('active', on);
+                btn.setAttribute('aria-pressed', on ? 'true' : 'false');
+            });
+        } else {
+            if (levelLabel) levelLabel.textContent = 'Nivel';
+            if (curriculumNote) curriculumNote.style.display = 'none';
+            if (imabiBar) imabiBar.classList.add('hidden');
+            homeBarLevels.forEach(function(b){ var p=b.closest('.level-row'); if(p) p.classList.remove('hidden'); });
+        }
+    }
+    function setCurriculum(cur) {
+        var next = knownCurriculum(cur);
+        if (next === state.curriculum) return;
+        state.curriculum = next;
+        storageSet('curriculum', next);
+        closeLesson();
+        updateLevelUI();
+        renderPath();
+        persistLevel();
+    }
+    function setImabiLevel(lv) {
+        var next = knownImabiLevel(lv);
+        if (next === state.imabiLevel && isImabi()) return;
+        state.imabiLevel = next;
+        storageSet('imabiLevel', next);
+        closeLesson();
+        updateLevelUI();
+        renderPath();
     }
     function setLevel(level) {
         if (exam.active) return;
@@ -1566,7 +1707,8 @@
     }
 
     function markChoicesSettled(item) {
-        if (item.reading) paintReading(item);
+        if (isVaried(item)) paintVariedChoices(item, true);
+        else if (item.reading) paintReading(item);
         else if (item.lex) paintLexChoices(item, true);
         else paintChoices(item, true);
     }
@@ -1666,6 +1808,35 @@
         return applyNote('');
     }
     function paintLexiconPrompt(item) {
+        // Varied engine: prompt/choices already prepared
+        if (isVaried(item)) {
+            var view = lexView(item);
+            hidePassage();
+            clearPromptClasses();
+            if (quizEls.kanaChar) {
+                var reveal = item.result && view.reveal ? view.reveal : view.prompt;
+                quizEls.kanaChar.textContent = reveal;
+                quizEls.kanaChar.lang = view.promptLang || 'ja';
+                if (!item.result && item.exerciseType === 'listening_jp_es') quizEls.kanaChar.classList.add('prompt-listen');
+                else if (view.promptLang !== 'es') {
+                    var len = Array.from(reveal).length;
+                    if (len > 10) quizEls.kanaChar.classList.add('prompt-sentence');
+                    else if (len > 6) quizEls.kanaChar.classList.add('prompt-xlong');
+                    else if (len > 3) quizEls.kanaChar.classList.add('prompt-long');
+                } else {
+                    quizEls.kanaChar.classList.add('prompt-es');
+                }
+            }
+            setHidden(quizEls.inputArea, true);
+            setHidden(quizEls.choiceArea, false);
+            if (quizEls.audioStatus) {
+                quizEls.audioStatus.textContent = '';
+                setHidden(quizEls.audioStatus, true);
+            }
+            paintVariedChoices(item, !!item.result);
+            var note = view.note || lexiconHint(view, !!item.result);
+            return applyNote(note);
+        }
         var view = lexView(item);
         var write = isWrite();
         hidePassage();
@@ -1704,8 +1875,83 @@
         }
         return applyNote(note);
     }
+    function paintVariedChoices(item, locked) {
+        clearChoices();
+        if (!quizEls.choiceArea || !item.choices) return;
+        var view = variedView(item) || lexView(item);
+        var stack = item.choices.some(function (c) { return Array.from(String(c)).length > 6; });
+        quizEls.choiceArea.classList.toggle('choice-stack', stack);
+        item.choices.forEach(function (choice, i) {
+            var choiceText = String(choice);
+            var btn = document.createElement('button');
+            btn.type = 'button';
+            btn.className = 'choice-btn choice-lex';
+            var choiceLen = Array.from(choiceText).length;
+            if (choiceLen > 12) btn.classList.add('choice-sentence');
+            else if (choiceLen > 8) btn.classList.add('choice-compact');
+            btn.lang = view.choiceLang || 'ja';
+            btn.textContent = choiceText;
+            var key = el('span', 'choice-key', String(i + 1));
+            key.setAttribute('aria-hidden', 'true');
+            btn.appendChild(key);
+            btn.setAttribute('data-id', choiceText);
+            btn.setAttribute('aria-label', 'Opción ' + (i + 1) + ', ' + choiceText);
+            if (locked && item.result) {
+                btn.disabled = true;
+                if (choiceText === item.answer) btn.classList.add('choice-ok');
+                else if (!item.result.skipped && item.result.user === choiceText && !item.result.correct) {
+                    btn.classList.add('choice-bad');
+                }
+            } else {
+                (function (c) { btn.addEventListener('click', function () { chooseVaried(c); }); })(choiceText);
+            }
+            quizEls.choiceArea.appendChild(btn);
+        });
+    }
+    function chooseVaried(choiceText) {
+        if (!exam.active || exam.waitingNext || dialogOpen()) return;
+        if (exam.index >= exam.queue.length) return;
+        var item = exam.queue[exam.index];
+        if (!isVaried(item)) { chooseOption(choiceText); return; }
+        var correct = String(choiceText) === String(item.answer);
+        // For blank, answer is single token but prompt blank; compare token
+        item.userAnswer = String(choiceText);
+        item.result = { user: String(choiceText), expected: String(item.answer), correct: correct, empty: false, skipped: false };
+        if (correct) exam.correct++; else exam.wrong++;
+        noteOutcome(item);
+        markChoicesSettled(item);
+        lockAnswerUI();
+        setFeedback(feedbackFor(item), resultKind(item));
+        updateStatsUI();
+        saveExam();
+        if (item.lex || isVaried(item)) maybeSpeakItem(item, true);
+        maybeScheduleAutoAdvance();
+    }
 
     function paintPrompt(item) {
+        if (isVaried(item)) {
+            if (item.kanaObj) {
+                // Varied kana: similar to kana but using varied prompt/answer
+                var view = variedView(item);
+                hidePassage();
+                clearPromptClasses();
+                var isRomajiToKana = item.direction === 'romaji-kana' || (view && view.choiceLang === 'ja' && view.promptLang === 'en');
+                // For kana varied we use prompt as shown
+                if (quizEls.kanaChar) {
+                    var reveal = item.result && view && view.reveal ? view.reveal : item.prompt;
+                    quizEls.kanaChar.textContent = reveal;
+                    quizEls.kanaChar.lang = isRomajiToKana ? 'en' : 'ja';
+                    quizEls.kanaChar.classList.toggle('prompt-romaji', isRomajiToKana);
+                }
+                setHidden(quizEls.inputArea, true);
+                setHidden(quizEls.choiceArea, false);
+                if (quizEls.audioStatus) { quizEls.audioStatus.textContent=''; setHidden(quizEls.audioStatus, true); }
+                paintVariedChoices(item, !!item.result);
+                var note = view ? view.note : '';
+                return applyNote(note);
+            }
+            return paintLexiconPrompt(item);
+        }
         if (item.reading) return paintReading(item);
         if (item.lex) return paintLexiconPrompt(item);
         hidePassage();
@@ -1801,7 +2047,14 @@
     }
     function noteOutcome(item) {
         if (!item || !item.result || item.result.skipped || !Lex) return;
-        var id = item.lex ? item.lex.id : item.reading ? item.reading.id : (item.kanaObj ? item.kanaObj.type + ':' + item.kanaObj.char : '');
+        var id = '';
+        if (isVaried(item)) {
+            if (item.lex && item.lex.id) id = item.lex.id;
+            else if (item.kanaObj) id = item.kanaObj.type + ':' + item.kanaObj.char;
+            else if (item.sourceId) id = item.sourceId;
+        } else {
+            id = item.lex ? item.lex.id : item.reading ? item.reading.id : (item.kanaObj ? item.kanaObj.type + ':' + item.kanaObj.char : '');
+        }
         if (!id) return;
         var practice = itemPractice(item);
         if (!practice || practice === 'review') return;
@@ -2261,6 +2514,23 @@
         if (exam.index >= exam.queue.length || usesChoices()) return;
 
         var item = exam.queue[exam.index];
+        if (isVaried(item)) {
+            var val = quizEls.input ? quizEls.input.value.trim() : '';
+            if (!val) { setFeedback('Escribe una respuesta o pulsa Saltar.'); return; }
+            var correct = val.toLowerCase() === String(item.answer).toLowerCase();
+            var result = { user: val, expected: String(item.answer), correct: correct, empty: false, skipped: false, written: true };
+            item.userAnswer = result.user;
+            item.result = result;
+            if (result.correct) exam.correct++; else exam.wrong++;
+            lockAnswerUI();
+            setFeedback(feedbackFor(item), resultKind(item));
+            updateStatsUI();
+            noteOutcome(item);
+            maybeSpeakItem(item, true);
+            saveExam();
+            maybeScheduleAutoAdvance();
+            return;
+        }
         var result = item.lex
             ? Lex.checkWritten(item.lex, exam.direction, quizEls.input.value)
             : Core.checkAnswer(item.kanaObj, quizEls.input.value, state.romajiMode);
@@ -2288,18 +2558,22 @@
         if (exam.index >= exam.queue.length) return;
         var item = exam.queue[exam.index];
         item.userAnswer = null;
-        item.result = item.reading
-            ? { user: '', expected: String(item.reading.answer), correct: false, empty: false, skipped: true }
-            : item.lex
-            ? { user: '', expected: item.lex.id, correct: false, empty: false, skipped: true }
-            : Core.markSkipped(item.kanaObj);
+        if (isVaried(item)) {
+            item.result = { user: '', expected: String(item.answer), correct: false, empty: false, skipped: true };
+        } else {
+            item.result = item.reading
+                ? { user: '', expected: String(item.reading.answer), correct: false, empty: false, skipped: true }
+                : item.lex
+                ? { user: '', expected: item.lex.id, correct: false, empty: false, skipped: true }
+                : Core.markSkipped(item.kanaObj);
+        }
         exam.skipped++;
         if (usesChoices()) markChoicesSettled(item);
         lockAnswerUI();
         setFeedback(feedbackFor(item), 'skip');
         updateStatsUI();
         saveExam();
-        if (item.lex) maybeSpeakItem(item, true);
+        if (isVaried(item) || item.lex) maybeSpeakItem(item, true);
         else maybeSpeakKana(item, true);
         maybeScheduleAutoAdvance();
         if (!usesChoices() && quizEls.input) quizEls.input.focus();
@@ -2309,6 +2583,7 @@
         if (!exam.active || exam.waitingNext || dialogOpen() || !usesChoices()) return;
         if (exam.index >= exam.queue.length) return;
         var item = exam.queue[exam.index];
+        if (isVaried(item)) { chooseVaried(id); return; }
         var result = item.reading ? Readings.check(item.reading, id)
             : item.lex ? Lex.checkChoice(item.lex, id)
             : Core.checkChoice(item.kanaObj, id);
@@ -2576,6 +2851,14 @@
         var list = el('ol', 'results-list');
         exam.queue.forEach(function (item) {
             var li = el('li');
+            if (isVaried(item)) {
+                var view = lexView(item);
+                var yours = item.result && item.result.skipped ? '—' : (item.result && item.result.user) || '—';
+                var prompt = item.result && view.reveal ? view.reveal : view.prompt;
+                li.appendChild(document.createTextNode(resultStatus(item) + '. ' + prompt + ' → ' + view.answer + '. Tú: ' + yours));
+                list.appendChild(li);
+                return;
+            }
             if (item.reading) {
                 var question = item.reading;
                 var picked = item.result && !item.result.skipped ? question.choices[Number(item.result.user)] : '—';
@@ -2931,10 +3214,10 @@
         if (!pathList || !Lessons) return;
         if (pathList.replaceChildren) pathList.replaceChildren();
         else pathList.textContent = '';
-        var list = Lessons.lessonsFor ? Lessons.lessonsFor(state.level) : Lessons.LESSONS;
-        var progress = loadProgress(state.level);
-        var passed = Lessons.passedCount(progress, state.level);
-        if (levelPending(state.level)) {
+        var list = isImabi() && Lessons.lessonsForImabi ? Lessons.lessonsForImabi(state.imabiLevel) : (Lessons.lessonsFor ? Lessons.lessonsFor(state.level) : Lessons.LESSONS);
+        var progress = isImabi() ? loadProgress() : loadProgress(state.level);
+        var passed = isImabi() ? (function(){ var d=progress||{}; var c=0; for(var i=0;i<list.length;i++){ var id=list[i].id; if(d[id]&&d[id].passed) c++; } return c; })() : Lessons.passedCount(progress, state.level);
+        if (!isImabi() && levelPending(state.level)) {
             if (pathIntro) pathIntro.textContent = 'Cargando el ' + state.level.toUpperCase() + '…';
             if (pathContinueBtn) {
                 pathContinueBtn.disabled = true;
@@ -2953,13 +3236,20 @@
             return;
         }
         if (pathContinueBtn) pathContinueBtn.disabled = false;
-        if (pathIntro) pathIntro.textContent = 'Lista comunitaria. Incluye frases, escucha y lectura. No es el examen oficial.';
+        if (pathIntro) {
+            if (isImabi()) {
+                var st = Lessons.imabiStats ? Lessons.imabiStats() : {total: list.length, mapped: list.length};
+                pathIntro.textContent = 'Camino IMABI — ' + (state.imabiLevel === 'beginners2' ? 'Beginners II (51-100)' : 'Beginners I (0-50)') + ' · ' + st.mapped + '/' + st.total + ' mapeadas · No copia textos IMABI.';
+            } else {
+                pathIntro.textContent = 'Lista comunitaria. Incluye frases, escucha y lectura. No es el examen oficial.';
+            }
+        }
         if (pathProgress) {
-            var due = reviewPlan(state.level).length;
+            var due = isImabi() ? 0 : reviewPlan(state.level).length;
             pathProgress.textContent = passed + ' de ' + list.length + ' superadas · ' + Lessons.PASS_PERCENT + '%'
                 + (due ? ' · ' + due + ' para repasar' : '');
         }
-        var next = Lessons.nextLesson(progress, state.level);
+        var next = isImabi() ? (function(){ for(var i=0;i<list.length;i++){ var l=list[i]; if(!progress[l.id]||!progress[l.id].passed) return l; } return list[0]||null; })() : Lessons.nextLesson(progress, state.level);
         var allPassed = passed === list.length;
         if (pathContinueBtn) {
             pathContinueBtn.textContent = allPassed ? 'Repetir desde el principio' : 'Seguir: ' + next.title;
@@ -3037,10 +3327,79 @@
                     var heading = titleMap[tipo] || sec.heading || sec.titulo || '';
                     if (heading) section.appendChild(el('h3', null, heading));
                     if (sec.texto || sec.text) {
-                        // Texto largo: respeta saltos de línea como párrafos
                         var raw = sec.texto || sec.text;
+                        // WexDC Clarity 3.0 — render rico: tablas, fórmulas, pasos, checklist
                         raw.split('\n\n').forEach(function (para) {
-                            if (para.trim()) section.appendChild(el('p', null, para.trim()));
+                            var trimmed = para.trim();
+                            if (!trimmed) return;
+                            if (trimmed.indexOf('|') !== -1 && trimmed.indexOf('---') !== -1) {
+                                var table = document.createElement('table');
+                                table.className = 'teach-table';
+                                var rows = trimmed.split('\n').filter(function(r){return r.trim();});
+                                rows.forEach(function(row, idx){
+                                    if (row.indexOf('---') !== -1) return;
+                                    var tr = document.createElement('tr');
+                                    var cells = row.split('|').filter(function(c){return c.trim();});
+                                    cells.forEach(function(cell){
+                                        var tag = idx===0 ? 'th' : 'td';
+                                        var elCell = document.createElement(tag);
+                                        elCell.textContent = cell.trim();
+                                        if (idx===0) elCell.setAttribute('scope','col');
+                                        tr.appendChild(elCell);
+                                    });
+                                    table.appendChild(tr);
+                                });
+                                section.appendChild(table);
+                                return;
+                            }
+                            if (trimmed.startsWith('🎯') || trimmed.startsWith('🧩') || trimmed.startsWith('👣') || trimmed.startsWith('⚖️') || trimmed.startsWith('💡') || trimmed.startsWith('🔑') || trimmed.startsWith('❌') || trimmed.startsWith('💬') || trimmed.startsWith('✅') || trimmed.startsWith('Fórmula') || trimmed.startsWith('Tabla') || trimmed.startsWith('Objetivo')) {
+                                var lines = trimmed.split('\n');
+                                var first = lines[0];
+                                if (first.length < 90) {
+                                    var h = el('h4', 'teach-subhead', first);
+                                    section.appendChild(h);
+                                    var rest = lines.slice(1).join('\n').trim();
+                                    if (rest) {
+                                        if (rest.indexOf('□') !== -1) {
+                                            var ul = el('ul', 'teach-checklist');
+                                            rest.split('\n').forEach(function(l){
+                                                if (!l.trim()) return;
+                                                var li = el('li', null, l.trim());
+                                                if (l.indexOf('□')===0) li.className='check-item';
+                                                ul.appendChild(li);
+                                            });
+                                            section.appendChild(ul);
+                                        } else {
+                                            var div = el('div', 'teach-rich');
+                                            rest.split('\n').forEach(function(line, i){
+                                                if (i>0) div.appendChild(document.createElement('br'));
+                                                div.appendChild(document.createTextNode(line));
+                                            });
+                                            section.appendChild(div);
+                                        }
+                                    }
+                                    return;
+                                }
+                            }
+                            if (trimmed.startsWith('Fórmula') || trimmed.startsWith('🧩')) {
+                                var box = el('div', 'teach-formula', trimmed);
+                                section.appendChild(box);
+                                return;
+                            }
+                            if (trimmed.indexOf('□') !== -1 && trimmed.split('\n').length>1) {
+                                var ul2 = el('ul', 'teach-checklist');
+                                trimmed.split('\n').forEach(function(l){
+                                    if (l.trim()) ul2.appendChild(el('li', 'check-item', l.trim()));
+                                });
+                                section.appendChild(ul2);
+                                return;
+                            }
+                            var p = el('p', null, '');
+                            if (trimmed.indexOf('Desglose:')===0 || trimmed.indexOf('Por qué así:')===0) {
+                                p.className = 'teach-desglose';
+                            }
+                            p.textContent = trimmed;
+                            section.appendChild(p);
                         });
                     }
                     // Palabras contadas (debug WexDC)
@@ -3452,7 +3811,21 @@
         document.querySelectorAll('#homeBar [data-level]').forEach(function (btn) {
             if (!btn) return;
             btn.addEventListener('click', function () {
+                if (isImabi()) setCurriculum('jlpt');
                 setLevel(btn.getAttribute('data-level'));
+            });
+        });
+        document.querySelectorAll('#homeBar [data-curriculum]').forEach(function (btn) {
+            if (!btn) return;
+            btn.addEventListener('click', function () {
+                setCurriculum(btn.getAttribute('data-curriculum'));
+            });
+        });
+        document.querySelectorAll('#imabiBar [data-imabi-level]').forEach(function (btn) {
+            if (!btn) return;
+            btn.addEventListener('click', function () {
+                if (!isImabi()) setCurriculum('imabi');
+                setImabiLevel(btn.getAttribute('data-imabi-level'));
             });
         });
         if (homePathBtn) homePathBtn.addEventListener('click', function () { setHome('path'); });
@@ -3471,11 +3844,10 @@
         });
         if (pathContinueBtn) pathContinueBtn.addEventListener('click', function () {
             if (exam.active || !Lessons) return;
-            var list = Lessons.lessonsFor ? Lessons.lessonsFor(state.level) : Lessons.LESSONS;
-            var progress = loadProgress(state.level);
-            var next = Lessons.passedCount(progress, state.level) === list.length
-                ? list[0]
-                : Lessons.nextLesson(progress, state.level);
+            var list = isImabi() && Lessons.lessonsForImabi ? Lessons.lessonsForImabi(state.imabiLevel) : (Lessons.lessonsFor ? Lessons.lessonsFor(state.level) : Lessons.LESSONS);
+            var progressKey = isImabi() ? ('imabi-' + state.imabiLevel) : state.level;
+            var progress = loadProgress(progressKey);
+            var next = isImabi() ? (function(){ for(var i=0;i<list.length;i++){ var l=list[i]; if(!progress[l.id]||!progress[l.id].passed) return l; } return list[0]||null; })() : (Lessons.passedCount(progress, state.level) === list.length ? list[0] : Lessons.nextLesson(progress, state.level));
             if (!next) return;
             openLesson(next.id);
         });
