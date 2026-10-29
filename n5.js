@@ -1,4 +1,4 @@
-/* NihongoDojo N5. WexDC Clarity 3.0 + IMABI Close Beginners I */
+/* NihongoDojo N5. WexDC Clarity 3.0 + IMABI Beginners II rest */
 (function (root) {
     "use strict";
     var data = {
@@ -80864,6 +80864,5250 @@
         "listening_puro_cantidad": 2,
         "confianza": 9
       }
+    },
+    {
+      "id": "l-imabi-051",
+      "title": "IMABI 51: ～時 — cuando",
+      "stage": "IMABI · Beginners II",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 51: ～時 — cuando",
+          "text": "Subordinada temporal 'cuando': V-る時 / V-た時. Presente para futuro, pasado para pasado.",
+          "examples": [
+            {
+              "jp": "行く時",
+              "kana": "行く時",
+              "es": "Subordinada temporal 'cuando':"
+            },
+            {
+              "jp": "食べた時",
+              "kana": "食べた時",
+              "es": "Subordinada temporal 'cuando':"
+            },
+            {
+              "jp": "子供の時",
+              "kana": "子供の時",
+              "es": "Subordinada temporal 'cuando':"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Tienes que decir '行く時' y dudas si es 食べた時 o 子供の時."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Subordinada temporal 'cuando': V-る時 / V-た時. Presente para futuro, pasado para pasado.\n\nObjetivo: usar «IMABI 51: ～時» sin dudar en conversación.\n\n🧩 Fórmula: 【行く時】 patrón + ejemplos graduados.\nPiensa en bloques: partícula/marcador + forma + contexto.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica forma base (V-る / V-た / N)\n2) Añade marcador (cuando)\n3) Coloca en frase con partícula correcta (は/が/を/に/で según verbo)\n\n⚖️ Tabla contrastiva:\n| Forma | Uso | Ejemplo |\n|---|---|---|\n| 行く時 | patrón 1 | 行く時 |\n| 食べた時 | patrón 2 | 食べた時 |\n| 子供の時 | patrón 3 | 子供の時 |\n\n💡 Ejemplos desglosados:\n1) 行く時。 — Uso básico → partícula + verbo al final SOV.\n2) 食べた時。 — Variante con tiempo/cortesía.\n3) 子供の時。 — Contraste con forma similar.\n\n🔑 Mini-resumen:\n□ Recuerda forma + partícula\n□ 2 ejemplos hoy bastan, resto SRS\n□ Escucha 3× y produce 1×\n\n❌ Error 90%: olvidar partícula o mezclar plano/cortés. Usa diccionario para etiqueta [ru/ku] y practica con pitch Heiban donde toque.\n\n💬 Truco offline: di 行く時 → 食べた時 → 子供の時 en voz alta 3×. Active recall.\n\n\nPara practicar offline: tapa el japonés y produce en voz alta. Si fallas, el SRS te lo trae en minutos. Mezcla este tema + vocab + escucha. Memoria 7±2: domina 2 ejemplos hoy a fondo. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
+          "palabras": 406
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "日本に行く時、パスポートが要ります。",
+              "furigana": "日本に行く時、パスポートが要ります。",
+              "romaji": "nihongo desu.",
+              "es": "Subordinada temporal 'cuando': V-る時 / V-",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "食べた時。",
+              "furigana": "食べた時。",
+              "romaji": "nihongo desu.",
+              "es": "Subordinada temporal 'cuando': V-る時 / V-",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "子供の時。",
+              "furigana": "子供の時。",
+              "romaji": "nihongo desu.",
+              "es": "Subordinada temporal 'cuando': V-る時 / V-",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "日本に行く時、パスポートが要ります。",
+              "furigana": "日本に行く時、パスポートが要ります。",
+              "es": "Subordinada temporal 'cuando': V-る時 / V-",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha (texto oculto) y elige.",
+              "respuesta": "日本に行く時、パスポートが要ります。 — Subordinada temporal 'cuando': V-る時 / V-"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "食べた時。",
+              "furigana": "食べた時。",
+              "es": "Subordinada temporal 'cuando': V-る時 / V-",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "食べた時。 — Subordinada temporal 'cuando': V-る時 / V-"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "日本に行く時、パスポートが要ります。",
+              "furigana": "日本に行く時、パスポートが要ります。",
+              "es": "Subordinada temporal 'cuando': V-る時 / V-",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: 'Subordinada temporal 'cuando': V-る時 / V-'",
+              "respuesta": "日本に行く時、パスポートが要ります。",
+              "jp": "日本に行く時、パスポートが要ります。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: confundir 行く時 con 食べた時 sin mirar partícula. Revisa tabla y di en voz alta 3×."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 51: ～時 — cuando. Próxima: siguiente IMABI. Di 3 veces: 行く時。"
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Tienes que decir '行く時' y dudas si es 食べた時 o 子供の時."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Subordinada temporal 'cuando': V-る時 / V-た時. Presente para futuro, pasado para pasado.\n\nObjetivo: usar «IMABI 51: ～時» sin dudar en conversación.\n\n🧩 Fórmula: 【行く時】 patrón + ejemplos graduados.\nPiensa en bloques: partícula/marcador + forma + contexto.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica forma base (V-る / V-た / N)\n2) Añade marcador (cuando)\n3) Coloca en frase con partícula correcta (は/が/を/に/で según verbo)\n\n⚖️ Tabla contrastiva:\n| Forma | Uso | Ejemplo |\n|---|---|---|\n| 行く時 | patrón 1 | 行く時 |\n| 食べた時 | patrón 2 | 食べた時 |\n| 子供の時 | patrón 3 | 子供の時 |\n\n💡 Ejemplos desglosados:\n1) 行く時。 — Uso básico → partícula + verbo al final SOV.\n2) 食べた時。 — Variante con tiempo/cortesía.\n3) 子供の時。 — Contraste con forma similar.\n\n🔑 Mini-resumen:\n□ Recuerda forma + partícula\n□ 2 ejemplos hoy bastan, resto SRS\n□ Escucha 3× y produce 1×\n\n❌ Error 90%: olvidar partícula o mezclar plano/cortés. Usa diccionario para etiqueta [ru/ku] y practica con pitch Heiban donde toque.\n\n💬 Truco offline: di 行く時 → 食べた時 → 子供の時 en voz alta 3×. Active recall.\n\n\nPara practicar offline: tapa el japonés y produce en voz alta. Si fallas, el SRS te lo trae en minutos. Mezcla este tema + vocab + escucha. Memoria 7±2: domina 2 ejemplos hoy a fondo. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
+          "palabras": 406
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "日本に行く時、パスポートが要ります。",
+              "furigana": "日本に行く時、パスポートが要ります。",
+              "romaji": "nihongo desu.",
+              "es": "Subordinada temporal 'cuando': V-る時 / V-",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "食べた時。",
+              "furigana": "食べた時。",
+              "romaji": "nihongo desu.",
+              "es": "Subordinada temporal 'cuando': V-る時 / V-",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "子供の時。",
+              "furigana": "子供の時。",
+              "romaji": "nihongo desu.",
+              "es": "Subordinada temporal 'cuando': V-る時 / V-",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "日本に行く時、パスポートが要ります。",
+              "furigana": "日本に行く時、パスポートが要ります。",
+              "es": "Subordinada temporal 'cuando': V-る時 / V-",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha (texto oculto) y elige.",
+              "respuesta": "日本に行く時、パスポートが要ります。 — Subordinada temporal 'cuando': V-る時 / V-"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "食べた時。",
+              "furigana": "食べた時。",
+              "es": "Subordinada temporal 'cuando': V-る時 / V-",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "食べた時。 — Subordinada temporal 'cuando': V-る時 / V-"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "日本に行く時、パスポートが要ります。",
+              "furigana": "日本に行く時、パスポートが要ります。",
+              "es": "Subordinada temporal 'cuando': V-る時 / V-",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: 'Subordinada temporal 'cuando': V-る時 / V-'",
+              "respuesta": "日本に行く時、パスポートが要ります。",
+              "jp": "日本に行く時、パスポートが要ります。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: confundir 行く時 con 食べた時 sin mirar partícula. Revisa tabla y di en voz alta 3×."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 51: ～時 — cuando. Próxima: siguiente IMABI. Di 3 veces: 行く時。"
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 406,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-052",
+      "title": "IMABI 52: ～頃 — alrededor de",
+      "stage": "IMABI · Beginners II",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 52: ～頃 — alrededor de",
+          "text": "Aproximación temporal: 三時頃, 来週頃. Con に opcional.",
+          "examples": [
+            {
+              "jp": "三時頃",
+              "kana": "三時頃",
+              "es": "Aproximación temporal: 三時頃, 来週"
+            },
+            {
+              "jp": "来週頃",
+              "kana": "来週頃",
+              "es": "Aproximación temporal: 三時頃, 来週"
+            },
+            {
+              "jp": "去年の今頃",
+              "kana": "去年の今頃",
+              "es": "Aproximación temporal: 三時頃, 来週"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Tienes que decir '三時頃' y dudas si es 来週頃 o 去年の今頃."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Aproximación temporal: 三時頃, 来週頃. Con に opcional.\n\nObjetivo: usar «IMABI 52: ～頃» sin dudar en conversación.\n\n🧩 Fórmula: 【三時頃】 patrón + ejemplos graduados.\nPiensa en bloques: partícula/marcador + forma + contexto.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica forma base (V-る / V-た / N)\n2) Añade marcador (alrededor de)\n3) Coloca en frase con partícula correcta (は/が/を/に/で según verbo)\n\n⚖️ Tabla contrastiva:\n| Forma | Uso | Ejemplo |\n|---|---|---|\n| 三時頃 | patrón 1 | 三時頃 |\n| 来週頃 | patrón 2 | 来週頃 |\n| 去年の今頃 | patrón 3 | 去年の今頃 |\n\n💡 Ejemplos desglosados:\n1) 三時頃。 — Uso básico → partícula + verbo al final SOV.\n2) 来週頃。 — Variante con tiempo/cortesía.\n3) 去年の今頃。 — Contraste con forma similar.\n\n🔑 Mini-resumen:\n□ Recuerda forma + partícula\n□ 2 ejemplos hoy bastan, resto SRS\n□ Escucha 3× y produce 1×\n\n❌ Error 90%: olvidar partícula o mezclar plano/cortés. Usa diccionario para etiqueta [ru/ku] y practica con pitch Heiban donde toque.\n\n💬 Truco offline: di 三時頃 → 来週頃 → 去年の今頃 en voz alta 3×. Active recall.\n\n\nPara practicar offline: tapa el japonés y produce en voz alta. Si fallas, el SRS te lo trae en minutos. Mezcla este tema + vocab + escucha. Memoria 7±2: domina 2 ejemplos hoy a fondo. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
+          "palabras": 411
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "三時頃に来てください。",
+              "furigana": "三時頃に来てください。",
+              "romaji": "nihongo desu.",
+              "es": "Aproximación temporal: 三時頃, 来週頃. Con に o",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "来週頃。",
+              "furigana": "来週頃。",
+              "romaji": "nihongo desu.",
+              "es": "Aproximación temporal: 三時頃, 来週頃. Con に o",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "去年の今頃。",
+              "furigana": "去年の今頃。",
+              "romaji": "nihongo desu.",
+              "es": "Aproximación temporal: 三時頃, 来週頃. Con に o",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "三時頃に来てください。",
+              "furigana": "三時頃に来てください。",
+              "es": "Aproximación temporal: 三時頃, 来週頃. Con に o",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha (texto oculto) y elige.",
+              "respuesta": "三時頃に来てください。 — Aproximación temporal: 三時頃, 来週頃. Con に o"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "来週頃。",
+              "furigana": "来週頃。",
+              "es": "Aproximación temporal: 三時頃, 来週頃. Con に o",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "来週頃。 — Aproximación temporal: 三時頃, 来週頃. Con に o"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "三時頃に来てください。",
+              "furigana": "三時頃に来てください。",
+              "es": "Aproximación temporal: 三時頃, 来週頃. Con に o",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: 'Aproximación temporal: 三時頃, 来週頃. Con に o'",
+              "respuesta": "三時頃に来てください。",
+              "jp": "三時頃に来てください。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: confundir 三時頃 con 来週頃 sin mirar partícula. Revisa tabla y di en voz alta 3×."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 52: ～頃 — alrededor de. Próxima: siguiente IMABI. Di 3 veces: 三時頃。"
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Tienes que decir '三時頃' y dudas si es 来週頃 o 去年の今頃."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Aproximación temporal: 三時頃, 来週頃. Con に opcional.\n\nObjetivo: usar «IMABI 52: ～頃» sin dudar en conversación.\n\n🧩 Fórmula: 【三時頃】 patrón + ejemplos graduados.\nPiensa en bloques: partícula/marcador + forma + contexto.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica forma base (V-る / V-た / N)\n2) Añade marcador (alrededor de)\n3) Coloca en frase con partícula correcta (は/が/を/に/で según verbo)\n\n⚖️ Tabla contrastiva:\n| Forma | Uso | Ejemplo |\n|---|---|---|\n| 三時頃 | patrón 1 | 三時頃 |\n| 来週頃 | patrón 2 | 来週頃 |\n| 去年の今頃 | patrón 3 | 去年の今頃 |\n\n💡 Ejemplos desglosados:\n1) 三時頃。 — Uso básico → partícula + verbo al final SOV.\n2) 来週頃。 — Variante con tiempo/cortesía.\n3) 去年の今頃。 — Contraste con forma similar.\n\n🔑 Mini-resumen:\n□ Recuerda forma + partícula\n□ 2 ejemplos hoy bastan, resto SRS\n□ Escucha 3× y produce 1×\n\n❌ Error 90%: olvidar partícula o mezclar plano/cortés. Usa diccionario para etiqueta [ru/ku] y practica con pitch Heiban donde toque.\n\n💬 Truco offline: di 三時頃 → 来週頃 → 去年の今頃 en voz alta 3×. Active recall.\n\n\nPara practicar offline: tapa el japonés y produce en voz alta. Si fallas, el SRS te lo trae en minutos. Mezcla este tema + vocab + escucha. Memoria 7±2: domina 2 ejemplos hoy a fondo. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
+          "palabras": 411
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "三時頃に来てください。",
+              "furigana": "三時頃に来てください。",
+              "romaji": "nihongo desu.",
+              "es": "Aproximación temporal: 三時頃, 来週頃. Con に o",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "来週頃。",
+              "furigana": "来週頃。",
+              "romaji": "nihongo desu.",
+              "es": "Aproximación temporal: 三時頃, 来週頃. Con に o",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "去年の今頃。",
+              "furigana": "去年の今頃。",
+              "romaji": "nihongo desu.",
+              "es": "Aproximación temporal: 三時頃, 来週頃. Con に o",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "三時頃に来てください。",
+              "furigana": "三時頃に来てください。",
+              "es": "Aproximación temporal: 三時頃, 来週頃. Con に o",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha (texto oculto) y elige.",
+              "respuesta": "三時頃に来てください。 — Aproximación temporal: 三時頃, 来週頃. Con に o"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "来週頃。",
+              "furigana": "来週頃。",
+              "es": "Aproximación temporal: 三時頃, 来週頃. Con に o",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "来週頃。 — Aproximación temporal: 三時頃, 来週頃. Con に o"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "三時頃に来てください。",
+              "furigana": "三時頃に来てください。",
+              "es": "Aproximación temporal: 三時頃, 来週頃. Con に o",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: 'Aproximación temporal: 三時頃, 来週頃. Con に o'",
+              "respuesta": "三時頃に来てください。",
+              "jp": "三時頃に来てください。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: confundir 三時頃 con 来週頃 sin mirar partícula. Revisa tabla y di en voz alta 3×."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 52: ～頃 — alrededor de. Próxima: siguiente IMABI. Di 3 veces: 三時頃。"
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 411,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-053",
+      "title": "IMABI 53: ～前 — antes de",
+      "stage": "IMABI · Beginners II",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 53: ～前 — antes de",
+          "text": "Antes: V-る前 / Nの前. Atención: acción aún no ocurrida → diccionario.",
+          "examples": [
+            {
+              "jp": "食べる前",
+              "kana": "食べる前",
+              "es": "Antes: V-る前 / Nの前. Atención: a"
+            },
+            {
+              "jp": "出かける前",
+              "kana": "出かける前",
+              "es": "Antes: V-る前 / Nの前. Atención: a"
+            },
+            {
+              "jp": "授業の前",
+              "kana": "授業の前",
+              "es": "Antes: V-る前 / Nの前. Atención: a"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Tienes que decir '食べる前' y dudas si es 出かける前 o 授業の前."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Antes: V-る前 / Nの前. Atención: acción aún no ocurrida → diccionario.\n\nObjetivo: usar «IMABI 53: ～前» sin dudar en conversación.\n\n🧩 Fórmula: 【食べる前】 patrón + ejemplos graduados.\nPiensa en bloques: partícula/marcador + forma + contexto.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica forma base (V-る / V-た / N)\n2) Añade marcador (antes de)\n3) Coloca en frase con partícula correcta (は/が/を/に/で según verbo)\n\n⚖️ Tabla contrastiva:\n| Forma | Uso | Ejemplo |\n|---|---|---|\n| 食べる前 | patrón 1 | 食べる前 |\n| 出かける前 | patrón 2 | 出かける前 |\n| 授業の前 | patrón 3 | 授業の前 |\n\n💡 Ejemplos desglosados:\n1) 食べる前。 — Uso básico → partícula + verbo al final SOV.\n2) 出かける前。 — Variante con tiempo/cortesía.\n3) 授業の前。 — Contraste con forma similar.\n\n🔑 Mini-resumen:\n□ Recuerda forma + partícula\n□ 2 ejemplos hoy bastan, resto SRS\n□ Escucha 3× y produce 1×\n\n❌ Error 90%: olvidar partícula o mezclar plano/cortés. Usa diccionario para etiqueta [ru/ku] y practica con pitch Heiban donde toque.\n\n💬 Truco offline: di 食べる前 → 出かける前 → 授業の前 en voz alta 3×. Active recall.\n\n\nPara practicar offline: tapa el japonés y produce en voz alta. Si fallas, el SRS te lo trae en minutos. Mezcla este tema + vocab + escucha. Memoria 7±2: domina 2 ejemplos hoy a fondo. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
+          "palabras": 406
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "食べる前に手を洗います。",
+              "furigana": "食べる前に手を洗います。",
+              "romaji": "nihongo desu.",
+              "es": "Antes: V-る前 / Nの前. Atención: acción aún ",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "出かける前。",
+              "furigana": "出かける前。",
+              "romaji": "nihongo desu.",
+              "es": "Antes: V-る前 / Nの前. Atención: acción aún ",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "授業の前。",
+              "furigana": "授業の前。",
+              "romaji": "nihongo desu.",
+              "es": "Antes: V-る前 / Nの前. Atención: acción aún ",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "食べる前に手を洗います。",
+              "furigana": "食べる前に手を洗います。",
+              "es": "Antes: V-る前 / Nの前. Atención: acción aún ",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha (texto oculto) y elige.",
+              "respuesta": "食べる前に手を洗います。 — Antes: V-る前 / Nの前. Atención: acción aún "
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "出かける前。",
+              "furigana": "出かける前。",
+              "es": "Antes: V-る前 / Nの前. Atención: acción aún ",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "出かける前。 — Antes: V-る前 / Nの前. Atención: acción aún "
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "食べる前に手を洗います。",
+              "furigana": "食べる前に手を洗います。",
+              "es": "Antes: V-る前 / Nの前. Atención: acción aún ",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: 'Antes: V-る前 / Nの前. Atención: acción aún '",
+              "respuesta": "食べる前に手を洗います。",
+              "jp": "食べる前に手を洗います。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: confundir 食べる前 con 出かける前 sin mirar partícula. Revisa tabla y di en voz alta 3×."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 53: ～前 — antes de. Próxima: siguiente IMABI. Di 3 veces: 食べる前。"
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Tienes que decir '食べる前' y dudas si es 出かける前 o 授業の前."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Antes: V-る前 / Nの前. Atención: acción aún no ocurrida → diccionario.\n\nObjetivo: usar «IMABI 53: ～前» sin dudar en conversación.\n\n🧩 Fórmula: 【食べる前】 patrón + ejemplos graduados.\nPiensa en bloques: partícula/marcador + forma + contexto.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica forma base (V-る / V-た / N)\n2) Añade marcador (antes de)\n3) Coloca en frase con partícula correcta (は/が/を/に/で según verbo)\n\n⚖️ Tabla contrastiva:\n| Forma | Uso | Ejemplo |\n|---|---|---|\n| 食べる前 | patrón 1 | 食べる前 |\n| 出かける前 | patrón 2 | 出かける前 |\n| 授業の前 | patrón 3 | 授業の前 |\n\n💡 Ejemplos desglosados:\n1) 食べる前。 — Uso básico → partícula + verbo al final SOV.\n2) 出かける前。 — Variante con tiempo/cortesía.\n3) 授業の前。 — Contraste con forma similar.\n\n🔑 Mini-resumen:\n□ Recuerda forma + partícula\n□ 2 ejemplos hoy bastan, resto SRS\n□ Escucha 3× y produce 1×\n\n❌ Error 90%: olvidar partícula o mezclar plano/cortés. Usa diccionario para etiqueta [ru/ku] y practica con pitch Heiban donde toque.\n\n💬 Truco offline: di 食べる前 → 出かける前 → 授業の前 en voz alta 3×. Active recall.\n\n\nPara practicar offline: tapa el japonés y produce en voz alta. Si fallas, el SRS te lo trae en minutos. Mezcla este tema + vocab + escucha. Memoria 7±2: domina 2 ejemplos hoy a fondo. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
+          "palabras": 406
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "食べる前に手を洗います。",
+              "furigana": "食べる前に手を洗います。",
+              "romaji": "nihongo desu.",
+              "es": "Antes: V-る前 / Nの前. Atención: acción aún ",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "出かける前。",
+              "furigana": "出かける前。",
+              "romaji": "nihongo desu.",
+              "es": "Antes: V-る前 / Nの前. Atención: acción aún ",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "授業の前。",
+              "furigana": "授業の前。",
+              "romaji": "nihongo desu.",
+              "es": "Antes: V-る前 / Nの前. Atención: acción aún ",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "食べる前に手を洗います。",
+              "furigana": "食べる前に手を洗います。",
+              "es": "Antes: V-る前 / Nの前. Atención: acción aún ",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha (texto oculto) y elige.",
+              "respuesta": "食べる前に手を洗います。 — Antes: V-る前 / Nの前. Atención: acción aún "
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "出かける前。",
+              "furigana": "出かける前。",
+              "es": "Antes: V-る前 / Nの前. Atención: acción aún ",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "出かける前。 — Antes: V-る前 / Nの前. Atención: acción aún "
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "食べる前に手を洗います。",
+              "furigana": "食べる前に手を洗います。",
+              "es": "Antes: V-る前 / Nの前. Atención: acción aún ",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: 'Antes: V-る前 / Nの前. Atención: acción aún '",
+              "respuesta": "食べる前に手を洗います。",
+              "jp": "食べる前に手を洗います。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: confundir 食べる前 con 出かける前 sin mirar partícula. Revisa tabla y di en voz alta 3×."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 53: ～前 — antes de. Próxima: siguiente IMABI. Di 3 veces: 食べる前。"
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 406,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-054",
+      "title": "IMABI 54: ～あと/のち/てから — después de",
+      "stage": "IMABI · Beginners II",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 54: ～あと/のち/てから — después de",
+          "text": "Después: V-たあと / V-てから (consecutivo) / のち formal.",
+          "examples": [
+            {
+              "jp": "食べたあと",
+              "kana": "食べたあと",
+              "es": "Después: V-たあと / V-てから (consec"
+            },
+            {
+              "jp": "帰ってから",
+              "kana": "帰ってから",
+              "es": "Después: V-たあと / V-てから (consec"
+            },
+            {
+              "jp": "のちほど",
+              "kana": "のちほど",
+              "es": "Después: V-たあと / V-てから (consec"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Tienes que decir '食べたあと' y dudas si es 帰ってから o のちほど."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Después: V-たあと / V-てから (consecutivo) / のち formal.\n\nObjetivo: usar «IMABI 54: ～あと/のち/てから» sin dudar en conversación.\n\n🧩 Fórmula: 【食べたあと】 patrón + ejemplos graduados.\nPiensa en bloques: partícula/marcador + forma + contexto.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica forma base (V-る / V-た / N)\n2) Añade marcador (después de)\n3) Coloca en frase con partícula correcta (は/が/を/に/で según verbo)\n\n⚖️ Tabla contrastiva:\n| Forma | Uso | Ejemplo |\n|---|---|---|\n| 食べたあと | patrón 1 | 食べたあと |\n| 帰ってから | patrón 2 | 帰ってから |\n| のちほど | patrón 3 | のちほど |\n\n💡 Ejemplos desglosados:\n1) 食べたあと。 — Uso básico → partícula + verbo al final SOV.\n2) 帰ってから。 — Variante con tiempo/cortesía.\n3) のちほど。 — Contraste con forma similar.\n\n🔑 Mini-resumen:\n□ Recuerda forma + partícula\n□ 2 ejemplos hoy bastan, resto SRS\n□ Escucha 3× y produce 1×\n\n❌ Error 90%: olvidar partícula o mezclar plano/cortés. Usa diccionario para etiqueta [ru/ku] y practica con pitch Heiban donde toque.\n\n💬 Truco offline: di 食べたあと → 帰ってから → のちほど en voz alta 3×. Active recall.\n\n\nPara practicar offline: tapa el japonés y produce en voz alta. Si fallas, el SRS te lo trae en minutos. Mezcla este tema + vocab + escucha. Memoria 7±2: domina 2 ejemplos hoy a fondo. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
+          "palabras": 412
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "雨なので休みます。",
+              "furigana": "雨なので休みます。",
+              "romaji": "nihongo desu.",
+              "es": "Después: V-たあと / V-てから (consecutivo) / の",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "雨なので休みます。",
+              "furigana": "雨なので休みます。",
+              "romaji": "nihongo desu.",
+              "es": "Después: V-たあと / V-てから (consecutivo) / の",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "雨なので休みます。",
+              "furigana": "雨なので休みます。",
+              "romaji": "nihongo desu.",
+              "es": "Después: V-たあと / V-てから (consecutivo) / の",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "雨なので休みます。",
+              "furigana": "雨なので休みます。",
+              "es": "Después: V-たあと / V-てから (consecutivo) / の",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha (texto oculto) y elige.",
+              "respuesta": "雨なので休みます。 — Después: V-たあと / V-てから (consecutivo) / の"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "雨なので休みます。",
+              "furigana": "雨なので休みます。",
+              "es": "Después: V-たあと / V-てから (consecutivo) / の",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "雨なので休みます。 — Después: V-たあと / V-てから (consecutivo) / の"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "雨なので休みます。",
+              "furigana": "雨なので休みます。",
+              "es": "Después: V-たあと / V-てから (consecutivo) / の",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: 'Después: V-たあと / V-てから (consecutivo) / の'",
+              "respuesta": "雨なので休みます。",
+              "jp": "雨なので休みます。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: confundir 食べたあと con 帰ってから sin mirar partícula. Revisa tabla y di en voz alta 3×."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 54: ～あと/のち/てから — después de. Próxima: siguiente IMABI. Di 3 veces: 食べたあと。"
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Tienes que decir '食べたあと' y dudas si es 帰ってから o のちほど."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Después: V-たあと / V-てから (consecutivo) / のち formal.\n\nObjetivo: usar «IMABI 54: ～あと/のち/てから» sin dudar en conversación.\n\n🧩 Fórmula: 【食べたあと】 patrón + ejemplos graduados.\nPiensa en bloques: partícula/marcador + forma + contexto.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica forma base (V-る / V-た / N)\n2) Añade marcador (después de)\n3) Coloca en frase con partícula correcta (は/が/を/に/で según verbo)\n\n⚖️ Tabla contrastiva:\n| Forma | Uso | Ejemplo |\n|---|---|---|\n| 食べたあと | patrón 1 | 食べたあと |\n| 帰ってから | patrón 2 | 帰ってから |\n| のちほど | patrón 3 | のちほど |\n\n💡 Ejemplos desglosados:\n1) 食べたあと。 — Uso básico → partícula + verbo al final SOV.\n2) 帰ってから。 — Variante con tiempo/cortesía.\n3) のちほど。 — Contraste con forma similar.\n\n🔑 Mini-resumen:\n□ Recuerda forma + partícula\n□ 2 ejemplos hoy bastan, resto SRS\n□ Escucha 3× y produce 1×\n\n❌ Error 90%: olvidar partícula o mezclar plano/cortés. Usa diccionario para etiqueta [ru/ku] y practica con pitch Heiban donde toque.\n\n💬 Truco offline: di 食べたあと → 帰ってから → のちほど en voz alta 3×. Active recall.\n\n\nPara practicar offline: tapa el japonés y produce en voz alta. Si fallas, el SRS te lo trae en minutos. Mezcla este tema + vocab + escucha. Memoria 7±2: domina 2 ejemplos hoy a fondo. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
+          "palabras": 412
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "雨なので休みます。",
+              "furigana": "雨なので休みます。",
+              "romaji": "nihongo desu.",
+              "es": "Después: V-たあと / V-てから (consecutivo) / の",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "雨なので休みます。",
+              "furigana": "雨なので休みます。",
+              "romaji": "nihongo desu.",
+              "es": "Después: V-たあと / V-てから (consecutivo) / の",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "雨なので休みます。",
+              "furigana": "雨なので休みます。",
+              "romaji": "nihongo desu.",
+              "es": "Después: V-たあと / V-てから (consecutivo) / の",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "雨なので休みます。",
+              "furigana": "雨なので休みます。",
+              "es": "Después: V-たあと / V-てから (consecutivo) / の",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha (texto oculto) y elige.",
+              "respuesta": "雨なので休みます。 — Después: V-たあと / V-てから (consecutivo) / の"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "雨なので休みます。",
+              "furigana": "雨なので休みます。",
+              "es": "Después: V-たあと / V-てから (consecutivo) / の",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "雨なので休みます。 — Después: V-たあと / V-てから (consecutivo) / の"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "雨なので休みます。",
+              "furigana": "雨なので休みます。",
+              "es": "Después: V-たあと / V-てから (consecutivo) / の",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: 'Después: V-たあと / V-てから (consecutivo) / の'",
+              "respuesta": "雨なので休みます。",
+              "jp": "雨なので休みます。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: confundir 食べたあと con 帰ってから sin mirar partícula. Revisa tabla y di en voz alta 3×."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 54: ～あと/のち/てから — después de. Próxima: siguiente IMABI. Di 3 veces: 食べたあと。"
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 412,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-055",
+      "title": "IMABI 55: ～間 — mientras",
+      "stage": "IMABI · Beginners II",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 55: ～間 — mientras",
+          "text": "Mientras dura: V-ている間 / Nの間. Duración inclusiva.",
+          "examples": [
+            {
+              "jp": "寝ている間",
+              "kana": "寝ている間",
+              "es": "Mientras dura: V-ている間 / Nの間. D"
+            },
+            {
+              "jp": "夏休みの間",
+              "kana": "夏休みの間",
+              "es": "Mientras dura: V-ている間 / Nの間. D"
+            },
+            {
+              "jp": "いる間",
+              "kana": "いる間",
+              "es": "Mientras dura: V-ている間 / Nの間. D"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Tienes que decir '寝ている間' y dudas si es 夏休みの間 o いる間."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Mientras dura: V-ている間 / Nの間. Duración inclusiva.\n\nObjetivo: usar «IMABI 55: ～間» sin dudar en conversación.\n\n🧩 Fórmula: 【寝ている間】 patrón + ejemplos graduados.\nPiensa en bloques: partícula/marcador + forma + contexto.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica forma base (V-る / V-た / N)\n2) Añade marcador (mientras)\n3) Coloca en frase con partícula correcta (は/が/を/に/で según verbo)\n\n⚖️ Tabla contrastiva:\n| Forma | Uso | Ejemplo |\n|---|---|---|\n| 寝ている間 | patrón 1 | 寝ている間 |\n| 夏休みの間 | patrón 2 | 夏休みの間 |\n| いる間 | patrón 3 | いる間 |\n\n💡 Ejemplos desglosados:\n1) 寝ている間。 — Uso básico → partícula + verbo al final SOV.\n2) 夏休みの間。 — Variante con tiempo/cortesía.\n3) いる間。 — Contraste con forma similar.\n\n🔑 Mini-resumen:\n□ Recuerda forma + partícula\n□ 2 ejemplos hoy bastan, resto SRS\n□ Escucha 3× y produce 1×\n\n❌ Error 90%: olvidar partícula o mezclar plano/cortés. Usa diccionario para etiqueta [ru/ku] y practica con pitch Heiban donde toque.\n\n💬 Truco offline: di 寝ている間 → 夏休みの間 → いる間 en voz alta 3×. Active recall.\n\n\nPara practicar offline: tapa el japonés y produce en voz alta. Si fallas, el SRS te lo trae en minutos. Mezcla este tema + vocab + escucha. Memoria 7±2: domina 2 ejemplos hoy a fondo. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
+          "palabras": 410
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "寝ている間、電話がありました。",
+              "furigana": "寝ている間、電話がありました。",
+              "romaji": "nihongo desu.",
+              "es": "Mientras dura: V-ている間 / Nの間. Duración in",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "夏休みの間。",
+              "furigana": "夏休みの間。",
+              "romaji": "nihongo desu.",
+              "es": "Mientras dura: V-ている間 / Nの間. Duración in",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "いる間。",
+              "furigana": "いる間。",
+              "romaji": "nihongo desu.",
+              "es": "Mientras dura: V-ている間 / Nの間. Duración in",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "寝ている間、電話がありました。",
+              "furigana": "寝ている間、電話がありました。",
+              "es": "Mientras dura: V-ている間 / Nの間. Duración in",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha (texto oculto) y elige.",
+              "respuesta": "寝ている間、電話がありました。 — Mientras dura: V-ている間 / Nの間. Duración in"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "夏休みの間。",
+              "furigana": "夏休みの間。",
+              "es": "Mientras dura: V-ている間 / Nの間. Duración in",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "夏休みの間。 — Mientras dura: V-ている間 / Nの間. Duración in"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "寝ている間、電話がありました。",
+              "furigana": "寝ている間、電話がありました。",
+              "es": "Mientras dura: V-ている間 / Nの間. Duración in",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: 'Mientras dura: V-ている間 / Nの間. Duración in'",
+              "respuesta": "寝ている間、電話がありました。",
+              "jp": "寝ている間、電話がありました。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: confundir 寝ている間 con 夏休みの間 sin mirar partícula. Revisa tabla y di en voz alta 3×."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 55: ～間 — mientras. Próxima: siguiente IMABI. Di 3 veces: 寝ている間。"
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Tienes que decir '寝ている間' y dudas si es 夏休みの間 o いる間."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Mientras dura: V-ている間 / Nの間. Duración inclusiva.\n\nObjetivo: usar «IMABI 55: ～間» sin dudar en conversación.\n\n🧩 Fórmula: 【寝ている間】 patrón + ejemplos graduados.\nPiensa en bloques: partícula/marcador + forma + contexto.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica forma base (V-る / V-た / N)\n2) Añade marcador (mientras)\n3) Coloca en frase con partícula correcta (は/が/を/に/で según verbo)\n\n⚖️ Tabla contrastiva:\n| Forma | Uso | Ejemplo |\n|---|---|---|\n| 寝ている間 | patrón 1 | 寝ている間 |\n| 夏休みの間 | patrón 2 | 夏休みの間 |\n| いる間 | patrón 3 | いる間 |\n\n💡 Ejemplos desglosados:\n1) 寝ている間。 — Uso básico → partícula + verbo al final SOV.\n2) 夏休みの間。 — Variante con tiempo/cortesía.\n3) いる間。 — Contraste con forma similar.\n\n🔑 Mini-resumen:\n□ Recuerda forma + partícula\n□ 2 ejemplos hoy bastan, resto SRS\n□ Escucha 3× y produce 1×\n\n❌ Error 90%: olvidar partícula o mezclar plano/cortés. Usa diccionario para etiqueta [ru/ku] y practica con pitch Heiban donde toque.\n\n💬 Truco offline: di 寝ている間 → 夏休みの間 → いる間 en voz alta 3×. Active recall.\n\n\nPara practicar offline: tapa el japonés y produce en voz alta. Si fallas, el SRS te lo trae en minutos. Mezcla este tema + vocab + escucha. Memoria 7±2: domina 2 ejemplos hoy a fondo. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
+          "palabras": 410
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "寝ている間、電話がありました。",
+              "furigana": "寝ている間、電話がありました。",
+              "romaji": "nihongo desu.",
+              "es": "Mientras dura: V-ている間 / Nの間. Duración in",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "夏休みの間。",
+              "furigana": "夏休みの間。",
+              "romaji": "nihongo desu.",
+              "es": "Mientras dura: V-ている間 / Nの間. Duración in",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "いる間。",
+              "furigana": "いる間。",
+              "romaji": "nihongo desu.",
+              "es": "Mientras dura: V-ている間 / Nの間. Duración in",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "寝ている間、電話がありました。",
+              "furigana": "寝ている間、電話がありました。",
+              "es": "Mientras dura: V-ている間 / Nの間. Duración in",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha (texto oculto) y elige.",
+              "respuesta": "寝ている間、電話がありました。 — Mientras dura: V-ている間 / Nの間. Duración in"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "夏休みの間。",
+              "furigana": "夏休みの間。",
+              "es": "Mientras dura: V-ている間 / Nの間. Duración in",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "夏休みの間。 — Mientras dura: V-ている間 / Nの間. Duración in"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "寝ている間、電話がありました。",
+              "furigana": "寝ている間、電話がありました。",
+              "es": "Mientras dura: V-ている間 / Nの間. Duración in",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: 'Mientras dura: V-ている間 / Nの間. Duración in'",
+              "respuesta": "寝ている間、電話がありました。",
+              "jp": "寝ている間、電話がありました。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: confundir 寝ている間 con 夏休みの間 sin mirar partícula. Revisa tabla y di en voz alta 3×."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 55: ～間 — mientras. Próxima: siguiente IMABI. Di 3 veces: 寝ている間。"
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 410,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-056",
+      "title": "IMABI 56: ～うちに — mientras aún",
+      "stage": "IMABI · Beginners II",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 56: ～うちに — mientras aún",
+          "text": "Ventana oportuna: ～うちに hazlo antes que cambie. Contraste con 間に.",
+          "examples": [
+            {
+              "jp": "暗くならないうちに",
+              "kana": "暗くならないうちに",
+              "es": "Ventana oportuna: ～うちに hazlo a"
+            },
+            {
+              "jp": "若いうちに",
+              "kana": "若いうちに",
+              "es": "Ventana oportuna: ～うちに hazlo a"
+            },
+            {
+              "jp": "忘れないうちに",
+              "kana": "忘れないうちに",
+              "es": "Ventana oportuna: ～うちに hazlo a"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Tienes que decir '暗くならないうちに' y dudas si es 若いうちに o 忘れないうちに."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Ventana oportuna: ～うちに hazlo antes que cambie. Contraste con 間に.\n\nObjetivo: usar «IMABI 56: ～うちに» sin dudar en conversación.\n\n🧩 Fórmula: 【暗くならないうちに】 patrón + ejemplos graduados.\nPiensa en bloques: partícula/marcador + forma + contexto.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica forma base (V-る / V-た / N)\n2) Añade marcador (mientras aún)\n3) Coloca en frase con partícula correcta (は/が/を/に/で según verbo)\n\n⚖️ Tabla contrastiva:\n| Forma | Uso | Ejemplo |\n|---|---|---|\n| 暗くならないうちに | patrón 1 | 暗くならないうちに |\n| 若いうちに | patrón 2 | 若いうちに |\n| 忘れないうちに | patrón 3 | 忘れないうちに |\n\n💡 Ejemplos desglosados:\n1) 暗くならないうちに。 — Uso básico → partícula + verbo al final SOV.\n2) 若いうちに。 — Variante con tiempo/cortesía.\n3) 忘れないうちに。 — Contraste con forma similar.\n\n🔑 Mini-resumen:\n□ Recuerda forma + partícula\n□ 2 ejemplos hoy bastan, resto SRS\n□ Escucha 3× y produce 1×\n\n❌ Error 90%: olvidar partícula o mezclar plano/cortés. Usa diccionario para etiqueta [ru/ku] y practica con pitch Heiban donde toque.\n\n💬 Truco offline: di 暗くならないうちに → 若いうちに → 忘れないうちに en voz alta 3×. Active recall.\n\n\nPara practicar offline: tapa el japonés y produce en voz alta. Si fallas, el SRS te lo trae en minutos. Mezcla este tema + vocab + escucha. Memoria 7±2: domina 2 ejemplos hoy a fondo. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
+          "palabras": 405
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "暗くならないうちに帰りましょう。",
+              "furigana": "暗くならないうちに帰りましょう。",
+              "romaji": "nihongo desu.",
+              "es": "Ventana oportuna: ～うちに hazlo antes que c",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "若いうちに。",
+              "furigana": "若いうちに。",
+              "romaji": "nihongo desu.",
+              "es": "Ventana oportuna: ～うちに hazlo antes que c",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "忘れないうちに。",
+              "furigana": "忘れないうちに。",
+              "romaji": "nihongo desu.",
+              "es": "Ventana oportuna: ～うちに hazlo antes que c",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "暗くならないうちに帰りましょう。",
+              "furigana": "暗くならないうちに帰りましょう。",
+              "es": "Ventana oportuna: ～うちに hazlo antes que c",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha (texto oculto) y elige.",
+              "respuesta": "暗くならないうちに帰りましょう。 — Ventana oportuna: ～うちに hazlo antes que c"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "若いうちに。",
+              "furigana": "若いうちに。",
+              "es": "Ventana oportuna: ～うちに hazlo antes que c",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "若いうちに。 — Ventana oportuna: ～うちに hazlo antes que c"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "暗くならないうちに帰りましょう。",
+              "furigana": "暗くならないうちに帰りましょう。",
+              "es": "Ventana oportuna: ～うちに hazlo antes que c",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: 'Ventana oportuna: ～うちに hazlo antes que c'",
+              "respuesta": "暗くならないうちに帰りましょう。",
+              "jp": "暗くならないうちに帰りましょう。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: confundir 暗くならないうちに con 若いうちに sin mirar partícula. Revisa tabla y di en voz alta 3×."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 56: ～うちに — mientras aún. Próxima: siguiente IMABI. Di 3 veces: 暗くならないうちに。"
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Tienes que decir '暗くならないうちに' y dudas si es 若いうちに o 忘れないうちに."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Ventana oportuna: ～うちに hazlo antes que cambie. Contraste con 間に.\n\nObjetivo: usar «IMABI 56: ～うちに» sin dudar en conversación.\n\n🧩 Fórmula: 【暗くならないうちに】 patrón + ejemplos graduados.\nPiensa en bloques: partícula/marcador + forma + contexto.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica forma base (V-る / V-た / N)\n2) Añade marcador (mientras aún)\n3) Coloca en frase con partícula correcta (は/が/を/に/で según verbo)\n\n⚖️ Tabla contrastiva:\n| Forma | Uso | Ejemplo |\n|---|---|---|\n| 暗くならないうちに | patrón 1 | 暗くならないうちに |\n| 若いうちに | patrón 2 | 若いうちに |\n| 忘れないうちに | patrón 3 | 忘れないうちに |\n\n💡 Ejemplos desglosados:\n1) 暗くならないうちに。 — Uso básico → partícula + verbo al final SOV.\n2) 若いうちに。 — Variante con tiempo/cortesía.\n3) 忘れないうちに。 — Contraste con forma similar.\n\n🔑 Mini-resumen:\n□ Recuerda forma + partícula\n□ 2 ejemplos hoy bastan, resto SRS\n□ Escucha 3× y produce 1×\n\n❌ Error 90%: olvidar partícula o mezclar plano/cortés. Usa diccionario para etiqueta [ru/ku] y practica con pitch Heiban donde toque.\n\n💬 Truco offline: di 暗くならないうちに → 若いうちに → 忘れないうちに en voz alta 3×. Active recall.\n\n\nPara practicar offline: tapa el japonés y produce en voz alta. Si fallas, el SRS te lo trae en minutos. Mezcla este tema + vocab + escucha. Memoria 7±2: domina 2 ejemplos hoy a fondo. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
+          "palabras": 405
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "暗くならないうちに帰りましょう。",
+              "furigana": "暗くならないうちに帰りましょう。",
+              "romaji": "nihongo desu.",
+              "es": "Ventana oportuna: ～うちに hazlo antes que c",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "若いうちに。",
+              "furigana": "若いうちに。",
+              "romaji": "nihongo desu.",
+              "es": "Ventana oportuna: ～うちに hazlo antes que c",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "忘れないうちに。",
+              "furigana": "忘れないうちに。",
+              "romaji": "nihongo desu.",
+              "es": "Ventana oportuna: ～うちに hazlo antes que c",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "暗くならないうちに帰りましょう。",
+              "furigana": "暗くならないうちに帰りましょう。",
+              "es": "Ventana oportuna: ～うちに hazlo antes que c",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha (texto oculto) y elige.",
+              "respuesta": "暗くならないうちに帰りましょう。 — Ventana oportuna: ～うちに hazlo antes que c"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "若いうちに。",
+              "furigana": "若いうちに。",
+              "es": "Ventana oportuna: ～うちに hazlo antes que c",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "若いうちに。 — Ventana oportuna: ～うちに hazlo antes que c"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "暗くならないうちに帰りましょう。",
+              "furigana": "暗くならないうちに帰りましょう。",
+              "es": "Ventana oportuna: ～うちに hazlo antes que c",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: 'Ventana oportuna: ～うちに hazlo antes que c'",
+              "respuesta": "暗くならないうちに帰りましょう。",
+              "jp": "暗くならないうちに帰りましょう。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: confundir 暗くならないうちに con 若いうちに sin mirar partícula. Revisa tabla y di en voz alta 3×."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 56: ～うちに — mientras aún. Próxima: siguiente IMABI. Di 3 veces: 暗くならないうちに。"
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 405,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-057",
+      "title": "IMABI 57: Campos de estudio",
+      "stage": "IMABI · Beginners II",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 57: Campos de estudio",
+          "text": "Vocab campos: 文学, 経済, 医学, 工学, 法学 + ～学 / ～学部.",
+          "examples": [
+            {
+              "jp": "文学部",
+              "kana": "文学部",
+              "es": "Vocab campos: 文学, 経済, 医学, 工学, "
+            },
+            {
+              "jp": "経済学",
+              "kana": "経済学",
+              "es": "Vocab campos: 文学, 経済, 医学, 工学, "
+            },
+            {
+              "jp": "医学を学ぶ",
+              "kana": "医学を学ぶ",
+              "es": "Vocab campos: 文学, 経済, 医学, 工学, "
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Tienes que decir '文学部' y dudas si es 経済学 o 医学を学ぶ."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Vocab campos: 文学, 経済, 医学, 工学, 法学 + ～学 / ～学部.\n\nObjetivo: usar «IMABI 57: Campos de estudio» sin dudar en conversación.\n\n🧩 Fórmula: 【文学部】 patrón + ejemplos graduados.\nPiensa en bloques: partícula/marcador + forma + contexto.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica forma base (V-る / V-た / N)\n2) Añade marcador (IMABI 57: Campos de )\n3) Coloca en frase con partícula correcta (は/が/を/に/で según verbo)\n\n⚖️ Tabla contrastiva:\n| Forma | Uso | Ejemplo |\n|---|---|---|\n| 文学部 | patrón 1 | 文学部 |\n| 経済学 | patrón 2 | 経済学 |\n| 医学を学ぶ | patrón 3 | 医学を学ぶ |\n\n💡 Ejemplos desglosados:\n1) 文学部。 — Uso básico → partícula + verbo al final SOV.\n2) 経済学。 — Variante con tiempo/cortesía.\n3) 医学を学ぶ。 — Contraste con forma similar.\n\n🔑 Mini-resumen:\n□ Recuerda forma + partícula\n□ 2 ejemplos hoy bastan, resto SRS\n□ Escucha 3× y produce 1×\n\n❌ Error 90%: olvidar partícula o mezclar plano/cortés. Usa diccionario para etiqueta [ru/ku] y practica con pitch Heiban donde toque.\n\n💬 Truco offline: di 文学部 → 経済学 → 医学を学ぶ en voz alta 3×. Active recall.\n\n\nPara practicar offline: tapa el japonés y produce en voz alta. Si fallas, el SRS te lo trae en minutos. Mezcla este tema + vocab + escucha. Memoria 7±2: domina 2 ejemplos hoy a fondo. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
+          "palabras": 411
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "文学部。",
+              "furigana": "文学部。",
+              "romaji": "nihongo desu.",
+              "es": "Vocab campos: 文学, 経済, 医学, 工学, 法学 + ～学 / ",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "経済学。",
+              "furigana": "経済学。",
+              "romaji": "nihongo desu.",
+              "es": "Vocab campos: 文学, 経済, 医学, 工学, 法学 + ～学 / ",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "医学を学ぶ。",
+              "furigana": "医学を学ぶ。",
+              "romaji": "nihongo desu.",
+              "es": "Vocab campos: 文学, 経済, 医学, 工学, 法学 + ～学 / ",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "文学部。",
+              "furigana": "文学部。",
+              "es": "Vocab campos: 文学, 経済, 医学, 工学, 法学 + ～学 / ",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha (texto oculto) y elige.",
+              "respuesta": "文学部。 — Vocab campos: 文学, 経済, 医学, 工学, 法学 + ～学 / "
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "経済学。",
+              "furigana": "経済学。",
+              "es": "Vocab campos: 文学, 経済, 医学, 工学, 法学 + ～学 / ",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "経済学。 — Vocab campos: 文学, 経済, 医学, 工学, 法学 + ～学 / "
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "文学部。",
+              "furigana": "文学部。",
+              "es": "Vocab campos: 文学, 経済, 医学, 工学, 法学 + ～学 / ",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: 'Vocab campos: 文学, 経済, 医学, 工学, 法学 + ～学 / '",
+              "respuesta": "文学部。",
+              "jp": "文学部。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: confundir 文学部 con 経済学 sin mirar partícula. Revisa tabla y di en voz alta 3×."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 57: Campos de estudio. Próxima: siguiente IMABI. Di 3 veces: 文学部。"
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Tienes que decir '文学部' y dudas si es 経済学 o 医学を学ぶ."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Vocab campos: 文学, 経済, 医学, 工学, 法学 + ～学 / ～学部.\n\nObjetivo: usar «IMABI 57: Campos de estudio» sin dudar en conversación.\n\n🧩 Fórmula: 【文学部】 patrón + ejemplos graduados.\nPiensa en bloques: partícula/marcador + forma + contexto.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica forma base (V-る / V-た / N)\n2) Añade marcador (IMABI 57: Campos de )\n3) Coloca en frase con partícula correcta (は/が/を/に/で según verbo)\n\n⚖️ Tabla contrastiva:\n| Forma | Uso | Ejemplo |\n|---|---|---|\n| 文学部 | patrón 1 | 文学部 |\n| 経済学 | patrón 2 | 経済学 |\n| 医学を学ぶ | patrón 3 | 医学を学ぶ |\n\n💡 Ejemplos desglosados:\n1) 文学部。 — Uso básico → partícula + verbo al final SOV.\n2) 経済学。 — Variante con tiempo/cortesía.\n3) 医学を学ぶ。 — Contraste con forma similar.\n\n🔑 Mini-resumen:\n□ Recuerda forma + partícula\n□ 2 ejemplos hoy bastan, resto SRS\n□ Escucha 3× y produce 1×\n\n❌ Error 90%: olvidar partícula o mezclar plano/cortés. Usa diccionario para etiqueta [ru/ku] y practica con pitch Heiban donde toque.\n\n💬 Truco offline: di 文学部 → 経済学 → 医学を学ぶ en voz alta 3×. Active recall.\n\n\nPara practicar offline: tapa el japonés y produce en voz alta. Si fallas, el SRS te lo trae en minutos. Mezcla este tema + vocab + escucha. Memoria 7±2: domina 2 ejemplos hoy a fondo. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
+          "palabras": 411
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "文学部。",
+              "furigana": "文学部。",
+              "romaji": "nihongo desu.",
+              "es": "Vocab campos: 文学, 経済, 医学, 工学, 法学 + ～学 / ",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "経済学。",
+              "furigana": "経済学。",
+              "romaji": "nihongo desu.",
+              "es": "Vocab campos: 文学, 経済, 医学, 工学, 法学 + ～学 / ",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "医学を学ぶ。",
+              "furigana": "医学を学ぶ。",
+              "romaji": "nihongo desu.",
+              "es": "Vocab campos: 文学, 経済, 医学, 工学, 法学 + ～学 / ",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "文学部。",
+              "furigana": "文学部。",
+              "es": "Vocab campos: 文学, 経済, 医学, 工学, 法学 + ～学 / ",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha (texto oculto) y elige.",
+              "respuesta": "文学部。 — Vocab campos: 文学, 経済, 医学, 工学, 法学 + ～学 / "
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "経済学。",
+              "furigana": "経済学。",
+              "es": "Vocab campos: 文学, 経済, 医学, 工学, 法学 + ～学 / ",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "経済学。 — Vocab campos: 文学, 経済, 医学, 工学, 法学 + ～学 / "
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "文学部。",
+              "furigana": "文学部。",
+              "es": "Vocab campos: 文学, 経済, 医学, 工学, 法学 + ～学 / ",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: 'Vocab campos: 文学, 経済, 医学, 工学, 法学 + ～学 / '",
+              "respuesta": "文学部。",
+              "jp": "文学部。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: confundir 文学部 con 経済学 sin mirar partícula. Revisa tabla y di en voz alta 3×."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 57: Campos de estudio. Próxima: siguiente IMABI. Di 3 veces: 文学部。"
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 411,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-058",
+      "title": "IMABI 58: Geografía mundial",
+      "stage": "IMABI · Beginners II",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 58: Geografía mundial",
+          "text": "Países, idiomas, gentilicios: アメリカ/英語, スペイン/スペイン語, ～人, ～語.",
+          "examples": [
+            {
+              "jp": "アメリカ人",
+              "kana": "アメリカ人",
+              "es": "Países, idiomas, gentilicios: "
+            },
+            {
+              "jp": "日本語",
+              "kana": "日本語",
+              "es": "Países, idiomas, gentilicios: "
+            },
+            {
+              "jp": "スペイン語を話す",
+              "kana": "スペイン語を話す",
+              "es": "Países, idiomas, gentilicios: "
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Tienes que decir 'アメリカ人' y dudas si es 日本語 o スペイン語を話す."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Países, idiomas, gentilicios: アメリカ/英語, スペイン/スペイン語, ～人, ～語.\n\nObjetivo: usar «IMABI 58: Geografía mundial» sin dudar en conversación.\n\n🧩 Fórmula: 【アメリカ人】 patrón + ejemplos graduados.\nPiensa en bloques: partícula/marcador + forma + contexto.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica forma base (V-る / V-た / N)\n2) Añade marcador (IMABI 58: Geografía )\n3) Coloca en frase con partícula correcta (は/が/を/に/で según verbo)\n\n⚖️ Tabla contrastiva:\n| Forma | Uso | Ejemplo |\n|---|---|---|\n| アメリカ人 | patrón 1 | アメリカ人 |\n| 日本語 | patrón 2 | 日本語 |\n| スペイン語を話す | patrón 3 | スペイン語を話す |\n\n💡 Ejemplos desglosados:\n1) アメリカ人。 — Uso básico → partícula + verbo al final SOV.\n2) 日本語。 — Variante con tiempo/cortesía.\n3) スペイン語を話す。 — Contraste con forma similar.\n\n🔑 Mini-resumen:\n□ Recuerda forma + partícula\n□ 2 ejemplos hoy bastan, resto SRS\n□ Escucha 3× y produce 1×\n\n❌ Error 90%: olvidar partícula o mezclar plano/cortés. Usa diccionario para etiqueta [ru/ku] y practica con pitch Heiban donde toque.\n\n💬 Truco offline: di アメリカ人 → 日本語 → スペイン語を話す en voz alta 3×. Active recall.\n\n\nPara practicar offline: tapa el japonés y produce en voz alta. Si fallas, el SRS te lo trae en minutos. Mezcla este tema + vocab + escucha. Memoria 7±2: domina 2 ejemplos hoy a fondo. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
+          "palabras": 405
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "アメリカ人。",
+              "furigana": "アメリカ人。",
+              "romaji": "nihongo desu.",
+              "es": "Países, idiomas, gentilicios: アメリカ/英語, ス",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "日本語。",
+              "furigana": "日本語。",
+              "romaji": "nihongo desu.",
+              "es": "Países, idiomas, gentilicios: アメリカ/英語, ス",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "スペイン語を話す。",
+              "furigana": "スペイン語を話す。",
+              "romaji": "nihongo desu.",
+              "es": "Países, idiomas, gentilicios: アメリカ/英語, ス",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "アメリカ人。",
+              "furigana": "アメリカ人。",
+              "es": "Países, idiomas, gentilicios: アメリカ/英語, ス",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha (texto oculto) y elige.",
+              "respuesta": "アメリカ人。 — Países, idiomas, gentilicios: アメリカ/英語, ス"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "日本語。",
+              "furigana": "日本語。",
+              "es": "Países, idiomas, gentilicios: アメリカ/英語, ス",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "日本語。 — Países, idiomas, gentilicios: アメリカ/英語, ス"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "アメリカ人。",
+              "furigana": "アメリカ人。",
+              "es": "Países, idiomas, gentilicios: アメリカ/英語, ス",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: 'Países, idiomas, gentilicios: アメリカ/英語, ス'",
+              "respuesta": "アメリカ人。",
+              "jp": "アメリカ人。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: confundir アメリカ人 con 日本語 sin mirar partícula. Revisa tabla y di en voz alta 3×."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 58: Geografía mundial. Próxima: siguiente IMABI. Di 3 veces: アメリカ人。"
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Tienes que decir 'アメリカ人' y dudas si es 日本語 o スペイン語を話す."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Países, idiomas, gentilicios: アメリカ/英語, スペイン/スペイン語, ～人, ～語.\n\nObjetivo: usar «IMABI 58: Geografía mundial» sin dudar en conversación.\n\n🧩 Fórmula: 【アメリカ人】 patrón + ejemplos graduados.\nPiensa en bloques: partícula/marcador + forma + contexto.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica forma base (V-る / V-た / N)\n2) Añade marcador (IMABI 58: Geografía )\n3) Coloca en frase con partícula correcta (は/が/を/に/で según verbo)\n\n⚖️ Tabla contrastiva:\n| Forma | Uso | Ejemplo |\n|---|---|---|\n| アメリカ人 | patrón 1 | アメリカ人 |\n| 日本語 | patrón 2 | 日本語 |\n| スペイン語を話す | patrón 3 | スペイン語を話す |\n\n💡 Ejemplos desglosados:\n1) アメリカ人。 — Uso básico → partícula + verbo al final SOV.\n2) 日本語。 — Variante con tiempo/cortesía.\n3) スペイン語を話す。 — Contraste con forma similar.\n\n🔑 Mini-resumen:\n□ Recuerda forma + partícula\n□ 2 ejemplos hoy bastan, resto SRS\n□ Escucha 3× y produce 1×\n\n❌ Error 90%: olvidar partícula o mezclar plano/cortés. Usa diccionario para etiqueta [ru/ku] y practica con pitch Heiban donde toque.\n\n💬 Truco offline: di アメリカ人 → 日本語 → スペイン語を話す en voz alta 3×. Active recall.\n\n\nPara practicar offline: tapa el japonés y produce en voz alta. Si fallas, el SRS te lo trae en minutos. Mezcla este tema + vocab + escucha. Memoria 7±2: domina 2 ejemplos hoy a fondo. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
+          "palabras": 405
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "アメリカ人。",
+              "furigana": "アメリカ人。",
+              "romaji": "nihongo desu.",
+              "es": "Países, idiomas, gentilicios: アメリカ/英語, ス",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "日本語。",
+              "furigana": "日本語。",
+              "romaji": "nihongo desu.",
+              "es": "Países, idiomas, gentilicios: アメリカ/英語, ス",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "スペイン語を話す。",
+              "furigana": "スペイン語を話す。",
+              "romaji": "nihongo desu.",
+              "es": "Países, idiomas, gentilicios: アメリカ/英語, ス",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "アメリカ人。",
+              "furigana": "アメリカ人。",
+              "es": "Países, idiomas, gentilicios: アメリカ/英語, ス",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha (texto oculto) y elige.",
+              "respuesta": "アメリカ人。 — Países, idiomas, gentilicios: アメリカ/英語, ス"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "日本語。",
+              "furigana": "日本語。",
+              "es": "Países, idiomas, gentilicios: アメリカ/英語, ス",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "日本語。 — Países, idiomas, gentilicios: アメリカ/英語, ス"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "アメリカ人。",
+              "furigana": "アメリカ人。",
+              "es": "Países, idiomas, gentilicios: アメリカ/英語, ス",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: 'Países, idiomas, gentilicios: アメリカ/英語, ス'",
+              "respuesta": "アメリカ人。",
+              "jp": "アメリカ人。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: confundir アメリカ人 con 日本語 sin mirar partícula. Revisa tabla y di en voz alta 3×."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 58: Geografía mundial. Próxima: siguiente IMABI. Di 3 veces: アメリカ人。"
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 405,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-059",
+      "title": "IMABI 59: Saludos — 挨拶",
+      "stage": "IMABI · Beginners II",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 59: Saludos — 挨拶",
+          "text": "Aisatsu: おはよう, こんにちは, こんばんは, おやすみ, ただいま/おかえり.",
+          "examples": [
+            {
+              "jp": "おはようございます",
+              "kana": "おはようございます",
+              "es": "Aisatsu: おはよう, こんにちは, こんばんは, お"
+            },
+            {
+              "jp": "ただいま",
+              "kana": "ただいま",
+              "es": "Aisatsu: おはよう, こんにちは, こんばんは, お"
+            },
+            {
+              "jp": "お邪魔します",
+              "kana": "お邪魔します",
+              "es": "Aisatsu: おはよう, こんにちは, こんばんは, お"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Tienes que decir 'おはようございます' y dudas si es ただいま o お邪魔します."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Aisatsu: おはよう, こんにちは, こんばんは, おやすみ, ただいま/おかえり.\n\nObjetivo: usar «IMABI 59: Saludos» sin dudar en conversación.\n\n🧩 Fórmula: 【おはようございます】 patrón + ejemplos graduados.\nPiensa en bloques: partícula/marcador + forma + contexto.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica forma base (V-る / V-た / N)\n2) Añade marcador (挨拶)\n3) Coloca en frase con partícula correcta (は/が/を/に/で según verbo)\n\n⚖️ Tabla contrastiva:\n| Forma | Uso | Ejemplo |\n|---|---|---|\n| おはようございます | patrón 1 | おはようございます |\n| ただいま | patrón 2 | ただいま |\n| お邪魔します | patrón 3 | お邪魔します |\n\n💡 Ejemplos desglosados:\n1) おはようございます。 — Uso básico → partícula + verbo al final SOV.\n2) ただいま。 — Variante con tiempo/cortesía.\n3) お邪魔します。 — Contraste con forma similar.\n\n🔑 Mini-resumen:\n□ Recuerda forma + partícula\n□ 2 ejemplos hoy bastan, resto SRS\n□ Escucha 3× y produce 1×\n\n❌ Error 90%: olvidar partícula o mezclar plano/cortés. Usa diccionario para etiqueta [ru/ku] y practica con pitch Heiban donde toque.\n\n💬 Truco offline: di おはようございます → ただいま → お邪魔します en voz alta 3×. Active recall.\n\n\nPara practicar offline: tapa el japonés y produce en voz alta. Si fallas, el SRS te lo trae en minutos. Mezcla este tema + vocab + escucha. Memoria 7±2: domina 2 ejemplos hoy a fondo. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
+          "palabras": 409
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "おはようございます。",
+              "furigana": "おはようございます。",
+              "romaji": "nihongo desu.",
+              "es": "Aisatsu: おはよう, こんにちは, こんばんは, おやすみ, ただいま/",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "ただいま。",
+              "furigana": "ただいま。",
+              "romaji": "nihongo desu.",
+              "es": "Aisatsu: おはよう, こんにちは, こんばんは, おやすみ, ただいま/",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "お邪魔します。",
+              "furigana": "お邪魔します。",
+              "romaji": "nihongo desu.",
+              "es": "Aisatsu: おはよう, こんにちは, こんばんは, おやすみ, ただいま/",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "おはようございます。",
+              "furigana": "おはようございます。",
+              "es": "Aisatsu: おはよう, こんにちは, こんばんは, おやすみ, ただいま/",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha (texto oculto) y elige.",
+              "respuesta": "おはようございます。 — Aisatsu: おはよう, こんにちは, こんばんは, おやすみ, ただいま/"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "ただいま。",
+              "furigana": "ただいま。",
+              "es": "Aisatsu: おはよう, こんにちは, こんばんは, おやすみ, ただいま/",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "ただいま。 — Aisatsu: おはよう, こんにちは, こんばんは, おやすみ, ただいま/"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "おはようございます。",
+              "furigana": "おはようございます。",
+              "es": "Aisatsu: おはよう, こんにちは, こんばんは, おやすみ, ただいま/",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: 'Aisatsu: おはよう, こんにちは, こんばんは, おやすみ, ただいま/'",
+              "respuesta": "おはようございます。",
+              "jp": "おはようございます。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: confundir おはようございます con ただいま sin mirar partícula. Revisa tabla y di en voz alta 3×."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 59: Saludos — 挨拶. Próxima: siguiente IMABI. Di 3 veces: おはようございます。"
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Tienes que decir 'おはようございます' y dudas si es ただいま o お邪魔します."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Aisatsu: おはよう, こんにちは, こんばんは, おやすみ, ただいま/おかえり.\n\nObjetivo: usar «IMABI 59: Saludos» sin dudar en conversación.\n\n🧩 Fórmula: 【おはようございます】 patrón + ejemplos graduados.\nPiensa en bloques: partícula/marcador + forma + contexto.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica forma base (V-る / V-た / N)\n2) Añade marcador (挨拶)\n3) Coloca en frase con partícula correcta (は/が/を/に/で según verbo)\n\n⚖️ Tabla contrastiva:\n| Forma | Uso | Ejemplo |\n|---|---|---|\n| おはようございます | patrón 1 | おはようございます |\n| ただいま | patrón 2 | ただいま |\n| お邪魔します | patrón 3 | お邪魔します |\n\n💡 Ejemplos desglosados:\n1) おはようございます。 — Uso básico → partícula + verbo al final SOV.\n2) ただいま。 — Variante con tiempo/cortesía.\n3) お邪魔します。 — Contraste con forma similar.\n\n🔑 Mini-resumen:\n□ Recuerda forma + partícula\n□ 2 ejemplos hoy bastan, resto SRS\n□ Escucha 3× y produce 1×\n\n❌ Error 90%: olvidar partícula o mezclar plano/cortés. Usa diccionario para etiqueta [ru/ku] y practica con pitch Heiban donde toque.\n\n💬 Truco offline: di おはようございます → ただいま → お邪魔します en voz alta 3×. Active recall.\n\n\nPara practicar offline: tapa el japonés y produce en voz alta. Si fallas, el SRS te lo trae en minutos. Mezcla este tema + vocab + escucha. Memoria 7±2: domina 2 ejemplos hoy a fondo. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
+          "palabras": 409
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "おはようございます。",
+              "furigana": "おはようございます。",
+              "romaji": "nihongo desu.",
+              "es": "Aisatsu: おはよう, こんにちは, こんばんは, おやすみ, ただいま/",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "ただいま。",
+              "furigana": "ただいま。",
+              "romaji": "nihongo desu.",
+              "es": "Aisatsu: おはよう, こんにちは, こんばんは, おやすみ, ただいま/",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "お邪魔します。",
+              "furigana": "お邪魔します。",
+              "romaji": "nihongo desu.",
+              "es": "Aisatsu: おはよう, こんにちは, こんばんは, おやすみ, ただいま/",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "おはようございます。",
+              "furigana": "おはようございます。",
+              "es": "Aisatsu: おはよう, こんにちは, こんばんは, おやすみ, ただいま/",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha (texto oculto) y elige.",
+              "respuesta": "おはようございます。 — Aisatsu: おはよう, こんにちは, こんばんは, おやすみ, ただいま/"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "ただいま。",
+              "furigana": "ただいま。",
+              "es": "Aisatsu: おはよう, こんにちは, こんばんは, おやすみ, ただいま/",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "ただいま。 — Aisatsu: おはよう, こんにちは, こんばんは, おやすみ, ただいま/"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "おはようございます。",
+              "furigana": "おはようございます。",
+              "es": "Aisatsu: おはよう, こんにちは, こんばんは, おやすみ, ただいま/",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: 'Aisatsu: おはよう, こんにちは, こんばんは, おやすみ, ただいま/'",
+              "respuesta": "おはようございます。",
+              "jp": "おはようございます。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: confundir おはようございます con ただいま sin mirar partícula. Revisa tabla y di en voz alta 3×."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 59: Saludos — 挨拶. Próxima: siguiente IMABI. Di 3 veces: おはようございます。"
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 409,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-060",
+      "title": "IMABI 60: Sí — はい/ええ/うん",
+      "stage": "IMABI · Beginners II",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 60: Sí — はい/ええ/うん",
+          "text": "Sí según formalidad: はい, はあ, ええ, うん, うむ. Uso y nuance.",
+          "examples": [
+            {
+              "jp": "はい、そうです",
+              "kana": "はい、そうです",
+              "es": "Sí según formalidad: はい, はあ, え"
+            },
+            {
+              "jp": "ええ、大丈夫です",
+              "kana": "ええ、大丈夫です",
+              "es": "Sí según formalidad: はい, はあ, え"
+            },
+            {
+              "jp": "うん、わかった",
+              "kana": "うん、わかった",
+              "es": "Sí según formalidad: はい, はあ, え"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Tienes que decir 'はい、そうです' y dudas si es ええ、大丈夫です o うん、わかった."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Sí según formalidad: はい, はあ, ええ, うん, うむ. Uso y nuance.\n\nObjetivo: usar «IMABI 60: Sí» sin dudar en conversación.\n\n🧩 Fórmula: 【はい、そうです】 patrón + ejemplos graduados.\nPiensa en bloques: partícula/marcador + forma + contexto.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica forma base (V-る / V-た / N)\n2) Añade marcador (はい/ええ/うん)\n3) Coloca en frase con partícula correcta (は/が/を/に/で según verbo)\n\n⚖️ Tabla contrastiva:\n| Forma | Uso | Ejemplo |\n|---|---|---|\n| はい、そうです | patrón 1 | はい、そうです |\n| ええ、大丈夫です | patrón 2 | ええ、大丈夫です |\n| うん、わかった | patrón 3 | うん、わかった |\n\n💡 Ejemplos desglosados:\n1) はい、そうです。 — Uso básico → partícula + verbo al final SOV.\n2) ええ、大丈夫です。 — Variante con tiempo/cortesía.\n3) うん、わかった。 — Contraste con forma similar.\n\n🔑 Mini-resumen:\n□ Recuerda forma + partícula\n□ 2 ejemplos hoy bastan, resto SRS\n□ Escucha 3× y produce 1×\n\n❌ Error 90%: olvidar partícula o mezclar plano/cortés. Usa diccionario para etiqueta [ru/ku] y practica con pitch Heiban donde toque.\n\n💬 Truco offline: di はい、そうです → ええ、大丈夫です → うん、わかった en voz alta 3×. Active recall.\n\n\nPara practicar offline: tapa el japonés y produce en voz alta. Si fallas, el SRS te lo trae en minutos. Mezcla este tema + vocab + escucha. Memoria 7±2: domina 2 ejemplos hoy a fondo. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
+          "palabras": 405
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "はい、そうです。",
+              "furigana": "はい、そうです。",
+              "romaji": "nihongo desu.",
+              "es": "Sí según formalidad: はい, はあ, ええ, うん, うむ.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "ええ、大丈夫です。",
+              "furigana": "ええ、大丈夫です。",
+              "romaji": "nihongo desu.",
+              "es": "Sí según formalidad: はい, はあ, ええ, うん, うむ.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "うん、わかった。",
+              "furigana": "うん、わかった。",
+              "romaji": "nihongo desu.",
+              "es": "Sí según formalidad: はい, はあ, ええ, うん, うむ.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "はい、そうです。",
+              "furigana": "はい、そうです。",
+              "es": "Sí según formalidad: はい, はあ, ええ, うん, うむ.",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha (texto oculto) y elige.",
+              "respuesta": "はい、そうです。 — Sí según formalidad: はい, はあ, ええ, うん, うむ."
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "ええ、大丈夫です。",
+              "furigana": "ええ、大丈夫です。",
+              "es": "Sí según formalidad: はい, はあ, ええ, うん, うむ.",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "ええ、大丈夫です。 — Sí según formalidad: はい, はあ, ええ, うん, うむ."
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "はい、そうです。",
+              "furigana": "はい、そうです。",
+              "es": "Sí según formalidad: はい, はあ, ええ, うん, うむ.",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: 'Sí según formalidad: はい, はあ, ええ, うん, うむ.'",
+              "respuesta": "はい、そうです。",
+              "jp": "はい、そうです。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: confundir はい、そうです con ええ、大丈夫です sin mirar partícula. Revisa tabla y di en voz alta 3×."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 60: Sí — はい/ええ/うん. Próxima: siguiente IMABI. Di 3 veces: はい、そうです。"
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Tienes que decir 'はい、そうです' y dudas si es ええ、大丈夫です o うん、わかった."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Sí según formalidad: はい, はあ, ええ, うん, うむ. Uso y nuance.\n\nObjetivo: usar «IMABI 60: Sí» sin dudar en conversación.\n\n🧩 Fórmula: 【はい、そうです】 patrón + ejemplos graduados.\nPiensa en bloques: partícula/marcador + forma + contexto.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica forma base (V-る / V-た / N)\n2) Añade marcador (はい/ええ/うん)\n3) Coloca en frase con partícula correcta (は/が/を/に/で según verbo)\n\n⚖️ Tabla contrastiva:\n| Forma | Uso | Ejemplo |\n|---|---|---|\n| はい、そうです | patrón 1 | はい、そうです |\n| ええ、大丈夫です | patrón 2 | ええ、大丈夫です |\n| うん、わかった | patrón 3 | うん、わかった |\n\n💡 Ejemplos desglosados:\n1) はい、そうです。 — Uso básico → partícula + verbo al final SOV.\n2) ええ、大丈夫です。 — Variante con tiempo/cortesía.\n3) うん、わかった。 — Contraste con forma similar.\n\n🔑 Mini-resumen:\n□ Recuerda forma + partícula\n□ 2 ejemplos hoy bastan, resto SRS\n□ Escucha 3× y produce 1×\n\n❌ Error 90%: olvidar partícula o mezclar plano/cortés. Usa diccionario para etiqueta [ru/ku] y practica con pitch Heiban donde toque.\n\n💬 Truco offline: di はい、そうです → ええ、大丈夫です → うん、わかった en voz alta 3×. Active recall.\n\n\nPara practicar offline: tapa el japonés y produce en voz alta. Si fallas, el SRS te lo trae en minutos. Mezcla este tema + vocab + escucha. Memoria 7±2: domina 2 ejemplos hoy a fondo. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
+          "palabras": 405
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "はい、そうです。",
+              "furigana": "はい、そうです。",
+              "romaji": "nihongo desu.",
+              "es": "Sí según formalidad: はい, はあ, ええ, うん, うむ.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "ええ、大丈夫です。",
+              "furigana": "ええ、大丈夫です。",
+              "romaji": "nihongo desu.",
+              "es": "Sí según formalidad: はい, はあ, ええ, うん, うむ.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "うん、わかった。",
+              "furigana": "うん、わかった。",
+              "romaji": "nihongo desu.",
+              "es": "Sí según formalidad: はい, はあ, ええ, うん, うむ.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "はい、そうです。",
+              "furigana": "はい、そうです。",
+              "es": "Sí según formalidad: はい, はあ, ええ, うん, うむ.",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha (texto oculto) y elige.",
+              "respuesta": "はい、そうです。 — Sí según formalidad: はい, はあ, ええ, うん, うむ."
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "ええ、大丈夫です。",
+              "furigana": "ええ、大丈夫です。",
+              "es": "Sí según formalidad: はい, はあ, ええ, うん, うむ.",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "ええ、大丈夫です。 — Sí según formalidad: はい, はあ, ええ, うん, うむ."
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "はい、そうです。",
+              "furigana": "はい、そうです。",
+              "es": "Sí según formalidad: はい, はあ, ええ, うん, うむ.",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: 'Sí según formalidad: はい, はあ, ええ, うん, うむ.'",
+              "respuesta": "はい、そうです。",
+              "jp": "はい、そうです。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: confundir はい、そうです con ええ、大丈夫です sin mirar partícula. Revisa tabla y di en voz alta 3×."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 60: Sí — はい/ええ/うん. Próxima: siguiente IMABI. Di 3 veces: はい、そうです。"
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 405,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-061",
+      "title": "IMABI 61: No — いいえ/いえ/いや",
+      "stage": "IMABI · Beginners II",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 61: No — いいえ/いえ/いや",
+          "text": "No según formalidad: いいえ, いえ, いや, 否, ううん. Rechazo suave.",
+          "examples": [
+            {
+              "jp": "いいえ、違います",
+              "kana": "いいえ、違います",
+              "es": "No según formalidad: いいえ, いえ, "
+            },
+            {
+              "jp": "いや、大丈夫",
+              "kana": "いや、大丈夫",
+              "es": "No según formalidad: いいえ, いえ, "
+            },
+            {
+              "jp": "ううん、知らない",
+              "kana": "ううん、知らない",
+              "es": "No según formalidad: いいえ, いえ, "
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Tienes que decir 'いいえ、違います' y dudas si es いや、大丈夫 o ううん、知らない."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "No según formalidad: いいえ, いえ, いや, 否, ううん. Rechazo suave.\n\nObjetivo: usar «IMABI 61: No» sin dudar en conversación.\n\n🧩 Fórmula: 【いいえ、違います】 patrón + ejemplos graduados.\nPiensa en bloques: partícula/marcador + forma + contexto.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica forma base (V-る / V-た / N)\n2) Añade marcador (いいえ/いえ/いや)\n3) Coloca en frase con partícula correcta (は/が/を/に/で según verbo)\n\n⚖️ Tabla contrastiva:\n| Forma | Uso | Ejemplo |\n|---|---|---|\n| いいえ、違います | patrón 1 | いいえ、違います |\n| いや、大丈夫 | patrón 2 | いや、大丈夫 |\n| ううん、知らない | patrón 3 | ううん、知らない |\n\n💡 Ejemplos desglosados:\n1) いいえ、違います。 — Uso básico → partícula + verbo al final SOV.\n2) いや、大丈夫。 — Variante con tiempo/cortesía.\n3) ううん、知らない。 — Contraste con forma similar.\n\n🔑 Mini-resumen:\n□ Recuerda forma + partícula\n□ 2 ejemplos hoy bastan, resto SRS\n□ Escucha 3× y produce 1×\n\n❌ Error 90%: olvidar partícula o mezclar plano/cortés. Usa diccionario para etiqueta [ru/ku] y practica con pitch Heiban donde toque.\n\n💬 Truco offline: di いいえ、違います → いや、大丈夫 → ううん、知らない en voz alta 3×. Active recall.\n\n\nPara practicar offline: tapa el japonés y produce en voz alta. Si fallas, el SRS te lo trae en minutos. Mezcla este tema + vocab + escucha. Memoria 7±2: domina 2 ejemplos hoy a fondo. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
+          "palabras": 413
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "いいえ、違います。",
+              "furigana": "いいえ、違います。",
+              "romaji": "nihongo desu.",
+              "es": "No según formalidad: いいえ, いえ, いや, 否, ううん",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "いいえ、違います。",
+              "furigana": "いいえ、違います。",
+              "romaji": "nihongo desu.",
+              "es": "No según formalidad: いいえ, いえ, いや, 否, ううん",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "いいえ、違います。",
+              "furigana": "いいえ、違います。",
+              "romaji": "nihongo desu.",
+              "es": "No según formalidad: いいえ, いえ, いや, 否, ううん",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "いいえ、違います。",
+              "furigana": "いいえ、違います。",
+              "es": "No según formalidad: いいえ, いえ, いや, 否, ううん",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha (texto oculto) y elige.",
+              "respuesta": "いいえ、違います。 — No según formalidad: いいえ, いえ, いや, 否, ううん"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "いいえ、違います。",
+              "furigana": "いいえ、違います。",
+              "es": "No según formalidad: いいえ, いえ, いや, 否, ううん",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "いいえ、違います。 — No según formalidad: いいえ, いえ, いや, 否, ううん"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "いいえ、違います。",
+              "furigana": "いいえ、違います。",
+              "es": "No según formalidad: いいえ, いえ, いや, 否, ううん",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: 'No según formalidad: いいえ, いえ, いや, 否, ううん'",
+              "respuesta": "いいえ、違います。",
+              "jp": "いいえ、違います。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: confundir いいえ、違います con いや、大丈夫 sin mirar partícula. Revisa tabla y di en voz alta 3×."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 61: No — いいえ/いえ/いや. Próxima: siguiente IMABI. Di 3 veces: いいえ、違います。"
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Tienes que decir 'いいえ、違います' y dudas si es いや、大丈夫 o ううん、知らない."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "No según formalidad: いいえ, いえ, いや, 否, ううん. Rechazo suave.\n\nObjetivo: usar «IMABI 61: No» sin dudar en conversación.\n\n🧩 Fórmula: 【いいえ、違います】 patrón + ejemplos graduados.\nPiensa en bloques: partícula/marcador + forma + contexto.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica forma base (V-る / V-た / N)\n2) Añade marcador (いいえ/いえ/いや)\n3) Coloca en frase con partícula correcta (は/が/を/に/で según verbo)\n\n⚖️ Tabla contrastiva:\n| Forma | Uso | Ejemplo |\n|---|---|---|\n| いいえ、違います | patrón 1 | いいえ、違います |\n| いや、大丈夫 | patrón 2 | いや、大丈夫 |\n| ううん、知らない | patrón 3 | ううん、知らない |\n\n💡 Ejemplos desglosados:\n1) いいえ、違います。 — Uso básico → partícula + verbo al final SOV.\n2) いや、大丈夫。 — Variante con tiempo/cortesía.\n3) ううん、知らない。 — Contraste con forma similar.\n\n🔑 Mini-resumen:\n□ Recuerda forma + partícula\n□ 2 ejemplos hoy bastan, resto SRS\n□ Escucha 3× y produce 1×\n\n❌ Error 90%: olvidar partícula o mezclar plano/cortés. Usa diccionario para etiqueta [ru/ku] y practica con pitch Heiban donde toque.\n\n💬 Truco offline: di いいえ、違います → いや、大丈夫 → ううん、知らない en voz alta 3×. Active recall.\n\n\nPara practicar offline: tapa el japonés y produce en voz alta. Si fallas, el SRS te lo trae en minutos. Mezcla este tema + vocab + escucha. Memoria 7±2: domina 2 ejemplos hoy a fondo. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
+          "palabras": 413
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "いいえ、違います。",
+              "furigana": "いいえ、違います。",
+              "romaji": "nihongo desu.",
+              "es": "No según formalidad: いいえ, いえ, いや, 否, ううん",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "いいえ、違います。",
+              "furigana": "いいえ、違います。",
+              "romaji": "nihongo desu.",
+              "es": "No según formalidad: いいえ, いえ, いや, 否, ううん",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "いいえ、違います。",
+              "furigana": "いいえ、違います。",
+              "romaji": "nihongo desu.",
+              "es": "No según formalidad: いいえ, いえ, いや, 否, ううん",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "いいえ、違います。",
+              "furigana": "いいえ、違います。",
+              "es": "No según formalidad: いいえ, いえ, いや, 否, ううん",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha (texto oculto) y elige.",
+              "respuesta": "いいえ、違います。 — No según formalidad: いいえ, いえ, いや, 否, ううん"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "いいえ、違います。",
+              "furigana": "いいえ、違います。",
+              "es": "No según formalidad: いいえ, いえ, いや, 否, ううん",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "いいえ、違います。 — No según formalidad: いいえ, いえ, いや, 否, ううん"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "いいえ、違います。",
+              "furigana": "いいえ、違います。",
+              "es": "No según formalidad: いいえ, いえ, いや, 否, ううん",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: 'No según formalidad: いいえ, いえ, いや, 否, ううん'",
+              "respuesta": "いいえ、違います。",
+              "jp": "いいえ、違います。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: confundir いいえ、違います con いや、大丈夫 sin mirar partícula. Revisa tabla y di en voz alta 3×."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 61: No — いいえ/いえ/いや. Próxima: siguiente IMABI. Di 3 veces: いいえ、違います。"
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 413,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-064",
+      "title": "IMABI 64: を transición — を通る/出る",
+      "stage": "IMABI · Beginners II",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 64: を transición — を通る/出る",
+          "text": "を de trayectoria: 公園を歩く, 空を飛ぶ, 家を出る. No objeto.",
+          "examples": [
+            {
+              "jp": "公園を歩く",
+              "kana": "公園を歩く",
+              "es": "を de trayectoria: 公園を歩く, 空を飛ぶ,"
+            },
+            {
+              "jp": "橋を渡る",
+              "kana": "橋を渡る",
+              "es": "を de trayectoria: 公園を歩く, 空を飛ぶ,"
+            },
+            {
+              "jp": "家を出る",
+              "kana": "家を出る",
+              "es": "を de trayectoria: 公園を歩く, 空を飛ぶ,"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Tienes que decir '公園を歩く' y dudas si es 橋を渡る o 家を出る."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "を de trayectoria: 公園を歩く, 空を飛ぶ, 家を出る. No objeto.\n\nObjetivo: usar «IMABI 64: を transición» sin dudar en conversación.\n\n🧩 Fórmula: 【公園を歩く】 patrón + ejemplos graduados.\nPiensa en bloques: partícula/marcador + forma + contexto.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica forma base (V-る / V-た / N)\n2) Añade marcador (を通る/出る)\n3) Coloca en frase con partícula correcta (は/が/を/に/で según verbo)\n\n⚖️ Tabla contrastiva:\n| Forma | Uso | Ejemplo |\n|---|---|---|\n| 公園を歩く | patrón 1 | 公園を歩く |\n| 橋を渡る | patrón 2 | 橋を渡る |\n| 家を出る | patrón 3 | 家を出る |\n\n💡 Ejemplos desglosados:\n1) 公園を歩く。 — Uso básico → partícula + verbo al final SOV.\n2) 橋を渡る。 — Variante con tiempo/cortesía.\n3) 家を出る。 — Contraste con forma similar.\n\n🔑 Mini-resumen:\n□ Recuerda forma + partícula\n□ 2 ejemplos hoy bastan, resto SRS\n□ Escucha 3× y produce 1×\n\n❌ Error 90%: olvidar partícula o mezclar plano/cortés. Usa diccionario para etiqueta [ru/ku] y practica con pitch Heiban donde toque.\n\n💬 Truco offline: di 公園を歩く → 橋を渡る → 家を出る en voz alta 3×. Active recall.\n\n\nPara practicar offline: tapa el japonés y produce en voz alta. Si fallas, el SRS te lo trae en minutos. Mezcla este tema + vocab + escucha. Memoria 7±2: domina 2 ejemplos hoy a fondo. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
+          "palabras": 412
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "公園を歩く。",
+              "furigana": "公園を歩く。",
+              "romaji": "nihongo desu.",
+              "es": "を de trayectoria: 公園を歩く, 空を飛ぶ, 家を出る. No ",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "橋を渡る。",
+              "furigana": "橋を渡る。",
+              "romaji": "nihongo desu.",
+              "es": "を de trayectoria: 公園を歩く, 空を飛ぶ, 家を出る. No ",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "家を出る。",
+              "furigana": "家を出る。",
+              "romaji": "nihongo desu.",
+              "es": "を de trayectoria: 公園を歩く, 空を飛ぶ, 家を出る. No ",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "公園を歩く。",
+              "furigana": "公園を歩く。",
+              "es": "を de trayectoria: 公園を歩く, 空を飛ぶ, 家を出る. No ",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha (texto oculto) y elige.",
+              "respuesta": "公園を歩く。 — を de trayectoria: 公園を歩く, 空を飛ぶ, 家を出る. No "
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "橋を渡る。",
+              "furigana": "橋を渡る。",
+              "es": "を de trayectoria: 公園を歩く, 空を飛ぶ, 家を出る. No ",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "橋を渡る。 — を de trayectoria: 公園を歩く, 空を飛ぶ, 家を出る. No "
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "公園を歩く。",
+              "furigana": "公園を歩く。",
+              "es": "を de trayectoria: 公園を歩く, 空を飛ぶ, 家を出る. No ",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: 'を de trayectoria: 公園を歩く, 空を飛ぶ, 家を出る. No '",
+              "respuesta": "公園を歩く。",
+              "jp": "公園を歩く。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: confundir 公園を歩く con 橋を渡る sin mirar partícula. Revisa tabla y di en voz alta 3×."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 64: を transición — を通る/出る. Próxima: siguiente IMABI. Di 3 veces: 公園を歩く。"
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Tienes que decir '公園を歩く' y dudas si es 橋を渡る o 家を出る."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "を de trayectoria: 公園を歩く, 空を飛ぶ, 家を出る. No objeto.\n\nObjetivo: usar «IMABI 64: を transición» sin dudar en conversación.\n\n🧩 Fórmula: 【公園を歩く】 patrón + ejemplos graduados.\nPiensa en bloques: partícula/marcador + forma + contexto.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica forma base (V-る / V-た / N)\n2) Añade marcador (を通る/出る)\n3) Coloca en frase con partícula correcta (は/が/を/に/で según verbo)\n\n⚖️ Tabla contrastiva:\n| Forma | Uso | Ejemplo |\n|---|---|---|\n| 公園を歩く | patrón 1 | 公園を歩く |\n| 橋を渡る | patrón 2 | 橋を渡る |\n| 家を出る | patrón 3 | 家を出る |\n\n💡 Ejemplos desglosados:\n1) 公園を歩く。 — Uso básico → partícula + verbo al final SOV.\n2) 橋を渡る。 — Variante con tiempo/cortesía.\n3) 家を出る。 — Contraste con forma similar.\n\n🔑 Mini-resumen:\n□ Recuerda forma + partícula\n□ 2 ejemplos hoy bastan, resto SRS\n□ Escucha 3× y produce 1×\n\n❌ Error 90%: olvidar partícula o mezclar plano/cortés. Usa diccionario para etiqueta [ru/ku] y practica con pitch Heiban donde toque.\n\n💬 Truco offline: di 公園を歩く → 橋を渡る → 家を出る en voz alta 3×. Active recall.\n\n\nPara practicar offline: tapa el japonés y produce en voz alta. Si fallas, el SRS te lo trae en minutos. Mezcla este tema + vocab + escucha. Memoria 7±2: domina 2 ejemplos hoy a fondo. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
+          "palabras": 412
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "公園を歩く。",
+              "furigana": "公園を歩く。",
+              "romaji": "nihongo desu.",
+              "es": "を de trayectoria: 公園を歩く, 空を飛ぶ, 家を出る. No ",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "橋を渡る。",
+              "furigana": "橋を渡る。",
+              "romaji": "nihongo desu.",
+              "es": "を de trayectoria: 公園を歩く, 空を飛ぶ, 家を出る. No ",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "家を出る。",
+              "furigana": "家を出る。",
+              "romaji": "nihongo desu.",
+              "es": "を de trayectoria: 公園を歩く, 空を飛ぶ, 家を出る. No ",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "公園を歩く。",
+              "furigana": "公園を歩く。",
+              "es": "を de trayectoria: 公園を歩く, 空を飛ぶ, 家を出る. No ",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha (texto oculto) y elige.",
+              "respuesta": "公園を歩く。 — を de trayectoria: 公園を歩く, 空を飛ぶ, 家を出る. No "
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "橋を渡る。",
+              "furigana": "橋を渡る。",
+              "es": "を de trayectoria: 公園を歩く, 空を飛ぶ, 家を出る. No ",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "橋を渡る。 — を de trayectoria: 公園を歩く, 空を飛ぶ, 家を出る. No "
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "公園を歩く。",
+              "furigana": "公園を歩く。",
+              "es": "を de trayectoria: 公園を歩く, 空を飛ぶ, 家を出る. No ",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: 'を de trayectoria: 公園を歩く, 空を飛ぶ, 家を出る. No '",
+              "respuesta": "公園を歩く。",
+              "jp": "公園を歩く。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: confundir 公園を歩く con 橋を渡る sin mirar partícula. Revisa tabla y di en voz alta 3×."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 64: を transición — を通る/出る. Próxima: siguiente IMABI. Di 3 veces: 公園を歩く。"
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 412,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-065",
+      "title": "IMABI 65: Adverbios I",
+      "stage": "IMABI · Beginners II",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 65: Adverbios I",
+          "text": "Adverbios puros: もう, まだ, とても, ちょっと, ゆっくり, はっきり.",
+          "examples": [
+            {
+              "jp": "とても速い",
+              "kana": "とても速い",
+              "es": "Adverbios puros: もう, まだ, とても, "
+            },
+            {
+              "jp": "ゆっくり話す",
+              "kana": "ゆっくり話す",
+              "es": "Adverbios puros: もう, まだ, とても, "
+            },
+            {
+              "jp": "もう帰った",
+              "kana": "もう帰った",
+              "es": "Adverbios puros: もう, まだ, とても, "
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Tienes que decir 'とても速い' y dudas si es ゆっくり話す o もう帰った."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Adverbios puros: もう, まだ, とても, ちょっと, ゆっくり, はっきり.\n\nObjetivo: usar «IMABI 65: Adverbios I» sin dudar en conversación.\n\n🧩 Fórmula: 【とても速い】 patrón + ejemplos graduados.\nPiensa en bloques: partícula/marcador + forma + contexto.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica forma base (V-る / V-た / N)\n2) Añade marcador (IMABI 65: Adverbios )\n3) Coloca en frase con partícula correcta (は/が/を/に/で según verbo)\n\n⚖️ Tabla contrastiva:\n| Forma | Uso | Ejemplo |\n|---|---|---|\n| とても速い | patrón 1 | とても速い |\n| ゆっくり話す | patrón 2 | ゆっくり話す |\n| もう帰った | patrón 3 | もう帰った |\n\n💡 Ejemplos desglosados:\n1) とても速い。 — Uso básico → partícula + verbo al final SOV.\n2) ゆっくり話す。 — Variante con tiempo/cortesía.\n3) もう帰った。 — Contraste con forma similar.\n\n🔑 Mini-resumen:\n□ Recuerda forma + partícula\n□ 2 ejemplos hoy bastan, resto SRS\n□ Escucha 3× y produce 1×\n\n❌ Error 90%: olvidar partícula o mezclar plano/cortés. Usa diccionario para etiqueta [ru/ku] y practica con pitch Heiban donde toque.\n\n💬 Truco offline: di とても速い → ゆっくり話す → もう帰った en voz alta 3×. Active recall.\n\n\nPara practicar offline: tapa el japonés y produce en voz alta. Si fallas, el SRS te lo trae en minutos. Mezcla este tema + vocab + escucha. Memoria 7±2: domina 2 ejemplos hoy a fondo. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
+          "palabras": 406
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "とても速い。",
+              "furigana": "とても速い。",
+              "romaji": "nihongo desu.",
+              "es": "Adverbios puros: もう, まだ, とても, ちょっと, ゆっくり",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "ゆっくり話す。",
+              "furigana": "ゆっくり話す。",
+              "romaji": "nihongo desu.",
+              "es": "Adverbios puros: もう, まだ, とても, ちょっと, ゆっくり",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "もう帰った。",
+              "furigana": "もう帰った。",
+              "romaji": "nihongo desu.",
+              "es": "Adverbios puros: もう, まだ, とても, ちょっと, ゆっくり",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "とても速い。",
+              "furigana": "とても速い。",
+              "es": "Adverbios puros: もう, まだ, とても, ちょっと, ゆっくり",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha (texto oculto) y elige.",
+              "respuesta": "とても速い。 — Adverbios puros: もう, まだ, とても, ちょっと, ゆっくり"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "ゆっくり話す。",
+              "furigana": "ゆっくり話す。",
+              "es": "Adverbios puros: もう, まだ, とても, ちょっと, ゆっくり",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "ゆっくり話す。 — Adverbios puros: もう, まだ, とても, ちょっと, ゆっくり"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "とても速い。",
+              "furigana": "とても速い。",
+              "es": "Adverbios puros: もう, まだ, とても, ちょっと, ゆっくり",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: 'Adverbios puros: もう, まだ, とても, ちょっと, ゆっくり'",
+              "respuesta": "とても速い。",
+              "jp": "とても速い。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: confundir とても速い con ゆっくり話す sin mirar partícula. Revisa tabla y di en voz alta 3×."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 65: Adverbios I. Próxima: siguiente IMABI. Di 3 veces: とても速い。"
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Tienes que decir 'とても速い' y dudas si es ゆっくり話す o もう帰った."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Adverbios puros: もう, まだ, とても, ちょっと, ゆっくり, はっきり.\n\nObjetivo: usar «IMABI 65: Adverbios I» sin dudar en conversación.\n\n🧩 Fórmula: 【とても速い】 patrón + ejemplos graduados.\nPiensa en bloques: partícula/marcador + forma + contexto.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica forma base (V-る / V-た / N)\n2) Añade marcador (IMABI 65: Adverbios )\n3) Coloca en frase con partícula correcta (は/が/を/に/で según verbo)\n\n⚖️ Tabla contrastiva:\n| Forma | Uso | Ejemplo |\n|---|---|---|\n| とても速い | patrón 1 | とても速い |\n| ゆっくり話す | patrón 2 | ゆっくり話す |\n| もう帰った | patrón 3 | もう帰った |\n\n💡 Ejemplos desglosados:\n1) とても速い。 — Uso básico → partícula + verbo al final SOV.\n2) ゆっくり話す。 — Variante con tiempo/cortesía.\n3) もう帰った。 — Contraste con forma similar.\n\n🔑 Mini-resumen:\n□ Recuerda forma + partícula\n□ 2 ejemplos hoy bastan, resto SRS\n□ Escucha 3× y produce 1×\n\n❌ Error 90%: olvidar partícula o mezclar plano/cortés. Usa diccionario para etiqueta [ru/ku] y practica con pitch Heiban donde toque.\n\n💬 Truco offline: di とても速い → ゆっくり話す → もう帰った en voz alta 3×. Active recall.\n\n\nPara practicar offline: tapa el japonés y produce en voz alta. Si fallas, el SRS te lo trae en minutos. Mezcla este tema + vocab + escucha. Memoria 7±2: domina 2 ejemplos hoy a fondo. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
+          "palabras": 406
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "とても速い。",
+              "furigana": "とても速い。",
+              "romaji": "nihongo desu.",
+              "es": "Adverbios puros: もう, まだ, とても, ちょっと, ゆっくり",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "ゆっくり話す。",
+              "furigana": "ゆっくり話す。",
+              "romaji": "nihongo desu.",
+              "es": "Adverbios puros: もう, まだ, とても, ちょっと, ゆっくり",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "もう帰った。",
+              "furigana": "もう帰った。",
+              "romaji": "nihongo desu.",
+              "es": "Adverbios puros: もう, まだ, とても, ちょっと, ゆっくり",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "とても速い。",
+              "furigana": "とても速い。",
+              "es": "Adverbios puros: もう, まだ, とても, ちょっと, ゆっくり",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha (texto oculto) y elige.",
+              "respuesta": "とても速い。 — Adverbios puros: もう, まだ, とても, ちょっと, ゆっくり"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "ゆっくり話す。",
+              "furigana": "ゆっくり話す。",
+              "es": "Adverbios puros: もう, まだ, とても, ちょっと, ゆっくり",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "ゆっくり話す。 — Adverbios puros: もう, まだ, とても, ちょっと, ゆっくり"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "とても速い。",
+              "furigana": "とても速い。",
+              "es": "Adverbios puros: もう, まだ, とても, ちょっと, ゆっくり",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: 'Adverbios puros: もう, まだ, とても, ちょっと, ゆっくり'",
+              "respuesta": "とても速い。",
+              "jp": "とても速い。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: confundir とても速い con ゆっくり話す sin mirar partícula. Revisa tabla y di en voz alta 3×."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 65: Adverbios I. Próxima: siguiente IMABI. Di 3 veces: とても速い。"
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 406,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-066",
+      "title": "IMABI 66: Adverbios desde adj.",
+      "stage": "IMABI · Beginners II",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 66: Adverbios desde adj.",
+          "text": "Adv desde i-adj: 早い→早く, desde na-adj: 静か→静かに.",
+          "examples": [
+            {
+              "jp": "早く起きる",
+              "kana": "早く起きる",
+              "es": "Adv desde i-adj: 早い→早く, desde "
+            },
+            {
+              "jp": "静かに歩く",
+              "kana": "静かに歩く",
+              "es": "Adv desde i-adj: 早い→早く, desde "
+            },
+            {
+              "jp": "上手に描く",
+              "kana": "上手に描く",
+              "es": "Adv desde i-adj: 早い→早く, desde "
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Tienes que decir '早く起きる' y dudas si es 静かに歩く o 上手に描く."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Adv desde i-adj: 早い→早く, desde na-adj: 静か→静かに.\n\nObjetivo: usar «IMABI 66: Adverbios desde adj.» sin dudar en conversación.\n\n🧩 Fórmula: 【早く起きる】 patrón + ejemplos graduados.\nPiensa en bloques: partícula/marcador + forma + contexto.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica forma base (V-る / V-た / N)\n2) Añade marcador (IMABI 66: Adverbios )\n3) Coloca en frase con partícula correcta (は/が/を/に/で según verbo)\n\n⚖️ Tabla contrastiva:\n| Forma | Uso | Ejemplo |\n|---|---|---|\n| 早く起きる | patrón 1 | 早く起きる |\n| 静かに歩く | patrón 2 | 静かに歩く |\n| 上手に描く | patrón 3 | 上手に描く |\n\n💡 Ejemplos desglosados:\n1) 早く起きる。 — Uso básico → partícula + verbo al final SOV.\n2) 静かに歩く。 — Variante con tiempo/cortesía.\n3) 上手に描く。 — Contraste con forma similar.\n\n🔑 Mini-resumen:\n□ Recuerda forma + partícula\n□ 2 ejemplos hoy bastan, resto SRS\n□ Escucha 3× y produce 1×\n\n❌ Error 90%: olvidar partícula o mezclar plano/cortés. Usa diccionario para etiqueta [ru/ku] y practica con pitch Heiban donde toque.\n\n💬 Truco offline: di 早く起きる → 静かに歩く → 上手に描く en voz alta 3×. Active recall.\n\n\nPara practicar offline: tapa el japonés y produce en voz alta. Si fallas, el SRS te lo trae en minutos. Mezcla este tema + vocab + escucha. Memoria 7±2: domina 2 ejemplos hoy a fondo. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
+          "palabras": 406
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "早く起きる。",
+              "furigana": "早く起きる。",
+              "romaji": "nihongo desu.",
+              "es": "Adv desde i-adj: 早い→早く, desde na-adj: 静か",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "静かに歩く。",
+              "furigana": "静かに歩く。",
+              "romaji": "nihongo desu.",
+              "es": "Adv desde i-adj: 早い→早く, desde na-adj: 静か",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "上手に描く。",
+              "furigana": "上手に描く。",
+              "romaji": "nihongo desu.",
+              "es": "Adv desde i-adj: 早い→早く, desde na-adj: 静か",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "早く起きる。",
+              "furigana": "早く起きる。",
+              "es": "Adv desde i-adj: 早い→早く, desde na-adj: 静か",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha (texto oculto) y elige.",
+              "respuesta": "早く起きる。 — Adv desde i-adj: 早い→早く, desde na-adj: 静か"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "静かに歩く。",
+              "furigana": "静かに歩く。",
+              "es": "Adv desde i-adj: 早い→早く, desde na-adj: 静か",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "静かに歩く。 — Adv desde i-adj: 早い→早く, desde na-adj: 静か"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "早く起きる。",
+              "furigana": "早く起きる。",
+              "es": "Adv desde i-adj: 早い→早く, desde na-adj: 静か",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: 'Adv desde i-adj: 早い→早く, desde na-adj: 静か'",
+              "respuesta": "早く起きる。",
+              "jp": "早く起きる。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: confundir 早く起きる con 静かに歩く sin mirar partícula. Revisa tabla y di en voz alta 3×."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 66: Adverbios desde adj.. Próxima: siguiente IMABI. Di 3 veces: 早く起きる。"
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Tienes que decir '早く起きる' y dudas si es 静かに歩く o 上手に描く."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Adv desde i-adj: 早い→早く, desde na-adj: 静か→静かに.\n\nObjetivo: usar «IMABI 66: Adverbios desde adj.» sin dudar en conversación.\n\n🧩 Fórmula: 【早く起きる】 patrón + ejemplos graduados.\nPiensa en bloques: partícula/marcador + forma + contexto.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica forma base (V-る / V-た / N)\n2) Añade marcador (IMABI 66: Adverbios )\n3) Coloca en frase con partícula correcta (は/が/を/に/で según verbo)\n\n⚖️ Tabla contrastiva:\n| Forma | Uso | Ejemplo |\n|---|---|---|\n| 早く起きる | patrón 1 | 早く起きる |\n| 静かに歩く | patrón 2 | 静かに歩く |\n| 上手に描く | patrón 3 | 上手に描く |\n\n💡 Ejemplos desglosados:\n1) 早く起きる。 — Uso básico → partícula + verbo al final SOV.\n2) 静かに歩く。 — Variante con tiempo/cortesía.\n3) 上手に描く。 — Contraste con forma similar.\n\n🔑 Mini-resumen:\n□ Recuerda forma + partícula\n□ 2 ejemplos hoy bastan, resto SRS\n□ Escucha 3× y produce 1×\n\n❌ Error 90%: olvidar partícula o mezclar plano/cortés. Usa diccionario para etiqueta [ru/ku] y practica con pitch Heiban donde toque.\n\n💬 Truco offline: di 早く起きる → 静かに歩く → 上手に描く en voz alta 3×. Active recall.\n\n\nPara practicar offline: tapa el japonés y produce en voz alta. Si fallas, el SRS te lo trae en minutos. Mezcla este tema + vocab + escucha. Memoria 7±2: domina 2 ejemplos hoy a fondo. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
+          "palabras": 406
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "早く起きる。",
+              "furigana": "早く起きる。",
+              "romaji": "nihongo desu.",
+              "es": "Adv desde i-adj: 早い→早く, desde na-adj: 静か",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "静かに歩く。",
+              "furigana": "静かに歩く。",
+              "romaji": "nihongo desu.",
+              "es": "Adv desde i-adj: 早い→早く, desde na-adj: 静か",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "上手に描く。",
+              "furigana": "上手に描く。",
+              "romaji": "nihongo desu.",
+              "es": "Adv desde i-adj: 早い→早く, desde na-adj: 静か",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "早く起きる。",
+              "furigana": "早く起きる。",
+              "es": "Adv desde i-adj: 早い→早く, desde na-adj: 静か",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha (texto oculto) y elige.",
+              "respuesta": "早く起きる。 — Adv desde i-adj: 早い→早く, desde na-adj: 静か"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "静かに歩く。",
+              "furigana": "静かに歩く。",
+              "es": "Adv desde i-adj: 早い→早く, desde na-adj: 静か",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "静かに歩く。 — Adv desde i-adj: 早い→早く, desde na-adj: 静か"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "早く起きる。",
+              "furigana": "早く起きる。",
+              "es": "Adv desde i-adj: 早い→早く, desde na-adj: 静か",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: 'Adv desde i-adj: 早い→早く, desde na-adj: 静か'",
+              "respuesta": "早く起きる。",
+              "jp": "早く起きる。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: confundir 早く起きる con 静かに歩く sin mirar partícula. Revisa tabla y di en voz alta 3×."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 66: Adverbios desde adj.. Próxima: siguiente IMABI. Di 3 veces: 早く起きる。"
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 406,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-067",
+      "title": "IMABI 67: よい・いい — bueno irregular",
+      "stage": "IMABI · Beginners II",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 67: よい・いい — bueno irregular",
+          "text": "よい formal → いい coloquial. Conjugación irregular: よくない/よくない, よかった.",
+          "examples": [
+            {
+              "jp": "いい天気",
+              "kana": "いい天気",
+              "es": "よい formal → いい coloquial. Conj"
+            },
+            {
+              "jp": "よくない",
+              "kana": "よくない",
+              "es": "よい formal → いい coloquial. Conj"
+            },
+            {
+              "jp": "よかった",
+              "kana": "よかった",
+              "es": "よい formal → いい coloquial. Conj"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Tienes que decir 'いい天気' y dudas si es よくない o よかった."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "よい formal → いい coloquial. Conjugación irregular: よくない/よくない, よかった.\n\nObjetivo: usar «IMABI 67: よい・いい» sin dudar en conversación.\n\n🧩 Fórmula: 【いい天気】 patrón + ejemplos graduados.\nPiensa en bloques: partícula/marcador + forma + contexto.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica forma base (V-る / V-た / N)\n2) Añade marcador (bueno irregular)\n3) Coloca en frase con partícula correcta (は/が/を/に/で según verbo)\n\n⚖️ Tabla contrastiva:\n| Forma | Uso | Ejemplo |\n|---|---|---|\n| いい天気 | patrón 1 | いい天気 |\n| よくない | patrón 2 | よくない |\n| よかった | patrón 3 | よかった |\n\n💡 Ejemplos desglosados:\n1) いい天気。 — Uso básico → partícula + verbo al final SOV.\n2) よくない。 — Variante con tiempo/cortesía.\n3) よかった。 — Contraste con forma similar.\n\n🔑 Mini-resumen:\n□ Recuerda forma + partícula\n□ 2 ejemplos hoy bastan, resto SRS\n□ Escucha 3× y produce 1×\n\n❌ Error 90%: olvidar partícula o mezclar plano/cortés. Usa diccionario para etiqueta [ru/ku] y practica con pitch Heiban donde toque.\n\n💬 Truco offline: di いい天気 → よくない → よかった en voz alta 3×. Active recall.\n\n\nPara practicar offline: tapa el japonés y produce en voz alta. Si fallas, el SRS te lo trae en minutos. Mezcla este tema + vocab + escucha. Memoria 7±2: domina 2 ejemplos hoy a fondo. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
+          "palabras": 413
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "いい天気ですね。",
+              "furigana": "いい天気ですね。",
+              "romaji": "nihongo desu.",
+              "es": "よい formal → いい coloquial. Conjugación ir",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "いい天気ですね。",
+              "furigana": "いい天気ですね。",
+              "romaji": "nihongo desu.",
+              "es": "よい formal → いい coloquial. Conjugación ir",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "いい天気ですね。",
+              "furigana": "いい天気ですね。",
+              "romaji": "nihongo desu.",
+              "es": "よい formal → いい coloquial. Conjugación ir",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "いい天気ですね。",
+              "furigana": "いい天気ですね。",
+              "es": "よい formal → いい coloquial. Conjugación ir",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha (texto oculto) y elige.",
+              "respuesta": "いい天気ですね。 — よい formal → いい coloquial. Conjugación ir"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "いい天気ですね。",
+              "furigana": "いい天気ですね。",
+              "es": "よい formal → いい coloquial. Conjugación ir",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "いい天気ですね。 — よい formal → いい coloquial. Conjugación ir"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "いい天気ですね。",
+              "furigana": "いい天気ですね。",
+              "es": "よい formal → いい coloquial. Conjugación ir",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: 'よい formal → いい coloquial. Conjugación ir'",
+              "respuesta": "いい天気ですね。",
+              "jp": "いい天気ですね。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: confundir いい天気 con よくない sin mirar partícula. Revisa tabla y di en voz alta 3×."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 67: よい・いい — bueno irregular. Próxima: siguiente IMABI. Di 3 veces: いい天気。"
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Tienes que decir 'いい天気' y dudas si es よくない o よかった."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "よい formal → いい coloquial. Conjugación irregular: よくない/よくない, よかった.\n\nObjetivo: usar «IMABI 67: よい・いい» sin dudar en conversación.\n\n🧩 Fórmula: 【いい天気】 patrón + ejemplos graduados.\nPiensa en bloques: partícula/marcador + forma + contexto.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica forma base (V-る / V-た / N)\n2) Añade marcador (bueno irregular)\n3) Coloca en frase con partícula correcta (は/が/を/に/で según verbo)\n\n⚖️ Tabla contrastiva:\n| Forma | Uso | Ejemplo |\n|---|---|---|\n| いい天気 | patrón 1 | いい天気 |\n| よくない | patrón 2 | よくない |\n| よかった | patrón 3 | よかった |\n\n💡 Ejemplos desglosados:\n1) いい天気。 — Uso básico → partícula + verbo al final SOV.\n2) よくない。 — Variante con tiempo/cortesía.\n3) よかった。 — Contraste con forma similar.\n\n🔑 Mini-resumen:\n□ Recuerda forma + partícula\n□ 2 ejemplos hoy bastan, resto SRS\n□ Escucha 3× y produce 1×\n\n❌ Error 90%: olvidar partícula o mezclar plano/cortés. Usa diccionario para etiqueta [ru/ku] y practica con pitch Heiban donde toque.\n\n💬 Truco offline: di いい天気 → よくない → よかった en voz alta 3×. Active recall.\n\n\nPara practicar offline: tapa el japonés y produce en voz alta. Si fallas, el SRS te lo trae en minutos. Mezcla este tema + vocab + escucha. Memoria 7±2: domina 2 ejemplos hoy a fondo. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
+          "palabras": 413
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "いい天気ですね。",
+              "furigana": "いい天気ですね。",
+              "romaji": "nihongo desu.",
+              "es": "よい formal → いい coloquial. Conjugación ir",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "いい天気ですね。",
+              "furigana": "いい天気ですね。",
+              "romaji": "nihongo desu.",
+              "es": "よい formal → いい coloquial. Conjugación ir",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "いい天気ですね。",
+              "furigana": "いい天気ですね。",
+              "romaji": "nihongo desu.",
+              "es": "よい formal → いい coloquial. Conjugación ir",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "いい天気ですね。",
+              "furigana": "いい天気ですね。",
+              "es": "よい formal → いい coloquial. Conjugación ir",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha (texto oculto) y elige.",
+              "respuesta": "いい天気ですね。 — よい formal → いい coloquial. Conjugación ir"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "いい天気ですね。",
+              "furigana": "いい天気ですね。",
+              "es": "よい formal → いい coloquial. Conjugación ir",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "いい天気ですね。 — よい formal → いい coloquial. Conjugación ir"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "いい天気ですね。",
+              "furigana": "いい天気ですね。",
+              "es": "よい formal → いい coloquial. Conjugación ir",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: 'よい formal → いい coloquial. Conjugación ir'",
+              "respuesta": "いい天気ですね。",
+              "jp": "いい天気ですね。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: confundir いい天気 con よくない sin mirar partícula. Revisa tabla y di en voz alta 3×."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 67: よい・いい — bueno irregular. Próxima: siguiente IMABI. Di 3 veces: いい天気。"
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 413,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-070",
+      "title": "IMABI 70: Transitivo vs Intransitivo",
+      "stage": "IMABI · Beginners II",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 70: Transitivo vs Intransitivo",
+          "text": "Pares 自他: 開く/開ける, 閉まる/閉める, 付く/付ける.",
+          "examples": [
+            {
+              "jp": "ドアが開く",
+              "kana": "ドアが開く",
+              "es": "Pares 自他: 開く/開ける, 閉まる/閉める, 付く/"
+            },
+            {
+              "jp": "ドアを開ける",
+              "kana": "ドアを開ける",
+              "es": "Pares 自他: 開く/開ける, 閉まる/閉める, 付く/"
+            },
+            {
+              "jp": "電気がつく/つける",
+              "kana": "電気がつく/つける",
+              "es": "Pares 自他: 開く/開ける, 閉まる/閉める, 付く/"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Tienes que decir 'ドアが開く' y dudas si es ドアを開ける o 電気がつく/つける."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Pares 自他: 開く/開ける, 閉まる/閉める, 付く/付ける.\n\nObjetivo: usar «IMABI 70: Transitivo vs Intransitivo» sin dudar en conversación.\n\n🧩 Fórmula: 【ドアが開く】 patrón + ejemplos graduados.\nPiensa en bloques: partícula/marcador + forma + contexto.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica forma base (V-る / V-た / N)\n2) Añade marcador (IMABI 70: Transitivo)\n3) Coloca en frase con partícula correcta (は/が/を/に/で según verbo)\n\n⚖️ Tabla contrastiva:\n| Forma | Uso | Ejemplo |\n|---|---|---|\n| ドアが開く | patrón 1 | ドアが開く |\n| ドアを開ける | patrón 2 | ドアを開ける |\n| 電気がつく/つける | patrón 3 | 電気がつく/つける |\n\n💡 Ejemplos desglosados:\n1) ドアが開く。 — Uso básico → partícula + verbo al final SOV.\n2) ドアを開ける。 — Variante con tiempo/cortesía.\n3) 電気がつく/つける。 — Contraste con forma similar.\n\n🔑 Mini-resumen:\n□ Recuerda forma + partícula\n□ 2 ejemplos hoy bastan, resto SRS\n□ Escucha 3× y produce 1×\n\n❌ Error 90%: olvidar partícula o mezclar plano/cortés. Usa diccionario para etiqueta [ru/ku] y practica con pitch Heiban donde toque.\n\n💬 Truco offline: di ドアが開く → ドアを開ける → 電気がつく/つける en voz alta 3×. Active recall.\n\n\nPara practicar offline: tapa el japonés y produce en voz alta. Si fallas, el SRS te lo trae en minutos. Mezcla este tema + vocab + escucha. Memoria 7±2: domina 2 ejemplos hoy a fondo. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
+          "palabras": 412
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "ドアが開く。",
+              "furigana": "ドアが開く。",
+              "romaji": "nihongo desu.",
+              "es": "Pares 自他: 開く/開ける, 閉まる/閉める, 付く/付ける.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "ドアを開ける。",
+              "furigana": "ドアを開ける。",
+              "romaji": "nihongo desu.",
+              "es": "Pares 自他: 開く/開ける, 閉まる/閉める, 付く/付ける.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "電気がつく/つける。",
+              "furigana": "電気がつく/つける。",
+              "romaji": "nihongo desu.",
+              "es": "Pares 自他: 開く/開ける, 閉まる/閉める, 付く/付ける.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "ドアが開く。",
+              "furigana": "ドアが開く。",
+              "es": "Pares 自他: 開く/開ける, 閉まる/閉める, 付く/付ける.",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha (texto oculto) y elige.",
+              "respuesta": "ドアが開く。 — Pares 自他: 開く/開ける, 閉まる/閉める, 付く/付ける."
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "ドアを開ける。",
+              "furigana": "ドアを開ける。",
+              "es": "Pares 自他: 開く/開ける, 閉まる/閉める, 付く/付ける.",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "ドアを開ける。 — Pares 自他: 開く/開ける, 閉まる/閉める, 付く/付ける."
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "ドアが開く。",
+              "furigana": "ドアが開く。",
+              "es": "Pares 自他: 開く/開ける, 閉まる/閉める, 付く/付ける.",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: 'Pares 自他: 開く/開ける, 閉まる/閉める, 付く/付ける.'",
+              "respuesta": "ドアが開く。",
+              "jp": "ドアが開く。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: confundir ドアが開く con ドアを開ける sin mirar partícula. Revisa tabla y di en voz alta 3×."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 70: Transitivo vs Intransitivo. Próxima: siguiente IMABI. Di 3 veces: ドアが開く。"
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Tienes que decir 'ドアが開く' y dudas si es ドアを開ける o 電気がつく/つける."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Pares 自他: 開く/開ける, 閉まる/閉める, 付く/付ける.\n\nObjetivo: usar «IMABI 70: Transitivo vs Intransitivo» sin dudar en conversación.\n\n🧩 Fórmula: 【ドアが開く】 patrón + ejemplos graduados.\nPiensa en bloques: partícula/marcador + forma + contexto.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica forma base (V-る / V-た / N)\n2) Añade marcador (IMABI 70: Transitivo)\n3) Coloca en frase con partícula correcta (は/が/を/に/で según verbo)\n\n⚖️ Tabla contrastiva:\n| Forma | Uso | Ejemplo |\n|---|---|---|\n| ドアが開く | patrón 1 | ドアが開く |\n| ドアを開ける | patrón 2 | ドアを開ける |\n| 電気がつく/つける | patrón 3 | 電気がつく/つける |\n\n💡 Ejemplos desglosados:\n1) ドアが開く。 — Uso básico → partícula + verbo al final SOV.\n2) ドアを開ける。 — Variante con tiempo/cortesía.\n3) 電気がつく/つける。 — Contraste con forma similar.\n\n🔑 Mini-resumen:\n□ Recuerda forma + partícula\n□ 2 ejemplos hoy bastan, resto SRS\n□ Escucha 3× y produce 1×\n\n❌ Error 90%: olvidar partícula o mezclar plano/cortés. Usa diccionario para etiqueta [ru/ku] y practica con pitch Heiban donde toque.\n\n💬 Truco offline: di ドアが開く → ドアを開ける → 電気がつく/つける en voz alta 3×. Active recall.\n\n\nPara practicar offline: tapa el japonés y produce en voz alta. Si fallas, el SRS te lo trae en minutos. Mezcla este tema + vocab + escucha. Memoria 7±2: domina 2 ejemplos hoy a fondo. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
+          "palabras": 412
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "ドアが開く。",
+              "furigana": "ドアが開く。",
+              "romaji": "nihongo desu.",
+              "es": "Pares 自他: 開く/開ける, 閉まる/閉める, 付く/付ける.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "ドアを開ける。",
+              "furigana": "ドアを開ける。",
+              "romaji": "nihongo desu.",
+              "es": "Pares 自他: 開く/開ける, 閉まる/閉める, 付く/付ける.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "電気がつく/つける。",
+              "furigana": "電気がつく/つける。",
+              "romaji": "nihongo desu.",
+              "es": "Pares 自他: 開く/開ける, 閉まる/閉める, 付く/付ける.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "ドアが開く。",
+              "furigana": "ドアが開く。",
+              "es": "Pares 自他: 開く/開ける, 閉まる/閉める, 付く/付ける.",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha (texto oculto) y elige.",
+              "respuesta": "ドアが開く。 — Pares 自他: 開く/開ける, 閉まる/閉める, 付く/付ける."
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "ドアを開ける。",
+              "furigana": "ドアを開ける。",
+              "es": "Pares 自他: 開く/開ける, 閉まる/閉める, 付く/付ける.",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "ドアを開ける。 — Pares 自他: 開く/開ける, 閉まる/閉める, 付く/付ける."
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "ドアが開く。",
+              "furigana": "ドアが開く。",
+              "es": "Pares 自他: 開く/開ける, 閉まる/閉める, 付く/付ける.",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: 'Pares 自他: 開く/開ける, 閉まる/閉める, 付く/付ける.'",
+              "respuesta": "ドアが開く。",
+              "jp": "ドアが開く。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: confundir ドアが開く con ドアを開ける sin mirar partícula. Revisa tabla y di en voz alta 3×."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 70: Transitivo vs Intransitivo. Próxima: siguiente IMABI. Di 3 veces: ドアが開く。"
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 412,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-075",
+      "title": "IMABI 75: と cita — と言う/思う",
+      "stage": "IMABI · Beginners II",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 75: と cita — と言う/思う",
+          "text": "Cita: 「...」と言う/思う/聞く. と para reportar pensamiento.",
+          "examples": [
+            {
+              "jp": "明日行くと言う",
+              "kana": "明日行くと言う",
+              "es": "Cita: 「...」と言う/思う/聞く. と para r"
+            },
+            {
+              "jp": "おいしいと思った",
+              "kana": "おいしいと思った",
+              "es": "Cita: 「...」と言う/思う/聞く. と para r"
+            },
+            {
+              "jp": "...と聞いた",
+              "kana": "...と聞いた",
+              "es": "Cita: 「...」と言う/思う/聞く. と para r"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Tienes que decir '明日行くと言う' y dudas si es おいしいと思った o ...と聞いた."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Cita: 「...」と言う/思う/聞く. と para reportar pensamiento.\n\nObjetivo: usar «IMABI 75: と cita» sin dudar en conversación.\n\n🧩 Fórmula: 【明日行くと言う】 patrón + ejemplos graduados.\nPiensa en bloques: partícula/marcador + forma + contexto.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica forma base (V-る / V-た / N)\n2) Añade marcador (と言う/思う)\n3) Coloca en frase con partícula correcta (は/が/を/に/で según verbo)\n\n⚖️ Tabla contrastiva:\n| Forma | Uso | Ejemplo |\n|---|---|---|\n| 明日行くと言う | patrón 1 | 明日行くと言う |\n| おいしいと思った | patrón 2 | おいしいと思った |\n| ...と聞いた | patrón 3 | ...と聞いた |\n\n💡 Ejemplos desglosados:\n1) 明日行くと言う。 — Uso básico → partícula + verbo al final SOV.\n2) おいしいと思った。 — Variante con tiempo/cortesía.\n3) ...と聞いた。 — Contraste con forma similar.\n\n🔑 Mini-resumen:\n□ Recuerda forma + partícula\n□ 2 ejemplos hoy bastan, resto SRS\n□ Escucha 3× y produce 1×\n\n❌ Error 90%: olvidar partícula o mezclar plano/cortés. Usa diccionario para etiqueta [ru/ku] y practica con pitch Heiban donde toque.\n\n💬 Truco offline: di 明日行くと言う → おいしいと思った → ...と聞いた en voz alta 3×. Active recall.\n\n\nPara practicar offline: tapa el japonés y produce en voz alta. Si fallas, el SRS te lo trae en minutos. Mezcla este tema + vocab + escucha. Memoria 7±2: domina 2 ejemplos hoy a fondo. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
+          "palabras": 410
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "明日行くと言う。",
+              "furigana": "明日行くと言う。",
+              "romaji": "nihongo desu.",
+              "es": "Cita: 「...」と言う/思う/聞く. と para reportar pe",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "おいしいと思った。",
+              "furigana": "おいしいと思った。",
+              "romaji": "nihongo desu.",
+              "es": "Cita: 「...」と言う/思う/聞く. と para reportar pe",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "...と聞いた。",
+              "furigana": "...と聞いた。",
+              "romaji": "nihongo desu.",
+              "es": "Cita: 「...」と言う/思う/聞く. と para reportar pe",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "明日行くと言う。",
+              "furigana": "明日行くと言う。",
+              "es": "Cita: 「...」と言う/思う/聞く. と para reportar pe",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha (texto oculto) y elige.",
+              "respuesta": "明日行くと言う。 — Cita: 「...」と言う/思う/聞く. と para reportar pe"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "おいしいと思った。",
+              "furigana": "おいしいと思った。",
+              "es": "Cita: 「...」と言う/思う/聞く. と para reportar pe",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "おいしいと思った。 — Cita: 「...」と言う/思う/聞く. と para reportar pe"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "明日行くと言う。",
+              "furigana": "明日行くと言う。",
+              "es": "Cita: 「...」と言う/思う/聞く. と para reportar pe",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: 'Cita: 「...」と言う/思う/聞く. と para reportar pe'",
+              "respuesta": "明日行くと言う。",
+              "jp": "明日行くと言う。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: confundir 明日行くと言う con おいしいと思った sin mirar partícula. Revisa tabla y di en voz alta 3×."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 75: と cita — と言う/思う. Próxima: siguiente IMABI. Di 3 veces: 明日行くと言う。"
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Tienes que decir '明日行くと言う' y dudas si es おいしいと思った o ...と聞いた."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Cita: 「...」と言う/思う/聞く. と para reportar pensamiento.\n\nObjetivo: usar «IMABI 75: と cita» sin dudar en conversación.\n\n🧩 Fórmula: 【明日行くと言う】 patrón + ejemplos graduados.\nPiensa en bloques: partícula/marcador + forma + contexto.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica forma base (V-る / V-た / N)\n2) Añade marcador (と言う/思う)\n3) Coloca en frase con partícula correcta (は/が/を/に/で según verbo)\n\n⚖️ Tabla contrastiva:\n| Forma | Uso | Ejemplo |\n|---|---|---|\n| 明日行くと言う | patrón 1 | 明日行くと言う |\n| おいしいと思った | patrón 2 | おいしいと思った |\n| ...と聞いた | patrón 3 | ...と聞いた |\n\n💡 Ejemplos desglosados:\n1) 明日行くと言う。 — Uso básico → partícula + verbo al final SOV.\n2) おいしいと思った。 — Variante con tiempo/cortesía.\n3) ...と聞いた。 — Contraste con forma similar.\n\n🔑 Mini-resumen:\n□ Recuerda forma + partícula\n□ 2 ejemplos hoy bastan, resto SRS\n□ Escucha 3× y produce 1×\n\n❌ Error 90%: olvidar partícula o mezclar plano/cortés. Usa diccionario para etiqueta [ru/ku] y practica con pitch Heiban donde toque.\n\n💬 Truco offline: di 明日行くと言う → おいしいと思った → ...と聞いた en voz alta 3×. Active recall.\n\n\nPara practicar offline: tapa el japonés y produce en voz alta. Si fallas, el SRS te lo trae en minutos. Mezcla este tema + vocab + escucha. Memoria 7±2: domina 2 ejemplos hoy a fondo. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
+          "palabras": 410
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "明日行くと言う。",
+              "furigana": "明日行くと言う。",
+              "romaji": "nihongo desu.",
+              "es": "Cita: 「...」と言う/思う/聞く. と para reportar pe",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "おいしいと思った。",
+              "furigana": "おいしいと思った。",
+              "romaji": "nihongo desu.",
+              "es": "Cita: 「...」と言う/思う/聞く. と para reportar pe",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "...と聞いた。",
+              "furigana": "...と聞いた。",
+              "romaji": "nihongo desu.",
+              "es": "Cita: 「...」と言う/思う/聞く. と para reportar pe",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "明日行くと言う。",
+              "furigana": "明日行くと言う。",
+              "es": "Cita: 「...」と言う/思う/聞く. と para reportar pe",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha (texto oculto) y elige.",
+              "respuesta": "明日行くと言う。 — Cita: 「...」と言う/思う/聞く. と para reportar pe"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "おいしいと思った。",
+              "furigana": "おいしいと思った。",
+              "es": "Cita: 「...」と言う/思う/聞く. と para reportar pe",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "おいしいと思った。 — Cita: 「...」と言う/思う/聞く. と para reportar pe"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "明日行くと言う。",
+              "furigana": "明日行くと言う。",
+              "es": "Cita: 「...」と言う/思う/聞く. と para reportar pe",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: 'Cita: 「...」と言う/思う/聞く. と para reportar pe'",
+              "respuesta": "明日行くと言う。",
+              "jp": "明日行くと言う。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: confundir 明日行くと言う con おいしいと思った sin mirar partícula. Revisa tabla y di en voz alta 3×."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 75: と cita — と言う/思う. Próxima: siguiente IMABI. Di 3 veces: 明日行くと言う。"
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 410,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-083",
+      "title": "IMABI 83: から/ので/のだ porque",
+      "stage": "IMABI · Beginners II",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 83: から/ので/のだ porque",
+          "text": "Causa: から objetivo, ので suave, のだ explicación. Diferencias.",
+          "examples": [
+            {
+              "jp": "雨だから休む",
+              "kana": "雨だから休む",
+              "es": "Causa: から objetivo, ので suave, "
+            },
+            {
+              "jp": "雨なので休みます",
+              "kana": "雨なので休みます",
+              "es": "Causa: から objetivo, ので suave, "
+            },
+            {
+              "jp": "どうしたのですか",
+              "kana": "どうしたのですか",
+              "es": "Causa: から objetivo, ので suave, "
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Tienes que decir '雨だから休む' y dudas si es 雨なので休みます o どうしたのですか."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Causa: から objetivo, ので suave, のだ explicación. Diferencias.\n\nObjetivo: usar «IMABI 83: から/ので/のだ porque» sin dudar en conversación.\n\n🧩 Fórmula: 【雨だから休む】 patrón + ejemplos graduados.\nPiensa en bloques: partícula/marcador + forma + contexto.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica forma base (V-る / V-た / N)\n2) Añade marcador (IMABI 83: から/ので/のだ p)\n3) Coloca en frase con partícula correcta (は/が/を/に/で según verbo)\n\n⚖️ Tabla contrastiva:\n| Forma | Uso | Ejemplo |\n|---|---|---|\n| 雨だから休む | patrón 1 | 雨だから休む |\n| 雨なので休みます | patrón 2 | 雨なので休みます |\n| どうしたのですか | patrón 3 | どうしたのですか |\n\n💡 Ejemplos desglosados:\n1) 雨だから休む。 — Uso básico → partícula + verbo al final SOV.\n2) 雨なので休みます。 — Variante con tiempo/cortesía.\n3) どうしたのですか。 — Contraste con forma similar.\n\n🔑 Mini-resumen:\n□ Recuerda forma + partícula\n□ 2 ejemplos hoy bastan, resto SRS\n□ Escucha 3× y produce 1×\n\n❌ Error 90%: olvidar partícula o mezclar plano/cortés. Usa diccionario para etiqueta [ru/ku] y practica con pitch Heiban donde toque.\n\n💬 Truco offline: di 雨だから休む → 雨なので休みます → どうしたのですか en voz alta 3×. Active recall.\n\n\nPara practicar offline: tapa el japonés y produce en voz alta. Si fallas, el SRS te lo trae en minutos. Mezcla este tema + vocab + escucha. Memoria 7±2: domina 2 ejemplos hoy a fondo. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
+          "palabras": 406
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "雨なので休みます。",
+              "furigana": "雨なので休みます。",
+              "romaji": "nihongo desu.",
+              "es": "Causa: から objetivo, ので suave, のだ explica",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "雨なので休みます。",
+              "furigana": "雨なので休みます。",
+              "romaji": "nihongo desu.",
+              "es": "Causa: から objetivo, ので suave, のだ explica",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "雨なので休みます。",
+              "furigana": "雨なので休みます。",
+              "romaji": "nihongo desu.",
+              "es": "Causa: から objetivo, ので suave, のだ explica",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "雨なので休みます。",
+              "furigana": "雨なので休みます。",
+              "es": "Causa: から objetivo, ので suave, のだ explica",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha (texto oculto) y elige.",
+              "respuesta": "雨なので休みます。 — Causa: から objetivo, ので suave, のだ explica"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "雨なので休みます。",
+              "furigana": "雨なので休みます。",
+              "es": "Causa: から objetivo, ので suave, のだ explica",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "雨なので休みます。 — Causa: から objetivo, ので suave, のだ explica"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "雨なので休みます。",
+              "furigana": "雨なので休みます。",
+              "es": "Causa: から objetivo, ので suave, のだ explica",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: 'Causa: から objetivo, ので suave, のだ explica'",
+              "respuesta": "雨なので休みます。",
+              "jp": "雨なので休みます。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: confundir 雨だから休む con 雨なので休みます sin mirar partícula. Revisa tabla y di en voz alta 3×."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 83: から/ので/のだ porque. Próxima: siguiente IMABI. Di 3 veces: 雨だから休む。"
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Tienes que decir '雨だから休む' y dudas si es 雨なので休みます o どうしたのですか."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Causa: から objetivo, ので suave, のだ explicación. Diferencias.\n\nObjetivo: usar «IMABI 83: から/ので/のだ porque» sin dudar en conversación.\n\n🧩 Fórmula: 【雨だから休む】 patrón + ejemplos graduados.\nPiensa en bloques: partícula/marcador + forma + contexto.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica forma base (V-る / V-た / N)\n2) Añade marcador (IMABI 83: から/ので/のだ p)\n3) Coloca en frase con partícula correcta (は/が/を/に/で según verbo)\n\n⚖️ Tabla contrastiva:\n| Forma | Uso | Ejemplo |\n|---|---|---|\n| 雨だから休む | patrón 1 | 雨だから休む |\n| 雨なので休みます | patrón 2 | 雨なので休みます |\n| どうしたのですか | patrón 3 | どうしたのですか |\n\n💡 Ejemplos desglosados:\n1) 雨だから休む。 — Uso básico → partícula + verbo al final SOV.\n2) 雨なので休みます。 — Variante con tiempo/cortesía.\n3) どうしたのですか。 — Contraste con forma similar.\n\n🔑 Mini-resumen:\n□ Recuerda forma + partícula\n□ 2 ejemplos hoy bastan, resto SRS\n□ Escucha 3× y produce 1×\n\n❌ Error 90%: olvidar partícula o mezclar plano/cortés. Usa diccionario para etiqueta [ru/ku] y practica con pitch Heiban donde toque.\n\n💬 Truco offline: di 雨だから休む → 雨なので休みます → どうしたのですか en voz alta 3×. Active recall.\n\n\nPara practicar offline: tapa el japonés y produce en voz alta. Si fallas, el SRS te lo trae en minutos. Mezcla este tema + vocab + escucha. Memoria 7±2: domina 2 ejemplos hoy a fondo. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
+          "palabras": 406
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "雨なので休みます。",
+              "furigana": "雨なので休みます。",
+              "romaji": "nihongo desu.",
+              "es": "Causa: から objetivo, ので suave, のだ explica",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "雨なので休みます。",
+              "furigana": "雨なので休みます。",
+              "romaji": "nihongo desu.",
+              "es": "Causa: から objetivo, ので suave, のだ explica",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "雨なので休みます。",
+              "furigana": "雨なので休みます。",
+              "romaji": "nihongo desu.",
+              "es": "Causa: から objetivo, ので suave, のだ explica",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "雨なので休みます。",
+              "furigana": "雨なので休みます。",
+              "es": "Causa: から objetivo, ので suave, のだ explica",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha (texto oculto) y elige.",
+              "respuesta": "雨なので休みます。 — Causa: から objetivo, ので suave, のだ explica"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "雨なので休みます。",
+              "furigana": "雨なので休みます。",
+              "es": "Causa: から objetivo, ので suave, のだ explica",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "雨なので休みます。 — Causa: から objetivo, ので suave, のだ explica"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "雨なので休みます。",
+              "furigana": "雨なので休みます。",
+              "es": "Causa: から objetivo, ので suave, のだ explica",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: 'Causa: から objetivo, ので suave, のだ explica'",
+              "respuesta": "雨なので休みます。",
+              "jp": "雨なので休みます。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: confundir 雨だから休む con 雨なので休みます sin mirar partícula. Revisa tabla y di en voz alta 3×."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 83: から/ので/のだ porque. Próxima: siguiente IMABI. Di 3 veces: 雨だから休む。"
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 406,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-084",
+      "title": "IMABI 84: のに — aunque / para",
+      "stage": "IMABI · Beginners II",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 84: のに — aunque / para",
+          "text": "のに contraste 'aunque' y propósito 'para': 行くのに時間がかかる.",
+          "examples": [
+            {
+              "jp": "安いのに美味しい",
+              "kana": "安いのに美味しい",
+              "es": "のに contraste 'aunque' y propós"
+            },
+            {
+              "jp": "行くのに一時間かかる",
+              "kana": "行くのに一時間かかる",
+              "es": "のに contraste 'aunque' y propós"
+            },
+            {
+              "jp": "勉強したのに忘れた",
+              "kana": "勉強したのに忘れた",
+              "es": "のに contraste 'aunque' y propós"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Tienes que decir '安いのに美味しい' y dudas si es 行くのに一時間かかる o 勉強したのに忘れた."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "のに contraste 'aunque' y propósito 'para': 行くのに時間がかかる.\n\nObjetivo: usar «IMABI 84: のに» sin dudar en conversación.\n\n🧩 Fórmula: 【安いのに美味しい】 patrón + ejemplos graduados.\nPiensa en bloques: partícula/marcador + forma + contexto.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica forma base (V-る / V-た / N)\n2) Añade marcador (aunque / para)\n3) Coloca en frase con partícula correcta (は/が/を/に/で según verbo)\n\n⚖️ Tabla contrastiva:\n| Forma | Uso | Ejemplo |\n|---|---|---|\n| 安いのに美味しい | patrón 1 | 安いのに美味しい |\n| 行くのに一時間かかる | patrón 2 | 行くのに一時間かかる |\n| 勉強したのに忘れた | patrón 3 | 勉強したのに忘れた |\n\n💡 Ejemplos desglosados:\n1) 安いのに美味しい。 — Uso básico → partícula + verbo al final SOV.\n2) 行くのに一時間かかる。 — Variante con tiempo/cortesía.\n3) 勉強したのに忘れた。 — Contraste con forma similar.\n\n🔑 Mini-resumen:\n□ Recuerda forma + partícula\n□ 2 ejemplos hoy bastan, resto SRS\n□ Escucha 3× y produce 1×\n\n❌ Error 90%: olvidar partícula o mezclar plano/cortés. Usa diccionario para etiqueta [ru/ku] y practica con pitch Heiban donde toque.\n\n💬 Truco offline: di 安いのに美味しい → 行くのに一時間かかる → 勉強したのに忘れた en voz alta 3×. Active recall.\n\n\nPara practicar offline: tapa el japonés y produce en voz alta. Si fallas, el SRS te lo trae en minutos. Mezcla este tema + vocab + escucha. Memoria 7±2: domina 2 ejemplos hoy a fondo. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
+          "palabras": 412
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "安いのに美味しいです。",
+              "furigana": "安いのに美味しいです。",
+              "romaji": "nihongo desu.",
+              "es": "のに contraste 'aunque' y propósito 'para'",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "安いのに美味しいです。",
+              "furigana": "安いのに美味しいです。",
+              "romaji": "nihongo desu.",
+              "es": "のに contraste 'aunque' y propósito 'para'",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "安いのに美味しいです。",
+              "furigana": "安いのに美味しいです。",
+              "romaji": "nihongo desu.",
+              "es": "のに contraste 'aunque' y propósito 'para'",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "安いのに美味しいです。",
+              "furigana": "安いのに美味しいです。",
+              "es": "のに contraste 'aunque' y propósito 'para'",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha (texto oculto) y elige.",
+              "respuesta": "安いのに美味しいです。 — のに contraste 'aunque' y propósito 'para'"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "安いのに美味しいです。",
+              "furigana": "安いのに美味しいです。",
+              "es": "のに contraste 'aunque' y propósito 'para'",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "安いのに美味しいです。 — のに contraste 'aunque' y propósito 'para'"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "安いのに美味しいです。",
+              "furigana": "安いのに美味しいです。",
+              "es": "のに contraste 'aunque' y propósito 'para'",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: 'のに contraste 'aunque' y propósito 'para''",
+              "respuesta": "安いのに美味しいです。",
+              "jp": "安いのに美味しいです。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: confundir 安いのに美味しい con 行くのに一時間かかる sin mirar partícula. Revisa tabla y di en voz alta 3×."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 84: のに — aunque / para. Próxima: siguiente IMABI. Di 3 veces: 安いのに美味しい。"
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Tienes que decir '安いのに美味しい' y dudas si es 行くのに一時間かかる o 勉強したのに忘れた."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "のに contraste 'aunque' y propósito 'para': 行くのに時間がかかる.\n\nObjetivo: usar «IMABI 84: のに» sin dudar en conversación.\n\n🧩 Fórmula: 【安いのに美味しい】 patrón + ejemplos graduados.\nPiensa en bloques: partícula/marcador + forma + contexto.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica forma base (V-る / V-た / N)\n2) Añade marcador (aunque / para)\n3) Coloca en frase con partícula correcta (は/が/を/に/で según verbo)\n\n⚖️ Tabla contrastiva:\n| Forma | Uso | Ejemplo |\n|---|---|---|\n| 安いのに美味しい | patrón 1 | 安いのに美味しい |\n| 行くのに一時間かかる | patrón 2 | 行くのに一時間かかる |\n| 勉強したのに忘れた | patrón 3 | 勉強したのに忘れた |\n\n💡 Ejemplos desglosados:\n1) 安いのに美味しい。 — Uso básico → partícula + verbo al final SOV.\n2) 行くのに一時間かかる。 — Variante con tiempo/cortesía.\n3) 勉強したのに忘れた。 — Contraste con forma similar.\n\n🔑 Mini-resumen:\n□ Recuerda forma + partícula\n□ 2 ejemplos hoy bastan, resto SRS\n□ Escucha 3× y produce 1×\n\n❌ Error 90%: olvidar partícula o mezclar plano/cortés. Usa diccionario para etiqueta [ru/ku] y practica con pitch Heiban donde toque.\n\n💬 Truco offline: di 安いのに美味しい → 行くのに一時間かかる → 勉強したのに忘れた en voz alta 3×. Active recall.\n\n\nPara practicar offline: tapa el japonés y produce en voz alta. Si fallas, el SRS te lo trae en minutos. Mezcla este tema + vocab + escucha. Memoria 7±2: domina 2 ejemplos hoy a fondo. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
+          "palabras": 412
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "安いのに美味しいです。",
+              "furigana": "安いのに美味しいです。",
+              "romaji": "nihongo desu.",
+              "es": "のに contraste 'aunque' y propósito 'para'",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "安いのに美味しいです。",
+              "furigana": "安いのに美味しいです。",
+              "romaji": "nihongo desu.",
+              "es": "のに contraste 'aunque' y propósito 'para'",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "安いのに美味しいです。",
+              "furigana": "安いのに美味しいです。",
+              "romaji": "nihongo desu.",
+              "es": "のに contraste 'aunque' y propósito 'para'",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "安いのに美味しいです。",
+              "furigana": "安いのに美味しいです。",
+              "es": "のに contraste 'aunque' y propósito 'para'",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha (texto oculto) y elige.",
+              "respuesta": "安いのに美味しいです。 — のに contraste 'aunque' y propósito 'para'"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "安いのに美味しいです。",
+              "furigana": "安いのに美味しいです。",
+              "es": "のに contraste 'aunque' y propósito 'para'",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "安いのに美味しいです。 — のに contraste 'aunque' y propósito 'para'"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "安いのに美味しいです。",
+              "furigana": "安いのに美味しいです。",
+              "es": "のに contraste 'aunque' y propósito 'para'",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: 'のに contraste 'aunque' y propósito 'para''",
+              "respuesta": "安いのに美味しいです。",
+              "jp": "安いのに美味しいです。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: confundir 安いのに美味しい con 行くのに一時間かかる sin mirar partícula. Revisa tabla y di en voz alta 3×."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 84: のに — aunque / para. Próxima: siguiente IMABI. Di 3 veces: 安いのに美味しい。"
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 412,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-085",
+      "title": "IMABI 85: だけ — solo",
+      "stage": "IMABI · Beginners II",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 85: だけ — solo",
+          "text": "Límite: Nだけ, V-るだけ, しか...ない vs だけ.",
+          "examples": [
+            {
+              "jp": "一人だけ",
+              "kana": "一人だけ",
+              "es": "Límite: Nだけ, V-るだけ, しか...ない vs"
+            },
+            {
+              "jp": "見るだけ",
+              "kana": "見るだけ",
+              "es": "Límite: Nだけ, V-るだけ, しか...ない vs"
+            },
+            {
+              "jp": "少しだけ",
+              "kana": "少しだけ",
+              "es": "Límite: Nだけ, V-るだけ, しか...ない vs"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Tienes que decir '一人だけ' y dudas si es 見るだけ o 少しだけ."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Límite: Nだけ, V-るだけ, しか...ない vs だけ.\n\nObjetivo: usar «IMABI 85: だけ» sin dudar en conversación.\n\n🧩 Fórmula: 【一人だけ】 patrón + ejemplos graduados.\nPiensa en bloques: partícula/marcador + forma + contexto.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica forma base (V-る / V-た / N)\n2) Añade marcador (solo)\n3) Coloca en frase con partícula correcta (は/が/を/に/で según verbo)\n\n⚖️ Tabla contrastiva:\n| Forma | Uso | Ejemplo |\n|---|---|---|\n| 一人だけ | patrón 1 | 一人だけ |\n| 見るだけ | patrón 2 | 見るだけ |\n| 少しだけ | patrón 3 | 少しだけ |\n\n💡 Ejemplos desglosados:\n1) 一人だけ。 — Uso básico → partícula + verbo al final SOV.\n2) 見るだけ。 — Variante con tiempo/cortesía.\n3) 少しだけ。 — Contraste con forma similar.\n\n🔑 Mini-resumen:\n□ Recuerda forma + partícula\n□ 2 ejemplos hoy bastan, resto SRS\n□ Escucha 3× y produce 1×\n\n❌ Error 90%: olvidar partícula o mezclar plano/cortés. Usa diccionario para etiqueta [ru/ku] y practica con pitch Heiban donde toque.\n\n💬 Truco offline: di 一人だけ → 見るだけ → 少しだけ en voz alta 3×. Active recall.\n\n\nPara practicar offline: tapa el japonés y produce en voz alta. Si fallas, el SRS te lo trae en minutos. Mezcla este tema + vocab + escucha. Memoria 7±2: domina 2 ejemplos hoy a fondo. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
+          "palabras": 409
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "少しだけください。",
+              "furigana": "少しだけください。",
+              "romaji": "nihongo desu.",
+              "es": "Límite: Nだけ, V-るだけ, しか...ない vs だけ.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "少しだけください。",
+              "furigana": "少しだけください。",
+              "romaji": "nihongo desu.",
+              "es": "Límite: Nだけ, V-るだけ, しか...ない vs だけ.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "少しだけください。",
+              "furigana": "少しだけください。",
+              "romaji": "nihongo desu.",
+              "es": "Límite: Nだけ, V-るだけ, しか...ない vs だけ.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "少しだけください。",
+              "furigana": "少しだけください。",
+              "es": "Límite: Nだけ, V-るだけ, しか...ない vs だけ.",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha (texto oculto) y elige.",
+              "respuesta": "少しだけください。 — Límite: Nだけ, V-るだけ, しか...ない vs だけ."
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "少しだけください。",
+              "furigana": "少しだけください。",
+              "es": "Límite: Nだけ, V-るだけ, しか...ない vs だけ.",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "少しだけください。 — Límite: Nだけ, V-るだけ, しか...ない vs だけ."
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "少しだけください。",
+              "furigana": "少しだけください。",
+              "es": "Límite: Nだけ, V-るだけ, しか...ない vs だけ.",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: 'Límite: Nだけ, V-るだけ, しか...ない vs だけ.'",
+              "respuesta": "少しだけください。",
+              "jp": "少しだけください。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: confundir 一人だけ con 見るだけ sin mirar partícula. Revisa tabla y di en voz alta 3×."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 85: だけ — solo. Próxima: siguiente IMABI. Di 3 veces: 一人だけ。"
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Tienes que decir '一人だけ' y dudas si es 見るだけ o 少しだけ."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Límite: Nだけ, V-るだけ, しか...ない vs だけ.\n\nObjetivo: usar «IMABI 85: だけ» sin dudar en conversación.\n\n🧩 Fórmula: 【一人だけ】 patrón + ejemplos graduados.\nPiensa en bloques: partícula/marcador + forma + contexto.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica forma base (V-る / V-た / N)\n2) Añade marcador (solo)\n3) Coloca en frase con partícula correcta (は/が/を/に/で según verbo)\n\n⚖️ Tabla contrastiva:\n| Forma | Uso | Ejemplo |\n|---|---|---|\n| 一人だけ | patrón 1 | 一人だけ |\n| 見るだけ | patrón 2 | 見るだけ |\n| 少しだけ | patrón 3 | 少しだけ |\n\n💡 Ejemplos desglosados:\n1) 一人だけ。 — Uso básico → partícula + verbo al final SOV.\n2) 見るだけ。 — Variante con tiempo/cortesía.\n3) 少しだけ。 — Contraste con forma similar.\n\n🔑 Mini-resumen:\n□ Recuerda forma + partícula\n□ 2 ejemplos hoy bastan, resto SRS\n□ Escucha 3× y produce 1×\n\n❌ Error 90%: olvidar partícula o mezclar plano/cortés. Usa diccionario para etiqueta [ru/ku] y practica con pitch Heiban donde toque.\n\n💬 Truco offline: di 一人だけ → 見るだけ → 少しだけ en voz alta 3×. Active recall.\n\n\nPara practicar offline: tapa el japonés y produce en voz alta. Si fallas, el SRS te lo trae en minutos. Mezcla este tema + vocab + escucha. Memoria 7±2: domina 2 ejemplos hoy a fondo. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
+          "palabras": 409
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "少しだけください。",
+              "furigana": "少しだけください。",
+              "romaji": "nihongo desu.",
+              "es": "Límite: Nだけ, V-るだけ, しか...ない vs だけ.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "少しだけください。",
+              "furigana": "少しだけください。",
+              "romaji": "nihongo desu.",
+              "es": "Límite: Nだけ, V-るだけ, しか...ない vs だけ.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "少しだけください。",
+              "furigana": "少しだけください。",
+              "romaji": "nihongo desu.",
+              "es": "Límite: Nだけ, V-るだけ, しか...ない vs だけ.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "少しだけください。",
+              "furigana": "少しだけください。",
+              "es": "Límite: Nだけ, V-るだけ, しか...ない vs だけ.",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha (texto oculto) y elige.",
+              "respuesta": "少しだけください。 — Límite: Nだけ, V-るだけ, しか...ない vs だけ."
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "少しだけください。",
+              "furigana": "少しだけください。",
+              "es": "Límite: Nだけ, V-るだけ, しか...ない vs だけ.",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "少しだけください。 — Límite: Nだけ, V-るだけ, しか...ない vs だけ."
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "少しだけください。",
+              "furigana": "少しだけください。",
+              "es": "Límite: Nだけ, V-るだけ, しか...ない vs だけ.",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: 'Límite: Nだけ, V-るだけ, しか...ない vs だけ.'",
+              "respuesta": "少しだけください。",
+              "jp": "少しだけください。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: confundir 一人だけ con 見るだけ sin mirar partícula. Revisa tabla y di en voz alta 3×."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 85: だけ — solo. Próxima: siguiente IMABI. Di 3 veces: 一人だけ。"
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 409,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-090",
+      "title": "IMABI 90: Dar/recibir — あげる/くれる/もらう",
+      "stage": "IMABI · Beginners II",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 90: Dar/recibir — あげる/くれる/もらう",
+          "text": "Dar: 私→彼 にあげる, 彼→私 にくれる, もらう recibir. Uchi/soto.",
+          "examples": [
+            {
+              "jp": "プレゼントをあげる",
+              "kana": "プレゼントをあげる",
+              "es": "Dar: 私→彼 にあげる, 彼→私 にくれる, もらう r"
+            },
+            {
+              "jp": "もらった",
+              "kana": "もらった",
+              "es": "Dar: 私→彼 にあげる, 彼→私 にくれる, もらう r"
+            },
+            {
+              "jp": "母に買ってもらった",
+              "kana": "母に買ってもらった",
+              "es": "Dar: 私→彼 にあげる, 彼→私 にくれる, もらう r"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Tienes que decir 'プレゼントをあげる' y dudas si es もらった o 母に買ってもらった."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Dar: 私→彼 にあげる, 彼→私 にくれる, もらう recibir. Uchi/soto.\n\nObjetivo: usar «IMABI 90: Dar/recibir» sin dudar en conversación.\n\n🧩 Fórmula: 【プレゼントをあげる】 patrón + ejemplos graduados.\nPiensa en bloques: partícula/marcador + forma + contexto.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica forma base (V-る / V-た / N)\n2) Añade marcador (あげる/くれる/もらう)\n3) Coloca en frase con partícula correcta (は/が/を/に/で según verbo)\n\n⚖️ Tabla contrastiva:\n| Forma | Uso | Ejemplo |\n|---|---|---|\n| プレゼントをあげる | patrón 1 | プレゼントをあげる |\n| もらった | patrón 2 | もらった |\n| 母に買ってもらった | patrón 3 | 母に買ってもらった |\n\n💡 Ejemplos desglosados:\n1) プレゼントをあげる。 — Uso básico → partícula + verbo al final SOV.\n2) もらった。 — Variante con tiempo/cortesía.\n3) 母に買ってもらった。 — Contraste con forma similar.\n\n🔑 Mini-resumen:\n□ Recuerda forma + partícula\n□ 2 ejemplos hoy bastan, resto SRS\n□ Escucha 3× y produce 1×\n\n❌ Error 90%: olvidar partícula o mezclar plano/cortés. Usa diccionario para etiqueta [ru/ku] y practica con pitch Heiban donde toque.\n\n💬 Truco offline: di プレゼントをあげる → もらった → 母に買ってもらった en voz alta 3×. Active recall.\n\n\nPara practicar offline: tapa el japonés y produce en voz alta. Si fallas, el SRS te lo trae en minutos. Mezcla este tema + vocab + escucha. Memoria 7±2: domina 2 ejemplos hoy a fondo. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
+          "palabras": 411
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "プレゼントをあげる。",
+              "furigana": "プレゼントをあげる。",
+              "romaji": "nihongo desu.",
+              "es": "Dar: 私→彼 にあげる, 彼→私 にくれる, もらう recibir. Uc",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "もらった。",
+              "furigana": "もらった。",
+              "romaji": "nihongo desu.",
+              "es": "Dar: 私→彼 にあげる, 彼→私 にくれる, もらう recibir. Uc",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "母に買ってもらった。",
+              "furigana": "母に買ってもらった。",
+              "romaji": "nihongo desu.",
+              "es": "Dar: 私→彼 にあげる, 彼→私 にくれる, もらう recibir. Uc",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "プレゼントをあげる。",
+              "furigana": "プレゼントをあげる。",
+              "es": "Dar: 私→彼 にあげる, 彼→私 にくれる, もらう recibir. Uc",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha (texto oculto) y elige.",
+              "respuesta": "プレゼントをあげる。 — Dar: 私→彼 にあげる, 彼→私 にくれる, もらう recibir. Uc"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "もらった。",
+              "furigana": "もらった。",
+              "es": "Dar: 私→彼 にあげる, 彼→私 にくれる, もらう recibir. Uc",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "もらった。 — Dar: 私→彼 にあげる, 彼→私 にくれる, もらう recibir. Uc"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "プレゼントをあげる。",
+              "furigana": "プレゼントをあげる。",
+              "es": "Dar: 私→彼 にあげる, 彼→私 にくれる, もらう recibir. Uc",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: 'Dar: 私→彼 にあげる, 彼→私 にくれる, もらう recibir. Uc'",
+              "respuesta": "プレゼントをあげる。",
+              "jp": "プレゼントをあげる。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: confundir プレゼントをあげる con もらった sin mirar partícula. Revisa tabla y di en voz alta 3×."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 90: Dar/recibir — あげる/くれる/もらう. Próxima: siguiente IMABI. Di 3 veces: プレゼントをあげる。"
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Tienes que decir 'プレゼントをあげる' y dudas si es もらった o 母に買ってもらった."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Dar: 私→彼 にあげる, 彼→私 にくれる, もらう recibir. Uchi/soto.\n\nObjetivo: usar «IMABI 90: Dar/recibir» sin dudar en conversación.\n\n🧩 Fórmula: 【プレゼントをあげる】 patrón + ejemplos graduados.\nPiensa en bloques: partícula/marcador + forma + contexto.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica forma base (V-る / V-た / N)\n2) Añade marcador (あげる/くれる/もらう)\n3) Coloca en frase con partícula correcta (は/が/を/に/で según verbo)\n\n⚖️ Tabla contrastiva:\n| Forma | Uso | Ejemplo |\n|---|---|---|\n| プレゼントをあげる | patrón 1 | プレゼントをあげる |\n| もらった | patrón 2 | もらった |\n| 母に買ってもらった | patrón 3 | 母に買ってもらった |\n\n💡 Ejemplos desglosados:\n1) プレゼントをあげる。 — Uso básico → partícula + verbo al final SOV.\n2) もらった。 — Variante con tiempo/cortesía.\n3) 母に買ってもらった。 — Contraste con forma similar.\n\n🔑 Mini-resumen:\n□ Recuerda forma + partícula\n□ 2 ejemplos hoy bastan, resto SRS\n□ Escucha 3× y produce 1×\n\n❌ Error 90%: olvidar partícula o mezclar plano/cortés. Usa diccionario para etiqueta [ru/ku] y practica con pitch Heiban donde toque.\n\n💬 Truco offline: di プレゼントをあげる → もらった → 母に買ってもらった en voz alta 3×. Active recall.\n\n\nPara practicar offline: tapa el japonés y produce en voz alta. Si fallas, el SRS te lo trae en minutos. Mezcla este tema + vocab + escucha. Memoria 7±2: domina 2 ejemplos hoy a fondo. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
+          "palabras": 411
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "プレゼントをあげる。",
+              "furigana": "プレゼントをあげる。",
+              "romaji": "nihongo desu.",
+              "es": "Dar: 私→彼 にあげる, 彼→私 にくれる, もらう recibir. Uc",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "もらった。",
+              "furigana": "もらった。",
+              "romaji": "nihongo desu.",
+              "es": "Dar: 私→彼 にあげる, 彼→私 にくれる, もらう recibir. Uc",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "母に買ってもらった。",
+              "furigana": "母に買ってもらった。",
+              "romaji": "nihongo desu.",
+              "es": "Dar: 私→彼 にあげる, 彼→私 にくれる, もらう recibir. Uc",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "プレゼントをあげる。",
+              "furigana": "プレゼントをあげる。",
+              "es": "Dar: 私→彼 にあげる, 彼→私 にくれる, もらう recibir. Uc",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha (texto oculto) y elige.",
+              "respuesta": "プレゼントをあげる。 — Dar: 私→彼 にあげる, 彼→私 にくれる, もらう recibir. Uc"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "もらった。",
+              "furigana": "もらった。",
+              "es": "Dar: 私→彼 にあげる, 彼→私 にくれる, もらう recibir. Uc",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "もらった。 — Dar: 私→彼 にあげる, 彼→私 にくれる, もらう recibir. Uc"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "プレゼントをあげる。",
+              "furigana": "プレゼントをあげる。",
+              "es": "Dar: 私→彼 にあげる, 彼→私 にくれる, もらう recibir. Uc",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: 'Dar: 私→彼 にあげる, 彼→私 にくれる, もらう recibir. Uc'",
+              "respuesta": "プレゼントをあげる。",
+              "jp": "プレゼントをあげる。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: confundir プレゼントをあげる con もらった sin mirar partícula. Revisa tabla y di en voz alta 3×."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 90: Dar/recibir — あげる/くれる/もらう. Próxima: siguiente IMABI. Di 3 veces: プレゼントをあげる。"
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 411,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-097",
+      "title": "IMABI 97: Potencial — られる/れる",
+      "stage": "IMABI · Beginners II",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 97: Potencial — られる/れる",
+          "text": "Potencial: 食べられる, 書ける, 来られる/来れる coloquial. Habilidad/posibilidad.",
+          "examples": [
+            {
+              "jp": "日本語が話せる",
+              "kana": "日本語が話せる",
+              "es": "Potencial: 食べられる, 書ける, 来られる/来れ"
+            },
+            {
+              "jp": "泳げる",
+              "kana": "泳げる",
+              "es": "Potencial: 食べられる, 書ける, 来られる/来れ"
+            },
+            {
+              "jp": "見られる",
+              "kana": "見られる",
+              "es": "Potencial: 食べられる, 書ける, 来られる/来れ"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Tienes que decir '日本語が話せる' y dudas si es 泳げる o 見られる."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Potencial: 食べられる, 書ける, 来られる/来れる coloquial. Habilidad/posibilidad.\n\nObjetivo: usar «IMABI 97: Potencial» sin dudar en conversación.\n\n🧩 Fórmula: 【日本語が話せる】 patrón + ejemplos graduados.\nPiensa en bloques: partícula/marcador + forma + contexto.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica forma base (V-る / V-た / N)\n2) Añade marcador (られる/れる)\n3) Coloca en frase con partícula correcta (は/が/を/に/で según verbo)\n\n⚖️ Tabla contrastiva:\n| Forma | Uso | Ejemplo |\n|---|---|---|\n| 日本語が話せる | patrón 1 | 日本語が話せる |\n| 泳げる | patrón 2 | 泳げる |\n| 見られる | patrón 3 | 見られる |\n\n💡 Ejemplos desglosados:\n1) 日本語が話せる。 — Uso básico → partícula + verbo al final SOV.\n2) 泳げる。 — Variante con tiempo/cortesía.\n3) 見られる。 — Contraste con forma similar.\n\n🔑 Mini-resumen:\n□ Recuerda forma + partícula\n□ 2 ejemplos hoy bastan, resto SRS\n□ Escucha 3× y produce 1×\n\n❌ Error 90%: olvidar partícula o mezclar plano/cortés. Usa diccionario para etiqueta [ru/ku] y practica con pitch Heiban donde toque.\n\n💬 Truco offline: di 日本語が話せる → 泳げる → 見られる en voz alta 3×. Active recall.\n\n\nPara practicar offline: tapa el japonés y produce en voz alta. Si fallas, el SRS te lo trae en minutos. Mezcla este tema + vocab + escucha. Memoria 7±2: domina 2 ejemplos hoy a fondo. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
+          "palabras": 409
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "日本語が話せる。",
+              "furigana": "日本語が話せる。",
+              "romaji": "nihongo desu.",
+              "es": "Potencial: 食べられる, 書ける, 来られる/来れる coloquia",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "泳げる。",
+              "furigana": "泳げる。",
+              "romaji": "nihongo desu.",
+              "es": "Potencial: 食べられる, 書ける, 来られる/来れる coloquia",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "見られる。",
+              "furigana": "見られる。",
+              "romaji": "nihongo desu.",
+              "es": "Potencial: 食べられる, 書ける, 来られる/来れる coloquia",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "日本語が話せる。",
+              "furigana": "日本語が話せる。",
+              "es": "Potencial: 食べられる, 書ける, 来られる/来れる coloquia",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha (texto oculto) y elige.",
+              "respuesta": "日本語が話せる。 — Potencial: 食べられる, 書ける, 来られる/来れる coloquia"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "泳げる。",
+              "furigana": "泳げる。",
+              "es": "Potencial: 食べられる, 書ける, 来られる/来れる coloquia",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "泳げる。 — Potencial: 食べられる, 書ける, 来られる/来れる coloquia"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "日本語が話せる。",
+              "furigana": "日本語が話せる。",
+              "es": "Potencial: 食べられる, 書ける, 来られる/来れる coloquia",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: 'Potencial: 食べられる, 書ける, 来られる/来れる coloquia'",
+              "respuesta": "日本語が話せる。",
+              "jp": "日本語が話せる。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: confundir 日本語が話せる con 泳げる sin mirar partícula. Revisa tabla y di en voz alta 3×."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 97: Potencial — られる/れる. Próxima: siguiente IMABI. Di 3 veces: 日本語が話せる。"
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Tienes que decir '日本語が話せる' y dudas si es 泳げる o 見られる."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Potencial: 食べられる, 書ける, 来られる/来れる coloquial. Habilidad/posibilidad.\n\nObjetivo: usar «IMABI 97: Potencial» sin dudar en conversación.\n\n🧩 Fórmula: 【日本語が話せる】 patrón + ejemplos graduados.\nPiensa en bloques: partícula/marcador + forma + contexto.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica forma base (V-る / V-た / N)\n2) Añade marcador (られる/れる)\n3) Coloca en frase con partícula correcta (は/が/を/に/で según verbo)\n\n⚖️ Tabla contrastiva:\n| Forma | Uso | Ejemplo |\n|---|---|---|\n| 日本語が話せる | patrón 1 | 日本語が話せる |\n| 泳げる | patrón 2 | 泳げる |\n| 見られる | patrón 3 | 見られる |\n\n💡 Ejemplos desglosados:\n1) 日本語が話せる。 — Uso básico → partícula + verbo al final SOV.\n2) 泳げる。 — Variante con tiempo/cortesía.\n3) 見られる。 — Contraste con forma similar.\n\n🔑 Mini-resumen:\n□ Recuerda forma + partícula\n□ 2 ejemplos hoy bastan, resto SRS\n□ Escucha 3× y produce 1×\n\n❌ Error 90%: olvidar partícula o mezclar plano/cortés. Usa diccionario para etiqueta [ru/ku] y practica con pitch Heiban donde toque.\n\n💬 Truco offline: di 日本語が話せる → 泳げる → 見られる en voz alta 3×. Active recall.\n\n\nPara practicar offline: tapa el japonés y produce en voz alta. Si fallas, el SRS te lo trae en minutos. Mezcla este tema + vocab + escucha. Memoria 7±2: domina 2 ejemplos hoy a fondo. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
+          "palabras": 409
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "日本語が話せる。",
+              "furigana": "日本語が話せる。",
+              "romaji": "nihongo desu.",
+              "es": "Potencial: 食べられる, 書ける, 来られる/来れる coloquia",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "泳げる。",
+              "furigana": "泳げる。",
+              "romaji": "nihongo desu.",
+              "es": "Potencial: 食べられる, 書ける, 来られる/来れる coloquia",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "見られる。",
+              "furigana": "見られる。",
+              "romaji": "nihongo desu.",
+              "es": "Potencial: 食べられる, 書ける, 来られる/来れる coloquia",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "日本語が話せる。",
+              "furigana": "日本語が話せる。",
+              "es": "Potencial: 食べられる, 書ける, 来られる/来れる coloquia",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha (texto oculto) y elige.",
+              "respuesta": "日本語が話せる。 — Potencial: 食べられる, 書ける, 来られる/来れる coloquia"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "泳げる。",
+              "furigana": "泳げる。",
+              "es": "Potencial: 食べられる, 書ける, 来られる/来れる coloquia",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "泳げる。 — Potencial: 食べられる, 書ける, 来られる/来れる coloquia"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "日本語が話せる。",
+              "furigana": "日本語が話せる。",
+              "es": "Potencial: 食べられる, 書ける, 来られる/来れる coloquia",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: 'Potencial: 食べられる, 書ける, 来られる/来れる coloquia'",
+              "respuesta": "日本語が話せる。",
+              "jp": "日本語が話せる。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: confundir 日本語が話せる con 泳げる sin mirar partícula. Revisa tabla y di en voz alta 3×."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 97: Potencial — られる/れる. Próxima: siguiente IMABI. Di 3 veces: 日本語が話せる。"
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 409,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-100",
+      "title": "IMABI 100: てあげる/くれる/もらう II",
+      "stage": "IMABI · Beginners II",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 100: てあげる/くれる/もらう II",
+          "text": "Benefactivo: Vてあげる/くれる/もらう (hacer por alguien).",
+          "examples": [
+            {
+              "jp": "教えてあげる",
+              "kana": "教えてあげる",
+              "es": "Benefactivo: Vてあげる/くれる/もらう (ha"
+            },
+            {
+              "jp": "直してくれた",
+              "kana": "直してくれた",
+              "es": "Benefactivo: Vてあげる/くれる/もらう (ha"
+            },
+            {
+              "jp": "調べてもらった",
+              "kana": "調べてもらった",
+              "es": "Benefactivo: Vてあげる/くれる/もらう (ha"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Tienes que decir '教えてあげる' y dudas si es 直してくれた o 調べてもらった."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Benefactivo: Vてあげる/くれる/もらう (hacer por alguien).\n\nObjetivo: usar «IMABI 100: てあげる/くれる/もらう II» sin dudar en conversación.\n\n🧩 Fórmula: 【教えてあげる】 patrón + ejemplos graduados.\nPiensa en bloques: partícula/marcador + forma + contexto.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica forma base (V-る / V-た / N)\n2) Añade marcador (IMABI 100: てあげる/くれる/)\n3) Coloca en frase con partícula correcta (は/が/を/に/で según verbo)\n\n⚖️ Tabla contrastiva:\n| Forma | Uso | Ejemplo |\n|---|---|---|\n| 教えてあげる | patrón 1 | 教えてあげる |\n| 直してくれた | patrón 2 | 直してくれた |\n| 調べてもらった | patrón 3 | 調べてもらった |\n\n💡 Ejemplos desglosados:\n1) 教えてあげる。 — Uso básico → partícula + verbo al final SOV.\n2) 直してくれた。 — Variante con tiempo/cortesía.\n3) 調べてもらった。 — Contraste con forma similar.\n\n🔑 Mini-resumen:\n□ Recuerda forma + partícula\n□ 2 ejemplos hoy bastan, resto SRS\n□ Escucha 3× y produce 1×\n\n❌ Error 90%: olvidar partícula o mezclar plano/cortés. Usa diccionario para etiqueta [ru/ku] y practica con pitch Heiban donde toque.\n\n💬 Truco offline: di 教えてあげる → 直してくれた → 調べてもらった en voz alta 3×. Active recall.\n\n\nPara practicar offline: tapa el japonés y produce en voz alta. Si fallas, el SRS te lo trae en minutos. Mezcla este tema + vocab + escucha. Memoria 7±2: domina 2 ejemplos hoy a fondo. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
+          "palabras": 411
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "手伝ってもらいました。",
+              "furigana": "手伝ってもらいました。",
+              "romaji": "nihongo desu.",
+              "es": "Benefactivo: Vてあげる/くれる/もらう (hacer por al",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "手伝ってもらいました。",
+              "furigana": "手伝ってもらいました。",
+              "romaji": "nihongo desu.",
+              "es": "Benefactivo: Vてあげる/くれる/もらう (hacer por al",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "手伝ってもらいました。",
+              "furigana": "手伝ってもらいました。",
+              "romaji": "nihongo desu.",
+              "es": "Benefactivo: Vてあげる/くれる/もらう (hacer por al",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "手伝ってもらいました。",
+              "furigana": "手伝ってもらいました。",
+              "es": "Benefactivo: Vてあげる/くれる/もらう (hacer por al",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha (texto oculto) y elige.",
+              "respuesta": "手伝ってもらいました。 — Benefactivo: Vてあげる/くれる/もらう (hacer por al"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "手伝ってもらいました。",
+              "furigana": "手伝ってもらいました。",
+              "es": "Benefactivo: Vてあげる/くれる/もらう (hacer por al",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "手伝ってもらいました。 — Benefactivo: Vてあげる/くれる/もらう (hacer por al"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "手伝ってもらいました。",
+              "furigana": "手伝ってもらいました。",
+              "es": "Benefactivo: Vてあげる/くれる/もらう (hacer por al",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: 'Benefactivo: Vてあげる/くれる/もらう (hacer por al'",
+              "respuesta": "手伝ってもらいました。",
+              "jp": "手伝ってもらいました。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: confundir 教えてあげる con 直してくれた sin mirar partícula. Revisa tabla y di en voz alta 3×."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 100: てあげる/くれる/もらう II. Próxima: siguiente IMABI. Di 3 veces: 教えてあげる。"
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Tienes que decir '教えてあげる' y dudas si es 直してくれた o 調べてもらった."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Benefactivo: Vてあげる/くれる/もらう (hacer por alguien).\n\nObjetivo: usar «IMABI 100: てあげる/くれる/もらう II» sin dudar en conversación.\n\n🧩 Fórmula: 【教えてあげる】 patrón + ejemplos graduados.\nPiensa en bloques: partícula/marcador + forma + contexto.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica forma base (V-る / V-た / N)\n2) Añade marcador (IMABI 100: てあげる/くれる/)\n3) Coloca en frase con partícula correcta (は/が/を/に/で según verbo)\n\n⚖️ Tabla contrastiva:\n| Forma | Uso | Ejemplo |\n|---|---|---|\n| 教えてあげる | patrón 1 | 教えてあげる |\n| 直してくれた | patrón 2 | 直してくれた |\n| 調べてもらった | patrón 3 | 調べてもらった |\n\n💡 Ejemplos desglosados:\n1) 教えてあげる。 — Uso básico → partícula + verbo al final SOV.\n2) 直してくれた。 — Variante con tiempo/cortesía.\n3) 調べてもらった。 — Contraste con forma similar.\n\n🔑 Mini-resumen:\n□ Recuerda forma + partícula\n□ 2 ejemplos hoy bastan, resto SRS\n□ Escucha 3× y produce 1×\n\n❌ Error 90%: olvidar partícula o mezclar plano/cortés. Usa diccionario para etiqueta [ru/ku] y practica con pitch Heiban donde toque.\n\n💬 Truco offline: di 教えてあげる → 直してくれた → 調べてもらった en voz alta 3×. Active recall.\n\n\nPara practicar offline: tapa el japonés y produce en voz alta. Si fallas, el SRS te lo trae en minutos. Mezcla este tema + vocab + escucha. Memoria 7±2: domina 2 ejemplos hoy a fondo. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase. Repasa en voz alta y crea tu propia frase.",
+          "palabras": 411
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "手伝ってもらいました。",
+              "furigana": "手伝ってもらいました。",
+              "romaji": "nihongo desu.",
+              "es": "Benefactivo: Vてあげる/くれる/もらう (hacer por al",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "手伝ってもらいました。",
+              "furigana": "手伝ってもらいました。",
+              "romaji": "nihongo desu.",
+              "es": "Benefactivo: Vてあげる/くれる/もらう (hacer por al",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "手伝ってもらいました。",
+              "furigana": "手伝ってもらいました。",
+              "romaji": "nihongo desu.",
+              "es": "Benefactivo: Vてあげる/くれる/もらう (hacer por al",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "手伝ってもらいました。",
+              "furigana": "手伝ってもらいました。",
+              "es": "Benefactivo: Vてあげる/くれる/もらう (hacer por al",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha (texto oculto) y elige.",
+              "respuesta": "手伝ってもらいました。 — Benefactivo: Vてあげる/くれる/もらう (hacer por al"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "手伝ってもらいました。",
+              "furigana": "手伝ってもらいました。",
+              "es": "Benefactivo: Vてあげる/くれる/もらう (hacer por al",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "手伝ってもらいました。 — Benefactivo: Vてあげる/くれる/もらう (hacer por al"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "手伝ってもらいました。",
+              "furigana": "手伝ってもらいました。",
+              "es": "Benefactivo: Vてあげる/くれる/もらう (hacer por al",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: 'Benefactivo: Vてあげる/くれる/もらう (hacer por al'",
+              "respuesta": "手伝ってもらいました。",
+              "jp": "手伝ってもらいました。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: confundir 教えてあげる con 直してくれた sin mirar partícula. Revisa tabla y di en voz alta 3×."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: IMABI 100: てあげる/くれる/もらう II. Próxima: siguiente IMABI. Di 3 veces: 教えてあげる。"
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 411,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
     }
   ],
   "counts": {
@@ -80872,7 +86116,7 @@
     "phrases": 164,
     "grammar": 246,
     "verbs": 119,
-    "lessons": 244
+    "lessons": 267
   }
 };
     root.NihongoDojoN5 = data;
