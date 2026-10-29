@@ -49,19 +49,19 @@
         { num: 35, title: "Negative て Forms: ～なくて & ～ないで", url: "https://imabi.org/the-negative-%E3%81%A6%E5%BD%A2-%EF%BD%9E%E3%81%AA%E3%81%8F%E3%81%A6-%EF%BD%9E%E3%81%AA%E3%81%84%E3%81%A7/", ids: ["l-imabi-035"] },
         { num: 36, title: "The Progressive ～ている", url: "https://imabi.org/the-progressive-continued-state-te-iru-%EF%BD%9E%E3%81%A6%E3%81%84%E3%82%8B/", ids: ["l-imabi-036"] },
         { num: 37, title: "Stative ～てある", url: "https://imabi.org/stative-verbs-te-aru-%EF%BD%9E%E3%81%A6%E3%81%82%E3%82%8B/", ids: ["l-imabi-037"] },
-        { num: 38, title: "Sino-Japanese Numbers", url: "https://imabi.org/sino-japanese-numbers-2/", ids: [] },
-        { num: 39, title: "Native Numbers & ～つ", url: "https://imabi.org/native-numbers-the-counter-%EF%BD%9E%E3%81%A4/", ids: [] },
-        { num: 40, title: "Counters Sino-JP I", url: "https://imabi.org/counters-with-sino-japanese-numbers-i/", ids: [] },
-        { num: 41, title: "Counters Sino-JP II", url: "https://imabi.org/counters-vi/", ids: [] },
-        { num: 42, title: "Counters Native I", url: "https://imabi.org/counters-v/", ids: [] },
-        { num: 43, title: "Deictic Time", url: "https://imabi.org/time-iii-absolute-time/", ids: [] },
-        { num: 44, title: "Non-Deictic Time I", url: "https://imabi.org/time-iv-relative-time/", ids: [] },
-        { num: 45, title: "Non-Deictic Time II", url: "https://imabi.org/non-deictic-time-ii-determiners/", ids: [] },
-        { num: 46, title: "Non Deictic Time III", url: "https://imabi.org/%e7%ac%ac%e8%aa%b2-non-deictic-time-iii/", ids: [] },
-        { num: 47, title: "Time Counters I: ～日・週間・ヶ月・年", url: "https://imabi.org/counters-iii-time-part-i-%E6%97%A5-%E9%80%B1%E9%96%93-%E6%9C%88-%E5%B9%B4-etc/", ids: [] },
-        { num: 48, title: "Time Counters II: ～時間・分・秒・晩・夜", url: "https://imabi.org/counters-iv-time-part-ii-%E6%99%82-%E6%99%82%E9%96%93-%E5%88%86-%E7%A7%92-%E6%99%A9-%E5%a4%9c/", ids: [] },
-        { num: 49, title: "Counters Frequency: ～度・回・遍", url: "https://imabi.org/counters-for-frequency-%EF%BD%9E%E5%ba%a6%E3%83%bb%E5%9b%9e%E3%83%bb%E9%81%8d/", ids: [] },
-        { num: 50, title: "Used To: ～たものだ & かつて", url: "https://imabi.org/used-to-%EF%BD%9E%E3%81%9F%E3%82%82%E3%81%AE%E3%81%A0-%E5%98%97%E3%81%A6/", ids: [] }
+        { num: 38, title: "Sino-Japanese Numbers", url: "https://imabi.org/sino-japanese-numbers-2/", ids: ["l-imabi-038"] },
+        { num: 39, title: "Native Numbers & ～つ", url: "https://imabi.org/native-numbers-the-counter-%EF%BD%9E%E3%81%A4/", ids: ["l-imabi-039"] },
+        { num: 40, title: "Counters Sino-JP I", url: "https://imabi.org/counters-with-sino-japanese-numbers-i/", ids: ["l-imabi-040"] },
+        { num: 41, title: "Counters Sino-JP II", url: "https://imabi.org/counters-vi/", ids: ["l-imabi-041"] },
+        { num: 42, title: "Counters Native I", url: "https://imabi.org/counters-v/", ids: ["l-imabi-042"] },
+        { num: 43, title: "Deictic Time", url: "https://imabi.org/time-iii-absolute-time/", ids: ["l-imabi-043"] },
+        { num: 44, title: "Non-Deictic Time I", url: "https://imabi.org/time-iv-relative-time/", ids: ["l-imabi-044"] },
+        { num: 45, title: "Non-Deictic Time II", url: "https://imabi.org/non-deictic-time-ii-determiners/", ids: ["l-imabi-045"] },
+        { num: 46, title: "Non Deictic Time III", url: "https://imabi.org/%e7%ac%ac%e8%aa%b2-non-deictic-time-iii/", ids: ["l-imabi-046"] },
+        { num: 47, title: "Time Counters I: ～日・週間・ヶ月・年", url: "https://imabi.org/counters-iii-time-part-i-%E6%97%A5-%E9%80%B1%E9%96%93-%E6%9C%88-%E5%B9%B4-etc/", ids: ["l-imabi-047"] },
+        { num: 48, title: "Time Counters II: ～時間・分・秒・晩・夜", url: "https://imabi.org/counters-iv-time-part-ii-%E6%99%82-%E6%99%82%E9%96%93-%E5%88%86-%E7%A7%92-%E6%99%A9-%E5%a4%9c/", ids: ["l-imabi-048"] },
+        { num: 49, title: "Counters Frequency: ～度・回・遍", url: "https://imabi.org/counters-for-frequency-%EF%BD%9E%E5%ba%a6%E3%83%bb%E5%9b%9e%E3%83%bb%E9%81%8d/", ids: ["l-imabi-049"] },
+        { num: 50, title: "Used To: ～たものだ & かつて", url: "https://imabi.org/used-to-%EF%BD%9E%E3%81%9F%E3%82%82%E3%81%AE%E3%81%A0-%E5%98%97%E3%81%A6/", ids: ["l-imabi-050"] }
     ];
 
     var BEGINNERS_II = [
