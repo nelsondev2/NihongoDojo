@@ -1,4 +1,4 @@
-/* NihongoDojo N5. WexDC Clarity 3.0 + IMABI 9/14/15 */
+/* NihongoDojo N5. WexDC Clarity 3.0 + IMABI 17-26 */
 (function (root) {
     "use strict";
     var data = {
@@ -74708,6 +74708,1374 @@
         "listening_puro_cantidad": 2,
         "confianza": 9
       }
+    },
+    {
+      "id": "l-imabi-017",
+      "title": "IMABI 17: Verbo一段 — 食べる, 見る",
+      "stage": "IMABI · Beginners I",
+      "minutes": 8,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 17: Verbo一段 — 食べる, 見る",
+          "text": "Ichidan: todos terminan en る y suena i/e + る. 食べる (taberu), 見る (miru). Su base es estable.",
+          "examples": [
+            {
+              "jp": "朝ごはんを食べます。",
+              "kana": "あさごはんをたべます。",
+              "es": "Desayuno."
+            },
+            {
+              "jp": "映画を見ます。",
+              "kana": "えいがをみます。",
+              "es": "Veo una peli."
+            },
+            {
+              "jp": "早く寝ます。",
+              "kana": "はやくねます。",
+              "es": "Me acuesto pronto."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "En el conbini ves 食べます y 飲みます. Uno termina en べる, otro en む. ¿Por qué uno cambia a 食べない y otro a 飲まない? Ahí está ichidan vs godan."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Los verbos一段 (ichidan, “una columna”) son los fáciles: siempre terminan en る y la vocal anterior es i o e: 食(た)べる (e+る), 見(み)る (i+る), 寝(ね)る, 起(お)きる. Su truco es que la raíz no cambia.\n\nObjetivo: conjugar ichidan sin dudar: 食べる → 食べない/食べます/食べた.\n\n🧩 Fórmula: 【raíz + る → quita る + terminación】\nEj: たべる → たべ + ない / ます / た\n\nPiensa en bloques: quitas る y añades lo que necesitas. No hay sorpresas de consonantes.\n\n👣 Cómo construirlo (3 pasos):\n1) Confirma que es ichidan: ¿termina en い/え + る? 食べる sí (べ = be), 切る no (き = ki pero es godan)\n2) Quita る: 食べ → raíz\n3) Añade: ない (neg), ます (cortés), た (pasado): 食べない, 食べます, 食べた\n\n⚖️ Tabla ichidan:\n| Forma | Regla | Ejemplo |\n|---|---|---|\n| Diccionario | る | 食べる |\n| Negativo | る→ない | 食べない |\n| Cortés | る→ます | 食べます |\n| Pasado | る→た | 食べた |\n| て-form | る→て | 食べて |\n\n💡 Ejemplos desglosados:\n1) 朝ごはんを食べます。 (あさごはんをたべます。) — “Desayuno.” → 朝ごはん(tema) + を + 食べます.\n2) 映画を見ます。 (えいがをみます。) — “Veo peli.” → 映画を + 見ます.\n3) 早く寝ます。 (はやくねます。) — “Duermo pronto.” → 早く + 寝ます.\n\n🔑 Mini-resumen:\n□ ichidan = i/e + る, raíz estable\n□ Quita る → ない/ます/た/て\n□ Excepción: algunos i/e+る son godan (要る, 走る) — se aprenden aparte\n\n❌ Error 90%: tratar 帰る (kaeru) como ichidan. Parece e+る pero es godan: 帰らない, no 帰ない. IMABI 18 te entrena el ojo.\n\n💬 Truco offline: di 食べる→食べない→食べます→食べた en voz alta 3×. Active recall.\n\n¿Por qué 5 ítems? Domina 2 hoy, resto SRS. Mezcla verbos + escucha.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Si dudas entre ichidan y godan, abre el diccionario y busca el tag: [ichidan] termina en る con vocal previa, [godan] cambia la consonante. Repite en voz alta marcando la partícula para anclar ritmo. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase.",
+          "palabras": 414
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "朝ごはんを食べます。",
+              "furigana": "あさごはんをたべます。",
+              "romaji": "asagohan wo tabemasu.",
+              "es": "Desayuno.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "映画を見ます。",
+              "furigana": "えいがをみます。",
+              "romaji": "eiga wo mimasu.",
+              "es": "Veo una peli.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "早く寝ます。",
+              "furigana": "はやくねます。",
+              "romaji": "hayaku nemasu.",
+              "es": "Me acuesto pronto.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "朝ごはんを食べます。",
+              "furigana": "あさごはんをたべます。",
+              "es": "Desayuno.",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha (texto oculto) y elige.",
+              "respuesta": "朝ごはんを食べます。 — Desayuno."
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "映画を見ます。",
+              "furigana": "えいがをみます。",
+              "es": "Veo una peli.",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "映画を見ます。 — Veo una peli."
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "朝ごはんを食べます。",
+              "furigana": "あさごはんをたべます。",
+              "es": "Desayuno.",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: 'Veo una peli.'",
+              "respuesta": "映画を見ます。",
+              "jp": "映画を見ます。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: 帰る, 切る, 入る parecen ichidan pero son godan. Si dudas, consulta diccionario: ¿dice [ichidan] o [godan]? No te fíes solo de la terminación."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: ichidan quita る. Próxima: godan cambia consonante. Di 3 veces: 食べない, 食べます。"
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "En el conbini ves 食べます y 飲みます. Uno termina en べる, otro en む. ¿Por qué uno cambia a 食べない y otro a 飲まない? Ahí está ichidan vs godan."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Los verbos一段 (ichidan, “una columna”) son los fáciles: siempre terminan en る y la vocal anterior es i o e: 食(た)べる (e+る), 見(み)る (i+る), 寝(ね)る, 起(お)きる. Su truco es que la raíz no cambia.\n\nObjetivo: conjugar ichidan sin dudar: 食べる → 食べない/食べます/食べた.\n\n🧩 Fórmula: 【raíz + る → quita る + terminación】\nEj: たべる → たべ + ない / ます / た\n\nPiensa en bloques: quitas る y añades lo que necesitas. No hay sorpresas de consonantes.\n\n👣 Cómo construirlo (3 pasos):\n1) Confirma que es ichidan: ¿termina en い/え + る? 食べる sí (べ = be), 切る no (き = ki pero es godan)\n2) Quita る: 食べ → raíz\n3) Añade: ない (neg), ます (cortés), た (pasado): 食べない, 食べます, 食べた\n\n⚖️ Tabla ichidan:\n| Forma | Regla | Ejemplo |\n|---|---|---|\n| Diccionario | る | 食べる |\n| Negativo | る→ない | 食べない |\n| Cortés | る→ます | 食べます |\n| Pasado | る→た | 食べた |\n| て-form | る→て | 食べて |\n\n💡 Ejemplos desglosados:\n1) 朝ごはんを食べます。 (あさごはんをたべます。) — “Desayuno.” → 朝ごはん(tema) + を + 食べます.\n2) 映画を見ます。 (えいがをみます。) — “Veo peli.” → 映画を + 見ます.\n3) 早く寝ます。 (はやくねます。) — “Duermo pronto.” → 早く + 寝ます.\n\n🔑 Mini-resumen:\n□ ichidan = i/e + る, raíz estable\n□ Quita る → ない/ます/た/て\n□ Excepción: algunos i/e+る son godan (要る, 走る) — se aprenden aparte\n\n❌ Error 90%: tratar 帰る (kaeru) como ichidan. Parece e+る pero es godan: 帰らない, no 帰ない. IMABI 18 te entrena el ojo.\n\n💬 Truco offline: di 食べる→食べない→食べます→食べた en voz alta 3×. Active recall.\n\n¿Por qué 5 ítems? Domina 2 hoy, resto SRS. Mezcla verbos + escucha.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Si dudas entre ichidan y godan, abre el diccionario y busca el tag: [ichidan] termina en る con vocal previa, [godan] cambia la consonante. Repite en voz alta marcando la partícula para anclar ritmo. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase.",
+          "palabras": 414
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "朝ごはんを食べます。",
+              "furigana": "あさごはんをたべます。",
+              "romaji": "asagohan wo tabemasu.",
+              "es": "Desayuno.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "映画を見ます。",
+              "furigana": "えいがをみます。",
+              "romaji": "eiga wo mimasu.",
+              "es": "Veo una peli.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "早く寝ます。",
+              "furigana": "はやくねます。",
+              "romaji": "hayaku nemasu.",
+              "es": "Me acuesto pronto.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "朝ごはんを食べます。",
+              "furigana": "あさごはんをたべます。",
+              "es": "Desayuno.",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha (texto oculto) y elige.",
+              "respuesta": "朝ごはんを食べます。 — Desayuno."
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "映画を見ます。",
+              "furigana": "えいがをみます。",
+              "es": "Veo una peli.",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "映画を見ます。 — Veo una peli."
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "朝ごはんを食べます。",
+              "furigana": "あさごはんをたべます。",
+              "es": "Desayuno.",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: 'Veo una peli.'",
+              "respuesta": "映画を見ます。",
+              "jp": "映画を見ます。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: 帰る, 切る, 入る parecen ichidan pero son godan. Si dudas, consulta diccionario: ¿dice [ichidan] o [godan]? No te fíes solo de la terminación."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: ichidan quita る. Próxima: godan cambia consonante. Di 3 veces: 食べない, 食べます。"
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 414,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-018",
+      "title": "IMABI 18: Verbo五段 — 書く, 読む, 行く",
+      "stage": "IMABI · Beginners I",
+      "minutes": 9,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 18: Verbo五段 — 書く, 読む, 行く",
+          "text": "Godan: la raíz cambia la última consonante. 書く (kaku) → 書かない, 行く → 行かない. Hay que memorizar la tabla de 9 terminaciones.",
+          "examples": [
+            {
+              "jp": "手紙を書きます。",
+              "kana": "てがみをかきます。",
+              "es": "Escribo una carta."
+            },
+            {
+              "jp": "本を読みます。",
+              "kana": "ほんをよみます。",
+              "es": "Leo un libro."
+            },
+            {
+              "jp": "学校に行きます。",
+              "kana": "がっこうにいきます。",
+              "es": "Voy a la escuela."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Ves 書きます, 読みます, 行きます. Todos terminan en ます, pero sus diccionarios son 書く, 読む, 行く — tres finales distintos. ¿Cómo predecir 書かない vs 読まない?"
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Los五段 (godan, “cinco columnas”) cambian la última sílaba por 5 vocales: か-き-く-け-こ. Es el grupo grande (80% de verbos). Terminaciones: う, く, す, つ, ぬ, ぶ, む, ぐ, る (pero no todo る es godan).\n\nObjetivo: conjugar godan sin dudar: 書く → 書かない/書きます/書いた.\n\n🧩 Fórmula: 【raíz + terminación → cambia a a/i/u/e/o + sufijo】\nEj: かく → かか(ない), かき(ます), かく(presente), かけ(ば), かこ(う)\n\nPiensa en bloques: la última kana baila entre vocales.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica la terminación: 書く (く), 読む (む), 行く (く pero irregular en て)\n2) Cambia la vocal: く→か para ない, く→き para ます\n3) Añade: ない, ます, た (con cambios: く→いた, む→んだ)\n\n⚖️ Tabla godan clave:\n| Dicc. | ない | ます | て | Ejemplo |\n|---|---|---|---|---|\n| 書く | 書かない | 書きます | 書いて | k→ka/ki/ite |\n| 読む | 読まない | 読みます | 読んで | m→ma/mi/nde |\n| 行く | 行かない | 行きます | 行って | irregular: ite→tte |\n\n💡 Ejemplos desglosados:\n1) 手紙を書きます。 (てがみをかきます。) — “Escribo carta.” → 手紙を + 書きます.\n2) 本を読みます。 (ほんをよみます。) — “Leo libro.” → 本を + 読みます.\n3) 学校に行きます。 (がっこうにいきます。) — “Voy a escuela.” → 学校に + 行きます.\n\n🔑 Mini-resumen:\n□ godan cambia la consonante final entre a/i/u/e/o\n□ ない usa a (書かない), ます usa i (書きます)\n□ く/ぐ/む tienen cambios especiales en た/て\n\n❌ Error 90%: aplicar regla ichidan a godan: 書る→書ない (mal). Siempre verifica grupo en diccionario.\n\n💬 Truco offline: di 書く→書かない→書きます→書いた 3×. Active recall.\n\n¿Por qué 5 ítems? Domina 2 hoy, resto SRS. Mezcla godan + escucha.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Si dudas entre ichidan y godan, abre el diccionario y busca el tag: [ichidan] termina en る con vocal previa, [godan] cambia la consonante. Repite en voz alta marcando la partícula para anclar ritmo. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase.",
+          "palabras": 405
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "手紙を書きます。",
+              "furigana": "てがみをかきます。",
+              "romaji": "tegami wo kakimasu.",
+              "es": "Escribo una carta.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "本を読みます。",
+              "furigana": "ほんをよみます。",
+              "romaji": "hon wo yomimasu.",
+              "es": "Leo un libro.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "学校に行きます。",
+              "furigana": "がっこうにいきます。",
+              "romaji": "gakkou ni ikimasu.",
+              "es": "Voy a la escuela.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "手紙を書きます。",
+              "furigana": "てがみをかきます。",
+              "es": "Escribo una carta.",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha (texto oculto) y elige.",
+              "respuesta": "手紙を書きます。 — Escribo una carta."
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "本を読みます。",
+              "furigana": "ほんをよみます。",
+              "es": "Leo un libro.",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "本を読みます。 — Leo un libro."
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "手紙を書きます。",
+              "furigana": "てがみをかきます。",
+              "es": "Escribo una carta.",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: 'Voy a la escuela.'",
+              "respuesta": "学校に行きます。",
+              "jp": "学校に行きます。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: confundir 行く (iku) con irregular: 行って no 行いて. Memoriza: 行く→行って, いく→いって. Y 帰る es godan aunque parezca ichidan."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: godan cambia vocal final. Próxima: する/来る irregulares. Di 3 veces: 書かない, 読みます。"
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Ves 書きます, 読みます, 行きます. Todos terminan en ます, pero sus diccionarios son 書く, 読む, 行く — tres finales distintos. ¿Cómo predecir 書かない vs 読まない?"
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "Los五段 (godan, “cinco columnas”) cambian la última sílaba por 5 vocales: か-き-く-け-こ. Es el grupo grande (80% de verbos). Terminaciones: う, く, す, つ, ぬ, ぶ, む, ぐ, る (pero no todo る es godan).\n\nObjetivo: conjugar godan sin dudar: 書く → 書かない/書きます/書いた.\n\n🧩 Fórmula: 【raíz + terminación → cambia a a/i/u/e/o + sufijo】\nEj: かく → かか(ない), かき(ます), かく(presente), かけ(ば), かこ(う)\n\nPiensa en bloques: la última kana baila entre vocales.\n\n👣 Cómo construirlo (3 pasos):\n1) Identifica la terminación: 書く (く), 読む (む), 行く (く pero irregular en て)\n2) Cambia la vocal: く→か para ない, く→き para ます\n3) Añade: ない, ます, た (con cambios: く→いた, む→んだ)\n\n⚖️ Tabla godan clave:\n| Dicc. | ない | ます | て | Ejemplo |\n|---|---|---|---|---|\n| 書く | 書かない | 書きます | 書いて | k→ka/ki/ite |\n| 読む | 読まない | 読みます | 読んで | m→ma/mi/nde |\n| 行く | 行かない | 行きます | 行って | irregular: ite→tte |\n\n💡 Ejemplos desglosados:\n1) 手紙を書きます。 (てがみをかきます。) — “Escribo carta.” → 手紙を + 書きます.\n2) 本を読みます。 (ほんをよみます。) — “Leo libro.” → 本を + 読みます.\n3) 学校に行きます。 (がっこうにいきます。) — “Voy a escuela.” → 学校に + 行きます.\n\n🔑 Mini-resumen:\n□ godan cambia la consonante final entre a/i/u/e/o\n□ ない usa a (書かない), ます usa i (書きます)\n□ く/ぐ/む tienen cambios especiales en た/て\n\n❌ Error 90%: aplicar regla ichidan a godan: 書る→書ない (mal). Siempre verifica grupo en diccionario.\n\n💬 Truco offline: di 書く→書かない→書きます→書いた 3×. Active recall.\n\n¿Por qué 5 ítems? Domina 2 hoy, resto SRS. Mezcla godan + escucha.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Si dudas entre ichidan y godan, abre el diccionario y busca el tag: [ichidan] termina en る con vocal previa, [godan] cambia la consonante. Repite en voz alta marcando la partícula para anclar ritmo. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase.",
+          "palabras": 405
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "手紙を書きます。",
+              "furigana": "てがみをかきます。",
+              "romaji": "tegami wo kakimasu.",
+              "es": "Escribo una carta.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "本を読みます。",
+              "furigana": "ほんをよみます。",
+              "romaji": "hon wo yomimasu.",
+              "es": "Leo un libro.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "学校に行きます。",
+              "furigana": "がっこうにいきます。",
+              "romaji": "gakkou ni ikimasu.",
+              "es": "Voy a la escuela.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "手紙を書きます。",
+              "furigana": "てがみをかきます。",
+              "es": "Escribo una carta.",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha (texto oculto) y elige.",
+              "respuesta": "手紙を書きます。 — Escribo una carta."
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "本を読みます。",
+              "furigana": "ほんをよみます。",
+              "es": "Leo un libro.",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "本を読みます。 — Leo un libro."
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "手紙を書きます。",
+              "furigana": "てがみをかきます。",
+              "es": "Escribo una carta.",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: 'Voy a la escuela.'",
+              "respuesta": "学校に行きます。",
+              "jp": "学校に行きます。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: confundir 行く (iku) con irregular: 行って no 行いて. Memoriza: 行く→行って, いく→いって. Y 帰る es godan aunque parezca ichidan."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: godan cambia vocal final. Próxima: する/来る irregulares. Di 3 veces: 書かない, 読みます。"
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 405,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-021",
+      "title": "IMABI 21: か con negación — じゃないか",
+      "stage": "IMABI · Beginners I",
+      "minutes": 7,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 21: か con negación — じゃないか",
+          "text": "か no solo pregunta, también confirma con negación: じゃないか (¿verdad que no es?). 学生じゃないですか — ¿No es estudiante? (esperas sí).",
+          "examples": [
+            {
+              "jp": "学生じゃないですか。",
+              "kana": "がくせいじゃないですか。",
+              "es": "¿No es estudiante?"
+            },
+            {
+              "jp": "行かないか。",
+              "kana": "いかないか。",
+              "es": "¿No vas? (invitación)"
+            },
+            {
+              "jp": "寒くないか。",
+              "kana": "さむくないか。",
+              "es": "¿No hace frío?"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Te dicen 「学生じゃないか」 y dudas: ¿es pregunta? ¿es negación? ¿invitación? Sin か negativo no entiendes el matiz de confirmación."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "か con negación crea dos usos: pregunta negativa (¿no es...?) y confirmación/retórica (¿verdad?).\n\nObjetivo: usar じゃないか / じゃないですか para preguntar esperando confirmación.\n\n🧩 Fórmula: 【Frase negativa + か】 → 学生じゃないですか / 行かないか / 寒くないか\nVariante cortés: じゃないですか / じゃないでしょうか (más suave)\n\nPiensa en bloques: niegas y luego preguntas para invitar a decir “sí, es”.\n\n👣 Cómo construirlo (3 pasos):\n1) Forma negativa: 学生 → 学生じゃない, 行く → 行かない, 寒い → 寒くない\n2) Añade か (plano) o か con です (cortés): じゃないか / じゃないですか\n3) Entona como pregunta: ¿verdadero?\n\n⚖️ Tabla か negativo:\n| Base | +か plano | +か cortés | Matiz |\n|---|---|---|---|\n| 学生だ | 学生じゃないか | 学生じゃないですか | ¿No es estudiante? |\n| 行く | 行かないか | 行きませんか | ¿No vas? (invitación) |\n| 寒い | 寒くないか | 寒くないですか | ¿No hace frío? |\n\n💡 Ejemplos desglosados:\n1) 学生じゃないですか。 (がくせいじゃないですか。) — “¿No es estudiante?” → 学生じゃない + ですか.\n2) 行かないか。 (いかないか。) — “¿No vas?” → 行かない + か (invitación).\n3) 寒くないか。 (さむくないか。) — “¿No hace frío?” → 寒くない + か.\n\n🔑 Mini-resumen:\n□ Negativo + か = pregunta esperando sí / invitación\n□ Cortés: じゃないですか / 行きませんか\n□ Plano retórico: じゃないか (¿verdad?)\n\n❌ Error 90%: usar じゃないか en formal. En trabajo usa じゃないですか o じゃありませんか. Plano suena brusco.\n\n💬 Truco offline: di 学生じゃないですか → 学生じゃないか (cambia formalidad) 3×.\n\n¿Por qué 5 ítems? Domina 2 hoy, resto SRS. Mezcla か negativo + escucha.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Si dudas entre ichidan y godan, abre el diccionario y busca el tag: [ichidan] termina en る con vocal previa, [godan] cambia la consonante. Repite en voz alta marcando la partícula para anclar ritmo. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase.",
+          "palabras": 407
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "学生じゃないですか。",
+              "furigana": "がくせいじゃないですか。",
+              "romaji": "gakusei ja nai desu ka.",
+              "es": "¿No es estudiante?",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "行かないか。",
+              "furigana": "いかないか。",
+              "romaji": "ikanai ka.",
+              "es": "¿No vas?",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "寒くないか。",
+              "furigana": "さむくないか。",
+              "romaji": "samukunai ka.",
+              "es": "¿No hace frío?",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "学生じゃないですか。",
+              "furigana": "がくせいじゃないですか。",
+              "es": "¿No es estudiante?",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha (texto oculto) y elige.",
+              "respuesta": "学生じゃないですか。 — ¿No es estudiante?"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "行かないか。",
+              "furigana": "いかないか。",
+              "es": "¿No vas?",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "行かないか。 — ¿No vas?"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "学生じゃないですか。",
+              "furigana": "がくせいじゃないですか。",
+              "es": "¿No es estudiante?",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: '¿No hace frío?'",
+              "respuesta": "寒くないか。",
+              "jp": "寒くないか。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: confundir じゃないか (plano, confirmación) con じゃないですか (cortés). No uses plano con tu jefe. Y no añadas か a じゃないです ya cortés sin か: es じゃないですか, no じゃないですかか."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: negativo + か para invitar. Próxima: こそあど This/That. Di 3 veces: じゃないですか。"
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Te dicen 「学生じゃないか」 y dudas: ¿es pregunta? ¿es negación? ¿invitación? Sin か negativo no entiendes el matiz de confirmación."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "か con negación crea dos usos: pregunta negativa (¿no es...?) y confirmación/retórica (¿verdad?).\n\nObjetivo: usar じゃないか / じゃないですか para preguntar esperando confirmación.\n\n🧩 Fórmula: 【Frase negativa + か】 → 学生じゃないですか / 行かないか / 寒くないか\nVariante cortés: じゃないですか / じゃないでしょうか (más suave)\n\nPiensa en bloques: niegas y luego preguntas para invitar a decir “sí, es”.\n\n👣 Cómo construirlo (3 pasos):\n1) Forma negativa: 学生 → 学生じゃない, 行く → 行かない, 寒い → 寒くない\n2) Añade か (plano) o か con です (cortés): じゃないか / じゃないですか\n3) Entona como pregunta: ¿verdadero?\n\n⚖️ Tabla か negativo:\n| Base | +か plano | +か cortés | Matiz |\n|---|---|---|---|\n| 学生だ | 学生じゃないか | 学生じゃないですか | ¿No es estudiante? |\n| 行く | 行かないか | 行きませんか | ¿No vas? (invitación) |\n| 寒い | 寒くないか | 寒くないですか | ¿No hace frío? |\n\n💡 Ejemplos desglosados:\n1) 学生じゃないですか。 (がくせいじゃないですか。) — “¿No es estudiante?” → 学生じゃない + ですか.\n2) 行かないか。 (いかないか。) — “¿No vas?” → 行かない + か (invitación).\n3) 寒くないか。 (さむくないか。) — “¿No hace frío?” → 寒くない + か.\n\n🔑 Mini-resumen:\n□ Negativo + か = pregunta esperando sí / invitación\n□ Cortés: じゃないですか / 行きませんか\n□ Plano retórico: じゃないか (¿verdad?)\n\n❌ Error 90%: usar じゃないか en formal. En trabajo usa じゃないですか o じゃありませんか. Plano suena brusco.\n\n💬 Truco offline: di 学生じゃないですか → 学生じゃないか (cambia formalidad) 3×.\n\n¿Por qué 5 ítems? Domina 2 hoy, resto SRS. Mezcla か negativo + escucha.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Si dudas entre ichidan y godan, abre el diccionario y busca el tag: [ichidan] termina en る con vocal previa, [godan] cambia la consonante. Repite en voz alta marcando la partícula para anclar ritmo. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase.",
+          "palabras": 407
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "学生じゃないですか。",
+              "furigana": "がくせいじゃないですか。",
+              "romaji": "gakusei ja nai desu ka.",
+              "es": "¿No es estudiante?",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "行かないか。",
+              "furigana": "いかないか。",
+              "romaji": "ikanai ka.",
+              "es": "¿No vas?",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "寒くないか。",
+              "furigana": "さむくないか。",
+              "romaji": "samukunai ka.",
+              "es": "¿No hace frío?",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "学生じゃないですか。",
+              "furigana": "がくせいじゃないですか。",
+              "es": "¿No es estudiante?",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha (texto oculto) y elige.",
+              "respuesta": "学生じゃないですか。 — ¿No es estudiante?"
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "行かないか。",
+              "furigana": "いかないか。",
+              "es": "¿No vas?",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "行かないか。 — ¿No vas?"
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "学生じゃないですか。",
+              "furigana": "がくせいじゃないですか。",
+              "es": "¿No es estudiante?",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: '¿No hace frío?'",
+              "respuesta": "寒くないか。",
+              "jp": "寒くないか。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: confundir じゃないか (plano, confirmación) con じゃないですか (cortés). No uses plano con tu jefe. Y no añadas か a じゃないです ya cortés sin か: es じゃないですか, no じゃないですかか."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: negativo + か para invitar. Próxima: こそあど This/That. Di 3 veces: じゃないですか。"
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 407,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-024",
+      "title": "IMABI 24: こそあど I — これ/それ/あれ",
+      "stage": "IMABI · Beginners I",
+      "minutes": 7,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 24: こそあど I — これ/それ/あれ",
+          "text": "Deícticos: これ (esto cerca de mí), それ (eso cerca de ti), あれ (aquello lejos de ambos). No es solo vocab, es distancia psicológica.",
+          "examples": [
+            {
+              "jp": "これは本です。",
+              "kana": "これはほんです。",
+              "es": "Esto es un libro."
+            },
+            {
+              "jp": "それは私の傘です。",
+              "kana": "それはわたしのかさです。",
+              "es": "Eso es mi paraguas."
+            },
+            {
+              "jp": "あれは富士山です。",
+              "kana": "あれはふじさんです。",
+              "es": "Aquello es el Fuji."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Señalas y dices “esto” pero tu amigo mira a otro lado. ¿Era これ, それ o あれ? Sin distancia no te entienden."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "こそあど organiza el espacio en 3 zonas: こ (cerca de mí), そ (cerca de ti), あ (lejos de ambos). No es solo físico, también mental.\n\nObjetivo: elegir これ/それ/あれ sin dudar según distancia al hablante y oyente.\n\n🧩 Fórmula: 【これ/それ/あれ は + Descripción】\n- これ: esto (mío, aquí) → これは本です (esto cerca de mí)\n- それ: eso (tuyo, allí) → それは傘です (eso cerca de ti)\n- あれ: aquello (lejos de ambos) → あれは富士山です (allá lejos)\n\nPiensa en bloques: imagina triángulo tú-yo-objeto.\n\n👣 Cómo construirlo (3 pasos):\n1) ¿Dónde está? ¿Cerca de mí? → これ / ¿Cerca de ti? → それ / ¿Lejos? → あれ\n2) Añade は + descripción: これは本です\n3) Pregunta: これ/それ/あれ + は + 何ですか (¿qué es?)\n\n⚖️ Tabla こそあど I:\n| Forma | Distancia | Ejemplo |\n|---|---|---|\n| これ | cerca de mí | これは私の本です |\n| それ | cerca de ti | それはあなたの傘ですか |\n| あれ | lejos de ambos | あれは富士山です |\n\n💡 Ejemplos desglosados:\n1) これは本です。 (これはほんです。) — “Esto es libro.” → これ(esto aquí) + は + 本です.\n2) それは私の傘です。 (それはわたしのかさです。) — “Eso es mi paraguas.” → それ(eso allí cerca de ti) + は + 傘です.\n3) あれは富士山です。 (あれはふじさんです。) — “Aquello es Fuji.” → あれ(allá lejos) + は + 富士山です.\n\n🔑 Mini-resumen:\n□ こ = mío/aquí, そ = tuyo/allí, あ = lejos\n□ これ/それ/あれ solos, sin nombre detrás\n□ Con nombre usa この/その/あの (IMABI 25)\n\n❌ Error 90%: usar これ con nombre: これ本 (mal) → この本 (bien). こ solo para pronombre.\n\n💬 Truco offline: señala 3 objetos: これ (tu mesa), それ (su mesa), あれ (montaña). Di cada uno.\n\n¿Por qué 5 ítems? Domina 2 hoy, resto SRS. Mezcla こそあど + escucha.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Si dudas entre ichidan y godan, abre el diccionario y busca el tag: [ichidan] termina en る con vocal previa, [godan] cambia la consonante. Repite en voz alta marcando la partícula para anclar ritmo. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase.",
+          "palabras": 405
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "これは本です。",
+              "furigana": "これはほんです。",
+              "romaji": "kore wa hon desu.",
+              "es": "Esto es un libro.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "それは私の傘です。",
+              "furigana": "それはわたしのかさです。",
+              "romaji": "sore wa watashi no kasa desu.",
+              "es": "Eso es mi paraguas.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "あれは富士山です。",
+              "furigana": "あれはふじさんです。",
+              "romaji": "are wa fujisan desu.",
+              "es": "Aquello es el Fuji.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "これは本です。",
+              "furigana": "これはほんです。",
+              "es": "Esto es un libro.",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha (texto oculto) y elige.",
+              "respuesta": "これは本です。 — Esto es un libro."
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "それは私の傘です。",
+              "furigana": "それはわたしのかさです。",
+              "es": "Eso es mi paraguas.",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "それは私の傘です。 — Eso es mi paraguas."
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "これは本です。",
+              "furigana": "これはほんです。",
+              "es": "Esto es un libro.",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: 'Aquello es el Fuji.'",
+              "respuesta": "あれは富士山です。",
+              "jp": "あれは富士山です。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: これ本 / それ傘 sin の. Para pronombre solo: これ. Para adjetivo: この本. Mezclarlos es el fallo #1 de N5."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: これ/それ/あれ distancia. Próxima: この/その/あの + nombre. Di 3 veces: これは本です。"
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Señalas y dices “esto” pero tu amigo mira a otro lado. ¿Era これ, それ o あれ? Sin distancia no te entienden."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "こそあど organiza el espacio en 3 zonas: こ (cerca de mí), そ (cerca de ti), あ (lejos de ambos). No es solo físico, también mental.\n\nObjetivo: elegir これ/それ/あれ sin dudar según distancia al hablante y oyente.\n\n🧩 Fórmula: 【これ/それ/あれ は + Descripción】\n- これ: esto (mío, aquí) → これは本です (esto cerca de mí)\n- それ: eso (tuyo, allí) → それは傘です (eso cerca de ti)\n- あれ: aquello (lejos de ambos) → あれは富士山です (allá lejos)\n\nPiensa en bloques: imagina triángulo tú-yo-objeto.\n\n👣 Cómo construirlo (3 pasos):\n1) ¿Dónde está? ¿Cerca de mí? → これ / ¿Cerca de ti? → それ / ¿Lejos? → あれ\n2) Añade は + descripción: これは本です\n3) Pregunta: これ/それ/あれ + は + 何ですか (¿qué es?)\n\n⚖️ Tabla こそあど I:\n| Forma | Distancia | Ejemplo |\n|---|---|---|\n| これ | cerca de mí | これは私の本です |\n| それ | cerca de ti | それはあなたの傘ですか |\n| あれ | lejos de ambos | あれは富士山です |\n\n💡 Ejemplos desglosados:\n1) これは本です。 (これはほんです。) — “Esto es libro.” → これ(esto aquí) + は + 本です.\n2) それは私の傘です。 (それはわたしのかさです。) — “Eso es mi paraguas.” → それ(eso allí cerca de ti) + は + 傘です.\n3) あれは富士山です。 (あれはふじさんです。) — “Aquello es Fuji.” → あれ(allá lejos) + は + 富士山です.\n\n🔑 Mini-resumen:\n□ こ = mío/aquí, そ = tuyo/allí, あ = lejos\n□ これ/それ/あれ solos, sin nombre detrás\n□ Con nombre usa この/その/あの (IMABI 25)\n\n❌ Error 90%: usar これ con nombre: これ本 (mal) → この本 (bien). こ solo para pronombre.\n\n💬 Truco offline: señala 3 objetos: これ (tu mesa), それ (su mesa), あれ (montaña). Di cada uno.\n\n¿Por qué 5 ítems? Domina 2 hoy, resto SRS. Mezcla こそあど + escucha.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Si dudas entre ichidan y godan, abre el diccionario y busca el tag: [ichidan] termina en る con vocal previa, [godan] cambia la consonante. Repite en voz alta marcando la partícula para anclar ritmo. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase.",
+          "palabras": 405
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "これは本です。",
+              "furigana": "これはほんです。",
+              "romaji": "kore wa hon desu.",
+              "es": "Esto es un libro.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "それは私の傘です。",
+              "furigana": "それはわたしのかさです。",
+              "romaji": "sore wa watashi no kasa desu.",
+              "es": "Eso es mi paraguas.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "あれは富士山です。",
+              "furigana": "あれはふじさんです。",
+              "romaji": "are wa fujisan desu.",
+              "es": "Aquello es el Fuji.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "これは本です。",
+              "furigana": "これはほんです。",
+              "es": "Esto es un libro.",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha (texto oculto) y elige.",
+              "respuesta": "これは本です。 — Esto es un libro."
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "それは私の傘です。",
+              "furigana": "それはわたしのかさです。",
+              "es": "Eso es mi paraguas.",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "それは私の傘です。 — Eso es mi paraguas."
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "これは本です。",
+              "furigana": "これはほんです。",
+              "es": "Esto es un libro.",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: 'Aquello es el Fuji.'",
+              "respuesta": "あれは富士山です。",
+              "jp": "あれは富士山です。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: これ本 / それ傘 sin の. Para pronombre solo: これ. Para adjetivo: この本. Mezclarlos es el fallo #1 de N5."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: これ/それ/あれ distancia. Próxima: この/その/あの + nombre. Di 3 veces: これは本です。"
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 405,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-025",
+      "title": "IMABI 25: こそあど II — この/その/あの",
+      "stage": "IMABI · Beginners I",
+      "minutes": 7,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 25: こそあど II — この/その/あの",
+          "text": "この/その/あの + nombre: この本 (este libro mío), その本 (ese libro tuyo), あの本 (aquel libro lejano). Nunca van solos.",
+          "examples": [
+            {
+              "jp": "この本は面白いです。",
+              "kana": "このほんはおもしろいです。",
+              "es": "Este libro es interesante."
+            },
+            {
+              "jp": "そのかばんは大きいです。",
+              "kana": "そのかばんはおおきいです。",
+              "es": "Ese bolso es grande."
+            },
+            {
+              "jp": "あの人は田中さんです。",
+              "kana": "あのひとはたなかさんです。",
+              "es": "Aquella persona es Tanaka."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Dices これ本 y un japonés no te entiende. Necesitas この本. ¿Cuál es la diferencia entre これ y この? Uno es pronombre, otro adjetivo."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "この/その/あの son la versión “con nombre” de これ/それ/あれ. Siempre llevan un sustantivo detrás: この本, そのかばん, あの人.\n\nObjetivo: usar この/その/あの + nombre sin confundir con これ/それ/あれ solos.\n\n🧩 Fórmula: 【この/その/あの + Nombre + は + Descripción】\n- この本は面白いです (este libro aquí)\n- そのかばんは大きいです (ese bolso allí cerca de ti)\n- あの人は田中さんです (aquella persona allá lejos)\n\nPiensa en bloques: この necesita compañero (nombre), これ no.\n\n👣 Cómo construirlo (3 pasos):\n1) ¿Pronombre solo? → これ/それ/あれ (IMABI 24)\n2) ¿Con nombre? → この/その/あの + nombre: この本\n3) Añade は + descripción: この本は面白いです\n\n⚖️ Tabla こ vs この:\n| Forma | Tipo | Va con | Ejemplo |\n|---|---|---|---|\n| これ | pronombre | solo | これは本です |\n| この | adjetivo | + nombre | この本は面白いです |\n| それ | pronombre | solo | それは傘です |\n| その | adjetivo | + nombre | そのかばんは大きいです |\n\n💡 Ejemplos desglosados:\n1) この本は面白いです。 (このほんはおもしろいです。) — “Este libro es interesante.” → この本(este libro) + は + 面白いです.\n2) そのかばんは大きいです。 (そのかばんはおおきいです。) — “Ese bolso es grande.” → そのかばん(ese bolso) + は + 大きいです.\n3) あの人は田中さんです。 (あのひとはたなかさんです。) — “Aquella persona es Tanaka.” → あの人(aquella persona) + は + 田中さんです.\n\n🔑 Mini-resumen:\n□ これ/それ/あれ = pronombre solo\n□ この/その/あの = + nombre obligatorio\n□ Misma lógica de distancia: こ cerca mí, そ cerca ti, あ lejos\n\n❌ Error 90%: このは本です (doble partícula). Es この本は, no このは. この ya es adjetivo, no lleva は solo.\n\n💬 Truco offline: di pares: これ→この本, それ→そのかばん, あれ→あの人 3×.\n\n¿Por qué 5 ítems? Domina 2 hoy, resto SRS. Mezcla この/その/あの + escucha.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Si dudas entre ichidan y godan, abre el diccionario y busca el tag: [ichidan] termina en る con vocal previa, [godan] cambia la consonante. Repite en voz alta marcando la partícula para anclar ritmo. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase.",
+          "palabras": 407
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "この本は面白いです。",
+              "furigana": "このほんはおもしろいです。",
+              "romaji": "kono hon wa omoshiroi desu.",
+              "es": "Este libro es interesante.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "そのかばんは大きいです。",
+              "furigana": "そのかばんはおおきいです。",
+              "romaji": "sono kaban wa ookii desu.",
+              "es": "Ese bolso es grande.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "あの人は田中さんです。",
+              "furigana": "あのひとはたなかさんです。",
+              "romaji": "ano hito wa tanaka san desu.",
+              "es": "Aquella persona es Tanaka.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "この本は面白いです。",
+              "furigana": "このほんはおもしろいです。",
+              "es": "Este libro es interesante.",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha (texto oculto) y elige.",
+              "respuesta": "この本は面白いです。 — Este libro es interesante."
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "そのかばんは大きいです。",
+              "furigana": "そのかばんはおおきいです。",
+              "es": "Ese bolso es grande.",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "そのかばんは大きいです。 — Ese bolso es grande."
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "この本は面白いです。",
+              "furigana": "このほんはおもしろいです。",
+              "es": "Este libro es interesante.",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: 'Aquella persona es Tanaka.'",
+              "respuesta": "あの人は田中さんです。",
+              "jp": "あの人は田中さんです。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: これ本 / それかばん sin の/この. Recuerda: これ + 名前 es siempre この + 名前. No mezcles."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: この/その/あの + nombre. Próxima: ここ/そこ/あそこ lugar. Di 3 veces: この本は面白いです。"
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Dices これ本 y un japonés no te entiende. Necesitas この本. ¿Cuál es la diferencia entre これ y この? Uno es pronombre, otro adjetivo."
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "この/その/あの son la versión “con nombre” de これ/それ/あれ. Siempre llevan un sustantivo detrás: この本, そのかばん, あの人.\n\nObjetivo: usar この/その/あの + nombre sin confundir con これ/それ/あれ solos.\n\n🧩 Fórmula: 【この/その/あの + Nombre + は + Descripción】\n- この本は面白いです (este libro aquí)\n- そのかばんは大きいです (ese bolso allí cerca de ti)\n- あの人は田中さんです (aquella persona allá lejos)\n\nPiensa en bloques: この necesita compañero (nombre), これ no.\n\n👣 Cómo construirlo (3 pasos):\n1) ¿Pronombre solo? → これ/それ/あれ (IMABI 24)\n2) ¿Con nombre? → この/その/あの + nombre: この本\n3) Añade は + descripción: この本は面白いです\n\n⚖️ Tabla こ vs この:\n| Forma | Tipo | Va con | Ejemplo |\n|---|---|---|---|\n| これ | pronombre | solo | これは本です |\n| この | adjetivo | + nombre | この本は面白いです |\n| それ | pronombre | solo | それは傘です |\n| その | adjetivo | + nombre | そのかばんは大きいです |\n\n💡 Ejemplos desglosados:\n1) この本は面白いです。 (このほんはおもしろいです。) — “Este libro es interesante.” → この本(este libro) + は + 面白いです.\n2) そのかばんは大きいです。 (そのかばんはおおきいです。) — “Ese bolso es grande.” → そのかばん(ese bolso) + は + 大きいです.\n3) あの人は田中さんです。 (あのひとはたなかさんです。) — “Aquella persona es Tanaka.” → あの人(aquella persona) + は + 田中さんです.\n\n🔑 Mini-resumen:\n□ これ/それ/あれ = pronombre solo\n□ この/その/あの = + nombre obligatorio\n□ Misma lógica de distancia: こ cerca mí, そ cerca ti, あ lejos\n\n❌ Error 90%: このは本です (doble partícula). Es この本は, no このは. この ya es adjetivo, no lleva は solo.\n\n💬 Truco offline: di pares: これ→この本, それ→そのかばん, あれ→あの人 3×.\n\n¿Por qué 5 ítems? Domina 2 hoy, resto SRS. Mezcla この/その/あの + escucha.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Si dudas entre ichidan y godan, abre el diccionario y busca el tag: [ichidan] termina en る con vocal previa, [godan] cambia la consonante. Repite en voz alta marcando la partícula para anclar ritmo. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase.",
+          "palabras": 407
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "この本は面白いです。",
+              "furigana": "このほんはおもしろいです。",
+              "romaji": "kono hon wa omoshiroi desu.",
+              "es": "Este libro es interesante.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "そのかばんは大きいです。",
+              "furigana": "そのかばんはおおきいです。",
+              "romaji": "sono kaban wa ookii desu.",
+              "es": "Ese bolso es grande.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "あの人は田中さんです。",
+              "furigana": "あのひとはたなかさんです。",
+              "romaji": "ano hito wa tanaka san desu.",
+              "es": "Aquella persona es Tanaka.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "この本は面白いです。",
+              "furigana": "このほんはおもしろいです。",
+              "es": "Este libro es interesante.",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha (texto oculto) y elige.",
+              "respuesta": "この本は面白いです。 — Este libro es interesante."
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "そのかばんは大きいです。",
+              "furigana": "そのかばんはおおきいです。",
+              "es": "Ese bolso es grande.",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "そのかばんは大きいです。 — Ese bolso es grande."
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "この本は面白いです。",
+              "furigana": "このほんはおもしろいです。",
+              "es": "Este libro es interesante.",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: 'Aquella persona es Tanaka.'",
+              "respuesta": "あの人は田中さんです。",
+              "jp": "あの人は田中さんです。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: これ本 / それかばん sin の/この. Recuerda: これ + 名前 es siempre この + 名前. No mezcles."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: この/その/あの + nombre. Próxima: ここ/そこ/あそこ lugar. Di 3 veces: この本は面白いです。"
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 407,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
+    },
+    {
+      "id": "l-imabi-026",
+      "title": "IMABI 26: こそあど III — ここ/そこ/あそこ",
+      "stage": "IMABI · Beginners I",
+      "minutes": 7,
+      "level": "n5",
+      "teach": [
+        {
+          "heading": "IMABI 26: こそあど III — ここ/そこ/あそこ",
+          "text": "Lugar: ここ (aquí), そこ (ahí), あそこ (allá). Pregunta どこ (¿dónde?). Con に/で: ここにいます (estoy aquí).",
+          "examples": [
+            {
+              "jp": "ここは教室です。",
+              "kana": "ここはきょうしつです。",
+              "es": "Aquí es un aula."
+            },
+            {
+              "jp": "そこに本があります。",
+              "kana": "そこにほんがあります。",
+              "es": "Ahí hay un libro."
+            },
+            {
+              "jp": "あそこは駅です。",
+              "kana": "あそこはえきです。",
+              "es": "Allá es la estación."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "practice": "grammar",
+        "direction": "grammar-es",
+        "ids": [
+          "g-desu",
+          "g-desu-1",
+          "g-desu-2"
+        ]
+      },
+      "secciones": [
+        {
+          "tipo": "gancho",
+          "texto": "Preguntas ¿dónde está? y respondes ここ. Pero usas ここにいます vs ここで食べます y dudas: ¿に o で?"
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "ここ/そこ/あそこ marcan lugar, como これ/それ/あれ pero para sitio. どこ es la pregunta.\n\nObjetivo: usar ここ/そこ/あそこ con に (existencia) vs で (acción) correctamente.\n\n🧩 Fórmula:\n- 【ここ/そこ/あそこ は + Lugar】 → ここは教室です\n- 【ここに + ある/いる】 (existencia) → そこに本があります\n- 【ここで + verbo acción】 → ここで勉強します\n- Pregunta: どこですか / どこにありますか\n\nPiensa en bloques: lugar + に/で según si el verbo es estar o hacer.\n\n👣 Cómo construirlo (3 pasos):\n1) Elige lugar: ここ (aquí), そこ (ahí), あそこ (allá), どこ (dónde)\n2) ¿Existencia (ある/いる)? Usa に: ここに猫がいます\n3) ¿Acción (食べる/勉強)? Usa で: ここで食べます\n\n⚖️ Tabla lugar:\n| Forma | Significado | Ejemplo |\n|---|---|---|\n| ここ | aquí | ここは教室です |\n| そこ | ahí | そこに本があります |\n| あそこ | allá | あそこは駅です |\n| どこ | dónde | どこですか |\n\n💡 Ejemplos desglosados:\n1) ここは教室です。 (ここはきょうしつです。) — “Aquí es aula.” → ここ(aquí) + は + 教室です.\n2) そこに本があります。 (そこにほんがあります。) — “Ahí hay libro.” → そこに(ahí + に) + 本があります.\n3) あそこは駅です。 (あそこはえきです。) — “Allá es estación.” → あそこ(allá) + は + 駅です.\n\n🔑 Mini-resumen:\n□ ここ/そこ/あそこ = lugar; どこ = pregunta\n□ に para existencia (ある/いる), で para acción\n□ ここは... vs ここに... vs ここで... mira el verbo\n\n❌ Error 90%: ここに勉強します (mal, acción lleva で). Di ここで勉強します. Y どこは (mal) → どこですか (pregunta).\n\n💬 Truco offline: señala 3 lugares: ここ (tu sitio), そこ (su sitio), あそこ (puerta). Di cada uno con に/で.\n\n¿Por qué 5 ítems? Domina 2 hoy, resto SRS. Mezcla ここ/そこ/あそこ + escucha.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Si dudas entre ichidan y godan, abre el diccionario y busca el tag: [ichidan] termina en る con vocal previa, [godan] cambia la consonante. Repite en voz alta marcando la partícula para anclar ritmo. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase.",
+          "palabras": 408
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "ここは教室です。",
+              "furigana": "ここはきょうしつです。",
+              "romaji": "koko wa kyoushitsu desu.",
+              "es": "Aquí es un aula.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "そこに本があります。",
+              "furigana": "そこにほんがあります。",
+              "romaji": "soko ni hon ga arimasu.",
+              "es": "Ahí hay un libro.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "あそこは駅です。",
+              "furigana": "あそこはえきです。",
+              "romaji": "asoko wa eki desu.",
+              "es": "Allá es la estación.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "ここは教室です。",
+              "furigana": "ここはきょうしつです。",
+              "es": "Aquí es un aula.",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha (texto oculto) y elige.",
+              "respuesta": "ここは教室です。 — Aquí es un aula."
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "そこに本があります。",
+              "furigana": "そこにほんがあります。",
+              "es": "Ahí hay un libro.",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "そこに本があります。 — Ahí hay un libro."
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "ここは教室です。",
+              "furigana": "ここはきょうしつです。",
+              "es": "Aquí es un aula.",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: 'Allá es la estación.'",
+              "respuesta": "あそこは駅です。",
+              "jp": "あそこは駅です。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: confundir に/で con lugar. Recuerda: に = existe ahí (ある/いる), で = haces ahí (食べる/勉強). No digas ここに食べます."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: ここ/そこ/あそこ lugar + に/で. Próxima: と para 'y' cerrado. Di 3 veces: ここに本があります。"
+        }
+      ],
+      "sections": [
+        {
+          "tipo": "gancho",
+          "texto": "Preguntas ¿dónde está? y respondes ここ. Pero usas ここにいます vs ここで食べます y dudas: ¿に o で?"
+        },
+        {
+          "tipo": "explicacion",
+          "texto": "ここ/そこ/あそこ marcan lugar, como これ/それ/あれ pero para sitio. どこ es la pregunta.\n\nObjetivo: usar ここ/そこ/あそこ con に (existencia) vs で (acción) correctamente.\n\n🧩 Fórmula:\n- 【ここ/そこ/あそこ は + Lugar】 → ここは教室です\n- 【ここに + ある/いる】 (existencia) → そこに本があります\n- 【ここで + verbo acción】 → ここで勉強します\n- Pregunta: どこですか / どこにありますか\n\nPiensa en bloques: lugar + に/で según si el verbo es estar o hacer.\n\n👣 Cómo construirlo (3 pasos):\n1) Elige lugar: ここ (aquí), そこ (ahí), あそこ (allá), どこ (dónde)\n2) ¿Existencia (ある/いる)? Usa に: ここに猫がいます\n3) ¿Acción (食べる/勉強)? Usa で: ここで食べます\n\n⚖️ Tabla lugar:\n| Forma | Significado | Ejemplo |\n|---|---|---|\n| ここ | aquí | ここは教室です |\n| そこ | ahí | そこに本があります |\n| あそこ | allá | あそこは駅です |\n| どこ | dónde | どこですか |\n\n💡 Ejemplos desglosados:\n1) ここは教室です。 (ここはきょうしつです。) — “Aquí es aula.” → ここ(aquí) + は + 教室です.\n2) そこに本があります。 (そこにほんがあります。) — “Ahí hay libro.” → そこに(ahí + に) + 本があります.\n3) あそこは駅です。 (あそこはえきです。) — “Allá es estación.” → あそこ(allá) + は + 駅です.\n\n🔑 Mini-resumen:\n□ ここ/そこ/あそこ = lugar; どこ = pregunta\n□ に para existencia (ある/いる), で para acción\n□ ここは... vs ここに... vs ここで... mira el verbo\n\n❌ Error 90%: ここに勉強します (mal, acción lleva で). Di ここで勉強します. Y どこは (mal) → どこですか (pregunta).\n\n💬 Truco offline: señala 3 lugares: ここ (tu sitio), そこ (su sitio), あそこ (puerta). Di cada uno con に/で.\n\n¿Por qué 5 ítems? Domina 2 hoy, resto SRS. Mezcla ここ/そこ/あそこ + escucha.\n\nPara practicar offline (clave en Cuba sin datos): tapa el japonés y produce en voz alta antes de mirar. Si fallas, no repitas 10 veces lo mismo; el SRS te lo traerá en minutos (fallo) o en 3 días (acierto). Interleaving: mezcla hoy un poco de este tema + vocabulario + escucha, nunca 10 kanjis seguidos. Memoria de trabajo 7±2: domina 2 ejemplos hoy a fondo, deja el resto al repaso espaciado. Si dudas entre ichidan y godan, abre el diccionario y busca el tag: [ichidan] termina en る con vocal previa, [godan] cambia la consonante. Repite en voz alta marcando la partícula para anclar ritmo. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase. Repasa el ejemplo en voz alta y crea tu propia frase.",
+          "palabras": 408
+        },
+        {
+          "tipo": "ejemplos",
+          "items": [
+            {
+              "jp": "ここは教室です。",
+              "furigana": "ここはきょうしつです。",
+              "romaji": "koko wa kyoushitsu desu.",
+              "es": "Aquí es un aula.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "そこに本があります。",
+              "furigana": "そこにほんがあります。",
+              "romaji": "soko ni hon ga arimasu.",
+              "es": "Ahí hay un libro.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            },
+            {
+              "jp": "あそこは駅です。",
+              "furigana": "あそこはえきです。",
+              "romaji": "asoko wa eki desu.",
+              "es": "Allá es la estación.",
+              "pitch_accent": "Heiban",
+              "rate": 0.85
+            }
+          ]
+        },
+        {
+          "tipo": "practica",
+          "ejercicios": [
+            {
+              "tipo": "listen_only",
+              "jp": "ここは教室です。",
+              "furigana": "ここはきょうしつです。",
+              "es": "Aquí es un aula.",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha (texto oculto) y elige.",
+              "respuesta": "ここは教室です。 — Aquí es un aula."
+            },
+            {
+              "tipo": "listen_only",
+              "jp": "そこに本があります。",
+              "furigana": "そこにほんがあります。",
+              "es": "Ahí hay un libro.",
+              "mostrar_texto_antes": false,
+              "rate": 0.9,
+              "prompt": "♪ Escucha y elige.",
+              "respuesta": "そこに本があります。 — Ahí hay un libro."
+            },
+            {
+              "tipo": "shadowing",
+              "jp": "ここは教室です。",
+              "furigana": "ここはきょうしつです。",
+              "es": "Aquí es un aula.",
+              "pausa_ms": 3000,
+              "rate": 0.85,
+              "prompt": "Escucha, pausa 3s, repite."
+            },
+            {
+              "tipo": "produccion",
+              "prompt": "Produce en japonés: 'Allá es la estación.'",
+              "respuesta": "あそこは駅です。",
+              "jp": "あそこは駅です。",
+              "mostrar_texto_antes": false,
+              "rate": 0.8
+            }
+          ]
+        },
+        {
+          "tipo": "errores_comunes",
+          "texto": "Error típico: confundir に/で con lugar. Recuerda: に = existe ahí (ある/いる), で = haces ahí (食べる/勉強). No digas ここに食べます."
+        },
+        {
+          "tipo": "cierre",
+          "texto": "Hoy: ここ/そこ/あそこ lugar + に/で. Próxima: と para 'y' cerrado. Di 3 veces: ここに本があります。"
+        }
+      ],
+      "wexdc": true,
+      "clarity": 3,
+      "autoevaluacion": {
+        "explica_no_informa": true,
+        "palabras_explicacion": 408,
+        "listening_puro_incluido": true,
+        "listening_puro_cantidad": 2,
+        "confianza": 9
+      }
     }
   ],
   "counts": {
@@ -74716,7 +76084,7 @@
     "phrases": 164,
     "grammar": 246,
     "verbs": 119,
-    "lessons": 217
+    "lessons": 223
   }
 };
     root.NihongoDojoN5 = data;
