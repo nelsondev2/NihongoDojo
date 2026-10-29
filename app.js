@@ -193,6 +193,8 @@
         conjGroups: new Set(),
         grammarGroups: new Set(),
         audioOn: true,
+        curriculum: 'jlpt',
+        imabiLevel: 'beginners1',
         home: 'path',
         pathOpen: false,
         selections: {
@@ -204,6 +206,24 @@
     function knownLevel(level) {
         if (Lex && Lex.LEVELS && Lex.LEVELS.indexOf(level) !== -1) return level;
         return 'n5';
+    }
+    function knownCurriculum(c) { return c === 'imabi' ? 'imabi' : 'jlpt'; }
+    function knownImabiLevel(l) {
+        if (!l) return 'beginners1';
+        var k = String(l).toLowerCase().replace(/[^a-z0-9]/g,'');
+        if (k === 'beginners2' || k === 'beginnersii' || k === 'b2') return 'beginners2';
+        return 'beginners1';
+    }
+    function isImabi() { return state.curriculum === 'imabi'; }
+    function currentLessons() {
+        if (isImabi() && Lessons && Lessons.lessonsForImabi) {
+            var im = Lessons.lessonsForImabi(state.imabiLevel);
+            if (im && im.length) return im;
+        }
+        return Lessons && Lessons.lessonsFor ? Lessons.lessonsFor(state.level) : [];
+    }
+    function currentProgressKey() {
+        return isImabi() ? ('imabi-' + state.imabiLevel) : state.level;
     }
     var LEVEL_SRC = { n4: 'n4.js', n3: 'n3.js', n2: 'n2.js', n1: 'n1.js' };
     var levelWait = {};
@@ -741,6 +761,10 @@
         state.answerMode = storageGet('answerMode') === 'write' ? 'write' : 'choice';
         var storedLevel = storageGet('level');
         state.level = knownLevel(storedLevel);
+        var storedCurriculum = storageGet('curriculum');
+        state.curriculum = knownCurriculum(storedCurriculum);
+        var storedImabi = storageGet('imabiLevel');
+        state.imabiLevel = knownImabiLevel(storedImabi);
         state.home = storageGet('home') === 'free' ? 'free' : 'path';
         if (Lex) {
             var storedWordDir = storageGet('wordDirection');
@@ -1272,10 +1296,60 @@
     function updateLevelUI() {
         document.querySelectorAll('#homeBar [data-level]').forEach(function (btn) {
             if (!btn) return;
-            var on = btn.getAttribute('data-level') === (state.level || 'n5');
+            var on = !isImabi() && btn.getAttribute('data-level') === (state.level || 'n5');
             btn.classList.toggle('active', on);
             btn.setAttribute('aria-pressed', on ? 'true' : 'false');
         });
+        // curriculum toggle
+        var jlptBtn = document.getElementById('curriculumJlptBtn');
+        var imabiBtn = document.getElementById('curriculumImabiBtn');
+        if (jlptBtn && imabiBtn) {
+            var im = isImabi();
+            jlptBtn.classList.toggle('active', !im);
+            imabiBtn.classList.toggle('active', im);
+            jlptBtn.setAttribute('aria-pressed', im ? 'false' : 'true');
+            imabiBtn.setAttribute('aria-pressed', im ? 'true' : 'false');
+        }
+        var levelLabel = document.getElementById('levelLabel');
+        var curriculumNote = document.getElementById('curriculumNote');
+        var imabiBar = document.getElementById('imabiBar');
+        var homeBarLevels = document.querySelectorAll('#homeBar [data-level]');
+        if (isImabi()) {
+            if (levelLabel) levelLabel.textContent = 'Nivel IMABI';
+            if (curriculumNote) curriculumNote.style.display = '';
+            if (imabiBar) imabiBar.classList.remove('hidden');
+            homeBarLevels.forEach(function(b){ var p=b.closest('.level-row'); if(p) p.classList.add('hidden'); });
+            // imabi level buttons
+            document.querySelectorAll('#imabiBar [data-imabi-level]').forEach(function(btn){
+                var on = btn.getAttribute('data-imabi-level') === (state.imabiLevel || 'beginners1');
+                btn.classList.toggle('active', on);
+                btn.setAttribute('aria-pressed', on ? 'true' : 'false');
+            });
+        } else {
+            if (levelLabel) levelLabel.textContent = 'Nivel';
+            if (curriculumNote) curriculumNote.style.display = 'none';
+            if (imabiBar) imabiBar.classList.add('hidden');
+            homeBarLevels.forEach(function(b){ var p=b.closest('.level-row'); if(p) p.classList.remove('hidden'); });
+        }
+    }
+    function setCurriculum(cur) {
+        var next = knownCurriculum(cur);
+        if (next === state.curriculum) return;
+        state.curriculum = next;
+        storageSet('curriculum', next);
+        closeLesson();
+        updateLevelUI();
+        renderPath();
+        persistLevel();
+    }
+    function setImabiLevel(lv) {
+        var next = knownImabiLevel(lv);
+        if (next === state.imabiLevel && isImabi()) return;
+        state.imabiLevel = next;
+        storageSet('imabiLevel', next);
+        closeLesson();
+        updateLevelUI();
+        renderPath();
     }
     function setLevel(level) {
         if (exam.active) return;
@@ -3140,10 +3214,10 @@
         if (!pathList || !Lessons) return;
         if (pathList.replaceChildren) pathList.replaceChildren();
         else pathList.textContent = '';
-        var list = Lessons.lessonsFor ? Lessons.lessonsFor(state.level) : Lessons.LESSONS;
-        var progress = loadProgress(state.level);
-        var passed = Lessons.passedCount(progress, state.level);
-        if (levelPending(state.level)) {
+        var list = isImabi() && Lessons.lessonsForImabi ? Lessons.lessonsForImabi(state.imabiLevel) : (Lessons.lessonsFor ? Lessons.lessonsFor(state.level) : Lessons.LESSONS);
+        var progress = isImabi() ? loadProgress() : loadProgress(state.level);
+        var passed = isImabi() ? (function(){ var d=progress||{}; var c=0; for(var i=0;i<list.length;i++){ var id=list[i].id; if(d[id]&&d[id].passed) c++; } return c; })() : Lessons.passedCount(progress, state.level);
+        if (!isImabi() && levelPending(state.level)) {
             if (pathIntro) pathIntro.textContent = 'Cargando el ' + state.level.toUpperCase() + '…';
             if (pathContinueBtn) {
                 pathContinueBtn.disabled = true;
@@ -3162,13 +3236,20 @@
             return;
         }
         if (pathContinueBtn) pathContinueBtn.disabled = false;
-        if (pathIntro) pathIntro.textContent = 'Lista comunitaria. Incluye frases, escucha y lectura. No es el examen oficial.';
+        if (pathIntro) {
+            if (isImabi()) {
+                var st = Lessons.imabiStats ? Lessons.imabiStats() : {total: list.length, mapped: list.length};
+                pathIntro.textContent = 'Camino IMABI — ' + (state.imabiLevel === 'beginners2' ? 'Beginners II (51-100)' : 'Beginners I (0-50)') + ' · ' + st.mapped + '/' + st.total + ' mapeadas · No copia textos IMABI.';
+            } else {
+                pathIntro.textContent = 'Lista comunitaria. Incluye frases, escucha y lectura. No es el examen oficial.';
+            }
+        }
         if (pathProgress) {
-            var due = reviewPlan(state.level).length;
+            var due = isImabi() ? 0 : reviewPlan(state.level).length;
             pathProgress.textContent = passed + ' de ' + list.length + ' superadas · ' + Lessons.PASS_PERCENT + '%'
                 + (due ? ' · ' + due + ' para repasar' : '');
         }
-        var next = Lessons.nextLesson(progress, state.level);
+        var next = isImabi() ? (function(){ for(var i=0;i<list.length;i++){ var l=list[i]; if(!progress[l.id]||!progress[l.id].passed) return l; } return list[0]||null; })() : Lessons.nextLesson(progress, state.level);
         var allPassed = passed === list.length;
         if (pathContinueBtn) {
             pathContinueBtn.textContent = allPassed ? 'Repetir desde el principio' : 'Seguir: ' + next.title;
@@ -3730,7 +3811,21 @@
         document.querySelectorAll('#homeBar [data-level]').forEach(function (btn) {
             if (!btn) return;
             btn.addEventListener('click', function () {
+                if (isImabi()) setCurriculum('jlpt');
                 setLevel(btn.getAttribute('data-level'));
+            });
+        });
+        document.querySelectorAll('#homeBar [data-curriculum]').forEach(function (btn) {
+            if (!btn) return;
+            btn.addEventListener('click', function () {
+                setCurriculum(btn.getAttribute('data-curriculum'));
+            });
+        });
+        document.querySelectorAll('#imabiBar [data-imabi-level]').forEach(function (btn) {
+            if (!btn) return;
+            btn.addEventListener('click', function () {
+                if (!isImabi()) setCurriculum('imabi');
+                setImabiLevel(btn.getAttribute('data-imabi-level'));
             });
         });
         if (homePathBtn) homePathBtn.addEventListener('click', function () { setHome('path'); });
@@ -3749,11 +3844,10 @@
         });
         if (pathContinueBtn) pathContinueBtn.addEventListener('click', function () {
             if (exam.active || !Lessons) return;
-            var list = Lessons.lessonsFor ? Lessons.lessonsFor(state.level) : Lessons.LESSONS;
-            var progress = loadProgress(state.level);
-            var next = Lessons.passedCount(progress, state.level) === list.length
-                ? list[0]
-                : Lessons.nextLesson(progress, state.level);
+            var list = isImabi() && Lessons.lessonsForImabi ? Lessons.lessonsForImabi(state.imabiLevel) : (Lessons.lessonsFor ? Lessons.lessonsFor(state.level) : Lessons.LESSONS);
+            var progressKey = isImabi() ? ('imabi-' + state.imabiLevel) : state.level;
+            var progress = loadProgress(progressKey);
+            var next = isImabi() ? (function(){ for(var i=0;i<list.length;i++){ var l=list[i]; if(!progress[l.id]||!progress[l.id].passed) return l; } return list[0]||null; })() : (Lessons.passedCount(progress, state.level) === list.length ? list[0] : Lessons.nextLesson(progress, state.level));
             if (!next) return;
             openLesson(next.id);
         });

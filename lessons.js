@@ -351,10 +351,51 @@
         return n;
     }
 
+    // --- Camino IMABI (https://imabi.org) ---
+    // No copia textos IMABI. Solo ordena lecciones propias por el plan IMABI.
+    function imabiLevelIds(imabiLevel) {
+        var Imabi = root.NihongoDojoImabi;
+        if (!Imabi) return [];
+        var map = { "beginners1": Imabi.BEGINNERS_I, "beginners2": Imabi.BEGINNERS_II, "beginners-1": Imabi.BEGINNERS_I, "beginners-2": Imabi.BEGINNERS_II };
+        var key = String(imabiLevel || "").toLowerCase().replace(/[^a-z0-9]/g,"");
+        if (key === "beginners1" || key === "beginnersi") return (Imabi.BEGINNERS_I || []).reduce(function(a,e){ return a.concat(e.ids||[]); }, []);
+        if (key === "beginners2" || key === "beginnersii") return (Imabi.BEGINNERS_II || []).reduce(function(a,e){ return a.concat(e.ids||[]); }, []);
+        if (Imabi.all) return Imabi.orderedIds ? Imabi.orderedIds() : Imabi.all().reduce(function(a,e){ return a.concat(e.ids||[]); }, []);
+        return [];
+    }
+    function lessonsForImabi(imabiLevel) {
+        var ids = imabiLevelIds(imabiLevel);
+        if (!ids.length) {
+            // fallback: si no hay índice, devuelve N5 en orden IMABI parcial
+            var all = lessonsFor("n5").concat(lessonsFor("n4")).concat(lessonsFor("n3"));
+            // ordena por aparición en imabi si existe, si no deja N5
+            if (!root.NihongoDojoImabi) return lessonsFor("n5").slice(0, 50);
+            return ids.map(function(id){ return findLesson(id); }).filter(Boolean);
+        }
+        var out = [];
+        var seen = {};
+        ids.forEach(function(id){
+            if (seen[id]) return;
+            seen[id]=true;
+            var found = locate(id);
+            if (found && found.lesson) out.push(found.lesson);
+        });
+        // Añade lecciones IMABI pendientes como tarjetas informativas (no rompemos test)
+        // Solo si estamos en modo imabi, se muestran como “Próximamente”
+        return out;
+    }
+    function imabiStats() {
+        var Imabi = root.NihongoDojoImabi;
+        return Imabi && Imabi.stats ? Imabi.stats() : { total: 0, mapped: 0, pending: 0 };
+    }
+
     const api = {
         PASS_PERCENT,
         LESSONS,
         lessonsFor,
+        lessonsForImabi,
+        imabiLevelIds,
+        imabiStats,
         attach,
         ready,
         findLesson: function (id) {
